@@ -1,0 +1,2 @@
+Place ici les photos de la rubrique Lunettes.
+Dans catalog.js, utilise un chemin comme assets/lifestyle/lunettes/nom-du-fichier.jpg

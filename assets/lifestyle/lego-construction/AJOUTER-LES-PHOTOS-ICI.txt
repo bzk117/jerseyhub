@@ -1,0 +1,2 @@
+Place ici les photos de la rubrique LEGO & Construction.
+Dans catalog.js, utilise un chemin comme assets/lifestyle/lego-construction/nom-du-fichier.jpg

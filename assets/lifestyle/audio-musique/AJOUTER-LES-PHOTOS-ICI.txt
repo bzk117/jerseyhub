@@ -1,0 +1,2 @@
+Place ici les photos de la rubrique Audio & Musique.
+Dans catalog.js, utilise un chemin comme assets/lifestyle/audio-musique/nom-du-fichier.jpg

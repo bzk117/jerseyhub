@@ -1,0 +1,2 @@
+Place ici les photos de la rubrique Casquettes & Bonnets.
+Dans catalog.js, utilise un chemin comme assets/lifestyle/casquettes-bonnets/nom-du-fichier.jpg

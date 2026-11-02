@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catalogue de maillots de football et de sport. Découvrez les modèles et les tailles disponibles.">
+  <meta name="theme-color" content="#090909">
+  <title>JerseyHub — Catalogue de maillots</title>
+  <link rel="icon" type="image/png" href="assets/branding/logo-jerseyhub.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="JerseyHub, accueil">
+      <img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="Logo JerseyHub"><span>JERSEY<br><b>HUB</b></span>
+    </a>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <button class="nav-link active" data-view="home">Accueil</button>
+      <button class="nav-link" data-view="national">Équipe nationale</button>
+      <button class="nav-link" data-view="clubs">Équipe de club</button>
+      <button class="nav-link" data-view="sports">Autres sports</button>
+      <button class="nav-link" data-view="shoes">Chaussures</button>
+      <button class="nav-link" data-view="lifestyle">Lifestyle &amp; Accessoires</button>
+    </nav>
+    <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Rechercher un pays, club, maillot…"></label>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Ouvrir le menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-banner" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">LE CATALOGUE DES PASSIONNÉS</p>
+        <h1>JERSEY<br><em>HUB</em></h1>
+        <p>Le catalogue des passionnés : clubs, sélections et sports du monde entier.</p>
+        <button class="gold-button" data-view="national">Explorer le catalogue <span>→</span></button>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="stadium-light"></div>
+        <div class="shirt shirt-one"><span>10</span></div>
+        <div class="shirt shirt-two"><span>7</span></div>
+        <div class="shirt shirt-three"><span>9</span></div>
+      </div>
+      <div class="hero-footnote"><span>01</span> JERSEYHUB • COLLECTIONS • SÉLECTIONS • CLUBS</div>
+    </section>
+
+    <section class="benefits" aria-label="Informations">
+      <div><span class="benefit-icon">✦</span><b>Catalogue de présentation</b><small>Les modèles en un seul endroit</small></div>
+      <div><span class="benefit-icon">◈</span><b>Tailles précisées</b><small>Selon chaque fiche produit</small></div>
+      <div><span class="benefit-icon">◎</span><b>Contact direct</b><small>Pour toute demande d'information</small></div>
+    </section>
+
+    <div class="content-layout">
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-title">PARCOURIR <span>✦</span></div>
+        <div id="sideCategories"></div>
+      </aside>
+
+      <section class="catalog-area">
+        <div class="section-heading">
+          <div><p class="eyebrow" id="sectionEyebrow">BIENVENUE</p><h2 id="sectionTitle">Nos catégories</h2></div>
+          <div class="view-tools"><span id="resultCount"></span>
+            <select id="sortSelect" aria-label="Trier les éléments">
+              <option value="az">Nom A–Z</option>
+              <option value="za">Nom Z–A</option>
+            </select>
+          </div>
+        </div>
+        <div id="breadcrumbs" class="breadcrumbs">Accueil</div>
+        <div id="catalogGrid" class="catalog-grid"></div>
+        <div id="emptyState" class="empty-state" hidden>
+          <span>⌕</span><h3>Aucun résultat</h3><p>Essaie une autre recherche ou choisis une catégorie.</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="contact-band" id="contact">
+      <div><p class="eyebrow">UNE QUESTION ?</p><h2>Un modèle t'intéresse ?</h2><p>Contacte-nous pour demander des informations sur un maillot ou une taille.</p></div>
+      <a class="gold-button" href="#contact-info">Nous contacter <span>→</span></a>
+    </section>
+    <section class="contact-info" id="contact-info">
+      <b>Contact JerseyHub</b>
+      <p>Les coordonnées de contact seront ajoutées ici lorsque tu me les communiqueras.</p>
+    </section>
+  </main>
+
+  <footer><a class="brand small" href="#"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="Logo JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><span>JerseyHub • Catalogue de présentation • © <span id="year"></span></span><a href="#contact">Contact</a></footer>
+  <script src="catalog.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

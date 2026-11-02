@@ -1,0 +1,3 @@
+Place ici les photos des maillots de Pays De Galles.
+Exemples : domicile.jpg, exterieur.jpg, troisieme.jpg.
+Dans catalog.js, utilise un chemin comme assets/equipes-nationales/Europe/pays-de-galles/domicile.jpg

@@ -29,23 +29,13 @@
   const form = panel.querySelector("form");
   const input = form.querySelector("input");
   const send = form.querySelector("button");
-  const SESSION_KEY = "jerseyhub-assistant-chat-v1";
   let step = "start";
   let orderId = "";
   let email = "";
 
-  function saveConversation() {
-    try {
-      sessionStorage.setItem(SESSION_KEY, JSON.stringify({
-        step,
-        orderId,
-        messages: Array.from(messages.children).map(node => ({
-          text: node.textContent,
-          who: node.classList.contains("user") ? "user" : "bot"
-        })).slice(-80)
-      }));
-    } catch (_) {}
-  }
+  // Historique conservé uniquement en mémoire tant que cette page reste ouverte.
+  // Aucun stockage : un rechargement ou une fermeture de l’onglet repart de zéro.
+  function saveConversation() {}
   function add(text, who = "bot") {
     const bubble = document.createElement("div");
     bubble.className = "jh-chat-msg " + who;
@@ -60,24 +50,8 @@
     saveConversation();
   }
 
-  // La conversation reste disponible quand on replie/réouvre le chat et après
-  // un rechargement de cette page. sessionStorage est vidé à la fermeture de l’onglet.
-  try {
-    const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
-    if (saved && Array.isArray(saved.messages)) {
-      saved.messages.slice(-80).forEach(message => {
-        if (typeof message.text === "string" && ["bot", "user"].includes(message.who)) {
-          const bubble = document.createElement("div");
-          bubble.className = "jh-chat-msg " + message.who;
-          bubble.textContent = message.text;
-          messages.append(bubble);
-        }
-      });
-      step = ["start", "order", "email"].includes(saved.step) ? saved.step : "start";
-      orderId = typeof saved.orderId === "string" ? saved.orderId : "";
-      messages.scrollTop = messages.scrollHeight;
-    }
-  } catch (_) {}
+  // Les messages restent dans le panneau lorsqu’on le ferme, car celui-ci est seulement masqué.
+  // Au rechargement, le script recrée un panneau vide.
 
   launch.onclick = () => {
     panel.classList.toggle("open");

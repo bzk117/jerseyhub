@@ -53,7 +53,7 @@ create table if not exists public.request_admin_notes (
 );
 
 create or replace function public.set_updated_at()
-returns trigger language plpgsql as $$
+returns trigger language plpgsql set search_path = '' as $
 begin
   new.updated_at = now();
   return new;
@@ -105,7 +105,7 @@ alter table public.request_admin_notes enable row level security;
 -- Rôle admin lu uniquement depuis app_metadata, jamais depuis user_metadata.
 create or replace function public.is_admin()
 returns boolean
-language sql stable security definer
+language sql stable security invoker
 set search_path = ''
 as $$
   select coalesce((auth.jwt() -> 'app_metadata' ->> 'role') = 'admin', false);
@@ -182,3 +182,20 @@ create policy "admin manage request notes" on public.request_admin_notes
 for all to authenticated
 using (public.is_admin())
 with check (public.is_admin());
+
+
+-- Explicit Data API grants: RLS still controls which rows each signed-in user can access.
+grant usage on schema public to authenticated;
+grant select, update on public.profiles to authenticated;
+grant select, insert, update on public.requests to authenticated;
+grant select, insert, update, delete on public.request_items to authenticated;
+grant select, insert, update, delete on public.request_admin_notes to authenticated;
+grant execute on function public.is_admin() to authenticated;
+
+-- Internal trigger functions and the DDL event-trigger helper are not RPC endpoints.
+revoke all on function public.handle_new_user() from public, anon, authenticated;
+revoke all on function public.set_updated_at() from public, anon, authenticated;
+revoke all on function public.is_admin() from public, anon;
+revoke all on function public.rls_auto_enable() from public, anon, authenticated;
+
+comment on table public.request_admin_notes is 'Private internal admin notes; accessible only to admins through RLS.';

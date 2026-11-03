@@ -29,17 +29,6 @@ function card(item,kind){
  div.onclick=()=>openGroup(kind,item.name);
  return div;
 }
-function supplierCatalogueCard(name,kind){
- const div=document.createElement("article");
- div.className="product-card national-image-card";
- const art=document.createElement("div");art.className="product-art supplier-placeholder";
- const mark=document.createElement("span");mark.textContent=kind==="clubs"?"⚽":kind==="sports"?"🏉":"🌍";
- art.append(mark);
- const info=document.createElement("div");info.className="product-info";
- const h=document.createElement("h3");h.textContent=name;
- const p=document.createElement("p");p.textContent="Visuels Vivi Jersey à intégrer après vérification des modèles et des tailles.";
- info.append(h,p);div.append(art,info);return div;
-}
 function productCard(p){
  const div=document.createElement("article");div.className="product-card";
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
@@ -92,10 +81,16 @@ function openGroup(kind,name){
   }
  }
  if(["national","clubs","sports"].includes(kind)){
+  const matches=PRODUCTS.filter(p=>p.category===kind&&p.group===name);
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
-  grid.append(supplierCatalogueCard(name,kind));
-  $("#resultCount").textContent="Source catalogue : Vivi Jersey";
+  matches.forEach(p=>grid.append(productCard(p)));
+  if(!matches.length){
+   $("#emptyState").hidden=false;grid.hidden=true;
+   $("#emptyState h3").textContent="Articles en préparation";
+   $("#emptyState p").textContent="Les photos et tailles seront affichées dès que la fiche exacte aura été vérifiée sur Vivi Jersey.";
+  }
+  $("#resultCount").textContent=matches.length?`${matches.length} modèle(s)`:"";
   return;
  }
  const matches=PRODUCTS.filter(p=>p.category===kind&&p.group===name);

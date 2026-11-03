@@ -29,22 +29,61 @@
   const form = panel.querySelector("form");
   const input = form.querySelector("input");
   const send = form.querySelector("button");
+  const SESSION_KEY = "jerseyhub-assistant-chat-v1";
   let step = "start";
   let orderId = "";
   let email = "";
 
+  function saveConversation() {
+    try {
+      sessionStorage.setItem(SESSION_KEY, JSON.stringify({
+        step,
+        orderId,
+        messages: Array.from(messages.children).map(node => ({
+          text: node.textContent,
+          who: node.classList.contains("user") ? "user" : "bot"
+        })).slice(-80)
+      }));
+    } catch (_) {}
+  }
   function add(text, who = "bot") {
     const bubble = document.createElement("div");
     bubble.className = "jh-chat-msg " + who;
     bubble.textContent = text;
     messages.append(bubble);
     messages.scrollTop = messages.scrollHeight;
+    saveConversation();
   }
   function welcome() {
     add("Bonjour ! Je suis l’assistant JerseyHub. Je peux vous aider à suivre votre commande. Que souhaitez-vous savoir ?");
     step = "start";
+    saveConversation();
   }
-  launch.onclick = () => { panel.classList.toggle("open"); if (!messages.children.length) welcome(); if (panel.classList.contains("open")) input.focus(); };
+
+  // La conversation reste disponible quand on replie/réouvre le chat et après
+  // un rechargement de cette page. sessionStorage est vidé à la fermeture de l’onglet.
+  try {
+    const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
+    if (saved && Array.isArray(saved.messages)) {
+      saved.messages.slice(-80).forEach(message => {
+        if (typeof message.text === "string" && ["bot", "user"].includes(message.who)) {
+          const bubble = document.createElement("div");
+          bubble.className = "jh-chat-msg " + message.who;
+          bubble.textContent = message.text;
+          messages.append(bubble);
+        }
+      });
+      step = ["start", "order", "email"].includes(saved.step) ? saved.step : "start";
+      orderId = typeof saved.orderId === "string" ? saved.orderId : "";
+      messages.scrollTop = messages.scrollHeight;
+    }
+  } catch (_) {}
+
+  launch.onclick = () => {
+    panel.classList.toggle("open");
+    if (!messages.children.length) welcome();
+    if (panel.classList.contains("open")) input.focus();
+  };
   panel.querySelector(".jh-chat-close").onclick = () => panel.classList.remove("open");
 
   form.addEventListener("submit", async (event) => {
@@ -58,6 +97,7 @@
       const normalized = value.toLowerCase();
       if (/(commande|colis|suivi|statut|où en est)/.test(normalized)) {
         step = "order";
+        saveConversation();
         add("Bien sûr ! Indiquez votre numéro de commande, par exemple : JH-2026-000123. Vous le trouverez dans « Mon compte », sous « Mes demandes ».");
       } else {
         add("Pour le moment, je peux uniquement vous aider à vérifier le statut d’une commande. Écrivez par exemple : « Où en est ma commande ? »");
@@ -68,6 +108,7 @@
     if (step === "order") {
       orderId = value;
       step = "email";
+      saveConversation();
       add("Merci. Quelle adresse e-mail avez-vous utilisée pour créer votre compte JerseyHub ?");
       return;
     }
@@ -109,6 +150,7 @@
         step = "start";
         orderId = "";
         email = "";
+        saveConversation();
         send.disabled = false;
         send.textContent = "Envoyer";
       }

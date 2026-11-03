@@ -205,7 +205,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   activeProduct=p;dialog.dataset.mode="product";
   const sizes=(p.sizes||[]).flatMap(raw=>{
    const value=String(raw).trim().replace(/–/g,"-");
-   const range=value.match(/^(S|M|L|XL)\\s*-\\s*(2XL|3XL|4XL)$/i);
+   const range=value.match(/^(S|M|L|XL)\s*-\s*(2XL|3XL|4XL)$/i);
    if(!range)return [value];
    const order=["S","M","L","XL","2XL","3XL","4XL"];
    return order.slice(order.indexOf(range[1].toUpperCase()),order.indexOf(range[2].toUpperCase())+1);

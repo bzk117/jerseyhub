@@ -155,7 +155,7 @@ drop policy if exists "item create through own request" on public.request_items;
 create policy "item create through own request" on public.request_items
 for insert to authenticated
 with check (
-  exists (
+  status = 'En attente' and exists (
     select 1 from public.requests r
     where r.id = request_id
       and r.customer_id = (select auth.uid())

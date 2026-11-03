@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Votre espace client JerseyHub">
+<title>Mon compte — JerseyHub</title><link rel="stylesheet" href="styles.css">
+<style>
+.account-wrap{max-width:1000px;margin:0 auto;padding:34px 20px 70px}.account-panel{background:#141414;border:1px solid #393939;border-radius:14px;padding:24px;margin:18px 0}.account-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.account-wrap label{display:block;margin:13px 0 6px;color:#ddd;font-size:13px}.account-wrap input,.account-wrap select,.account-wrap textarea{width:100%;padding:12px;background:#090909;border:1px solid #494949;border-radius:7px;color:#fff}.account-wrap textarea{min-height:80px}.account-wrap button{cursor:pointer}.account-wrap .gold-button{margin-top:15px}.account-message{padding:12px;border:1px solid #6b531d;background:#211a0b;color:#f5d77e;border-radius:8px;margin:14px 0;font-size:13px}.account-request{padding:16px;border:1px solid #393939;border-radius:9px;margin:12px 0;background:#101010}.account-request small{color:#aaa}.account-status{display:inline-block;background:#f4bd22;color:#111;padding:5px 9px;border-radius:20px;font-size:11px;font-weight:800}.account-hidden{display:none!important}.account-actions{display:flex;gap:10px;flex-wrap:wrap}.account-actions button{padding:10px 14px;border-radius:7px;border:1px solid #555;background:#222;color:#fff}.account-actions button.active{background:#f4bd22;color:#111;border-color:#f4bd22}@media(max-width:700px){.account-grid{grid-template-columns:1fr}.account-panel{padding:17px}}
+</style></head>
+<body>
+<header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="Logo JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><a class="nav-link" href="index.html">← Retour au catalogue</a></header>
+<main class="account-wrap">
+<p class="eyebrow">VOTRE ESPACE PERSONNEL</p><h1>Mon <em>compte</em></h1>
+<p class="intro">Créez votre compte, envoyez vos demandes et suivez leur avancement en privé.</p>
+<div id="notice" class="account-message">Chargement de l'espace client…</div>
+<section id="authPanel" class="account-panel">
+<h2 id="authTitle">Connexion</h2>
+<div class="account-actions"><button id="loginTab" class="active" type="button">Connexion</button><button id="registerTab" type="button">Créer un compte</button></div>
+<form id="authForm">
+<div id="nameFields" class="account-hidden">
+<label for="firstName">Prénom</label><input id="firstName" autocomplete="given-name">
+<label for="lastName">Nom</label><input id="lastName" autocomplete="family-name">
+<label for="phone">Téléphone (facultatif)</label><input id="phone" type="tel" autocomplete="tel">
+</div>
+<label for="email">Adresse e-mail</label><input id="email" type="email" required autocomplete="email">
+<label for="password">Mot de passe</label><input id="password" type="password" required minlength="8" autocomplete="current-password">
+<button class="gold-button" id="authSubmit" type="submit">Se connecter</button>
+</form></section>
+<section id="clientPanel" class="account-hidden">
+<div class="account-panel"><div class="account-actions" style="justify-content:space-between"><div><p class="eyebrow">ESPACE CLIENT</p><h2 id="welcome">Bienvenue</h2></div><button id="logout" type="button">Déconnexion</button></div></div>
+<section class="account-panel"><h2>Commentaires</h2><p class="intro">Partagez votre expérience. Votre commentaire sera publié après validation.</p><form id="commentForm"><label for="commentText">Votre commentaire</label><textarea id="commentText" maxlength="1200" minlength="3" required placeholder="Votre avis sur JerseyHub…"></textarea><button class="gold-button" type="submit">Envoyer pour validation</button></form><div id="myComments">Chargement…</div></section><div class="account-grid">
+<section class="account-panel"><h2>Nouvelle demande</h2><p class="intro">Ajoutez un article à votre demande. Vous pourrez en créer d'autres ensuite.</p>
+<form id="requestForm">
+<label for="category">Catégorie</label><select id="category" required><option value="">Choisir…</option><option>Maillot de football</option><option>Survêtement</option><option>Chaussures</option><option>NBA / NFL / MLB / NHL</option><option>Rugby</option><option>LEGO / briques compatibles</option><option>Lifestyle & accessoires</option><option>Autres articles</option></select>
+<label for="team">Équipe, marque ou modèle</label><input id="team" required maxlength="120" placeholder="Ex. Belgique, Maroc, Nike…">
+<label for="model">Modèle / version (facultatif)</label><input id="model" maxlength="120" placeholder="Ex. domicile 2026-2027">
+<label for="size">Taille ou pointure</label><input id="size" required maxlength="30" placeholder="Ex. 3XL ou 47">
+<label for="quantity">Quantité</label><input id="quantity" type="number" min="1" max="50" value="1" required>
+<label for="custom">Personnalisation</label><select id="custom"><option>Aucune</option><option>Nom et numéro du joueur</option><option>Nom et numéro personnalisés</option></select>
+<label for="customName">Nom souhaité (facultatif)</label><input id="customName" maxlength="40">
+<label for="customNumber">Numéro souhaité (facultatif)</label><input id="customNumber" maxlength="3">
+<label for="note">Précisions (facultatif)</label><textarea id="note" maxlength="1000"></textarea>
+<button class="gold-button" type="submit">Envoyer ma demande</button></form></section>
+<section class="account-panel"><h2>Mes demandes</h2><p class="intro">Seules vos demandes sont visibles ici.</p><div id="requestsList">Chargement…</div></section>
+</div></section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script>
+<script src="supabase-config.js"></script>
+<script>
+(() => {
+ const $=id=>document.getElementById(id), notice=$('notice');
+ if(!window.supabase||!window.JERSEYHUB_SUPABASE||!window.JERSEYHUB_SUPABASE.url||!window.JERSEYHUB_SUPABASE.anonKey){notice.textContent="La configuration Supabase manque. La connexion n'est pas disponible pour le moment.";return}
+ const db=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);
+ let mode='login', user=null;
+ const say=(msg,error=false)=>{notice.textContent=msg;notice.style.borderColor=error?'#a44':'#6b531d'};
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ function setMode(next){mode=next;$('authTitle').textContent=next==='login'?'Connexion':'Créer un compte';$('authSubmit').textContent=next==='login'?'Se connecter':'Créer mon compte';$('nameFields').classList.toggle('account-hidden',next==='login');$('loginTab').classList.toggle('active',next==='login');$('registerTab').classList.toggle('active',next==='register');$('password').autocomplete=next==='login'?'current-password':'new-password'}
+ $('loginTab').onclick=()=>setMode('login');$('registerTab').onclick=()=>setMode('register');
+ $('authForm').addEventListener('submit',async e=>{e.preventDefault();$('authSubmit').disabled=true;try{
+  const email=$('email').value.trim(),password=$('password').value;
+  if(mode==='register'){const {data,error}=await db.auth.signUp({email,password,options:{data:{first_name:$('firstName').value.trim(),last_name:$('lastName').value.trim(),phone:$('phone').value.trim()||null}}});if(error)throw error;if(!data.session){say("Compte créé. Vérifiez votre boîte e-mail pour confirmer votre adresse avant de vous connecter.");}else say("Compte créé avec succès.");}
+  else{const {error}=await db.auth.signInWithPassword({email,password});if(error)throw error;say("Connexion réussie.");}
+  await refresh();
+ }catch(err){say(err.message||"Une erreur est survenue.",true)}finally{$('authSubmit').disabled=false}});
+ $('logout').onclick=async()=>{const {error}=await db.auth.signOut();if(error)say(error.message,true);await refresh()};
+ $('requestForm').addEventListener('submit',async e=>{e.preventDefault();if(!user)return;const btn=e.submitter;btn.disabled=true;try{
+  const {data:req,error:reqErr}=await db.from('requests').insert({customer_id:user.id,customer_note:$('note').value.trim()||null}).select('id').single();if(reqErr)throw reqErr;
+  const {error:itemErr}=await db.from('request_items').insert({request_id:req.id,category:$('category').value,team_brand:$('team').value.trim(),model:$('model').value.trim()||null,size:$('size').value.trim(),quantity:Number($('quantity').value),customization_type:$('custom').value,custom_name:$('customName').value.trim()||null,custom_number:$('customNumber').value.trim()||null});if(itemErr)throw itemErr;
+  say("Demande enregistrée. Vous pouvez suivre son statut dans votre espace.");$('requestForm').reset();$('quantity').value=1;await loadRequests();
+ }catch(err){say("La demande n'a pas pu être enregistrée : "+(err.message||"erreur"),true)}finally{btn.disabled=false}});
+ async function loadComments(){const box=$('myComments');const {data,error}=await db.from('site_comments').select('id,display_name,content,status,admin_reply,created_at').order('created_at',{ascending:false});if(error){box.textContent='Commentaires momentanément indisponibles.';return}box.innerHTML='';(data||[]).forEach(c=>{const el=document.createElement('article');el.className='account-request';el.innerHTML='<b>'+esc(c.display_name)+'</b><p>'+esc(c.content)+'</p><small>'+ (c.status==='approved'?'Publié':c.status==='pending'?'En attente de validation':'Non publié')+'</small>'+(c.admin_reply?'<p><b>Réponse JerseyHub :</b> '+esc(c.admin_reply)+'</p>':'');box.append(el)});if(!data?.length)box.textContent='Aucun commentaire pour le moment.'}
+ $('commentForm').addEventListener('submit',async e=>{e.preventDefault();const btn=e.submitter;btn.disabled=true;try{const {error}=await db.from('site_comments').insert({user_id:user.id,display_name:$('welcome').textContent.replace(/^Bienvenue\\s*/, '')||'Client',content:$('commentText').value.trim(),status:'pending'});if(error)throw error;$('commentText').value='';say('Merci ! Votre commentaire attend une validation.');await loadComments()}catch(err){say('Impossible d’envoyer le commentaire : '+err.message,true)}finally{btn.disabled=false}});
+ async function loadRequests(){const box=$('requestsList');box.textContent='Chargement…';const {data,error}=await db.from('requests').select('id,status,customer_note,created_at,request_items(category,team_brand,model,size,quantity)').order('created_at',{ascending:false});if(error){box.textContent="Impossible de charger les demandes.";return}box.innerHTML='';if(!data.length){box.textContent="Vous n'avez pas encore de demande.";return}data.forEach(r=>{const el=document.createElement('article');el.className='account-request';const items=(r.request_items||[]).map(i=>'<p><b>'+esc(i.category)+' — '+esc(i.team_brand)+'</b><br><small>'+esc(i.model||'')+' • '+esc(i.size)+' • Qté '+esc(i.quantity)+'</small></p>').join('');el.innerHTML='<span class="account-status">'+esc(r.status)+'</span><p><small>Demande du '+new Date(r.created_at).toLocaleDateString('fr-BE')+'</small></p>'+items+(r.customer_note?'<p>'+esc(r.customer_note)+'</p>':'');box.append(el)})}
+ async function refresh(){const {data}=await db.auth.getSession();user=data.session?.user||null;$('authPanel').classList.toggle('account-hidden',!!user);$('clientPanel').classList.toggle('account-hidden',!user);if(user){const {data:p}=await db.from('profiles').select('first_name').eq('id',user.id).maybeSingle();$('welcome').textContent='Bienvenue'+(p?.first_name?' '+p.first_name:'');say('Vous êtes connecté.');await Promise.all([loadRequests(),loadComments()])}else say('Connectez-vous ou créez votre compte pour continuer.')}
+ db.auth.onAuthStateChange(()=>{setTimeout(refresh,0)});refresh();
+})();
+</script></body></html>

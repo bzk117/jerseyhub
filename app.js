@@ -38,8 +38,10 @@ function card(item,kind){
  div.dataset.jhKind=kind;div.dataset.jhName=item.name;
  const emoji=item.flag||item.emoji||"⚽";
  const visualKey=kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
- const visual=kind==="national"?nationalFlagMarkup(item.name,false):emoji;
- div.innerHTML=`<div class="category-art art-${visualKey}"><span class="emoji">${visual}</span></div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
+ const categoryImages={national:"equipes-nationales",NBA:"nba",NFL:"football-americain",MLB:"baseball",NHL:"hockey",Rugby:"rugby","Autres articles":"autres-articles",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires"};
+ const imageKey=kind==="national"?categoryImages.national:kind==="sports"?categoryImages[item.name]:kind==="shoes"?categoryImages.shoes:kind==="lifestyle"&&item.name==="Lifestyle & Accessoires"?categoryImages["Lifestyle & Accessoires"]:null;
+ const visual=imageKey?`<img class="category-visual" src="assets/categories/${imageKey}.svg" alt="" loading="lazy">`:`<span class="emoji">${kind==="national"?nationalFlagMarkup(item.name,false):emoji}</span>`;
+ div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }

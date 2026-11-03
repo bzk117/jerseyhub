@@ -4,13 +4,25 @@ let currentView="home", currentGroup=null, query="";
 $("#year").textContent=new Date().getFullYear();
 
 function slug(s){return s.toLocaleLowerCase("fr").normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
+const NATIONAL_FLAG_CODES={
+ "Allemagne":"de","France":"fr","Angleterre":"gb-eng","Italie":"it","Portugal":"pt","Pays-Bas":"nl","Espagne":"es","Belgique":"be","Irlande":"ie","Pologne":"pl","Écosse":"gb-sct","Danemark":"dk","Finlande":"fi","Pays de Galles":"gb-wls","Serbie":"rs","Grèce":"gr","Norvège":"no","Croatie":"hr",
+ "Maroc":"ma","Algérie":"dz","Tunisie":"tn","Sénégal":"sn","Côte d’Ivoire":"ci","Cameroun":"cm","Nigeria":"ng","Égypte":"eg","Ghana":"gh","Afrique du Sud":"za","Cap-Vert":"cv",
+ "Argentine":"ar","Brésil":"br","Uruguay":"uy","Colombie":"co","Mexique":"mx","États-Unis":"us","Canada":"ca","Chili":"cl","Équateur":"ec","Paraguay":"py","Pérou":"pe","Bolivie":"bo","Costa Rica":"cr","Venezuela":"ve","Panama":"pa","Jamaïque":"jm","Haïti":"ht",
+ "Japon":"jp","Corée du Sud":"kr","Palestine":"ps","Arabie saoudite":"sa","Qatar":"qa","Émirats arabes unis":"ae","Jordanie":"jo","Australie":"au"
+};
+function nationalFlagMarkup(name,compact=false){
+ const code=NATIONAL_FLAG_CODES[name];
+ if(!code)return "";
+ const width=compact?24:48,height=compact?16:32;
+ return '<img src="https://flagcdn.com/w'+width+'/'+code+'.png" alt="Drapeau '+name+'" width="'+width+'" height="'+height+'" loading="lazy" style="display:inline-block;width:'+width+'px;height:'+height+'px;object-fit:cover;border-radius:3px;vertical-align:middle">';
+}
 function allNational(){return NATIONAL_REGIONS.flatMap(r=>r.items.map(([name,flag])=>({name,flag,group:r.name,kind:"national"})))}
 function allLifestyle(){return LIFESTYLE.flatMap(c=>[{name:c.name,emoji:c.emoji,desc:c.desc,kind:"lifestyle"},...c.items.map(name=>({name,flag:c.emoji,group:c.name,kind:"lifestyle"}))])}
 function allClubs(){return CLUB_LEAGUES.flatMap(l=>l.items.map(name=>({name,flag:"⚽",group:l.name,kind:"clubs"})))}
 function sideGroup(label,items,kind){
  const box=document.createElement("div");box.className="side-group";
  const h=document.createElement("h3");h.textContent=label;box.append(h);
- items.forEach(item=>{const b=document.createElement("button");b.className="side-item";b.innerHTML=`<span class="side-flag">${item.flag||item.emoji||"✦"}</span><span>${item.name}</span>`;b.onclick=()=>openGroup(kind,item.name);box.append(b)});
+ items.forEach(item=>{const b=document.createElement("button");b.className="side-item";const visual=kind==="national"?nationalFlagMarkup(item.name,true):(item.flag||item.emoji||"✦");b.innerHTML=`<span class="side-flag">${visual}</span><span>${item.name}</span>`;b.onclick=()=>openGroup(kind,item.name);box.append(b)});
  return box;
 }
 function renderSidebar(){
@@ -26,7 +38,8 @@ function card(item,kind){
  div.dataset.jhKind=kind;div.dataset.jhName=item.name;
  const emoji=item.flag||item.emoji||"⚽";
  const visualKey=kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
- div.innerHTML=`<div class="category-art art-${visualKey}"><span class="emoji">${emoji}</span></div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
+ const visual=kind==="national"?nationalFlagMarkup(item.name,false):emoji;
+ div.innerHTML=`<div class="category-art art-${visualKey}"><span class="emoji">${visual}</span></div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }

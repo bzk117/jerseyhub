@@ -209,7 +209,7 @@ with check (public.is_admin());
 -- Explicit Data API grants: RLS still controls which rows each signed-in user can access.
 grant usage on schema public to authenticated;
 grant select, update on public.profiles to authenticated;
-grant select, insert, update on public.requests to authenticated;
+grant select, insert, update, delete on public.requests to authenticated;
 grant select, insert, update, delete on public.request_items to authenticated;
 grant select, insert, update, delete on public.request_admin_notes to authenticated;
 grant execute on function public.is_admin() to authenticated;

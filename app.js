@@ -87,6 +87,13 @@ function openGroup(kind,name){
    return;
   }
  }
+ if(kind==="sports" && typeof SPORT_TEAM_GROUPS!=="undefined" && SPORT_TEAM_GROUPS[name]){
+  setHeading("ÉQUIPES & FRANCHISES",name,"Accueil / Autres sports / "+name);
+  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
+  SPORT_TEAM_GROUPS[name].forEach(team=>grid.append(card({name:team,flag:name==="NBA"?"🏀":name==="NFL"?"🏈":name==="MLB"?"⚾":name==="NHL"?"🏒":"🏉",group:name},"sports")));
+  $("#resultCount").textContent=SPORT_TEAM_GROUPS[name].length+" équipes référencées";
+  return;
+ }
  if(["national","clubs","sports"].includes(kind)){
   const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);

@@ -177,8 +177,8 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  @media(max-width:600px){.jh-dialog{padding:16px}.jh-cart-row{grid-template-columns:1fr}}
  `;
  document.head.append(style);
- const trigger=document.createElement("button");trigger.className="jh-cart-trigger";trigger.type="button";trigger.innerHTML='🛒 Mon panier <span class="jh-cart-count">0</span>';
- const nav=document.querySelector(".main-nav");if(nav)nav.append(trigger);else document.querySelector(".topbar")?.append(trigger);
+ const trigger=document.querySelector("#jh-cart-trigger");
+ if(!trigger)throw new Error("Bouton panier absent du menu HTML.");
  const overlay=document.createElement("div");overlay.className="jh-overlay";overlay.innerHTML='<div class="jh-dialog" role="dialog" aria-modal="true"></div>';document.body.append(overlay);
  const dialog=overlay.firstElementChild;
  const open=(html)=>{dialog.innerHTML=html;overlay.style.display="flex"};

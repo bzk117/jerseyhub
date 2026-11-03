@@ -1,9 +1,20 @@
 /*
+  FOURNISSEUR DE RÉFÉRENCE : VIVI JERSEY
+  Catalogue source : https://vivi-jersey.com/
+  Les articles, images, tailles et stocks doivent être vérifiés sur ce fournisseur
+  avant d'être ajoutés dans PRODUCTS. Ne jamais publier ses prix ni ses liens clients.
+*/
+const SUPPLIER = {
+  name: "Vivi Jersey",
+  catalogueUrl: "https://vivi-jersey.com/",
+  sourceOfTruth: true
+};
+/*
   CATALOGUE À MODIFIER
   - Ajoute/retire des équipes dans les tableaux ci-dessous.
   - Pour ajouter un maillot, ajoute un objet dans PRODUCTS.
   - Mets uniquement les tailles réellement proposées pour ce produit.
-  - image: chemin d'une photo autorisée, ex. "assets/equipes-nationales/Europe/allemagne/domicile.jpg"
+  - image: chemin d'un visuel validé provenant du catalogue Vivi Jersey
   - Ne renseigne aucun prix : le site n'en affiche pas.
 */
 const NATIONAL_REGIONS = [
@@ -42,7 +53,7 @@ const OTHER_SPORTS = [
 // Exemple de fiche : {name:"Allemagne domicile 2026",category:"national",group:"Allemagne",image:"assets/...",sizes:["S","M","L","XL","2XL","3XL"]}
 // Les fiches seront publiées après vérification des modèles, des photos autorisées,
 // des tailles et des disponibilités.
-const PRODUCTS = [];
+const PRODUCTS = []; // Les fiches restent vides tant que les visuels, tailles et stocks Vivi Jersey ne sont pas vérifiés.
 
 
 const SHOE_BRANDS = [

@@ -109,10 +109,9 @@ function openGroup(kind,name){
  }
  if(["national","clubs","sports"].includes(kind)){
   const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
-  if(kind==="national"&&name==="Allemagne")matches.unshift({name:"Maillot Blanc Basique — TEST",category:"national",group:"Allemagne",description:"Article de démonstration pour tester le panier et les options.",sizes:["S","M","L","XL","2XL","3XL","4XL"],patches:[],testOnly:true});
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
-   matches.forEach(p=>{const cardEl=productCard(p);if(p.testOnly){cardEl.classList.add("jh-test-product");cardEl.querySelector(".product-art").innerHTML='<div class="jh-product-test-shirt"></div>';cardEl.querySelector(".product-info p").textContent="Maillot blanc de démonstration — test du panier"}grid.append(cardEl)});
+   matches.forEach(p=>grid.append(productCard(p)));
   if(!matches.length){
    $("#emptyState").hidden=false;grid.hidden=true;
    $("#emptyState h3").textContent="Articles en préparation";

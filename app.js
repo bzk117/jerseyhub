@@ -29,22 +29,15 @@ function card(item,kind){
  div.onclick=()=>openGroup(kind,item.name);
  return div;
 }
-function nationalImageList(name){
- const key=slug(name).replace(/\\s+/g,"-");
- const aliases={"pays-de-galles":["wales"],"ecosse":["ecosse","scotland"]};
- const keys=aliases[key]||[key];
- return [...new Set(keys.flatMap(k=>NATIONAL_IMAGE_INDEX[k]||[]))];
-}
-function nationalImageCard(path,index){
- const file=path.split("/").pop();
- const label=file.replace(/^\\d+[_-]?/,"").replace(/\\.(jpe?g|png|webp)$/i,"").replace(/[-_]+/g," ").trim();
- const div=document.createElement("article");div.className="product-card national-image-card";
- const art=document.createElement("div");art.className="product-art";
- const img=document.createElement("img");img.src=path;img.alt=label||"Maillot de sélection nationale";img.loading="lazy";img.decoding="async";
- art.append(img);
+function supplierCatalogueCard(name,kind){
+ const div=document.createElement("article");
+ div.className="product-card national-image-card";
+ const art=document.createElement("div");art.className="product-art supplier-placeholder";
+ const mark=document.createElement("span");mark.textContent=kind==="clubs"?"⚽":kind==="sports"?"🏉":"🌍";
+ art.append(mark);
  const info=document.createElement("div");info.className="product-info";
- const h=document.createElement("h3");h.textContent=label||("Visuel "+(index+1));
- const p=document.createElement("p");p.textContent="Visuel de référence • disponibilité à confirmer";
+ const h=document.createElement("h3");h.textContent=name;
+ const p=document.createElement("p");p.textContent="Visuels Vivi Jersey à intégrer après vérification des modèles et des tailles.";
  info.append(h,p);div.append(art,info);return div;
 }
 function productCard(p){
@@ -98,17 +91,11 @@ function openGroup(kind,name){
    return;
   }
  }
- if(kind==="national"){
-  const images=nationalImageList(name);
-  setHeading("ÉQUIPE NATIONALE",name,`Accueil / Équipes nationales / ${name}`);
+ if(["national","clubs","sports"].includes(kind)){
+  setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
-  images.forEach((path,index)=>grid.append(nationalImageCard(path,index)));
-  if(!images.length){
-   $("#emptyState").hidden=false;grid.hidden=true;
-   $("#emptyState h3").textContent="Visuels en préparation";
-   $("#emptyState p").textContent="Les photos de cette sélection seront ajoutées après vérification.";
-  }
-  $("#resultCount").textContent=images.length?`${images.length} visuel(s) de référence`:"";
+  grid.append(supplierCatalogueCard(name,kind));
+  $("#resultCount").textContent="Source catalogue : Vivi Jersey";
   return;
  }
  const matches=PRODUCTS.filter(p=>p.category===kind&&p.group===name);

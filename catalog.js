@@ -129,3 +129,53 @@ const LIFESTYLE = [
   {name:"Lunettes",emoji:"🕶️",desc:"Soleil, sport et vue",folder:"lunettes",items:["Lunettes de soleil","Lunettes de sport","Lunettes de vue"]},
   {name:"Casquettes & Bonnets",emoji:"🧢",desc:"Casquettes, snapbacks, bonnets et bobs",folder:"casquettes-bonnets",items:["Casquettes classiques","Snapback","Bonnets","Bob"]}
 ];
+
+
+// Équipes réellement référencées dans les rubriques sportives de Vivi Jersey.
+// Les fiches produits restent séparées : aucun article n'est publié sans photo et tailles vérifiées.
+const SPORT_TEAM_GROUPS = {
+  NBA: [
+    "Boston Celtics","Brooklyn Nets","New York Knicks","Philadelphia 76ers","Toronto Raptors",
+    "Chicago Bulls","Cleveland Cavaliers","Detroit Pistons","Indiana Pacers","Milwaukee Bucks",
+    "Atlanta Hawks","Charlotte Hornets","Miami Heat","Orlando Magic","Washington Wizards",
+    "Golden State Warriors","LA Clippers","Los Angeles Lakers","Phoenix Suns","Sacramento Kings",
+    "Denver Nuggets","Minnesota Timberwolves","Oklahoma City Thunder","Portland Trail Blazers",
+    "Utah Jazz","Dallas Mavericks","Houston Rockets","Memphis Grizzlies","New Orleans Pelicans","San Antonio Spurs"
+  ],
+  MLB: [
+    "Baltimore Orioles","Boston Red Sox","New York Yankees","Tampa Bay Rays","Toronto Blue Jays",
+    "Chicago White Sox","Cleveland Guardians","Detroit Tigers","Kansas City Royals","Minnesota Twins",
+    "Houston Astros","Los Angeles Angels","Oakland Athletics","Seattle Mariners","Texas Rangers",
+    "Atlanta Braves","Miami Marlins","New York Mets","Philadelphia Phillies","Washington Nationals",
+    "Chicago Cubs","Cincinnati Reds","Milwaukee Brewers","Pittsburgh Pirates","St. Louis Cardinals",
+    "Arizona Diamondbacks","Colorado Rockies","Los Angeles Dodgers","San Diego Padres","San Francisco Giants"
+  ],
+  NFL: [
+    "Buffalo Bills","Miami Dolphins","New England Patriots","New York Jets","Baltimore Ravens",
+    "Cincinnati Bengals","Cleveland Browns","Pittsburgh Steelers","Houston Texans","Indianapolis Colts",
+    "Jacksonville Jaguars","Tennessee Titans","Denver Broncos","Kansas City Chiefs","Las Vegas Raiders",
+    "Los Angeles Chargers","Dallas Cowboys","New York Giants","Philadelphia Eagles","Washington Commanders",
+    "Chicago Bears","Detroit Lions","Green Bay Packers","Minnesota Vikings","Atlanta Falcons",
+    "Carolina Panthers","New Orleans Saints","Tampa Bay Buccaneers","Arizona Cardinals","Los Angeles Rams",
+    "San Francisco 49ers","Seattle Seahawks"
+  ],
+  NHL: [
+    "Boston Bruins","Buffalo Sabres","Detroit Red Wings","Florida Panthers","Montreal Canadiens",
+    "Ottawa Senators","Tampa Bay Lightning","Toronto Maple Leafs","Carolina Hurricanes","Columbus Blue Jackets",
+    "New Jersey Devils","New York Islanders","New York Rangers","Philadelphia Flyers","Pittsburgh Penguins",
+    "Washington Capitals","Chicago Blackhawks","Colorado Avalanche","Dallas Stars","Minnesota Wild",
+    "Nashville Predators","St. Louis Blues","Winnipeg Jets","Utah Mammoth","Anaheim Ducks","Calgary Flames",
+    "Edmonton Oilers","Los Angeles Kings","San Jose Sharks","Seattle Kraken","Vancouver Canucks","Vegas Golden Knights"
+  ],
+  Rugby: [
+    "All Blacks","Bath Rugby","British & Irish Lions","Cardiff","Connacht","Croatia","England","Fiji",
+    "Fiji Warriors","Fijian Drua","France","Harlequins","Ireland","Kenya","Leinster","Maori All Blacks",
+    "Melbourne Rebels","Munster","Northampton Saints","Samoa","Scotland","Stade Toulouse","Tasman Mako",
+    "Tonga","Ulster","Wallabies","Worcester Warriors","South Africa","Australia","Australia Kangaroos",
+    "Brisbane Broncos","Canberra Raiders","Canterbury Bankstown Bulldogs","Cronulla Sharks","Dolphins",
+    "Fiji Bati","Gold Coast Titans","Hull FC","Manly Warringah Sea Eagles","Melbourne Storm",
+    "New South Wales Blues","New Zealand Kiwis","New Zealand Warriors","Newcastle Knights",
+    "North Queensland Cowboys","Parramatta Eels","Penrith Panthers","Queensland Maroons",
+    "South Sydney Rabbitohs","St George Illawarra Dragons","Sydney Roosters","Wests Tigers"
+  ]
+};

@@ -31,7 +31,7 @@ function card(item,kind){
 function productCard(p){
  const div=document.createElement("article");div.className="product-card";
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
- div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div>${p.source?`<a class="source-link" href="${p.source}" target="_blank" rel="noopener">Consulter la collection de référence ↗</a>`:""}</div>`;
+ div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div>${p.source?``:""}</div>`;
  return div;
 }
 function setHeading(e,t,b){eyebrow.textContent=e;title.textContent=t;crumbs.textContent=b;$("#resultCount").textContent=""}
@@ -106,7 +106,7 @@ function applySearch(){
  entries.forEach(x=>grid.append(card(x,x.kind)));prods.forEach(p=>grid.append(productCard(p)));
  if(!entries.length&&!prods.length){$("#emptyState").hidden=false;grid.hidden=true}
 }
-renderSidebar();renderHome();
+renderHome();
 document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".nav-link").forEach(x=>x.classList.remove("active"));b.classList.add("active");openView(b.dataset.view)}));
 $("#searchInput").addEventListener("input",applySearch);
 $("#sortSelect").addEventListener("change",()=>{const cards=[...grid.children];cards.sort((a,b)=>$("#sortSelect").value==="az"?a.textContent.localeCompare(b.textContent,"fr"):b.textContent.localeCompare(a.textContent,"fr"));cards.forEach(c=>grid.append(c))});

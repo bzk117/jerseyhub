@@ -36,13 +36,13 @@ const NATIONAL_REGIONS = [
     ["Allemagne","🇩🇪"],["France","🇫🇷"],["Angleterre","🏴"],["Italie","🇮🇹"],["Portugal","🇵🇹"],["Pays-Bas","🇳🇱"],["Espagne","🇪🇸"],["Belgique","🇧🇪"],["Irlande","🇮🇪"],["Pologne","🇵🇱"],["Écosse","🏴"],["Danemark","🇩🇰"],["Finlande","🇫🇮"],["Pays de Galles","🏴"],["Serbie","🇷🇸"],["Grèce","🇬🇷"],["Norvège","🇳🇴"],["Croatie","🇭🇷"]
   ]},
   {name:"Afrique", items:[
-    ["Maroc","🇲🇦"],["Algérie","🇩🇿"],["Tunisie","🇹🇳"],["Sénégal","🇸🇳"],["Côte d’Ivoire","🇨🇮"],["Cameroun","🇨🇲"],["Nigeria","🇳🇬"],["Égypte","🇪🇬"],["Ghana","🇬🇭"],["Afrique du Sud","🇿🇦"]
+    ["Maroc","🇲🇦"],["Algérie","🇩🇿"],["Tunisie","🇹🇳"],["Sénégal","🇸🇳"],["Côte d’Ivoire","🇨🇮"],["Cameroun","🇨🇲"],["Nigeria","🇳🇬"],["Égypte","🇪🇬"],["Ghana","🇬🇭"],["Afrique du Sud","🇿🇦"],["Cap-Vert","🇨🇻"]
   ]},
   {name:"Amériques", items:[
-    ["Argentine","🇦🇷"],["Brésil","🇧🇷"],["Uruguay","🇺🇾"],["Colombie","🇨🇴"],["Mexique","🇲🇽"],["États-Unis","🇺🇸"],["Canada","🇨🇦"],["Chili","🇨🇱"]
+    ["Argentine","🇦🇷"],["Brésil","🇧🇷"],["Uruguay","🇺🇾"],["Colombie","🇨🇴"],["Mexique","🇲🇽"],["États-Unis","🇺🇸"],["Canada","🇨🇦"],["Chili","🇨🇱"],["Équateur","🇪🇨"],["Paraguay","🇵🇾"],["Pérou","🇵🇪"],["Bolivie","🇧🇴"],["Costa Rica","🇨🇷"],["Venezuela","🇻🇪"],["Panama","🇵🇦"],["Jamaïque","🇯🇲"],["Haïti","🇭🇹"]
   ]},
   {name:"Asie", items:[
-    ["Japon","🇯🇵"],["Corée du Sud","🇰🇷"],["Arabie saoudite","🇸🇦"],["Qatar","🇶🇦"]
+    ["Japon","🇯🇵"],["Corée du Sud","🇰🇷"],["Palestine","🇵🇸"],["Arabie saoudite","🇸🇦"],["Qatar","🇶🇦"],["Émirats arabes unis","🇦🇪"],["Jordanie","🇯🇴"]
   ]},
   {name:"Océanie", items:[
     ["Australie","🇦🇺"]

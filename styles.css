@@ -148,3 +148,68 @@ button,input,select{font:inherit}.topbar{height:82px;display:flex;align-items:ce
 @media(max-width:760px){
  .main-nav.open #jh-cart-trigger{align-self:flex-start!important;margin:8px 0 0 8px!important}
 }
+
+/* Compte et panier visibles en permanence, hors du menu repliable */
+.account-cart-group{
+  order:4;
+  display:flex!important;
+  flex:0 0 auto!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:8px!important;
+  white-space:nowrap;
+  position:relative;
+  z-index:10060;
+}
+.account-cart-group a.nav-link{
+  display:inline-flex!important;
+  align-items:center;
+  justify-content:center;
+  color:#eee!important;
+  background:transparent!important;
+  border:1px solid #555!important;
+  border-radius:9px!important;
+  padding:10px 13px!important;
+  text-decoration:none!important;
+  font-size:14px!important;
+  font-weight:800!important;
+  white-space:nowrap;
+}
+.account-cart-group a.nav-link:hover{border-color:#f4bd22!important;color:#f4bd22!important}
+.account-cart-group #jh-cart-trigger{
+  display:inline-flex!important;
+  position:static!important;
+  right:auto!important;
+  bottom:auto!important;
+  align-items:center!important;
+  justify-content:center!important;
+  flex:0 0 auto!important;
+  min-height:42px!important;
+  margin:0!important;
+  padding:10px 13px!important;
+  border:1px solid #f4bd22!important;
+  border-radius:9px!important;
+  background:#f4bd22!important;
+  color:#111!important;
+  font-size:14px!important;
+  font-weight:800!important;
+  line-height:1.2!important;
+  white-space:nowrap!important;
+  visibility:visible!important;
+  opacity:1!important;
+  cursor:pointer!important;
+  box-shadow:none!important;
+}
+.account-cart-group #jh-cart-trigger .jh-cart-count{
+  display:inline-grid!important;
+  place-items:center;
+  width:21px;height:21px;margin-left:6px;
+  border-radius:50%;background:#111;color:#f4bd22;
+  font-size:11px;font-weight:900;
+}
+@media(max-width:760px){
+  .topbar{gap:8px!important}
+  .account-cart-group{order:4!important;gap:5px!important}
+  .account-cart-group a.nav-link,.account-cart-group #jh-cart-trigger{padding:8px 9px!important;font-size:12px!important;min-height:38px!important}
+  .account-cart-group #jh-cart-trigger .jh-cart-count{width:18px;height:18px}
+}

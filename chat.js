@@ -1,6 +1,6 @@
 (() => {
   const cfg = window.JERSEYHUB_SUPABASE;
-  if (!cfg?.url || !cfg?.anonKey) return;
+  // Affiche le bouton même si la configuration distante tarde à charger.
 
   const style = document.createElement("style");
   style.textContent = `
@@ -77,6 +77,7 @@
       send.disabled = true;
       send.textContent = "…";
       try {
+        if (!cfg?.url || !cfg?.anonKey) throw new Error("Le service de suivi est momentanément indisponible. Réessayez plus tard.");
         const response = await fetch(cfg.url + "/functions/v1/jerseyhub-order-status", {
           method: "POST",
           headers: { "Content-Type": "application/json", "apikey": cfg.anonKey },

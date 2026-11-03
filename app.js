@@ -41,6 +41,8 @@ function productCard(p){
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
  div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div><small class="jh-open-hint">Cliquer pour choisir les options</small></div>`;
  div._jhProduct=p;
+ div.onclick=()=>{if(typeof window.JerseyHubOpenProduct==="function")window.JerseyHubOpenProduct(p);else console.error("JerseyHub: fenêtre produit non initialisée")};
+ div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }
 function setHeading(e,t,b){eyebrow.textContent=e;title.textContent=t;crumbs.textContent=b;$("#resultCount").textContent=""}
@@ -226,8 +228,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    write(next);close();showCart();
   };
  }
- document.addEventListener("click",e=>{const card=e.target.closest(".product-card");if(card&&card._jhProduct&&!card.classList.contains("jh-test-product"))openProduct(card._jhProduct)},true);
- document.addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;const card=e.target.closest?.(".product-card");if(card&&card._jhProduct&&!card.classList.contains("jh-test-product")){e.preventDefault();openProduct(card._jhProduct)}},true);
+ window.JerseyHubOpenProduct=openProduct;
  // Fiche blanche temporaire pour tester le parcours complet, sans prétendre être un modèle fournisseur.
  const testProduct={name:"Maillot Blanc Basique — TEST",category:"national",group:"Allemagne",description:"Article de démonstration pour tester le panier et les options.",sizes:["S","M","L","XL","2XL","3XL","4XL"],patches:[]};
  const testCard=productCard(testProduct);testCard.classList.add("jh-test-product");testCard.querySelector(".product-art").innerHTML='<div class="jh-product-test-shirt"></div>';

@@ -37,9 +37,12 @@ function isReadyForCatalog(p){
  return p.supplier === "Vivi Jersey" && p.supplierVerified === true && sourceOk && imageOk && sizesOk && typeof p.name === "string" && p.name.trim().length > 0;
 }
 function productCard(p){
- const div=document.createElement("article");div.className="product-card";
+ const div=document.createElement("article");div.className="product-card";div.tabIndex=0;div.setAttribute("role","button");div.setAttribute("aria-label","Choisir "+p.name);
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
- div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div>${p.source?``:""}</div>`;
+ div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div><small class="jh-open-hint">Cliquer pour choisir les options</small></div>`;
+ const activate=()=>window.JHOpenProduct?.(p);
+ div.addEventListener("click",activate);
+ div.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();activate()}});
  return div;
 }
 function setHeading(e,t,b){eyebrow.textContent=e;title.textContent=t;crumbs.textContent=b;$("#resultCount").textContent=""}
@@ -200,10 +203,17 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  trigger.onclick=showCart;
  function openProduct(p){
   activeProduct=p;dialog.dataset.mode="product";
-  const sizes=(p.sizes||[]).flatMap(s=>String(s).includes("–")?[]:[s]);
+  const sizes=(p.sizes||[]).flatMap(raw=>{
+   const value=String(raw).trim().replace(/–/g,"-");
+   const range=value.match(/^(S|M|L|XL)\\s*-\\s*(2XL|3XL|4XL)$/i);
+   if(!range)return [value];
+   const order=["S","M","L","XL","2XL","3XL","4XL"];
+   return order.slice(order.indexOf(range[1].toUpperCase()),order.indexOf(range[2].toUpperCase())+1);
+  }).filter((v,i,a)=>a.indexOf(v)===i);
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
   const patchOptions=Array.isArray(p.patches)?p.patches:[];
-  open('<h2>'+esc(p.name)+'</h2><div class="jh-product-test-shirt" aria-label="Maillot blanc de démonstration"></div><p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p><label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select><label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+patchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div><label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Nom et numéro personnalisés</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  const productVisual=p.image?'<img src="'+esc(p.image)+'" alt="'+esc(p.name)+'" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto 16px">':'<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>';
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p><label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select><label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+patchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div><label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Nom et numéro personnalisés</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
   dialog.querySelector("#jh-cancel").onclick=close;
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
   person.onchange=()=>{fields.innerHTML=person.value==="Aucune"?"":'<label for="jh-name">'+(person.value==="Nom et numéro du joueur"?"Nom du joueur":"Nom personnalisé")+'</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" placeholder="Numéro">'};
@@ -218,14 +228,14 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    write(next);close();showCart();
   };
  }
+ window.JHOpenProduct=openProduct;
  // Fiche blanche temporaire pour tester le parcours complet, sans prétendre être un modèle fournisseur.
  const testProduct={name:"Maillot Blanc Basique — TEST",category:"national",group:"Allemagne",description:"Article de démonstration pour tester le panier et les options.",sizes:["S","M","L","XL","2XL","3XL","4XL"],patches:[]};
  const testCard=productCard(testProduct);testCard.classList.add("jh-test-product");testCard.querySelector(".product-art").innerHTML='<div class="jh-product-test-shirt"></div>';
  testCard.querySelector(".product-info p").textContent="Maillot blanc de démonstration — test du panier";
  testCard.addEventListener("click",()=>openProduct(testProduct));
  const oldProductCard=productCard;
- // Rend également les cartes du catalogue ouvrables.
- document.addEventListener("click",e=>{const card=e.target.closest(".product-card");if(!card||card.classList.contains("jh-test-product"))return;const name=card.querySelector("h3")?.textContent;const p=PRODUCTS.find(x=>x.name===name);if(p)openProduct(p)});
+ // Les cartes produits ouvrent directement leur fiche via productCard().
  // Carte de démonstration accessible dans la première vue catalogue.
  const originalOpenGroup=openGroup;
  window.openGroup=undefined;

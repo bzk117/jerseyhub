@@ -92,7 +92,16 @@
           "Terminé": "Votre commande est indiquée comme terminée.",
           "Pas de stock": "Un article de votre commande est actuellement indisponible. L’équipe JerseyHub pourra vous renseigner."
         };
-        add(replies[result.status] || "Le statut de votre commande est : " + result.status);
+        if (Array.isArray(result.items) && result.items.length) {
+          add("Voici le suivi de chaque article :");
+          result.items.forEach((item) => {
+            const name = [item.category, item.team_brand, item.model].filter(Boolean).join(" — ");
+            const statusText = replies[item.status] || ("Statut : " + item.status);
+            add((name || "Article") + " (" + (item.size || "taille non précisée") + ", quantité " + item.quantity + ") : " + statusText);
+          });
+        } else {
+          add(replies[result.status] || "Le statut de votre commande est : " + result.status);
+        }
         add("Puis-je vous aider pour autre chose ?");
       } catch (error) {
         add(error.message || "Je n’ai pas pu vérifier ces informations. Réessayez avec votre référence et votre adresse e-mail.");

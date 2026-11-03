@@ -58,7 +58,7 @@
  $('loginTab').onclick=()=>setMode('login');$('registerTab').onclick=()=>setMode('register');
  $('authForm').addEventListener('submit',async e=>{e.preventDefault();$('authSubmit').disabled=true;try{
   const email=$('email').value.trim(),password=$('password').value;
-  if(mode==='register'){const {data,error}=await db.auth.signUp({email,password,options:{data:{first_name:$('firstName').value.trim(),last_name:$('lastName').value.trim(),phone:$('phone').value.trim()||null}}});if(error)throw error;if(!data.session){say("Compte créé. Vérifiez votre boîte e-mail pour confirmer votre adresse avant de vous connecter.");}else say("Compte créé avec succès.");}
+  if(mode==='register'){const {data,error}=await db.auth.signUp({email,password,options:{emailRedirectTo:'https://bzk117.github.io/jerseyhub/compte.html',data:{first_name:$('firstName').value.trim(),last_name:$('lastName').value.trim(),phone:$('phone').value.trim()||null}}});if(error)throw error;if(!data.session){say("Compte créé. Vérifiez votre boîte e-mail pour confirmer votre adresse avant de vous connecter.");}else say("Compte créé avec succès.");}
   else{const {error}=await db.auth.signInWithPassword({email,password});if(error)throw error;say("Connexion réussie.");}
   await refresh();
  }catch(err){say(err.message||"Une erreur est survenue.",true)}finally{$('authSubmit').disabled=false}});

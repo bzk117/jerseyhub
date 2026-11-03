@@ -41,7 +41,7 @@ function productCard(p){
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
  div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div><small class="jh-open-hint">Cliquer pour choisir les options</small></div>`;
  div._jhProduct=p;
- div.onclick=()=>{if(typeof window.JerseyHubOpenProduct==="function")window.JerseyHubOpenProduct(p);else console.error("JerseyHub: fenêtre produit non initialisée")};
+  div.dataset.jhProductCard="true";
  div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }
@@ -111,7 +111,7 @@ function openGroup(kind,name){
   if(kind==="national"&&name==="Allemagne")matches.unshift({name:"Maillot Blanc Basique — TEST",category:"national",group:"Allemagne",description:"Article de démonstration pour tester le panier et les options.",sizes:["S","M","L","XL","2XL","3XL","4XL"],patches:[],testOnly:true});
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
-  matches.forEach(p=>{const cardEl=productCard(p);if(p.testOnly){cardEl.classList.add("jh-test-product");cardEl.querySelector(".product-art").innerHTML='<div class="jh-product-test-shirt"></div>';cardEl.querySelector(".product-info p").textContent="Maillot blanc de démonstration — test du panier";cardEl.addEventListener("click",()=>openProduct(p))}grid.append(cardEl)});
+   matches.forEach(p=>{const cardEl=productCard(p);if(p.testOnly){cardEl.classList.add("jh-test-product");cardEl.querySelector(".product-art").innerHTML='<div class="jh-product-test-shirt"></div>';cardEl.querySelector(".product-info p").textContent="Maillot blanc de démonstration — test du panier"}grid.append(cardEl)});
   if(!matches.length){
    $("#emptyState").hidden=false;grid.hidden=true;
    $("#emptyState h3").textContent="Articles en préparation";
@@ -229,6 +229,14 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   };
  }
  window.JerseyHubOpenProduct=openProduct;
+  // Gestion centralisée : le clic sur la photo, le texte ou la carte ouvre la même fiche.
+  document.addEventListener("click",e=>{
+   const card=e.target.closest(".product-card[data-jh-product-card]");
+   if(!card)return;
+   const product=card._jhProduct;
+   if(!product)return;
+   try{openProduct(product)}catch(error){console.error("JerseyHub — ouverture fiche produit :",error);alert("La fiche produit n’a pas pu s’ouvrir. Une erreur a été enregistrée dans la console.")}
+  },true);
  // Fiche blanche temporaire pour tester le parcours complet, sans prétendre être un modèle fournisseur.
  const testProduct={name:"Maillot Blanc Basique — TEST",category:"national",group:"Allemagne",description:"Article de démonstration pour tester le panier et les options.",sizes:["S","M","L","XL","2XL","3XL","4XL"],patches:[]};
  const testCard=productCard(testProduct);testCard.classList.add("jh-test-product");testCard.querySelector(".product-art").innerHTML='<div class="jh-product-test-shirt"></div>';

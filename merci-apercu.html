@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="Page de confirmation de demande JerseyHub.">
+<title>Merci pour ta demande — JerseyHub</title>
+<link rel="icon" type="image/png" href="assets/branding/logo-jerseyhub.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+.confirm-wrap{min-height:75vh;display:grid;place-items:center;padding:56px 20px;background:radial-gradient(ellipse at 50% 20%,#30240b 0,transparent 55%),#090909}
+.confirm-card{width:min(720px,100%);text-align:center;border:1px solid #6d531d;background:linear-gradient(145deg,#171717,#0d0d0d);border-radius:22px;padding:clamp(28px,6vw,58px);box-shadow:0 24px 80px #0009}
+.confirm-logo{width:88px;height:88px;object-fit:contain;margin:0 auto 18px}
+.confirm-mark{width:64px;height:64px;border:2px solid #e5b637;color:#e5b637;border-radius:50%;display:grid;place-items:center;font-size:32px;margin:0 auto 22px}
+.confirm-card h1{font-size:clamp(30px,6vw,48px);line-height:1.08;margin:0 0 16px;color:#fff}
+.confirm-card h1 span{color:#e5b637}
+.confirm-card p{color:#c8c4ba;line-height:1.7;max-width:540px;margin:0 auto 14px}
+.confirm-notice{margin:26px auto;padding:16px;border:1px solid #51421f;background:#201a0d;border-radius:12px;color:#e8d6a2;max-width:540px;font-size:14px}
+.confirm-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.confirm-actions a{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:9px;text-decoration:none;font-weight:800}
+.confirm-primary{background:#e5b637;color:#17130a}.confirm-secondary{border:1px solid #6d531d;color:#f1d78e}
+.confirm-foot{font-size:12px!important;color:#888!important;margin-top:28px!important}
+</style>
+</head>
+<body>
+<header class="topbar">
+<a class="brand" href="index.html" aria-label="JerseyHub, accueil"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="Logo JerseyHub"><span>JERSEY<br><b>HUB</b></span></a>
+</header>
+<main class="confirm-wrap">
+<section class="confirm-card" aria-labelledby="thanks-title">
+<img class="confirm-logo" src="assets/branding/logo-jerseyhub.png" alt="JerseyHub">
+<div class="confirm-mark" aria-hidden="true">✓</div>
+<p class="eyebrow">JERSEYHUB • DEMANDE</p>
+<h1 id="thanks-title">Merci pour ta <span>demande !</span></h1>
+<p>Ta demande a bien été prise en compte dans cette démonstration. Tu pourras retrouver son suivi dans ton espace client lorsque celui-ci sera connecté.</p>
+<div class="confirm-notice"><strong>À savoir :</strong> une demande n’est pas une commande fournisseur confirmée. La disponibilité et les détails doivent être vérifiés avant toute confirmation.</div>
+<div class="confirm-actions">
+<a class="confirm-primary" href="espace-client-apercu.html">Voir mon espace client</a>
+<a class="confirm-secondary" href="index.html">Retour au catalogue</a>
+</div>
+<p class="confirm-foot">Cette page est actuellement un aperçu visuel. Aucun enregistrement ni e-mail automatique n’est encore déclenché.</p>
+</section>
+</main>
+<footer><a class="brand small" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="Logo JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><span>JerseyHub • © <span id="year"></span></span></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>

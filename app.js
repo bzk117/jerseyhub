@@ -13,7 +13,7 @@ const NATIONAL_FLAG_CODES={
 function nationalFlagMarkup(name,compact=false){
  const code=NATIONAL_FLAG_CODES[name];
  if(!code)return "";
- const width=compact?24:48,height=compact?16:32;
+ const width=compact?40:80,height=compact?27:53;
  return '<img src="https://flagcdn.com/w'+width+'/'+code+'.png" alt="Drapeau '+name+'" width="'+width+'" height="'+height+'" loading="lazy" style="display:inline-block;width:'+width+'px;height:'+height+'px;object-fit:cover;border-radius:3px;vertical-align:middle">';
 }
 function allNational(){return NATIONAL_REGIONS.flatMap(r=>r.items.map(([name,flag])=>({name,flag,group:r.name,kind:"national"})))}

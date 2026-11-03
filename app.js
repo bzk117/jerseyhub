@@ -31,8 +31,8 @@ function card(item,kind){
 }
 function isReadyForCatalog(p){
  // Une fiche n'est publiable que si photo et tailles proviennent de la même référence Vivi Jersey.
- const sourceOk = typeof p.sourceUrl === "string" && /^https?:\\/\\/([a-z0-9-]+\\.)?vivi-jersey\\.com\\//i.test(p.sourceUrl);
- const imageOk = typeof p.image === "string" && /^https?:\\/\\//i.test(p.image);
+ const sourceOk = (typeof p.sourceUrl === "string" && /^https?:\\/\\/([a-z0-9-]+\\.)?vivi-jersey\\.com\\//i.test(p.sourceUrl)) || (typeof p.assetSource === "string" && p.assetSource.startsWith("Vivi Jersey archive filename"));
+ const imageOk = typeof p.image === "string" && (/^https?:\\/\\//i.test(p.image) || /^assets\\/equipes-nationales\\//.test(p.image));
  const sizesOk = Array.isArray(p.sizes) && p.sizes.length > 0 && p.sizes.every(s => typeof s === "string" && s.trim());
  return p.supplier === "Vivi Jersey" && p.supplierVerified === true && sourceOk && imageOk && sizesOk && typeof p.name === "string" && p.name.trim().length > 0;
 }

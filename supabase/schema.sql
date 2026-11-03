@@ -33,7 +33,7 @@ create table if not exists public.request_items (
   season text,
   size text not null,
   quantity integer not null default 1 check (quantity between 1 and 50),
-  customization_type text not null default 'Aucune'
+  status text not null default 'En attente'\n    check (status in ('En attente','En transit','Reçu','Terminé','Pas de stock')),\n  customization_type text not null default 'Aucune'
     check (customization_type in ('Aucune','Nom et numéro du joueur','Nom et numéro personnalisés')),
   custom_name text,
   custom_number text,

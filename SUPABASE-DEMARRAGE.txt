@@ -1,0 +1,37 @@
+JERSEYHUB — CONNEXION SUPABASE (ÉTAPE DE PRÉPARATION)
+
+Objectif
+Préparer l'authentification, les profils clients, les demandes multi-articles et l'administration privée, sans frais d'hébergement supplémentaires au démarrage.
+
+État
+- Le site public GitHub Pages reste en ligne.
+- Les pages espace-client-apercu.html, nouvelle-demande-apercu.html et administration-apercu.html sont des maquettes visuelles uniquement.
+- Le backend n'est PAS encore connecté. Aucune donnée client réelle ne doit être saisie dans ces maquettes.
+- Le catalogue reste vide tant que les produits, photos autorisées, tailles et disponibilités n'ont pas été vérifiés.
+
+À faire par le propriétaire du projet
+1. Créer un compte Supabase Free.
+2. Créer un projet Supabase dans une région de l'Union européenne (Frankfurt / eu-central-1 recommandée).
+3. Dans le SQL Editor, exécuter le fichier supabase/schema.sql.
+4. Garder l'URL du projet et la clé anon/publishable pour la configuration du site. La clé service_role doit rester secrète et ne jamais être copiée dans un fichier public ou un message.
+5. Configurer les URL autorisées d'authentification lorsque le site sera connecté.
+
+Sécurité prévue dans schema.sql
+- Chaque client ne lit que son profil et ses demandes.
+- Un client ne peut créer une demande qu'en son propre nom.
+- Seul un administrateur défini dans app_metadata peut consulter toutes les demandes et modifier leur statut.
+- Le rôle administrateur ne doit jamais être modifiable depuis les champs de profil du client.
+- Les articles d'une demande suivent les mêmes règles d'accès que la demande.
+
+Statuts prévus
+En attente · En transit · Reçu · Terminé · Pas de stock
+
+À décider avant mise en production
+- Adresse e-mail qui recevra les notifications administrateur.
+- Texte définitif de la politique de confidentialité et durée de conservation des demandes.
+- Procédure de sauvegarde manuelle régulière sur l'offre gratuite.
+- Vérification des emails d'inscription et paramètres anti-abus.
+- Tests de sécurité avec deux comptes clients distincts et un compte administrateur.
+
+Important
+Ce fichier prépare la base, mais ne rend pas les pages de démonstration fonctionnelles à lui seul. L'intégration frontend et les tests devront être réalisés après création du projet Supabase. Ne pas utiliser de vraies données personnelles avant validation complète.

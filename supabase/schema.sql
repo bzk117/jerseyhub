@@ -24,6 +24,26 @@ create table if not exists public.requests (
   updated_at timestamptz not null default now()
 );
 
+-- Numéro de commande lisible par le client, attribué automatiquement côté base.
+create sequence if not exists public.jerseyhub_order_number_seq;
+alter table public.requests add column if not exists order_number text;
+create or replace function public.assign_request_order_number()
+returns trigger language plpgsql security definer set search_path = '' as $
+begin
+  new.order_number := 'JH-' || to_char(coalesce(new.created_at, now()), 'YYYY') || '-' ||
+    lpad(nextval('public.jerseyhub_order_number_seq')::text, 6, '0');
+  return new;
+end;
+$;
+drop trigger if exists requests_assign_order_number on public.requests;
+create trigger requests_assign_order_number before insert on public.requests
+for each row execute function public.assign_request_order_number();
+update public.requests set order_number = 'JH-' || to_char(created_at, 'YYYY') || '-' ||
+  lpad(nextval('public.jerseyhub_order_number_seq')::text, 6, '0') where order_number is null;
+alter table public.requests alter column order_number set not null;
+create unique index if not exists requests_order_number_uidx on public.requests(order_number);
+revoke all on function public.assign_request_order_number() from public, anon, authenticated;
+
 create table if not exists public.request_items (
   id uuid primary key default gen_random_uuid(),
   request_id uuid not null references public.requests(id) on delete cascade,

@@ -214,6 +214,7 @@ create table if not exists public.site_comments (
   updated_at timestamptz not null default now()
 );
 create index if not exists site_comments_status_created_idx on public.site_comments(status, created_at desc);
+create index if not exists site_comments_user_id_idx on public.site_comments(user_id);
 alter table public.site_comments enable row level security;
 drop policy if exists "comments visible when approved or own" on public.site_comments;
 create policy "comments visible when approved or own" on public.site_comments

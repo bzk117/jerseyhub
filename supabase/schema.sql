@@ -20,7 +20,6 @@ create table if not exists public.requests (
   status text not null default 'En attente'
     check (status in ('En attente','En transit','Reçu','Terminé','Pas de stock')),
   customer_note text,
-  admin_note text,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
@@ -46,6 +45,13 @@ create index if not exists requests_customer_created_idx
 create index if not exists request_items_request_idx
   on public.request_items(request_id);
 
+-- Notes internes séparées : elles ne sont jamais lisibles par les clients.
+create table if not exists public.request_admin_notes (
+  request_id uuid primary key references public.requests(id) on delete cascade,
+  note text not null default '',
+  updated_at timestamptz not null default now()
+);
+
 create or replace function public.set_updated_at()
 returns trigger language plpgsql as $$
 begin
@@ -60,6 +66,10 @@ for each row execute function public.set_updated_at();
 
 drop trigger if exists requests_updated_at on public.requests;
 create trigger requests_updated_at before update on public.requests
+for each row execute function public.set_updated_at();
+
+drop trigger if exists request_admin_notes_updated_at on public.request_admin_notes;
+create trigger request_admin_notes_updated_at before update on public.request_admin_notes
 for each row execute function public.set_updated_at();
 
 -- Création automatique du profil à l'inscription.
@@ -90,6 +100,7 @@ for each row execute procedure public.handle_new_user();
 alter table public.profiles enable row level security;
 alter table public.requests enable row level security;
 alter table public.request_items enable row level security;
+alter table public.request_admin_notes enable row level security;
 
 -- Rôle admin lu uniquement depuis app_metadata, jamais depuis user_metadata.
 create or replace function public.is_admin()
@@ -164,3 +175,10 @@ using (public.is_admin());
 -- Important : attribuer le rôle admin manuellement via Supabase Auth > Users
 -- > utilisateur concerné > app_metadata : {"role":"admin"}.
 -- Ne jamais placer service_role dans le navigateur.
+
+-- Seuls les administrateurs peuvent lire ou modifier les notes internes.
+drop policy if exists "admin manage request notes" on public.request_admin_notes;
+create policy "admin manage request notes" on public.request_admin_notes
+for all to authenticated
+using (public.is_admin())
+with check (public.is_admin());

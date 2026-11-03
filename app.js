@@ -246,11 +246,5 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   if(category.dataset.jhView){openView(category.dataset.jhView);return}
   openGroup(category.dataset.jhKind,category.dataset.jhName);
  });
- document.addEventListener("keydown",e=>{
-  if(e.key!=="Enter"&&e.key!==" ")return;
-  const category=e.target.closest(".category-card[data-jh-kind]");
-  if(!category)return;
-  e.preventDefault();category.click();
- });
  renderCart();
 })();

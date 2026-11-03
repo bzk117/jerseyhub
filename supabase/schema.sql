@@ -199,3 +199,32 @@ revoke all on function public.is_admin() from public, anon;
 revoke all on function public.rls_auto_enable() from public, anon, authenticated;
 
 comment on table public.request_admin_notes is 'Private internal admin notes; accessible only to admins through RLS.';
+
+
+-- JerseyHub — commentaires clients avec modération.
+-- Ces instructions doivent être exécutées dans Supabase SQL Editor.
+create table if not exists public.site_comments (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  display_name text not null default 'Client',
+  content text not null check (char_length(content) between 3 and 1200),
+  status text not null default 'pending' check (status in ('pending','approved','rejected')),
+  admin_reply text,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+create index if not exists site_comments_status_created_idx on public.site_comments(status, created_at desc);
+alter table public.site_comments enable row level security;
+drop policy if exists "comments visible when approved or own" on public.site_comments;
+create policy "comments visible when approved or own" on public.site_comments
+for select to authenticated using (status = 'approved' or user_id = (select auth.uid()) or public.is_admin());
+drop policy if exists "customers submit pending comments" on public.site_comments;
+create policy "customers submit pending comments" on public.site_comments
+for insert to authenticated with check (user_id = (select auth.uid()) and status = 'pending');
+drop policy if exists "admins moderate comments" on public.site_comments;
+create policy "admins moderate comments" on public.site_comments
+for update to authenticated using (public.is_admin()) with check (public.is_admin());
+drop policy if exists "admins delete comments" on public.site_comments;
+create policy "admins delete comments" on public.site_comments
+for delete to authenticated using (public.is_admin());
+grant select, insert, update, delete on public.site_comments to authenticated;

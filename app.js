@@ -22,11 +22,12 @@ function renderSidebar(){
  el.append(sideGroup("Lifestyle & Accessoires",LIFESTYLE.map(x=>({...x,flag:x.emoji})),"lifestyle"));
 }
 function card(item,kind){
- const div=document.createElement("article");div.className="category-card";div.tabIndex=0;
+ const div=document.createElement("article");div.className="category-card";div.tabIndex=0;div.setAttribute("role","button");
+ div.dataset.jhKind=kind;div.dataset.jhName=item.name;
  const emoji=item.flag||item.emoji||"⚽";
  const visualKey=kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
  div.innerHTML=`<div class="category-art art-${visualKey}"><span class="emoji">${emoji}</span></div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
- div.onclick=()=>openGroup(kind,item.name);
+ div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }
 function isReadyForCatalog(p){
@@ -56,7 +57,7 @@ function renderHome(){
   {name:"Chaussures",flag:"👟",desc:"Toutes les marques du catalogue",kind:"shoes"},
   {name:"Lifestyle & Accessoires",flag:"🎧",desc:"Audio, LEGO, lunettes, casquettes",kind:"lifestyle"}
  ];
- home.forEach(x=>{const c=card(x,x.kind);c.onclick=()=>openView(x.kind);grid.append(c)});
+ home.forEach(x=>{const c=card(x,x.kind);c.dataset.jhView=x.kind;grid.append(c)});
 }
 function openView(view){
  if(view==="home"){renderHome();return}
@@ -237,18 +238,19 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    if(!product)return;
    try{openProduct(product)}catch(error){console.error("JerseyHub — ouverture fiche produit :",error);alert("La fiche produit n’a pas pu s’ouvrir. Une erreur a été enregistrée dans la console.")}
   },true);
- // Fiche blanche temporaire pour tester le parcours complet, sans prétendre être un modèle fournisseur.
- const testProduct={name:"Maillot Blanc Basique — TEST",category:"national",group:"Allemagne",description:"Article de démonstration pour tester le panier et les options.",sizes:["S","M","L","XL","2XL","3XL","4XL"],patches:[]};
- const testCard=productCard(testProduct);testCard.classList.add("jh-test-product");testCard.querySelector(".product-art").innerHTML='<div class="jh-product-test-shirt"></div>';
- testCard.querySelector(".product-info p").textContent="Maillot blanc de démonstration — test du panier";
- testCard.addEventListener("click",()=>openProduct(testProduct));
- const oldProductCard=productCard;
- // Les cartes produits ouvrent directement leur fiche via productCard().
- // Carte de démonstration accessible dans la première vue catalogue.
- const originalOpenGroup=openGroup;
- window.openGroup=undefined;
- const addTest=()=>{if(currentView==="national"&&currentGroup==="Allemagne"&&!grid.querySelector(".jh-test-product"))grid.prepend(testCard)};
- document.querySelectorAll(".side-item").forEach(b=>b.addEventListener("click",()=>setTimeout(addTest,0)));
- document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>setTimeout(()=>{if(b.dataset.view==="national"){const h=document.createElement("button");h.className="side-item";h.textContent="Allemagne (test maillot blanc)";h.onclick=()=>{originalOpenGroup("national","Allemagne");setTimeout(addTest,0)};if(!document.querySelector(".jh-test-shortcut")){h.classList.add("jh-test-shortcut");document.querySelector("#sideCategories")?.append(h)}}},0)));
+ // Navigation des catégories et des équipes par délégation : le clic fonctionne
+ // même après le remplacement dynamique des cartes dans la grille.
+ document.addEventListener("click",e=>{
+  const category=e.target.closest(".category-card[data-jh-kind]");
+  if(!category)return;
+  if(category.dataset.jhView){openView(category.dataset.jhView);return}
+  openGroup(category.dataset.jhKind,category.dataset.jhName);
+ });
+ document.addEventListener("keydown",e=>{
+  if(e.key!=="Enter"&&e.key!==" ")return;
+  const category=e.target.closest(".category-card[data-jh-kind]");
+  if(!category)return;
+  e.preventDefault();category.click();
+ });
  renderCart();
 })();

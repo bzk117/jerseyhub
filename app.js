@@ -29,6 +29,24 @@ function card(item,kind){
  div.onclick=()=>openGroup(kind,item.name);
  return div;
 }
+function nationalImageList(name){
+ const key=slug(name).replace(/\\s+/g,"-");
+ const aliases={"pays-de-galles":["wales"],"ecosse":["ecosse","scotland"]};
+ const keys=aliases[key]||[key];
+ return [...new Set(keys.flatMap(k=>NATIONAL_IMAGE_INDEX[k]||[]))];
+}
+function nationalImageCard(path,index){
+ const file=path.split("/").pop();
+ const label=file.replace(/^\\d+[_-]?/,"").replace(/\\.(jpe?g|png|webp)$/i,"").replace(/[-_]+/g," ").trim();
+ const div=document.createElement("article");div.className="product-card national-image-card";
+ const art=document.createElement("div");art.className="product-art";
+ const img=document.createElement("img");img.src=path;img.alt=label||"Maillot de sélection nationale";img.loading="lazy";img.decoding="async";
+ art.append(img);
+ const info=document.createElement("div");info.className="product-info";
+ const h=document.createElement("h3");h.textContent=label||("Visuel "+(index+1));
+ const p=document.createElement("p");p.textContent="Visuel de référence • disponibilité à confirmer";
+ info.append(h,p);div.append(art,info);return div;
+}
 function productCard(p){
  const div=document.createElement("article");div.className="product-card";
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
@@ -79,6 +97,19 @@ function openGroup(kind,name){
    $("#resultCount").textContent=`${cat.items.length} rubrique(s)`;
    return;
   }
+ }
+ if(kind==="national"){
+  const images=nationalImageList(name);
+  setHeading("ÉQUIPE NATIONALE",name,`Accueil / Équipes nationales / ${name}`);
+  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
+  images.forEach((path,index)=>grid.append(nationalImageCard(path,index)));
+  if(!images.length){
+   $("#emptyState").hidden=false;grid.hidden=true;
+   $("#emptyState h3").textContent="Visuels en préparation";
+   $("#emptyState p").textContent="Les photos de cette sélection seront ajoutées après vérification.";
+  }
+  $("#resultCount").textContent=images.length?`${images.length} visuel(s) de référence`:"";
+  return;
  }
  const matches=PRODUCTS.filter(p=>p.category===kind&&p.group===name);
  setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":kind==="shoes"?"MARQUE DE CHAUSSURES":kind==="lifestyle"?"LIFESTYLE & ACCESSOIRES":"CATÉGORIE",name,`Accueil / ${name}`);

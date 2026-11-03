@@ -22,6 +22,7 @@ Sécurité prévue dans schema.sql
 - Seul un administrateur défini dans app_metadata peut consulter toutes les demandes et modifier leur statut.
 - Le rôle administrateur ne doit jamais être modifiable depuis les champs de profil du client.
 - Les articles d'une demande suivent les mêmes règles d'accès que la demande.
+- Les notes internes de l'administrateur sont stockées séparément et ne sont pas accessibles aux clients.
 
 Statuts prévus
 En attente · En transit · Reçu · Terminé · Pas de stock

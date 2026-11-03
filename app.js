@@ -87,6 +87,15 @@ function openGroup(kind,name){
    return;
   }
  }
+ if(kind==="clubs" && typeof CLUB_TEAM_GROUPS!=="undefined" && Object.prototype.hasOwnProperty.call(CLUB_TEAM_GROUPS,name)){
+  setHeading("CLUBS & CHAMPIONNATS",name,"Accueil / Clubs / "+name);
+  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
+  const teams=CLUB_TEAM_GROUPS[name];
+  teams.forEach(team=>grid.append(card({name:team,flag:"⚽",group:name},"clubs")));
+  if(!teams.length){$("#emptyState").hidden=false;grid.hidden=true;$("#emptyState h3").textContent="Clubs à vérifier";$("#emptyState p").textContent="Les clubs de cette compétition seront ajoutés après vérification de leurs fiches Vivi Jersey.";}
+  $("#resultCount").textContent=teams.length?teams.length+" clubs référencés":"";
+  return;
+ }
  if(kind==="sports" && typeof SPORT_TEAM_GROUPS!=="undefined" && SPORT_TEAM_GROUPS[name]){
   setHeading("ÉQUIPES & FRANCHISES",name,"Accueil / Autres sports / "+name);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;

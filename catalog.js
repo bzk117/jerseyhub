@@ -179,3 +179,20 @@ const SPORT_TEAM_GROUPS = {
     "South Sydney Rabbitohs","St George Illawarra Dragons","Sydney Roosters","Wests Tigers"
   ]
 };
+
+const CLUB_TEAM_GROUPS = {
+  "Premier League": ["Manchester United","Arsenal","Liverpool","Manchester City","Chelsea","Tottenham","Newcastle","Everton","West Ham United","Aston Villa","Crystal Palace","Wolves","Fulham","Leeds United","Nottingham Forest","Brighton","Leicester City"],
+  "La Liga": ["Real Madrid","FC Barcelona","Atletico Madrid","Athletic Bilbao","Real Betis","Valencia","Rayo Vallecano","Sevilla","Las Palmas","Girona","Mallorca","Osasuna"],
+  "Serie A": ["Inter Milan","AC Milan","Juventus","Napoli","AS Roma","Lazio","Atalanta","Fiorentina","Parma","Venezia","Genoa"],
+  "Bundesliga": ["Bayern Munich","Borussia Dortmund","Eintracht Frankfurt","Bayer Leverkusen","RB Leipzig","VfL Wolfsburg","VfB Stuttgart","Werder Bremen","Borussia Mönchengladbach","Heidenheim","St. Pauli","Union Berlin"],
+  "Ligue 1": ["Paris Saint-Germain","Marseille","Lyon","Monaco","Lens","Lille"],
+  "Portugal": ["Benfica","FC Porto","Sporting CP","Sporting Braga"],
+  "Pays-Bas": ["Ajax","PSV Eindhoven","Feyenoord"],
+  "Écosse": ["Celtic FC","Glasgow Rangers"],
+  "Belgique": [],
+  "Turquie": [],
+  "Arabie saoudite": ["Al-Nassr","Al-Ittihad","Al-Hilal","Al-Ahli","Al-Ain FC"],
+  "Brésil": ["Palmeiras","Flamengo","São Paulo","Santos","Atlético Mineiro","Cruzeiro","Corinthians"],
+  "Argentine": ["Boca Juniors","River Plate"],
+  "États-Unis": ["Inter Miami CF","LA Galaxy","Orlando City"]
+};

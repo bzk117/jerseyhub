@@ -24,14 +24,15 @@ function renderSidebar(){
 function card(item,kind){
  const div=document.createElement("article");div.className="category-card";div.tabIndex=0;
  const emoji=item.flag||item.emoji||"⚽";
- div.innerHTML=`<div class="category-art"><span class="emoji">${emoji}</span></div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
+ const visualKey=kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
+ div.innerHTML=`<div class="category-art art-${visualKey}"><span class="emoji">${emoji}</span></div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  div.onclick=()=>openGroup(kind,item.name);
  return div;
 }
 function productCard(p){
  const div=document.createElement("article");div.className="product-card";
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
- div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div>${p.source?`<a class="source-link" href="${p.source}" target="_blank" rel="noopener">Consulter la collection de référence ↗</a>`:""}</div>`;
+ div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div>${p.source?``:""}</div>`;
  return div;
 }
 function setHeading(e,t,b){eyebrow.textContent=e;title.textContent=t;crumbs.textContent=b;$("#resultCount").textContent=""}
@@ -85,9 +86,9 @@ function openGroup(kind,name){
  matches.forEach(p=>grid.append(productCard(p)));
  if(!matches.length){
   if(kind==="shoes"){
-   grid.hidden=false;$("#emptyState").hidden=true;
-   const info=document.createElement("div");info.className="brand-source-panel";info.style.cssText="grid-column:1/-1;padding:24px;border:1px solid #4a3b1b;border-radius:10px;background:#15130f;color:#ddd";
-   info.innerHTML=`<h3 style="color:#f4bd22;margin-top:0">${name}</h3><p>Marque présente dans la sélection chaussures du fournisseur. Les modèles, photos et tailles seront ajoutés après vérification.</p><a class="source-link" href="https://yolo66.x.yupoo.com/collections/4651182" target="_blank" rel="noopener">Consulter le catalogue fournisseur ↗</a><p style="font-size:11px;color:#aaa">Les articles de marque de ce catalogue ne sont pas authentifiés par JerseyHub. Aucune annonce ne doit les présenter comme des produits officiels sans preuve.</p>`;grid.append(info);
+   $("#emptyState").hidden=false;grid.hidden=true;
+   $("#emptyState h3").textContent="Catalogue en préparation";
+   $("#emptyState p").textContent="Les modèles, photos et pointures seront ajoutés après vérification.";
   }else{
    $("#emptyState").hidden=false;grid.hidden=true;
    $("#emptyState h3").textContent="Catalogue en préparation";
@@ -106,7 +107,7 @@ function applySearch(){
  entries.forEach(x=>grid.append(card(x,x.kind)));prods.forEach(p=>grid.append(productCard(p)));
  if(!entries.length&&!prods.length){$("#emptyState").hidden=false;grid.hidden=true}
 }
-renderSidebar();renderHome();
+renderHome();
 document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".nav-link").forEach(x=>x.classList.remove("active"));b.classList.add("active");openView(b.dataset.view)}));
 $("#searchInput").addEventListener("input",applySearch);
 $("#sortSelect").addEventListener("change",()=>{const cards=[...grid.children];cards.sort((a,b)=>$("#sortSelect").value==="az"?a.textContent.localeCompare(b.textContent,"fr"):b.textContent.localeCompare(a.textContent,"fr"));cards.forEach(c=>grid.append(c))});

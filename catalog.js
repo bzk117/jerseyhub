@@ -40,25 +40,9 @@ const OTHER_SPORTS = [
   {name:"Autres articles",emoji:"👕",desc:"Vestes, survêtements, rétro et accessoires"}
 ];
 // Exemple de fiche : {name:"Allemagne domicile 2026",category:"national",group:"Allemagne",image:"assets/...",sizes:["S","M","L","XL","2XL","3XL"]}
-// Première sélection relevée sur le catalogue public de Vivi Jersey.
-// Les tailles ne sont volontairement pas affichées tant que chaque fiche n'a pas été vérifiée.
-// Les photos du site tiers ne sont pas copiées : ajoute uniquement des images que tu es autorisé à réutiliser.
-const PRODUCTS = [
-  {name:"2026-27 Mallorca Away Football Jersey",category:"clubs",group:"La Liga",description:"Modèle repéré dans le catalogue source. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/mallorca"},
-  {name:"KIDS 2026-27 Valencia Away",category:"clubs",group:"La Liga",description:"Modèle enfant repéré dans le catalogue source. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/valencia"},
-  {name:"KIDS 2026-27 UD Las Palmas Third",category:"clubs",group:"La Liga",description:"Modèle enfant repéré dans le catalogue source. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/las-palmas"},
-  {name:"KIDS 2026-27 UD Las Palmas Home",category:"clubs",group:"La Liga",description:"Modèle enfant repéré dans le catalogue source. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/las-palmas"},
-  {name:"2026-27 UD Las Palmas Third",category:"clubs",group:"La Liga",description:"Modèle repéré dans le catalogue source. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/las-palmas"},
-  {name:"2026-27 UD Las Palmas Home",category:"clubs",group:"La Liga",description:"Modèle repéré dans le catalogue source. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/las-palmas"},
-  {name:"2026-27 UD Las Palmas Away",category:"clubs",group:"La Liga",description:"Modèle repéré dans le catalogue source. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/las-palmas"},
-  {name:"KIDS 2026-27 UD Las Palmas Away",category:"clubs",group:"La Liga",description:"Modèle enfant repéré dans le catalogue source. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/las-palmas"},
-  {name:"2026 France Home — Coupe du monde",category:"national",group:"France",description:"Modèle repéré dans la collection Coupe du monde 2026. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/2026-world-cup"},
-  {name:"Player Version 2026 France Home — Coupe du monde",category:"national",group:"France",description:"Version joueur repérée dans la collection Coupe du monde 2026. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/2026-world-cup"},
-  {name:"2025-26 Brazil Away — Coupe du monde",category:"national",group:"Brésil",description:"Modèle repéré dans la collection Coupe du monde 2026. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/2026-world-cup"},
-  {name:"Player Version 2025-26 Brazil Away — Coupe du monde",category:"national",group:"Brésil",description:"Version joueur repérée dans la collection Coupe du monde 2026. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/2026-world-cup"},
-  {name:"2025-26 Spain Home — Coupe du monde",category:"national",group:"Espagne",description:"Modèle repéré dans la collection Coupe du monde 2026. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/2026-world-cup"},
-  {name:"Player Version 2025-26 Spain Home — Coupe du monde",category:"national",group:"Espagne",description:"Version joueur repérée dans la collection Coupe du monde 2026. Tailles à vérifier sur la fiche.",source:"https://vivi-jersey.com/collections/2026-world-cup"}
-];
+// Les fiches seront publiées après vérification des modèles, des photos autorisées,
+// des tailles et des disponibilités.
+const PRODUCTS = [];
 
 
 const SHOE_BRANDS = [
@@ -116,7 +100,7 @@ const SHOE_BRANDS = [
 
 const LIFESTYLE = [
   {name:"Audio & Musique",emoji:"🎧",desc:"Écouteurs, casques et enceintes",folder:"audio-musique",items:["Écouteurs sans fil","Casques audio","Enceintes Bluetooth","Accessoires audio"]},
-  {name:"LEGO & Construction",emoji:"🧱",desc:"LEGO Technic, voitures et sets de collection",folder:"lego-construction",items:["LEGO Technic","Voitures","Sets de collection","Autres briques de construction"]},
+  {name:"LEGO & Construction",emoji:"🧱",desc:"LEGO, voitures et sets de collection",folder:"lego-construction",items:["LEGO","Voitures","Sets de collection","Autres briques de construction"]},
   {name:"Lunettes",emoji:"🕶️",desc:"Soleil, sport et vue",folder:"lunettes",items:["Lunettes de soleil","Lunettes de sport","Lunettes de vue"]},
   {name:"Casquettes & Bonnets",emoji:"🧢",desc:"Casquettes, snapbacks, bonnets et bobs",folder:"casquettes-bonnets",items:["Casquettes classiques","Snapback","Bonnets","Bob"]}
 ];

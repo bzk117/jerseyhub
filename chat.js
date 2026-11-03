@@ -58,7 +58,7 @@
       const normalized = value.toLowerCase();
       if (/(commande|colis|suivi|statut|où en est)/.test(normalized)) {
         step = "order";
-        add("Bien sûr ! Indiquez votre numéro de commande (la référence UUID affichée dans votre espace client).");
+        add("Bien sûr ! Indiquez votre numéro de commande, par exemple : JH-2026-000123. Vous le trouverez dans « Mon compte », sous « Mes demandes ».");
       } else {
         add("Pour le moment, je peux uniquement vous aider à vérifier le statut d’une commande. Écrivez par exemple : « Où en est ma commande ? »");
       }

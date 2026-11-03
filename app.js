@@ -40,7 +40,7 @@ function productCard(p){
  const div=document.createElement("article");div.className="product-card";div.tabIndex=0;div.setAttribute("role","button");div.setAttribute("aria-label","Choisir "+p.name);
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
  div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div><small class="jh-open-hint">Cliquer pour choisir les options</small></div>`;
- const activate=()=>window.JHOpenProduct?.(p);
+ const activate=()=>document.dispatchEvent(new CustomEvent("jerseyhub:open-product",{detail:p}));
  div.addEventListener("click",activate);
  div.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();activate()}});
  return div;
@@ -228,7 +228,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    write(next);close();showCart();
   };
  }
- window.JHOpenProduct=openProduct;
+ document.addEventListener("jerseyhub:open-product",e=>{if(e.detail)openProduct(e.detail)});
  // Fiche blanche temporaire pour tester le parcours complet, sans prétendre être un modèle fournisseur.
  const testProduct={name:"Maillot Blanc Basique — TEST",category:"national",group:"Allemagne",description:"Article de démonstration pour tester le panier et les options.",sizes:["S","M","L","XL","2XL","3XL","4XL"],patches:[]};
  const testCard=productCard(testProduct);testCard.classList.add("jh-test-product");testCard.querySelector(".product-art").innerHTML='<div class="jh-product-test-shirt"></div>';

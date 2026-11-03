@@ -14,8 +14,22 @@ const SUPPLIER = {
   - Ajoute/retire des équipes dans les tableaux ci-dessous.
   - Pour ajouter un maillot, ajoute un objet dans PRODUCTS.
   - Mets uniquement les tailles réellement proposées pour ce produit.
-  - image: chemin d'un visuel validé provenant du catalogue Vivi Jersey
+  - image: photo du modèle exact récupérée depuis sa fiche Vivi Jersey.
+  - sizes: liste exacte des tailles proposées pour CE modèle, relevée sur la même fiche.
+  - Associer systématiquement chaque image à ses propres tailles : ne jamais réutiliser
+    les tailles d'un autre maillot, ni deviner une taille manquante.
+  - Si les tailles ne sont pas visibles ou vérifiables, ne pas publier la fiche.
+  - Les tailles renseignées dans PRODUCTS sont affichées automatiquement sur la fiche.
   - Ne renseigne aucun prix : le site n'en affiche pas.
+
+  Exemple de structure (illustration uniquement, pas un produit réel) :
+  {
+    name: "Nom exact du maillot",
+    category: "national",
+    group: "Maroc",
+    image: "chemin/vers/photo-validee.jpg",
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"]
+  }
 */
 const NATIONAL_REGIONS = [
   {name:"Europe", items:[

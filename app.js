@@ -29,6 +29,13 @@ function card(item,kind){
  div.onclick=()=>openGroup(kind,item.name);
  return div;
 }
+function isReadyForCatalog(p){
+ // Une fiche n'est publiable que si photo et tailles proviennent de la même référence Vivi Jersey.
+ const sourceOk = typeof p.sourceUrl === "string" && /^https?:\\/\\/([a-z0-9-]+\\.)?vivi-jersey\\.com\\//i.test(p.sourceUrl);
+ const imageOk = typeof p.image === "string" && /^https?:\\/\\//i.test(p.image);
+ const sizesOk = Array.isArray(p.sizes) && p.sizes.length > 0 && p.sizes.every(s => typeof s === "string" && s.trim());
+ return p.supplier === "Vivi Jersey" && p.supplierVerified === true && sourceOk && imageOk && sizesOk && typeof p.name === "string" && p.name.trim().length > 0;
+}
 function productCard(p){
  const div=document.createElement("article");div.className="product-card";
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
@@ -81,7 +88,7 @@ function openGroup(kind,name){
   }
  }
  if(["national","clubs","sports"].includes(kind)){
-  const matches=PRODUCTS.filter(p=>p.category===kind&&p.group===name);
+  const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
   matches.forEach(p=>grid.append(productCard(p)));
@@ -93,7 +100,7 @@ function openGroup(kind,name){
   $("#resultCount").textContent=matches.length?`${matches.length} modèle(s)`:"";
   return;
  }
- const matches=PRODUCTS.filter(p=>p.category===kind&&p.group===name);
+ const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
  setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":kind==="shoes"?"MARQUE DE CHAUSSURES":kind==="lifestyle"?"LIFESTYLE & ACCESSOIRES":"CATÉGORIE",name,`Accueil / ${name}`);
  grid.innerHTML="";
  matches.forEach(p=>grid.append(productCard(p)));
@@ -114,7 +121,7 @@ function applySearch(){
  query=slug($("#searchInput").value.trim());
  if(!query){currentView==="home"?renderHome():openView(currentView);return}
  const entries=[...allNational(),...allClubs(),...OTHER_SPORTS.map(x=>({...x,kind:"sports"})),...SHOE_BRANDS.map(x=>({...x,kind:"shoes"})),...allLifestyle()].filter(x=>slug(x.name).includes(query));
- const prods=PRODUCTS.filter(p=>slug(p.name+" "+p.group).includes(query));
+ const prods=PRODUCTS.filter(isReadyForCatalog).filter(p=>slug(p.name+" "+p.group).includes(query));
  setHeading("RECHERCHE",`Résultats pour « ${$("#searchInput").value} »`,"Accueil / Recherche");
  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
  entries.forEach(x=>grid.append(card(x,x.kind)));prods.forEach(p=>grid.append(productCard(p)));

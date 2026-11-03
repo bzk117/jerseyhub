@@ -24,7 +24,8 @@ function renderSidebar(){
 function card(item,kind){
  const div=document.createElement("article");div.className="category-card";div.tabIndex=0;
  const emoji=item.flag||item.emoji||"⚽";
- div.innerHTML=`<div class="category-art"><span class="emoji">${emoji}</span></div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
+ const visualKey=kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
+ div.innerHTML=`<div class="category-art art-${visualKey}"><span class="emoji">${emoji}</span></div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  div.onclick=()=>openGroup(kind,item.name);
  return div;
 }

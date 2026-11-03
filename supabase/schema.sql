@@ -1,0 +1,166 @@
+-- JerseyHub — fondation Supabase
+-- À exécuter dans SQL Editor du projet Supabase, une seule fois.
+-- Région recommandée : UE (Frankfurt). Ne jamais publier la clé service_role.
+
+create extension if not exists pgcrypto;
+
+create table if not exists public.profiles (
+  id uuid primary key references auth.users(id) on delete cascade,
+  first_name text not null default '',
+  last_name text not null default '',
+  phone text,
+  role text not null default 'customer' check (role in ('customer','admin')),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create table if not exists public.requests (
+  id uuid primary key default gen_random_uuid(),
+  customer_id uuid not null references auth.users(id) on delete restrict,
+  status text not null default 'En attente'
+    check (status in ('En attente','En transit','Reçu','Terminé','Pas de stock')),
+  customer_note text,
+  admin_note text,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create table if not exists public.request_items (
+  id uuid primary key default gen_random_uuid(),
+  request_id uuid not null references public.requests(id) on delete cascade,
+  category text not null,
+  team_brand text not null,
+  model text,
+  season text,
+  size text not null,
+  quantity integer not null default 1 check (quantity between 1 and 50),
+  customization_type text not null default 'Aucune'
+    check (customization_type in ('Aucune','Nom et numéro du joueur','Nom et numéro personnalisés')),
+  custom_name text,
+  custom_number text,
+  created_at timestamptz not null default now()
+);
+
+create index if not exists requests_customer_created_idx
+  on public.requests(customer_id, created_at desc);
+create index if not exists request_items_request_idx
+  on public.request_items(request_id);
+
+create or replace function public.set_updated_at()
+returns trigger language plpgsql as $$
+begin
+  new.updated_at = now();
+  return new;
+end;
+$$;
+
+drop trigger if exists profiles_updated_at on public.profiles;
+create trigger profiles_updated_at before update on public.profiles
+for each row execute function public.set_updated_at();
+
+drop trigger if exists requests_updated_at on public.requests;
+create trigger requests_updated_at before update on public.requests
+for each row execute function public.set_updated_at();
+
+-- Création automatique du profil à l'inscription.
+create or replace function public.handle_new_user()
+returns trigger
+language plpgsql
+security definer
+set search_path = ''
+as $$
+begin
+  insert into public.profiles (id, first_name, last_name, phone)
+  values (
+    new.id,
+    coalesce(new.raw_user_meta_data ->> 'first_name', ''),
+    coalesce(new.raw_user_meta_data ->> 'last_name', ''),
+    nullif(new.raw_user_meta_data ->> 'phone', '')
+  )
+  on conflict (id) do nothing;
+  return new;
+end;
+$$;
+
+drop trigger if exists on_auth_user_created on auth.users;
+create trigger on_auth_user_created
+after insert on auth.users
+for each row execute procedure public.handle_new_user();
+
+alter table public.profiles enable row level security;
+alter table public.requests enable row level security;
+alter table public.request_items enable row level security;
+
+-- Rôle admin lu uniquement depuis app_metadata, jamais depuis user_metadata.
+create or replace function public.is_admin()
+returns boolean
+language sql stable security definer
+set search_path = ''
+as $$
+  select coalesce((auth.jwt() -> 'app_metadata' ->> 'role') = 'admin', false);
+$$;
+
+drop policy if exists "profile read own or admin" on public.profiles;
+create policy "profile read own or admin" on public.profiles
+for select to authenticated
+using (id = (select auth.uid()) or public.is_admin());
+
+drop policy if exists "profile update own" on public.profiles;
+create policy "profile update own" on public.profiles
+for update to authenticated
+using (id = (select auth.uid()))
+with check (id = (select auth.uid()) and role = 'customer');
+
+-- Les clients voient et créent uniquement leurs demandes.
+drop policy if exists "request read own or admin" on public.requests;
+create policy "request read own or admin" on public.requests
+for select to authenticated
+using (customer_id = (select auth.uid()) or public.is_admin());
+
+drop policy if exists "request create own" on public.requests;
+create policy "request create own" on public.requests
+for insert to authenticated
+with check (customer_id = (select auth.uid()) and status = 'En attente');
+
+drop policy if exists "admin update requests" on public.requests;
+create policy "admin update requests" on public.requests
+for update to authenticated
+using (public.is_admin())
+with check (public.is_admin());
+
+drop policy if exists "item read through own request or admin" on public.request_items;
+create policy "item read through own request or admin" on public.request_items
+for select to authenticated
+using (
+  public.is_admin() or exists (
+    select 1 from public.requests r
+    where r.id = request_id and r.customer_id = (select auth.uid())
+  )
+);
+
+drop policy if exists "item create through own request" on public.request_items;
+create policy "item create through own request" on public.request_items
+for insert to authenticated
+with check (
+  exists (
+    select 1 from public.requests r
+    where r.id = request_id
+      and r.customer_id = (select auth.uid())
+      and r.status = 'En attente'
+  )
+);
+
+drop policy if exists "admin update items" on public.request_items;
+create policy "admin update items" on public.request_items
+for update to authenticated
+using (public.is_admin())
+with check (public.is_admin());
+
+drop policy if exists "admin delete items" on public.request_items;
+create policy "admin delete items" on public.request_items
+for delete to authenticated
+using (public.is_admin());
+
+-- Important : attribuer le rôle admin manuellement via Supabase Auth > Users
+-- > utilisateur concerné > app_metadata : {"role":"admin"}.
+-- Ne jamais placer service_role dans le navigateur.

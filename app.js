@@ -85,9 +85,9 @@ function openGroup(kind,name){
  matches.forEach(p=>grid.append(productCard(p)));
  if(!matches.length){
   if(kind==="shoes"){
-   grid.hidden=false;$("#emptyState").hidden=true;
-   const info=document.createElement("div");info.className="brand-source-panel";info.style.cssText="grid-column:1/-1;padding:24px;border:1px solid #4a3b1b;border-radius:10px;background:#15130f;color:#ddd";
-   info.innerHTML=`<h3 style="color:#f4bd22;margin-top:0">${name}</h3><p>Marque présente dans la sélection chaussures du fournisseur. Les modèles, photos et tailles seront ajoutés après vérification.</p><a class="source-link" href="https://yolo66.x.yupoo.com/collections/4651182" target="_blank" rel="noopener">Consulter le catalogue fournisseur ↗</a><p style="font-size:11px;color:#aaa">Les articles de marque de ce catalogue ne sont pas authentifiés par JerseyHub. Aucune annonce ne doit les présenter comme des produits officiels sans preuve.</p>`;grid.append(info);
+   $("#emptyState").hidden=false;grid.hidden=true;
+   $("#emptyState h3").textContent="Catalogue en préparation";
+   $("#emptyState p").textContent="Les modèles, photos et pointures seront ajoutés après vérification.";
   }else{
    $("#emptyState").hidden=false;grid.hidden=true;
    $("#emptyState h3").textContent="Catalogue en préparation";

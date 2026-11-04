@@ -35399,6 +35399,21 @@ const PRODUCTS = [
     "description": "Maillot extérieur 2026-2027 noir. Photos originales HKLFP : vue de face et vue de dos. Tailles et options relevées sur la fiche fournisseur."
   },
   {
+    "name": "26-27 Anderlecht domicile - Violet",
+    "category": "clubs",
+    "group": "Anderlecht",
+    "image": "https://shop.rsca.be/dw/image/v2/BFNW_PRD/on/demandware.static/-/Sites-rsca-product-catalog/default/dwfe35c136/images/product/RSCA_ANDERLECHT_HOME_SHIRT_2627_01.png?sh=1200&sw=1200",
+    "images": [
+      "https://shop.rsca.be/dw/image/v2/BFNW_PRD/on/demandware.static/-/Sites-rsca-product-catalog/default/dwfe35c136/images/product/RSCA_ANDERLECHT_HOME_SHIRT_2627_01.png?sh=1200&sw=1200",
+      "https://shop.rsca.be/dw/image/v2/BFNW_PRD/on/demandware.static/-/Sites-rsca-product-catalog/default/dw1419cb22/images/product/RSCA_ANDERLECHT_HOME_SHIRT_2627_03.jpg?sh=1200&sw=1200"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+    "supplier": "HKLFP",
+    "supplierVerified": true,
+    "supplierUrl": "https://www.hklfp.com/26-27-Anderlecht-Home-Fans-Soccer-Jersey-p2412351.html",
+    "description": "Maillot domicile Anderlecht 2026-2027. Tailles relevées sur la fiche HKLFP : S, M, L, XL, XXL, 3XL et 4XL. Photos de référence du maillot domicile officiel RSCA ; visuels exacts HKLFP non récupérés."
+  },
+  {
     "name": "26-27 Club Brugge Home Adult Suit - Ensemble domicile",
     "category": "clubs",
     "group": "Cercle de Bruges",

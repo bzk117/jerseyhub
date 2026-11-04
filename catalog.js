@@ -35423,6 +35423,35 @@ const PRODUCTS = [
     "supplierVerified": true,
     "supplierUrl": "https://www.hklfp.com/26-27-Club-Brugge-Home-Adult-Suit-p2696806.html",
     "description": "Ensemble domicile adulte Club Brugge 2026-2027. Photo de référence du maillot domicile officiel 26/27 ; tailles sélectionnables S à 4XL. Vérifier la disponibilité finale auprès du fournisseur."
+  },
+  {
+    "name": "Player 2026-27 Manchester United Special Football Jersey - Bleu",
+    "category": "clubs",
+    "group": "Manchester United",
+    "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey1-17080051d7.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+    "images": [
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey1-17080051d7.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey2-170800484e.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey3-1708004728.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey91-1708007d50.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey4-170800f520.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey5-170800dfac.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey6-170800079f.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey7-1708008b0a.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey8-1708006d09.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
+      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey9-170800a72e.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "supplierUrl": "https://vivi-jersey.com/products/player-2026-27-manchester-united-special-football-jersey",
+    "description": "Version joueur spéciale bleue 2026-2027. Galerie de 10 photos du fournisseur ; tailles proposées par Vivi Jersey : S, M, L, XL et 2XL."
   }
 ];
 
@@ -35484,36 +35513,7 @@ const LIFESTYLE = [
   {name:"Audio & Musique",emoji:"🎧",desc:"Écouteurs, casques et enceintes",folder:"audio-musique",items:["Écouteurs sans fil","Casques audio","Enceintes Bluetooth","Accessoires audio"]},
   {name:"LEGO & Construction",emoji:"🧱",desc:"LEGO, voitures et sets de collection",folder:"lego-construction",items:["LEGO","Voitures","Sets de collection","Autres briques de construction"]},
   {name:"Lunettes",emoji:"🕶️",desc:"Soleil, sport et vue",folder:"lunettes",items:["Lunettes de soleil","Lunettes de sport","Lunettes de vue"]},
-  {name:"Casquettes & Bonnets",emoji:"🧢",desc:"Casquettes, snapbacks, bonnets et bobs",folder:"casquettes-bonnets",items:["Casquettes classiques","Snapback","Bonnets","Bob"]},
-  {
-    "name": "Player 2026-27 Manchester United Special Football Jersey - Bleu",
-    "category": "clubs",
-    "group": "Manchester United",
-    "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey1-17080051d7.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-    "images": [
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey1-17080051d7.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey2-170800484e.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey3-1708004728.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey91-1708007d50.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey4-170800f520.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey5-170800dfac.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey6-170800079f.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey7-1708008b0a.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey8-1708006d09.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedSpecialPlayerVersionBlueSoccerJersey9-170800a72e.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL"
-    ],
-    "supplier": "Vivi Jersey",
-    "supplierVerified": true,
-    "supplierUrl": "https://vivi-jersey.com/products/player-2026-27-manchester-united-special-football-jersey",
-    "description": "Version joueur spéciale bleue 2026-2027. Galerie de 10 photos du fournisseur ; tailles proposées par Vivi Jersey : S, M, L, XL et 2XL."
-  }
+  {name:"Casquettes & Bonnets",emoji:"🧢",desc:"Casquettes, snapbacks, bonnets et bobs",folder:"casquettes-bonnets",items:["Casquettes classiques","Snapback","Bonnets","Bob"]}
 ];
 
 

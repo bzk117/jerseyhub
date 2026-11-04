@@ -57,6 +57,31 @@ function isReadyForCatalog(p){
  const sizesOk = Array.isArray(p.sizes) && p.sizes.length > 0 && p.sizes.every(s => typeof s === "string" && s.trim());
  return p.supplier === "Vivi Jersey" && p.supplierVerified === true && sourceOk && imageOk && sizesOk && typeof p.name === "string" && p.name.trim().length > 0;
 }
+const CATALOG_PAGE_SIZE=18;
+let catalogPage=1,catalogPageItems=[],catalogPagePrefix=[];
+function renderCatalogPage(page=1){
+ catalogPage=Math.max(1,Math.min(page,Math.ceil(catalogPageItems.length/CATALOG_PAGE_SIZE)||1));
+ grid.innerHTML="";
+ catalogPagePrefix.forEach(node=>grid.append(node));
+ const start=(catalogPage-1)*CATALOG_PAGE_SIZE;
+ catalogPageItems.slice(start,start+CATALOG_PAGE_SIZE).forEach(p=>grid.append(productCard(p)));
+ const pager=$("#catalogPagination");
+ if(!pager)return;
+ pager.innerHTML="";
+ const pages=Math.ceil(catalogPageItems.length/CATALOG_PAGE_SIZE);
+ if(pages<=1)return;
+ const makeButton=(label,target,disabled=false,active=false)=>{
+  const b=document.createElement("button");b.type="button";b.className="catalog-page-button"+(active?" active":"");b.textContent=label;b.disabled=disabled;b.setAttribute("aria-label",typeof label==="number"?"Page "+label:label);
+  b.onclick=()=>renderCatalogPage(target);return b;
+ };
+ pager.append(makeButton("←",catalogPage-1,catalogPage===1));
+ for(let n=1;n<=pages;n++)pager.append(makeButton(String(n),n,false,n===catalogPage));
+ pager.append(makeButton("→",catalogPage+1,catalogPage===pages));
+ pager.setAttribute("aria-label","Pagination du catalogue");
+}
+function renderPagedProducts(items,prefixNodes=[]){
+ catalogPageItems=items;catalogPagePrefix=prefixNodes;catalogPage=1;renderCatalogPage(1);
+}
 function productCard(p){
  const div=document.createElement("article");div.className="product-card";div.tabIndex=0;div.setAttribute("role","button");div.setAttribute("aria-label","Choisir "+p.name);
  const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
@@ -66,7 +91,7 @@ function productCard(p){
  div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }
-function setHeading(e,t,b){eyebrow.textContent=e;title.textContent=t;crumbs.textContent=b;$("#resultCount").textContent=""}
+function setHeading(e,t,b){eyebrow.textContent=e;title.textContent=t;crumbs.textContent=b;$("#resultCount").textContent="";const pager=$("#catalogPagination");if(pager)pager.innerHTML=""}
 function renderHome(){
  currentView="home";currentGroup=null;setHeading("BIENVENUE","Nos catégories","Accueil");
  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
@@ -131,7 +156,7 @@ function openGroup(kind,name){
   const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
-   matches.forEach(p=>grid.append(productCard(p)));
+   renderPagedProducts(matches);
   if(!matches.length){
    $("#emptyState").hidden=false;grid.hidden=true;
    $("#emptyState h3").textContent="Articles en préparation";
@@ -143,7 +168,7 @@ function openGroup(kind,name){
  const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
  setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":kind==="shoes"?"MARQUE DE CHAUSSURES":kind==="lifestyle"?"LIFESTYLE & ACCESSOIRES":"CATÉGORIE",name,`Accueil / ${name}`);
  grid.innerHTML="";
- matches.forEach(p=>grid.append(productCard(p)));
+ renderPagedProducts(matches);
  if(!matches.length){
   if(kind==="shoes"){
    $("#emptyState").hidden=false;grid.hidden=true;
@@ -164,7 +189,7 @@ function applySearch(){
  const prods=PRODUCTS.filter(isReadyForCatalog).filter(p=>slug(p.name+" "+p.group).includes(query));
  setHeading("RECHERCHE",`Résultats pour « ${$("#searchInput").value} »`,"Accueil / Recherche");
  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
- entries.forEach(x=>grid.append(card(x,x.kind)));prods.forEach(p=>grid.append(productCard(p)));
+ const prefixNodes=entries.map(x=>card(x,x.kind));renderPagedProducts(prods,prefixNodes);
  if(!entries.length&&!prods.length){$("#emptyState").hidden=false;grid.hidden=true}
 }
 renderHome();

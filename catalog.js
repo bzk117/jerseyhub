@@ -14708,6 +14708,18640 @@ const PRODUCTS = [
     "supplierVerified": true,
     "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
     "sizePending": true
+  },
+  {
+    "name": "Cap-Vert — 2025 26 Cape Verde Third Football jersey",
+    "category": "national",
+    "group": "Cap-Vert",
+    "image": "assets/equipes-nationales/Afrique/Cape_Verde/001_2025-26-Cape-Verde-Third-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cap-Vert — 2025 26 Cape Verde Home Football jersey",
+    "category": "national",
+    "group": "Cap-Vert",
+    "image": "assets/equipes-nationales/Afrique/Cape_Verde/002_2025-26-Cape-Verde-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player version 2025 26 Algeria Home Football jersey World Cup",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/002_Player-version-2025-26-Algeria-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2025 26 Algeria Two starsHome Football Jersey World Cup",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/003_Player-2025-26-Algeria-Two-starsHome-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — KIDS 2025 26 Algeria Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/004_KIDS-2025-26-Algeria-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2025 26 Algeria Away Football Jersey World Cup",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/006_Player-2025-26-Algeria-Away-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2025 26 Algeria Pre Match Football Jersey World Cup",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/007_2025-26-Algeria-Pre-Match-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2025 26 Algeria Pre Match Football Jersey World Cup",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/008_2025-26-Algeria-Pre-Match-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2025 26 Algeria Pre Match Football Jersey World Cup",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/009_2025-26-Algeria-Pre-Match-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2025 26 Algeria Special Edition Football Jersey World Cup",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/010_Player-2025-26-Algeria-Special-Edition-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player version 2025 26 Algeria Away Football jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/011_Player-version-2025-26-Algeria-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player version 2025 26 Algeria Black Special Edition Football jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/012_Player-version-2025-26-Algeria-Black-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2025 26 Algeria Black Special Football jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/013_Player-2025-26-Algeria-Black-Special-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2024 25 Algeria Home Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/014_2024-25-Algeria-Home-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2024 25 Algeria Home Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/015_Player-2024-25-Algeria-Home-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2024 25 Algeria Away Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/016_Player-2024-25-Algeria-Away-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2024 25 Algeria Away Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/017_Player-2024-25-Algeria-Away-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/018_Player-2024-25-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/019_Player-2024-25-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/020_Player-2024-25-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/021_Player-2024-25-Algeria-Special-Edition-Soccer-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/022_2024-25-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2024 25 Algeria Away Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/023_2024-25-Algeria-Away-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/024_2024-25-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/025_2024-25-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/026_2024-25-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/027_2024-25-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/028_Player-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/029_Player-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/030_Player-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/031_Player-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/032_Player-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/033_Player-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/035_Player-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Player 2024 25 Algeria Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/036_Player-2024-25-Algeria-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2022 23 Algeria Home Soccer jersey",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/038_2022-23-Algeria-Home-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2022 Algeria National Team Half Pull Training Suit White Shirt Set",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/039_2022-Algeria-National-Team-Half-Pull-Training-Suit-White-Shirt-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2023 24 Algeria half pull training suit",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/040_2023-24-Algeria-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2023 24 Algeria half pull training suit",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/041_2023-24-Algeria-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2023 24 Algeria half pull training suit",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/042_2023-24-Algeria-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2023 24 Algeria half pull training suit",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/043_2023-24-Algeria-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2023 24 Algeria half pull training suit",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/044_2023-24-Algeria-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2023 24 Algeria half pull training suit",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/045_2023-24-Algeria-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 2024 25 Algeria half pull training suit",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/046_2024-25-Algeria-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — Algeria Windbreaker Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/047_Algeria-Windbreaker-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 23 24 Algeria training uniform",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/048_23-24-Algeria-training-uniform.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 23 24 Algeria training short sleeves",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/049_23-24-Algeria-training-short-sleeves.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 23 24 Algeria training short sleeves",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/050_23-24-Algeria-training-short-sleeves.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 23 24 Algeria training uniform",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/051_23-24-Algeria-training-uniform.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 23 24 Algeria training uniform",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/052_23-24-Algeria-training-uniform.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Algérie — 23 24 Algeria training uniform",
+    "category": "national",
+    "group": "Algérie",
+    "image": "assets/equipes-nationales/Afrique/algerie/053_23-24-Algeria-training-uniform.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 Cameroon Football Jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/001_2025-26-Cameroon-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 Cameroon Football Jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/002_2025-26-Cameroon-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 Cameroon Football Jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/003_2025-26-Cameroon-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — KIDS 2025 26 Cameroon Away Football Jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/004_KIDS-2025-26-Cameroon-Away-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 Cameroon Third Away Football Jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/005_2025-26-Cameroon-Third-Away-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 Cameroon Home Football Jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/006_2025-26-Cameroon-Home-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 Cameroon Away Football Jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/007_2025-26-Cameroon-Away-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — Player version 2026 27 Cameroon Home Football jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/008_Player-version-2026-27-Cameroon-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — Player version 2025 26 Cameroon Special Edition Football jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/009_Player-version-2025-26-Cameroon-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 Cameroon Special Edition Football jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/010_2025-26-Cameroon-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — Retro 2002 Cameroon Away Football jersey Retro",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/011_Retro-2002-Cameroon-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — Retro 2002 Cameroon Home Football jersey Retro",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/012_Retro-2002-Cameroon-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 Cameroon Home Football jersey World Cup",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/013_2025-26-Cameroon-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 season Cameroon jacket suit",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/014_2025-26-season-Cameroon-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 season Cameroon jacket suit",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/015_2025-26-season-Cameroon-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — Retro 1990 Cameroon Home Soccer jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/016_Retro-1990-Cameroon-Home-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Cameroun — 2025 26 Cameroon Home Away Second away game Soccer Jersey",
+    "category": "national",
+    "group": "Cameroun",
+    "image": "assets/equipes-nationales/Afrique/cameroun/017_2025-26-Cameroon-Home-Away-Second-away-game-Soccer-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Côte d’Ivoire — 2025 26 Trench Coat Reversible windbreaker Côte dIvoire",
+    "category": "national",
+    "group": "Côte d’Ivoire",
+    "image": "assets/equipes-nationales/Afrique/cote-divoire/001_2025-26-Trench-Coat-Reversible-windbreaker-Côte-dIvoire.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Côte d’Ivoire — Player 2025 26 Côte dIvoire Special Edition Red Football jersey",
+    "category": "national",
+    "group": "Côte d’Ivoire",
+    "image": "assets/equipes-nationales/Afrique/cote-divoire/002_Player-2025-26-Côte-dIvoire-Special-Edition-Red-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Côte d’Ivoire — Player 2025 26 Côte dIvoire Special Edition Red Football jersey",
+    "category": "national",
+    "group": "Côte d’Ivoire",
+    "image": "assets/equipes-nationales/Afrique/cote-divoire/003_Player-2025-26-Côte-dIvoire-Special-Edition-Red-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Côte d’Ivoire — Player 2025 26 Côte dIvoire Special Edition Red Football jersey",
+    "category": "national",
+    "group": "Côte d’Ivoire",
+    "image": "assets/equipes-nationales/Afrique/cote-divoire/004_Player-2025-26-Côte-dIvoire-Special-Edition-Red-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Côte d’Ivoire — Player 2025 26 Côte dIvoire Home Football jersey",
+    "category": "national",
+    "group": "Côte d’Ivoire",
+    "image": "assets/equipes-nationales/Afrique/cote-divoire/005_Player-2025-26-Côte-dIvoire-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — Player 2026 Egyptian Away Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/001_Player-2026-Egyptian-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — Player 2026 Egyptian Home Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/002_Player-2026-Egyptian-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — KIDS 2026 Egyptian Away KIDS Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/003_KIDS-2026-Egyptian-Away-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — 2026 Egyptian Away Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/004_2026-Egyptian-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — KIDS 2026 Egyptian Home KIDS Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/005_KIDS-2026-Egyptian-Home-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — 2026 Egyptian Home Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/006_2026-Egyptian-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — 2025 26 Egyptian Away Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/007_2025-26-Egyptian-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — Player version 2025 26 Egyptian Away Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/008_Player-version-2025-26-Egyptian-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — Player version 2025 26 Egyptian National Home Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/009_Player-version-2025-26-Egyptian-National-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Égypte — 2025 26 Egyptian National Home Football jersey",
+    "category": "national",
+    "group": "Égypte",
+    "image": "assets/equipes-nationales/Afrique/egypte/010_2025-26-Egyptian-National-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — Player 2026 Ghana Home Football jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/002_Player-2026-Ghana-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Away Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/003_2026-Ghana-Away-Football-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — Player 2026 Ghana Away Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/004_Player-2026-Ghana-Away-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — Player 2026 Ghana Special Edition Football jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/006_Player-2026-Ghana-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Special Edition Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/007_2026-Ghana-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — Player 2026 Ghana Commemorative Edition Football jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/008_Player-2026-Ghana-Commemorative-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — Player 2026 Ghana Commemorative Edition Football jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/009_Player-2026-Ghana-Commemorative-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Special Edition Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/010_2026-Ghana-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Special Edition Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/011_2026-Ghana-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Special Edition Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/012_2026-Ghana-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Special Edition Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/013_2026-Ghana-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Special Edition Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/014_2026-Ghana-Special-Edition-Football-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/015_2026-Ghana-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/016_2026-Ghana-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — Player 2026 Ghana Special Edition Football jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/017_Player-2026-Ghana-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — Player 2026 Ghana Training Football jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/018_Player-2026-Ghana-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Training T Shirt Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/019_2026-Ghana-Training-T-Shirt-Football-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2026 Ghana Special Edition Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/020_2026-Ghana-Special-Edition-Football-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — Player 2025 Ghana Home Football jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/021_Player-2025-Ghana-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — Player 2025 Ghana Away Football jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/022_Player-2025-Ghana-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Ghana — 2022 Ghana Special Edition Vest Football Jersey",
+    "category": "national",
+    "group": "Ghana",
+    "image": "assets/equipes-nationales/Afrique/ghana/023_2022-Ghana-Special-Edition-Vest-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Player 2026 Morocco Home Football Jersey World Cup",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/002_Player-2026-Morocco-Home-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — KIDS 2026 Morocco Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/003_KIDS-2026-Morocco-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Player Version Shorts 2026 Shorts Morocco",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/004_Player-Version-Shorts-2026-Shorts-Morocco.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Player 2026 Morocco Away Football Jersey World Cup",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/006_Player-2026-Morocco-Away-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — KIDS 2026 Morocco Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/007_KIDS-2026-Morocco-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — 2026 Morocco Special Edition Football jersey",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/008_2026-Morocco-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — 2025 26 Morocco Special Edition Football jersey",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/009_2025-26-Morocco-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Player Edition 2024 25 Morocco Home Football jersey",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/010_Player-Edition-2024-25-Morocco-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — 2024 25 Morocco Home Football jersey",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/011_2024-25-Morocco-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — 2023 Morocco Home Football jersey",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/012_2023-Morocco-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — 2022 Morocco Qatar World Cup away Football jersey",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/013_2022-Morocco-Qatar-World-Cup-away-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — 22 23 Morocco home",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/014_22-23-Morocco-home.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 98 Morocco Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/015_Retro-98-Morocco-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 98 Morocco Home Football jersey retro",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/016_Retro-98-Morocco-Home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 1998 Morocco away Football jersey retro",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/017_Retro-1998-Morocco-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 1998 Morocco away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/018_Retro-1998-Morocco-away-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — 2025 26 Trench Coat Reversible windbreaker Morocco",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/019_2025-26-Trench-Coat-Reversible-windbreaker-Morocco.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 1994 Morocco Away Football jersey Retro",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/020_Retro-1994-Morocco-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 1994 Morocco Home Football jersey Retro",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/021_Retro-1994-Morocco-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 1994 Morocco Third Away Football jersey Retro",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/022_Retro-1994-Morocco-Third-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 1994 Morocco Third Away Football jersey Retro",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/023_Retro-1994-Morocco-Third-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 1994 Morocco Home Football jersey Retro",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/024_Retro-1994-Morocco-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Maroc — Retro 1994 Morocco Away Football jersey Retro",
+    "category": "national",
+    "group": "Maroc",
+    "image": "assets/equipes-nationales/Afrique/maroc/025_Retro-1994-Morocco-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Player 2026 Nigeria Home jersey Football jersey World Cup",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/002_Player-2026-Nigeria-Home-jersey-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Player 2026 Nigeria Away jersey Football jersey World Cup",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/004_Player-2026-Nigeria-Away-jersey-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Player 2025 26 Nigeria Home jersey Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/006_Player-2025-26-Nigeria-Home-jersey-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — KIDS 2025 26 Nigeria home KIDS Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/007_KIDS-2025-26-Nigeria-home-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — 2025 26 Nigeria Away Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/008_2025-26-Nigeria-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Player 2025 26 Nigeria Special Edition jersey Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/009_Player-2025-26-Nigeria-Special-Edition-jersey-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — KIDS 2025 26 Nigeria away KIDS Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/010_KIDS-2025-26-Nigeria-away-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — 2024 25 Nigeria home Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/011_2024-25-Nigeria-home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — 2024 25 Nigeria Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/012_2024-25-Nigeria-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — 2024 25 Nigeria Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/013_2024-25-Nigeria-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — 2024 25 Nigeria Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/014_2024-25-Nigeria-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — 22 23 Nigeria Training T",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/015_22-23-Nigeria-Training-T.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — 22 23 Nigeria Green",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/016_22-23-Nigeria-Green.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Retro Nigeria 2018 home World Cup Football jersey retro",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/017_Retro-Nigeria-2018-home-World-Cup-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Retro 1998 Nigeria away Football jersey retro",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/018_Retro-1998-Nigeria-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Retro Nigeria 1998 home Football jersey retro",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/019_Retro-Nigeria-1998-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Retro 1996 98 Nigeria away Football jersey retro",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/020_Retro-1996-98-Nigeria-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Retro Nigeria 1996 home Football jersey retro",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/021_Retro-Nigeria-1996-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Retro 1994 95 Nigeria home Football jersey retro",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/022_Retro-1994-95-Nigeria-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Kids Retro 1994 95 Nigeria Home Kids Football jersey",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/023_Kids-Retro-1994-95-Nigeria-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — Retro 1994 Nigeria away Football jersey retro",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/024_Retro-1994-Nigeria-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Nigeria — 2024 25 Nigeria short sleeved training shirt",
+    "category": "national",
+    "group": "Nigeria",
+    "image": "assets/equipes-nationales/Afrique/nigeria/025_2024-25-Nigeria-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — 2025 26 Senegal Away Football jersey",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/002_2025-26-Senegal-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — Player version 2025 26 Senegal Away Football jersey World Cup",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/003_Player-version-2025-26-Senegal-Away-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — Player version 2025 26 Senegal Home Football jersey World Cup",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/005_Player-version-2025-26-Senegal-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — 2024 25 Senegal Home Football jersey",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/006_2024-25-Senegal-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — 2024 25 Senegal Home Football jersey",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/007_2024-25-Senegal-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — 2023 Senegal Away Football jersey",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/008_2023-Senegal-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — 2022 Senegal World Cup Home Football jersey",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/009_2022-Senegal-World-Cup-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — Retro 2002 Senegal white Football jersey retro",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/010_Retro-2002-Senegal-white-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — Retro 2002 Senegal green Football jersey retro",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/011_Retro-2002-Senegal-green-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — Senegal Windbreaker",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/012_Senegal-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — 2025 26 season Senegal jacket suit",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/013_2025-26-season-Senegal-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — 2025 26 Windbreaker Senegal",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/014_2025-26-Windbreaker-Senegal.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Sénégal — 2025 26 Windbreaker Senegal",
+    "category": "national",
+    "group": "Sénégal",
+    "image": "assets/equipes-nationales/Afrique/senegal/015_2025-26-Windbreaker-Senegal.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Tunisie — KIDS 2026 Tunisia away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Tunisie",
+    "image": "assets/equipes-nationales/Afrique/tunisie/001_KIDS-2026-Tunisia-away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Tunisie — KIDS 2026 Tunisia Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Tunisie",
+    "image": "assets/equipes-nationales/Afrique/tunisie/002_KIDS-2026-Tunisia-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Tunisie — 2025 26 Trench Coat Reversible windbreaker Tunisia",
+    "category": "national",
+    "group": "Tunisie",
+    "image": "assets/equipes-nationales/Afrique/tunisie/003_2025-26-Trench-Coat-Reversible-windbreaker-Tunisia.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Canada Connor McDavid 2025 Black Hockey Team 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/001_Canada-Connor-McDavid-2025-Black-Hockey-Team-4-Nations-Face-Off-Jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Canada 2025 Black Hockey Team 4 Nations Face Off Custom Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/002_Canada-2025-Black-Hockey-Team-4-Nations-Face-Off-Custom-Jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Canada Sidney Crosby 2025 Black Hockey Team 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/003_Canada-Sidney-Crosby-2025-Black-Hockey-Team-4-Nations-Face-Off-Jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Canada Nathan MacKinnon 2025 Black Hockey Team 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/004_Canada-Nathan-MacKinnon-2025-Black-Hockey-Team-4-Nations-Face-Off-Jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Mens Nike White Hockey Canada Custom Fan jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/005_Mens-Nike-White-Hockey-Canada-Custom-Fan-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Unisex Blank White Hockey Canada Alternate Fan jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/006_Unisex-Blank-White-Hockey-Canada-Alternate-Fan-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Unisex White Hockey Canada Alternate Fan edition Custom Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/007_Unisex-White-Hockey-Canada-Alternate-Fan-edition-Custom-Jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Canada Connor McDavid 2025 Red Hockey Team 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/008_Canada-Connor-McDavid-2025-Red-Hockey-Team-4-Nations-Face-Off-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Canada Sidney Crosby 2025 Red Hockey Team 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/009_Canada-Sidney-Crosby-2025-Red-Hockey-Team-4-Nations-Face-Off-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Canada Nathan MacKinnon 2025 Red Hockey Team 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/010_Canada-Nathan-MacKinnon-2025-Red-Hockey-Team-4-Nations-Face-Off-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Mens Nike Red Hockey Canada Custom Fan jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/011_Mens-Nike-Red-Hockey-Canada-Custom-Fan-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Canada 2025 Red Hockey Team 4 Nations Face Off Custom Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/012_Canada-2025-Red-Hockey-Team-4-Nations-Face-Off-Custom-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Unisex Blank Red Hockey Canada Alternate Fan jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/013_Unisex-Blank-Red-Hockey-Canada-Alternate-Fan-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Unisex Red Hockey Canada Alternate Fan edition Custom Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/014_Unisex-Red-Hockey-Canada-Alternate-Fan-edition-Custom-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Vladimir Guerrero Jr Toronto Blue Jays Nike Canada Day Player Jersey Red",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/015_Vladimir-Guerrero-Jr-Toronto-Blue-Jays-Nike-Canada-Day-Player-Jersey-Red.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — 2026 Blue Jays 50th Season Roots Canada Black Jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/016_2026-Blue-Jays-50th-Season-Roots-Canada-Black-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Player version 2025 26 Canada Home Football jersey World Cup",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/018_Player-version-2025-26-Canada-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — Player version 2025 26 Canada Football jersey World Cup",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/019_Player-version-2025-26-Canada-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — 2024 25 Canada Home Football jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/021_2024-25-Canada-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — 2024 25 Canada Away Football jersey",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/022_2024-25-Canada-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — 22 23 Canada White",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/023_22-23-Canada-White.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — 22 23 Canada Black",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/024_22-23-Canada-Black.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Canada — 2022 Womens Canada Black Sizes",
+    "category": "national",
+    "group": "Canada",
+    "image": "assets/equipes-nationales/Ameriques/canada/025_2022-Womens-Canada-Black-Sizes.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Chili — 2024 25 Chile Home Football jersey",
+    "category": "national",
+    "group": "Chili",
+    "image": "assets/equipes-nationales/Ameriques/chili/002_2024-25-Chile-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Chili — 2024 25 Chile Away Football jersey",
+    "category": "national",
+    "group": "Chili",
+    "image": "assets/equipes-nationales/Ameriques/chili/003_2024-25-Chile-Away-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Chili — Retro 2016 17 Chile Home Soccer jersey Retro",
+    "category": "national",
+    "group": "Chili",
+    "image": "assets/equipes-nationales/Ameriques/chili/004_Retro-2016-17-Chile-Home-Soccer-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Chili — Retro 2015 16 Chile Home Soccer jersey Retro",
+    "category": "national",
+    "group": "Chili",
+    "image": "assets/equipes-nationales/Ameriques/chili/005_Retro-2015-16-Chile-Home-Soccer-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Chili — Retro 2014 Chile home Football jersey retro",
+    "category": "national",
+    "group": "Chili",
+    "image": "assets/equipes-nationales/Ameriques/chili/006_Retro-2014-Chile-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Chili — Retro 1998 Chile home Soccer jersey Retro",
+    "category": "national",
+    "group": "Chili",
+    "image": "assets/equipes-nationales/Ameriques/chili/007_Retro-1998-Chile-home-Soccer-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Chili — Retro 1998 Chile Home Soccer jersey Retro Long sleeve",
+    "category": "national",
+    "group": "Chili",
+    "image": "assets/equipes-nationales/Ameriques/chili/008_Retro-1998-Chile-Home-Soccer-jersey-Retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Chili — Retro 1998 Chile away Soccer jersey Retro Long sleeve",
+    "category": "national",
+    "group": "Chili",
+    "image": "assets/equipes-nationales/Ameriques/chili/009_Retro-1998-Chile-away-Soccer-jersey-Retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Chili — Retro 1998 Chile Away Soccer jersey Retro",
+    "category": "national",
+    "group": "Chili",
+    "image": "assets/equipes-nationales/Ameriques/chili/010_Retro-1998-Chile-Away-Soccer-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Women 2025 26 Colombia Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/007_Women-2025-26-Colombia-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — KIDS 2025 26 Colombia Home KIDS Soccer Jersey World Cup",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/008_KIDS-2025-26-Colombia-Home-KIDS-Soccer-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player Version 2026 shorts Colombia",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/009_Player-Version-2026-shorts-Colombia.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player Version Shorts 2026 Shorts Colombia",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/010_Player-Version-Shorts-2026-Shorts-Colombia.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player Version 2026 shorts Colombia",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/011_Player-Version-2026-shorts-Colombia.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2025 26 Colombia Away Football Jersey World Cup",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/012_2025-26-Colombia-Away-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2025 26 Colombia Away Football Jersey World Cup",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/013_Player-2025-26-Colombia-Away-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2025 26 Columbia Cotton T shirt Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/015_2025-26-Columbia-Cotton-T-shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2026 Colombia Terrace Icons T Shirt Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/016_2026-Colombia-Terrace-Icons-T-Shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2026 Colombia Terrace Icons T Shirt Football Jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/017_Player-2026-Colombia-Terrace-Icons-T-Shirt-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2026 Colombia Terrace Icons T Shirt Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/018_2026-Colombia-Terrace-Icons-T-Shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2026 Colombia Terrace Icons T Shirt Football Jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/019_Player-2026-Colombia-Terrace-Icons-T-Shirt-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2026 Colombia Special Edition Football Jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/020_Player-2026-Colombia-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2026 Colombia Terrace Icons T Shirt Football Jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/021_Player-2026-Colombia-Terrace-Icons-T-Shirt-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2026 Columbia polo T Shirt Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/022_2026-Columbia-polo-T-Shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2026 Colombia Training Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/023_2026-Colombia-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2026 Colombia Training Football Jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/024_Player-2026-Colombia-Training-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2026 Colombia Training Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/025_2026-Colombia-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2026 Colombia Training Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/026_2026-Colombia-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2026 Colombia Training Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/027_2026-Colombia-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2026 Colombia Special Edition Football Jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/028_Player-2026-Colombia-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2026 Colombia Special Edition Football Jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/029_Player-2026-Colombia-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia Home Football jersey Columbia",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/030_2024-25-Colombia-Home-Football-jersey-Columbia.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2024 25 Colombia Home Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/031_Player-2024-25-Colombia-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia Home KIDS Soccer Jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/032_2024-25-Colombia-Home-KIDS-Soccer-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player Edition 2024 25 Colombia Centennial Edition",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/033_Player-Edition-2024-25-Colombia-Centennial-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player Edition 2024 25 Colombia Centennial Edition Long sleeve",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/034_Player-Edition-2024-25-Colombia-Centennial-Edition-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia Centennial Edition",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/035_2024-25-Colombia-Centennial-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia Centennial Edition KIDS Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/036_2024-25-Colombia-Centennial-Edition-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia Centennial Edition",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/037_2024-25-Colombia-Centennial-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia Away Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/038_2024-25-Colombia-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Player 2024 25 Colombia Away Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/039_Player-2024-25-Colombia-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia Away KIDS Soccer Jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/040_2024-25-Colombia-Away-KIDS-Soccer-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia Commemorative cotton T shirt Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/041_2024-25-Colombia-Commemorative-cotton-T-shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Retro 2014 Colombia Home Football jersey Retro",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/042_Retro-2014-Colombia-Home-Football-jersey-Retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — retro 2003 05 Colombia Home Football jersey retro",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/043_retro-2003-05-Colombia-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Retro 2001 02 Colombia Home Football jersey Retro",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/044_Retro-2001-02-Colombia-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — retro 1994 Colombia Home Football jersey retro",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/045_retro-1994-Colombia-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — retro 1994 Colombia Away Football jersey retro",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/046_retro-1994-Colombia-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — retro 1998 Colombia Away Football jersey retro",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/047_retro-1998-Colombia-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Retro 1990 Colombia Home Football jersey Retro",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/048_Retro-1990-Colombia-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Kids Retro 1990 Colombia Away Kids Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/049_Kids-Retro-1990-Colombia-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Retro Colombia 1990 home Football jersey retro Columbia",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/050_Retro-Colombia-1990-home-Football-jersey-retro-Columbia.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Kids Retro 1990 Colombia Home Kids Football jersey",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/051_Kids-Retro-1990-Colombia-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — retro 1990 Colombia Goalkeeper Football jersey retro",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/052_retro-1990-Colombia-Goalkeeper-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — retro 1990 Colombia Goalkeeper Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/053_retro-1990-Colombia-Goalkeeper-Football-jersey-retro-Long-Sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia Windbreaker",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/054_2024-25-Colombia-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2024 25 Colombia jacket suit",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/055_2024-25-Colombia-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — 2025 26 season Colombia jacket suit",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/056_2025-26-season-Colombia-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — retro 1994 Colombia Away Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/057_retro-1994-Colombia-Away-Football-jersey-retro-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Football socks Colombia Home 2026",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/058_Football-socks-Colombia-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Colombie — Football socks Colombia Away 2026",
+    "category": "national",
+    "group": "Colombie",
+    "image": "assets/equipes-nationales/Ameriques/colombie/059_Football-socks-Colombia-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — KIDS 2025 26 USA Home KIDS Football jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/002_KIDS-2025-26-USA-Home-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Player 2025 26 USA Away Football Jersey World Cup",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/004_Player-2025-26-USA-Away-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — KIDS 2025 26 USA Away KIDS Football jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/005_KIDS-2025-26-USA-Away-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Player version 2025 26 USA Special Edition Football jersey World Cup",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/006_Player-version-2025-26-USA-Special-Edition-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 2025 26 USA Special Edition Football jersey World Cup",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/007_2025-26-USA-Special-Edition-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 2025 26 USA Statue of Liberty Football Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/008_2025-26-USA-Statue-of-Liberty-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 2024 25 United States home Football jersey USA",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/009_2024-25-United-States-home-Football-jersey-USA.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 24 25 USA Away Football jersey United States",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/010_24-25-USA-Away-Football-jersey-United-States.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 24 25 United States Players USA Away Football jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/011_24-25-United-States-Players-USA-Away-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 22 23 United States USA Away",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/012_22-23-United-States-USA-Away.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 22 23 United States USA Concept",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/013_22-23-United-States-USA-Concept.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 22 23 United States USA Home United States",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/014_22-23-United-States-USA-Home-United-States.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 22 23 United States USA Away United States",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/015_22-23-United-States-USA-Away-United-States.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 2020 United States home Football jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/016_Retro-2020-United-States-home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 2019 USA Home United States Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/017_Retro-2019-USA-Home-United-States-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 2014 USA Away Football jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/018_Retro-2014-USA-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 2014 USA Away United States Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/019_Retro-2014-USA-Away-United-States-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 2014 USA Home United States Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/020_Retro-2014-USA-Home-United-States-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 1994 United States away Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/021_Retro-1994-United-States-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 1994 USA Home United States Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/022_Retro-1994-USA-Home-United-States-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 1994 USA 2Away United States Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/023_Retro-1994-USA-2Away-United-States-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 1994 USA Home United States Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/024_Retro-1994-USA-Home-United-States-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Retro 1994 USA Away United States Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/025_Retro-1994-USA-Away-United-States-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — retro 2002 USA Away Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/027_retro-2002-USA-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — retro 2002 USA Home Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/028_retro-2002-USA-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — retro 2010 USA Away Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/029_retro-2010-USA-Away-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — 2026 USA Goalkeeper Football Jersey Long Sleeve",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/030_2026-USA-Goalkeeper-Football-Jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Kids Retro 2014 USA Away Kids Football jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/035_Kids-Retro-2014-USA-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — retro 2013 USA Home Football jersey retro",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/036_retro-2013-USA-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Team USA Jayson Tatum 10 White Mens Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/038_Team-USA-Jayson-Tatum-10-White-Mens-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Corey Seager Texas Rangers Nike USA 250 Fourth of July Home Stadium Jersey White",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/039_Corey-Seager-Texas-Rangers-Nike-USA-250-Fourth-of-July-Home-Stadium-Jersey-White.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Yoshinobu Yamamoto Los Angeles Dodgers Nike USA 250 Fourth of July Home Stadium",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/040_Yoshinobu-Yamamoto-Los-Angeles-Dodgers-Nike-USA-250-Fourth-of-July-Home-Stadium-.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Shohei Ohtani Los Angeles Dodgers Nike Youth USA 250 Fourth of July Home Replica",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/041_Shohei-Ohtani-Los-Angeles-Dodgers-Nike-Youth-USA-250-Fourth-of-July-Home-Replica.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Mookie Betts Los Angeles Dodgers Nike USA 250 Fourth of July Home Stadium Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/042_Mookie-Betts-Los-Angeles-Dodgers-Nike-USA-250-Fourth-of-July-Home-Stadium-Jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Freddie Freeman Los Angeles Dodgers Nike USA 250 Fourth of July Home Stadium Jer",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/043_Freddie-Freeman-Los-Angeles-Dodgers-Nike-USA-250-Fourth-of-July-Home-Stadium-Jer.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Shohei Ohtani Los Angeles Dodgers Nike USA 250 Fourth of July Home Stadium Jerse",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/044_Shohei-Ohtani-Los-Angeles-Dodgers-Nike-USA-250-Fourth-of-July-Home-Stadium-Jerse.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Aaron Judge New York Yankees Nike Womens USA 250 Fourth of July Home Stadium Jer",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/045_Aaron-Judge-New-York-Yankees-Nike-Womens-USA-250-Fourth-of-July-Home-Stadium-Jer.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Aaron Judge New York Yankees Nike USA 250 Fourth of July Home Stadium Jersey Whi",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/046_Aaron-Judge-New-York-Yankees-Nike-USA-250-Fourth-of-July-Home-Stadium-Jersey-Whi.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Bryce Harper Philadelphia Phillies Nike USA 250 Fourth of July Road Stadium Jers",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/047_Bryce-Harper-Philadelphia-Phillies-Nike-USA-250-Fourth-of-July-Road-Stadium-Jers.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Manny Machado San Diego Padres Nike USA 250 Fourth of July Alternate Stadium Jer",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/048_Manny-Machado-San-Diego-Padres-Nike-USA-250-Fourth-of-July-Alternate-Stadium-Jer.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Jung Hoo Lee San Francisco Giants Nike USA 250 Fourth of July Road Stadium Jerse",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/049_Jung-Hoo-Lee-San-Francisco-Giants-Nike-USA-250-Fourth-of-July-Road-Stadium-Jerse.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Cal Raleigh Seattle Mariners Nike USA 250 Fourth of July Home Stadium Jersey Whi",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/050_Cal-Raleigh-Seattle-Mariners-Nike-USA-250-Fourth-of-July-Home-Stadium-Jersey-Whi.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Aaron Judge New York Yankees Nike Youth USA 250 Fourth of July Home Replica Jers",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/051_Aaron-Judge-New-York-Yankees-Nike-Youth-USA-250-Fourth-of-July-Home-Replica-Jers.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Alex Bregman Chicago Cubs Nike USA 250 Fourth of July Home Stadium Jersey White",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/052_Alex-Bregman-Chicago-Cubs-Nike-USA-250-Fourth-of-July-Home-Stadium-Jersey-White.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Drake Baldwin Atlanta Braves Nike USA 250 Fourth of July Home Stadium Jersey Whi",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/053_Drake-Baldwin-Atlanta-Braves-Nike-USA-250-Fourth-of-July-Home-Stadium-Jersey-Whi.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Ronald Acua Jr Atlanta Braves Nike USA 250 Fourth of July Home Stadium Jersey Wh",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/054_Ronald-Acua-Jr-Atlanta-Braves-Nike-USA-250-Fourth-of-July-Home-Stadium-Jersey-Wh.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Pete Crow Armstrong Chicago Cubs Nike Womens USA 250 Fourth of July Home Stadium",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/055_Pete-Crow-Armstrong-Chicago-Cubs-Nike-Womens-USA-250-Fourth-of-July-Home-Stadium.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Pete Crow Armstrong Chicago Cubs Nike USA 250 Fourth of July Home Stadium Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/056_Pete-Crow-Armstrong-Chicago-Cubs-Nike-USA-250-Fourth-of-July-Home-Stadium-Jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Elly De La Cruz Cincinnati Reds Nike USA 250 Fourth of July Home Stadium Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/057_Elly-De-La-Cruz-Cincinnati-Reds-Nike-USA-250-Fourth-of-July-Home-Stadium-Jersey-.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Tarik Skubal Detroit Tigers Nike USA 250 Fourth of July Road Stadium Jersey Gray",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/058_Tarik-Skubal-Detroit-Tigers-Nike-USA-250-Fourth-of-July-Road-Stadium-Jersey-Gray.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Brady Tkachuk USA 2025 Navy 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/059_Brady-Tkachuk-USA-2025-Navy-4-Nations-Face-Off-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Auston Matthews USA 2025 Navy 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/060_Auston-Matthews-USA-2025-Navy-4-Nations-Face-Off-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Matthew Tkachuk USA 2025 Navy 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/061_Matthew-Tkachuk-USA-2025-Navy-4-Nations-Face-Off-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Jack Hughes USA 2025 Navy 4 Nations Face Off Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/062_Jack-Hughes-USA-2025-Navy-4-Nations-Face-Off-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — USA 2025 Navy 4 Nations Face Off Custom Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/063_USA-2025-Navy-4-Nations-Face-Off-Custom-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "États-Unis — Team USA LeBron James 6 Blue Mens Jersey",
+    "category": "national",
+    "group": "États-Unis",
+    "image": "assets/equipes-nationales/Ameriques/etats-unis/064_Team-USA-LeBron-James-6-Blue-Mens-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player version 2025 26 Mexico Home Football jersey Long sleeves World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/004_Player-version-2025-26-Mexico-Home-Football-jersey-Long-sleeves-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Women 2026 Mexico home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/005_Women-2026-Mexico-home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — KIDS 2025 26 Mexico Home Football jersey KIDS World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/006_KIDS-2025-26-Mexico-Home-Football-jersey-KIDS-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — KIDS 2026 Mexico Home KIDS Football jersey Long Sleeve World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/007_KIDS-2026-Mexico-Home-KIDS-Football-jersey-Long-Sleeve-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 shorts Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/008_2026-shorts-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player Version Shorts 2026 Shorts Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/009_Player-Version-Shorts-2026-Shorts-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player Version Shorts 2026 Shorts Mexico Casual",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/010_Player-Version-Shorts-2026-Shorts-Mexico-Casual.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player version 2025 26 Mexico Away Football jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/013_Player-version-2025-26-Mexico-Away-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Women 2026 Mexico Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/015_Women-2026-Mexico-Away-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — KIDS 2025 26 Mexico Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/016_KIDS-2025-26-Mexico-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2025 26 Mexico Black Eagle Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/019_Player-2025-26-Mexico-Black-Eagle-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2025 26 Mexico Black Eagle Football jersey Long Sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/020_Player-2025-26-Mexico-Black-Eagle-Football-jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Women 2026 Mexico Black Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/021_Women-2026-Mexico-Black-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — KIDS 2026 Mexico Black Eagle KIDS Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/022_KIDS-2026-Mexico-Black-Eagle-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Shorts 2026 Shorts Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/023_Shorts-2026-Shorts-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Shorts Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/024_2026-Shorts-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player Version 2026 Shorts Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/025_Player-Version-2026-Shorts-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico x Someone Somewhere Lifestyle Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/026_2026-Mexico-x-Someone-Somewhere-Lifestyle-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico x Someone Somewhere Lifestyle Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/027_Player-2026-Mexico-x-Someone-Somewhere-Lifestyle-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico adidas AFA Bringback Remixed Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/028_2026-Mexico-adidas-AFA-Bringback-Remixed-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Training Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/029_2026-Mexico-Training-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Third Kit Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/030_Player-2026-Mexico-Third-Kit-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player Version Shorts 2026 Shorts Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/031_Player-Version-Shorts-2026-Shorts-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Training Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/032_2026-Mexico-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Training Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/033_Player-2026-Mexico-Training-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/034_2026-Mexico-Goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Goalkeeper Football jersey Long Sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/035_2026-Mexico-Goalkeeper-Football-jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/036_2026-Mexico-Goalkeeper-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Training Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/037_Player-2026-Mexico-Training-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Goalkeeper Football jersey Long Sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/038_2026-Mexico-Goalkeeper-Football-jersey-Long-Sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — KIDS 2026 Mexico goalkeeper KIDS Football jersey Long Sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/039_KIDS-2026-Mexico-goalkeeper-KIDS-Football-jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Special Edition Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/040_2026-Mexico-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Special Edition Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/041_Player-2026-Mexico-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/042_2026-Mexico-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/043_2026-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Originals Green Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/044_2026-Mexico-Originals-Green-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/045_2026-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Terrace Icons T Shirt Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/046_2026-Mexico-Terrace-Icons-T-Shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/047_2026-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Terrace Icons T Shirt Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/048_Player-2026-Mexico-Terrace-Icons-T-Shirt-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Terrace Icons T Shirt Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/049_2026-Mexico-Terrace-Icons-T-Shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Terrace Icons T Shirt Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/050_Player-2026-Mexico-Terrace-Icons-T-Shirt-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Special Edition Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/051_Player-2026-Mexico-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Special Edition Football Jersey Long Sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/052_Player-2026-Mexico-Special-Edition-Football-Jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Women 2026 Mexico Special Edition Womens Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/053_Women-2026-Mexico-Special-Edition-Womens-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Special Edition Football Jersey Long Sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/054_Player-2026-Mexico-Special-Edition-Football-Jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/055_2026-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Special Edition Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/056_Player-2026-Mexico-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Special Edition Football Jersey Long Sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/057_Player-2026-Mexico-Special-Edition-Football-Jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Training Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/058_2026-Mexico-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/059_2026-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/060_2026-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/061_2026-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Mexico Vest Gold Black Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/062_2026-Mexico-Vest-Gold-Black-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Special Edition Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/063_Player-2026-Mexico-Special-Edition-Football-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2026 Mexico Special Edition Football Jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/064_Player-2026-Mexico-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Mexico Football jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/065_2025-26-Mexico-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player version 2025 26 Mexico Special Edition Football jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/066_Player-version-2025-26-Mexico-Special-Edition-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — KIDS 2025 26 Mexico Special Edition KIDS Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/069_KIDS-2025-26-Mexico-Special-Edition-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/070_2025-26-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — KIDS 2025 26 Mexico Special Edition KIDS Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/071_KIDS-2025-26-Mexico-Special-Edition-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/072_2025-26-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — KIDS 2025 26 Mexico Special Edition KIDS Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/073_KIDS-2025-26-Mexico-Special-Edition-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/074_2025-26-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Mexico Concept Edition Football Jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/075_2025-26-Mexico-Concept-Edition-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Mexico Concept Edition Football Jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/076_2025-26-Mexico-Concept-Edition-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Mexico Concept Edition Football Jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/077_2025-26-Mexico-Concept-Edition-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/078_2025-26-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2025 26 Mexico Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/079_Player-2025-26-Mexico-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2025 26 Mexico Green Eagle Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/080_Player-2025-26-Mexico-Green-Eagle-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player version 2025 26 Mexico Special Edition Football jersey World Cup",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/081_Player-version-2025-26-Mexico-Special-Edition-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2025 26 Mexico Black Eagle Special Edition Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/082_Player-2025-26-Mexico-Black-Eagle-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Home Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/083_2024-25-Mexico-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 PLAYER Mexico Home Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/084_2024-25-PLAYER-Mexico-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Away Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/085_2024-25-Mexico-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player Edition 2024 25 Mexico Away Soccer jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/086_Player-Edition-2024-25-Mexico-Away-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Goalkeeper Black Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/087_2024-25-Mexico-Goalkeeper-Black-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Pre Game Soccer jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/088_2024-25-Mexico-Pre-Game-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/089_2024-25-Mexico-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/090_2024-25-Mexico-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Especial Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/091_2024-25-Mexico-Especial-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 PLAYER Mexico Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/092_2024-25-PLAYER-Mexico-Goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player Edition 2024 25 Mexico Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/093_Player-Edition-2024-25-Mexico-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player Edition 2024 25 Mexico Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/094_Player-Edition-2024-25-Mexico-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player Edition 2024 25 Mexico Special Edition Soccer jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/095_Player-Edition-2024-25-Mexico-Special-Edition-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2023 24 Mexico Away Soccer jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/096_2023-24-Mexico-Away-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 22 23 Mexico home Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/097_22-23-Mexico-home-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2022 Mexico WORLD CUP ICON Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/098_Retro-2022-Mexico-WORLD-CUP-ICON-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2022 Mexico World Cup goalkeeper Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/099_Retro-2022-Mexico-World-Cup-goalkeeper-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2020 Mexico Home Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/100_Retro-2020-Mexico-Home-Soccer-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2020 Mexico Away Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/101_Retro-2020-Mexico-Away-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2022 Mexico Away Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/102_Retro-2022-Mexico-Away-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Player 2022 23 Mexico Home Soccer jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/103_Player-2022-23-Mexico-Home-Soccer-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2019 Mexico Home Soccer jersey retro Long sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/104_Retro-2019-Mexico-Home-Soccer-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2019 Mexico Home Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/105_Retro-2019-Mexico-Home-Soccer-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2014 Mexico Home Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/106_Retro-2014-Mexico-Home-Soccer-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2014 Mexico Home Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/107_Retro-2014-Mexico-Home-Soccer-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2011 12 Mexico Away Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/108_Retro-2011-12-Mexico-Away-Soccer-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2011 12 Mexico Away Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/109_Retro-2011-12-Mexico-Away-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2011 12 Mexico Away Soccer jersey retro Long sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/110_Retro-2011-12-Mexico-Away-Soccer-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2010 Mexico away Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/111_Retro-2010-Mexico-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — retro 2010 Mexico home retro football jersey Fan version",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/112_retro-2010-Mexico-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro Mexico 2006 Home Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/113_Retro-Mexico-2006-Home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — retro 2006 Mexico Away Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/114_retro-2006-Mexico-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2004 Mexico Home Soccer jersey retro Long sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/115_Retro-2004-Mexico-Home-Soccer-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — retro 2004 Mexico Home Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/116_retro-2004-Mexico-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2002 Mexico Home Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/117_Retro-2002-Mexico-Home-Soccer-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2002 Mexico Home Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/118_Retro-2002-Mexico-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2002 Mexico Away Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/119_Retro-2002-Mexico-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 2002 Mexico Third Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/120_Retro-2002-Mexico-Third-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico red Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/121_Retro-1998-Mexico-red-Soccer-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico black Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/122_Retro-1998-Mexico-black-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico away Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/123_Retro-1998-Mexico-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico Away Soccer jersey retro Long sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/124_Retro-1998-Mexico-Away-Soccer-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — retro 1998 Mexico away retro football jersey Fan version",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/125_retro-1998-Mexico-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — retro 1998 Mexico away Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/126_retro-1998-Mexico-away-Football-jersey-retro-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico home Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/127_Retro-1998-Mexico-home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico Home Soccer jersey retro Long sleeve",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/128_Retro-1998-Mexico-Home-Soccer-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico home Kids Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/129_Retro-1998-Mexico-home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico Goalkeeper CAMPOS 1 Home Yellow Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/130_Retro-1998-Mexico-Goalkeeper-CAMPOS-1-Home-Yellow-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico CAMPOS 1 Home Black Pink football jersey Retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/131_Retro-1998-Mexico-CAMPOS-1-Home-Black-Pink-football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico Goalkeeper CAMPOS 1 WORLD CUP CAMPOS 1 Home Pink football jers",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/132_Retro-1998-Mexico-Goalkeeper-CAMPOS-1-WORLD-CUP-CAMPOS-1-Home-Pink-football-jers.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico CAMPOS 1 WORLD CUP HOME Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/133_Retro-1998-Mexico-CAMPOS-1-WORLD-CUP-HOME-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1998 Mexico World Cup Goalkeeper Red Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/134_Retro-1998-Mexico-World-Cup-Goalkeeper-Red-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1997 Mexico Away Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/135_Retro-1997-Mexico-Away-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — retro 1997 Mexico fourth away Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/136_retro-1997-Mexico-fourth-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro Mexico 1995 home Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/137_Retro-Mexico-1995-home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1995 Mexico Away Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/138_Retro-1995-Mexico-Away-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1995 Mexico Away Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/139_Retro-1995-Mexico-Away-Soccer-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1995 Mexico CAMPOS 9 Home Yellow Football jersey Retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/140_Retro-1995-Mexico-CAMPOS-9-Home-Yellow-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1995 Mexico CAMPOS 9 Home Orange Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/141_Retro-1995-Mexico-CAMPOS-9-Home-Orange-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1995 Mexico Goalkeeper Campos Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/142_Retro-1995-Mexico-Goalkeeper-Campos-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1994 Mexico Home Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/143_Retro-1994-Mexico-Home-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1994 Mexico Away Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/144_Retro-1994-Mexico-Away-Goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1994 Mexico Jorge Campos Home Green Goalkeeper Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/145_Retro-1994-Mexico-Jorge-Campos-Home-Green-Goalkeeper-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1994 World Cup Mexico Goalkeeper Jorge Campos Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/146_Retro-1994-World-Cup-Mexico-Goalkeeper-Jorge-Campos-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1992 93 Mexico Goalkeeper CAMPOS 1 Home Green football jersey Retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/147_Retro-1992-93-Mexico-Goalkeeper-CAMPOS-1-Home-Green-football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1992 93 Mexico Goalkeeper CAMPOS 1 Home Pink Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/148_Retro-1992-93-Mexico-Goalkeeper-CAMPOS-1-Home-Pink-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1990 Mexico Home Soccer jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/149_Retro-1990-Mexico-Home-Soccer-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro Mexico 1986 home Football jersey retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/150_Retro-Mexico-1986-home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Retro 1970 Mexico home Football jersey Retro",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/151_Retro-1970-Mexico-home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/152_2024-25-Mexico-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico short sleeved training shirt",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/153_2024-25-Mexico-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/154_2024-25-Mexico-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico short sleeved training shirt",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/155_2024-25-Mexico-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/156_2024-25-Mexico-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico short sleeved training shirt",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/157_2024-25-Mexico-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico jacket Suit set",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/158_2024-25-Mexico-jacket-Suit-set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico jacket suit",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/159_2024-25-Mexico-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2022 Mexico jacket suit",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/160_2022-Mexico-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico jacket suit",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/161_2024-25-Mexico-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico half pull training suit",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/162_2024-25-Mexico-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 1999 Mexico Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/163_1999-Mexico-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/164_2024-25-Mexico-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2024 25 Mexico Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/165_2024-25-Mexico-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 1999 Mexico Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/166_1999-Mexico-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 1999 Mexico Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/167_1999-Mexico-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 1995 Mexico Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/168_1995-Mexico-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 1994 Mexico Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/169_1994-Mexico-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/170_Mexico-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/171_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/172_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/173_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/174_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/175_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/176_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/177_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/178_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/179_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/180_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/181_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/182_Mexico-Windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/183_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/184_Mexico-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Mexico Windbreaker",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/185_Mexico-Windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Trench Coat Reversible windbreaker Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/186_2025-26-Trench-Coat-Reversible-windbreaker-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Trench Coat Reversible windbreaker Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/187_2025-26-Trench-Coat-Reversible-windbreaker-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Trench Coat Reversible windbreaker Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/188_2025-26-Trench-Coat-Reversible-windbreaker-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Trench Coat Reversible windbreaker Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/189_2025-26-Trench-Coat-Reversible-windbreaker-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Trench Coat Reversible windbreaker Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/190_2025-26-Trench-Coat-Reversible-windbreaker-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2025 26 Trench Coat Reversible windbreaker Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/191_2025-26-Trench-Coat-Reversible-windbreaker-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Football socks Mexico Home 2026",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/192_Football-socks-Mexico-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — Football socks Mexico Away 2026",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/193_Football-socks-Mexico-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Windbreaker Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/194_2026-Windbreaker-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Windbreaker Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/195_2026-Windbreaker-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 Windbreaker Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/196_2026-Windbreaker-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Mexique — 2026 half pull training suit Mexico",
+    "category": "national",
+    "group": "Mexique",
+    "image": "assets/equipes-nationales/Ameriques/mexique/197_2026-half-pull-training-suit-Mexico.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2025 26 Uruguay Home Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/005_2025-26-Uruguay-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2025 26 Uruguay Away Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/006_2025-26-Uruguay-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2024 25 Uruguay Away Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/007_2024-25-Uruguay-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2024 25 Uruguay Home Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/008_2024-25-Uruguay-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2024 25 Uruguay Pre Jogo Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/009_2024-25-Uruguay-Pre-Jogo-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2024 25 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/010_2024-25-Uruguay-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2024 25 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/011_2024-25-Uruguay-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2024 25 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/012_2024-25-Uruguay-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2024 25 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/013_2024-25-Uruguay-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2024 25 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/014_2024-25-Uruguay-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2024 25 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/015_2024-25-Uruguay-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 22 23 Uruguay Home National Team",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/016_22-23-Uruguay-Home-National-Team.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 22 23 Uruguay away",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/017_22-23-Uruguay-away.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2022 Uruguay Nationals Athletic",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/018_2022-Uruguay-Nationals-Athletic.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2026 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/019_2026-Uruguay-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2026 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/020_2026-Uruguay-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2026 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/021_2026-Uruguay-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Uruguay — 2026 Uruguay Special Edition Football jersey",
+    "category": "national",
+    "group": "Uruguay",
+    "image": "assets/equipes-nationales/Ameriques/uruguay/022_2026-Uruguay-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Arabie saoudite — Player 2026 Saudi Arabia Special Edition Football Jersey",
+    "category": "national",
+    "group": "Arabie saoudite",
+    "image": "assets/equipes-nationales/Asie-Oceanie/arabie-saoudite/001_Player-2026-Saudi-Arabia-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Arabie saoudite — KIDS 2026 Saudi Arabia home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Arabie saoudite",
+    "image": "assets/equipes-nationales/Asie-Oceanie/arabie-saoudite/004_KIDS-2026-Saudi-Arabia-home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Arabie saoudite — Player 2025 26 Saudi Arabia Home Football Jersey World Cup",
+    "category": "national",
+    "group": "Arabie saoudite",
+    "image": "assets/equipes-nationales/Asie-Oceanie/arabie-saoudite/005_Player-2025-26-Saudi-Arabia-Home-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Arabie saoudite — Player version 2025 26 Saudi Arabia Away Football jersey World Cup",
+    "category": "national",
+    "group": "Arabie saoudite",
+    "image": "assets/equipes-nationales/Asie-Oceanie/arabie-saoudite/007_Player-version-2025-26-Saudi-Arabia-Away-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Australie — 2026 Australia Kangaroos Green with Gold V Chevron Jersey",
+    "category": "national",
+    "group": "Australie",
+    "image": "assets/equipes-nationales/Asie-Oceanie/australie/001_2026-Australia-Kangaroos-Green-with-Gold-V-Chevron-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Australie — 2026 Australia Wallabies Green with Indigenous Art Design Jersey",
+    "category": "national",
+    "group": "Australie",
+    "image": "assets/equipes-nationales/Asie-Oceanie/australie/002_2026-Australia-Wallabies-Green-with-Indigenous-Art-Design-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Australie — 2526 Australia Rugby League Team Teal White Navy with Brush Stroke Design Jersey",
+    "category": "national",
+    "group": "Australie",
+    "image": "assets/equipes-nationales/Asie-Oceanie/australie/003_2526-Australia-Rugby-League-Team-Teal-White-Navy-with-Brush-Stroke-Design-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Australie — 2026 Australia Wallabies Light Blue with Indigenous Art Design Training Singlet",
+    "category": "national",
+    "group": "Australie",
+    "image": "assets/equipes-nationales/Asie-Oceanie/australie/004_2026-Australia-Wallabies-Light-Blue-with-Indigenous-Art-Design-Training-Singlet-.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Australie — 2026 Australia Wallabies Gold with Green Accents Jersey",
+    "category": "national",
+    "group": "Australie",
+    "image": "assets/equipes-nationales/Asie-Oceanie/australie/005_2026-Australia-Wallabies-Gold-with-Green-Accents-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Australie — 2026 Australia Kangaroos Away White with Green Trim and Indigenous Aboriginal Do",
+    "category": "national",
+    "group": "Australie",
+    "image": "assets/equipes-nationales/Asie-Oceanie/australie/006_2026-Australia-Kangaroos-Away-White-with-Green-Trim-and-Indigenous-Aboriginal-Do.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Australie — 2024 25 Australia Home Football jersey",
+    "category": "national",
+    "group": "Australie",
+    "image": "assets/equipes-nationales/Asie-Oceanie/australie/007_2024-25-Australia-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — Player 2026 Korea Away Football jersey",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/001_Player-2026-Korea-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — Player 2026 Korea Away Football jersey",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/002_Player-2026-Korea-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — Women 2026 Korea Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/003_Women-2026-Korea-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — Women 2026 Korea Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/004_Women-2026-Korea-Away-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — KIDS 2026 Korea Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/006_KIDS-2026-Korea-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — KIDS 2026 Korea Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/007_KIDS-2026-Korea-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — Shorts 2026 Shorts Korea",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/010_Shorts-2026-Shorts-Korea.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — 2026 Korea Pre Match Football jersey",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/011_2026-Korea-Pre-Match-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — Player version 2026 Korea Special Edition Football jersey",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/012_Player-version-2026-Korea-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — Football socks Korea Home 2026",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/013_Football-socks-Korea-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — 2025 26 South Korea Home Football Jersey",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/014_2025-26-South-Korea-Home-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — 2024 25 Player Korea Special Edition Football jersey",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/015_2024-25-Player-Korea-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — Player Edition 2024 25 Korea Home",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/016_Player-Edition-2024-25-Korea-Home.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — 22 23 Korean away national team",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/017_22-23-Korean-away-national-team.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — 22 23 Korean home",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/018_22-23-Korean-home.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — 20 21 South Korea away",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/019_20-21-South-Korea-away.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — 20 21 South Korea home",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/020_20-21-South-Korea-home.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — Retro 02 Korea Team Red Football jersey retro",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/021_Retro-02-Korea-Team-Red-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Corée du Sud — 2202 season korea jacket suit",
+    "category": "national",
+    "group": "Corée du Sud",
+    "image": "assets/equipes-nationales/Asie-Oceanie/coree-du-sud/022_2202-season-korea-jacket-suit.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/001_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/002_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/003_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/004_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/005_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/006_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/007_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/008_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/009_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/010_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/011_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/012_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/013_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/014_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/015_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/016_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/017_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/018_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/019_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/020_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/021_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/022_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Player Edition 2024 25 Japan Home Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/023_Player-Edition-2024-25-Japan-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Home Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/024_2024-25-Japan-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 PLAYER Japan Away Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/026_2024-25-PLAYER-Japan-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 PLAYER Japan Home Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/027_2024-25-PLAYER-Japan-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/028_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/029_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Home Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/030_2024-25-Japan-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/031_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/032_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/033_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/034_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/035_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/036_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Away Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/037_2024-25-Japan-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/038_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/039_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/040_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/041_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/042_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Especial Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/043_2024-25-Japan-Especial-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Especial Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/044_2024-25-Japan-Especial-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/045_2024-25-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/046_2024-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/047_2024-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/048_24-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/049_2024-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/050_24-25-Japan-Special-Edition.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/051_24-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/052_24-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/053_24-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/054_24-25-Japan-Special-Edition.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/055_24-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/056_24-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/057_24-25-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Player Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/058_24-25-Player-Japan-Special-Edition.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Player Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/059_24-25-Player-Japan-Special-Edition.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 24 25 Player Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/060_24-25-Player-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Player Edition 2024 25 Japan Edio Especial",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/061_Player-Edition-2024-25-Japan-Edio-Especial.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Player Edition 2024 25 Japan Edio Especial",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/062_Player-Edition-2024-25-Japan-Edio-Especial.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 23 24 Player Japan Special Edition Jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/063_23-24-Player-Japan-Special-Edition-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 23 24 Japan away",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/064_23-24-Japan-away.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 23 24 Japan Anime Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/065_23-24-Japan-Anime-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 23 24 Players Japan Special Edition Home",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/066_23-24-Players-Japan-Special-Edition-Home.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 23 24 Player Japan White",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/067_23-24-Player-Japan-White.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2023 24 Japan Special Edition Blue",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/068_2023-24-Japan-Special-Edition-Blue.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 23 24 Japan Special Edition",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/069_23-24-Japan-Special-Edition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 22 23 Japanese Concept",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/070_22-23-Japanese-Concept.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 22 23 Japan",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/071_22-23-Japan.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 22 23 Japan Home",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/072_22-23-Japan-Home.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2020 Womens Japan Home Size",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/073_2020-Womens-Japan-Home-Size.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2020 Players Japan Home",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/074_2020-Players-Japan-Home.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2018 Japan home",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/075_2018-Japan-home.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 2016 17 Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/076_Retro-Japan-2016-17-Away-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 2010 Home Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/077_Retro-Japan-2010-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 2006 away Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/078_Retro-Japan-2006-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Version 2006 Japan Home Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/079_Retro-Version-2006-Japan-Home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 2006 Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/080_Retro-Japan-2006-Home-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 2002 home Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/081_Retro-Japan-2002-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 2000 home Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/082_Retro-Japan-2000-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 1999 00 Home Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/083_Retro-Japan-1999-00-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro 1998 Japanese Goalkeeper Red Flame Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/084_Retro-1998-Japanese-Goalkeeper-Red-Flame-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 1998 Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/085_Retro-Japan-1998-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 1998 Home Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/086_Retro-Japan-1998-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro 1998 Japan Home Kids Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/087_Retro-1998-Japan-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 1998 Away Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/088_Retro-Japan-1998-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 1998 Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/089_Retro-Japan-1998-Away-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro 1998 Japan Away Kids Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/090_Retro-1998-Japan-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 1996 Home Football jersey retro",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/091_Retro-Japan-1996-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 1995 Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/092_Retro-Japan-1995-Home-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Retro Japan 1995 Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/093_Retro-Japan-1995-Away-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan jacket suit",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/094_2024-25-Japan-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Japan Windbreaker",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/095_Japan-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2024 25 Japan half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/096_2024-25-Japan-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2025 26 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/097_2025-26-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Player version 2025 26 Japan Special Edition Football jersey World Cup",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/102_Player-version-2025-26-Japan-Special-Edition-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2025 26 Trench Coat Reversible windbreaker Japan",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/104_2025-26-Trench-Coat-Reversible-windbreaker-Japan.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — 2025 26 Trench Coat Reversible windbreaker Japan",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/105_2025-26-Trench-Coat-Reversible-windbreaker-Japan.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Player 2026 Japan Special Edition Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/109_Player-2026-Japan-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Football socks Japan Home 2026",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/110_Football-socks-Japan-Home-2026.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Football socks Japan Away 2026",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/111_Football-socks-Japan-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Player Version Shorts 2026 Shorts Japan Casual",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/112_Player-Version-Shorts-2026-Shorts-Japan-Casual.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Player Version Shorts 2026 Shorts Japan",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/113_Player-Version-Shorts-2026-Shorts-Japan.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Player Version Shorts 2026 Shorts Japan",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/114_Player-Version-Shorts-2026-Shorts-Japan.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Japon — Player 2026 Japan Third Kit Football jersey",
+    "category": "national",
+    "group": "Japon",
+    "image": "assets/equipes-nationales/Asie-Oceanie/japon/115_Player-2026-Japan-Third-Kit-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Qatar — Football socks Qatar Home 2026",
+    "category": "national",
+    "group": "Qatar",
+    "image": "assets/equipes-nationales/Asie-Oceanie/qatar/001_Football-socks-Qatar-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Qatar — KIDS 2026 Qatar Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Qatar",
+    "image": "assets/equipes-nationales/Asie-Oceanie/qatar/002_KIDS-2026-Qatar-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Qatar — Player 2025 26 Qatar Home Football Jersey World Cup",
+    "category": "national",
+    "group": "Qatar",
+    "image": "assets/equipes-nationales/Asie-Oceanie/qatar/003_Player-2025-26-Qatar-Home-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Women 2026 Scotland Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/002_Women-2026-Scotland-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Player 2025 26 Scotland Home Football Jersey World Cup",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/003_Player-2025-26-Scotland-Home-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — KIDS 2025 26 Scotland home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/004_KIDS-2025-26-Scotland-home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — KIDS 2026 Scotland Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/007_KIDS-2026-Scotland-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — 2026 Scotland Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/008_2026-Scotland-Goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — KIDS 2026 Scotland goalkeeper KIDS Football jersey",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/009_KIDS-2026-Scotland-goalkeeper-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — 2025 26 Scotland Home Football jersey World Cup",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/010_2025-26-Scotland-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — 2024 25 Scotland Euro Away Football jersey",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/011_2024-25-Scotland-Euro-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — 2024 25 Scotland Home Football jersey",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/012_2024-25-Scotland-Home-Football-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — 2023 24 Scotland Scotland150th Anniversary football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/013_2023-24-Scotland-Scotland150th-Anniversary-football-jersey-Fan-version.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 2012 14 Scotland home retro football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/014_retro-2012-14-Scotland-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 2002 Scotland away retro football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/015_retro-2002-Scotland-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 2002 Scotland home retro football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/016_retro-2002-Scotland-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 1998 00 Scotland home retro football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/017_retro-1998-00-Scotland-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Retro Scotland 1996 98 Yellow Football jersey retro",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/018_Retro-Scotland-1996-98-Yellow-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 1996 98 Scotland home retro football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/019_retro-1996-98-Scotland-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Retro Scotland 94 96 White Football jersey retro",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/020_Retro-Scotland-94-96-White-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Retro Scotland 1994 96 home Football jersey retro",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/021_Retro-Scotland-1994-96-home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Retro Scotland 1994 away Football jersey retro",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/022_Retro-Scotland-1994-away-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 1992 93 Scotland home retro football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/023_retro-1992-93-Scotland-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 1991 93 Scotland away retro football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/024_retro-1991-93-Scotland-away-retro-football-jersey-Fan-version.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 1988 91 Scotland away retro football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/025_retro-1988-91-Scotland-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Retro Scotland 1988 89 away Football jersey retro",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/026_Retro-Scotland-1988-89-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Retro Scotland 1988 89 third away Football jersey retro",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/027_Retro-Scotland-1988-89-third-away-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 1987 88 Scotland Home retro football jersey Fan version",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/028_retro-1987-88-Scotland-Home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 1982 Scotland Home Football jersey retro",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/029_retro-1982-Scotland-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Retro 1978 Scotland Home Football jersey retro",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/030_Retro-1978-Scotland-Home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — retro 1986 Scotland Away Football jersey retro",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/031_retro-1986-Scotland-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — Football socks Scotland Away 2026",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/032_Football-socks-Scotland-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — 2026 Scotland home Navy Blue Jersey",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/033_2026-Scotland-home-Navy-Blue-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — 2026 Scotland Pink with Purple Trim Jersey",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/Scotland/034_2026-Scotland-Pink-with-Purple-Trim-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — KIDS 2025 26 Wales home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/002_KIDS-2025-26-Wales-home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — Player 2025 26 Wales Away Football Jersey World Cup",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/004_Player-2025-26-Wales-Away-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — KIDS 2026 Wales Away KIDS Football jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/005_KIDS-2026-Wales-Away-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 Wales 150th Anniversary Football jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/006_2026-Wales-150th-Anniversary-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 Wales 150th Anniversary Football jersey Long Sleeve",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/007_2026-Wales-150th-Anniversary-Football-jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 Wales Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/008_2026-Wales-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — Player 2026 Wales Special Edition Football Jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/009_Player-2026-Wales-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 22 23 Wales Home",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/010_22-23-Wales-Home.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — Retro Wales 15 16 home Football jersey retro",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/011_Retro-Wales-15-16-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — retro 1996 98 Wales home retro football jersey Fan version",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/012_retro-1996-98-Wales-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — retro 1994 96 Wales home retro football jersey Fan version",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/013_retro-1994-96-Wales-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — Retro Wales 94 95 away Football jersey retro",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/014_Retro-Wales-94-95-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — retro 1992 94 Wales home retro football jersey Fan version",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/015_retro-1992-94-Wales-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — Retro Wales 90 92 away Football jersey retro",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/016_Retro-Wales-90-92-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — retro 1990 92 Wales home retro football jersey Fan version",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/017_retro-1990-92-Wales-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — retro 1982 Wales away retro football jersey Fan version",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/018_retro-1982-Wales-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — retro 1982 Wales home retro football jersey Fan version",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/019_retro-1982-Wales-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — retro 1976 79 Wales away retro football jersey Fan version",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/020_retro-1976-79-Wales-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — retro 1976 79 Wales home retro football jersey Fan version",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/021_retro-1976-79-Wales-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — Football socks Wales Home 2026",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/022_Football-socks-Wales-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 Wales away White with Topographic Pattern Jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/023_2026-Wales-away-White-with-Topographic-Pattern-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 Wales home Red with Vertical Stripe Pattern Jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/024_2026-Wales-home-Red-with-Vertical-Stripe-Pattern-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 New South Wales BluesSky Blue to Navy Blue Gradient with Diamond Pattern Wo",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/025_2026-New-South-Wales-BluesSky-Blue-to-Navy-Blue-Gradient-with-Diamond-Pattern-Wo.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 New South Wales Blues Sky Blue with Diamond Pattern Womens Jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/026_2026-New-South-Wales-Blues-Sky-Blue-with-Diamond-Pattern-Womens-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 New South Wales Blues Sky Blue with Navy Trim Jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/027_2026-New-South-Wales-Blues-Sky-Blue-with-Navy-Trim-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2025 New South Wales Blues Navy with Blue Gradient Jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/028_2025-New-South-Wales-Blues-Navy-with-Blue-Gradient-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 New South Wales Blues Sky Blue to Navy Blue Gradient with Diamond Pattern J",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/029_2026-New-South-Wales-Blues-Sky-Blue-to-Navy-Blue-Gradient-with-Diamond-Pattern-J.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2026 New South Wales Blues Sky Blue with Navy Trim Kids Jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/030_2026-New-South-Wales-Blues-Sky-Blue-with-Navy-Trim-Kids-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2025 Wales Red with Tonal Wave Pattern Home Jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/031_2025-Wales-Red-with-Tonal-Wave-Pattern-Home-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays de Galles — 2025 Wales White with Red and Green Trim Away Jersey",
+    "category": "national",
+    "group": "Pays de Galles",
+    "image": "assets/equipes-nationales/Europe/Wales/032_2025-Wales-White-with-Red-and-Green-Trim-Away-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Player version 2025 26 Belgium Home Football jersey World Cup",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/003_Player-version-2025-26-Belgium-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Player 2025 26 Belgium Home Football Jersey Long sleeves World Cup",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/004_Player-2025-26-Belgium-Home-Football-Jersey-Long-sleeves-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — KIDS 2025 26 Belgium Home KIDS Soccer Jersey World Cup",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/005_KIDS-2025-26-Belgium-Home-KIDS-Soccer-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — 2026 shorts Belgium",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/006_2026-shorts-Belgium.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — KIDS 2026 Belgium Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/009_KIDS-2026-Belgium-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Player 2026 Belgium Special Edition Football Jersey",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/010_Player-2026-Belgium-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Player 2026 Belgium Terrace Icons T Shirt Football Jersey",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/011_Player-2026-Belgium-Terrace-Icons-T-Shirt-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — 2026 Belgium Terrace Icons T Shirt Football jersey",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/012_2026-Belgium-Terrace-Icons-T-Shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — 2024 25 Belgium Euro Home Football jersey",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/013_2024-25-Belgium-Euro-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — 2024 25 Belgium Home Football jersey",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/014_2024-25-Belgium-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — 2024 25 Belgium Euro Away Football jersey",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/015_2024-25-Belgium-Euro-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Player 2024 25 Belgium Euro Away Football jersey",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/016_Player-2024-25-Belgium-Euro-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Retro 2000 Belgium Home Football jersey Retro",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/017_Retro-2000-Belgium-Home-Football-jersey-Retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Retro 2000 Belgium Away Football jersey Retro",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/018_Retro-2000-Belgium-Away-Football-jersey-Retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — 2024 25 Belgium short sleeved training shirt",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/019_2024-25-Belgium-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — 2024 25 Belgium Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/020_2024-25-Belgium-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/021_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/022_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/023_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/024_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/025_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/026_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/027_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/028_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/029_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Belgium Windbreaker",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/030_Belgium-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — 2026 season Belgium Windbreaker jacket suit",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/031_2026-season-Belgium-Windbreaker-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Belgique — Football socks Belgium Home 2026",
+    "category": "national",
+    "group": "Belgique",
+    "image": "assets/equipes-nationales/Europe/belgique/032_Football-socks-Belgium-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — KIDS 2026 Croatia Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/003_KIDS-2026-Croatia-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — Shorts 2026 Shorts Croatia",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/004_Shorts-2026-Shorts-Croatia.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — 2026 Baby Croatia Home Football jersey",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/005_2026-Baby-Croatia-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — 2025 26 Croatia Home Football Jersey World Cup",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/006_2025-26-Croatia-Home-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — Player 2025 26 Croatia Home Football Jersey World Cup",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/007_Player-2025-26-Croatia-Home-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — 2025 26 Croatia Away Football Jersey World Cup",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/008_2025-26-Croatia-Away-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — Player 2025 26 Croatia Away Football Jersey World Cup",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/009_Player-2025-26-Croatia-Away-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — KIDS 2026 Croatia Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/010_KIDS-2026-Croatia-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — Shorts 2026 Shorts Croatia",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/011_Shorts-2026-Shorts-Croatia.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — Player 2026 Croatia Special Edition Football Jersey World Cup",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/012_Player-2026-Croatia-Special-Edition-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — Player 2026 Croatia Special Edition Football Jersey",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/013_Player-2026-Croatia-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — retro 2010 Croatia Away Football jersey retro",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/014_retro-2010-Croatia-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — retro 1998 Croatia Away Football jersey retro",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/015_retro-1998-Croatia-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — retro 1998 Croatia Home Football jersey retro",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/016_retro-1998-Croatia-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — 2025 26 Trench Coat Reversible windbreaker Croatia",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/017_2025-26-Trench-Coat-Reversible-windbreaker-Croatia.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Croatie — 2026 Croatia Red and White Checkerboard Pattern Jersey",
+    "category": "national",
+    "group": "Croatie",
+    "image": "assets/equipes-nationales/Europe/croatie/018_2026-Croatia-Red-and-White-Checkerboard-Pattern-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Danemark — Retro Denmark 1988 Home Football jersey retro",
+    "category": "national",
+    "group": "Danemark",
+    "image": "assets/equipes-nationales/Europe/danemark/001_Retro-Denmark-1988-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Danemark — Retro Denmark 1988 Away Football jersey retro",
+    "category": "national",
+    "group": "Danemark",
+    "image": "assets/equipes-nationales/Europe/danemark/002_Retro-Denmark-1988-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Danemark — Retro Denmark 1986 home Football jersey retro",
+    "category": "national",
+    "group": "Danemark",
+    "image": "assets/equipes-nationales/Europe/danemark/003_Retro-Denmark-1986-home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Danemark — Retro Denmark 1986 Away Football jersey retro",
+    "category": "national",
+    "group": "Danemark",
+    "image": "assets/equipes-nationales/Europe/danemark/004_Retro-Denmark-1986-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Danemark — Denmark Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Danemark",
+    "image": "assets/equipes-nationales/Europe/danemark/005_Denmark-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — a3191",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/ecosse/038a3191.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — 032256359d",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/ecosse/2025111716041535992-032256359d.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — 032256dc63",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/ecosse/2025111716042436022-032256dc63.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Écosse — d41098",
+    "category": "national",
+    "group": "Écosse",
+    "image": "assets/equipes-nationales/Europe/ecosse/38d41098.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain 2026 World Cup Champion Trophy",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/001_Spain-2026-World-Cup-Champion-Trophy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — champion Women 2026 Spain Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/006_champion-Women-2026-Spain-Home-Womens-Football-jersey-World-Cup.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — champion Kids 2026 Spain Home Kids Kit Football jersey World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/007_champion-Kids-2026-Spain-Home-Kids-Kit-Football-jersey-World-Cup.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — champion Women 2026 Spain Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/012_champion-Women-2026-Spain-Away-Womens-Football-jersey-World-Cup.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — champion KIDS 2026 Spain Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/013_champion-KIDS-2026-Spain-Away-KIDS-Football-jersey-World-Cup.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026champion T shirt Spain S 4XL World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/016_2026champion-T-shirt-Spain-S-4XL-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026champion T shirt Spain S 4XL World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/017_2026champion-T-shirt-Spain-S-4XL-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026champion T shirt Spain S 4XL World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/018_2026champion-T-shirt-Spain-S-4XL-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026champion T shirt Spain S 4XL World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/019_2026champion-T-shirt-Spain-S-4XL-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Women 2026 Spain Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/024_Women-2026-Spain-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids 2025 26 Spain Home Kids Kit Football jersey World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/025_Kids-2025-26-Spain-Home-Kids-Kit-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — KIDS 2026 Spain Home KIDS Football jersey Long Sleeve World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/026_KIDS-2026-Spain-Home-KIDS-Football-jersey-Long-Sleeve-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026 Baby Spain Home Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/027_2026-Baby-Spain-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player Version 2026 shorts Spain",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/028_Player-Version-2026-shorts-Spain.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026 shorts Spain",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/029_2026-shorts-Spain.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026 season Spain jacket suit",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/030_2026-season-Spain-jacket-suit.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Women 2026 Spain Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/036_Women-2026-Spain-Away-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — KIDS 2026 Spain away Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/037_KIDS-2026-Spain-away-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026 Baby Spain Away Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/038_2026-Baby-Spain-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Shorts 2026 Shorts Spain",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/039_Shorts-2026-Shorts-Spain.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player Version Shorts 2026 Shorts Spain Casual",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/040_Player-Version-Shorts-2026-Shorts-Spain-Casual.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player Version Shorts 2026 Shorts Spain",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/041_Player-Version-Shorts-2026-Shorts-Spain.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026 season Spain jacket suit",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/042_2026-season-Spain-jacket-suit.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026 Spain Terrace Icons T Shirt Football Jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/043_2026-Spain-Terrace-Icons-T-Shirt-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player 2026 Spain Terrace Icons T Shirt Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/044_Player-2026-Spain-Terrace-Icons-T-Shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2025 26 Spain Pre Match Football Jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/045_2025-26-Spain-Pre-Match-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2025 26 Spain Pre Match Football Jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/046_2025-26-Spain-Pre-Match-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player Version Shorts 2026 Shorts Spain",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/047_Player-Version-Shorts-2026-Shorts-Spain.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player 2026 Spain training uniform Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/048_Player-2026-Spain-training-uniform-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player 2025 26 Spain training uniform Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/050_Player-2025-26-Spain-training-uniform-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — KIDS 2026 Spain Goalkeeper KIDS Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/051_KIDS-2026-Spain-Goalkeeper-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026 Spain Pure Cotton T shirt Football Jersey S 4XL",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/052_2026-Spain-Pure-Cotton-T-shirt-Football-Jersey-S-4XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026 Spain Special Edition Football Jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/053_2026-Spain-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player 2026 Spain Special Edition Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/054_Player-2026-Spain-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player 2025 26 Spain Away Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/056_Player-2025-26-Spain-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — KIDS 2025 26 Spain Away KIDS Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/057_KIDS-2025-26-Spain-Away-KIDS-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain Home Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/058_2024-25-Spain-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain Home Football jersey Long sleeve",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/059_2024-25-Spain-Home-Football-jersey-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 womans Spain Home Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/060_2024-25-womans-Spain-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player Edition 2024 25 Spain Home Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/061_Player-Edition-2024-25-Spain-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player Edition 2024 25 Spain Home Football jersey Long sleeve",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/062_Player-Edition-2024-25-Spain-Home-Football-jersey-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain Home Kids Kit Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/063_2024-25-Spain-Home-Kids-Kit-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain Away Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/064_2024-25-Spain-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Player Edition 2024 25 Spain Away Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/065_Player-Edition-2024-25-Spain-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain Special Edition Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/066_2024-25-Spain-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2025 26 Spain Special Edition Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/067_2025-26-Spain-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain goalkeeper Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/068_2024-25-Spain-goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2023 Spain Special Edition Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/069_2023-Spain-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 22 23 Spain away Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/070_22-23-Spain-away-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2022 23 Spain Kings League Cup Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/071_Retro-2022-23-Spain-Kings-League-Cup-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2022 Spain World Cup home Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/072_2022-Spain-World-Cup-home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2022 Spain WORLD CUP ICON Football jersey Retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/073_Retro-2022-Spain-WORLD-CUP-ICON-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2020 21 Spain Home Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/074_Retro-2020-21-Spain-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2020 21 Spain Away Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/075_Retro-2020-21-Spain-Away-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2018 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/076_Retro-2018-Spain-Home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2013 Spain Home Football jersey Retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/077_Retro-2013-Spain-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2012 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/078_Retro-2012-Spain-Home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2012 Spain Home Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/079_Retro-2012-Spain-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2012 Spain Away Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/080_Retro-2012-Spain-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2011 Spain Away Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/081_Retro-2011-Spain-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2010 Spain Home Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/082_Retro-2010-Spain-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2010 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/083_Retro-2010-Spain-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2010 Spain away Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/084_Retro-2010-Spain-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2010 Spain away Football jersey retro long sleeve",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/085_Retro-2010-Spain-away-Football-jersey-retro-long-sleeve.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids Retro 2010 Spain Away Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/086_Kids-Retro-2010-Spain-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2010 Spain Goalkeeper Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/087_Retro-2010-Spain-Goalkeeper-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2010 Spain goalkeeper Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/088_Retro-2010-Spain-goalkeeper-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2008 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/089_Retro-2008-Spain-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids Retro 2008 Spain Home Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/090_Kids-Retro-2008-Spain-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2008 Spain Away Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/091_Retro-2008-Spain-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids Retro 2008 Spain Away Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/092_Kids-Retro-2008-Spain-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — retro 2006 Spain away Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/093_retro-2006-Spain-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2002 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/094_Retro-2002-Spain-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2000 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/095_Retro-2000-Spain-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2000 Spain Home Football jersey Retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/096_Retro-2000-Spain-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 2000 Spain Away Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/097_Retro-2000-Spain-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 1998 Spain Away Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/098_Retro-1998-Spain-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 1998 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/099_Retro-1998-Spain-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids Retro 1998 Spain Home Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/100_Kids-Retro-1998-Spain-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 1996 Spain Away Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/101_Retro-1996-Spain-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids Retro 1996 Spain Away Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/102_Kids-Retro-1996-Spain-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 1996 Spain Away Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/103_Retro-1996-Spain-Away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — retro 1996 Spain Away Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/104_retro-1996-Spain-Away-Football-jersey-retro-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids Retro 1996 Spain Away Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/105_Kids-Retro-1996-Spain-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 1996 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/106_Retro-1996-Spain-Home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids Retro 1996 Spain Home Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/107_Kids-Retro-1996-Spain-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 1994 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/108_Retro-1994-Spain-Home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids Retro 1994 Spain Home Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/109_Kids-Retro-1994-Spain-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 1994 Spain Away Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/110_Retro-1994-Spain-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Kids Retro 1994 Spain Away Kids Football jersey",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/111_Kids-Retro-1994-Spain-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 1992 94 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/112_Retro-1992-94-Spain-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Retro 1988 91 Spain Home Football jersey retro",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/113_Retro-1988-91-Spain-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2022 season spain jacket suit",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/114_2022-season-spain-jacket-suit.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/115_2024-25-Spain-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/116_2024-25-Spain-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/117_2024-25-Spain-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/118_2024-25-Spain-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/119_2024-25-Spain-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/120_2024-25-Spain-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/121_2024-25-Spain-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/122_2024-25-Spain-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/123_2024-25-Spain-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/124_2024-25-Spain-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/125_2024-25-Spain-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 23 24 Spain short sleeved training clothes",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/126_23-24-Spain-short-sleeved-training-clothes.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Windbreaker Spain",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/127_2024-25-Windbreaker-Spain.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/128_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/129_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/130_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/131_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/132_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/133_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/134_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/135_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/136_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2025 26 Trench Coat Reversible windbreaker Spain",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/137_2025-26-Trench-Coat-Reversible-windbreaker-Spain.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/138_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/139_Spain-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker Embroidery version",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/140_Spain-Windbreaker-Embroidery-version.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/141_Spain-Windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2024 25 Spain Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/142_2024-25-Spain-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/143_Spain-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/144_Spain-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/145_Spain-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Spain Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/146_Spain-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2025 26 Trench Coat Reversible windbreaker Spain",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/147_2025-26-Trench-Coat-Reversible-windbreaker-Spain.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — 2026 Windbreaker Spain",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/148_2026-Windbreaker-Spain.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Football socks Spain Home 2026",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/149_Football-socks-Spain-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Espagne — Football socks Spain Away 2026",
+    "category": "national",
+    "group": "Espagne",
+    "image": "assets/equipes-nationales/Europe/espagne/150_Football-socks-Spain-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Finlande — 2025 26 Finland Away Football Jersey World Cup",
+    "category": "national",
+    "group": "Finlande",
+    "image": "assets/equipes-nationales/Europe/finlande/002_2025-26-Finland-Away-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Finlande — KIDS 2025 26 Finland home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Finlande",
+    "image": "assets/equipes-nationales/Europe/finlande/003_KIDS-2025-26-Finland-home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Finlande — KIDS 2025 26 Finland away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Finlande",
+    "image": "assets/equipes-nationales/Europe/finlande/004_KIDS-2025-26-Finland-away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Grèce — 2026 Windbreaker Greece",
+    "category": "national",
+    "group": "Grèce",
+    "image": "assets/equipes-nationales/Europe/grece/002_2026-Windbreaker-Greece.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Grèce — 2025 26 Greece away Football jersey",
+    "category": "national",
+    "group": "Grèce",
+    "image": "assets/equipes-nationales/Europe/grece/004_2025-26-Greece-away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Grèce — 2024 25 Greece Home football jersey",
+    "category": "national",
+    "group": "Grèce",
+    "image": "assets/equipes-nationales/Europe/grece/005_2024-25-Greece-Home-football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Grèce — retro 2004 Greece away retro football jersey Fan version",
+    "category": "national",
+    "group": "Grèce",
+    "image": "assets/equipes-nationales/Europe/grece/006_retro-2004-Greece-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Grèce — Retro 2004 Season Greece Away Retro Football jersey retro",
+    "category": "national",
+    "group": "Grèce",
+    "image": "assets/equipes-nationales/Europe/grece/007_Retro-2004-Season-Greece-Away-Retro-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 26 Ireland Home Football jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/001_2025-26-Ireland-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 26 Ireland Home Football jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/002_2025-26-Ireland-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Player 2025 26 Ireland Home Football Jersey World Cup",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/004_Player-2025-26-Ireland-Home-Football-Jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 26 Ireland Away Football jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/005_2025-26-Ireland-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 26 Ireland Stealth Special Football Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/006_2025-26-Ireland-Stealth-Special-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 26 Ireland Home KIDS Soccer Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/008_2025-26-Ireland-Home-KIDS-Soccer-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 26 Ireland Away Football jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/009_2025-26-Ireland-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2026 Ireland Special Edition Football jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/011_2026-Ireland-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2026 Ireland Away Football jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/012_2026-Ireland-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — KIDS 2026 Ireland Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/014_KIDS-2026-Ireland-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — KIDS 2026 Ireland Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/015_KIDS-2026-Ireland-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2024 25 Ireland Home Football jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/017_2024-25-Ireland-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro Ireland 2002 Home Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/018_Retro-Ireland-2002-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — retro 2002 Ireland away Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/019_retro-2002-Ireland-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — retro 2002 Ireland training Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/020_retro-2002-Ireland-training-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro Ireland 1994 Home Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/021_Retro-Ireland-1994-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro Ireland 1994 Away Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/022_Retro-Ireland-1994-Away-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro Ireland 1994 Away Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/023_Retro-Ireland-1994-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro Ireland 94 96 home Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/024_Retro-Ireland-94-96-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro Ireland 94 96 away Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/025_Retro-Ireland-94-96-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — retro 1992 94 Ireland away retro football jersey Fan version",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/026_retro-1992-94-Ireland-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — retro 1992 94 Ireland home retro football jersey Fan version",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/027_retro-1992-94-Ireland-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro Ireland 1990 93 Away Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/028_Retro-Ireland-1990-93-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — retro 1990 92 Ireland away retro football jersey Fan version",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/029_retro-1990-92-Ireland-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — retro 1990 92 Ireland home retro football jersey Fan version",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/030_retro-1990-92-Ireland-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro 1988 Ireland home Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/031_Retro-1988-Ireland-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro Ireland 1988 90 Home Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/032_Retro-Ireland-1988-90-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Retro Ireland 1988 Home Football jersey retro",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/033_Retro-Ireland-1988-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2026 Rugby Ireland Rugby Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/034_2026-Rugby-Ireland-Rugby-Jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2026 Ireland White with Green Trim Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/035_2026-Ireland-White-with-Green-Trim-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2026 Ireland Green with Subtle Gradient Pattern Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/036_2026-Ireland-Green-with-Subtle-Gradient-Pattern-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — Ireland 202526 Third Away Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/037_Ireland-202526-Third-Away-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2026 Ireland Alternate Dark Green with Green Smoke Graphic Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/038_2026-Ireland-Alternate-Dark-Green-with-Green-Smoke-Graphic-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 Ireland Rugby Dark Green with Aurora Borealis Gradient Pattern Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/039_2025-Ireland-Rugby-Dark-Green-with-Aurora-Borealis-Gradient-Pattern-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 Ireland Green with Celtic Knot Pattern and Orange Trim Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/040_2025-Ireland-Green-with-Celtic-Knot-Pattern-and-Orange-Trim-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 Ireland Blue with Gold Trim and Geometric Pattern Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/041_2025-Ireland-Blue-with-Gold-Trim-and-Geometric-Pattern-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2026 Ireland GAA U20 Hurling Navy with Purple Marble Pattern Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/042_2026-Ireland-GAA-U20-Hurling-Navy-with-Purple-Marble-Pattern-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 Ireland White with Teal Water Pattern Third Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/043_2025-Ireland-White-with-Teal-Water-Pattern-Third-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2025 Ireland Green with Tonal Topographic Pattern Home Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/044_2025-Ireland-Green-with-Tonal-Topographic-Pattern-Home-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Irlande — 2026 Ireland Green with Abstract Brushstroke Pattern Sleeveless Jersey",
+    "category": "national",
+    "group": "Irlande",
+    "image": "assets/equipes-nationales/Europe/irlande/045_2026-Ireland-Green-with-Abstract-Brushstroke-Pattern-Sleeveless-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy home Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/001_2024-25-Italy-home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Player 2024 25 Italy Home Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/002_Player-2024-25-Italy-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy Away Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/003_2024-25-Italy-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Player Edition 2024 25 Italy Away Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/004_Player-Edition-2024-25-Italy-Away-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy Classic white T shirt Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/005_2024-25-Italy-Classic-white-T-shirt-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy Classic blue T shirt Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/006_2024-25-Italy-Classic-blue-T-shirt-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy Especial Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/007_2024-25-Italy-Especial-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy Home Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/008_2023-24-Italy-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Player Edition 2023 24 Italy Home Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/009_Player-Edition-2023-24-Italy-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy away VERRATTI BARELLA ADRIAN VERRATTI DEL PIRO Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/010_2023-24-Italy-away-VERRATTI-BARELLA-ADRIAN-VERRATTI-DEL-PIRO-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 Italy 125th Anniversary White Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/011_2023-Italy-125th-Anniversary-White-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Player Edition 2023 Italy 125th Anniversary White Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/012_Player-Edition-2023-Italy-125th-Anniversary-White-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy Special Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/013_2023-24-Italy-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy Special Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/014_2023-24-Italy-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy White Special Edition VERRATTI BARELLA ADRIAN VERRATTI DEL PIRO Fo",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/015_2023-24-Italy-White-Special-Edition-VERRATTI-BARELLA-ADRIAN-VERRATTI-DEL-PIRO-Fo.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy Special Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/016_2023-24-Italy-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy Special Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/017_2023-24-Italy-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy Special Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/018_2023-24-Italy-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy Special Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/019_2023-24-Italy-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy training uniform pink VERRATTI BARELLA ADRIAN VERRATTI DEL PIRO Fo",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/020_2023-24-Italy-training-uniform-pink-VERRATTI-BARELLA-ADRIAN-VERRATTI-DEL-PIRO-Fo.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 Italy Special Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/021_2023-Italy-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2023 24 Italy Special City Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/022_2023-24-Italy-Special-City-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2022 Italy Special Edition x Versace blue Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/023_2022-Italy-Special-Edition-x-Versace-blue-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2022 Italy Home Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/024_2022-Italy-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2022 Italy Away Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/025_2022-Italy-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2021 Italy away BERNARDESCHI IMMOBILE CHIESA CHIELLINI ZANIOLO INSIGNE DONNARUMM",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/026_2021-Italy-away-BERNARDESCHI-IMMOBILE-CHIESA-CHIELLINI-ZANIOLO-INSIGNE-DONNARUMM.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 2020 Italy Away Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/027_Retro-2020-Italy-Away-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2020 Italy 3rd Away Green BERNARDESCHI IMMOBILE CHIESA CHIELLINI ZANIOLO INSIGNE",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/028_2020-Italy-3rd-Away-Green-BERNARDESCHI-IMMOBILE-CHIESA-CHIELLINI-ZANIOLO-INSIGNE.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2020 Italy home BERNARDESCHI IMMOBILE CHIESA CHIELLINI ZANIOLO INSIGNE Shirt Foo",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/029_2020-Italy-home-BERNARDESCHI-IMMOBILE-CHIESA-CHIELLINI-ZANIOLO-INSIGNE-Shirt-Foo.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — retro 2012 Italy home Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/030_retro-2012-Italy-home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 2006 Away Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/031_Retro-Italy-2006-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 2006 Italy Golden BUFFON Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/032_Retro-2006-Italy-Golden-BUFFON-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 2006 Italy Red BUFFON Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/033_Retro-2006-Italy-Red-BUFFON-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 2006 Home CANNAVARO TOTTI PIRLO DEL PIERO MATERAZZI Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/034_Retro-Italy-2006-Home-CANNAVARO-TOTTI-PIRLO-DEL-PIERO-MATERAZZI-Football-jersey-.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 2006 Italy Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/035_Retro-2006-Italy-Home-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 2006 Italy Home Kids Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/036_Retro-2006-Italy-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — retro 2004 Italy Home Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/037_retro-2004-Italy-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — retro 2004 Italy away Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/038_retro-2004-Italy-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 2002 Italy Home Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/039_Retro-2002-Italy-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 2002 Italy Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/040_Retro-2002-Italy-Home-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 2000 Home Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/041_Retro-Italy-2000-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 2000 Italy Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/042_Retro-2000-Italy-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 2000 Away Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/043_Retro-Italy-2000-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 1998 00 Italy Away Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/044_Retro-1998-00-Italy-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 1998 away VIERI MALDINI BAGGIO DEL PIERO PESSOTTO Football jersey re",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/045_Retro-Italy-1998-away-VIERI-MALDINI-BAGGIO-DEL-PIERO-PESSOTTO-Football-jersey-re.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 1998 home VIERI MALDINI BAGGIO DEL PIERO PESSOTTO Football jersey re",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/046_Retro-Italy-1998-home-VIERI-MALDINI-BAGGIO-DEL-PIERO-PESSOTTO-Football-jersey-re.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 1996 away MALDINI ZOLA DI MATTEO DEL PIERO Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/047_Retro-Italy-1996-away-MALDINI-ZOLA-DI-MATTEO-DEL-PIERO-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 1996 home MALDINI ZOLA DI MATTEO DEL PIERO Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/048_Retro-Italy-1996-home-MALDINI-ZOLA-DI-MATTEO-DEL-PIERO-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 1996 Italy Home Kids Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/049_Retro-1996-Italy-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 1995 Italy Home Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/050_Retro-1995-Italy-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 1995 Italy Away Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/051_Retro-1995-Italy-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 1994 home RBAGGIO MALDINI Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/052_Retro-Italy-1994-home-RBAGGIO-MALDINI-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 1994 home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/053_Retro-Italy-1994-home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 1994 Italy Home Kids Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/054_Retro-1994-Italy-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 1994 away RBAGGIO MALDINI Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/055_Retro-Italy-1994-away-RBAGGIO-MALDINI-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — retro 1994 Italy away Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/056_retro-1994-Italy-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro shirt Italy 1990 home Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/057_Retro-shirt-Italy-1990-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro Italy 1982 home Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/058_Retro-Italy-1982-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Retro 1970 Italy Home Football jersey retro",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/059_Retro-1970-Italy-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 23 24 season Italy jacket set",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/060_23-24-season-Italy-jacket-set.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy jacket Suit set",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/061_2024-25-Italy-jacket-Suit-set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy jacket suit",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/062_2024-25-Italy-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 23 24 Italy jacket Suit set",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/063_23-24-Italy-jacket-Suit-set.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 23 24 Italy 05 white jacket suit",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/064_23-24-Italy-05-white-jacket-suit.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2022 italy home dark blue jacket suit",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/066_2022-italy-home-dark-blue-jacket-suit.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 Italy Jacket Set",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/067_2024-Italy-Jacket-Set.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2022 italy blue jacket suit",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/068_2022-italy-blue-jacket-suit.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/069_2024-25-Italy-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/070_2024-25-Italy-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/071_2024-25-Italy-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 20232024 Italy Half Pull Training Suit Off White Soccer Shirt Set",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/072_20232024-Italy-Half-Pull-Training-Suit-Off-White-Soccer-Shirt-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/073_2024-25-Italy-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/074_2024-25-Italy-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/075_2024-25-Italy-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/076_2024-25-Italy-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 23 24 Italy Short sleeved training clothes",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/077_23-24-Italy-Short-sleeved-training-clothes.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Italy Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/079_2024-25-Italy-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/080_Italy-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/081_Italy-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/082_Italy-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/083_Italy-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/084_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/085_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2024 25 Windbreaker Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/086_2024-25-Windbreaker-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/087_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/088_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/089_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/090_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/091_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/092_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/093_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/094_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/095_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/096_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/097_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/098_Italy-Windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Italy Windbreaker",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/099_Italy-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Player 2025 26 Italy Training Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/100_Player-2025-26-Italy-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — KIDS 2025 26 Italy Away KIDS Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/101_KIDS-2025-26-Italy-Away-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 season Italy jacket suit",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/102_2025-26-season-Italy-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 season Italy jacket suit",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/103_2025-26-season-Italy-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Kids 2025 26 Italy Home Kids Football jersey World Cup",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/109_Kids-2025-26-Italy-Home-Kids-Football-jersey-World-Cup.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 Napoli Italy Champion Casual T shirts Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/110_2025-26-Napoli-Italy-Champion-Casual-T-shirts-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Player 2025 26 Italy Home Football Jersey Long sleeves World Cup",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/113_Player-2025-26-Italy-Home-Football-Jersey-Long-sleeves-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 Windbreaker Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/114_2025-26-Windbreaker-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 Windbreaker Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/115_2025-26-Windbreaker-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 Windbreaker Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/116_2025-26-Windbreaker-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 Windbreaker Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/117_2025-26-Windbreaker-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 Windbreaker Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/118_2025-26-Windbreaker-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 Long sleeved Sweatshirt Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/119_2025-26-Long-sleeved-Sweatshirt-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 Trench Coat Reversible windbreaker Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/120_2025-26-Trench-Coat-Reversible-windbreaker-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — 2025 26 Trench Coat Reversible windbreaker Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/121_2025-26-Trench-Coat-Reversible-windbreaker-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Player 2026 Italy Special Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/122_Player-2026-Italy-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Player Shorts 2026 Shorts Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/123_Player-Shorts-2026-Shorts-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Shorts 2026 Shorts Italy",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/124_Shorts-2026-Shorts-Italy.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Player 2026 Italy Special Edition Football jersey",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/125_Player-2026-Italy-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — KIDS 2026 Italy Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/126_KIDS-2026-Italy-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Football socks Italy Away 2026",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/129_Football-socks-Italy-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Football socks Italy Home 2026",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/130_Football-socks-Italy-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Italie — Football socks Italy Away 2026",
+    "category": "national",
+    "group": "Italie",
+    "image": "assets/equipes-nationales/Europe/italie/131_Football-socks-Italy-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Norvège — Player version 2025 26 Norway Home Football jersey World Cup",
+    "category": "national",
+    "group": "Norvège",
+    "image": "assets/equipes-nationales/Europe/norvege/001_Player-version-2025-26-Norway-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Norvège — retro 1994 95 Norway Home Football jersey retro",
+    "category": "national",
+    "group": "Norvège",
+    "image": "assets/equipes-nationales/Europe/norvege/004_retro-1994-95-Norway-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Norvège — 2025 26 Norway Special Edition Football jersey",
+    "category": "national",
+    "group": "Norvège",
+    "image": "assets/equipes-nationales/Europe/norvege/006_2025-26-Norway-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Norvège — 2024 25 Norway Home Football jersey World Cup",
+    "category": "national",
+    "group": "Norvège",
+    "image": "assets/equipes-nationales/Europe/norvege/007_2024-25-Norway-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Norvège — Retro 1998 99 Norway Home Football jersey",
+    "category": "national",
+    "group": "Norvège",
+    "image": "assets/equipes-nationales/Europe/norvege/008_Retro-1998-99-Norway-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Women 2025 26 Netherlands Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/003_Women-2025-26-Netherlands-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — KIDS 2026 Netherlands Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/004_KIDS-2026-Netherlands-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Shorts 2026 Shorts Netherlands",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/005_Shorts-2026-Shorts-Netherlands.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Player Version Shorts 2026 Shorts Netherlands",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/006_Player-Version-Shorts-2026-Shorts-Netherlands.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — KIDS 2026 Netherlands Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/009_KIDS-2026-Netherlands-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Shorts 2026 Shorts Netherlands",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/010_Shorts-2026-Shorts-Netherlands.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Player Version Shorts 2026 Shorts Netherlands",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/011_Player-Version-Shorts-2026-Shorts-Netherlands.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2026 Netherlands Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/013_2026-Netherlands-Goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2026 Netherlands Pre Match Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/014_2026-Netherlands-Pre-Match-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Player 2026 Netherlands Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/015_Player-2026-Netherlands-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2025 26 Netherlands Home Football jersey World Cup",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/016_2025-26-Netherlands-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Player version 2025 26 Netherlands Home Football jersey World Cup",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/017_Player-version-2025-26-Netherlands-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2025 26 Netherlands Away Football jersey World Cup",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/018_2025-26-Netherlands-Away-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2025 26 Netherlands Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/019_2025-26-Netherlands-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/020_2024-25-Netherlands-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Home Football jersey Long sleeve",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/021_2024-25-Netherlands-Home-Football-jersey-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Player 2024 25 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/022_Player-2024-25-Netherlands-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Away Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/023_2024-25-Netherlands-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Player Edition Away",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/024_2024-25-Netherlands-Player-Edition-Away.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/025_2024-25-Netherlands-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/026_2024-25-Netherlands-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/027_2024-25-Netherlands-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/028_2024-25-Netherlands-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/029_2024-25-Netherlands-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/030_2024-25-Netherlands-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Player Edition 2024 25 Netherlands goalkeeper Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/031_Player-Edition-2024-25-Netherlands-goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2022 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/032_2022-Netherlands-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2022 Netherlands Away Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/033_2022-Netherlands-Away-Football-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2022 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/034_2022-Netherlands-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 2021 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/035_Retro-2021-Netherlands-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 2020 Netherlands Away Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/036_Retro-2020-Netherlands-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 2014 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/037_Retro-2014-Netherlands-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 2014 Netherlands Away football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/038_Retro-2014-Netherlands-Away-football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — retro 2012 Netherlands home Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/039_retro-2012-Netherlands-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro Netherlands 2012 away Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/040_Retro-Netherlands-2012-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — retro 2012 Netherlands Away Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/041_retro-2012-Netherlands-Away-Football-jersey-retro-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — retro 2012 Netherlands Away Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/042_retro-2012-Netherlands-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro Netherlands 2010 home Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/043_Retro-Netherlands-2010-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 2008 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/044_Retro-2008-Netherlands-Home-Football-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 2004 Netherlands Home Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/045_Retro-2004-Netherlands-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — retro 2004 Netherlands Home Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/046_retro-2004-Netherlands-Home-Football-jersey-retro-Long-Sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 2004 Netherlands Away Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/047_Retro-2004-Netherlands-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 2002 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/048_Retro-2002-Netherlands-Home-Football-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 2000 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/049_Retro-2000-Netherlands-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1996 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/050_Retro-1996-Netherlands-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1998 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/051_Retro-1998-Netherlands-Home-Football-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1998 Netherlands Home Football jersey Retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/052_Retro-1998-Netherlands-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1998 Netherlands Home Football jersey Long sleeve",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/053_Retro-1998-Netherlands-Home-Football-jersey-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro Netherlands 1995 shirt home Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/054_Retro-Netherlands-1995-shirt-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — retro 1995 Netherlands Away Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/055_retro-1995-Netherlands-Away-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro Netherlands 1991 shirt home Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/056_Retro-Netherlands-1991-shirt-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1991 Netherlands Away Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/057_Retro-1991-Netherlands-Away-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1988 Netherlands Away Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/058_Retro-1988-Netherlands-Away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1988 Netherlands Away Kids Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/059_Retro-1988-Netherlands-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1988 Netherlands Home Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/060_Retro-1988-Netherlands-Home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1988 Netherlands Home Football jersey Long sleeve",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/061_Retro-1988-Netherlands-Home-Football-jersey-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1988 Netherlands Home Kids Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/062_Retro-1988-Netherlands-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1988 Netherlands Special Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/063_Retro-1988-Netherlands-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1988 Netherlands Centennial Edition Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/064_Retro-1988-Netherlands-Centennial-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Retro 1986 Netherlands Home Football jersey",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/065_Retro-1986-Netherlands-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — retro 1984 Netherlands Home Football jersey retro",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/066_retro-1984-Netherlands-Home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands jacket suit",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/067_2024-25-Netherlands-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2022 netherlands jacket suits",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/069_2022-netherlands-jacket-suits.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/070_2024-25-Netherlands-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/071_2024-25-Netherlands-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/072_2024-25-Netherlands-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands half pull training suit",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/073_2024-25-Netherlands-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands short sleeved training shirt",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/074_2024-25-Netherlands-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/075_2024-25-Netherlands-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/076_2024-25-Netherlands-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/077_2024-25-Netherlands-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2024 25 Netherlands Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/078_2024-25-Netherlands-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Netherlands Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/079_Netherlands-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Netherlands Windbreaker",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/080_Netherlands-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — 2025 26 Windbreaker Netherlands",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/081_2025-26-Windbreaker-Netherlands.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Football socks Netherlands Away 2026",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/082_Football-socks-Netherlands-Away-2026.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pays-Bas — Football socks Netherlands Home 2026",
+    "category": "national",
+    "group": "Pays-Bas",
+    "image": "assets/equipes-nationales/Europe/pays-bas/083_Football-socks-Netherlands-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pologne — retro 1997 Poland Mens Home Football jersey retro",
+    "category": "national",
+    "group": "Pologne",
+    "image": "assets/equipes-nationales/Europe/pologne/003_retro-1997-Poland-Mens-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pologne — retro 1982 Poland home retro football jersey Fan version",
+    "category": "national",
+    "group": "Pologne",
+    "image": "assets/equipes-nationales/Europe/pologne/004_retro-1982-Poland-home-retro-football-jersey-Fan-version.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pologne — 2024 25 Poland Euro Away Football jersey",
+    "category": "national",
+    "group": "Pologne",
+    "image": "assets/equipes-nationales/Europe/pologne/005_2024-25-Poland-Euro-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pologne — 2024 25 Poland Euro Home Football jersey",
+    "category": "national",
+    "group": "Pologne",
+    "image": "assets/equipes-nationales/Europe/pologne/006_2024-25-Poland-Euro-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Pologne — retro 2012 Poland home retro football jersey Fan version",
+    "category": "national",
+    "group": "Pologne",
+    "image": "assets/equipes-nationales/Europe/pologne/007_retro-2012-Poland-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2025 26 Portugal Home Football jersey Long sleeve World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/002_Player-Edition-2025-26-Portugal-Home-Football-jersey-Long-sleeve-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Home Kids Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/004_2025-26-Portugal-Home-Kids-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Away Kids Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/007_2025-26-Portugal-Away-Kids-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2025 26 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/008_Player-Edition-2025-26-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/009_2025-26-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2025 26 Portugal Home Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/010_Player-Edition-2025-26-Portugal-Home-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal home RONALDO BERNARDO G RAMOS BFERNANDES PEPE R LEÃO Football j",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/011_2024-25-Portugal-home-RONALDO-BERNARDO-G-RAMOS-BFERNANDES-PEPE-R-LEÃO-Football-j.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Home Football jersey Long sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/012_2024-25-Portugal-Home-Football-jersey-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2024 25 Portugal Home Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/013_Player-Edition-2024-25-Portugal-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2024 25 Portugal Home Football jersey Long sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/014_Player-Edition-2024-25-Portugal-Home-Football-jersey-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal away RONALDO BERNARDO G RAMOS BFERNANDES PEPE R LEO Football je",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/015_2024-25-Portugal-away-RONALDO-BERNARDO-G-RAMOS-BFERNANDES-PEPE-R-LEO-Football-je.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Away Football jersey Long sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/016_2024-25-Portugal-Away-Football-jersey-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2024 25 Portugal Away Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/017_Player-Edition-2024-25-Portugal-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Portugal POLO",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/018_Portugal-POLO.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/019_2024-25-Portugal-Goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Goleiro Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/020_2024-25-Portugal-Goleiro-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Special Edition Red Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/021_2024-25-Portugal-Special-Edition-Red-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/022_2024-25-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Treino Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/023_2024-25-Portugal-Treino-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal goalkeeper Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/024_2024-25-Portugal-goalkeeper-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/025_2024-25-Portugal-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Louis Vuitton collaboration Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/026_2024-25-Portugal-Louis-Vuitton-collaboration-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 PLAYER Portugal Especial Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/027_2024-25-PLAYER-Portugal-Especial-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2024 25 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/028_Player-Edition-2024-25-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2024 25 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/029_Player-Edition-2024-25-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2024 25 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/030_Player-Edition-2024-25-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2024 25 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/031_Player-Edition-2024-25-Portugal-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2023 24 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/032_2023-24-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2023 24 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/033_2023-24-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2022 23 Portugal Home Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/034_Player-Edition-2022-23-Portugal-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 22 23 Portugal Home Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/035_22-23-Portugal-Home-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2022 23 Portugal Away Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/036_Player-Edition-2022-23-Portugal-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 22 23 Portugal Away Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/037_22-23-Portugal-Away-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2022 23 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/038_2022-23-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2020 21 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/039_Retro-2020-21-Portugal-Home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 2020 Portugal Home Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/040_retro-2020-Portugal-Home-Football-jersey-retro-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2020 Portugal Away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/041_Retro-2020-Portugal-Away-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2020 Portugal Away Football jersey retro long sleeves",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/042_Retro-2020-Portugal-Away-Football-jersey-retro-long-sleeves.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2020 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/043_Retro-2020-Portugal-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2018 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/044_Retro-2018-Portugal-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2018 Portugal Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/045_Retro-2018-Portugal-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2016 Portugal home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/046_Retro-2016-Portugal-home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2016 17 Portugal Home Long Sleeve Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/047_Retro-2016-17-Portugal-Home-Long-Sleeve-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Kids Retro 2016 Portugal Home Kids Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/048_Kids-Retro-2016-Portugal-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Shorts 2016 Shorts Portugal Home",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/049_Shorts-2016-Shorts-Portugal-Home.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2016 Portugal Away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/050_Retro-2016-Portugal-Away-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2016 Portugal Away Football jersey retro long sleeves",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/051_Retro-2016-Portugal-Away-Football-jersey-retro-long-sleeves.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Kids Retro 2016 Portugal Away Kids Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/052_Kids-Retro-2016-Portugal-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 2015 Portugal away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/053_retro-2015-Portugal-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 2013 Portugal Away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/056_retro-2013-Portugal-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 2013 Portugal Away Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/057_retro-2013-Portugal-Away-Football-jersey-retro-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition Retro 2013 Portugal Away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/058_Player-Edition-Retro-2013-Portugal-Away-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition Retro 2013 Portugal Away Football jersey retro long sleeves",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/059_Player-Edition-Retro-2013-Portugal-Away-Football-jersey-retro-long-sleeves.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 2014 Portugal away retro football jersey Fan version",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/060_retro-2014-Portugal-away-retro-football-jersey-Fan-version.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Player Edition 2014 Portugal Home Football jersey Retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/061_Retro-Player-Edition-2014-Portugal-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 2012 Portugal away retro football jersey Fan version",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/062_retro-2012-Portugal-away-retro-football-jersey-Fan-version.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Player Edition 2012 Portugal Home Football jersey Retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/063_Retro-Player-Edition-2012-Portugal-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Player Edition 2012 Portugal Home Football jersey Retro long sleeves",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/064_Retro-Player-Edition-2012-Portugal-Home-Football-jersey-Retro-long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2012 Portugal Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/065_Retro-2012-Portugal-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 2012 13 Portugal away retro football jersey Fan version",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/066_retro-2012-13-Portugal-away-retro-football-jersey-Fan-version.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Player Edition 2012 Portugal Away Football jersey Retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/067_Retro-Player-Edition-2012-Portugal-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2012 Portugal Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/068_Retro-2012-Portugal-Away-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Player Edition 2012 Portugal Away Football jersey Retro long sleeves",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/069_Retro-Player-Edition-2012-Portugal-Away-Football-jersey-Retro-long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2012 Portugal Away Kids Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/070_Retro-2012-Portugal-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2010 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/071_Retro-2010-Portugal-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Player Edition 2010 Portugal Home Football jersey Retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/072_Retro-Player-Edition-2010-Portugal-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Player Edition 2010 Portugal Home Football jersey Retro long sleeves",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/073_Retro-Player-Edition-2010-Portugal-Home-Football-jersey-Retro-long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2010 Portugal Away Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/074_Retro-2010-Portugal-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Player Edition 2010 Portugal Away Football jersey Retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/075_Retro-Player-Edition-2010-Portugal-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2006 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/076_Retro-2006-Portugal-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2006 Portugal Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/078_Retro-2006-Portugal-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2006 Portugal Home Kids Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/079_Retro-2006-Portugal-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2006 Portugal Away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/080_Retro-2006-Portugal-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 2006 Portugal Away Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/081_retro-2006-Portugal-Away-Football-jersey-retro-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 2006 Portugal Away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/082_retro-2006-Portugal-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2004 Portugal Away FIGO FCOUTO CRONALDO RUI COSTA Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/083_Retro-2004-Portugal-Away-FIGO-FCOUTO-CRONALDO-RUI-COSTA-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Portugal 2004 home FIGO FCOUTO CRONALDO RUI COSTA Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/084_Retro-Portugal-2004-home-FIGO-FCOUTO-CRONALDO-RUI-COSTA-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2004 Portugal Home Kids Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/085_Retro-2004-Portugal-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Kids Retro 2004 Portugal Home Kids Football jersey Long Sleeve",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/086_Kids-Retro-2004-Portugal-Home-Kids-Football-jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Portugal 2002 home FIGO FCOUTO CRONALDO RUI COSTA Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/087_Retro-Portugal-2002-home-FIGO-FCOUTO-CRONALDO-RUI-COSTA-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 2000 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/088_Retro-2000-Portugal-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Kids Retro 2000 Portugal Home Kids Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/089_Kids-Retro-2000-Portugal-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 1998 Portugal away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/090_Retro-1998-Portugal-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 1998 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/091_Retro-1998-Portugal-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 1998 Portugal Home Kids Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/092_Retro-1998-Portugal-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 1997 98 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/093_Retro-1997-98-Portugal-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 1996 97 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/094_Retro-1996-97-Portugal-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 1996 97 Portugal Away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/095_Retro-1996-97-Portugal-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 1995 96 Portugal Away Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/096_Retro-1995-96-Portugal-Away-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 1995 96 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/097_Retro-1995-96-Portugal-Home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 1992 94 Portugal away retro football jersey Fan version",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/098_retro-1992-94-Portugal-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — retro 1992 94 Portugal home retro football jersey Fan version",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/099_retro-1992-94-Portugal-home-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro Portugal 1972 Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/100_Retro-Portugal-1972-Home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Retro 1966 69 Portugal Home Football jersey retro",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/101_Retro-1966-69-Portugal-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal jacket suit",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/102_2024-25-Portugal-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal jacket Suit set",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/103_2024-25-Portugal-jacket-Suit-set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/104_2024-25-Portugal-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/105_2024-25-Portugal-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/106_2024-25-Portugal-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/107_2024-25-Portugal-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Hoodies Set",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/108_2024-25-Portugal-Hoodies-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Hoodies Set",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/109_2024-25-Portugal-Hoodies-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2022 Portugal Half Pull Training Suit Black Football Shirt Set",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/110_2022-Portugal-Half-Pull-Training-Suit-Black-Football-Shirt-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2023 2024 Portugal Half Pull Training Wear Green Football Shirt Set 11 Thai Qual",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/111_2023-2024-Portugal-Half-Pull-Training-Wear-Green-Football-Shirt-Set-11-Thai-Qual.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2023 2024 Player Version Portugal Half Pull Training Wear Green Football Shirt S",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/112_2023-2024-Player-Version-Portugal-Half-Pull-Training-Wear-Green-Football-Shirt-S.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/113_2024-25-Portugal-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/114_2024-25-Portugal-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 24 25 Short Sleeve Training Jersey Portugal Black",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/115_24-25-Short-Sleeve-Training-Jersey-Portugal-Black.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/116_2024-25-Portugal-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/117_2024-25-Portugal-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/118_2024-25-Portugal-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/119_2024-25-Portugal-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/120_2024-25-Portugal-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal short sleeved training shirt",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/121_2024-25-Portugal-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/122_2024-25-Portugal-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2024 25 Portugal Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/123_2024-25-Portugal-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Portugal Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/124_Portugal-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Portugal Windbreaker",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/125_Portugal-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Portugal Windbreaker",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/126_Portugal-Windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Portugal Windbreaker",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/127_Portugal-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Portugal Windbreaker",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/128_Portugal-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Portugal Windbreaker",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/129_Portugal-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Portugal Windbreaker",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/130_Portugal-Windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Portugal Windbreaker",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/131_Portugal-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Goalkeeper Green Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/132_2025-26-Portugal-Goalkeeper-Green-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Goalkeeper Grey Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/133_2025-26-Portugal-Goalkeeper-Grey-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Away Football jersey Long Sleeve World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/134_2025-26-Portugal-Away-Football-jersey-Long-Sleeve-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Training Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/135_2025-26-Portugal-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Training Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/136_2025-26-Portugal-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Training Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/137_2025-26-Portugal-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Training Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/138_2025-26-Portugal-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Training Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/139_2025-26-Portugal-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Training Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/140_2025-26-Portugal-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Training Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/141_2025-26-Portugal-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — KIDS 2025 26 Portugal Training clothes KIDS Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/142_KIDS-2025-26-Portugal-Training-clothes-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — KIDS 2025 26 Portugal Training clothes KIDS Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/143_KIDS-2025-26-Portugal-Training-clothes-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2025 26 Portugal Away Football jersey long sleeves World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/144_Player-Edition-2025-26-Portugal-Away-Football-jersey-long-sleeves-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2025 26 Portugal LV PUMA Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/145_Player-Edition-2025-26-Portugal-LV-PUMA-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2025 26 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/146_Player-Edition-2025-26-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/147_2025-26-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal C Ronaldo European Cup cheering T shirt Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/148_2025-26-Portugal-C-Ronaldo-European-Cup-cheering-T-shirt-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Training Jersey Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/149_2025-26-Portugal-Training-Jersey-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Baseball Jersey Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/151_2025-26-Portugal-Baseball-Jersey-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Kids 2025 26 Portugal Home Kids Soccer Jersey long sleeves World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/152_Kids-2025-26-Portugal-Home-Kids-Soccer-Jersey-long-sleeves-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Shorts 2025 26 Shorts Portugal Home World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/153_Shorts-2025-26-Shorts-Portugal-Home-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Shorts 2025 26 Shorts Portugal Away World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/154_Shorts-2025-26-Shorts-Portugal-Away-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition Shorts 2025 26 Shorts Portugal Home World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/155_Player-Edition-Shorts-2025-26-Shorts-Portugal-Home-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2026 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/158_2026-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player version 2026 Portugal Home Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/159_Player-version-2026-Portugal-Home-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player version 2026 Portugal Away Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/160_Player-version-2026-Portugal-Away-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Kids 2026 Portugal Home Kids Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/161_Kids-2026-Portugal-Home-Kids-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Kids 2026 Portugal Away Kids Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/162_Kids-2026-Portugal-Away-Kids-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Edition 2025 26 Portugal Away Football jersey long sleeves",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/164_Player-Edition-2025-26-Portugal-Away-Football-jersey-long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Away Football jersey Long Sleeve World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/165_2025-26-Portugal-Away-Football-jersey-Long-Sleeve-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player 2025 26 Portugal Away Football Jersey Long sleeves World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/168_Player-2025-26-Portugal-Away-Football-Jersey-Long-sleeves-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Portugal Special Edition Football Jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/169_2025-26-Portugal-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Trench Coat Reversible windbreaker Portugal",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/171_2025-26-Trench-Coat-Reversible-windbreaker-Portugal.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Windbreaker Portugal",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/172_2025-26-Windbreaker-Portugal.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2025 26 Windbreaker Portugal",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/173_2025-26-Windbreaker-Portugal.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2026 Portugal Special Edition Football Jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/174_2026-Portugal-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player 2026 27 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/176_Player-2026-27-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player 2026 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/177_Player-2026-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player Shorts 2026 Shorts Portugal",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/178_Player-Shorts-2026-Shorts-Portugal.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Shorts 2026 Shorts Portugal",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/179_Shorts-2026-Shorts-Portugal.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Shorts 2026 Shorts Portugal",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/180_Shorts-2026-Shorts-Portugal.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Women 2026 Portugal Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/181_Women-2026-Portugal-Away-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player 2026 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/182_Player-2026-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Player 2026 Portugal Special Edition Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/183_Player-2026-Portugal-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2026 Portugal jacket suit",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/184_2026-Portugal-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2026 Portugal Special Edition Football Jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/185_2026-Portugal-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2026 Portugal Special Edition Football Jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/186_2026-Portugal-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2026 Portugal Special Edition Football Jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/187_2026-Portugal-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — KIDS 2026 Portugal Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/188_KIDS-2026-Portugal-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Football socks Portugal Away 2026",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/189_Football-socks-Portugal-Away-2026.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Football socks Portugal Home 2026",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/190_Football-socks-Portugal-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Football socks Portugal Home 2026",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/191_Football-socks-Portugal-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Football socks Portugal Away 2026",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/192_Football-socks-Portugal-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Shorts 2026 Shorts Portugal",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/193_Shorts-2026-Shorts-Portugal.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Women 2026 Portugal Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/194_Women-2026-Portugal-Away-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — Women 2026 Portugal Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/195_Women-2026-Portugal-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Portugal — 2026 Baby Portugal Home Football jersey",
+    "category": "national",
+    "group": "Portugal",
+    "image": "assets/equipes-nationales/Europe/portugal/197_2026-Baby-Portugal-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Serbie — 2024 25 Serbia Euro Away Football jersey",
+    "category": "national",
+    "group": "Serbie",
+    "image": "assets/equipes-nationales/Europe/serbie/001_2024-25-Serbia-Euro-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Serbie — 2024 25 Serbia Euro Home Football jersey",
+    "category": "national",
+    "group": "Serbie",
+    "image": "assets/equipes-nationales/Europe/serbie/002_2024-25-Serbia-Euro-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Serbie — 22 23 Serbia home",
+    "category": "national",
+    "group": "Serbie",
+    "image": "assets/equipes-nationales/Europe/serbie/003_22-23-Serbia-home.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
   }
 ];
 

@@ -7596,6 +7596,3016 @@ const PRODUCTS = [
     "supplierVerified": true,
     "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
     "sizePending": true
+  },
+{
+    "name": "Argentine — 2024 25 Argentina Home Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/003_2024-25-Argentina-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Home Football jersey No chapter version",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/004_2024-25-Argentina-Home-Football-jersey-No-chapter-version.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Home Football jersey Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/005_2024-25-Argentina-Home-Football-jersey-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2024 25 Argentina Home Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/006_Player-Edition-2024-25-Argentina-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2024 25 Argentina Home Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/007_Player-Edition-2024-25-Argentina-Home-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2024 25 Argentina Home Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/008_Player-Edition-2024-25-Argentina-Home-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Home Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/009_2024-25-Argentina-Home-Kids-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Away Football jersey No Chest Preface",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/010_2024-25-Argentina-Away-Football-jersey-No-Chest-Preface.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Away Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/011_2024-25-Argentina-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Away Football jersey Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/012_2024-25-Argentina-Away-Football-jersey-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 24 25 Womens Argentina Away Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/013_24-25-Womens-Argentina-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2024 25 Argentina Away Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/014_Player-Edition-2024-25-Argentina-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2024 25 Argentina Away Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/015_Player-Edition-2024-25-Argentina-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/016_2024-25-Argentina-Goalkeeper-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2024 25 Argentina goalkeeper Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/017_Player-Edition-2024-25-Argentina-goalkeeper-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina 50th Anniversary Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/018_2024-25-Argentina-50th-Anniversary-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina 50 years commemorate Long Sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/019_2024-25-Argentina-50-years-commemorate-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2024 25 Argentina 50th Anniversary Football jersey Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/021_Player-Edition-2024-25-Argentina-50th-Anniversary-Football-jersey-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina 50th Anniversary Cotton T Shirt Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/022_2024-25-Argentina-50th-Anniversary-Cotton-T-Shirt-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/023_2024-25-Argentina-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/024_2024-25-Argentina-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2024 25 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/025_Player-Edition-2024-25-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2024 25 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/026_Player-Edition-2024-25-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2023 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/027_2023-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2023 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/028_Player-Edition-2023-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 23 24 Argentina Tank Top Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/029_23-24-Argentina-Tank-Top-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 23 24 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/030_23-24-Argentina-Special-Edition-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 23 24 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/031_23-24-Argentina-Special-Edition-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 22 23 Argentina Away Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/032_Player-22-23-Argentina-Away-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 22 23 Argentina Away Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/033_22-23-Argentina-Away-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 22 23 Argentina Home Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/034_Player-22-23-Argentina-Home-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 22 23 Argentina home Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/035_22-23-Argentina-home-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 22 23 Argentina home kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/037_22-23-Argentina-home-kids-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2022 Argentina World Cup Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/038_Retro-2022-Argentina-World-Cup-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2023 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/039_2023-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 22 23 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/040_22-23-Argentina-Special-Edition-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 22 23 Argentina Commemorative Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/041_22-23-Argentina-Commemorative-Edition-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 22 23 Player Argentina Commemorative Edition",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/042_22-23-Player-Argentina-Commemorative-Edition.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2022 World Cup Argentina home 3 star competition",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/043_2022-World-Cup-Argentina-home-3-star-competition.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2022 World Cup Argentina home 3 star competition player",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/044_2022-World-Cup-Argentina-home-3-star-competition-player.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2022 Argentina World Cup Champion Commemorative",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/045_2022-Argentina-World-Cup-Champion-Commemorative.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2021 Argentina Golden X Memorial",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/046_2021-Argentina-Golden-X-Memorial.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2021 Argentina Commemorative Edition White Blue",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/047_2021-Argentina-Commemorative-Edition-White-Blue.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2020 Argentina Home Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/049_2020-Argentina-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2020 Argentina Away Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/050_2020-Argentina-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2018 Argentina Home Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/053_Retro-2018-Argentina-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2018 Argentina away Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/054_Retro-2018-Argentina-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2014 Argentina Home Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/055_Retro-2014-Argentina-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2014 Argentina Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/056_Retro-2014-Argentina-Home-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2014 Argentina Away Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/058_Retro-2014-Argentina-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2014 Argentina Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/059_Retro-2014-Argentina-Away-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2014 shorts Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/061_Retro-2014-shorts-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2011 Argentina Away Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/062_Retro-2011-Argentina-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2010 Argentina home MESSI Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/063_Retro-2010-Argentina-home-MESSI-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — retro 2006 Argentina away MESSI football jersey Fan version",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/064_retro-2006-Argentina-away-MESSI-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2006 Argentina Away Football jersey Retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/065_Retro-2006-Argentina-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2006 Argentina Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/066_Retro-2006-Argentina-Away-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Kids Retro 2006 Argentina Away Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/067_Kids-Retro-2006-Argentina-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2006 Argentina home Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/068_Retro-2006-Argentina-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2006 Argentina home MESSI Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/069_Retro-2006-Argentina-home-MESSI-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2006 Argentina Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/070_Retro-2006-Argentina-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Kids Retro 2006 Argentina Home Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/071_Kids-Retro-2006-Argentina-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 2004 05 Argentina Home Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/072_Retro-2004-05-Argentina-Home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — retro 2002 Argentina away retro football jersey Fan version",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/073_retro-2002-Argentina-away-retro-football-jersey-Fan-version.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 10 Argentina Maradona Retirement Commemorative Edition Football jersey ret",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/074_Retro-10-Argentina-Maradona-Retirement-Commemorative-Edition-Football-jersey-ret.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro Argentina Maradona Retirement Commemorative Edition Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/075_Retro-Argentina-Maradona-Retirement-Commemorative-Edition-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1998 season Argentina away Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/076_Retro-1998-season-Argentina-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Kids Retro 1998 Argentina Away Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/077_Kids-Retro-1998-Argentina-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro Argentina 1998 home Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/078_Retro-Argentina-1998-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1998 Argentina Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/079_Retro-1998-Argentina-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1998 Argentina Home Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/080_Retro-1998-Argentina-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro Argentina 96 97 home MARADONA Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/081_Retro-Argentina-96-97-home-MARADONA-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1996 97 Argentina Home Football jersey retro Long sleeves",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/082_Retro-1996-97-Argentina-Home-Football-jersey-retro-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Kids Retro 1996 97 Argentina Home Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/083_Kids-Retro-1996-97-Argentina-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1994 Argentina Home Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/084_Retro-1994-Argentina-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1994 Argentina away MARADONA Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/085_Retro-1994-Argentina-away-MARADONA-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1994 Argentina Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/086_Retro-1994-Argentina-Away-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1994 Argentina Away Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/087_Retro-1994-Argentina-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1994 shorts Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/088_Retro-1994-shorts-Argentina.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro Argentina 1993 home Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/089_Retro-Argentina-1993-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Kids Retro 1994 Argentina Home Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/090_Kids-Retro-1994-Argentina-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1994 Argentina Black Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/091_Retro-1994-Argentina-Black-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1993 94 Argentina Goalkeeper Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/092_Retro-1993-94-Argentina-Goalkeeper-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1990 Argentina Goalkeeper Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/093_Retro-1990-Argentina-Goalkeeper-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1990 Argentina Goalkeeper Football jersey retro Long sleeves",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/094_Retro-1990-Argentina-Goalkeeper-Football-jersey-retro-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro Argentina 1986 away Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/095_Retro-Argentina-1986-away-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1986 Argentina Away Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/096_Retro-1986-Argentina-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1986 Argentina home Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/097_Retro-1986-Argentina-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1986 Argentina Home Football jersey retro long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/098_Retro-1986-Argentina-Home-Football-jersey-retro-long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1986 Argentina Home Kids Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/099_Retro-1986-Argentina-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1978 Argentina home Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/100_Retro-1978-Argentina-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Retro 1978 Argentina Home Football jersey retro long sleeve",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/101_Retro-1978-Argentina-Home-Football-jersey-retro-long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina jacket Suit set",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/102_2024-25-Argentina-jacket-Suit-set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina jacket Suit set",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/103_2024-25-Argentina-jacket-Suit-set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina jacket Suit set",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/104_2024-25-Argentina-jacket-Suit-set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 Argentina Jacket Set",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/105_2024-Argentina-Jacket-Set.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 20232024 Argentina Half La Training Wear White Jersey Set",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/106_20232024-Argentina-Half-La-Training-Wear-White-Jersey-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/107_2024-25-Argentina-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 20232024 Argentina half pull training uniform white camouflage jersey set",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/108_20232024-Argentina-half-pull-training-uniform-white-camouflage-jersey-set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 20232024 Argentina Half length Training Wear Pink Jersey Set",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/109_20232024-Argentina-Half-length-Training-Wear-Pink-Jersey-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 20232024 Argentina half training uniform black jersey set",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/110_20232024-Argentina-half-training-uniform-black-jersey-set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/111_2024-25-Argentina-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/112_2024-25-Argentina-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/113_2024-25-Argentina-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/114_2024-25-Argentina-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/115_2024-25-Argentina-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 23 24 Argentina short sleeved training clothes",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/116_23-24-Argentina-short-sleeved-training-clothes.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 23 24 Argentina short sleeved training clothes",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/117_23-24-Argentina-short-sleeved-training-clothes.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2023 Double sided Windbreaker Argentina 3 star",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/119_2023-Double-sided-Windbreaker-Argentina-3-star.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2023 Double sided Windbreaker Argentina 3 star",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/120_2023-Double-sided-Windbreaker-Argentina-3-star.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker 2 LADOS Double faced windbreaker Embroidery version",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/121_Argentina-Windbreaker-2-LADOS-Double-faced-windbreaker-Embroidery-version.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/122_Argentina-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/123_Argentina-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/124_Argentina-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/125_2024-25-Argentina-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/126_2024-25-Argentina-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2024 25 Argentina Windbreaker 2 LADOS",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/127_2024-25-Argentina-Windbreaker-2-LADOS.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/128_Argentina-Windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/129_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/130_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Warmweet jacket Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/131_Warmweet-jacket-Argentina.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/132_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/133_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/134_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/135_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/136_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/137_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/138_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/139_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/140_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/141_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/142_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/143_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/144_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/145_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/146_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/147_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/148_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/149_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/150_Argentina-Windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Argentina Windbreaker",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/151_Argentina-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Argentina Cotton T shirt Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/152_2025-26-Argentina-Cotton-T-shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2025 26 Messi 10 Commemorative Edition Barcelona PSG Argentina Inter Miam",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/153_Player-2025-26-Messi-10-Commemorative-Edition-Barcelona-PSG-Argentina-Inter-Miam.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Messi 10 Commemorative Edition Barcelona PSG Argentina Inter Miami Footb",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/154_2025-26-Messi-10-Commemorative-Edition-Barcelona-PSG-Argentina-Inter-Miami-Footb.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Kids 2025 26 Messi 10 Commemorative Edition Barcelona PSG Argentina Inter Miami",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/155_Kids-2025-26-Messi-10-Commemorative-Edition-Barcelona-PSG-Argentina-Inter-Miami-.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2025 26 Argentina Home Soccer jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/156_Player-2025-26-Argentina-Home-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 season Argentina jacket suit",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/157_2025-26-season-Argentina-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2025 26 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/159_Player-2025-26-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2025 26 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/160_Player-2025-26-Argentina-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2025 26 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/161_Player-2025-26-Argentina-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — KIDS 2025 26 Argentina Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/163_KIDS-2025-26-Argentina-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Windbreaker Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/166_2025-26-Windbreaker-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Windbreaker Argentina 0506",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/167_2025-26-Windbreaker-Argentina-0506.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Trench Coat Reversible windbreaker Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/168_2025-26-Trench-Coat-Reversible-windbreaker-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Trench Coat Reversible windbreaker Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/169_2025-26-Trench-Coat-Reversible-windbreaker-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Trench Coat Reversible windbreaker Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/170_2025-26-Trench-Coat-Reversible-windbreaker-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Long sleeved Sweatshirt Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/171_2025-26-Long-sleeved-Sweatshirt-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Long sleeved Sweatshirt Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/172_2025-26-Long-sleeved-Sweatshirt-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Special Edition Football Jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/173_2026-Argentina-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/175_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/176_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Casual T Shirt Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/177_Player-2026-Argentina-Casual-T-Shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Training Football Jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/178_2026-Argentina-Training-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Women 2026 Argentina Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/179_Women-2026-Argentina-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — KIDS 2026 Argentina Home KIDS Football jersey Long sleeves World Cup",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/180_KIDS-2026-Argentina-Home-KIDS-Football-jersey-Long-sleeves-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Shorts Argentina Home",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/181_2026-Shorts-Argentina-Home.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Shorts Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/182_2026-Shorts-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player shorts 2026 shorts Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/183_Player-shorts-2026-shorts-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player shorts 2026 shorts Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/184_Player-shorts-2026-shorts-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — KIDS 2026 Argentina Goalkeeper KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/185_KIDS-2026-Argentina-Goalkeeper-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Training Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/186_Player-2026-Argentina-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/188_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/189_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 season Argentina Windbreaker jacket suit",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/190_2026-season-Argentina-Windbreaker-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Special Edition Football Jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/191_2026-Argentina-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2025 26 Windbreaker Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/192_2025-26-Windbreaker-Argentina.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina POLO Football Jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/193_2026-Argentina-POLO-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2026 Argentina short sleeved training shirt S 3XL",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/194_Player-Edition-2026-Argentina-short-sleeved-training-shirt-S-3XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2026 Argentina short sleeved training shirt S 3XL",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/195_Player-Edition-2026-Argentina-short-sleeved-training-shirt-S-3XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2026 Argentina Sleeveless Vest Training Wear suit S 3XL",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/196_Player-Edition-2026-Argentina-Sleeveless-Vest-Training-Wear-suit-S-3XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2026 Argentina Sleeveless Vest Training Wear suit S 3XL",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/197_Player-Edition-2026-Argentina-Sleeveless-Vest-Training-Wear-suit-S-3XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2026 Argentina short sleeved training shirt S 3XL",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/198_Player-Edition-2026-Argentina-short-sleeved-training-shirt-S-3XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Edition 2026 Argentina short sleeved training shirt S 3XL",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/199_Player-Edition-2026-Argentina-short-sleeved-training-shirt-S-3XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Terrace Icons T Shirt Football Jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/204_2026-Argentina-Terrace-Icons-T-Shirt-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina adidas AFA Bringback Remixed Football jersey retro",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/205_2026-Argentina-adidas-AFA-Bringback-Remixed-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Women 2026 Argentina Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/207_Women-2026-Argentina-Away-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 half pull training suit Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/208_2026-half-pull-training-suit-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Training Blu Football Jersey S 4XL",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/209_2026-Argentina-Training-Blu-Football-Jersey-S-4XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Training Football Jersey S 4XL",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/210_2026-Argentina-Training-Football-Jersey-S-4XL.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/211_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/212_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/213_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/214_2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — KIDS 2026 Argentina Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/215_KIDS-2026-Argentina-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Football socks Argentina Home 2026",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/217_Football-socks-Argentina-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Football socks Argentina Away 2026",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/218_Football-socks-Argentina-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Maradona World Cup Victory 40th Anniversary Commemorative",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/219_Player-2026-Argentina-Maradona-World-Cup-Victory-40th-Anniversary-Commemorative-.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Version Shorts 2026 Shorts Argentina Casual",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/220_Player-Version-Shorts-2026-Shorts-Argentina-Casual.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Version Shorts 2026 Shorts Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/221_Player-Version-Shorts-2026-Shorts-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 1986 Windbreaker Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/222_1986-Windbreaker-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Blue Polo Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/223_2026-Argentina-Blue-Polo-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/224_2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football Jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/225_Player-2026-Argentina-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player Version Shorts 2026 Shorts Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/226_Player-Version-Shorts-2026-Shorts-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 jacket suit Argentina",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/227_2026-jacket-suit-Argentina.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Originals Blue T Shirt Football jersey S 4XL",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/229_2026-Argentina-Originals-Blue-T-Shirt-Football-jersey-S-4XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/230_2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Training Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/231_Player-2026-Argentina-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — 2026 Argentina Special Edition Football Jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/233_2026-Argentina-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/234_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/239_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Player 2026 Argentina Special Edition Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/240_Player-2026-Argentina-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — KIDS 2026 Argentina Special Edition Football jersey KIDS",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/241_KIDS-2026-Argentina-Special-Edition-Football-jersey-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — KIDS 2026 Argentina Special Edition Football jersey KIDS",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/242_KIDS-2026-Argentina-Special-Edition-Football-jersey-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Argentine — Women 2026 Argentina Special Edition Womens Football jersey",
+    "category": "national",
+    "group": "Argentine",
+    "image": "assets/equipes-nationales/Ameriques/argentine/243_Women-2026-Argentina-Special-Edition-Womens-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
   }
 ];
 

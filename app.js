@@ -259,6 +259,17 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const patchOptions=Array.isArray(p.patches)?p.patches:[];
   const productVisual=p.image?'<img src="'+esc(p.image)+'" alt="'+esc(p.name)+'" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto 16px">':'<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>';
   open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p><label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select><label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+patchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div><label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Nom et numéro personnalisés</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  if(p.sizePending){
+   const sizeSelect=dialog.querySelector("#jh-size");
+   sizeSelect.disabled=true;
+   const addButton=dialog.querySelector("#jh-add");
+   addButton.disabled=true;
+   addButton.textContent="Tailles à confirmer";
+   const note=document.createElement("p");
+   note.textContent="Ce visuel est bien ajouté au catalogue, mais les tailles exactes doivent être vérifiées auprès du fournisseur. La commande n'est pas encore disponible.";
+   note.style.cssText="color:#f4bd22;font-weight:700;margin:12px 0";
+   dialog.querySelector(".jh-actions").before(note);
+  }
   dialog.querySelector("#jh-cancel").onclick=close;
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
   person.onchange=()=>{fields.innerHTML=person.value==="Aucune"?"":'<label for="jh-name">'+(person.value==="Nom et numéro du joueur"?"Nom du joueur":"Nom personnalisé")+'</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" placeholder="Numéro">'};

@@ -35358,7 +35358,30 @@ const PRODUCTS = [
     "supplier": "Vivi Jersey",
     "supplierVerified": true,
     "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
-  }
+  },
+{
+  "name": "26-27 Standard de Liège domicile - Rouge",
+  "category": "clubs",
+  "group": "Standard de Liège",
+  "image": "https://cdn.staticyy.com/100531/2026/09/29/a/a/aac3c5779565b3e7.jpg?x-oss-process=image%2Fquality%2CQ_90%2Fauto-orient%2C1%2Fresize%2Cm_lfit%2Cw_160%2Ch_160%2Fformat%2Cwebp",
+  "images": [
+    "https://cdn.staticyy.com/100531/2026/09/29/a/a/aac3c5779565b3e7.jpg?x-oss-process=image%2Fquality%2CQ_90%2Fauto-orient%2C1%2Fresize%2Cm_lfit%2Cw_160%2Ch_160%2Fformat%2Cwebp",
+    "https://cdn.staticyy.com/100531/2026/09/29/8/4/840c9d60bf38d326.jpg?x-oss-process=image%2Fquality%2CQ_90%2Fauto-orient%2C1%2Fresize%2Cm_lfit%2Cw_160%2Ch_160%2Fformat%2Cwebp"
+  ],
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL",
+    "4XL"
+  ],
+  "supplier": "HKLFP",
+  "supplierVerified": true,
+  "supplierUrl": "https://www.hklfp.com/26-27-Standard-Liege-Home-Fans-Soccer-Jersey-p3148923.html",
+  "description": "Maillot domicile 2026-2027 rouge. Photos originales du fournisseur : vue de face et vue de dos."
+}
 ];
 
 

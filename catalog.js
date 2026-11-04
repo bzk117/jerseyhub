@@ -35402,13 +35402,12 @@ const PRODUCTS = [
     "name": "26-27 Club Brugge Home Adult Suit - Ensemble domicile",
     "category": "clubs",
     "group": "Cercle de Bruges",
-    "image": "https://media.s-bol.com/LmD1WQJN9Gov/VOoMzvO/550x545.jpg",
-    "sizes": ["À confirmer"],
-    "sizePending": true,
+    "image": "https://shop.clubbrugge.be/cdn/shop/files/pro-home-shirt-2627-8572817.png?v=1779718653",
+    "sizes": ["S", "M", "L", "XL", "XXL", "3XL", "4XL"],
     "supplier": "HKLFP",
     "supplierVerified": true,
     "supplierUrl": "https://www.hklfp.com/26-27-Club-Brugge-Home-Adult-Suit-p2696806.html",
-    "description": "Ensemble adulte domicile Club Brugge 2026-2027. Photo illustrative d'un ensemble d'entraînement Club Brugge ; tailles exactes à confirmer sur la fiche fournisseur."
+    "description": "Ensemble domicile adulte Club Brugge 2026-2027. Photo de référence du maillot domicile officiel 26/27 ; tailles sélectionnables S à 4XL. Vérifier la disponibilité finale auprès du fournisseur."
   }
 ];
 

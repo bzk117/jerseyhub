@@ -35381,7 +35381,23 @@ const PRODUCTS = [
   "supplierVerified": true,
   "supplierUrl": "https://www.hklfp.com/26-27-Standard-Liege-Home-Fans-Soccer-Jersey-p3148923.html",
   "description": "Maillot domicile 2026-2027 rouge. Photos originales du fournisseur : vue de face et vue de dos."
-}
+},
+
+  {
+    "name": "26-27 Standard de Liège extérieur - Noir",
+    "category": "clubs",
+    "group": "Standard de Liège",
+    "image": "https://cdn.staticyy.com/100531/2026/09/27/a/a/aa7584559e97e9ed.jpg?x-oss-process=image%2Fquality%2CQ_90%2Fauto-orient%2C1%2Fresize%2Cm_lfit%2Cw_160%2Ch_160%2Fformat%2Cwebp",
+    "images": [
+      "https://cdn.staticyy.com/100531/2026/09/27/a/a/aa7584559e97e9ed.jpg?x-oss-process=image%2Fquality%2CQ_90%2Fauto-orient%2C1%2Fresize%2Cm_lfit%2Cw_160%2Ch_160%2Fformat%2Cwebp",
+      "https://cdn.staticyy.com/100531/2026/09/27/0/e/0ef8006303eeb130.jpg?x-oss-process=image%2Fquality%2CQ_90%2Fauto-orient%2C1%2Fresize%2Cm_lfit%2Cw_160%2Ch_160%2Fformat%2Cwebp"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+    "supplier": "HKLFP",
+    "supplierVerified": true,
+    "supplierUrl": "https://www.hklfp.com/26-27-Standard-Liege-Away-Fans-Soccer-Jersey-p3141586.html",
+    "description": "Maillot extérieur 2026-2027 noir. Photos originales HKLFP : vue de face et vue de dos. Tailles et options relevées sur la fiche fournisseur."
+  }
 ];
 
 

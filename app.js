@@ -54,6 +54,7 @@ function isReadyForCatalog(p){
  // Une fiche est publiable si sa source fournisseur est explicitement vérifiée.
  const viviSourceOk = p.supplier === "Vivi Jersey" && (
   (typeof p.sourceUrl === "string" && /^https?:\/\/([a-z0-9-]+\.)?vivi-jersey\.com\//i.test(p.sourceUrl)) ||
+  (typeof p.supplierUrl === "string" && /^https?:\/\/([a-z0-9-]+\.)?vivi-jersey\.com\//i.test(p.supplierUrl)) ||
   (typeof p.assetSource === "string" && p.assetSource.startsWith("Vivi Jersey archive filename"))
  );
  const hklfpSourceOk = p.supplier === "HKLFP" && typeof p.supplierUrl === "string" &&

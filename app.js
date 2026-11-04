@@ -257,8 +257,17 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   }).filter((v,i,a)=>a.indexOf(v)===i);
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
   const patchOptions=Array.isArray(p.patches)?p.patches:[];
-  const productVisual=p.image?'<img src="'+esc(p.image)+'" alt="'+esc(p.name)+'" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto 16px">':'<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>';
+  const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
+  let galleryIndex=0;
+  const productVisual=galleryImages.length>1
+   ? '<div class="jh-product-gallery"><img id="jh-product-gallery-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - devant" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto"><div style="display:flex;justify-content:center;align-items:center;gap:12px;margin:0 auto 16px"><button type="button" class="jh-secondary" id="jh-gallery-prev">← Devant</button><span id="jh-gallery-count" style="color:#bbb">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next">Derrière →</button></div></div>'
+   : (galleryImages.length?'<img src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+'" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto 16px">':'<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>');
   open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p><label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select><label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+patchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div><label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Nom et numéro personnalisés</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  if(galleryImages.length>1){
+   const showGalleryImage=()=>{const img=dialog.querySelector("#jh-product-gallery-image");if(img){img.src=galleryImages[galleryIndex];img.alt=esc(p.name)+(galleryIndex===0?" - devant":" - derrière");dialog.querySelector("#jh-gallery-count").textContent=(galleryIndex+1)+" / "+galleryImages.length;}};
+   dialog.querySelector("#jh-gallery-prev").onclick=()=>{galleryIndex=(galleryIndex-1+galleryImages.length)%galleryImages.length;showGalleryImage()};
+   dialog.querySelector("#jh-gallery-next").onclick=()=>{galleryIndex=(galleryIndex+1)%galleryImages.length;showGalleryImage()};
+  }
   if(p.sizePending){
    const sizeSelect=dialog.querySelector("#jh-size");
    sizeSelect.disabled=true;

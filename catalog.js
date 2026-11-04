@@ -5706,6 +5706,1896 @@ const PRODUCTS = [
     "supplierVerified": true,
     "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
     "sizePending": true
+  },
+{
+    "name": "Angleterre — 2025 26 England Home Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/001_2025-26-England-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Home KANE RICE MAGUIRE Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/002_2024-25-England-Home-KANE-RICE-MAGUIRE-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Home Long Sleeve KANE RICE MAGUIRE Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/003_2024-25-England-Home-Long-Sleeve-KANE-RICE-MAGUIRE-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 Player Edition England Home KANE RICE MAGUIRE Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/004_2024-25-Player-Edition-England-Home-KANE-RICE-MAGUIRE-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Home Player Long Sleeve KANE RICE MAGUIRE Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/005_2024-25-England-Home-Player-Long-Sleeve-KANE-RICE-MAGUIRE-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Home KIDS KANE RICE MAGUIRE Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/006_2024-25-England-Home-KIDS-KANE-RICE-MAGUIRE-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Away Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/007_2024-25-England-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player Edition 2024 25 England Away KANE RICE MAGUIRE Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/008_Player-Edition-2024-25-England-Away-KANE-RICE-MAGUIRE-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Training KANE RICE MAGUIRE Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/009_2024-25-England-Training-KANE-RICE-MAGUIRE-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/010_2024-25-England-Goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Special Edition Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/011_2024-25-England-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Special Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/012_2024-25-England-Special-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2022 23 England Black Special Edition Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/013_2022-23-England-Black-Special-Edition-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2022 23 England Away Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/014_2022-23-England-Away-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2022 23 England Red away Bellingham Kane Sancho Soccer Jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/015_2022-23-England-Red-away-Bellingham-Kane-Sancho-Soccer-Jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2022 23 New England Home Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/016_2022-23-New-England-Home-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2022 23 England home Bellingham Kane Sancho Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/017_2022-23-England-home-Bellingham-Kane-Sancho-Football-jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2020 England Home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/018_Retro-2020-England-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2020 England away Football jersey Retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/019_Retro-2020-England-away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — retro 2018 England training fan football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/020_retro-2018-England-training-fan-football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — retro 2016 England Home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/021_retro-2016-England-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2014 England home Football jersey Retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/022_Retro-2014-England-home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2013 England home Beckham Terry GERRARD Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/023_Retro-2013-England-home-Beckham-Terry-GERRARD-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2012 England Home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/024_Retro-2012-England-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2010 England Home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/025_Retro-2010-England-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro England 2008 10 away Beckham Terry GERRARD Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/026_Retro-England-2008-10-away-Beckham-Terry-GERRARD-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2006 England home OWEN 10 Hargreaves 16 Lampard 8 BECKHAM 7 Football jerse",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/027_Retro-2006-England-home-OWEN-10-Hargreaves-16-Lampard-8-BECKHAM-7-Football-jerse.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2006 England Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/028_Retro-2006-England-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2006 shorts England home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/029_Retro-2006-shorts-England-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2004 England Home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/030_Retro-2004-England-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — retro 2004 England Home Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/031_retro-2004-England-Home-Football-jersey-retro-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Kids Retro 2004 England Home Kids Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/032_Kids-Retro-2004-England-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2002 England away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/033_Retro-2002-England-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2002 England home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/034_Retro-2002-England-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2002 England Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/035_Retro-2002-England-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Kids Retro 2002 England Home Kids Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/036_Kids-Retro-2002-England-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2000 England Home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/037_Retro-2000-England-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 2000 England Away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/038_Retro-2000-England-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1999 01 England home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/039_Retro-1999-01-England-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1998 England home Sheringham Beckham Shearer Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/040_Retro-1998-England-home-Sheringham-Beckham-Shearer-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1998 England Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/041_Retro-1998-England-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1998 England Kids home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/042_Retro-1998-England-Kids-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Kids Retro 1998 England Home Kids Football jersey Long sleeves",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/043_Kids-Retro-1998-England-Home-Kids-Football-jersey-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1998 shorts England home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/044_Retro-1998-shorts-England-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1998 England Away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/045_Retro-1998-England-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1998 England Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/046_Retro-1998-England-Away-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Kids Retro 1998 England Away Kids Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/047_Kids-Retro-1998-England-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1998 England home Football jersey Retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/048_Retro-1998-England-home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro England 1996 away SHEARER GASCOIGNE PEARCE Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/049_Retro-England-1996-away-SHEARER-GASCOIGNE-PEARCE-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1996 England Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/050_Retro-1996-England-Away-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1996 England Kids Away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/051_Retro-1996-England-Kids-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro England 1996 home SHEARER GASCOIGNE PEARCE CASCOIGNE Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/052_Retro-England-1996-home-SHEARER-GASCOIGNE-PEARCE-CASCOIGNE-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1996 England Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/053_Retro-1996-England-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1996 England Goalkeeper Football jersey retro Long sleeves",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/054_Retro-1996-England-Goalkeeper-Football-jersey-retro-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1996 England Kids home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/055_Retro-1996-England-Kids-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1995 96 England goalkeeper Long Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/056_Retro-1995-96-England-goalkeeper-Long-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1994 95 England home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/057_Retro-1994-95-England-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1992 England 2Away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/058_Retro-1992-England-2Away-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1992 England 2 Away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/059_Retro-1992-England-2-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1992 England Away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/060_Retro-1992-England-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1992 England Home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/061_Retro-1992-England-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — retro 1990 England Home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/062_retro-1990-England-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1990 England black Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/063_Retro-1990-England-black-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1990 England black with Umbro Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/064_Retro-1990-England-black-with-Umbro-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Kids Retro 1990 England Special Edition Kids Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/065_Kids-Retro-1990-England-Special-Edition-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1990 England Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/066_Retro-1990-England-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1990 England 2 Away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/067_Retro-1990-England-2-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1990 England Away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/068_Retro-1990-England-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1990 England home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/069_Retro-1990-England-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Kids Retro 1990 England Home Kids Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/070_Kids-Retro-1990-England-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro England 1984 87 away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/071_Retro-England-1984-87-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1982 England Away Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/072_Retro-1982-England-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Retro 1982 England home Football jersey retro",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/073_Retro-1982-England-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England jacket suit",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/074_2024-25-England-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2025 26 England half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/075_2025-26-England-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2025 26 England half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/076_2025-26-England-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England jacket suit",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/077_2024-25-England-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/078_2024-25-England-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/079_2024-25-England-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/080_2024-25-England-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/081_2024-25-England-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 24 25 Short Sleeve Training Jersey England Royal Blue",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/082_24-25-Short-Sleeve-Training-Jersey-England-Royal-Blue.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 24 25 Short sleeved training suit England maroon",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/083_24-25-Short-sleeved-training-suit-England-maroon.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/084_2024-25-England-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/085_2024-25-England-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/086_2024-25-England-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/087_2024-25-England-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/088_2024-25-England-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/089_2024-25-England-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England short sleeved training shirt",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/090_2024-25-England-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2024 25 England Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/091_2024-25-England-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 1992 England Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/092_1992-England-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/093_England-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/094_England-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/095_England-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/096_England-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/097_England-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/098_England-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/099_England-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/100_England-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/101_England-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/102_England-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — England Windbreaker",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/103_England-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player 2025 26 England Special Edition Soccer Jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/104_Player-2025-26-England-Special-Edition-Soccer-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player 2025 26 England Home Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/105_Player-2025-26-England-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player version 2025 26 England Away Football jersey Long sleeves",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/106_Player-version-2025-26-England-Away-Football-jersey-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — KIDS 2025 26 England Away Football jersey KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/110_KIDS-2025-26-England-Away-Football-jersey-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — KIDS 2025 26 England Home Football jersey KIDS",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/111_KIDS-2025-26-England-Home-Football-jersey-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — KIDS 2025 26 England Home Football jersey KIDS World Cup",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/112_KIDS-2025-26-England-Home-Football-jersey-KIDS-World-Cup.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — KIDS 2025 26 England goalkeeper KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/113_KIDS-2025-26-England-goalkeeper-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2025 26 England Becks 7 Special Edition Football Jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/114_2025-26-England-Becks-7-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player 2025 26 England Home Football Jersey Long sleeves World Cup",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/115_Player-2025-26-England-Home-Football-Jersey-Long-sleeves-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2025 26 Windbreaker England",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/116_2025-26-Windbreaker-England.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2025 26 Trench Coat Reversible windbreaker England",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/117_2025-26-Trench-Coat-Reversible-windbreaker-England.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2026 England Training Football Jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/118_2026-England-Training-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player 2026 England Special Edition Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/121_Player-2026-England-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player 2026 England Special Edition Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/122_Player-2026-England-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2026 England Goalkeeper Football Jersey Long sleeves",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/123_2026-England-Goalkeeper-Football-Jersey-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2026 shorts England",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/124_2026-shorts-England.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — KIDS 2026 England Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/126_KIDS-2026-England-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Women 2026 England Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/127_Women-2026-England-Away-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Women 2026 England Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/129_Women-2026-England-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — KIDS 2026 England Special Edition KIDS Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/130_KIDS-2026-England-Special-Edition-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2026 Baby England Home Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/131_2026-Baby-England-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player 2026 England Special Edition Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/132_Player-2026-England-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2026 England Special Edition Football jersey",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/134_2026-England-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Shorts 2026 Shorts England",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/135_Shorts-2026-Shorts-England.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Football socks England Home 2026",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/136_Football-socks-England-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Football socks England Away 2026",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/137_Football-socks-England-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — 2026 England half pull training suit",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/138_2026-England-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player 2026 England Training Football Jersey S 3XL",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/139_Player-2026-England-Training-Football-Jersey-S-3XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player Version Shorts 2026 Shorts England",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/140_Player-Version-Shorts-2026-Shorts-England.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player Version Shorts 2026 Shorts England",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/142_Player-Version-Shorts-2026-Shorts-England.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Player Version Shorts 2026 Shorts England",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/143_Player-Version-Shorts-2026-Shorts-England.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Angleterre — Shorts 2026 Shorts England",
+    "category": "national",
+    "group": "Angleterre",
+    "image": "assets/equipes-nationales/Europe/angleterre/144_Shorts-2026-Shorts-England.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
   }
 ];
 

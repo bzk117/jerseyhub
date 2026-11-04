@@ -33342,6 +33342,2022 @@ const PRODUCTS = [
     "supplierVerified": true,
     "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
     "sizePending": true
+  },
+{
+    "name": "001 Player 2024 25 France Home Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/001_Player-2024-25-France-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "002 2024 25 France home Football jersey Long sleeve",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/002_2024-25-France-home-Football-jersey-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "003 2024 25 France home CAMAVINGA GRIEZMANN GIROUD MBAPPE DEMBELE T HERNANDEZ Footba",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/003_2024-25-France-home-CAMAVINGA-GRIEZMANN-GIROUD-MBAPPE-DEMBELE-T-HERNANDEZ-Footba.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "004 2024 25 France away CAMAVINGA GRIEZMANN GIROUD MBAPPE DEMBELE T HERNANDEZ Footba",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/004_2024-25-France-away-CAMAVINGA-GRIEZMANN-GIROUD-MBAPPE-DEMBELE-T-HERNANDEZ-Footba.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "005 24 25 Womens France Away CAMAVINGA GRIEZMANN GIROUD MBAPPE DEMBELE T HERNANDEZ F",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/005_24-25-Womens-France-Away-CAMAVINGA-GRIEZMANN-GIROUD-MBAPPE-DEMBELE-T-HERNANDEZ-F.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "006 Player Edition 2024 25 France away CAMAVINGA GRIEZMANN GIROUD MBAPPE DEMBELE T H",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/006_Player-Edition-2024-25-France-away-CAMAVINGA-GRIEZMANN-GIROUD-MBAPPE-DEMBELE-T-H.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "007 2024 25 France Daohao co branded model Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/007_2024-25-France-Daohao-co-branded-model-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "008 2024 25 PLAYER France Black Especial Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/008_2024-25-PLAYER-France-Black-Especial-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "009 2024 25 France Goalkeeper Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/009_2024-25-France-Goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "010 Player 2025 26 France goalkeeper Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/010_Player-2025-26-France-goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "011 2024 25 France Training Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/011_2024-25-France-Training-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "012 Player 2024 25 France Training Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/012_Player-2024-25-France-Training-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "013 2022 23 France training suit Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/013_2022-23-France-training-suit-Jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "014 2022 France home Mbappe 10 Griezmann Coman Kante BENZEMA GIROUD Football Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/014_2022-France-home-Mbappe-10-Griezmann-Coman-Kante-BENZEMA-GIROUD-Football-Jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "015 2022 Player France Home Mbappe 10 Griezmann Coman Kante BENZEMA GIROUD Football",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/015_2022-Player-France-Home-Mbappe-10-Griezmann-Coman-Kante-BENZEMA-GIROUD-Football-.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "016 2022 France Away Mbappe 10 Griezmann Coman Kante BENZEMA GIROUD Football Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/016_2022-France-Away-Mbappe-10-Griezmann-Coman-Kante-BENZEMA-GIROUD-Football-Jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "017 2022 Player France Away Mbappe 10 Griezmann Coman Kante BENZEMA GIROUD Football",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/017_2022-Player-France-Away-Mbappe-10-Griezmann-Coman-Kante-BENZEMA-GIROUD-Football-.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "018 2022 Players Edition France Training Kit White Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/018_2022-Players-Edition-France-Training-Kit-White-Jersey.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "019 Retro 2020 21 France Home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/019_Retro-2020-21-France-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "020 Retro 2019 France Centennial Edition Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/020_Retro-2019-France-Centennial-Edition-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "021 2018 France away white Mbappe 10 Griezmann Coman Kante Pogba Soccer Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/021_2018-France-away-white-Mbappe-10-Griezmann-Coman-Kante-Pogba-Soccer-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "022 Retro Version 2018 World Cup France Home Long Sleeve Mbappe 10 Griezmann Coman K",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/022_Retro-Version-2018-World-Cup-France-Home-Long-Sleeve-Mbappe-10-Griezmann-Coman-K.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "023 Retro version 2018 World Cup France home Mbappe 10 Griezmann Coman Kante Pogba S",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/023_Retro-version-2018-World-Cup-France-home-Mbappe-10-Griezmann-Coman-Kante-Pogba-S.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "024 Retro 2016 France Home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/024_Retro-2016-France-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "025 Retro 2014 France Home Soccer Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/025_Retro-2014-France-Home-Soccer-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "026 Retro 2014 France Home Soccer jersey Long Sleeve",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/026_Retro-2014-France-Home-Soccer-jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "027 Retro 2010 France Home Football jersey Retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/027_Retro-2010-France-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "028 Retro 2006 France Home 10ZIDANE HENRY VIEIRA ZIDANE SOSANNAH Football jersey ret",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/028_Retro-2006-France-Home-10ZIDANE-HENRY-VIEIRA-ZIDANE-SOSANNAH-Football-jersey-ret.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "029 Retro Kids 2006 France Home Kids Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/029_Retro-Kids-2006-France-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "030 Retro 2006 France Away Football jersey Retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/030_Retro-2006-France-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "031 Retro 2006 season France away 10ZIDANE HENRY VIEIRA ZIDANE SOSANNAH Football jer",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/031_Retro-2006-season-France-away-10ZIDANE-HENRY-VIEIRA-ZIDANE-SOSANNAH-Football-jer.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "032 Retro 2006 France Away Kids Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/032_Retro-2006-France-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "033 Retro France 2004 home ZIDANE HENRY SUSANNAH CANTONA LIZARAZU Football jersey re",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/033_Retro-France-2004-home-ZIDANE-HENRY-SUSANNAH-CANTONA-LIZARAZU-Football-jersey-re.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "034 Retro 2002 France Home Football jersey Retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/034_Retro-2002-France-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "035 Retro France 2000 home ZIDANE HENRY DJORKAEFF DESAILLY Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/035_Retro-France-2000-home-ZIDANE-HENRY-DJORKAEFF-DESAILLY-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "036 Retro 2000 France Home Kids Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/036_Retro-2000-France-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "037 Retro 1998 France home Zidane LIZARAZU Henry Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/037_Retro-1998-France-home-Zidane-LIZARAZU-Henry-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "038 Retro France 1998 home Zidane LIZARAZU Henry Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/038_Retro-France-1998-home-Zidane-LIZARAZU-Henry-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "039 Retro 1998 France Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/039_Retro-1998-France-Home-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "040 Player version Retro 1998 France Home Football jersey Retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/040_Player-version-Retro-1998-France-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "041 Retro 1998 France Home Kids Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/041_Retro-1998-France-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "042 Kids Retro 1998 France Home Kids Football jersey Long sleeves",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/042_Kids-Retro-1998-France-Home-Kids-Football-jersey-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "043 retro 1998 Shorts France Home retro football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/043_retro-1998-Shorts-France-Home-retro-football-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "044 Retro France 1998 away Zidane LIZARAZU Henry Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/044_Retro-France-1998-away-Zidane-LIZARAZU-Henry-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "045 Retro France 1998 away Zidane LIZARAZU Henry Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/045_Retro-France-1998-away-Zidane-LIZARAZU-Henry-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "046 Player version Retro 1998 France Away Football jersey Retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/046_Player-version-Retro-1998-France-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "047 Retro 1998 France Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/047_Retro-1998-France-Away-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "048 Retro 1998 France Away Kids Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/048_Retro-1998-France-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "049 Retro 1996 France home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/049_Retro-1996-France-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "050 Retro 1996 France Away Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/050_Retro-1996-France-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "051 Retro 1994 95 France Away Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/051_Retro-1994-95-France-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "052 Retro 1994 95 France Home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/052_Retro-1994-95-France-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "053 Retro 1992 94 France Home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/053_Retro-1992-94-France-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "054 Retro 1988 90 France Home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/054_Retro-1988-90-France-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "055 Retro 1988 90 France Home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/055_Retro-1988-90-France-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "056 Retro 84 86 European Cup Champions France Home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/056_Retro-84-86-European-Cup-Champions-France-Home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "057 Retro 1984 84 France home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/057_Retro-1984-84-France-home-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "058 Retro Kids 1984 86 France HOME Kids Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/058_Retro-Kids-1984-86-France-HOME-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "059 Retro France 1982 home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/059_Retro-France-1982-home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "060 Retro 1971 France Home Football jersey retro",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/060_Retro-1971-France-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "061 2025 26 season France jacket suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/061_2025-26-season-France-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "062 2024 25 France jacket suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/062_2024-25-France-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "063 2024 25 France jacket Suit set",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/063_2024-25-France-jacket-Suit-set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "064 2024 25 France jacket suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/064_2024-25-France-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "065 2025 26 France half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/065_2025-26-France-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "066 2025 26 France half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/066_2025-26-France-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "067 2025 26 France half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/067_2025-26-France-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "068 2024 25 Player Edition France Home CAMAVINGA GRIEZMANN GIROUD MBAPPE DEMBELE T H",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/068_2024-25-Player-Edition-France-Home-CAMAVINGA-GRIEZMANN-GIROUD-MBAPPE-DEMBELE-T-H.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "069 2202 Season France Blue Jacket Suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/069_2202-Season-France-Blue-Jacket-Suit.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "070 2024 25 France Hoodies Set",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/070_2024-25-France-Hoodies-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "071 2024 25 France Hoodies Set",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/071_2024-25-France-Hoodies-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "072 2024 25 France half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/072_2024-25-France-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "073 2024 25 France half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/073_2024-25-France-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "074 2024 25 France half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/074_2024-25-France-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "075 2024 25 France half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/075_2024-25-France-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "076 20222023 France Half Pull Training Suit White Football Shirt Set",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/076_20222023-France-Half-Pull-Training-Suit-White-Football-Shirt-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "077 2025 26 France short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/077_2025-26-France-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "078 2025 26 France short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/078_2025-26-France-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "079 2024 25 France short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/079_2024-25-France-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "080 2024 25 France short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/080_2024-25-France-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "081 2024 25 France Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/081_2024-25-France-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "082 2024 25 France Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/082_2024-25-France-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "083 2024 25 France short sleeved training shirt",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/083_2024-25-France-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "084 2024 25 France Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/084_2024-25-France-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "085 2024 25 France short sleeved training shirt",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/085_2024-25-France-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "086 2024 25 France Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/086_2024-25-France-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "087 France goalkeeper short sleeved training shirt Long sleeve",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/087_France-goalkeeper-short-sleeved-training-shirt-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "088 France goalkeeper short sleeved training shirt",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/088_France-goalkeeper-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "089 1998 France Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/089_1998-France-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "090 France Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/090_France-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "091 France Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/091_France-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "092 France Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/092_France-Windbreaker-2-LADOS-Double-faced-windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "095 France Windbreaker",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/095_France-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "096 France Windbreaker",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/096_France-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "097 France Windbreaker",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/097_France-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "098 France Windbreaker",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/098_France-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "099 France Windbreaker",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/099_France-Windbreaker.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "100 Player 2025 26 France Goalkeeper Soccer Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/100_Player-2025-26-France-Goalkeeper-Soccer-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "101 player 2025 26 France Home Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/101_player-2025-26-France-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "104 Womens 2025 26 France Home Football jersey Womens",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/104_Womens-2025-26-France-Home-Football-jersey-Womens.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "105 Player version 2025 26 France Away Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/105_Player-version-2025-26-France-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "108 2025 26 France Zizou 10 Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/108_2025-26-France-Zizou-10-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "109 2025 26 France 2026 Hollywood Goalkeeper Long Sleeve Football Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/109_2025-26-France-2026-Hollywood-Goalkeeper-Long-Sleeve-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "110 2025 26 France Special Edition Football Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/110_2025-26-France-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "111 2025 26 France Special Edition Football Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/111_2025-26-France-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "112 2025 26 Windbreaker France 0506",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/112_2025-26-Windbreaker-France-0506.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "114 Player 2026 France Special Edition Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/114_Player-2026-France-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "115 Player 2026 France Special Edition Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/115_Player-2026-France-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "116 2026 France 120th Anniversary Football Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/116_2026-France-120th-Anniversary-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "117 2026 France 120th Anniversary Football Jersey Long sleeves",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/117_2026-France-120th-Anniversary-Football-Jersey-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "118 Player 2026 France Special Edition Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/118_Player-2026-France-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "120 KIDS 2026 France Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/120_KIDS-2026-France-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "121 KIDS 2026 France Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/121_KIDS-2026-France-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "123 Women 2026 France Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/123_Women-2026-France-Away-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "125 Player Version Shorts 2026 Shorts France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/125_Player-Version-Shorts-2026-Shorts-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "126 2026 France Special Edition Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/126_2026-France-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "127 2026 France Special Edition Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/127_2026-France-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "128 2026 France Goalkeeper Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/128_2026-France-Goalkeeper-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "129 Player 2026 France Special Edition Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/129_Player-2026-France-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "130 Shorts 2026 Shorts France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/130_Shorts-2026-Shorts-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "131 Shorts 2026 Shorts France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/131_Shorts-2026-Shorts-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "132 Shorts 2026 Shorts France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/132_Shorts-2026-Shorts-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "133 Shorts 2026 Shorts France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/133_Shorts-2026-Shorts-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "134 2026 Baby France Home Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/134_2026-Baby-France-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "135 Football socks France Home 2026",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/135_Football-socks-France-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "136 Football socks France Away 2026",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/136_Football-socks-France-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "137 2026 France half pull training suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/137_2026-France-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "138 Player 2026 France Training Football Jersey S 3XL",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/138_Player-2026-France-Training-Football-Jersey-S-3XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "140 2014 Windbreaker France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/140_2014-Windbreaker-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "141 2026 Windbreaker France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/141_2026-Windbreaker-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "142 KIDS 2026 France Goalkeeper KIDS Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/142_KIDS-2026-France-Goalkeeper-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "143 KIDS 2026 France Goalkeeper KIDS Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/143_KIDS-2026-France-Goalkeeper-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "144 2026 France Goalkeeper Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/144_2026-France-Goalkeeper-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "146 Women 2026 France Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/146_Women-2026-France-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "147 2026 France Special Edition Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/147_2026-France-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "148 2026 France Special Edition Football jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/148_2026-France-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "149 2026 France jacket suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/149_2026-France-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "150 2026 France jacket suit",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/150_2026-France-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "151 2026 Windbreaker France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/151_2026-Windbreaker-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "153 Player Version Shorts 2026 Shorts France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/153_Player-Version-Shorts-2026-Shorts-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "154 Player Version Shorts 2026 Shorts France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/154_Player-Version-Shorts-2026-Shorts-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "155 Player Version Shorts 2026 Shorts France",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/155_Player-Version-Shorts-2026-Shorts-France.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "159 2025 France Navy Blue with Tricolor Stripes Home Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/159_2025-France-Navy-Blue-with-Tricolor-Stripes-Home-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
+  },
+  {
+    "name": "160 2025 France White with Blue and Red Stripes Away Jersey",
+    "category": "national",
+    "group": "France",
+    "image": "assets/equipes-nationales/Europe/france/160_2025-France-White-with-Blue-and-Red-Stripes-Away-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "sizePending": true,
+    "description": "Visuel du catalogue Vivi Jersey ajouté. Les tailles exactes et la disponibilité de ce modèle restent à confirmer ; la commande est désactivée dans l’attente de cette vérification.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer"
   }
 ];
 

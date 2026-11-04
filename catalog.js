@@ -35397,6 +35397,18 @@ const PRODUCTS = [
     "supplierVerified": true,
     "supplierUrl": "https://www.hklfp.com/26-27-Standard-Liege-Away-Fans-Soccer-Jersey-p3141586.html",
     "description": "Maillot extérieur 2026-2027 noir. Photos originales HKLFP : vue de face et vue de dos. Tailles et options relevées sur la fiche fournisseur."
+  },
+  {
+    "name": "26-27 Club Brugge Home Adult Suit - Ensemble domicile",
+    "category": "clubs",
+    "group": "Cercle de Bruges",
+    "image": "https://media.s-bol.com/LmD1WQJN9Gov/VOoMzvO/550x545.jpg",
+    "sizes": ["À confirmer"],
+    "sizePending": true,
+    "supplier": "HKLFP",
+    "supplierVerified": true,
+    "supplierUrl": "https://www.hklfp.com/26-27-Club-Brugge-Home-Adult-Suit-p2696806.html",
+    "description": "Ensemble adulte domicile Club Brugge 2026-2027. Photo illustrative d'un ensemble d'entraînement Club Brugge ; tailles exactes à confirmer sur la fiche fournisseur."
   }
 ];
 

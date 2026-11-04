@@ -42,6 +42,11 @@ function card(item,kind){
  const imageKey=kind==="national"?categoryImages.national:kind==="sports"?categoryImages[item.name]:kind==="shoes"?categoryImages.shoes:kind==="lifestyle"&&item.name==="Lifestyle & Accessoires"?categoryImages["Lifestyle & Accessoires"]:null;
  const visual=imageKey?`<img class="category-visual" src="assets/categories/${imageKey}.svg" alt="" loading="lazy">`:`<span class="emoji">${kind==="national"?nationalFlagMarkup(item.name,false):emoji}</span>`;
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
+ // Navigation attachée directement à chaque carte, sans délégation globale.
+ div.addEventListener("click",()=>{
+  if(div.dataset.jhView){openView(div.dataset.jhView);return}
+  openGroup(kind,item.name);
+ });
  div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }
@@ -249,13 +254,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    const card=e.target.closest(".product-card[data-jh-product-card]");
    if(!card)return;
    const product=card._jhProduct;
-   if(!product)return;
-   try{openProduct(product)}catch(error){console.error("JerseyHub — ouverture fiche produit :",error);alert("La fiche produit n’a pas pu s’ouvrir. Une erreur a été enregistrée dans la console.")}
-  },true);
- // Navigation des catégories et des équipes par délégation : le clic fonctionne
- // même après le remplacement dynamique des cartes dans la grille.
- document.addEventListener("click",e=>{
-  const category=e.target.closest(".category-card[data-jh-kind]");
+   if(!product)returnarget.closest(".category-card[data-jh-kind]");
   if(!category)return;
   if(category.dataset.jhView){openView(category.dataset.jhView);return}
   openGroup(category.dataset.jhKind,category.dataset.jhName);

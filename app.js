@@ -249,15 +249,13 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   };
  }
  window.JerseyHubOpenProduct=openProduct;
-  // Gestion centralisée : le clic sur la photo, le texte ou la carte ouvre la même fiche.
+  // Le clic sur une fiche équipement ouvre sa fenêtre de choix (taille, patchs, personnalisation).
   document.addEventListener("click",e=>{
    const card=e.target.closest(".product-card[data-jh-product-card]");
    if(!card)return;
    const product=card._jhProduct;
-   if(!product)returnarget.closest(".category-card[data-jh-kind]");
-  if(!category)return;
-  if(category.dataset.jhView){openView(category.dataset.jhView);return}
-  openGroup(category.dataset.jhKind,category.dataset.jhName);
- });
+   if(!product)return;
+   openProduct(product);
+  });
  renderCart();
 })();

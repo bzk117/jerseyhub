@@ -10606,6 +10606,4108 @@ const PRODUCTS = [
     "supplierVerified": true,
     "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
     "sizePending": true
+  },
+{
+    "name": "Brésil — 2025 26 Brazil Home Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/001_2025-26-Brazil-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2025 26 Brazil Home Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/002_Player-Edition-2025-26-Brazil-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Away Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/003_2025-26-Brazil-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2025 26 Brazil Away Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/004_Player-Edition-2025-26-Brazil-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Home Vini Jr ENDRICK RICHARLISON Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/005_2024-25-Brazil-Home-Vini-Jr-ENDRICK-RICHARLISON-Football-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2024 25 Brazil Home Long Sleeve Vini Jr ENDRICK RICHARLISON Footb",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/006_Player-Edition-2024-25-Brazil-Home-Long-Sleeve-Vini-Jr-ENDRICK-RICHARLISON-Footb.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2024 25 Brazil Home Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/007_Player-Edition-2024-25-Brazil-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Home Kids Home Long Sleeve Vini Jr ENDRICK RICHARLISON Football j",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/008_2024-25-Brazil-Home-Kids-Home-Long-Sleeve-Vini-Jr-ENDRICK-RICHARLISON-Football-j.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Away Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/009_2024-25-Brazil-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2024 25 Brazil Away Vini Jr ENDRICK RICHARLISON Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/010_Player-Edition-2024-25-Brazil-Away-Vini-Jr-ENDRICK-RICHARLISON-Football-jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2024 25 Brazilian Goalkeeper White Vini Jr ENDRICK RICHARLISON Fo",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/011_Player-Edition-2024-25-Brazilian-Goalkeeper-White-Vini-Jr-ENDRICK-RICHARLISON-Fo.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil goalkeeper Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/012_2024-25-Brazil-goalkeeper-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/013_2024-25-Brazil-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Joint Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/014_2024-25-Brazil-Joint-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Especial Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/015_2024-25-Brazil-Especial-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Especial Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/016_2024-25-Brazil-Especial-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil EspecialFootball jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/017_2024-25-Brazil-EspecialFootball-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/018_2024-25-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil C Ronaldo co branded Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/019_2024-25-Brazil-C-Ronaldo-co-branded-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/020_2024-25-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/021_2024-25-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2024 25 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/022_Player-Edition-2024-25-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2024 25 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/023_Player-Edition-2024-25-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2024 25 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/024_Player-Edition-2024-25-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2024 25 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/025_Player-Edition-2024-25-Brazil-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2024 25 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/026_Player-Edition-2024-25-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 Brazil Training Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/027_2024-Brazil-Training-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2023 Brazil Home Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/028_2023-Brazil-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Brazil Cristo Redentor VINI JP PAPHINHA CUNHA NAYMAR JR LPAQUETA Footbal",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/029_2022-23-Brazil-Cristo-Redentor-VINI-JP-PAPHINHA-CUNHA-NAYMAR-JR-LPAQUETA-Footbal.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Player Brazil Cristo Redentor VINI JP PAPHINHA CUNHA NAYMAR JR LPAQUETA",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/030_2022-23-Player-Brazil-Cristo-Redentor-VINI-JP-PAPHINHA-CUNHA-NAYMAR-JR-LPAQUETA-.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Edition 2022 23 Brazil Home Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/031_Player-Edition-2022-23-Brazil-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Home World Cup Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/032_2022-Brazil-Home-World-Cup-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Away World Cup Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/033_2022-Brazil-Away-World-Cup-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/034_2022-23-Brazil-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Low Neck Polo Brazilian Royal Blue",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/035_Low-Neck-Polo-Brazilian-Royal-Blue.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — POLO Brazil Black",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/036_POLO-Brazil-Black.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — POLO Brazil White",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/037_POLO-Brazil-White.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Training clothes Polo Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/038_2022-Brazil-Training-clothes-Polo-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Special Edition Green Blue Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/039_2022-Brazil-Special-Edition-Green-Blue-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Classic White Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/040_2022-Brazil-Classic-White-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Classic Black Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/041_2022-Brazil-Classic-Black-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Classic White Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/042_2022-Brazil-Classic-White-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Classic Blue Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/043_2022-Brazil-Classic-Blue-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/044_2022-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Brazil White Pigeon Special Edition VINI JP PAPHINHA CUNHA NAYMAR JR LPA",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/045_2022-23-Brazil-White-Pigeon-Special-Edition-VINI-JP-PAPHINHA-CUNHA-NAYMAR-JR-LPA.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Brazil Yellow Pigeon Special Edition",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/046_2022-23-Brazil-Yellow-Pigeon-Special-Edition.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Brazilian Blue Special Edition VINI JP PAPHINHA CUNHA NAYMAR JR LPAQUETA",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/047_2022-23-Brazilian-Blue-Special-Edition-VINI-JP-PAPHINHA-CUNHA-NAYMAR-JR-LPAQUETA.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Brazil Black Special Edition VINI JP PAPHINHA CUNHA NAYMAR JR LPAQUETA F",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/048_2022-23-Brazil-Black-Special-Edition-VINI-JP-PAPHINHA-CUNHA-NAYMAR-JR-LPAQUETA-F.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Player Brazil Commemorative Edition Black",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/049_2022-23-Player-Brazil-Commemorative-Edition-Black.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Player Brazil White Leopard VINI JP PAPHINHA CUNHA NAYMAR JR LPAQUETA Fo",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/050_2022-23-Player-Brazil-White-Leopard-VINI-JP-PAPHINHA-CUNHA-NAYMAR-JR-LPAQUETA-Fo.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Brazil black leopard national team VINI JP PAPHINHA CUNHA NAYMAR JR LPAQ",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/051_2022-23-Brazil-black-leopard-national-team-VINI-JP-PAPHINHA-CUNHA-NAYMAR-JR-LPAQ.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 23 Player Brazil Leopard Black VINI JP PAPHINHA CUNHA NAYMAR JR LPAQUETA Fo",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/052_2022-23-Player-Brazil-Leopard-Black-VINI-JP-PAPHINHA-CUNHA-NAYMAR-JR-LPAQUETA-Fo.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2021 Brazil Training clothes Blue Football jersey Retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/053_Retro-2021-Brazil-Training-clothes-Blue-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2021 Brazil Training clothes Football jersey Retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/054_Retro-2021-Brazil-Training-clothes-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2020 Brazil Training clothes Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/056_Retro-2020-Brazil-Training-clothes-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2020 Brazil Training clothes Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/057_Retro-2020-Brazil-Training-clothes-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2020 Brazil Training clothes Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/058_Retro-2020-Brazil-Training-clothes-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2020 Brazil Home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/059_Retro-2020-Brazil-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2020 Brazil Away Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/060_Retro-2020-Brazil-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2019 20 Brazil Home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/061_Retro-2019-20-Brazil-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2019 Brazil Away Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/062_Retro-2019-Brazil-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2018 Brazil Home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/063_Retro-2018-Brazil-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2018 Brazil Away Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/064_Retro-2018-Brazil-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2014 Brazil Home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/065_Retro-2014-Brazil-Home-Football-jersey-retro.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2014 Brazil Away Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/066_Retro-2014-Brazil-Away-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2013 14 Brazilian Black Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/067_Retro-2013-14-Brazilian-Black-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2013 Brazil Home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/068_Retro-2013-Brazil-Home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2012 Brazil Home Football jersey Retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/069_Retro-2012-Brazil-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2010 Brazil Home Football jersey Retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/070_Retro-2010-Brazil-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2010 Brazil away KAKA PATO ROBINHO LUCIO DAVID LUIZ Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/071_Retro-2010-Brazil-away-KAKA-PATO-ROBINHO-LUCIO-DAVID-LUIZ-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Kids Retro 2010 Brazil Away Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/072_Kids-Retro-2010-Brazil-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2006 Brazil home RONALDO Ronaldinho KAKA RCARLOS CAFU ROBINHO Football jer",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/073_Retro-2006-Brazil-home-RONALDO-Ronaldinho-KAKA-RCARLOS-CAFU-ROBINHO-Football-jer.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Kids Retro 2006 Brazil Home Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/074_Kids-Retro-2006-Brazil-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2006 Brazil Away RONALDO Ronaldinho KAKA RCARLOS CAFU ROBINHO Football jer",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/075_Retro-2006-Brazil-Away-RONALDO-Ronaldinho-KAKA-RCARLOS-CAFU-ROBINHO-Football-jer.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2004 06 Brazil home RONALDINHO KAKA CAFU RCARLOS RONALDO Football jersey r",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/076_Retro-2004-06-Brazil-home-RONALDINHO-KAKA-CAFU-RCARLOS-RONALDO-Football-jersey-r.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2004 Brazil Home Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/077_Retro-2004-Brazil-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2004 06 Brazil away RONALDINHO KAKA CAFU RCARLOS RONALDO Football jersey r",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/078_Retro-2004-06-Brazil-away-RONALDINHO-KAKA-CAFU-RCARLOS-RONALDO-Football-jersey-r.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Kids Retro 2004 Brazil Away Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/079_Kids-Retro-2004-Brazil-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2004 Brazil Special Edition Black Long Sleeve Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/080_Retro-2004-Brazil-Special-Edition-Black-Long-Sleeve-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2004 Brazil White Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/081_Retro-2004-Brazil-White-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2002 Brazil home RONALDO RCARLOS KAKA Ronaldinho Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/082_Retro-2002-Brazil-home-RONALDO-RCARLOS-KAKA-Ronaldinho-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2002 Brazil Home Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/083_Retro-2002-Brazil-Home-Football-jersey-retro-Long-sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2002 Brazil Home Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/084_Retro-2002-Brazil-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Kids Retro 2002 Brazil Home Kids Football jersey Long sleeves",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/085_Kids-Retro-2002-Brazil-Home-Kids-Football-jersey-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2002 Brazil half pull training suit Retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/086_Retro-2002-Brazil-half-pull-training-suit-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2002 Brazil away RONALDO RCARLOS KAKA Ronaldinho Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/087_Retro-2002-Brazil-away-RONALDO-RCARLOS-KAKA-Ronaldinho-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2002 Brazil Away Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/088_Retro-2002-Brazil-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2002 Brazil half pull training suit Retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/089_Retro-2002-Brazil-half-pull-training-suit-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2002 Brazil Black Goalkeeper Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/090_Retro-2002-Brazil-Black-Goalkeeper-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 2000 Brazil Home Football jersey Retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/091_Retro-2000-Brazil-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro Brazil 1998 home RONALDO RCARLOS ROMARIO RIVALDO Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/092_Retro-Brazil-1998-home-RONALDO-RCARLOS-ROMARIO-RIVALDO-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1998 Brazil Home Football jersey Retro Long sleeve",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/093_Retro-1998-Brazil-Home-Football-jersey-Retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1998 Brazil Home Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/094_Retro-1998-Brazil-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Kids Retro 1998 Brazil Home Kids Football jersey Long sleeves",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/095_Kids-Retro-1998-Brazil-Home-Kids-Football-jersey-Long-sleeves.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1998 Brazil Away Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/096_Retro-1998-Brazil-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1998 Brazil Away Football jersey retro Long sleeve",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/097_Retro-1998-Brazil-Away-Football-jersey-retro-Long-sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1998 Brazil Away Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/098_Retro-1998-Brazil-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro Long Sleeve 1998 Brazil Goalkeeper Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/099_Retro-Long-Sleeve-1998-Brazil-Goalkeeper-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1998 Brazil Goalkeeper Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/100_Retro-1998-Brazil-Goalkeeper-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — retro 1998 Brazil Goalkeeper Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/101_retro-1998-Brazil-Goalkeeper-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — retro 1998 Brazil Third Away Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/102_retro-1998-Brazil-Third-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — retro 1998 Brazil black Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/103_retro-1998-Brazil-black-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — retro 1998 Brazil Special Edition Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/104_retro-1998-Brazil-Special-Edition-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1997 Brazil away Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/105_Retro-1997-Brazil-away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1997 Brazil Away Football jersey Retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/106_Retro-1997-Brazil-Away-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Kids Retro 1997 Brazil Away Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/107_Kids-Retro-1997-Brazil-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1997 Brazil hoem Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/108_Retro-1997-Brazil-hoem-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1995 Brazil Away Corteiz Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/109_Retro-1995-Brazil-Away-Corteiz-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1995 Brazil home Corteiz Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/110_Retro-1995-Brazil-home-Corteiz-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1994 Brazil Home Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/111_Retro-1994-Brazil-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1994 96 Brazil Away Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/112_Retro-1994-96-Brazil-Away-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Kids Retro 1996 Brazil Away Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/113_Kids-Retro-1996-Brazil-Away-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro Embroidered Edition 1993 94 Brazil Home Retro Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/114_Retro-Embroidered-Edition-1993-94-Brazil-Home-Retro-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1993 94 Brazil Home Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/115_Retro-1993-94-Brazil-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1992 Brazil away Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/116_Retro-1992-Brazil-away-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1993 94 Brazil Away Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/117_Retro-1993-94-Brazil-Away-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1991 93 Brazil Home Retro Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/118_Retro-1991-93-Brazil-Home-Retro-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1988 1990 Brazil Home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/119_Retro-1988-1990-Brazil-Home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1984 Brazil Home Football jersey Retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/120_Retro-1984-Brazil-Home-Football-jersey-Retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1979 Brazil Home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/121_Retro-1979-Brazil-Home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1970 1972 Brazil Home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/122_Retro-1970-1972-Brazil-Home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro brazil 1970 home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/123_Retro-brazil-1970-home-Football-jersey-retro.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Kids Retro 1970 Brazil Home Kids Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/124_Kids-Retro-1970-Brazil-Home-Kids-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1962 Brazil home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/125_Retro-1962-Brazil-home-Football-jersey-retro.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1957 62 Brazil Away Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/126_Retro-1957-62-Brazil-Away-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1958 Brazil home Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/127_Retro-1958-Brazil-home-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Retro 1957 Brazil Home Retro Football jersey retro",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/128_Retro-1957-Brazil-Home-Retro-Football-jersey-retro.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 season Brazil jacket suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/129_2025-26-season-Brazil-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil jacket suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/130_2024-25-Brazil-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil jacket suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/131_2024-25-Brazil-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil jacket suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/132_2024-25-Brazil-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil jacket suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/133_2024-25-Brazil-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil jacket suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/134_2024-25-Brazil-jacket-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 23 24 Brazil 01 lake green jacket suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/136_23-24-Brazil-01-lake-green-jacket-suit.jpeg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 20232024 Brazilian Jacket Sportswear",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/137_20232024-Brazilian-Jacket-Sportswear.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2023 2024 Brazilian long zipper jacket blue football jersey set",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/138_2023-2024-Brazilian-long-zipper-jacket-blue-football-jersey-set.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 20222023 Brazil Long Zipped Jacket Green Soccer Jersey Set",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/139_20222023-Brazil-Long-Zipped-Jacket-Green-Soccer-Jersey-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2022 Brazil Training Jacket",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/140_2022-Brazil-Training-Jacket.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/141_2025-26-Brazil-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/142_2025-26-Brazil-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/143_2025-26-Brazil-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/144_2025-26-Brazil-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/145_2024-25-Brazil-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/146_2024-25-Brazil-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/147_2024-25-Brazil-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/148_2024-25-Brazil-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil half pull training suit Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/149_2024-25-Brazil-half-pull-training-suit-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Hoodies Set",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/150_2024-25-Brazil-Hoodies-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Hoodies Set",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/151_2024-25-Brazil-Hoodies-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil short sleeved training shirt",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/152_2025-26-Brazil-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/153_2025-26-Brazil-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/154_2025-26-Brazil-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/155_2025-26-Brazil-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/156_2025-26-Brazil-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil short sleeved training shirt",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/157_2025-26-Brazil-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil short sleeved training shirt",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/158_2025-26-Brazil-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil short sleeved training shirt",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/159_2025-26-Brazil-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil short sleeved training shirt",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/160_2025-26-Brazil-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/161_2025-26-Brazil-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/162_2025-26-Brazil-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/163_2025-26-Brazil-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/164_2025-26-Brazil-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/165_2025-26-Brazil-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/166_2024-25-Brazil-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil short sleeved training shirt",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/167_2024-25-Brazil-short-sleeved-training-shirt.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/168_2024-25-Brazil-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/169_2024-25-Brazil-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Sleeveless Vest Training Wear suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/170_2024-25-Brazil-Sleeveless-Vest-Training-Wear-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil short sleeved training jersey shirt Adults and KIDS",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/171_2024-25-Brazil-short-sleeved-training-jersey-shirt-Adults-and-KIDS.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/172_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/173_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/174_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/175_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 25 Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/176_2024-25-Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/177_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/178_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/179_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/180_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/181_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/182_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/183_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/185_Brazil-Windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Brazil Windbreaker 2 LADOS Double faced windbreaker",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/186_Brazil-Windbreaker-2-LADOS-Double-faced-windbreaker.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/187_2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/188_2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — KIDS 2025 26 Brazil Away KIDS Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/189_KIDS-2025-26-Brazil-Away-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — KIDS 2025 26 Brazil Home KIDS Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/190_KIDS-2025-26-Brazil-Home-KIDS-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2025 26 Brazil Home Football jersey Long Sleeve",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/191_Player-2025-26-Brazil-Home-Football-jersey-Long-Sleeve.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Dove Edition Black Soccer jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/192_2025-26-Brazil-Dove-Edition-Black-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Pigeon yellow Soccer jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/193_2025-26-Brazil-Pigeon-yellow-Soccer-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/194_2025-26-Brazil-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/195_2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/196_2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/197_2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player version 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/198_Player-version-2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player version 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/199_Player-version-2025-26-Brazil-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player version 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/200_Player-version-2025-26-Brazil-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player version 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/201_Player-version-2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/202_2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/203_2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/204_2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Hoodies Set",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/205_2025-26-Brazil-Hoodies-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Hoodies Set",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/206_2025-26-Brazil-Hoodies-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Hoodies Set",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/207_2025-26-Brazil-Hoodies-Set.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player version 2025 26 Brazil Away Football jersey World Cup",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/209_Player-version-2025-26-Brazil-Away-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/210_2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Fenomeno 9 Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/211_2025-26-Brazil-Fenomeno-9-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/212_2025-26-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/213_2025-26-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2025 26 Brazil Pink Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/214_Player-2025-26-Brazil-Pink-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/215_2025-26-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/216_2025-26-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/217_2025-26-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/218_2025-26-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/219_2025-26-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2025 26 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/220_Player-2025-26-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/221_2025-26-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil x Jordan Cristo Redentor Red Special Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/222_2025-26-Brazil-x-Jordan-Cristo-Redentor-Red-Special-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Hollywood Goalkeeper Long Sleeve Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/224_2025-26-Brazil-Hollywood-Goalkeeper-Long-Sleeve-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/225_2025-26-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/227_2025-26-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/228_2025-26-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/229_2025-26-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/230_2025-26-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/231_2025-26-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/232_2025-26-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2025 26 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/233_2025-26-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/234_2026-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Collaboration Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/235_Player-2026-Brazil-Collaboration-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/236_2026-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/237_2026-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/238_2026-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/239_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/240_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Women 2025 26 Brazil Home Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/241_Women-2025-26-Brazil-Home-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/242_2026-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — KIDS 2025 26 Brazil Home KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/243_KIDS-2025-26-Brazil-Home-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Goalkeeper Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/245_2026-Brazil-Goalkeeper-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Women 2026 Brazil Special Edition Womens Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/246_Women-2026-Brazil-Special-Edition-Womens-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Women 2026 Brazil Away Womens Football jersey World Cup",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/247_Women-2026-Brazil-Away-Womens-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Polo T Shirt Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/248_2026-Brazil-Polo-T-Shirt-Football-Jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Training T Shirt Football Jersey S 4XL",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/249_2026-Brazil-Training-T-Shirt-Football-Jersey-S-4XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Polo T Shirt Football Jersey S 4XL",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/250_2026-Brazil-Polo-T-Shirt-Football-Jersey-S-4XL.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/253_2026-Brazil-Special-Edition-Football-Jersey.webp",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/254_Player-2026-Brazil-Special-Edition-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — KIDS 2026 Brazil Away KIDS Football jersey World Cup",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/256_KIDS-2026-Brazil-Away-KIDS-Football-jersey-World-Cup.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2024 Brazil Training Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/257_2024-Brazil-Training-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — retro 1994 Brazil Goalkeeper Football jersey retro Long Sleeve",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/258_retro-1994-Brazil-Goalkeeper-Football-jersey-retro-Long-Sleeve.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Goalkeeper Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/259_2026-Brazil-Goalkeeper-Football-jersey.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/260_2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Baby Brazil Home Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/262_2026-Baby-Brazil-Home-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/263_2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Pure Cotton T shirt Football Jersey S 4XL",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/264_2026-Brazil-Pure-Cotton-T-shirt-Football-Jersey-S-4XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Pure Cotton T shirt Football Jersey S 4XL",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/265_2026-Brazil-Pure-Cotton-T-shirt-Football-Jersey-S-4XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Pure Cotton T shirt Football Jersey S 4XL",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/266_2026-Brazil-Pure-Cotton-T-shirt-Football-Jersey-S-4XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Pure Cotton T shirt Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/267_2026-Brazil-Pure-Cotton-T-shirt-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/268_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Shorts 2026 Shorts Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/269_Shorts-2026-Shorts-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Shorts 2026 Shorts Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/270_Shorts-2026-Shorts-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil Polo Black T Shirt Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/271_2026-Brazil-Polo-Black-T-Shirt-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/272_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/273_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/274_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/275_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/276_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/277_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Version Shorts 2026 Shorts Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/279_Player-Version-Shorts-2026-Shorts-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Shorts 2026 Shorts Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/281_Shorts-2026-Shorts-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/282_Player-2026-Brazil-Special-Edition-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Football socks Brazil Away 2026",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/283_Football-socks-Brazil-Away-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Football socks Brazil Home 2026",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/284_Football-socks-Brazil-Home-2026.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Special Edition Football Jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/285_Player-2026-Brazil-Special-Edition-Football-Jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Brazil half pull training suit",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/286_2026-Brazil-half-pull-training-suit.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player 2026 Brazil Training Football Jersey S 3XL",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/287_Player-2026-Brazil-Training-Football-Jersey-S-3XL.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Women 2026 Brazil Home Womens Football jersey",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/288_Women-2026-Brazil-Home-Womens-Football-jersey.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Shorts 2026 Shorts Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/289_Shorts-2026-Shorts-Brazil.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Shorts 2026 Shorts Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/290_Shorts-2026-Shorts-Brazil.png",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Version Shorts 2026 Shorts Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/291_Player-Version-Shorts-2026-Shorts-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Version Shorts 2026 Shorts Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/292_Player-Version-Shorts-2026-Shorts-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — Player Version Shorts 2026 Shorts Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/293_Player-Version-Shorts-2026-Shorts-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/294_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/295_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/296_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/297_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/298_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/299_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/300_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/301_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/302_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/303_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/304_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/305_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
+  },
+  {
+    "name": "Brésil — 2026 Windbreaker Brazil",
+    "category": "national",
+    "group": "Brésil",
+    "image": "assets/equipes-nationales/Ameriques/bresil/306_2026-Windbreaker-Brazil.jpg",
+    "sizes": [
+      "À confirmer"
+    ],
+    "description": "Visuel ajouté au catalogue. Tailles et disponibilité à confirmer avant commande.",
+    "supplier": "Vivi Jersey",
+    "supplierVerified": true,
+    "assetSource": "Vivi Jersey archive filename; tailles à confirmer",
+    "sizePending": true
   }
 ];
 

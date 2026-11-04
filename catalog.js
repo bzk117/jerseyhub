@@ -35481,7 +35481,7 @@ const CLUB_TEAM_GROUPS = {
   "Portugal": ["Benfica","FC Porto","Sporting CP","Sporting Braga"],
   "Pays-Bas": ["Ajax","PSV Eindhoven","Feyenoord"],
   "Écosse": ["Celtic FC","Glasgow Rangers"],
-  "Belgique": [],
+  "Belgique": ["Standard de Liège","Cercle de Bruges","Anderlecht"],
   "Turquie": [],
   "Arabie saoudite": ["Al-Nassr","Al-Ittihad","Al-Hilal","Al-Ahli","Al-Ain FC"],
   "Brésil": ["Palmeiras","Flamengo","São Paulo","Santos","Atlético Mineiro","Cruzeiro","Corinthians"],

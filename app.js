@@ -103,13 +103,17 @@ function renderCatalogPage(page=1,rememberPage=false){
 function renderPagedProducts(items,prefixNodes=[]){
  catalogPageItems=items;catalogPagePrefix=prefixNodes;catalogPage=1;catalogPageHistory=[];renderCatalogPage(1);
 }
+function isOutOfStock(p){
+ const status=String(p?.stockStatus||p?.stock_status||p?.availability||p?.status||'').trim().toLowerCase();
+ return p?.inStock===false||p?.in_stock===false||p?.available===false||['pas de stock','rupture','rupture de stock','indisponible','out of stock','sold out'].includes(status);
+}
 function productCard(p){
- const div=document.createElement("article");div.className="product-card";div.tabIndex=0;div.setAttribute("role","button");div.setAttribute("aria-label","Choisir "+p.name);
- const visual=p.image?`<img src="${p.image}" alt="${p.name}" style="max-width:100%;max-height:190px;object-fit:contain">`:`<div class="shirt"><span>${p.number||"10"}</span></div>`;
- div.innerHTML=`<div class="product-art">${visual}</div><div class="product-info"><h3>${p.name}</h3><p>${p.description||"Modèle présenté dans le catalogue"}</p><div class="sizes">${(p.sizes||[]).map(s=>`<span class="size">${s}</span>`).join("")}</div><small class="jh-open-hint">Cliquer pour choisir les options</small></div>`;
- div._jhProduct=p;
-  div.dataset.jhProductCard="true";
- div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
+ const div=document.createElement('article');div.className='product-card';div.tabIndex=0;div.setAttribute('role','button');div.setAttribute('aria-label','Choisir '+p.name);
+ const visual=p.image?'<img src="'+p.image+'" alt="'+p.name+'" style="max-width:100%;max-height:190px;object-fit:contain">':'<div class="shirt"><span>'+(p.number||'10')+'</span></div>';
+ const out=isOutOfStock(p);
+ div.innerHTML='<div class="product-art">'+visual+'</div><div class="product-info"><h3>'+p.name+'</h3>'+(out?'<span class="jh-stock-badge">PAS DE STOCK</span>':'')+'<p>'+(p.description||'Modèle présenté dans le catalogue')+'</p><div class="sizes">'+(p.sizes||[]).map(s=>'<span class="size">'+s+'</span>').join('')+'</div><small class="jh-open-hint">'+(out?'Article momentanément indisponible':'Cliquer pour choisir les options')+'</small></div>';
+ div._jhProduct=p;div.dataset.jhProductCard='true';
+ div.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();div.click()}};
  return div;
 }
 function setHeading(e,t,b){
@@ -273,7 +277,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  .jh-cart-row small{display:block;color:#bbb;margin-top:5px}.jh-remove{background:#3a1717;color:#ffbcbc;border:1px solid #733!important;border-radius:7px;padding:8px 10px;cursor:pointer}
  .jh-patch-selector{border:1px solid #343434;border-radius:14px;padding:14px;margin:12px 0 18px;background:#111}.jh-patch-intro{color:#aaa;font-size:13px;line-height:1.5;margin:0 0 12px}.jh-patch-slot{border:0;border-top:1px solid #393939;padding:12px 0;margin:10px 0}.jh-patch-slot legend{color:#f4bd22;font-weight:800;padding:0 5px}.jh-patch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:9px}.jh-patch-choice{position:relative;display:flex!important;flex-direction:column;align-items:center;gap:7px;padding:9px!important;border:1px solid #383838;border-radius:11px;margin:0!important;min-height:126px;background:#181818;cursor:pointer;text-align:center}.jh-patch-choice:has(input:checked){border:2px solid #f4bd22;background:#28200d;padding:8px!important}.jh-patch-choice input{position:absolute;top:8px;right:8px;width:16px!important;height:16px;accent-color:#f4bd22}.jh-patch-choice span b{display:block;color:#fff;font-size:12px;line-height:1.3}.jh-patch-thumb{width:100%;height:76px;object-fit:contain;background:#202020;border-radius:7px;padding:5px}.jh-patch-none .jh-patch-thumb{display:grid;place-items:center;color:#aaa;font-size:27px}.jh-patch-empty{color:#aaa;font-size:12px;grid-column:1/-1}.jh-patch-choice span small,.jh-patch-choice strong,.jh-patch-total{display:none!important}@media(max-width:520px){.jh-patch-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.jh-patch-choice{min-height:112px;padding:6px!important}.jh-patch-thumb{height:65px}}
  .jh-product-test-shirt{height:165px;width:125px;margin:8px auto 16px;background:linear-gradient(90deg,#eee,#fff 45%,#e7e7e7);clip-path:polygon(27% 0,42% 7%,58% 7%,73% 0,100% 20%,85% 43%,76% 35%,76% 100%,24% 100%,24% 35%,15% 43%,0 20%);filter:drop-shadow(0 6px 8px #000)}
- .product-card{cursor:pointer}
+ .product-card{cursor:pointer}.jh-stock-badge{display:inline-block;margin:5px 0 8px;padding:5px 9px;border-radius:5px;background:#8f2020;color:#fff;font-size:11px;font-weight:900;letter-spacing:.5px}.jh-stock-warning{margin:10px 0;padding:11px;border:1px solid #a33;border-radius:8px;background:#351313;color:#ffd1d1;font-weight:800}.jh-options-block{border:1px solid #383838;border-radius:10px;padding:13px;margin:14px 0;background:#151515}.jh-options-block h3{margin:0 0 8px;color:#f4bd22;font-size:15px}.jh-option-summary{margin:6px 0;color:#ddd;font-size:13px;line-height:1.6}
  @media(max-width:600px){.jh-dialog{padding:16px}.jh-cart-row{grid-template-columns:1fr}}
  `;
  document.head.append(style);
@@ -372,7 +376,11 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const productVisual=galleryImages.length>1
    ? '<div class="jh-product-gallery"><img id="jh-product-gallery-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - devant" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto"><div style="display:flex;justify-content:center;align-items:center;gap:12px;margin:0 auto 16px"><button type="button" class="jh-secondary" id="jh-gallery-prev">← Devant</button><span id="jh-gallery-count" style="color:#bbb">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next">Derrière →</button></div></div>'
    : (galleryImages.length?'<img src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+'" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto 16px">':'<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>');
-  open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p><label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>'+patchMarkup+'<label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  const outOfStock=isOutOfStock(p);
+  const sizeSummary=sizes.length?'<p class="jh-option-summary"><b>Tailles proposées :</b> '+sizes.map(esc).join(' · ')+'</p>':'<p class="jh-option-summary">Taille à confirmer auprès du fournisseur.</p>';
+  const stockNotice=outOfStock?'<p class="jh-stock-warning">PAS DE STOCK — Cet article ne peut pas être ajouté à la commande pour le moment.</p>':'';
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||'Choisissez les options de votre article.')+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeSummary+'<label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select></section><section class="jh-options-block"><h3>2. Choisir les patchs</h3>'+patchMarkup+'</section><section class="jh-options-block"><h3>3. Personnalisation</h3><label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option></select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  if(outOfStock){const add=dialog.querySelector('#jh-add');add.disabled=true;add.textContent='Indisponible'}
   if(galleryImages.length>1){
    const showGalleryImage=()=>{const img=dialog.querySelector("#jh-product-gallery-image");if(img){img.src=galleryImages[galleryIndex];img.alt=esc(p.name)+(galleryIndex===0?" - devant":" - derrière");dialog.querySelector("#jh-gallery-count").textContent=(galleryIndex+1)+" / "+galleryImages.length;}};
    dialog.querySelector("#jh-gallery-prev").onclick=()=>{galleryIndex=(galleryIndex-1+galleryImages.length)%galleryImages.length;showGalleryImage()};

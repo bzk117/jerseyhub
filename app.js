@@ -64,9 +64,11 @@ function isReadyForCatalog(p){
  return p.supplierVerified === true && (viviSourceOk || hklfpSourceOk) && imageOk && sizesOk && typeof p.name === "string" && p.name.trim().length > 0;
 }
 const CATALOG_PAGE_SIZE=18;
-let catalogPage=1,catalogPageItems=[],catalogPagePrefix=[];
-function renderCatalogPage(page=1){
- catalogPage=Math.max(1,Math.min(page,Math.ceil(catalogPageItems.length/CATALOG_PAGE_SIZE)||1));
+let catalogPage=1,catalogPageItems=[],catalogPagePrefix=[],catalogPageHistory=[];
+function renderCatalogPage(page=1,rememberPage=false){
+ const nextPage=Math.max(1,Math.min(page,Math.ceil(catalogPageItems.length/CATALOG_PAGE_SIZE)||1));
+ if(rememberPage&&nextPage!==catalogPage)catalogPageHistory.push(catalogPage);
+ catalogPage=nextPage;
  grid.innerHTML="";
  catalogPagePrefix.forEach(node=>grid.append(node));
  const start=(catalogPage-1)*CATALOG_PAGE_SIZE;
@@ -79,7 +81,7 @@ function renderCatalogPage(page=1){
  pageControls.className="catalog-pagination-pages";
  const makeButton=(label,target,disabled=false,active=false)=>{
   const b=document.createElement("button");b.type="button";b.className="catalog-page-button"+(active?" active":"");b.textContent=label;b.disabled=disabled;b.setAttribute("aria-label",typeof label==="number"?"Page "+label:label);
-  b.onclick=()=>renderCatalogPage(target);return b;
+  b.onclick=()=>renderCatalogPage(target,true);return b;
  };
  if(pages>1){
   pageControls.append(makeButton("←",catalogPage-1,catalogPage===1));
@@ -99,7 +101,7 @@ function renderCatalogPage(page=1){
  pager.setAttribute("aria-label","Pagination du catalogue");
 }
 function renderPagedProducts(items,prefixNodes=[]){
- catalogPageItems=items;catalogPagePrefix=prefixNodes;catalogPage=1;renderCatalogPage(1);
+ catalogPageItems=items;catalogPagePrefix=prefixNodes;catalogPage=1;catalogPageHistory=[];renderCatalogPage(1);
 }
 function productCard(p){
  const div=document.createElement("article");div.className="product-card";div.tabIndex=0;div.setAttribute("role","button");div.setAttribute("aria-label","Choisir "+p.name);
@@ -121,18 +123,26 @@ function setHeading(e,t,b){
 let navigationHistory=[];
 let restoringNavigation=false;
 function rememberNavigation(){
- if(!restoringNavigation)navigationHistory.push({view:currentView,group:currentGroup});
+ if(!restoringNavigation)navigationHistory.push({view:currentView,group:currentGroup,page:catalogPage});
 }
 function goBack(){
+ if(catalogPageHistory.length){
+  const previousPage=catalogPageHistory.pop();
+  renderCatalogPage(previousPage);
+  return;
+ }
  const previous=navigationHistory.pop();
  if(!previous){renderHome();return}
  restoringNavigation=true;
- if(previous.group)openGroup(previous.view,previous.group);
- else if(previous.view==="home")renderHome();
+ if(previous.group){
+  openGroup(previous.view,previous.group);
+  if(previous.page>1)renderCatalogPage(previous.page);
+ }else if(previous.view==="home")renderHome();
  else openView(previous.view);
  restoringNavigation=false;
 }
 function renderHome(){
+ catalogPageHistory=[];
  currentView="home";currentGroup=null;setHeading("BIENVENUE","Nos catégories","Accueil");
  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
  const home=[
@@ -146,6 +156,7 @@ function renderHome(){
 }
 function openView(view){
  rememberNavigation();
+ catalogPageHistory=[];
  if(view==="home"){renderHome();return}
  currentView=view;currentGroup=null;grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
  if(view==="national"){
@@ -167,6 +178,7 @@ function openView(view){
 }
 function openGroup(kind,name){
  rememberNavigation();
+ catalogPageHistory=[];
  currentView=kind;currentGroup=name;
  if(kind==="lifestyle"){
   const cat=LIFESTYLE.find(c=>c.name===name);

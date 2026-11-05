@@ -317,7 +317,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const productVisual=galleryImages.length>1
    ? '<div class="jh-product-gallery"><img id="jh-product-gallery-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - devant" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto"><div style="display:flex;justify-content:center;align-items:center;gap:12px;margin:0 auto 16px"><button type="button" class="jh-secondary" id="jh-gallery-prev">← Devant</button><span id="jh-gallery-count" style="color:#bbb">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next">Derrière →</button></div></div>'
    : (galleryImages.length?'<img src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+'" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto 16px">':'<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>');
-  open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p><label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>'+patchMarkup+'<label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Nom et numéro personnalisés</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p><label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>'+patchMarkup+'<label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
   if(galleryImages.length>1){
    const showGalleryImage=()=>{const img=dialog.querySelector("#jh-product-gallery-image");if(img){img.src=galleryImages[galleryIndex];img.alt=esc(p.name)+(galleryIndex===0?" - devant":" - derrière");dialog.querySelector("#jh-gallery-count").textContent=(galleryIndex+1)+" / "+galleryImages.length;}};
    dialog.querySelector("#jh-gallery-prev").onclick=()=>{galleryIndex=(galleryIndex-1+galleryImages.length)%galleryImages.length;showGalleryImage()};
@@ -335,8 +335,22 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    dialog.querySelector(".jh-actions").before(note);
   }
   dialog.querySelector("#jh-cancel").onclick=close;
+  if(!document.getElementById("jh-player-select-styles")){const style=document.createElement("style");style.id="jh-player-select-styles";style.textContent=".jh-player-note{color:#e7c879;font-size:13px;line-height:1.45;margin:10px 0}#jh-player-fields select,#jh-player-fields input{width:100%;box-sizing:border-box;margin:6px 0 12px;padding:11px;border:1px solid #596579;border-radius:8px;background:#111a26;color:#fff}";document.head.appendChild(style)}
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
-  person.onchange=()=>{fields.innerHTML=person.value==="Aucune"?"":'<label for="jh-name">'+(person.value==="Nom et numéro du joueur"?"Nom du joueur":"Nom personnalisé")+'</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" placeholder="Numéro">'};
+  const nationalRoster=isNational&&window.JH_NATIONAL_PLAYERS?window.JH_NATIONAL_PLAYERS[slug(p.group||"")]:null;
+  const renderPersonalization=()=>{
+   if(person.value==="Aucune"){fields.innerHTML="";return}
+   if(person.value==="Nom et numéro du joueur"){
+    if(!isNational){fields.innerHTML='<p class="jh-player-note">La sélection automatique est réservée aux équipes nationales pour le moment. Utilisez la personnalisation manuelle.</p><label for="jh-name">Nom du joueur</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';return}
+    const options=Array.isArray(nationalRoster)?nationalRoster:[];
+    fields.innerHTML='<p class="jh-player-note">'+(options.length?'Effectif FIFA Coupe du monde 2026. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro.':'Effectif vérifié indisponible pour cette sélection. Vous pouvez saisir le nom et le numéro manuellement.')+'</p>'+(options.length?'<label for="jh-player-select">Joueur</label><select id="jh-player-select"><option value="">Choisir un joueur</option>'+options.map((x,i)=>'<option value="'+i+'">'+esc(x.name)+' — #'+esc(x.number)+'</option>').join("")+'</select>':'')+'<label for="jh-name">Nom sur le maillot</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';
+    const select=fields.querySelector("#jh-player-select");
+    if(select)select.onchange=()=>{const chosen=options[Number(select.value)];if(chosen){fields.querySelector("#jh-name").value=chosen.shirt||chosen.name;fields.querySelector("#jh-number").value=chosen.number;}};
+    return;
+   }
+   fields.innerHTML='<label for="jh-name">Nom personnalisé</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';
+  };
+  person.onchange=renderPersonalization;
   if(isNational){
   }else{
    dialog.querySelector("#jh-no-patch").onchange=e=>{dialog.querySelectorAll(".jh-patch").forEach(x=>{x.disabled=e.target.checked;if(e.target.checked)x.checked=false})};

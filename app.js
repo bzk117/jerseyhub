@@ -337,8 +337,9 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   dialog.querySelector("#jh-cancel").onclick=close;
   if(!document.getElementById("jh-player-select-styles")){const style=document.createElement("style");style.id="jh-player-select-styles";style.textContent=".jh-player-note{color:#e7c879;font-size:13px;line-height:1.45;margin:10px 0}#jh-player-fields select,#jh-player-fields input{width:100%;box-sizing:border-box;margin:6px 0 12px;padding:11px;border:1px solid #596579;border-radius:8px;background:#111a26;color:#fff}";document.head.appendChild(style)}
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
-  const rosterSource=[p.group,p.team,p.name].filter(Boolean).map(value=>slug(value));
-   const rosterKey=isNational&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>rosterSource.some(value=>value===key||value.includes(key))):null;
+  const normalizeRosterKey=value=>slug(String(value||"")).replace(/[^a-z0-9]/g,"");
+  const rosterSource=[p.group,p.team,p.name].filter(Boolean).map(normalizeRosterKey);
+  const rosterKey=isNational&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
    const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
   const renderPersonalization=()=>{
    if(person.value==="Aucune"){fields.innerHTML="";return}

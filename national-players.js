@@ -18,7 +18,7 @@ window.JH_NATIONAL_PLAYERS = {
  ],
  "belgique": [
   ["Thibaut Courtois","COURTOIS",1],["Zeno Debast","DEBAST",2],["Arthur Theate","THEATE",3],["Brandon Mechele","MECHELE",4],["Maxim De Cuyper","DE CUYPER",5],["Axel Witsel","WITSEL",6],["Kevin De Bruyne","DE BRUYNE",7],["Youri Tielemans","TIELEMANS",8],["Romelu Lukaku","LUKAKU",9],["Leandro Trossard","TROSSARD",10],["Jérémy Doku","DOKU",11],["Senne Lammens","LAMMENS",12],["Mike Penders","PENDERS",13],["Dodi Lukebakio","LUKEBAKIO",14],["Thomas Meunier","MEUNIER",15],["Koni De Winter","DE WINTER",16],["Charles De Ketelaere","DE KETELAERE",17],["Joaquin Seys","SEYS",18],["Diego Moreira","MOREIRA JR",19],["Hans Vanaken","VANAKEN",20],["Timothy Castagne","CASTAGNE",21],["Alexis Saelemaekers","SAELEMAEKERS",22],["Nicolas Raskin","RASKIN",23],["Amadou Onana","ONANA",24],["Nathan Ngoy","NGOY",25],["Matias Fernandez-Pardo","FERNANDEZ-PARDO",26]
- ]
+ ],
  // Effectifs FIFA World Cup 2026. Source officielle: https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf
  // Transcription structurée: https://github.com/matyuschenko/fifa-wc2026-players (CC BY 4.0)
  "allemagne": [
@@ -720,7 +720,7 @@ window.JH_NATIONAL_PLAYERS = {
   ["Santiago Ignacio Bueno Sciutto","S. BUENO",24],
   ["Juan Manuel Sanabria Magolé","J.M. SANABRIA",25],
   ["Radrigo Zalazar Martinez","R. ZALAZAR",26]
- ]
+ ],
  // Autres sélections qualifiées FIFA World Cup 2026 (même source et licence CC BY 4.0).
  "bosnie-herzegovine": [
   ["Nikola Vasilj","VASILJ",1],

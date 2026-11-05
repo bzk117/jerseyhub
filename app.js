@@ -104,8 +104,14 @@ function renderPagedProducts(items,prefixNodes=[]){
  catalogPageItems=items;catalogPagePrefix=prefixNodes;catalogPage=1;catalogPageHistory=[];renderCatalogPage(1);
 }
 function isOutOfStock(p){
- const status=String(p?.stockStatus||p?.stock_status||p?.availability||p?.status||'').trim().toLowerCase();
- return p?.inStock===false||p?.in_stock===false||p?.available===false||['pas de stock','rupture','rupture de stock','indisponible','out of stock','sold out'].includes(status);
+ const status=String(p?.stockStatus||p?.stock_status||p?.availability||p?.stockAvailability||p?.status||'').trim().toLowerCase().replace(/[_-]+/g,' ');
+ const unavailable=['pas de stock','rupture','rupture de stock','indisponible','out of stock','sold out','épuisé','epuise','non disponible','out of stock'];
+ return p?.inStock===false||p?.in_stock===false||p?.available===false||p?.stock===false||p?.stock===0||p?.stockQuantity===0||p?.stock_quantity===0||unavailable.includes(status);
+}
+if(!document.getElementById('jh-stock-styles')){
+ const stockStyle=document.createElement('style');stockStyle.id='jh-stock-styles';
+ stockStyle.textContent='.jh-stock-badge{display:inline-flex;align-items:center;margin:7px 0;padding:6px 10px;border-radius:6px;background:#6d2020;color:#fff;font-size:11px;font-weight:900;letter-spacing:.7px}.jh-stock-warning{margin:12px 0;padding:12px;border:1px solid #a33;background:#351414;color:#ffbaba;border-radius:8px;font-weight:800}.jh-open-hint{display:block;margin-top:8px;color:#c9a84c}';
+ document.head.appendChild(stockStyle);
 }
 function productCard(p){
  const div=document.createElement('article');div.className='product-card';div.tabIndex=0;div.setAttribute('role','button');div.setAttribute('aria-label','Choisir '+p.name);

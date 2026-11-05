@@ -306,8 +306,6 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
   person.onchange=()=>{fields.innerHTML=person.value==="Aucune"?"":'<label for="jh-name">'+(person.value==="Nom et numéro du joueur"?"Nom du joueur":"Nom personnalisé")+'</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" placeholder="Numéro">'};
   if(isNational){
-   const updatePatchTotal=()=>{const total=[...dialog.querySelectorAll(".jh-patch-slot input:checked")].reduce((sum,input)=>sum+Number(input.dataset.price||0),0);const el=dialog.querySelector("#jh-patch-total");if(el)el.textContent="Supplément total : "+total.toLocaleString("fr-BE",{style:"currency",currency:"EUR"});};
-   dialog.querySelectorAll(".jh-patch-slot input").forEach(input=>input.addEventListener("change",updatePatchTotal));
   }else{
    dialog.querySelector("#jh-no-patch").onchange=e=>{dialog.querySelectorAll(".jh-patch").forEach(x=>{x.disabled=e.target.checked;if(e.target.checked)x.checked=false})};
    dialog.querySelectorAll(".jh-patch").forEach(x=>x.onchange=()=>{if(x.checked)dialog.querySelector("#jh-no-patch").checked=false;if(![...dialog.querySelectorAll(".jh-patch")].some(y=>y.checked))dialog.querySelector("#jh-no-patch").checked=true});

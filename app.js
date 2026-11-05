@@ -345,7 +345,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
     const options=Array.isArray(nationalRoster)?nationalRoster:[];
     fields.innerHTML='<p class="jh-player-note">'+(options.length?'Effectif FIFA Coupe du monde 2026. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro.':'Effectif vérifié indisponible pour cette sélection. Vous pouvez saisir le nom et le numéro manuellement.')+'</p>'+(options.length?'<label for="jh-player-select">Joueur</label><select id="jh-player-select"><option value="">Choisir un joueur</option>'+options.map((x,i)=>'<option value="'+i+'">'+esc(x.name)+' — #'+esc(x.number)+'</option>').join("")+'</select>':'')+'<label for="jh-name">Nom sur le maillot</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';
     const select=fields.querySelector("#jh-player-select");
-    if(select)select.onchange=()=>{const chosen=options[Number(select.value)];if(chosen){fields.querySelector("#jh-name").value=chosen.shirt||chosen.name;fields.querySelector("#jh-number").value=chosen.number;}};
+    if(select)select.onchange=()=>{if(select.value===""){fields.querySelector("#jh-name").value="";fields.querySelector("#jh-number").value="";return}const chosen=options[Number(select.value)];if(chosen){fields.querySelector("#jh-name").value=chosen.shirt||chosen.name;fields.querySelector("#jh-number").value=chosen.number;}};
     return;
    }
    fields.innerHTML='<label for="jh-name">Nom personnalisé</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';

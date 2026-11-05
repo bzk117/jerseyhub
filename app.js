@@ -223,6 +223,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  .jh-primary{background:#f4bd22;color:#111}.jh-secondary{background:#292929;color:#fff;border:1px solid #555!important}
  .jh-cart-row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 0;border-bottom:1px solid #333}
  .jh-cart-row small{display:block;color:#bbb;margin-top:5px}.jh-remove{background:#3a1717;color:#ffbcbc;border:1px solid #733!important;border-radius:7px;padding:8px 10px;cursor:pointer}
+ .jh-patch-selector{border:1px solid #484848;border-radius:10px;padding:12px;margin:8px 0 16px;background:#0b0b0b}.jh-patch-intro,.jh-patch-empty{color:#aaa;font-size:12px;line-height:1.5}.jh-patch-slot{border:0;border-top:1px solid #393939;padding:10px 0;margin:10px 0}.jh-patch-slot legend{color:#f4bd22;font-weight:800;padding:0 5px}.jh-patch-choice{display:grid!important;grid-template-columns:22px 54px 1fr auto;align-items:center;gap:9px;padding:8px;border:1px solid #333;border-radius:8px;margin:7px 0!important;cursor:pointer}.jh-patch-choice:has(input:checked){border-color:#f4bd22;background:#211a0b}.jh-patch-choice input{width:auto!important;accent-color:#f4bd22}.jh-patch-choice span b{display:block;color:#fff}.jh-patch-choice span small{display:block;color:#aaa;font-size:11px}.jh-patch-choice strong{font-size:12px;color:#f4bd22;white-space:nowrap}.jh-patch-thumb{width:48px;height:42px;object-fit:contain;background:#171717;border-radius:5px}.jh-patch-total{margin:12px 0 0;text-align:right;color:#f4bd22;font-weight:800}.jh-patch-none .jh-patch-thumb{display:grid;place-items:center;color:#aaa;font-size:24px}
  .jh-product-test-shirt{height:165px;width:125px;margin:8px auto 16px;background:linear-gradient(90deg,#eee,#fff 45%,#e7e7e7);clip-path:polygon(27% 0,42% 7%,58% 7%,73% 0,100% 20%,85% 43%,76% 35%,76% 100%,24% 100%,24% 35%,15% 43%,0 20%);filter:drop-shadow(0 6px 8px #000)}
  .product-card{cursor:pointer}
  @media(max-width:600px){.jh-dialog{padding:16px}.jh-cart-row{grid-template-columns:1fr}}
@@ -252,7 +253,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   dialog.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{const next=read();next.splice(Number(b.dataset.remove),1);write(next)});
  }
  trigger.onclick=showCart;
- function openProduct(p){
+ async function openProduct(p){
   activeProduct=p;dialog.dataset.mode="product";
   const sizes=(p.sizes||[]).flatMap(raw=>{
    const value=String(raw).trim().replace(/–/g,"-");
@@ -262,13 +263,28 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    return order.slice(order.indexOf(range[1].toUpperCase()),order.indexOf(range[2].toUpperCase())+1);
   }).filter((v,i,a)=>a.indexOf(v)===i);
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
-  const patchOptions=Array.isArray(p.patches)?p.patches:[];
-  const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
-  let galleryIndex=0;
-  const productVisual=galleryImages.length>1
-   ? '<div class="jh-product-gallery"><img id="jh-product-gallery-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - devant" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto"><div style="display:flex;justify-content:center;align-items:center;gap:12px;margin:0 auto 16px"><button type="button" class="jh-secondary" id="jh-gallery-prev">← Devant</button><span id="jh-gallery-count" style="color:#bbb">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next">Derrière →</button></div></div>'
-   : (galleryImages.length?'<img src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+'" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto 16px">':'<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>');
-  open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p><label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select><label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+patchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div><label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Nom et numéro personnalisés</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  const legacyPatchOptions=Array.isArray(p.patches)?p.patches:[];
+  const isNational=p.category==="national";
+  let patchRecords=[];
+  if(isNational&&window.supabase&&window.JERSEYHUB_SUPABASE){
+   try{
+    const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);
+    const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category","national").eq("is_active",true).order("sort_order",{ascending:true});
+    if(!error)patchRecords=data||[];
+   }catch(error){console.warn("Options de patch indisponibles :",error)}
+  }
+  const productSpecific=patchRecords.filter(x=>x.product_name&&x.product_name===p.name);
+  const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
+  const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);
+  const applicablePatches=productSpecific.length?productSpecific:(teamSpecific.length?teamSpecific:globalOptions);
+  const patchMarkup=isNational
+   ? '<section class="jh-patch-selector"><p class="jh-patch-intro">Personnalisez votre maillot avec jusqu’à trois patchs. Chaque emplacement est indépendant.</p>'+[1,2,3].map(slot=>{
+      const options=applicablePatches.filter(x=>Number(x.slot_number)===slot);
+      return '<fieldset class="jh-patch-slot"><legend>Emplacement '+slot+'</legend><label class="jh-patch-choice jh-patch-none"><input type="radio" name="jh-patch-slot-'+slot+'" value="" checked><span class="jh-patch-thumb">—</span><span><b>Aucun patch</b><small>Sans supplément</small></span><strong>0,00 €</strong></label>'+
+       options.map(x=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+esc(x.id)+'" data-price="'+Number(x.extra_price_eur||0)+'"><img class="jh-patch-thumb" src="'+esc(x.image_url)+'" alt="'+esc(x.label)+'" loading="lazy"><span><b>'+esc(x.label)+'</b><small>Emplacement '+slot+'</small></span><strong>+'+Number(x.extra_price_eur||0).toLocaleString("fr-BE",{style:"currency",currency:"EUR"})+'</strong></label>').join("")+
+       (options.length?"":'<p class="jh-patch-empty">Aucun patch configuré pour cet emplacement.</p>')+'</fieldset>';
+     }).join("")+'<p class="jh-patch-total" id="jh-patch-total">Supplément total : 0,00 €</p></section>'
+   : ''+patchMarkup+'<label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Nom et numéro personnalisés</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
   if(galleryImages.length>1){
    const showGalleryImage=()=>{const img=dialog.querySelector("#jh-product-gallery-image");if(img){img.src=galleryImages[galleryIndex];img.alt=esc(p.name)+(galleryIndex===0?" - devant":" - derrière");dialog.querySelector("#jh-gallery-count").textContent=(galleryIndex+1)+" / "+galleryImages.length;}};
    dialog.querySelector("#jh-gallery-prev").onclick=()=>{galleryIndex=(galleryIndex-1+galleryImages.length)%galleryImages.length;showGalleryImage()};
@@ -288,14 +304,24 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   dialog.querySelector("#jh-cancel").onclick=close;
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
   person.onchange=()=>{fields.innerHTML=person.value==="Aucune"?"":'<label for="jh-name">'+(person.value==="Nom et numéro du joueur"?"Nom du joueur":"Nom personnalisé")+'</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" placeholder="Numéro">'};
-  dialog.querySelector("#jh-no-patch").onchange=e=>{dialog.querySelectorAll(".jh-patch").forEach(x=>{x.disabled=e.target.checked;if(e.target.checked)x.checked=false})};
-  dialog.querySelectorAll(".jh-patch").forEach(x=>x.onchange=()=>{if(x.checked)dialog.querySelector("#jh-no-patch").checked=false;if(![...dialog.querySelectorAll(".jh-patch")].some(y=>y.checked))dialog.querySelector("#jh-no-patch").checked=true});
+  if(isNational){
+   const updatePatchTotal=()=>{const total=[...dialog.querySelectorAll(".jh-patch-slot input:checked")].reduce((sum,input)=>sum+Number(input.dataset.price||0),0);const el=dialog.querySelector("#jh-patch-total");if(el)el.textContent="Supplément total : "+total.toLocaleString("fr-BE",{style:"currency",currency:"EUR"});};
+   dialog.querySelectorAll(".jh-patch-slot input").forEach(input=>input.addEventListener("change",updatePatchTotal));
+  }else{
+   dialog.querySelector("#jh-no-patch").onchange=e=>{dialog.querySelectorAll(".jh-patch").forEach(x=>{x.disabled=e.target.checked;if(e.target.checked)x.checked=false})};
+   dialog.querySelectorAll(".jh-patch").forEach(x=>x.onchange=()=>{if(x.checked)dialog.querySelector("#jh-no-patch").checked=false;if(![...dialog.querySelectorAll(".jh-patch")].some(y=>y.checked))dialog.querySelector("#jh-no-patch").checked=true});
+  }
   dialog.querySelector("#jh-add").onclick=()=>{
    const size=dialog.querySelector("#jh-size").value;if(!size){alert("Veuillez choisir une taille.");return}
    const customName=dialog.querySelector("#jh-name")?.value.trim()||"",customNumber=dialog.querySelector("#jh-number")?.value.trim()||"";
    if(person.value!=="Aucune"&&(!customName||!customNumber)){alert("Complétez le nom et le numéro.");return}
-   const patches=[...dialog.querySelectorAll(".jh-patch:checked")].map(x=>x.value);
-   const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,size,quantity:1,patches,personalization:person.value,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber});
+   const patchSelections=isNational?[...dialog.querySelectorAll(".jh-patch-slot")].map((fieldset,index)=>{
+    const input=fieldset.querySelector("input:checked");if(!input||!input.value)return null;
+    const record=applicablePatches.find(x=>x.id===input.value);return record?{slot:index+1,id:record.id,label:record.label,image_url:record.image_url,extra_price_eur:Number(record.extra_price_eur||0)}:null;
+   }).filter(Boolean):[];
+   const patches=isNational?patchSelections.map(x=>x.label):[...dialog.querySelectorAll(".jh-patch:checked")].map(x=>x.value);
+   const patchTotalEur=patchSelections.reduce((sum,x)=>sum+Number(x.extra_price_eur||0),0);
+   const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,size,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber});
    write(next);close();showCart();
   };
  }

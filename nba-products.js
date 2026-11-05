@@ -7,7 +7,8 @@ const NBA_PRODUCTS = [
   {
     name: "Neemias Queta Boston Celtics Nike Unisex 2025/26 White Swingman Jersey – City Edition",
     category: "sports",
-    group: "NBA",
+    group: "Boston Celtics",
+    league: "NBA",
     team: "Boston Celtics",
     image: "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2609/30/products/001-124124c36d.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
     sizes: ["S", "M", "L", "XL", "2XL"],

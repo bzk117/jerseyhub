@@ -58,7 +58,6 @@ function renderRequestList(){
  });
  if(selected){if(visible.some(r=>r.id===selected))show(selected);else{selected=null;$('detail').textContent='Sélectionnez une demande.'}}
 }
-}
 async function show(id){
  selected=id;const r=records.find(x=>x.id===id);if(!r)return;const d=$('detail');
  const customerName=[r.customer_profile?.first_name,r.customer_profile?.last_name].filter(Boolean).join(' ')||'Client';

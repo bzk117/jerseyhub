@@ -1199,4 +1199,4 @@ window.JH_NATIONAL_PLAYERS = {
   ["Jakhongir Urozov","UROZOV",26]
  ]
 };
-window.JH_NATIONAL_PLAYERS = Object.fromEntries(Object.entries(window.JH_NATIONAL_PLAYERS).map(([team,players])=>[team,players.map(([name,shirt,number])=>({name,shirt,number:String(number)}))]));
+// Les effectifs restent au format tableau [nom complet, nom sur le maillot, numéro] pour compatibilité maximale.

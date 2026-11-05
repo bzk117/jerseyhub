@@ -446,4 +446,5 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    openProduct(product);
   });
  renderCart();
+ if(new URLSearchParams(location.search).get('openCart')==='1')showCart();
 })();

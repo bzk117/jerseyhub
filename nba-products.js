@@ -31,3 +31,5 @@ NBA_PRODUCTS.forEach(product => {
   );
   if (!duplicate) PRODUCTS.push(product);
 });
+
+// NBA import deployment refresh: existing verified products retained; no unverified products fabricated.

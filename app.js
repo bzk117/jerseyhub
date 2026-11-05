@@ -162,7 +162,7 @@ function renderHome(){
   {name:"Chaussures",flag:"👟",desc:"Toutes les marques du catalogue",kind:"shoes"},
   {name:"Lifestyle & Accessoires",flag:"🎧",desc:"Audio, LEGO, lunettes, casquettes",kind:"lifestyle"}
  ];
- home.forEach(x=>{const c=card(x,x.kind);c.dataset.jhView=x.kind;grid.append(c)});
+ home.forEach(x=>{const c=card(x,x.kind);if(x.kind!=="sports")c.dataset.jhView=x.kind;grid.append(c)});
 }
 function openView(view){
  rememberNavigation();

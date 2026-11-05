@@ -42,8 +42,8 @@ async function load(){
 async function loadDashboardStats(){
  const {data,error}=await db.from('requests').select('status,payment_status,price_eur');
  if(error){say('Statistiques indisponibles : '+error.message,true);return}
- const rows=data||[],pending=rows.filter(r=>r.payment_status==='En attente de paiement').length,paid=rows.filter(r=>r.payment_status==='Payé').length,transit=rows.filter(r=>r.status==='En transit').length,completed=rows.filter(r=>['Reçu','Terminé'].includes(r.status)).length,revenue=rows.filter(r=>r.payment_status==='Payé').reduce((sum,r)=>sum+(Number(r.price_eur)||0),0);
- $('adminStats').innerHTML=[['Commandes en attente',pending],['Commandes payées',paid],['En transit',transit],['Terminées',completed],['Chiffre d’affaires encaissé',revenue.toLocaleString('fr-BE',{style:'currency',currency:'EUR'})]].map(([label,value])=>'<div class="admin-stat"><small>'+esc(label)+'</small><strong>'+esc(value)+'</strong></div>').join('');
+ const rows=data||[],pending=rows.filter(r=>r.payment_status==='En attente de paiement').length,paid=rows.filter(r=>r.payment_status==='Payé').length,transit=rows.filter(r=>r.status==='En transit').length,completed=rows.filter(r=>['Reçu','Terminé'].includes(r.status)).length,revenue=rows.reduce((sum,r)=>sum+(Number(r.price_eur)||0),0);
+ $('adminStats').innerHTML=[['Paiement en attente',pending],['Commandes payées',paid],['En transit',transit],['Terminées',completed],['Chiffre d’affaires enregistré',revenue.toLocaleString('fr-BE',{style:'currency',currency:'EUR'})]].map(([label,value])=>'<div class="admin-stat"><small>'+esc(label)+'</small><strong>'+esc(value)+'</strong></div>').join('');
 }
 function renderRequestList(){
  const box=$('requests');box.innerHTML='';

@@ -223,7 +223,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  .jh-primary{background:#f4bd22;color:#111}.jh-secondary{background:#292929;color:#fff;border:1px solid #555!important}
  .jh-cart-row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 0;border-bottom:1px solid #333}
  .jh-cart-row small{display:block;color:#bbb;margin-top:5px}.jh-remove{background:#3a1717;color:#ffbcbc;border:1px solid #733!important;border-radius:7px;padding:8px 10px;cursor:pointer}
- .jh-patch-selector{border:1px solid #484848;border-radius:10px;padding:12px;margin:8px 0 16px;background:#0b0b0b}.jh-patch-intro,.jh-patch-empty{color:#aaa;font-size:12px;line-height:1.5}.jh-patch-slot{border:0;border-top:1px solid #393939;padding:10px 0;margin:10px 0}.jh-patch-slot legend{color:#f4bd22;font-weight:800;padding:0 5px}.jh-patch-choice{display:grid!important;grid-template-columns:22px 54px 1fr auto;align-items:center;gap:9px;padding:8px;border:1px solid #333;border-radius:8px;margin:7px 0!important;cursor:pointer}.jh-patch-choice:has(input:checked){border-color:#f4bd22;background:#211a0b}.jh-patch-choice input{width:auto!important;accent-color:#f4bd22}.jh-patch-choice span b{display:block;color:#fff}.jh-patch-choice span small{display:block;color:#aaa;font-size:11px}.jh-patch-choice strong{font-size:12px;color:#f4bd22;white-space:nowrap}.jh-patch-thumb{width:48px;height:42px;object-fit:contain;background:#171717;border-radius:5px}.jh-patch-total{margin:12px 0 0;text-align:right;color:#f4bd22;font-weight:800}.jh-patch-none .jh-patch-thumb{display:grid;place-items:center;color:#aaa;font-size:24px}
+ .jh-patch-selector{border:1px solid #343434;border-radius:14px;padding:14px;margin:12px 0 18px;background:#111}.jh-patch-intro{color:#aaa;font-size:13px;line-height:1.5;margin:0 0 12px}.jh-patch-slot{border:0;border-top:1px solid #393939;padding:12px 0;margin:10px 0}.jh-patch-slot legend{color:#f4bd22;font-weight:800;padding:0 5px}.jh-patch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:9px}.jh-patch-choice{position:relative;display:flex!important;flex-direction:column;align-items:center;gap:7px;padding:9px!important;border:1px solid #383838;border-radius:11px;margin:0!important;min-height:126px;background:#181818;cursor:pointer;text-align:center}.jh-patch-choice:has(input:checked){border:2px solid #f4bd22;background:#28200d;padding:8px!important}.jh-patch-choice input{position:absolute;top:8px;right:8px;width:16px!important;height:16px;accent-color:#f4bd22}.jh-patch-choice span b{display:block;color:#fff;font-size:12px;line-height:1.3}.jh-patch-thumb{width:100%;height:76px;object-fit:contain;background:#202020;border-radius:7px;padding:5px}.jh-patch-none .jh-patch-thumb{display:grid;place-items:center;color:#aaa;font-size:27px}.jh-patch-empty{color:#aaa;font-size:12px;grid-column:1/-1}.jh-patch-choice span small,.jh-patch-choice strong,.jh-patch-total{display:none!important}@media(max-width:520px){.jh-patch-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.jh-patch-choice{min-height:112px;padding:6px!important}.jh-patch-thumb{height:65px}}
  .jh-product-test-shirt{height:165px;width:125px;margin:8px auto 16px;background:linear-gradient(90deg,#eee,#fff 45%,#e7e7e7);clip-path:polygon(27% 0,42% 7%,58% 7%,73% 0,100% 20%,85% 43%,76% 35%,76% 100%,24% 100%,24% 35%,15% 43%,0 20%);filter:drop-shadow(0 6px 8px #000)}
  .product-card{cursor:pointer}
  @media(max-width:600px){.jh-dialog{padding:16px}.jh-cart-row{grid-template-columns:1fr}}
@@ -245,7 +245,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  }
  function showCart(){
   cart=read();dialog.dataset.mode="cart";
-  const rows=cart.map((x,i)=>'<div class="jh-cart-row"><div><b>'+esc(x.name)+'</b><small>Taille : '+esc(x.size)+' · Qté : '+esc(x.quantity)+'</small><small>Patch(s) : '+esc((x.patches||[]).join(", ")||"Aucun")+(Number(x.patchTotalEur||0)>0?" · Supplément patchs : "+Number(x.patchTotalEur).toLocaleString("fr-BE",{style:"currency",currency:"EUR"}):"")+'</small><small>Personnalisation : '+esc(x.personalization||"Aucune")+(x.player?" — "+esc(x.player):"")+(x.customName?" — "+esc(x.customName):"")+(x.customNumber?" #"+esc(x.customNumber):"")+'</small></div><button class="jh-remove" data-remove="'+i+'" type="button">Supprimer</button></div>').join("");
+  const rows=cart.map((x,i)=>'<div class="jh-cart-row"><div><b>'+esc(x.name)+'</b><small>Taille : '+esc(x.size)+' · Qté : '+esc(x.quantity)+'</small><small>Patch(s) : '+esc((x.patches||[]).join(", ")||"Aucun")+'</small><small>Personnalisation : '+esc(x.personalization||"Aucune")+(x.player?" — "+esc(x.player):"")+(x.customName?" — "+esc(x.customName):"")+(x.customNumber?" #"+esc(x.customNumber):"")+'</small></div><button class="jh-remove" data-remove="'+i+'" type="button">Supprimer</button></div>').join("");
   open('<h2>Mon panier ('+cart.length+')</h2>'+(rows||'<p>Votre panier est vide pour le moment.</p>')+'<div class="jh-actions"><button class="jh-secondary" id="jh-continue">Continuer mes achats</button><button class="jh-primary" id="jh-checkout" '+(!cart.length?'disabled':'')+'>Continuer vers Mon compte</button></div>');
   dialog.dataset.mode="cart";
   dialog.querySelector("#jh-continue").onclick=close;
@@ -272,12 +272,13 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);
   const applicablePatches=productSpecific.length?productSpecific:(teamSpecific.length?teamSpecific:globalOptions);
   const patchMarkup=isNational
-   ? '<section class="jh-patch-selector"><p class="jh-patch-intro">Personnalisez votre maillot avec jusqu’à trois patchs. Chaque emplacement est indépendant.</p>'+[1,2,3].map(slot=>{
+   ? '<section class="jh-patch-selector"><p class="jh-patch-intro">Choisissez vos patchs. Chaque emplacement est indépendant.</p>'+[1,2,3].map(slot=>{
       const options=applicablePatches.filter(x=>Number(x.slot_number)===slot);
-      return '<fieldset class="jh-patch-slot"><legend>Emplacement '+slot+'</legend><label class="jh-patch-choice jh-patch-none"><input type="radio" name="jh-patch-slot-'+slot+'" value="" checked><span class="jh-patch-thumb">—</span><span><b>Aucun patch</b><small>Sans supplément</small></span><strong>0,00 €</strong></label>'+
-       options.map(x=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+esc(x.id)+'" data-price="'+Number(x.extra_price_eur||0)+'"><img class="jh-patch-thumb" src="'+esc(x.image_url)+'" alt="'+esc(x.label)+'" loading="lazy"><span><b>'+esc(x.label)+'</b><small>Emplacement '+slot+'</small></span><strong>+'+Number(x.extra_price_eur||0).toLocaleString("fr-BE",{style:"currency",currency:"EUR"})+'</strong></label>').join("")+
-       (options.length?"":'<p class="jh-patch-empty">Aucun patch configuré pour cet emplacement.</p>')+'</fieldset>';
-     }).join("")+'<p class="jh-patch-total" id="jh-patch-total">Supplément total : 0,00 €</p></section>'
+      const slotName=slot===1?'Manche droite':slot===2?'Manche gauche':'Dos / bas';
+      return '<fieldset class="jh-patch-slot"><legend>Patch '+slot+' — '+slotName+'</legend><div class="jh-patch-grid"><label class="jh-patch-choice jh-patch-none"><input type="radio" name="jh-patch-slot-'+slot+'" value="" checked><span class="jh-patch-thumb">＋</span><span><b>Aucun patch</b></span></label>'+
+       options.map(x=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+esc(x.id)+'"><img class="jh-patch-thumb" src="'+esc(x.image_url)+'" alt="'+esc(x.label)+'" loading="lazy"><span><b>'+esc(x.label)+'</b></span></label>').join("")+
+       (options.length?"":'<p class="jh-patch-empty">Les patchs de cet emplacement seront bientôt disponibles.</p>')+'</div></fieldset>';
+     }).join("")+'</section>'
    : '<label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+legacyPatchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div>';
   const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
   let galleryIndex=0;
@@ -317,10 +318,10 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    if(person.value!=="Aucune"&&(!customName||!customNumber)){alert("Complétez le nom et le numéro.");return}
    const patchSelections=isNational?[...dialog.querySelectorAll(".jh-patch-slot")].map((fieldset,index)=>{
     const input=fieldset.querySelector("input:checked");if(!input||!input.value)return null;
-    const record=applicablePatches.find(x=>x.id===input.value);return record?{slot:index+1,id:record.id,label:record.label,image_url:record.image_url,extra_price_eur:Number(record.extra_price_eur||0)}:null;
+    const record=applicablePatches.find(x=>x.id===input.value);return record?{slot:index+1,id:record.id,label:record.label,image_url:record.image_url,extra_price_eur:0}:null;
    }).filter(Boolean):[];
    const patches=isNational?patchSelections.map(x=>x.label):[...dialog.querySelectorAll(".jh-patch:checked")].map(x=>x.value);
-   const patchTotalEur=patchSelections.reduce((sum,x)=>sum+Number(x.extra_price_eur||0),0);
+   const patchTotalEur=0;
    const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,size,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber});
    write(next);close();showCart();
   };

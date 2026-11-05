@@ -271,13 +271,40 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
   const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);
   const applicablePatches=productSpecific.length?productSpecific:(teamSpecific.length?teamSpecific:globalOptions);
+  // Catalogue visuel de secours : les choix restent disponibles même si patch_options est vide.
+  const builtInPatchStyles=[
+   {id:"jh-style-champions",label:"Style Champions",slot_number:1,kind:"star",tone:"#d8b45a"},
+   {id:"jh-style-tournament",label:"Style Tournoi",slot_number:1,kind:"cup",tone:"#d8b45a"},
+   {id:"jh-style-qualifiers",label:"Style Qualifications",slot_number:1,kind:"globe",tone:"#4f9bd8"},
+   {id:"jh-style-respect",label:"Style Respect",slot_number:2,kind:"hands",tone:"#e8e8e8"},
+   {id:"jh-style-fairplay",label:"Style Fair-play",slot_number:2,kind:"shield",tone:"#62b88a"},
+   {id:"jh-style-national",label:"Style Équipe nationale",slot_number:2,kind:"flag",tone:"#d94b4b"},
+   {id:"jh-style-cup",label:"Style Coupe",slot_number:3,kind:"cup",tone:"#d8b45a"},
+   {id:"jh-style-winner",label:"Style Vainqueur",slot_number:3,kind:"star",tone:"#d8b45a"},
+   {id:"jh-style-classic",label:"Style Classique",slot_number:3,kind:"shield",tone:"#4f9bd8"}
+  ];
+  const svgPatchImage=x=>{
+   const symbol=x.kind==="star"?'<path d="M50 18 58 38 80 39 63 53 69 75 50 63 31 75 37 53 20 39 42 38Z" fill="'+x.tone+'"/>':
+    x.kind==="cup"?'<path d="M36 25h28v12c0 15-6 23-14 23s-14-8-14-23V25ZM36 31H23v8c0 10 7 15 17 15M64 31h13v8c0 10-7 15-17 15M50 60v12m-15 5h30" fill="none" stroke="'+x.tone+'" stroke-width="5" stroke-linecap="round"/>':
+    x.kind==="globe"?'<circle cx="50" cy="48" r="28" fill="none" stroke="'+x.tone+'" stroke-width="5"/><path d="M22 48h56M50 20c18 18 18 38 0 56M50 20c-18 18-18 38 0 56" fill="none" stroke="'+x.tone+'" stroke-width="4"/>':
+    x.kind==="hands"?'<path d="M22 49 39 33l11 10 11-10 17 16-28 27Z" fill="none" stroke="'+x.tone+'" stroke-width="5" stroke-linejoin="round"/>':
+    x.kind==="flag"?'<path d="M29 22v54m3-49h39L59 43l12 16H32" fill="none" stroke="'+x.tone+'" stroke-width="6" stroke-linejoin="round"/>':
+    '<path d="M50 15 78 26v20c0 19-12 31-28 39C34 77 22 65 22 46V26Z" fill="none" stroke="'+x.tone+'" stroke-width="6"/><path d="m36 48 9 9 19-21" fill="none" stroke="'+x.tone+'" stroke-width="5"/>';
+   const svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 4 91 20v30c0 25-17 39-41 46C26 89 9 75 9 50V20Z" fill="#172334" stroke="'+x.tone+'" stroke-width="4"/>'+symbol+'<path d="M23 83h54" stroke="'+x.tone+'" stroke-width="2" opacity=".8"/></svg>';
+   return "data:image/svg+xml;charset=UTF-8,"+encodeURIComponent(svg);
+  };
+  const displayPatches=applicablePatches.length?applicablePatches:builtInPatchStyles.map(x=>({...x,image_url:svgPatchImage(x)}));
+  if(isNational&&!document.getElementById("jh-patch-visual-styles")){
+   const style=document.createElement("style");style.id="jh-patch-visual-styles";style.textContent=".jh-patch-selector{margin:18px 0}.jh-patch-intro{color:#cbd5e1;font-size:14px}.jh-patch-slot{border:1px solid #465365;border-radius:12px;padding:12px;margin:12px 0}.jh-patch-slot legend{padding:0 7px;font-weight:700;color:#f2c66d}.jh-patch-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:10px}.jh-patch-choice{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:7px;min-height:132px;padding:10px 7px;border:2px solid #465365;border-radius:10px;background:#17202d;color:#fff;text-align:center;cursor:pointer;transition:border-color .15s,background .15s,transform .15s}.jh-patch-choice:hover{border-color:#d8b45a;transform:translateY(-2px)}.jh-patch-choice:has(input:checked){border-color:#e5b94e;background:#293143;box-shadow:0 0 0 2px #e5b94e33}.jh-patch-choice input{position:absolute;top:8px;right:8px;accent-color:#e5b94e;width:17px;height:17px;cursor:pointer}.jh-patch-thumb{display:block;width:76px;height:76px;object-fit:contain;pointer-events:none}.jh-patch-choice b{font-size:12px;line-height:1.25}.jh-patch-none .jh-patch-thumb{display:grid;place-items:center;border:1px dashed #8995a5;border-radius:50%;font-size:32px;color:#d8b45a}.jh-patch-empty{color:#f2c66d;font-size:13px}.jh-patch-choice input:focus-visible{outline:2px solid #fff;outline-offset:3px}";
+   document.head.appendChild(style);
+  }
   const patchMarkup=isNational
-   ? '<section class="jh-patch-selector"><p class="jh-patch-intro">Choisissez vos patchs. Chaque emplacement est indépendant.</p>'+[1,2,3].map(slot=>{
-      const options=applicablePatches.filter(x=>Number(x.slot_number)===slot);
+   ? '<section class="jh-patch-selector"><p class="jh-patch-intro">Touchez une image pour sélectionner votre patch. Chaque emplacement est indépendant. Tous les patchs sont gratuits.</p>'+[1,2,3].map(slot=>{
+      const options=displayPatches.filter(x=>Number(x.slot_number)===slot);
       const slotName=slot===1?'Manche droite':slot===2?'Manche gauche':'Dos / bas';
       return '<fieldset class="jh-patch-slot"><legend>Patch '+slot+' — '+slotName+'</legend><div class="jh-patch-grid"><label class="jh-patch-choice jh-patch-none"><input type="radio" name="jh-patch-slot-'+slot+'" value="" checked><span class="jh-patch-thumb">＋</span><span><b>Aucun patch</b></span></label>'+
-       options.map(x=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+esc(x.id)+'"><img class="jh-patch-thumb" src="'+esc(x.image_url)+'" alt="'+esc(x.label)+'" loading="lazy"><span><b>'+esc(x.label)+'</b></span></label>').join("")+
-       (options.length?"":'<p class="jh-patch-empty">Les patchs de cet emplacement seront bientôt disponibles.</p>')+'</div></fieldset>';
+       options.map(x=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+esc(x.id)+'"><img class="jh-patch-thumb" src="'+esc(x.image_url)+'" alt="'+esc(x.label)+'"><span><b>'+esc(x.label)+'</b></span></label>').join("")+
+       '</div></fieldset>';
      }).join("")+'</section>'
    : '<label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+legacyPatchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div>';
   const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);

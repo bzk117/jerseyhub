@@ -158,3 +158,15 @@ button,input,select{font:inherit}.topbar{height:82px;display:flex;align-items:ce
  .jh-dialog-close{width:42px;height:42px;margin:-5px -5px 0 8px;font-size:30px}
  .jh-dialog{max-height:92vh;padding:16px}
 }
+
+
+/* Pagination : commandes centrées et bouton Retour accessible en bas de chaque catalogue. */
+.catalog-pagination{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px}
+.catalog-pagination-pages{grid-column:2;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:7px}
+.jh-bottom-page-back{grid-column:3;justify-self:end;align-self:center;display:inline-flex;align-items:center;gap:7px;padding:10px 14px;border:1px solid #665326;border-radius:8px;background:#171717;color:#f4bd22;font-weight:800;font-size:13px;cursor:pointer;white-space:nowrap}
+.jh-bottom-page-back:hover{background:#30250d;border-color:#f4bd22}
+@media(max-width:760px){
+ .catalog-pagination{grid-template-columns:1fr;justify-items:center;gap:12px}
+ .catalog-pagination-pages{grid-column:1;width:100%}
+ .jh-bottom-page-back{grid-column:1;justify-self:end}
+}

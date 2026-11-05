@@ -245,7 +245,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  }
  function showCart(){
   cart=read();dialog.dataset.mode="cart";
-  const rows=cart.map((x,i)=>'<div class="jh-cart-row"><div><b>'+esc(x.name)+'</b><small>Taille : '+esc(x.size)+' · Qté : '+esc(x.quantity)+'</small><small>Patch(s) : '+esc((x.patches||[]).join(", ")||"Aucun")'+(Number(x.patchTotalEur||0)>0?" · Supplément patchs : "+Number(x.patchTotalEur).toLocaleString("fr-BE",{style:"currency",currency:"EUR"}):"")+'</small><small>Personnalisation : '+esc(x.personalization||"Aucune")+(x.player?" — "+esc(x.player):"")+(x.customName?" — "+esc(x.customName):"")+(x.customNumber?" #"+esc(x.customNumber):"")+'</small></div><button class="jh-remove" data-remove="'+i+'" type="button">Supprimer</button></div>').join("");
+  const rows=cart.map((x,i)=>'<div class="jh-cart-row"><div><b>'+esc(x.name)+'</b><small>Taille : '+esc(x.size)+' · Qté : '+esc(x.quantity)+'</small><small>Patch(s) : '+esc((x.patches||[]).join(", ")||"Aucun")+(Number(x.patchTotalEur||0)>0?" · Supplément patchs : "+Number(x.patchTotalEur).toLocaleString("fr-BE",{style:"currency",currency:"EUR"}):"")+'</small><small>Personnalisation : '+esc(x.personalization||"Aucune")+(x.player?" — "+esc(x.player):"")+(x.customName?" — "+esc(x.customName):"")+(x.customNumber?" #"+esc(x.customNumber):"")+'</small></div><button class="jh-remove" data-remove="'+i+'" type="button">Supprimer</button></div>').join("");
   open('<h2>Mon panier ('+cart.length+')</h2>'+(rows||'<p>Votre panier est vide pour le moment.</p>')+'<div class="jh-actions"><button class="jh-secondary" id="jh-continue">Continuer mes achats</button><button class="jh-primary" id="jh-checkout" '+(!cart.length?'disabled':'')+'>Continuer vers Mon compte</button></div>');
   dialog.dataset.mode="cart";
   dialog.querySelector("#jh-continue").onclick=close;
@@ -266,13 +266,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const legacyPatchOptions=Array.isArray(p.patches)?p.patches:[];
   const isNational=p.category==="national";
   let patchRecords=[];
-  if(isNational&&window.supabase&&window.JERSEYHUB_SUPABASE){
-   try{
-    const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);
-    const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category","national").eq("is_active",true).order("sort_order",{ascending:true});
-    if(!error)patchRecords=data||[];
-   }catch(error){console.warn("Options de patch indisponibles :",error)}
-  }
+  if(isNational&&window.supabase&&window.JERSEYHUB_SUPABASE){try{const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category","national").eq("is_active",true).order("sort_order",{ascending:true});if(!error)patchRecords=data||[];}catch(error){console.warn("Options de patch indisponibles :",error)}}
   const productSpecific=patchRecords.filter(x=>x.product_name&&x.product_name===p.name);
   const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
   const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);
@@ -284,7 +278,13 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
        options.map(x=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+esc(x.id)+'" data-price="'+Number(x.extra_price_eur||0)+'"><img class="jh-patch-thumb" src="'+esc(x.image_url)+'" alt="'+esc(x.label)+'" loading="lazy"><span><b>'+esc(x.label)+'</b><small>Emplacement '+slot+'</small></span><strong>+'+Number(x.extra_price_eur||0).toLocaleString("fr-BE",{style:"currency",currency:"EUR"})+'</strong></label>').join("")+
        (options.length?"":'<p class="jh-patch-empty">Aucun patch configuré pour cet emplacement.</p>')+'</fieldset>';
      }).join("")+'<p class="jh-patch-total" id="jh-patch-total">Supplément total : 0,00 €</p></section>'
-   : ''+patchMarkup+'<label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Nom et numéro personnalisés</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+   : '<label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+legacyPatchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div>';
+  const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
+  let galleryIndex=0;
+  const productVisual=galleryImages.length>1
+   ? '<div class="jh-product-gallery"><img id="jh-product-gallery-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - devant" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto"><div style="display:flex;justify-content:center;align-items:center;gap:12px;margin:0 auto 16px"><button type="button" class="jh-secondary" id="jh-gallery-prev">← Devant</button><span id="jh-gallery-count" style="color:#bbb">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next">Derrière →</button></div></div>'
+   : (galleryImages.length?'<img src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+'" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto 16px">':'<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>');
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p><label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>'+patchMarkup+'<label>Personnalisation</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Nom et numéro personnalisés</option></select><div id="jh-player-fields"></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
   if(galleryImages.length>1){
    const showGalleryImage=()=>{const img=dialog.querySelector("#jh-product-gallery-image");if(img){img.src=galleryImages[galleryIndex];img.alt=esc(p.name)+(galleryIndex===0?" - devant":" - derrière");dialog.querySelector("#jh-gallery-count").textContent=(galleryIndex+1)+" / "+galleryImages.length;}};
    dialog.querySelector("#jh-gallery-prev").onclick=()=>{galleryIndex=(galleryIndex-1+galleryImages.length)%galleryImages.length;showGalleryImage()};

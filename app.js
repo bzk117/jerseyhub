@@ -75,14 +75,27 @@ function renderCatalogPage(page=1){
  if(!pager)return;
  pager.innerHTML="";
  const pages=Math.ceil(catalogPageItems.length/CATALOG_PAGE_SIZE);
- if(pages<=1)return;
+ const pageControls=document.createElement("div");
+ pageControls.className="catalog-pagination-pages";
  const makeButton=(label,target,disabled=false,active=false)=>{
   const b=document.createElement("button");b.type="button";b.className="catalog-page-button"+(active?" active":"");b.textContent=label;b.disabled=disabled;b.setAttribute("aria-label",typeof label==="number"?"Page "+label:label);
   b.onclick=()=>renderCatalogPage(target);return b;
  };
- pager.append(makeButton("←",catalogPage-1,catalogPage===1));
- for(let n=1;n<=pages;n++)pager.append(makeButton(String(n),n,false,n===catalogPage));
- pager.append(makeButton("→",catalogPage+1,catalogPage===pages));
+ if(pages>1){
+  pageControls.append(makeButton("←",catalogPage-1,catalogPage===1));
+  for(let n=1;n<=pages;n++)pageControls.append(makeButton(String(n),n,false,n===catalogPage));
+  pageControls.append(makeButton("→",catalogPage+1,catalogPage===pages));
+  pager.append(pageControls);
+ }
+ if(catalogPageItems.length){
+  const back=document.createElement("button");
+  back.type="button";
+  back.className="jh-bottom-page-back";
+  back.textContent="← Retour";
+  back.setAttribute("aria-label","Retour à la page précédente");
+  back.onclick=goBack;
+  pager.append(back);
+ }
  pager.setAttribute("aria-label","Pagination du catalogue");
 }
 function renderPagedProducts(items,prefixNodes=[]){

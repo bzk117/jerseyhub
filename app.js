@@ -97,7 +97,28 @@ function productCard(p){
  div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }
-function setHeading(e,t,b){eyebrow.textContent=e;title.textContent=t;crumbs.textContent=b;$("#resultCount").textContent="";const pager=$("#catalogPagination");if(pager)pager.innerHTML=""}
+function setHeading(e,t,b){
+ eyebrow.textContent=e;title.textContent=t;crumbs.textContent=b;$("#resultCount").textContent="";
+ const pager=$("#catalogPagination");if(pager)pager.innerHTML="";
+ const sectionHeading=document.querySelector(".section-heading");
+ let back=sectionHeading.querySelector(".jh-page-back");
+ if(!back){back=document.createElement("button");back.type="button";back.className="jh-page-back";back.innerHTML="← <span>Retour</span>";back.setAttribute("aria-label","Retour à la page précédente");sectionHeading.prepend(back);back.onclick=goBack;}
+ back.hidden=currentView==="home";
+}
+let navigationHistory=[];
+let restoringNavigation=false;
+function rememberNavigation(){
+ if(!restoringNavigation)navigationHistory.push({view:currentView,group:currentGroup});
+}
+function goBack(){
+ const previous=navigationHistory.pop();
+ if(!previous){renderHome();return}
+ restoringNavigation=true;
+ if(previous.group)openGroup(previous.view,previous.group);
+ else if(previous.view==="home")renderHome();
+ else openView(previous.view);
+ restoringNavigation=false;
+}
 function renderHome(){
  currentView="home";currentGroup=null;setHeading("BIENVENUE","Nos catégories","Accueil");
  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
@@ -111,6 +132,7 @@ function renderHome(){
  home.forEach(x=>{const c=card(x,x.kind);c.dataset.jhView=x.kind;grid.append(c)});
 }
 function openView(view){
+ rememberNavigation();
  if(view==="home"){renderHome();return}
  currentView=view;currentGroup=null;grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
  if(view==="national"){
@@ -131,6 +153,7 @@ function openView(view){
  }
 }
 function openGroup(kind,name){
+ rememberNavigation();
  currentView=kind;currentGroup=name;
  if(kind==="lifestyle"){
   const cat=LIFESTYLE.find(c=>c.name===name);
@@ -233,7 +256,14 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  if(!trigger)throw new Error("Bouton panier absent du menu HTML.");
  const overlay=document.createElement("div");overlay.className="jh-overlay";overlay.innerHTML='<div class="jh-dialog" role="dialog" aria-modal="true"></div>';document.body.append(overlay);
  const dialog=overlay.firstElementChild;
- const open=(html)=>{dialog.innerHTML=html;overlay.style.display="flex"};
+ const open=(html)=>{
+  dialog.innerHTML=html;
+  const closeButton=document.createElement("button");
+  closeButton.type="button";closeButton.className="jh-dialog-close";closeButton.textContent="×";
+  closeButton.setAttribute("aria-label","Fermer cette fenêtre");closeButton.title="Fermer";
+  closeButton.onclick=close;dialog.prepend(closeButton);
+  overlay.style.display="flex";
+ };
  const close=()=>overlay.style.display="none";
  overlay.addEventListener("click",e=>{if(e.target===overlay)close()});
  const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));

@@ -27,7 +27,7 @@ if(error||user.app_metadata?.role!=='admin'){$('login').classList.add('admin-hid
 $('login').classList.add('admin-hidden');$('dashboard').classList.remove('admin-hidden');say("Accès administrateur vérifié.");await load()}
 async function load(){
  await loadComments();await loadPatchOptions();
- let requestQuery=db.from('requests').select('id,order_number,status,customer_note,created_at,customer_id,tracking_number,tracking_url,arrival_date,price_eur,payment_status,admin_approved_at,archived_at,request_items(id,category,team_brand,model,season,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur)').order('created_at',{ascending:false});
+ let requestQuery=db.from('requests').select('id,order_number,status,customer_note,created_at,customer_id,tracking_number,tracking_url,price_eur,payment_status,admin_approved_at,archived_at,request_items(id,category,team_brand,model,season,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur)').order('created_at',{ascending:false});
  const filter=$('archiveFilter')?.value||'active';
  if(filter==='active')requestQuery=requestQuery.is('archived_at',null);
  else if(filter==='archived')requestQuery=requestQuery.not('archived_at','is',null);

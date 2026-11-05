@@ -60,7 +60,7 @@
   const btn=$('validateBasket');btn.disabled=true;
   try{
    const {data:req,error:reqErr}=await db.from('requests').insert({customer_id:user.id,customer_note:null}).select('id,order_number').single();if(reqErr)throw reqErr;
-   const rows=items.map(i=>({request_id:req.id,category:i.category||'Maillot de football',team_brand:i.team||'Article JerseyHub',model:[i.model||i.name,(i.patches&&i.patches.length?'Patch(s): '+i.patches.join(', '):'')].filter(Boolean).join(' — '),size:i.size,quantity:Number(i.quantity)||1,customization_type:i.personalization||'Aucune',custom_name:i.player||i.customName||null,custom_number:i.customNumber||null,patch_selections:i.patchSelections||[],patch_total_eur:Number(i.patchTotalEur)||0}));
+   const rows=items.map(i=>({request_id:req.id,category:i.category||'Maillot de football',team_brand:i.team||'Article JerseyHub',model:[i.model||i.name,(i.patches&&i.patches.length?'Patch(s): '+i.patches.join(', '):'')].filter(Boolean).join(' — '),size:i.size,quantity:Number(i.quantity)||1,customization_type:i.personalization||'Aucune',custom_name:i.player||i.customName||null,custom_number:i.customNumber||null,patch_selections:i.patchSelections||[],patch_total_eur:Number(i.patchTotalEur)||0,image_url:i.image||null}));
    const {error:itemErr}=await db.from('request_items').insert(rows);if(itemErr){await db.from('requests').delete().eq('id',req.id);throw itemErr}
    localStorage.removeItem(CART_KEY);showBasket();say('Demande envoyée ! Numéro de commande : '+req.order_number+'.');await loadRequests();
   }catch(err){say('La validation a échoué : '+(err.message||'erreur'),true)}

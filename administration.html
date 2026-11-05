@@ -1,20 +1,20 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Administration — JerseyHub</title><link rel="stylesheet" href="styles.css">
 <style>
-.admin-wrap{max-width:1200px;margin:auto;padding:32px 20px 70px}.admin-panel{background:#141414;border:1px solid #393939;border-radius:13px;padding:20px;margin:18px 0}.admin-wrap input,.admin-wrap select,.admin-wrap textarea{width:100%;padding:11px;background:#090909;border:1px solid #494949;border-radius:7px;color:#fff}.admin-wrap label{display:block;margin:12px 0 6px;color:#ccc}.admin-wrap button{padding:10px 14px;border-radius:7px;border:1px solid #555;background:#222;color:white;cursor:pointer}.admin-wrap button.primary{background:#f4bd22;color:#111;border-color:#f4bd22}.admin-grid{display:grid;grid-template-columns: minmax(0,1.2fr) minmax(280px,.8fr);gap:18px}.admin-card{border:1px solid #444;border-radius:10px;padding:15px;margin:12px 0;background:#101010}.admin-meta{color:#aaa;font-size:12px}.admin-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.admin-row>*{flex:1}.admin-note{margin-top:12px}.admin-hidden{display:none!important}#patchManagement{display:none!important}.admin-status{color:#f4bd22;font-weight:700}.admin-filter-label{display:flex!important;align-items:center;gap:8px;flex:1;min-width:210px;margin:0!important}.admin-filter-label select{width:auto;flex:1;min-width:150px}@media(max-width:760px){.admin-grid{grid-template-columns:1fr}}
+.admin-wrap{max-width:1200px;margin:auto;padding:32px 20px 70px}.admin-panel{background:#141414;border:1px solid #393939;border-radius:13px;padding:20px;margin:18px 0}.admin-wrap input,.admin-wrap select,.admin-wrap textarea{width:100%;padding:11px;background:#090909;border:1px solid #494949;border-radius:7px;color:#fff}.admin-wrap label{display:block;margin:12px 0 6px;color:#ccc}.admin-wrap button{padding:10px 14px;border-radius:7px;border:1px solid #555;background:#222;color:white;cursor:pointer}.admin-wrap button.primary{background:#f4bd22;color:#111;border-color:#f4bd22}.admin-grid{display:grid;grid-template-columns: minmax(0,1.2fr) minmax(280px,.8fr);gap:18px}.admin-card{border:1px solid #444;border-radius:10px;padding:15px;margin:12px 0;background:#101010}.admin-meta{color:#aaa;font-size:12px}.admin-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.admin-row>*{flex:1}.admin-note{margin-top:12px}.admin-hidden{display:none!important}#patchManagement{display:none!important}.admin-status{color:#f4bd22;font-weight:700}.admin-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}.admin-stat{border:1px solid #4b4028;background:#101010;border-radius:10px;padding:14px}.admin-stat small{display:block;color:#aaa;margin-bottom:7px}.admin-stat strong{font-size:23px;color:#f4bd22}.admin-search{max-width:430px;margin:12px 0}.admin-search input{width:100%}.admin-search-hint{color:#aaa;font-size:12px;margin:5px 0 12px}\n.admin-filter-label{display:flex!important;align-items:center;gap:8px;flex:1;min-width:210px;margin:0!important}.admin-filter-label select{width:auto;flex:1;min-width:150px}@media(max-width:760px){.admin-grid{grid-template-columns:1fr}}
 .danger{background:#8f3030;color:#fff;border:0;border-radius:8px;padding:10px 14px;cursor:pointer;margin:8px 0 14px}.detail-actions{margin:0 0 18px}.detail-actions>*{flex:0 1 auto}.detail-actions .danger{margin:0}
 </style></head><body><header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><a class="nav-link" href="index.html">Retour au site</a></header>
 <main class="admin-wrap"><p class="eyebrow">ZONE PRIVÉE</p><h1>Administration <em>JerseyHub</em></h1><div id="notice" class="admin-panel">Vérification des accès…</div>
 <section id="login" class="admin-panel admin-hidden"><h2>Connexion administrateur</h2><form id="loginForm"><label for="email">Adresse e-mail</label><input id="email" type="email" required autocomplete="username"><label for="password">Mot de passe</label><input id="password" type="password" required autocomplete="current-password"><button class="primary" type="submit">Se connecter</button></form></section>
-<section id="dashboard" class="admin-hidden"><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section><section id="patchManagement" class="admin-panel"><h2>Gestion des patchs des maillots nationaux</h2><p class="admin-meta">Ajoutez les patchs illustrés du fournisseur, leur emplacement (aucun supplément de prix). Laissez le pays vide pour une option générale ; indiquez un modèle pour la limiter à une fiche précise.</p>
+<section id="dashboard" class="admin-hidden"><section class="admin-panel"><h2>Tableau de bord</h2><div id="adminStats" class="admin-stats"><div class="admin-stat"><small>Commandes en attente</small><strong>—</strong></div><div class="admin-stat"><small>Commandes payées</small><strong>—</strong></div><div class="admin-stat"><small>En transit</small><strong>—</strong></div><div class="admin-stat"><small>Terminées</small><strong>—</strong></div><div class="admin-stat"><small>Chiffre d’affaires encaissé</small><strong>—</strong></div></div></section><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section><section id="patchManagement" class="admin-panel"><h2>Gestion des patchs des maillots nationaux</h2><p class="admin-meta">Ajoutez les patchs illustrés du fournisseur, leur emplacement (aucun supplément de prix). Laissez le pays vide pour une option générale ; indiquez un modèle pour la limiter à une fiche précise.</p>
 <form id="patchForm"><input id="patchId" type="hidden"><div class="admin-row"><div><label for="patchTeam">Équipe / pays (facultatif)</label><input id="patchTeam" placeholder="Ex. France"></div><div><label for="patchProduct">Modèle exact (facultatif)</label><input id="patchProduct" placeholder="Ex. 2026-27 France Home"></div><div><label for="patchSlot">Emplacement</label><select id="patchSlot"><option value="1">Emplacement 1</option><option value="2">Emplacement 2</option><option value="3">Emplacement 3</option></select></div></div>
 <div class="admin-row"><div><label for="patchLabel">Nom du patch</label><input id="patchLabel" required maxlength="100" placeholder="Ex. FIFA World Cup"></div><div><label for="patchOrder">Ordre d’affichage</label><input id="patchOrder" type="number" step="1" value="0"></div></div>
 <label for="patchImage">URL de l’image du patch (https://)</label><input id="patchImage" type="url" required placeholder="https://…"><label><input id="patchActive" type="checkbox" checked style="width:auto"> Patch disponible sur le site</label>
 <div class="admin-row"><button class="primary" type="submit" id="savePatch">Ajouter le patch</button><button type="button" id="cancelPatch">Effacer le formulaire</button></div></form><div id="patchOptionsList">Chargement des patchs…</div></section>
-<div class="admin-row"><div><h2>Demandes clients</h2><p class="admin-meta">Les changements sont enregistrés dans Supabase.</p></div><label class="admin-filter-label" for="archiveFilter">Afficher : <select id="archiveFilter"><option value="active">Demandes actives</option><option value="archived">Demandes archivées</option><option value="all">Toutes les demandes</option></select></label><button id="logout">Déconnexion</button><button id="reload">Actualiser</button></div><div class="admin-grid"><section class="admin-panel"><h3>Demandes reçues</h3><div id="requests">Chargement…</div></section><aside class="admin-panel"><h3>Détail de la demande</h3><div id="detail">Sélectionnez une demande.</div></aside></div></section>
+<div class="admin-row"><div><h2>Demandes clients</h2><p class="admin-meta">Les changements sont enregistrés dans Supabase.</p></div><label class="admin-filter-label" for="archiveFilter">Afficher : <select id="archiveFilter"><option value="active">Demandes actives</option><option value="archived">Demandes archivées</option><option value="all">Toutes les demandes</option></select></label><button id="logout">Déconnexion</button><button id="reload">Actualiser</button></div><div class="admin-search"><label for="adminSearch">Rechercher une commande</label><input id="adminSearch" type="search" placeholder="N° de commande, nom ou adresse e-mail"><p class="admin-search-hint">La recherche couvre les commandes de la vue sélectionnée.</p></div><div class="admin-grid"><section class="admin-panel"><h3>Demandes reçues</h3><div id="requests">Chargement…</div></section><aside class="admin-panel"><h3>Détail de la demande</h3><div id="detail">Sélectionnez une demande.</div></aside></div></section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
 <script>
-(()=>{const $=id=>document.getElementById(id),notice=$('notice');if(!window.supabase||!window.JERSEYHUB_SUPABASE){notice.textContent="Configuration Supabase indisponible.";return}const db=window.supabase.createClient(JERSEYHUB_SUPABASE.url,JERSEYHUB_SUPABASE.anonKey);let selected=null,records=[],patchOptions=[];
+(()=>{const $=id=>document.getElementById(id),notice=$('notice');if(!window.supabase||!window.JERSEYHUB_SUPABASE){notice.textContent="Configuration Supabase indisponible.";return}const db=window.supabase.createClient(JERSEYHUB_SUPABASE.url,JERSEYHUB_SUPABASE.anonKey);let selected=null,records=[],patchOptions=[],searchIds=null,searchToken=0;
 const say=(s,bad=false)=>{notice.textContent=s;notice.style.borderColor=bad?'#a44':'#6b531d'};
 const statuses=['En attente','En transit','Reçu','Terminé','Pas de stock'];
 const statusOptions=current=>statuses.map(s=>'<option'+(s===current?' selected':'')+'>'+s+'</option>').join('');
@@ -26,7 +26,7 @@ const {data:profile,error}=await db.from('profiles').select('role,first_name,las
 if(error||user.app_metadata?.role!=='admin'){$('login').classList.add('admin-hidden');$('dashboard').classList.add('admin-hidden');say("Accès refusé : ce compte ne possède pas le rôle administrateur autorisé.",true);return}
 $('login').classList.add('admin-hidden');$('dashboard').classList.remove('admin-hidden');say("Accès administrateur vérifié.");await load()}
 async function load(){
- await loadComments();await loadPatchOptions();
+ await loadComments();await loadPatchOptions();await loadDashboardStats();
  let requestQuery=db.from('requests').select('id,order_number,status,customer_note,created_at,customer_id,tracking_number,tracking_url,price_eur,payment_status,admin_approved_at,archived_at,request_items(id,category,team_brand,model,season,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur)').order('created_at',{ascending:false});
  const filter=$('archiveFilter')?.value||'active';
  if(filter==='active')requestQuery=requestQuery.is('archived_at',null);
@@ -37,16 +37,27 @@ async function load(){
  const profilesById={};
  if(ids.length){const {data:profiles,error:profileError}=await db.from('profiles').select('id,first_name,last_name,phone').in('id',ids);if(!profileError)(profiles||[]).forEach(p=>profilesById[p.id]=p)}
  records=(data||[]).map(r=>({...r,customer_profile:profilesById[r.customer_id]||null}));
+ renderRequestList();
+ }
+async function loadDashboardStats(){
+ const {data,error}=await db.from('requests').select('status,payment_status,price_eur');
+ if(error){say('Statistiques indisponibles : '+error.message,true);return}
+ const rows=data||[],pending=rows.filter(r=>r.payment_status==='En attente de paiement').length,paid=rows.filter(r=>r.payment_status==='Payé').length,transit=rows.filter(r=>r.status==='En transit').length,completed=rows.filter(r=>['Reçu','Terminé'].includes(r.status)).length,revenue=rows.filter(r=>r.payment_status==='Payé').reduce((sum,r)=>sum+(Number(r.price_eur)||0),0);
+ $('adminStats').innerHTML=[['Commandes en attente',pending],['Commandes payées',paid],['En transit',transit],['Terminées',completed],['Chiffre d’affaires encaissé',revenue.toLocaleString('fr-BE',{style:'currency',currency:'EUR'})]].map(([label,value])=>'<div class="admin-stat"><small>'+esc(label)+'</small><strong>'+esc(value)+'</strong></div>').join('');
+}
+function renderRequestList(){
  const box=$('requests');box.innerHTML='';
- if(!records.length){box.textContent="Aucune demande dans cette vue.";selected=null;$('detail').textContent='Sélectionnez une demande.';return}
- records.forEach(r=>{
+ const visible=records.filter(r=>!searchIds||searchIds.includes(r.id));
+ if(!visible.length){box.textContent=searchIds?'Aucune commande ne correspond à cette recherche.':"Aucune demande dans cette vue.";if(!records.length){selected=null;$('detail').textContent='Sélectionnez une demande.'}return}
+ visible.forEach(r=>{
   const b=document.createElement('button');b.className='admin-card';b.style.width='100%';b.style.textAlign='left';
   const customer=[r.customer_profile?.first_name,r.customer_profile?.last_name].filter(Boolean).join(' ')||'Client';
   const price=r.price_eur==null?'Prix à confirmer':Number(r.price_eur).toLocaleString('fr-BE',{style:'currency',currency:'EUR'});
   b.innerHTML='<b>'+esc(r.order_number)+'</b><br><span class="admin-meta">'+new Date(r.created_at).toLocaleString('fr-BE')+'</span><br><span class="admin-meta">Client : '+esc(customer)+'</span><br><span class="admin-status">'+esc(statusSummary(r))+'</span><br><span class="admin-meta">'+(r.request_items||[]).length+' article(s) · '+esc(price)+' · '+esc(r.payment_status||'En attente de paiement')+'</span>';
   b.onclick=()=>show(r.id);box.append(b);
  });
- if(selected){if(records.some(r=>r.id===selected))show(selected);else{selected=null;$('detail').textContent='Sélectionnez une demande.'}}
+ if(selected){if(visible.some(r=>r.id===selected))show(selected);else{selected=null;$('detail').textContent='Sélectionnez une demande.'}}
+}
 }
 async function show(id){
  selected=id;const r=records.find(x=>x.id===id);if(!r)return;const d=$('detail');
@@ -102,6 +113,15 @@ async function loadPatchOptions(){
  box.querySelectorAll('[data-delete-patch]').forEach(btn=>btn.onclick=async()=>{if(!confirm('Supprimer ce patch ?'))return;const {error}=await db.from('patch_options').delete().eq('id',btn.dataset.deletePatch);if(error){say('Suppression impossible : '+error.message,true);return}say('Patch supprimé.');await loadPatchOptions()});
 }
 function resetPatchForm(){$('patchForm').reset();$('patchId').value='';$('patchOrder').value='0';$('patchActive').checked=true;$('savePatch').textContent='Ajouter le patch'}
+$('adminSearch').addEventListener('input',async()=>{
+ const term=$('adminSearch').value.trim(),token=++searchToken;
+ if(!term){searchIds=null;renderRequestList();return}
+ if(term.length<2){searchIds=[];renderRequestList();return}
+ const {data,error}=await db.rpc('admin_search_request_ids',{search_term:term});
+ if(token!==searchToken)return;
+ if(error){say('Recherche impossible : '+error.message,true);return}
+ searchIds=(data||[]).map(x=>x.request_id);renderRequestList();
+});
 $('patchForm').onsubmit=async e=>{
  e.preventDefault();const image=$('patchImage').value.trim();try{const u=new URL(image);if(!['http:','https:'].includes(u.protocol))throw new Error()}catch{say('L’image doit avoir une URL http ou https valide.',true);return}
  const payload={category:'national',team_name:$('patchTeam').value.trim()||null,product_name:$('patchProduct').value.trim()||null,slot_number:Number($('patchSlot').value),label:$('patchLabel').value.trim(),image_url:image,sort_order:Number($('patchOrder').value)||0,is_active:$('patchActive').checked};

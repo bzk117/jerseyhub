@@ -13,7 +13,7 @@ Préparer JerseyHub à gérer, pour chaque maillot, les patchs compatibles, les 
 - `national-players.js` contient des listes de joueurs structurées avec nom, texte de flocage et numéro. Les commentaires du fichier indiquent une référence aux listes FIFA 2026 ; ces données doivent être contrôlées avant d'être présentées comme flocages réellement proposés par le fournisseur.
 - Les commandes enregistrent déjà `customization_type`, `custom_name` et `custom_number`.
 - Le schéma Supabase contient déjà `patch_selections`, `patch_total_eur` et la table `patch_options`, avec lecture publique limitée aux options actives et gestion réservée aux administrateurs.
-- L'interface d'administration comporte une gestion des patchs, mais le code examiné indique qu'elle est masquée/inactive dans l'interface actuelle.
+- L'interface d'administration comporte déjà un panneau de gestion des patchs. Il est actuellement limité à la catégorie `national`, et son formulaire ne propose que trois emplacements.
 - Les patchs et flocages disponibles ne doivent pas être déduits uniquement de l'effectif officiel d'un club ou d'une sélection : les options de marquage du fournisseur peuvent être différentes.
 
 ## Données à prévoir par fiche maillot
@@ -58,3 +58,29 @@ Les informations absentes doivent rester « à vérifier » / non renseignées ;
 - Aucun supplément n'est inventé.
 - Les données et fonctionnalités déjà présentes sont conservées.
 - Les fichiers et images du catalogue existant ne sont ni supprimés ni remplacés par cette préparation.
+
+
+## Audit technique complémentaire — 6 novembre 2026
+
+Lecture effectuée sur la branche de préparation, sans modifier le code fonctionnel.
+
+### Points précis à corriger ou à vérifier
+
+- Dans `app.js`, le chargement Supabase des patchs est exécuté uniquement lorsque `p.category === "national"`. Les clubs ne récupèrent donc pas les options de la table `patch_options`.
+- Si aucune option Supabase n'est trouvée pour une sélection nationale, le site affiche une liste de patchs intégrée directement dans `app.js`. Ce comportement doit être retiré ou neutralisé pour éviter de présenter des options non confirmées pour la fiche précise.
+- Les patchs intégrés au code utilisent cinq emplacements, alors que le formulaire d'administration et la contrainte SQL de `patch_options.slot_number` n'acceptent que les emplacements 1 à 3. Il faut choisir un modèle cohérent, sans perdre les données déjà enregistrées.
+- La gestion d'administration enregistre actuellement `category: 'national'` en dur. Elle doit permettre de gérer les clubs et les sélections, et de relier les options à une saison et/ou à un modèle lorsque nécessaire.
+- La sélection automatique de joueur est actuellement limitée aux sélections nationales. Pour les clubs, le choix « joueur » affiche aujourd'hui des champs de saisie manuelle au lieu d'une liste de joueurs.
+- Les listes de `national-players.js` sont des listes d'effectifs/numéros de compétition. Elles ne prouvent pas que le fournisseur propose ces flocages sur chaque maillot.
+- Le panier conserve déjà des sélections de patchs et des informations de personnalisation. La création des lignes de commande enregistre également les patchs et les champs de personnalisation.
+- Le schéma `request_items` contient une colonne `season`, mais le code de création des lignes de commande examiné ne transmet pas cette valeur. Il faudra vérifier comment la saison est portée dans les fiches et le panier avant de l'ajouter au snapshot.
+- Les snapshots de patchs enregistrent actuellement un supplément nul dans le parcours client. La gestion du prix réel doit être raccordée uniquement à une valeur confirmée par l'administration/fournisseur.
+
+### Ordre de réalisation recommandé
+
+1. Définir le modèle commun des options (catégorie, équipe, saison, modèle, emplacement, libellé, visuel, prix, statut de vérification et statut actif).
+2. Corriger la lecture des patchs pour clubs et sélections, et supprimer les choix de secours non vérifiés du parcours client.
+3. Harmoniser les emplacements entre interface et base, après inventaire des lignes déjà enregistrées.
+4. Ajouter la gestion des flocages fournisseurs par équipe/saison/modèle, sans confondre effectif officiel et disponibilité de marquage.
+5. Ajouter les champs de saison/version manquants au panier et au snapshot de commande, avec compatibilité pour les anciennes commandes.
+6. Tester le rendu client, les permissions Supabase, l'administration, les commandes et les anciennes données sur la branche de préparation uniquement.

@@ -2,70 +2,70 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#090909">
-<title>LEGO & Construction — JerseyHub</title>
+<title>Galerie — JerseyHub</title>
 <link rel="stylesheet" href="styles.css">
 <style>
-.lego-page{max-width:1240px;margin:0 auto;padding:34px 22px 70px;color:#f7f7f7}
-.lego-hero{padding:30px;border:1px solid #3d3420;border-radius:18px;background:radial-gradient(circle at 85% 15%,#4b3a12 0,transparent 38%),linear-gradient(135deg,#171717,#090909)}
-.lego-kicker{color:#e9bd54;font-size:12px;font-weight:800;letter-spacing:2px}
-.lego-hero h1{font-size:clamp(30px,5vw,48px);margin:9px 0}.lego-hero p{color:#c7c7c7;max-width:720px;line-height:1.6}
-.lego-tabs{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.lego-tab{border:1px solid #4b4537;border-radius:999px;background:#151515;color:#eee;padding:11px 18px;cursor:pointer}.lego-tab.active{background:#e9bd54;color:#171717;border-color:#e9bd54;font-weight:800}
-.lego-layout{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:28px;margin-top:20px}
-.lego-gallery{display:grid;grid-template-columns:minmax(0,1fr) 94px;gap:12px;align-items:start}
-.lego-main{position:relative;min-height:430px;border:1px solid #393939;border-radius:16px;background:radial-gradient(circle at 50% 45%,#333 0,#171717 48%,#101010 100%);display:grid;place-items:center;overflow:hidden}
-.lego-art{width:100%;height:100%;max-height:560px;object-fit:contain;filter:none;transition:transform .2s}.lego-main:hover .lego-art{transform:scale(1.04)}.lego-main:hover .lego-art{transform:scale(1.08)}
-.lego-zoom{position:absolute;right:14px;top:14px;width:42%;height:68%;border:1px solid #e9bd54;border-radius:12px;background:radial-gradient(circle at 50% 50%,#555,#161616);display:none;place-items:center;color:#e9bd54;font-size:13px;text-align:center;padding:10px;box-shadow:0 10px 30px #000b}
-.lego-main:hover .lego-zoom{display:grid}
-.lego-thumbs{display:flex;flex-direction:column;gap:9px}.lego-thumb{height:82px;padding:3px;border:1px solid #444;border-radius:10px;background:#191919;cursor:pointer;overflow:hidden}.lego-thumb img{width:100%;height:100%;object-fit:contain}.lego-thumb.active,.lego-thumb:hover{border:2px solid #e9bd54}.lego-thumb.active,.lego-thumb:hover{border:2px solid #e9bd54;color:#e9bd54}
-.lego-detail{border:1px solid #373737;border-radius:16px;background:#121212;padding:24px}
-.lego-detail h2{font-size:27px;margin:0 0 10px}.lego-ref{color:#999;font-size:12px}.lego-status{display:inline-block;margin:16px 0 8px;padding:7px 11px;border-radius:6px;background:#3b321e;color:#f0ca70;font-size:12px;font-weight:800}
-.lego-price{font-size:28px;font-weight:900;margin:8px 0}.lego-muted{color:#aaa;font-size:13px;line-height:1.55}
-.lego-specs{border-top:1px solid #333;margin-top:20px;padding-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:14px}.lego-specs small{display:block;color:#999;margin-bottom:4px}.lego-specs b{font-size:14px}
-.lego-order{width:100%;margin-top:24px;padding:14px;border:0;border-radius:9px;background:#3a3a3a;color:#999;font-weight:800;cursor:not-allowed}
-.lego-notice{margin-top:20px;border-left:3px solid #e9bd54;background:#211d14;padding:13px 15px;color:#d6c69e;font-size:13px;line-height:1.5}
-.lego-sample-label{margin-top:18px;color:#e9bd54;font-size:11px;font-weight:800;letter-spacing:1.2px}
-.lego-back{display:inline-block;margin-bottom:18px;color:#e9bd54;text-decoration:none}
-@media(max-width:760px){.lego-layout{grid-template-columns:1fr}.lego-main{min-height:300px}.lego-gallery{grid-template-columns:minmax(0,1fr) 72px}.lego-thumb{height:65px}.lego-detail{padding:18px}.lego-zoom{display:none!important}}
+.lego-gallery-page{max-width:1120px;margin:0 auto;padding:30px 22px 70px}
+.lego-gallery{display:grid;grid-template-columns:minmax(0,1fr) 100px;gap:14px;align-items:start}
+.lego-main{height:min(68vw,650px);min-height:300px;border:1px solid #393939;border-radius:16px;background:#111;display:grid;place-items:center;overflow:hidden}
+.lego-main img{width:100%;height:100%;object-fit:contain}
+.lego-thumbs{display:flex;flex-direction:column;gap:10px}
+.lego-thumb{height:86px;padding:3px;border:1px solid #444;border-radius:10px;background:#191919;cursor:pointer;overflow:hidden}
+.lego-thumb img{width:100%;height:100%;object-fit:contain}
+.lego-thumb.active,.lego-thumb:hover{border:2px solid #e9bd54}
+.lego-admin-cost{display:none;max-width:1120px;margin:18px auto 0;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}
+.lego-admin-cost strong{display:block;font-size:34px;font-weight:900;color:#e9bd54;margin-top:5px}
+@media(max-width:650px){.lego-gallery{grid-template-columns:minmax(0,1fr) 70px}.lego-main{min-height:260px}.lego-thumb{height:65px}}
 </style>
 </head>
 <body>
 <header class="topbar">
 <a class="brand" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="Logo JerseyHub"><span>JERSEY<br><b>HUB</b></span></a>
 <nav class="main-nav" aria-label="Navigation principale">
-<a class="nav-link" href="index.html">Accueil</a><a class="nav-link" href="index.html">Maillots</a><a class="nav-link active" href="lego.html">LEGO & Construction</a>
+<a class="nav-link" href="index.html">Accueil</a>
+<a class="nav-link" href="index.html">Maillots</a>
+<a class="nav-link active" href="lego.html">Galerie</a>
 <div class="account-cart-group"><a class="nav-link" href="compte.html">Mon compte</a></div>
 </nav><button class="mobile-menu" id="mobileMenu" aria-label="Ouvrir le menu">☰</button>
 </header>
-<main class="lego-page">
-<a class="lego-back" href="index.html">← Retour à JerseyHub</a>
-<section class="lego-hero"><div class="lego-kicker">NOUVELLE CATÉGORIE</div><h1>LEGO & Construction</h1><p>Voitures, motos et modèles de construction. Une fiche détaillée pour chaque modèle, avec galerie photos, zoom, référence, nombre de pièces et disponibilité.</p></section>
-<div class="lego-tabs" role="tablist" aria-label="Type de briques"><button class="lego-tab active" data-kind="compatible" role="tab" aria-selected="true">Briques compatibles</button><button class="lego-tab" data-kind="official" role="tab" aria-selected="false">LEGO officiel</button></div>
-<div class="lego-layout">
-<section class="lego-gallery" aria-label="Galerie photo du modèle">
-<div class="lego-main" id="legoMain">
-<img class="lego-art" id="legoMainImage" src="https://ucc115e7217a6ef41d5badabff25.previews.dropboxusercontent.com/p/thumb/ADTS40SweRCMg7UpPYlTeq-Sd_sqeUovH-1eCUZ6oF8DWiwn3LGFTbcAwwJCl7GI3eaeD0TnnfwS_1JadsfYSKR5iOCtAbXTraK-Q4X8yjCKTV8jgrcrUiTt1EdOzRpXKhgGUypZXRvyZXUHv7NuW9LygWOx3KcLS_4c7HdrHznOzRnvl_6YzFI6_dLYKoEuK3F_jQQMSK_bZXEae9tmakC9UYxuOH8i6lQMl-bUe_o1XhNe9grbjKCzXvbJSaualPiPfJJZAZkyVpUy8s5eEGg__mlDWm-9qekAK6qsgziTgNCG8J3zCp5GlV-ZcV80Ei4tkObzvQwvs2IymCqKCkKe/p.jpeg" alt="Photo fournisseur du modèle de voiture en briques" loading="eager">
-<div class="lego-zoom" id="legoZoom">Aperçu photo fournisseur</div>
-</div>
+<main class="lego-gallery-page">
+<section class="lego-gallery" aria-label="Galerie photos">
+<div class="lego-main"><img id="legoMainImage" src="https://uc9b5a32780f9d30c2e87b01d352.previews.dropboxusercontent.com/p/thumb/ADT6rOzXnv3Eo1JX5S4vuNctY9F3iOj_yg6C_n5E6cAJIQUr8C1qKGbWPLTB-LFNE3KiktZ6172XKBtdvrUrBsP2eEmfh_vbcB85hBic7AKNZG3SdOFU-EKpCHmcuWmrXl-GWg_ruiLB91DykYnGl-XmOC3G06cUVslXU6aqaswjXKe1qMlLUvbUJlxWRpvpi0apZK7TviSLogtmhwukJHz03jeWi2_BXX3ufy2pZlubqL6sJ2eKS0sIedzt-JdcTcA26tZ5SspICzDM1QIkrP2edrNfkxNg1jCgdflD8iZ9iITBMtRaqaQTtasz3qiEG-zLiHaBsdZb7DiUrua7aG5b/p.jpeg" alt="Photo du modèle" loading="eager"></div>
 <div class="lego-thumbs">
-<button class="lego-thumb active" data-image="https://ucc115e7217a6ef41d5badabff25.previews.dropboxusercontent.com/p/thumb/ADTS40SweRCMg7UpPYlTeq-Sd_sqeUovH-1eCUZ6oF8DWiwn3LGFTbcAwwJCl7GI3eaeD0TnnfwS_1JadsfYSKR5iOCtAbXTraK-Q4X8yjCKTV8jgrcrUiTt1EdOzRpXKhgGUypZXRvyZXUHv7NuW9LygWOx3KcLS_4c7HdrHznOzRnvl_6YzFI6_dLYKoEuK3F_jQQMSK_bZXEae9tmakC9UYxuOH8i6lQMl-bUe_o1XhNe9grbjKCzXvbJSaualPiPfJJZAZkyVpUy8s5eEGg__mlDWm-9qekAK6qsgziTgNCG8J3zCp5GlV-ZcV80Ei4tkObzvQwvs2IymCqKCkKe/p.jpeg" aria-label="Afficher la photo fournisseur 1"><img src="https://ucc115e7217a6ef41d5badabff25.previews.dropboxusercontent.com/p/thumb/ADTS40SweRCMg7UpPYlTeq-Sd_sqeUovH-1eCUZ6oF8DWiwn3LGFTbcAwwJCl7GI3eaeD0TnnfwS_1JadsfYSKR5iOCtAbXTraK-Q4X8yjCKTV8jgrcrUiTt1EdOzRpXKhgGUypZXRvyZXUHv7NuW9LygWOx3KcLS_4c7HdrHznOzRnvl_6YzFI6_dLYKoEuK3F_jQQMSK_bZXEae9tmakC9UYxuOH8i6lQMl-bUe_o1XhNe9grbjKCzXvbJSaualPiPfJJZAZkyVpUy8s5eEGg__mlDWm-9qekAK6qsgziTgNCG8J3zCp5GlV-ZcV80Ei4tkObzvQwvs2IymCqKCkKe/p.jpeg" alt="Vue fournisseur 1" loading="lazy"></button><button class="lego-thumb" data-image="https://uc9b5a32780f9d30c2e87b01d352.previews.dropboxusercontent.com/p/thumb/ADT6rOzXnv3Eo1JX5S4vuNctY9F3iOj_yg6C_n5E6cAJIQUr8C1qKGbWPLTB-LFNE3KiktZ6172XKBtdvrUrBsP2eEmfh_vbcB85hBic7AKNZG3SdOFU-EKpCHmcuWmrXl-GWg_ruiLB91DykYnGl-XmOC3G06cUVslXU6aqaswjXKe1qMlLUvbUJlxWRpvpi0apZK7TviSLogtmhwukJHz03jeWi2_BXX3ufy2pZlubqL6sJ2eKS0sIedzt-JdcTcA26tZ5SspICzDM1QIkrP2edrNfkxNg1jCgdflD8iZ9iITBMtRaqaQTtasz3qiEG-zLiHaBsdZb7DiUrua7aG5b/p.jpeg" aria-label="Afficher la photo fournisseur 2"><img src="https://uc9b5a32780f9d30c2e87b01d352.previews.dropboxusercontent.com/p/thumb/ADT6rOzXnv3Eo1JX5S4vuNctY9F3iOj_yg6C_n5E6cAJIQUr8C1qKGbWPLTB-LFNE3KiktZ6172XKBtdvrUrBsP2eEmfh_vbcB85hBic7AKNZG3SdOFU-EKpCHmcuWmrXl-GWg_ruiLB91DykYnGl-XmOC3G06cUVslXU6aqaswjXKe1qMlLUvbUJlxWRpvpi0apZK7TviSLogtmhwukJHz03jeWi2_BXX3ufy2pZlubqL6sJ2eKS0sIedzt-JdcTcA26tZ5SspICzDM1QIkrP2edrNfkxNg1jCgdflD8iZ9iITBMtRaqaQTtasz3qiEG-zLiHaBsdZb7DiUrua7aG5b/p.jpeg" alt="Vue fournisseur 2" loading="lazy"></button><button class="lego-thumb" data-image="https://ucf45453f97d697d2786e53143e9.previews.dropboxusercontent.com/p/thumb/ADSwGdpQxQJA5ILxOpokKf0LaAe7hVyfkn1eq7LIR-VMJPQrl1SFlDODn_2djPI-bh6v2tcdla-sVWE-2dy-TurNK4GU3ODWJZSreCQytGK7U9K3MronfuOn5GXKwRm0GajZB4iZu_GIINQyK1lzn7bclq-0BgSNMMnvVDBtajfvNmzdLQteuDkyBGQ5yuRdX_070n2X8C_sTwutQ9rIuqJcRQzSmSrlz1QtcOs_44AtImNt_wFvfN7NEZ-DXiFOiIeHI1fIkNS8UECiN3nbGJAhAACHE9a3hlqhzbHsPUK5jaXtpTQ0yZoRRMhsc3-5aCaKaJPCD_A68sC9DN9fXMvJ/p.jpeg" aria-label="Afficher la photo fournisseur 3"><img src="https://ucf45453f97d697d2786e53143e9.previews.dropboxusercontent.com/p/thumb/ADSwGdpQxQJA5ILxOpokKf0LaAe7hVyfkn1eq7LIR-VMJPQrl1SFlDODn_2djPI-bh6v2tcdla-sVWE-2dy-TurNK4GU3ODWJZSreCQytGK7U9K3MronfuOn5GXKwRm0GajZB4iZu_GIINQyK1lzn7bclq-0BgSNMMnvVDBtajfvNmzdLQteuDkyBGQ5yuRdX_070n2X8C_sTwutQ9rIuqJcRQzSmSrlz1QtcOs_44AtImNt_wFvfN7NEZ-DXiFOiIeHI1fIkNS8UECiN3nbGJAhAACHE9a3hlqhzbHsPUK5jaXtpTQ0yZoRRMhsc3-5aCaKaJPCD_A68sC9DN9fXMvJ/p.jpeg" alt="Vue fournisseur 3" loading="lazy"></button><button class="lego-thumb" data-image="https://uc9c78582e168b793619049d1852.previews.dropboxusercontent.com/p/thumb/ADR45pIG0oOAf2J8uJtFVIJBdnsh9aTAfAmvLdAOueKNn2VYvAhLtuzcj3O_32ln7-R2b2edLAF9RjBs2gtu7NIEiCEHL2rwxM5w4TY6h-W9zmCFopqyMnFJrmiaj-3KMOlAnetRwg-Snq0sXK7uwHHILSMfikEQjQIKeu0YNzNxDgBlKyW_OgpEUVS0TQWEscpskbjDvD7IvpRJt19T90RdUCeV13YWbT7bYZ0pIbR4EhkJ6pFRcSWJwBf9gyYhNwK4URfwVmPfKtNcRH1m5emBNaUw2LKWfSOX9p7sE8OcWiF7aIw9hd0CJ0TSaN-RraN2CgQrsYkRjUi3m_AYBiCO/p.jpeg" aria-label="Afficher la photo fournisseur 4"><img src="https://uc9c78582e168b793619049d1852.previews.dropboxusercontent.com/p/thumb/ADR45pIG0oOAf2J8uJtFVIJBdnsh9aTAfAmvLdAOueKNn2VYvAhLtuzcj3O_32ln7-R2b2edLAF9RjBs2gtu7NIEiCEHL2rwxM5w4TY6h-W9zmCFopqyMnFJrmiaj-3KMOlAnetRwg-Snq0sXK7uwHHILSMfikEQjQIKeu0YNzNxDgBlKyW_OgpEUVS0TQWEscpskbjDvD7IvpRJt19T90RdUCeV13YWbT7bYZ0pIbR4EhkJ6pFRcSWJwBf9gyYhNwK4URfwVmPfKtNcRH1m5emBNaUw2LKWfSOX9p7sE8OcWiF7aIw9hd0CJ0TSaN-RraN2CgQrsYkRjUi3m_AYBiCO/p.jpeg" alt="Vue fournisseur 4" loading="lazy"></button>
+<button class="lego-thumb active" type="button" data-image="https://uc9b5a32780f9d30c2e87b01d352.previews.dropboxusercontent.com/p/thumb/ADT6rOzXnv3Eo1JX5S4vuNctY9F3iOj_yg6C_n5E6cAJIQUr8C1qKGbWPLTB-LFNE3KiktZ6172XKBtdvrUrBsP2eEmfh_vbcB85hBic7AKNZG3SdOFU-EKpCHmcuWmrXl-GWg_ruiLB91DykYnGl-XmOC3G06cUVslXU6aqaswjXKe1qMlLUvbUJlxWRpvpi0apZK7TviSLogtmhwukJHz03jeWi2_BXX3ufy2pZlubqL6sJ2eKS0sIedzt-JdcTcA26tZ5SspICzDM1QIkrP2edrNfkxNg1jCgdflD8iZ9iITBMtRaqaQTtasz3qiEG-zLiHaBsdZb7DiUrua7aG5b/p.jpeg" aria-label="Afficher la photo 1"><img src="https://uc9b5a32780f9d30c2e87b01d352.previews.dropboxusercontent.com/p/thumb/ADT6rOzXnv3Eo1JX5S4vuNctY9F3iOj_yg6C_n5E6cAJIQUr8C1qKGbWPLTB-LFNE3KiktZ6172XKBtdvrUrBsP2eEmfh_vbcB85hBic7AKNZG3SdOFU-EKpCHmcuWmrXl-GWg_ruiLB91DykYnGl-XmOC3G06cUVslXU6aqaswjXKe1qMlLUvbUJlxWRpvpi0apZK7TviSLogtmhwukJHz03jeWi2_BXX3ufy2pZlubqL6sJ2eKS0sIedzt-JdcTcA26tZ5SspICzDM1QIkrP2edrNfkxNg1jCgdflD8iZ9iITBMtRaqaQTtasz3qiEG-zLiHaBsdZb7DiUrua7aG5b/p.jpeg" alt="" loading="lazy"></button>
+<button class="lego-thumb" type="button" data-image="https://ucf45453f97d697d2786e53143e9.previews.dropboxusercontent.com/p/thumb/ADSwGdpQxQJA5ILxOpokKf0LaAe7hVyfkn1eq7LIR-VMJPQrl1SFlDODn_2djPI-bh6v2tcdla-sVWE-2dy-TurNK4GU3ODWJZSreCQytGK7U9K3MronfuOn5GXKwRm0GajZB4iZu_GIINQyK1lzn7bclq-0BgSNMMnvVDBtajfvNmzdLQteuDkyBGQ5yuRdX_070n2X8C_sTwutQ9rIuqJcRQzSmSrlz1QtcOs_44AtImNt_wFvfN7NEZ-DXiFOiIeHI1fIkNS8UECiN3nbGJAhAACHE9a3hlqhzbHsPUK5jaXtpTQ0yZoRRMhsc3-5aCaKaJPCD_A68sC9DN9fXMvJ/p.jpeg" aria-label="Afficher la photo 2"><img src="https://ucf45453f97d697d2786e53143e9.previews.dropboxusercontent.com/p/thumb/ADSwGdpQxQJA5ILxOpokKf0LaAe7hVyfkn1eq7LIR-VMJPQrl1SFlDODn_2djPI-bh6v2tcdla-sVWE-2dy-TurNK4GU3ODWJZSreCQytGK7U9K3MronfuOn5GXKwRm0GajZB4iZu_GIINQyK1lzn7bclq-0BgSNMMnvVDBtajfvNmzdLQteuDkyBGQ5yuRdX_070n2X8C_sTwutQ9rIuqJcRQzSmSrlz1QtcOs_44AtImNt_wFvfN7NEZ-DXiFOiIeHI1fIkNS8UECiN3nbGJAhAACHE9a3hlqhzbHsPUK5jaXtpTQ0yZoRRMhsc3-5aCaKaJPCD_A68sC9DN9fXMvJ/p.jpeg" alt="" loading="lazy"></button>
+<button class="lego-thumb" type="button" data-image="https://uc9c78582e168b793619049d1852.previews.dropboxusercontent.com/p/thumb/ADR45pIG0oOAf2J8uJtFVIJBdnsh9aTAfAmvLdAOueKNn2VYvAhLtuzcj3O_32ln7-R2b2edLAF9RjBs2gtu7NIEiCEHL2rwxM5w4TY6h-W9zmCFopqyMnFJrmiaj-3KMOlAnetRwg-Snq0sXK7uwHHILSMfikEQjQIKeu0YNzNxDgBlKyW_OgpEUVS0TQWEscpskbjDvD7IvpRJt19T90RdUCeV13YWbT7bYZ0pIbR4EhkJ6pFRcSWJwBf9gyYhNwK4URfwVmPfKtNcRH1m5emBNaUw2LKWfSOX9p7sE8OcWiF7aIw9hd0CJ0TSaN-RraN2CgQrsYkRjUi3m_AYBiCO/p.jpeg" aria-label="Afficher la photo 3"><img src="https://uc9c78582e168b793619049d1852.previews.dropboxusercontent.com/p/thumb/ADR45pIG0oOAf2J8uJtFVIJBdnsh9aTAfAmvLdAOueKNn2VYvAhLtuzcj3O_32ln7-R2b2edLAF9RjBs2gtu7NIEiCEHL2rwxM5w4TY6h-W9zmCFopqyMnFJrmiaj-3KMOlAnetRwg-Snq0sXK7uwHHILSMfikEQjQIKeu0YNzNxDgBlKyW_OgpEUVS0TQWEscpskbjDvD7IvpRJt19T90RdUCeV13YWbT7bYZ0pIbR4EhkJ6pFRcSWJwBf9gyYhNwK4URfwVmPfKtNcRH1m5emBNaUw2LKWfSOX9p7sE8OcWiF7aIw9hd0CJ0TSaN-RraN2CgQrsYkRjUi3m_AYBiCO/p.jpeg" alt="" loading="lazy"></button>
 </div>
 </section>
-<section class="lego-detail">
-<div class="lego-kicker">APERÇU DE FICHE PRODUIT</div><h2 id="legoProductName">Voiture de construction — exemple</h2><div class="lego-ref">Référence fournisseur : en attente de récupération</div>
-<span class="lego-status">STOCK À VÉRIFIER</span>
-<div class="lego-price">Prix de vente à définir</div><p class="lego-muted">Le prix fournisseur sera converti en euros et conservé dans l'administration uniquement. Il ne sera jamais transmis à l'espace client.</p>
-<div class="lego-specs"><div><small>Catégorie</small><b id="legoType">Voiture</b></div><div><small>Type de briques</small><b id="legoKind">Compatible</b></div><div><small>Nombre de pièces</small><b>À confirmer</b></div><div><small>Disponibilité</small><b>Non vérifiée</b></div></div>
-<button class="lego-order" disabled>Commande désactivée — données à vérifier</button>
-<div class="lego-notice">Cette fiche est une maquette d'interface, pas un produit réellement disponible. Les photos, le prix, la référence et le stock seront remplacés par les données exactes de BoonBuy dès qu'elles pourront être récupérées.</div>
-<div class="lego-sample-label" id="legoSampleLabel">MAQUETTE VISUELLE — PAS UNE OFFRE COMMERCIALE</div>
+<section class="lego-admin-cost" id="legoAdminCost" aria-label="Prix fournisseur administrateur">
+<div>Prix fournisseur</div><strong id="legoAdminPrice">— €</strong>
 </section>
-</div>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script>
+<script src="supabase-config.js"></script>
 <script>
 document.getElementById('mobileMenu')?.addEventListener('click',()=>document.querySelector('.main-nav')?.classList.toggle('open'));
-document.querySelectorAll('.lego-thumb').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.lego-thumb').forEach(x=>x.classList.remove('active'));btn.classList.add('active');const main=document.getElementById('legoMainImage');main.src=btn.dataset.image;document.getElementById('legoZoom').textContent='Aperçu photo fournisseur';}));
-document.querySelectorAll('.lego-tab').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.lego-tab').forEach(x=>{x.classList.toggle('active',x===btn);x.setAttribute('aria-selected',String(x===btn));});document.getElementById('legoKind').textContent=btn.dataset.kind==='official'?'LEGO officiel':'Compatible';document.getElementById('legoProductName').textContent=btn.dataset.kind==='official'?'LEGO officiel — exemple':'Voiture de construction — exemple';}));
+document.querySelectorAll('.lego-thumb').forEach(btn=>btn.addEventListener('click',()=>{
+ document.querySelectorAll('.lego-thumb').forEach(x=>x.classList.remove('active'));
+ btn.classList.add('active');document.getElementById('legoMainImage').src=btn.dataset.image;
+}));
+(async()=>{
+ const cfg=window.JERSEYHUB_SUPABASE;
+ if(!window.supabase||!cfg?.url||!cfg?.anonKey)return;
+ const db=window.supabase.createClient(cfg.url,cfg.anonKey);
+ const showAdminPrice=async()=>{
+  const {data:{session}}=await db.auth.getSession();
+  if(!session)return;
+  const {data,error}=await db.from('lego_supplier_cost').select('price_eur').eq('id',1).maybeSingle();
+  if(error||!data)return;
+  document.getElementById('legoAdminPrice').textContent=data.price_eur===null?'— €':new Intl.NumberFormat('fr-BE',{style:'currency',currency:'EUR'}).format(Number(data.price_eur));
+  document.getElementById('legoAdminCost').style.display='block';
+ };
+ await showAdminPrice();
+ db.auth.onAuthStateChange(()=>{showAdminPrice()});
+})();
 </script>
-</body></html>
+</body>
+</html>

@@ -17,7 +17,8 @@ function nationalFlagMarkup(name,compact=false){
  return '<img src="https://flagcdn.com/w'+width+'/'+code+'.png" alt="Drapeau '+name+'" width="'+width+'" height="'+height+'" loading="lazy" style="display:inline-block;width:'+width+'px;height:'+height+'px;object-fit:cover;border-radius:3px;vertical-align:middle">';
 }
 function allNational(){return NATIONAL_REGIONS.flatMap(r=>r.items.map(([name,flag])=>({name,flag,group:r.name,kind:"national"})))}
-function allLifestyle(){return LIFESTYLE.flatMap(c=>[{name:c.name,emoji:c.emoji,desc:c.desc,kind:"lifestyle"},...c.items.map(name=>({name,flag:c.emoji,group:c.name,kind:"lifestyle"}))])}
+function lifestyleCategories(){return LIFESTYLE.filter(c=>!/(lego|construction)/i.test(c.name))}
+function allLifestyle(){return lifestyleCategories().flatMap(c=>[{name:c.name,emoji:c.emoji,desc:c.desc,kind:"lifestyle"},...c.items.map(name=>({name,flag:c.emoji,group:c.name,kind:"lifestyle"}))])}
 function allClubs(){return CLUB_LEAGUES.flatMap(l=>l.items.map(name=>({name,flag:"⚽",group:l.name,kind:"clubs"})))}
 function sideGroup(label,items,kind){
  const box=document.createElement("div");box.className="side-group";
@@ -31,7 +32,7 @@ function renderSidebar(){
  el.append(sideGroup("Clubs et championnats",allClubs(),"clubs"));
  el.append(sideGroup("Autres sports et articles",OTHER_SPORTS.map(x=>({...x,flag:x.emoji})),"sports"));
  el.append(sideGroup("Chaussures",SHOE_BRANDS.map(x=>({...x,flag:x.emoji})),"shoes"));
- el.append(sideGroup("Lifestyle & Accessoires",LIFESTYLE.map(x=>({...x,flag:x.emoji})),"lifestyle"));
+ el.append(sideGroup("Lifestyle & Accessoires",lifestyleCategories().map(x=>({...x,flag:x.emoji})),"lifestyle"));
 }
 function card(item,kind){
  const div=document.createElement("article");div.className="category-card";div.tabIndex=0;div.setAttribute("role","button");
@@ -162,7 +163,7 @@ function renderHome(){
   {name:"Clubs de football",flag:"⚽",desc:"Championnats et clubs",kind:"clubs"},
   ...OTHER_SPORTS.map(x=>({...x,kind:"sports"})),
   {name:"Chaussures",flag:"👟",desc:"Toutes les marques du catalogue",kind:"shoes"},
-  {name:"Lifestyle & Accessoires",flag:"🎧",desc:"Audio, LEGO, lunettes, casquettes",kind:"lifestyle"}
+  {name:"Lifestyle & Accessoires",flag:"🎧",desc:"Audio, lunettes, casquettes",kind:"lifestyle"}
  ];
  home.forEach(x=>{const c=card(x,x.kind);if(x.kind!=="sports")c.dataset.jhView=x.kind;grid.append(c)});
 }
@@ -185,7 +186,7 @@ function openView(view){
   SHOE_BRANDS.forEach(x=>grid.append(card(x,"shoes")));
  }else if(view==="lifestyle"){
   setHeading("LIFESTYLE & ACCESSOIRES","Lifestyle & Accessoires","Accueil / Lifestyle & Accessoires");
-  LIFESTYLE.forEach(c=>{const h=document.createElement("div");h.style.cssText="grid-column:1/-1;color:#f4bd22;font-weight:800;letter-spacing:1px;padding:12px 0 0";h.textContent=c.name;grid.append(h);c.items.forEach(name=>grid.append(card({name,flag:c.emoji,group:c.name},"lifestyle")))});
+  lifestyleCategories().forEach(c=>{const h=document.createElement("div");h.style.cssText="grid-column:1/-1;color:#f4bd22;font-weight:800;letter-spacing:1px;padding:12px 0 0";h.textContent=c.name;grid.append(h);c.items.forEach(name=>grid.append(card({name,flag:c.emoji,group:c.name},"lifestyle")))});
  }
 }
 function openGroup(kind,name){
@@ -193,7 +194,7 @@ function openGroup(kind,name){
  catalogPageHistory=[];
  currentView=kind;currentGroup=name;
  if(kind==="lifestyle"){
-  const cat=LIFESTYLE.find(c=>c.name===name);
+  const cat=lifestyleCategories().find(c=>c.name===name);
   if(cat){
    setHeading("LIFESTYLE & ACCESSOIRES",name,`Accueil / Lifestyle & Accessoires / ${name}`);
    grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;

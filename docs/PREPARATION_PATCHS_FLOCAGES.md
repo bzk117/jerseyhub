@@ -84,3 +84,18 @@ Lecture effectuée sur la branche de préparation, sans modifier le code fonctio
 4. Ajouter la gestion des flocages fournisseurs par équipe/saison/modèle, sans confondre effectif officiel et disponibilité de marquage.
 5. Ajouter les champs de saison/version manquants au panier et au snapshot de commande, avec compatibilité pour les anciennes commandes.
 6. Tester le rendu client, les permissions Supabase, l'administration, les commandes et les anciennes données sur la branche de préparation uniquement.
+
+## Maillot pilote proposé
+
+**Belgique — sélection nationale — saison 2025-26** est retenu comme premier candidat de travail pour le prototype patchs/flocages.
+
+Pourquoi ce choix :
+- Le code actuel fait déjà référence à une fiche fournisseur Belgique 2025-26 comportant cinq champs « Select Patch ».
+- Cela permet de vérifier concrètement les cinq emplacements, les visuels, les libellés et les éventuels suppléments avant de généraliser le système.
+- Le prototype pourra ensuite être adapté aux clubs avec le même modèle de données.
+
+Précautions :
+- Ce choix est un candidat de test, pas une validation de disponibilité commerciale.
+- Avant d'activer la fiche, retrouver et vérifier la page exacte Vivi Jersey, le modèle précis (domicile/extérieur/third), la saison, les options visibles et leurs prix.
+- Pour les flocages, vérifier séparément les noms imprimés et numéros réellement proposés pour ce modèle. La liste d'effectif ne suffit pas.
+- Si la fiche Belgique 2025-26 ne peut pas être retrouvée ou vérifiée, ne pas publier d'option : choisir un autre maillot dont la page fournisseur est accessible et documentée.

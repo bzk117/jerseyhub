@@ -114,12 +114,14 @@ if(!document.getElementById('jh-stock-styles')){
  document.head.appendChild(stockStyle);
 }
 function productCard(p){
- const div=document.createElement('article');div.className='product-card';div.tabIndex=0;div.setAttribute('role','button');div.setAttribute('aria-label','Choisir '+p.name);
- const visual=p.image?'<img src="'+p.image+'" alt="'+p.name+'" style="max-width:100%;max-height:190px;object-fit:contain">':'<div class="shirt"><span>'+(p.number||'10')+'</span></div>';
+ const div=document.createElement('article');div.className='product-card';div.setAttribute('aria-label',(isOutOfStock(p)?'Indisponible : ':'Choisir ')+p.name);
  const out=isOutOfStock(p);
- div.innerHTML='<div class="product-art">'+visual+'</div><div class="product-info"><h3>'+p.name+'</h3>'+(out?'<span class="jh-stock-badge">PAS DE STOCK</span>':'')+'<p>'+(p.description||'Modèle présenté dans le catalogue')+'</p><div class="sizes">'+(p.sizes||[]).map(s=>'<span class="size">'+s+'</span>').join('')+'</div><small class="jh-open-hint">'+(out?'Article momentanément indisponible':'Cliquer pour choisir les options')+'</small></div>';
+ if(out){div.classList.add('is-out-of-stock');div.setAttribute('aria-disabled','true');}
+ else{div.tabIndex=0;div.setAttribute('role','button');}
+ const visual=p.image?'<img src="'+p.image+'" alt="'+p.name+'" style="max-width:100%;max-height:190px;object-fit:contain">':'<div class="shirt"><span>'+(p.number||'10')+'</span></div>';
+ div.innerHTML='<div class="product-art">'+visual+'</div><div class="product-info"><h3>'+p.name+'</h3>'+(out?'<span class="jh-stock-badge">RUPTURE DE STOCK</span>':'')+'<p>'+(p.description||'Modèle présenté dans le catalogue')+'</p><div class="sizes">'+(p.sizes||[]).map(s=>'<span class="size">'+s+'</span>').join('')+'</div><small class="jh-open-hint">'+(out?'Article indisponible — sélection désactivée':'Cliquer pour voir les photos et les options')+'</small></div>';
  div._jhProduct=p;div.dataset.jhProductCard='true';
- div.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();div.click()}};
+ if(!out)div.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();div.click()}};
  return div;
 }
 function setHeading(e,t,b){
@@ -379,18 +381,38 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    : '<label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+legacyPatchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div>';
   const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
   let galleryIndex=0;
-  const productVisual=galleryImages.length>1
-   ? '<div class="jh-product-gallery"><img id="jh-product-gallery-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - devant" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto"><div style="display:flex;justify-content:center;align-items:center;gap:12px;margin:0 auto 16px"><button type="button" class="jh-secondary" id="jh-gallery-prev">← Devant</button><span id="jh-gallery-count" style="color:#bbb">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next">Derrière →</button></div></div>'
-   : (galleryImages.length?'<img src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+'" style="display:block;max-width:100%;max-height:240px;object-fit:contain;margin:8px auto 16px">':'<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>');
+  const productVisual=galleryImages.length
+   ? '<div class="jh-product-gallery"><div class="jh-gallery-main-wrap"><img id="jh-product-gallery-image" class="jh-gallery-main" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - photo 1"><div id="jh-gallery-zoom" class="jh-gallery-zoom" aria-hidden="true"><span>Zoom</span></div><button type="button" class="jh-gallery-enlarge" id="jh-gallery-enlarge">Agrandir l’image</button></div><div class="jh-gallery-side"><div class="jh-gallery-thumbs">'+galleryImages.map((src,i)=>'<button type="button" class="jh-gallery-thumb'+(i===0?' active':'')+'" data-gallery-index="'+i+'" aria-label="Afficher la photo '+(i+1)+'"><img src="'+esc(src)+'" alt=""></button>').join('')+'</div><div class="jh-gallery-controls"><button type="button" class="jh-secondary" id="jh-gallery-prev" aria-label="Photo précédente">←</button><span id="jh-gallery-count">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next" aria-label="Photo suivante">→</button></div></div><div class="jh-gallery-lightbox" id="jh-gallery-lightbox" hidden><button type="button" id="jh-gallery-lightbox-close" aria-label="Fermer">×</button><img id="jh-gallery-lightbox-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' agrandie"></div></div>'
+   : '<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>';
   const outOfStock=isOutOfStock(p);
   const sizeSummary=sizes.length?'<p class="jh-option-summary"><b>Tailles proposées :</b> '+sizes.map(esc).join(' · ')+'</p>':'<p class="jh-option-summary">Taille à confirmer auprès du fournisseur.</p>';
   const stockNotice=outOfStock?'<p class="jh-stock-warning">PAS DE STOCK — Cet article ne peut pas être ajouté à la commande pour le moment.</p>':'';
   open('<h2>'+esc(p.name)+'</h2>'+productVisual+'<p style="color:#bbb">'+esc(p.description||'Choisissez les options de votre article.')+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeSummary+'<label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select></section><section class="jh-options-block"><h3>2. Choisir les patchs</h3>'+patchMarkup+'</section><section class="jh-options-block"><h3>3. Personnalisation</h3><label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option><option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option></select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
   if(outOfStock){const add=dialog.querySelector('#jh-add');add.disabled=true;add.textContent='Indisponible'}
-  if(galleryImages.length>1){
-   const showGalleryImage=()=>{const img=dialog.querySelector("#jh-product-gallery-image");if(img){img.src=galleryImages[galleryIndex];img.alt=esc(p.name)+(galleryIndex===0?" - devant":" - derrière");dialog.querySelector("#jh-gallery-count").textContent=(galleryIndex+1)+" / "+galleryImages.length;}};
+  if(galleryImages.length){
+   const showGalleryImage=()=>{
+    const img=dialog.querySelector("#jh-product-gallery-image"),zoom=dialog.querySelector("#jh-gallery-zoom"),lightbox=dialog.querySelector("#jh-gallery-lightbox-image");
+    if(img){img.src=galleryImages[galleryIndex];img.alt=esc(p.name)+" - photo "+(galleryIndex+1);}
+    if(zoom){zoom.style.backgroundImage="url("+JSON.stringify(galleryImages[galleryIndex])+")";zoom.style.backgroundPosition="50% 50%";}
+    if(lightbox)lightbox.src=galleryImages[galleryIndex];
+    dialog.querySelector("#jh-gallery-count").textContent=(galleryIndex+1)+" / "+galleryImages.length;
+    dialog.querySelectorAll(".jh-gallery-thumb").forEach((button,index)=>button.classList.toggle("active",index===galleryIndex));
+   };
+   dialog.querySelectorAll(".jh-gallery-thumb").forEach(button=>button.onclick=()=>{galleryIndex=Number(button.dataset.galleryIndex)||0;showGalleryImage()});
    dialog.querySelector("#jh-gallery-prev").onclick=()=>{galleryIndex=(galleryIndex-1+galleryImages.length)%galleryImages.length;showGalleryImage()};
    dialog.querySelector("#jh-gallery-next").onclick=()=>{galleryIndex=(galleryIndex+1)%galleryImages.length;showGalleryImage()};
+   const main=dialog.querySelector("#jh-product-gallery-image"),zoom=dialog.querySelector("#jh-gallery-zoom");
+   if(main&&zoom){
+    main.addEventListener("mousemove",event=>{const rect=main.getBoundingClientRect(),x=Math.max(0,Math.min(100,(event.clientX-rect.left)/rect.width*100)),y=Math.max(0,Math.min(100,(event.clientY-rect.top)/rect.height*100));zoom.style.backgroundPosition=x+"% "+y+"%";zoom.classList.add("visible")});
+    main.addEventListener("mouseenter",()=>zoom.classList.add("visible"));
+    main.addEventListener("mouseleave",()=>zoom.classList.remove("visible"));
+   }
+   const lightbox=dialog.querySelector("#jh-gallery-lightbox");
+   const showLightbox=()=>{lightbox.hidden=false;dialog.querySelector("#jh-gallery-lightbox-image").src=galleryImages[galleryIndex]};
+   dialog.querySelector("#jh-gallery-enlarge").onclick=showLightbox;
+   main?.addEventListener("click",showLightbox);
+   dialog.querySelector("#jh-gallery-lightbox-close").onclick=()=>{lightbox.hidden=true};
+   lightbox.onclick=event=>{if(event.target===lightbox)lightbox.hidden=true};
   }
   if(p.sizePending){
    const sizeSelect=dialog.querySelector("#jh-size");
@@ -448,7 +470,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    const card=e.target.closest(".product-card[data-jh-product-card]");
    if(!card)return;
    const product=card._jhProduct;
-   if(!product)return;
+   if(!product||isOutOfStock(product))return;
    openProduct(product);
   });
  renderCart();

@@ -53,7 +53,7 @@
         if(!response.ok)throw new Error(result.error||"Erreur serveur "+response.status);
         for(const item of result.results||[]){if(item.ok)done.add(item.path);else failures.push(item.path+": "+item.error)}
         persist(done);display();
-        if((result.results||[]).some(x=>!x.ok))$("r2Details").textContent="Échecs à reprendre : "+failures.slice(-5).join(" · ");
+        if((result.results||[]).some(x=>!x.ok)){$("r2Details").textContent="Échecs à reprendre : "+failures.slice(-5).join(" · ");paused=true;break;}
       }
       if(done.size===paths.length)$("r2Progress").textContent="Migration terminée : "+done.size+" images transférées.";
       else $("r2Progress").textContent="Migration en pause : "+done.size+" / "+paths.length+" images transférées.";

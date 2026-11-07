@@ -87,7 +87,7 @@
         $("r2Details").textContent=unresolved.length+" image(s) ont échoué après 3 tentatives maximum. Vous pouvez reprendre pour retenter uniquement celles-ci. Derniers détails : "+failures.slice(-5).join(" · ");
       }else if(!remainingCount)$("r2Details").textContent="Toutes les images ont été transférées. Les noms et chemins d’origine ont été conservés.";
     }catch(e){$("r2Progress").textContent="Arrêt sur erreur : "+e.message+" · Vous pourrez reprendre."}
-    finally{running=false;$("r2Start").disabled=!paths.length||doneSet().size===paths.length;$("r2Pause").disabled=true;display()}
+    finally{running=false;$("r2Start").disabled=!paths.length||doneSet().size===paths.length;$("r2Pause").disabled=true;}
   }
   $("r2Scan").addEventListener("click",scan);
   $("r2Start").addEventListener("click",start);

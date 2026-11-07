@@ -16,6 +16,8 @@ def optimize_one(path: Path, max_edge: int, quality: int) -> tuple[bool, int, in
     try:
         with Image.open(path) as original:
             fmt = (original.format or path.suffix.lstrip(".")).upper()
+            if getattr(original, "n_frames", 1) > 1:
+                return False, before, before
             if fmt not in {"JPEG", "PNG", "WEBP"}:
                 return False, before, before
             image = ImageOps.exif_transpose(original)

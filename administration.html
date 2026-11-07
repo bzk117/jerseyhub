@@ -156,4 +156,4 @@ async function loadComments(){const box=$('comments');const {data,error}=await d
 $('loginForm').onsubmit=async e=>{e.preventDefault();const {error}=await db.auth.signInWithPassword({email:$('email').value.trim(),password:$('password').value});if(error){say(error.message,true);return}await refresh()};
 $('logout').onclick=async()=>{await db.auth.signOut();selected=null;await refresh()};$('reload').onclick=load;$('archiveFilter').onchange=()=>{selected=null;$('detail').textContent='Sélectionnez une demande.';load()};db.auth.onAuthStateChange(()=>setTimeout(refresh,0));refresh();
 })();
-</script></body></html>
+</script><script src="r2-migration.js"></script></body></html>

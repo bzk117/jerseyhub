@@ -56,3 +56,38 @@ CLUB_PRODUCTS.forEach(product => {
   );
   if (!duplicate) PRODUCTS.push(product);
 });
+
+
+/*
+ * Enrichissement d'une fiche club déjà présente dans catalog.js.
+ * Correspondance exacte confirmée avec la page Vivi Jersey source.
+ * Les photos et tailles déjà présentes sont conservées.
+ */
+const manchesterUnitedSpecial = PRODUCTS.find(product =>
+  product.category === "clubs" &&
+  product.group === "Manchester United" &&
+  product.name === "Player 2026-27 Manchester United Special Football Jersey - Bleu"
+);
+if (manchesterUnitedSpecial) {
+  Object.assign(manchesterUnitedSpecial, {
+    season: "2026-27",
+    kitType: "special",
+    version: "player",
+    patchSlots: 2,
+    patchSlotLabels: ["Compétition", "Badge complémentaire"],
+    patchOptions: [
+      { id: "mu-pl", label: "Premier League", slot_number: 1, extra_price_eur: 0 },
+      { id: "mu-pl-nrfr", label: "Premier League + No Room For Racism", slot_number: 1, extra_price_eur: 0 },
+      { id: "mu-ucl-foundation", label: "UCL + FOUNDATION", slot_number: 1, extra_price_eur: 0 },
+      { id: "mu-carabao-6", label: "Carabao Cup 6", slot_number: 1, extra_price_eur: 0 },
+      { id: "mu-carabao-6-nrfr", label: "Carabao Cup 6 + No Room For Racism", slot_number: 1, extra_price_eur: 0 },
+      { id: "mu-fa-13", label: "FA Cup 13", slot_number: 1, extra_price_eur: 0 },
+      { id: "mu-fa-13-nrfr", label: "FA Cup 13 + No Room For Racism", slot_number: 1, extra_price_eur: 0 },
+      { id: "mu-europa-foundation", label: "Europa + FOUNDATION", slot_number: 1, extra_price_eur: 0 },
+      { id: "mu-bpl-2024-25", label: "BPL 2024-25", slot_number: 2, extra_price_eur: 0 }
+    ],
+    personalizationAllowed: true,
+    personalization: { allowed: true, customName: true, customNumber: true },
+    players: []
+  });
+}

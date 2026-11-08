@@ -82,11 +82,13 @@
  $('logout').onclick=async()=>{const {error}=await db.auth.signOut();if(error)say(error.message,true);await refresh()};
  async function loadComments(){const box=$('myComments');const {data,error}=await db.from('site_comments').select('id,display_name,content,status,admin_reply,created_at').order('created_at',{ascending:false});if(error){box.textContent='Commentaires momentanément indisponibles.';return}box.innerHTML='';(data||[]).forEach(c=>{const el=document.createElement('article');el.className='account-request';el.innerHTML='<b>'+esc(c.display_name)+'</b><p>'+esc(c.content)+'</p><small>'+ (c.status==='approved'?'Publié':c.status==='pending'?'En attente de validation':'Non publié')+'</small>'+(c.admin_reply?'<p><b>Réponse JerseyHub :</b> '+esc(c.admin_reply)+'</p>':'');box.append(el)});if(!data?.length)box.textContent='Aucun commentaire pour le moment.'}
  $('commentForm').addEventListener('submit',async e=>{e.preventDefault();const btn=e.submitter;btn.disabled=true;try{const {error}=await db.from('site_comments').insert({user_id:user.id,display_name:$('welcome').textContent.replace(/^Bienvenue\\s*/, '')||'Client',content:$('commentText').value.trim(),status:'pending'});if(error)throw error;$('commentText').value='';say('Merci ! Votre commentaire attend une validation.');await loadComments()}catch(err){say('Impossible d’envoyer le commentaire : '+err.message,true)}finally{btn.disabled=false}});
- let requestView='active';
+ let requestView='active', requestsLoadToken=0;
  document.querySelectorAll('[data-request-view]').forEach(button=>button.addEventListener('click',()=>{requestView=button.dataset.requestView;document.querySelectorAll('[data-request-view]').forEach(x=>x.classList.toggle('active',x===button));loadRequests()}));
  async function loadRequests(){
+  const loadToken=++requestsLoadToken;
   const box=$('requestsList');box.textContent='Chargement…';
   const {data,error}=await db.from('requests').select('id,order_number,status,created_at,admin_approved_at,tracking_number,tracking_url,price_eur,request_items(category,team_brand,model,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur),request_events(event_type,old_value,new_value,created_at)').order('created_at',{ascending:false});
+  if(loadToken!==requestsLoadToken)return;
   if(error){box.textContent="Impossible de charger le suivi des commandes.";return}
   const all=data||[];
   const completeStatus=['Reçu','Terminé','Pas de stock'];

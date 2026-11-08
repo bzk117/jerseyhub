@@ -20,6 +20,30 @@
 .lego-thumb.active,.lego-thumb:hover{border:2px solid #e9bd54}
 .lego-admin-cost{display:none;max-width:1120px;margin:18px auto 0;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}
 .lego-admin-cost strong{display:block;font-size:34px;font-weight:900;color:#e9bd54;margin-top:5px}
+
+#legoEditToggle{display:none;margin:0 auto 18px;padding:11px 18px;border:1px solid #d9ad4b;border-radius:9px;background:#211b0e;color:#f5d27c;font-weight:800;cursor:pointer}
+#legoInlineEditor{display:none;max-width:1500px;margin:20px auto;padding:18px;border:1px solid #6d5728;border-radius:14px;background:#151515;color:#f5f5f5}
+#legoInlineEditor h2{margin:0 0 8px;color:#f5d27c}
+.lego-edit-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
+.lego-edit-toolbar button,.lego-inline-add button{padding:10px 14px;border:0;border-radius:8px;background:#d6aa45;color:#17130a;font-weight:800;cursor:pointer}
+.lego-edit-status{color:#d7c69b;font-size:13px}
+.lego-edit-item{position:relative;min-width:0}
+.lego-edit-item .lego-thumb{width:100%}
+.lego-left-thumbs .lego-edit-item{width:64px;height:64px;flex:0 0 64px}
+.lego-left-thumbs .lego-edit-item .lego-thumb{height:64px}
+.lego-right-options .lego-edit-item{width:100%}
+.lego-remove-photo{position:absolute;top:2px;right:2px;z-index:3;width:23px;height:23px;padding:0;border:1px solid #fff;border-radius:50%;background:#a82d2d;color:#fff;font-weight:900;cursor:pointer}
+.lego-edit-item.dragging{opacity:.35}
+.lego-edit-drop{outline:2px dashed #e9bd54;outline-offset:3px}
+.lego-inline-add{display:grid;grid-template-columns:180px minmax(180px,1fr) minmax(180px,1fr) auto;gap:10px;align-items:end;margin:16px 0}
+.lego-inline-add label{display:block;margin-bottom:6px;font-size:13px;color:#ddd}
+.lego-inline-add input,.lego-inline-add select{width:100%;min-width:0;padding:10px;border:1px solid #555;border-radius:7px;background:#222;color:#fff}
+.lego-inactive-grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.lego-inactive-card{width:110px;padding:7px;border:1px solid #484848;border-radius:8px;background:#202020}
+.lego-inactive-card img{width:100%;height:76px;object-fit:contain}
+.lego-inactive-card button{width:100%;margin-top:5px;padding:6px;border:0;border-radius:6px;background:#454545;color:white;cursor:pointer}
+@media(max-width:760px){.lego-inline-add{grid-template-columns:1fr 1fr}.lego-left-thumbs .lego-edit-item{width:48px;height:48px;flex-basis:48px}.lego-left-thumbs .lego-edit-item .lego-thumb{height:48px}}
+
 @media(max-width:1050px){.lego-gallery{grid-template-columns:64px minmax(300px,1fr)}.lego-right-options{grid-column:1/-1;grid-template-columns:repeat(8,minmax(0,1fr));max-height:none}.lego-main{height:520px}}
 @media(max-width:650px){.lego-gallery-page{padding:18px 12px 50px}.lego-gallery{grid-template-columns:52px minmax(0,1fr);gap:10px}.lego-left-thumbs{gap:8px}.lego-left-thumb{width:48px;height:48px;flex-basis:48px}.lego-main{height:360px;min-height:260px}.lego-main img{width:82%;height:82%}.lego-right-options{grid-template-columns:repeat(5,minmax(0,1fr));gap:7px}.lego-thumb{height:58px}}
 </style>
@@ -90,6 +114,19 @@
 <section class="lego-admin-cost" id="legoAdminCost" aria-label="Prix fournisseur administrateur">
 <div>Prix fournisseur</div><strong id="legoAdminPrice">— €</strong>
 </section>
+<button id="legoEditToggle" type="button">✏️ Modifier la galerie LEGO</button>
+<section id="legoInlineEditor" aria-label="Édition de la galerie LEGO">
+ <h2>Modifier la galerie directement</h2>
+ <p style="color:#ccc;margin:0">Fais glisser les photos dans la galerie au-dessus, entre les photos de présentation et les modèles. Le résultat affiché est celui que verront les clients après publication.</p>
+ <div class="lego-edit-toolbar"><button type="button" id="legoEditSave">Enregistrer et publier</button><span id="legoEditStatus" class="lego-edit-status">Chargement de la galerie…</span></div>
+ <form id="legoInlineAddForm" class="lego-inline-add">
+  <div><label for="legoInlineGroup">Ajouter dans</label><select id="legoInlineGroup"><option value="presentation">Présentation</option><option value="models">Modèles LEGO</option></select></div>
+  <div><label for="legoInlineFile">Choisir une image</label><input id="legoInlineFile" type="file" accept="image/jpeg,image/png,image/webp"></div>
+  <div><label for="legoInlineUrl">Ou URL d'image</label><input id="legoInlineUrl" type="url" placeholder="https://…"></div>
+  <button type="submit" id="legoInlineAddButton">Ajouter</button>
+ </form>
+ <div><b>Photos retirées (restaurables)</b><div id="legoInlineInactive" class="lego-inactive-grid">Chargement…</div></div>
+</section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script>
 <script src="supabase-config.js"></script>
@@ -112,18 +149,121 @@ bindLegoThumbs();
  if(!window.supabase||!cfg?.url||!cfg?.anonKey)return;
  const db=window.supabase.createClient(cfg.url,cfg.anonKey);
  const escapeAttr=value=>String(value||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const {data:gallery,error:galleryError}=await db.from('lego_gallery_images').select('group_key,image_url,sort_order').eq('is_active',true).order('sort_order',{ascending:true});
- if(!galleryError&&gallery?.length){
-  const presentation=gallery.filter(x=>x.group_key==='presentation').sort((a,b)=>a.sort_order-b.sort_order);
-  const models=gallery.filter(x=>x.group_key==='models').sort((a,b)=>a.sort_order-b.sort_order);
-  const makeButton=(item,index,isPresentation)=>'<button class="lego-thumb'+(isPresentation?' lego-left-thumb':'')+(index===0?' active':'')+'" type="button" data-image="'+escapeAttr(item.image_url)+'" aria-label="Afficher '+(isPresentation?'la photo de présentation ':'le modèle LEGO ')+(index+1)+'"><img src="'+escapeAttr(item.image_url)+'" alt="" loading="lazy"></button>';
-  if(presentation.length)document.querySelector('.lego-left-thumbs').innerHTML=presentation.map((x,i)=>makeButton(x,i,true)).join('');
-  if(models.length){
-   document.querySelector('.lego-right-options').innerHTML=models.map((x,i)=>makeButton(x,i,false)).join('');
-   document.getElementById('legoMainImage').src=models[0].image_url;
-  }
+ const {data:{session:initialSession}}=await db.auth.getSession();
+ const isLegoAdmin=initialSession?.user?.app_metadata?.role==='admin';
+ const editToggle=document.getElementById('legoEditToggle');
+ const editor=document.getElementById('legoInlineEditor');
+ const editStatus=document.getElementById('legoEditStatus');
+ let legoRows=[],editMode=false;
+ const left=document.querySelector('.lego-left-thumbs'),right=document.querySelector('.lego-right-options');
+ const inactive=document.getElementById('legoInlineInactive');
+ const setStatus=(message,bad=false)=>{editStatus.textContent=message;editStatus.style.color=bad?'#ff9c9c':'#d7c69b'};
+ const safeText=value=>String(value||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const renderInactive=()=>{
+  const rows=legoRows.filter(x=>!x.is_active);
+  inactive.innerHTML=rows.length?rows.map(x=>'<div class="lego-inactive-card"><img src="'+safeText(x.image_url)+'" alt="Photo LEGO retirée"><button type="button" data-restore-inline="'+safeText(x.id)+'">Restaurer</button></div>').join(''):'<span style="color:#aaa">Aucune photo retirée.</span>';
+  inactive.querySelectorAll('[data-restore-inline]').forEach(btn=>btn.onclick=async()=>{
+   const {error}=await db.from('lego_gallery_images').update({is_active:true,updated_at:new Date().toISOString()}).eq('id',btn.dataset.restoreInline);
+   if(error){setStatus('Restauration impossible : '+error.message,true);return}
+   await loadLegoGallery();setStatus('Photo restaurée.');
+  });
+ };
+ const renderGallery=()=>{
+  const active=legoRows.filter(x=>x.is_active);
+  const presentation=active.filter(x=>x.group_key==='presentation').sort((a,b)=>a.sort_order-b.sort_order);
+  const models=active.filter(x=>x.group_key==='models').sort((a,b)=>a.sort_order-b.sort_order);
+  const buttonHtml=(item,index,group)=>{
+   const thumb='<button class="lego-thumb'+(group==='presentation'?' lego-left-thumb':'')+'" type="button" data-image="'+safeText(item.image_url)+'" aria-label="Afficher la photo LEGO '+(index+1)+'"><img src="'+safeText(item.image_url)+'" alt="" loading="lazy"></button>';
+   return editMode?'<div class="lego-edit-item" draggable="true" data-lego-id="'+safeText(item.id)+'">'+thumb+'<button class="lego-remove-photo" type="button" title="Retirer de la galerie" data-remove-inline="'+safeText(item.id)+'">×</button></div>':thumb;
+  };
+  if(presentation.length)left.innerHTML=presentation.map((x,i)=>buttonHtml(x,i,'presentation')).join('');
+  else if(editMode)left.innerHTML='<span style="color:#aaa">Dépose ici une photo de présentation.</span>';
+  if(models.length)right.innerHTML=models.map((x,i)=>buttonHtml(x,i,'models')).join('');
+  else if(editMode)right.innerHTML='<span style="color:#aaa">Dépose ici un modèle LEGO.</span>';
+  document.getElementById('legoMainImage').src=(models[0]||presentation[0])?.image_url||'';
   bindLegoThumbs();
+  if(editMode){
+   document.querySelectorAll('.lego-edit-item').forEach(card=>{
+    card.addEventListener('dragstart',e=>{e.dataTransfer.setData('text/plain',card.dataset.legoId);e.dataTransfer.effectAllowed='move';card.classList.add('dragging')});
+    card.addEventListener('dragend',()=>card.classList.remove('dragging'));
+   });
+   [left,right].forEach(zone=>{
+    zone.ondragover=e=>{e.preventDefault();zone.classList.add('lego-edit-drop')};
+    zone.ondragleave=e=>{if(!zone.contains(e.relatedTarget))zone.classList.remove('lego-edit-drop')};
+    zone.ondrop=e=>{
+     e.preventDefault();zone.classList.remove('lego-edit-drop');
+     const id=e.dataTransfer.getData('text/plain');
+     const dragged=[...document.querySelectorAll('.lego-edit-item')].find(el=>el.dataset.legoId===id);
+     if(!dragged)return;
+     const target=e.target.closest('.lego-edit-item');
+     if(target&&target!==dragged){const r=target.getBoundingClientRect();target.parentNode.insertBefore(dragged,e.clientY>r.top+r.height/2?target.nextSibling:target)}
+     else zone.appendChild(dragged);
+     dragged.querySelector('.lego-thumb')?.classList.toggle('lego-left-thumb',zone===left);
+    };
+   });
+   document.querySelectorAll('[data-remove-inline]').forEach(btn=>btn.onclick=async()=>{
+    if(!confirm('Retirer cette photo de la galerie visible par les clients ? Elle restera restaurable.'))return;
+    const {error}=await db.from('lego_gallery_images').update({is_active:false,updated_at:new Date().toISOString()}).eq('id',btn.dataset.removeInline);
+    if(error){setStatus('Retrait impossible : '+error.message,true);return}
+    await loadLegoGallery();setStatus('Photo retirée. Tu peux la restaurer en bas.');
+   });
+  }else{left.ondragover=left.ondrop=left.ondragleave=null;right.ondragover=right.ondrop=right.ondragleave=null}
+  renderInactive();
+ };
+ async function loadLegoGallery(){
+  const {data,error}=await db.from('lego_gallery_images').select('*').order('group_key',{ascending:true}).order('sort_order',{ascending:true});
+  if(error){setStatus('Chargement impossible : '+error.message,true);return}
+  legoRows=data||[];renderGallery();
+  setStatus(legoRows.filter(x=>x.is_active).length+' photos visibles · '+legoRows.filter(x=>!x.is_active).length+' retirée(s).');
  }
+ if(isLegoAdmin){
+  editToggle.style.display='block';
+  editToggle.onclick=()=>{editMode=!editMode;editor.style.display=editMode?'block':'none';editToggle.textContent=editMode?'✓ Fermer le mode édition':'✏️ Modifier la galerie LEGO';renderGallery();if(editMode)editor.scrollIntoView({behavior:'smooth',block:'nearest'})};
+  if(new URLSearchParams(location.search).get('edition')==='1')editToggle.click();
+ }
+ const {data:gallery,error:galleryError}=await db.from('lego_gallery_images').select('*').order('group_key',{ascending:true}).order('sort_order',{ascending:true});
+ if(!galleryError&&gallery?.length){legoRows=gallery;renderGallery();setStatus(legoRows.filter(x=>x.is_active).length+' photos visibles · '+legoRows.filter(x=>!x.is_active).length+' retirée(s).')}
+ document.getElementById('legoEditSave').onclick=async()=>{
+  const save=document.getElementById('legoEditSave');save.disabled=true;
+  try{
+   const changes=[];
+   [{zone:left,group:'presentation'},{zone:right,group:'models'}].forEach(({zone,group})=>{
+    [...zone.querySelectorAll('.lego-edit-item')].forEach((card,index)=>changes.push({id:card.dataset.legoId,group_key:group,sort_order:index}));
+   });
+   for(const change of changes){
+    const {error}=await db.from('lego_gallery_images').update({group_key:change.group_key,sort_order:change.sort_order,updated_at:new Date().toISOString()}).eq('id',change.id);
+    if(error)throw error;
+   }
+   await loadLegoGallery();setStatus('Ordre enregistré et publié sur la page LEGO.');
+  }catch(error){setStatus('Enregistrement impossible : '+(error.message||error),true)}
+  finally{save.disabled=false}
+ };
+ const uploadLegoImage=async file=>{
+  if(!file)return null;
+  if(file.size<1||file.size>10*1024*1024)throw new Error('Image limitée à 10 Mo.');
+  if(!['image/jpeg','image/png','image/webp'].includes(file.type))throw new Error('Formats acceptés : JPG, PNG ou WebP.');
+  const form=new FormData();form.append('file',file,file.name);
+  const {data,error}=await db.functions.invoke('jerseyhub-r2-upload',{body:form});
+  if(error)throw new Error(error.message||'Échec de l’envoi vers le stockage.');
+  if(!data?.ok||!data?.url)throw new Error('Aucune URL d’image renvoyée par le stockage.');
+  return data.url;
+ };
+ document.getElementById('legoInlineAddForm').onsubmit=async e=>{
+  e.preventDefault();const btn=document.getElementById('legoInlineAddButton');btn.disabled=true;
+  try{
+   const file=document.getElementById('legoInlineFile').files?.[0]||null;
+   let image=document.getElementById('legoInlineUrl').value.trim();
+   if(file)image=await uploadLegoImage(file);
+   if(!image)throw new Error('Choisis un fichier ou indique une URL.');
+   const parsed=new URL(image);if(!['http:','https:'].includes(parsed.protocol))throw new Error('URL http ou https requise.');
+   const group=document.getElementById('legoInlineGroup').value;
+   const order=legoRows.filter(x=>x.is_active&&x.group_key===group).reduce((m,x)=>Math.max(m,Number(x.sort_order)||0),-1)+1;
+   const {error}=await db.from('lego_gallery_images').insert({group_key:group,image_url:image,sort_order:order,is_active:true});
+   if(error)throw error;
+   e.target.reset();await loadLegoGallery();setStatus('Nouvelle photo ajoutée.');
+  }catch(error){setStatus('Ajout impossible : '+(error.message||error),true)}
+  finally{btn.disabled=false}
+ };
  const showAdminPrice=async()=>{
   const {data:{session}}=await db.auth.getSession();
   if(!session)return;

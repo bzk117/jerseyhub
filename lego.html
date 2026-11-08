@@ -31,6 +31,7 @@
 .lego-edit-item .lego-thumb{width:100%}
 .lego-left-thumbs .lego-edit-item{width:64px;height:64px;flex:0 0 64px}
 .lego-left-thumbs .lego-edit-item .lego-thumb{height:64px}
+.lego-add-presentation{width:64px;height:64px;flex:0 0 64px;display:grid;place-items:center;border:2px dashed #d6aa45;border-radius:9px;background:#211b0e;color:#f5d27c;font-size:28px;font-weight:800;cursor:pointer}.lego-add-presentation:hover{background:#35290f;border-color:#f5d27c}.lego-add-presentation:disabled{opacity:.55;cursor:wait}
 .lego-right-options .lego-edit-item{width:100%}
 .lego-remove-photo{position:absolute;top:2px;right:2px;z-index:3;width:23px;height:23px;padding:0;border:1px solid #fff;border-radius:50%;background:#a82d2d;color:#fff;font-weight:900;cursor:pointer}
 .lego-edit-item.dragging{opacity:.35}
@@ -189,6 +190,29 @@ bindLegoThumbs();
   };
   if(presentation.length)left.innerHTML=presentation.map((x,i)=>buttonHtml(x,i,'presentation')).join('');
   else if(editMode)left.innerHTML='<span style="color:#aaa">Dépose ici une photo de présentation.</span>';
+  if(editMode){
+   const addButton=document.createElement('button');
+   addButton.type='button';addButton.className='lego-add-presentation';
+   addButton.textContent='+';
+   addButton.title='Ajouter une photo de présentation';
+   addButton.setAttribute('aria-label','Ajouter une photo de présentation');
+   addButton.onclick=()=>{
+    const picker=document.createElement('input');picker.type='file';picker.accept='image/jpeg,image/png,image/webp';
+    picker.onchange=async()=>{
+     const file=picker.files?.[0];if(!file)return;
+     addButton.disabled=true;addButton.textContent='…';
+     try{
+      const image=await uploadLegoImage(file);
+      const order=legoRows.filter(x=>x.is_active&&x.group_key==='presentation').reduce((m,x)=>Math.max(m,Number(x.sort_order)||0),-1)+1;
+      const {error}=await db.from('lego_gallery_images').insert({group_key:'presentation',image_url:image,sort_order:order,is_active:true});
+      if(error)throw error;
+      await loadLegoGallery();setStatus('Photo de présentation ajoutée et enregistrée.');
+     }catch(error){setStatus('Ajout impossible : '+(error.message||error),true);addButton.disabled=false;addButton.textContent='+'}
+    };
+    picker.click();
+   };
+   left.appendChild(addButton);
+  }
   if(models.length)right.innerHTML=models.map((x,i)=>buttonHtml(x,i,'models')).join('');
   else if(editMode)right.innerHTML='<span style="color:#aaa">Dépose ici un modèle LEGO.</span>';
   document.getElementById('legoMainImage').src=(models[0]||presentation[0])?.image_url||'';

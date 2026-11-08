@@ -14,7 +14,7 @@
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
 <script>
-(()=>{const $=id=>document.getElementById(id),notice=$('notice');if(!window.supabase||!window.JERSEYHUB_SUPABASE){notice.textContent="Configuration Supabase indisponible.";return}const db=window.supabase.createClient(JERSEYHUB_SUPABASE.url,JERSEYHUB_SUPABASE.anonKey);let selected=null,records=[],patchOptions=[],searchIds=null,searchToken=0;
+(()=>{const $=id=>document.getElementById(id),notice=$('notice');if(!window.supabase||!window.JERSEYHUB_SUPABASE){notice.textContent="Configuration Supabase indisponible.";return}const db=window.supabase.createClient(JERSEYHUB_SUPABASE.url,JERSEYHUB_SUPABASE.anonKey);let selected=null,records=[],patchOptions=[],searchIds=null,searchToken=0,ordersLoadToken=0;
 const say=(s,bad=false)=>{notice.textContent=s;notice.style.borderColor=bad?'#a44':'#6b531d'};
 const statuses=['En attente','En transit','Reçu','Terminé','Pas de stock'];
 const statusOptions=current=>statuses.map(s=>'<option'+(s===current?' selected':'')+'>'+s+'</option>').join('');
@@ -26,17 +26,21 @@ const {data:profile,error}=await db.from('profiles').select('role,first_name,las
 if(error||user.app_metadata?.role!=='admin'){$('login').classList.add('admin-hidden');$('dashboard').classList.add('admin-hidden');say("Accès refusé : ce compte ne possède pas le rôle administrateur autorisé.",true);return}
 $('login').classList.add('admin-hidden');$('dashboard').classList.remove('admin-hidden');say("Accès administrateur vérifié.");await load()}
 async function load(){
+ const loadToken=++ordersLoadToken;
  await loadComments();await loadPatchOptions();await loadDashboardStats();
  let requestQuery=db.from('requests').select('id,order_number,status,customer_note,created_at,customer_id,tracking_number,tracking_url,price_eur,payment_status,admin_approved_at,archived_at,request_items(id,category,team_brand,model,season,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur,image_url)').order('created_at',{ascending:false});
  const filter=$('archiveFilter')?.value||'active';
  if(filter==='active')requestQuery=requestQuery.is('archived_at',null);
  else if(filter==='archived')requestQuery=requestQuery.not('archived_at','is',null);
  const {data,error}=await requestQuery;
+ if(loadToken!==ordersLoadToken)return;
  if(error){say("Erreur de chargement : "+error.message,true);return}
  const ids=[...new Set((data||[]).map(r=>r.customer_id).filter(Boolean))];
  const profilesById={};
- if(ids.length){const {data:profiles,error:profileError}=await db.from('profiles').select('id,first_name,last_name,phone').in('id',ids);if(!profileError)(profiles||[]).forEach(p=>profilesById[p.id]=p)}
- records=(data||[]).map(r=>({...r,customer_profile:profilesById[r.customer_id]||null}));
+ if(ids.length){const {data:profiles,error:profileError}=await db.from('profiles').select('id,first_name,last_name,phone').in('id',ids);if(loadToken!==ordersLoadToken)return;if(!profileError)(profiles||[]).forEach(p=>profilesById[p.id]=p)}
+ const uniqueOrders=new Map();
+ (data||[]).forEach(r=>{const key=r.order_number||r.id;if(!uniqueOrders.has(key))uniqueOrders.set(key,r)});
+ records=[...uniqueOrders.values()].map(r=>({...r,customer_profile:profilesById[r.customer_id]||null}));
  renderRequestList();
  }
 async function loadDashboardStats(){

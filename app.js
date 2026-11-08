@@ -339,7 +339,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const productSpecific=patchRecords.filter(x=>x.product_name&&x.product_name===p.name);
   const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
   const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);
-  const applicablePatches=productSpecific.length?productSpecific:(teamSpecific.length?teamSpecific:globalOptions);
+  const applicablePatches=productPatchOptions.length?productPatchOptions:(productSpecific.length?productSpecific:(teamSpecific.length?teamSpecific:globalOptions));
   // Catalogue visuel de secours : les choix restent disponibles même si patch_options est vide.
   // Images originales et libellés relevés sur les options patch du fournisseur Vivi Jersey.
   // Les groupes correspondent aux cinq champs « Select Patch » de sa fiche produit Belgique 2025-26.
@@ -369,7 +369,9 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   ];
   const productPatchOptions=Array.isArray(p.patchOptions)?p.patchOptions:[];
   const displayPatches=applicablePatches.length?applicablePatches:(isNational?builtInPatchStyles:productPatchOptions);
-  const patchSlotCount=isNational?5:(isClub?(Number.isFinite(Number(p.patchSlots))?Math.max(0,Math.min(3,Number(p.patchSlots))):2):0);
+  const optionSlotCount=displayPatches.reduce((max,option)=>Math.max(max,Number(option.slot_number)||0),0);
+  const configuredSlotCount=Number.isFinite(Number(p.patchSlots))?Math.max(0,Math.min(3,Number(p.patchSlots))):0;
+  const patchSlotCount=isNational?5:(isClub?Math.max(configuredSlotCount,Math.min(3,optionSlotCount)):0);
   if((isNational||isClub)&&!document.getElementById("jh-patch-visual-styles")){
    const style=document.createElement("style");style.id="jh-patch-visual-styles";style.textContent=".jh-patch-selector{margin:18px 0}.jh-patch-intro{color:#cbd5e1;font-size:14px}.jh-patch-slot{border:1px solid #465365;border-radius:12px;padding:12px;margin:12px 0}.jh-patch-slot legend{padding:0 7px;font-weight:700;color:#f2c66d}.jh-patch-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:10px}.jh-patch-choice{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:7px;min-height:132px;padding:10px 7px;border:2px solid #465365;border-radius:10px;background:#17202d;color:#fff;text-align:center;cursor:pointer;transition:border-color .15s,background .15s,transform .15s}.jh-patch-choice:hover{border-color:#d8b45a;transform:translateY(-2px)}.jh-patch-choice:has(input:checked){border-color:#e5b94e;background:#293143;box-shadow:0 0 0 2px #e5b94e33}.jh-patch-choice input{position:absolute;top:8px;right:8px;accent-color:#e5b94e;width:17px;height:17px;cursor:pointer}.jh-patch-thumb{display:block;width:76px;height:76px;object-fit:contain;pointer-events:none}.jh-patch-choice b{font-size:12px;line-height:1.25}.jh-patch-extra{font-size:11px;color:#f2c66d}.jh-patch-none .jh-patch-thumb{display:grid;place-items:center;border:1px dashed #8995a5;border-radius:50%;font-size:32px;color:#d8b45a}.jh-patch-empty{color:#f2c66d;font-size:13px}.jh-patch-choice input:focus-visible{outline:2px solid #fff;outline-offset:3px}";
    document.head.appendChild(style);

@@ -19,7 +19,7 @@
 .lego-thumb img{width:100%;height:100%;object-fit:contain}
 .lego-thumb.active,.lego-thumb:hover{border:2px solid #e9bd54}
 .lego-admin-cost{display:none;max-width:1120px;margin:18px auto 0;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}
-.lego-admin-cost strong{display:block;font-size:34px;font-weight:900;color:#e9bd54;margin-top:5px}
+.lego-admin-cost strong{display:block;font-size:30px;font-weight:900;color:#e9bd54;margin-top:5px}.lego-supplier-price-editor{display:none;margin-top:12px;max-width:260px}.lego-supplier-price-editor label{display:block;color:#ddd;font-size:13px;margin-bottom:6px}.lego-supplier-price-editor input{width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #6b5a35;border-radius:8px;background:#202020;color:#fff;font-size:16px}.lego-supplier-price-hint{display:block;color:#aaa;font-size:12px;margin-top:6px}
 
 .lego-page-toolbar{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin:0 auto 18px;min-height:46px}
 .lego-page-toolbar #legoEditToggle,.lego-page-toolbar #legoEditSave{margin:0;flex:0 0 auto}
@@ -124,7 +124,8 @@
 </div>
 </section>
 <section class="lego-admin-cost" id="legoAdminCost" aria-label="Prix fournisseur administrateur">
-<div>Prix fournisseur</div><strong id="legoAdminPrice">— €</strong>
+<div>Prix fournisseur — photo sélectionnée</div><strong id="legoAdminPrice">Prix non renseigné</strong>
+<div class="lego-supplier-price-editor" id="legoSupplierPriceEditor"><label for="legoSupplierPriceInput">Modifier le prix fournisseur (€)</label><input id="legoSupplierPriceInput" type="number" min="0" step="0.01" placeholder="Ex. 45,00"><small class="lego-supplier-price-hint">Sélectionne une photo, modifie son prix puis clique sur « Enregistrer les modifications ».</small></div>
 </section>
 <div class="lego-page-toolbar" id="legoPageToolbar"><button id="legoEditToggle" type="button">✏️ Modifier la galerie LEGO</button><button type="button" id="legoEditSave" aria-label="Enregistrer les modifications">Enregistrer les modifications</button><span id="legoSaveFeedback" role="status" aria-live="polite" class="lego-save-feedback"></span></div>
 <section id="legoInlineEditor" aria-label="Édition de la galerie LEGO">
@@ -160,17 +161,24 @@ bindLegoThumbs();
  const editToggle=document.getElementById('legoEditToggle');
  const editor=document.getElementById('legoInlineEditor');
  const editStatus=document.getElementById('legoEditStatus');
- let legoRows=[],editMode=false;
+ let legoRows=[],editMode=false,selectedLegoId=null;
  const left=document.querySelector('.lego-left-thumbs'),right=document.querySelector('.lego-right-options');
 
  const setStatus=(message,bad=false)=>{editStatus.textContent=message;editStatus.style.color=bad?'#ff9c9c':'#d7c69b'};
  const safeText=value=>String(value||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const renderSupplierPrice=()=>{
+  const row=legoRows.find(x=>x.id===selectedLegoId);
+  const amount=row?.supplier_price_eur;
+  document.getElementById('legoAdminPrice').textContent=amount===null||amount===undefined?'Prix non renseigné':new Intl.NumberFormat('fr-BE',{style:'currency',currency:'EUR'}).format(Number(amount));
+  document.getElementById('legoSupplierPriceEditor').style.display=editMode?'block':'none';
+  document.getElementById('legoSupplierPriceInput').value=amount===null||amount===undefined?'':String(amount);
+ };
  const renderGallery=()=>{
   const active=legoRows.filter(x=>x.is_active);
   const presentation=active.filter(x=>x.group_key==='presentation').sort((a,b)=>a.sort_order-b.sort_order);
   const models=active.filter(x=>x.group_key==='models').sort((a,b)=>a.sort_order-b.sort_order);
   const buttonHtml=(item,index,group)=>{
-   const thumb='<button class="lego-thumb'+(group==='presentation'?' lego-left-thumb':'')+'" type="button" data-image="'+safeText(item.image_url)+'" aria-label="Afficher la photo LEGO '+(index+1)+'"><img src="'+safeText(item.image_url)+'" alt="" loading="lazy"></button>';
+   const thumb='<button class="lego-thumb'+(group==='presentation'?' lego-left-thumb':'')+'" type="button" data-lego-id="'+safeText(item.id)+'" data-image="'+safeText(item.image_url)+'" aria-label="Afficher la photo LEGO '+(index+1)+'"><img src="'+safeText(item.image_url)+'" alt="" loading="lazy"></button>';
    return editMode?'<div class="lego-edit-item" draggable="true" data-lego-id="'+safeText(item.id)+'">'+thumb+'<button class="lego-remove-photo" type="button" title="Retirer de la galerie" data-remove-inline="'+safeText(item.id)+'">×</button></div>':thumb;
   };
   left.innerHTML=presentation.map((x,i)=>buttonHtml(x,i,'presentation')).join('');
@@ -204,8 +212,16 @@ bindLegoThumbs();
   }
   if(models.length)right.innerHTML=models.map((x,i)=>buttonHtml(x,i,'models')).join('');
   else if(editMode)right.innerHTML='<span style="color:#aaa">Dépose ici un modèle LEGO.</span>';
-  document.getElementById('legoMainImage').src=(models[0]||presentation[0])?.image_url||'';
+  const selected=active.find(x=>x.id===selectedLegoId)||models[0]||presentation[0];
+  selectedLegoId=selected?.id||null;
+  document.getElementById('legoMainImage').src=selected?.image_url||'';
   bindLegoThumbs();
+  document.querySelectorAll('.lego-thumb[data-lego-id]').forEach(btn=>{
+   const selectImage=()=>{selectedLegoId=btn.dataset.legoId;renderSupplierPrice()};
+   btn.addEventListener('click',selectImage);
+   if(btn.classList.contains('lego-left-thumb'))btn.addEventListener('mouseenter',selectImage);
+  });
+  renderSupplierPrice();
   if(editMode){
    document.querySelectorAll('.lego-edit-item').forEach(card=>{
     card.addEventListener('dragstart',e=>{e.dataTransfer.setData('text/plain',card.dataset.legoId);e.dataTransfer.effectAllowed='move';card.classList.add('dragging')});
@@ -256,6 +272,10 @@ bindLegoThumbs();
    const {data:{session}}=await db.auth.getSession();
    if(!session||session.user?.app_metadata?.role!=='admin')throw new Error('Session administrateur absente ou expirée. Reconnecte-toi.');
    const changes=[];
+   const priceRaw=document.getElementById('legoSupplierPriceInput').value.trim();
+   const selectedPrice=priceRaw===''?null:Number(priceRaw);
+   if(selectedPrice!==null&&(!Number.isFinite(selectedPrice)||selectedPrice<0))throw new Error('Le prix fournisseur doit être un montant positif ou nul.');
+   if(!selectedLegoId)throw new Error('Sélectionne une photo avant d’enregistrer son prix.');
    const presentationCards=[...left.querySelectorAll('.lego-edit-item')];
    if(presentationCards.length>5)throw new Error('La colonne de présentation ne peut contenir que 5 photos maximum.');
    [{zone:left,group:'presentation'},{zone:right,group:'models'}].forEach(({zone,group})=>{
@@ -266,13 +286,13 @@ bindLegoThumbs();
     const change=changes[index];
     feedback.textContent='Enregistrement '+(index+1)+' / '+changes.length+'…';
     const {data,error}=await db.from('lego_gallery_images')
-     .update({group_key:change.group_key,sort_order:change.sort_order,updated_at:new Date().toISOString()})
+     .update({group_key:change.group_key,sort_order:change.sort_order,...(change.id===selectedLegoId?{supplier_price_eur:selectedPrice}:{}),updated_at:new Date().toISOString()})
      .eq('id',change.id).select('id');
     if(error)throw error;
     if(!data||data.length!==1)throw new Error('La base n’a pas confirmé la mise à jour de la photo '+(index+1)+'. Vérifie les droits administrateur.');
    }
    const {data:verified,error:verifyError}=await db.from('lego_gallery_images')
-    .select('id,group_key,sort_order,is_active').eq('is_active',true);
+    .select('id,group_key,sort_order,is_active,supplier_price_eur').eq('is_active',true);
    if(verifyError)throw verifyError;
    const byId=new Map((verified||[]).map(row=>[row.id,row]));
    const mismatch=changes.find(change=>{
@@ -280,6 +300,8 @@ bindLegoThumbs();
     return !row||row.group_key!==change.group_key||Number(row.sort_order)!==change.sort_order;
    });
    if(mismatch)throw new Error('La vérification a détecté une photo non enregistrée. Réessaie sans quitter le mode édition.');
+   const verifiedSelected=byId.get(selectedLegoId);
+   if(!verifiedSelected||(verifiedSelected.supplier_price_eur===null?null:Number(verifiedSelected.supplier_price_eur))!==selectedPrice)throw new Error('Le prix fournisseur de la photo sélectionnée n’a pas été confirmé.');
    await loadLegoGallery();
    report('✓ Modifications enregistrées et vérifiées.');
   }catch(error){
@@ -321,11 +343,9 @@ bindLegoThumbs();
  };
  const showAdminPrice=async()=>{
   const {data:{session}}=await db.auth.getSession();
-  if(!session)return;
-  const {data,error}=await db.from('lego_supplier_cost').select('price_eur').eq('id',1).maybeSingle();
-  if(error||!data)return;
-  document.getElementById('legoAdminPrice').textContent=data.price_eur===null?'— €':new Intl.NumberFormat('fr-BE',{style:'currency',currency:'EUR'}).format(Number(data.price_eur));
+  if(!session||session.user?.app_metadata?.role!=='admin')return;
   document.getElementById('legoAdminCost').style.display='block';
+  renderSupplierPrice();
  };
  await showAdminPrice();
  db.auth.onAuthStateChange(()=>{showAdminPrice()});

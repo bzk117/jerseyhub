@@ -19,7 +19,7 @@
 .lego-thumb img{width:100%;height:100%;object-fit:contain}
 .lego-thumb.active,.lego-thumb:hover{border:2px solid #e9bd54}
 .lego-admin-cost{display:none;max-width:1120px;margin:18px auto 0;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}
-.lego-admin-cost strong{display:block;font-size:30px;font-weight:900;color:#e9bd54;margin-top:5px}.lego-supplier-price-editor{display:none;margin-top:12px;max-width:260px}.lego-supplier-price-editor label{display:block;color:#ddd;font-size:13px;margin-bottom:6px}.lego-supplier-price-editor input{width:100%;box-sizing:border-box;padding:14px 14px;border:2px solid #e9bd54;border-radius:8px;background:#202020;color:#f5d27c;font-size:28px;font-weight:900;cursor:text;pointer-events:auto;user-select:text}.lego-supplier-price-hint{display:block;color:#aaa;font-size:12px;margin-top:6px}
+.lego-admin-cost strong{display:block;font-size:30px;font-weight:900;color:#e9bd54;margin-top:5px}.lego-supplier-price-editor{display:none;margin-top:12px;max-width:260px}.lego-supplier-price-editor label{display:block;color:#ddd;font-size:13px;margin-bottom:6px}.lego-supplier-price-editor input{width:100%;box-sizing:border-box;padding:14px 14px;border:2px solid #e9bd54;border-radius:8px;background:#202020;color:#f5d27c;font-size:28px;font-weight:900;cursor:text;pointer-events:auto;user-select:text}.lego-supplier-price-hint{display:block;color:#aaa;font-size:12px;margin-top:6px}.lego-price-stock-line{display:flex;align-items:center;flex-wrap:wrap;gap:14px}.lego-stock-badge{display:inline-flex;align-items:center;padding:7px 12px;border:1px solid #a84a4a;border-radius:999px;background:#3b1717;color:#ffb2b2;font-size:13px;font-weight:900;white-space:nowrap}.lego-price-stock-edit input{flex:1 1 220px;min-width:0}.lego-import-notice{margin:14px 0 0;color:#d7c69b;font-size:14px}
 
 .lego-page-toolbar{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin:0 auto 18px;min-height:46px}
 .lego-page-toolbar #legoEditToggle,.lego-page-toolbar #legoEditSave{margin:0;flex:0 0 auto}
@@ -123,9 +123,11 @@
 <button class="lego-thumb" type="button" data-image="assets/lifestyle/lego-construction/source-archive/lego-57.jpg" aria-label="Afficher le modèle LEGO 54"><img src="assets/lifestyle/lego-construction/source-archive/lego-57.jpg" alt="" loading="lazy"></button>
 </div>
 </section>
-<section class="lego-admin-cost" id="legoAdminCost" aria-label="Prix fournisseur administrateur">
-<div>Prix fournisseur — photo sélectionnée</div><strong id="legoAdminPrice">Prix non renseigné</strong>
-<div class="lego-supplier-price-editor" id="legoSupplierPriceEditor"><label for="legoSupplierPriceInput">Clique ici et saisis le prix fournisseur (€)</label><input id="legoSupplierPriceInput" type="text" inputmode="decimal" autocomplete="off" placeholder="Ex. 45,00" aria-label="Prix fournisseur en euros"><small class="lego-supplier-price-hint">Tu peux saisir ou remplacer directement le montant (ex. 45,00), puis cliquer sur « Enregistrer les modifications ».</small></div>
+<section class="lego-admin-cost" id="legoAdminCost" aria-label="Prix fournisseur et disponibilité">
+<div>Prix fournisseur — photo sélectionnée</div>
+<div class="lego-price-stock-line"><strong id="legoAdminPrice">Prix non renseigné</strong><span class="lego-stock-badge">Plus de stock</span></div>
+<div class="lego-supplier-price-editor" id="legoSupplierPriceEditor"><label for="legoSupplierPriceInput">Clique ici et saisis le prix fournisseur (€)</label><div class="lego-price-stock-line lego-price-stock-edit"><input id="legoSupplierPriceInput" type="text" inputmode="decimal" autocomplete="off" placeholder="Ex. 45,00" aria-label="Prix fournisseur en euros"><span class="lego-stock-badge">Plus de stock</span></div><small class="lego-supplier-price-hint">Tu peux saisir ou remplacer directement le montant (ex. 45,00), puis cliquer sur « Enregistrer les modifications ».</small></div>
+<p class="lego-import-notice">Les frais d’importation internationaux vous seront communiqués ultérieurement.</p>
 </section>
 <div class="lego-page-toolbar" id="legoPageToolbar"><button id="legoEditToggle" type="button">✏️ Modifier la galerie LEGO</button><button type="button" id="legoEditSave" aria-label="Enregistrer les modifications">Enregistrer les modifications</button><span id="legoSaveFeedback" role="status" aria-live="polite" class="lego-save-feedback"></span></div>
 <section id="legoInlineEditor" aria-label="Édition de la galerie LEGO">

@@ -26,10 +26,10 @@ function isCompleteClubProduct(product) {
   const validSource = product.supplier === "Vivi Jersey" &&
     product.supplierVerified === true &&
     typeof (product.supplierUrl || product.sourceUrl) === "string" &&
-    /^https?:\\/\\/(?:[a-z0-9-]+\\.)?vivi-jersey\\.com\\//i.test(product.supplierUrl || product.sourceUrl);
+    /^https?:\/\/(?:[a-z0-9-]+\.)?vivi-jersey\.com\//i.test(product.supplierUrl || product.sourceUrl);
   const validImages = typeof product.image === "string" &&
-    /^https?:\\/\\//i.test(product.image) &&
-    (!product.images || (Array.isArray(product.images) && product.images.every(url => typeof url === "string" && /^https?:\\/\\//i.test(url))));
+    /^https?:\/\//i.test(product.image) &&
+    (!product.images || (Array.isArray(product.images) && product.images.every(url => typeof url === "string" && /^https?:\/\//i.test(url))));
   const validSizes = Array.isArray(product.sizes) && product.sizes.length > 0 &&
     product.sizes.every(size => typeof size === "string" && size.trim() && !/à confirmer|unknown|tbc/i.test(size));
   return validSource && validImages && validSizes &&

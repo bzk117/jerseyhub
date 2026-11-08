@@ -45,9 +45,9 @@ async function load(){
  renderRequestList();
  }
 async function loadDashboardStats(){
- const {data,error}=await db.from('requests').select('status,payment_status,price_eur');
+ const {data,error}=await db.from('requests').select('status,payment_status,price_eur,international_shipping_eur,request_items(category)');
  if(error){say('Statistiques indisponibles : '+error.message,true);return}
- const rows=data||[],pending=rows.filter(r=>r.payment_status==='En attente de paiement').length,paid=rows.filter(r=>r.payment_status==='Payé').length,transit=rows.filter(r=>r.status==='En transit').length,completed=rows.filter(r=>['Reçu','Terminé'].includes(r.status)).length,revenue=rows.reduce((sum,r)=>sum+(Number(r.price_eur)||0),0);
+ const rows=data||[],pending=rows.filter(r=>r.payment_status==='En attente de paiement').length,paid=rows.filter(r=>r.payment_status==='Payé').length,transit=rows.filter(r=>r.status==='En transit').length,completed=rows.filter(r=>['Reçu','Terminé'].includes(r.status)).length,revenue=rows.reduce((sum,r)=>{const base=Number(r.price_eur)||0;const isLego=(r.request_items||[]).some(i=>String(i.category||'').toLowerCase().includes('lego'));const paidLegoFees=r.payment_status==='Payé'&&isLego?(Number(r.international_shipping_eur)||0):0;return sum+base+paidLegoFees},0);
  $('adminStats').innerHTML=[['Paiement en attente',pending],['Commandes payées',paid],['En transit',transit],['Terminées',completed],['Chiffre d’affaires enregistré',revenue.toLocaleString('fr-BE',{style:'currency',currency:'EUR'})]].map(([label,value])=>'<div class="admin-stat"><small>'+esc(label)+'</small><strong>'+esc(value)+'</strong></div>').join('');
 }
 function renderRequestList(){

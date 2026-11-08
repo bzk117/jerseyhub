@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install image validation dependency
+        run: python3 -m pip install --user Pillow
       - name: Download, extract and inventory LEGO archive
         env:
           DROPBOX_ZIP_URL: "https://www.dropbox.com/scl/fi/taodr31hq31ss1c9d967z/Buy-Cross-border-compatible-LEGO-McLaren-F1-Lamborghini-Ferrari-and-Porsche-sports-car-building-block-toy-_-boonbuy-20261106T224631Z-1-001.zip?rlkey=gqkm2qm8i7gy6wdygbuoqoulw&st=bcradhnm&dl=1"

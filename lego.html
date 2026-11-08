@@ -330,7 +330,7 @@ bindLegoThumbs();
   const item=legoRows.find(x=>x.id===selectedLegoId&&x.is_active&&x.group_key==='models');
   if(!item){cartFeedback.textContent='Sélectionnez d’abord une voiture.';return;}
   let cart=[];try{cart=JSON.parse(localStorage.getItem('jerseyhub_cart_v1')||'[]');if(!Array.isArray(cart))cart=[];}catch{cart=[];}
-  const entry={id:'lego-'+String(item.id)+'-'+Date.now().toString(36),name:'LEGO — '+(item.title||item.name||'Modèle sélectionné'),category:'lego',team:'Galerie LEGO',model:item.title||item.name||'Modèle LEGO',season:'',kitType:'LEGO',version:'',supplier:'',supplierUrl:'',image:item.image_url||null,images:[item.image_url].filter(Boolean),size:'Non applicable',quantity:1,patches:[],patchSelections:[],patchTotalEur:0,personalization:'Aucune',customPrice:null,priceLabel:'Prix à confirmer',importFeesLabel:'Frais d’importation internationaux communiqués ultérieurement'};
+  const entry={id:'lego-'+String(item.id)+'-'+Date.now().toString(36),name:'LEGO — Modèle '+(Number(item.sort_order||0)+1),category:'lego',team:'Galerie LEGO',model:'Modèle '+(Number(item.sort_order||0)+1),season:'',kitType:'LEGO',version:'',supplier:'',supplierUrl:'',image:item.image_url||null,images:[item.image_url].filter(Boolean),size:'Non applicable',quantity:1,patches:[],patchSelections:[],patchTotalEur:0,personalization:'Aucune',customPrice:null,priceLabel:'Prix à confirmer',importFeesLabel:'Frais d’importation internationaux communiqués ultérieurement'};
   cart.push(entry);localStorage.setItem('jerseyhub_cart_v1',JSON.stringify(cart));
   cartFeedback.textContent='✓ LEGO ajouté au panier. Vous pouvez continuer vos achats ou ouvrir « Mon panier ».';
  });

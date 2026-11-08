@@ -87,7 +87,7 @@
  async function loadRequests(){
   const loadToken=++requestsLoadToken;
   const box=$('requestsList');box.textContent='Chargement…';
-  const {data,error}=await db.from('requests').select('id,order_number,status,created_at,admin_approved_at,tracking_number,tracking_url,price_eur,request_items(category,team_brand,model,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur),request_events(event_type,old_value,new_value,created_at)').order('created_at',{ascending:false});
+  const {data,error}=await db.from('requests').select('id,order_number,status,created_at,admin_approved_at,tracking_number,tracking_url,price_eur,international_shipping_eur,request_items(category,team_brand,model,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur),request_events(event_type,old_value,new_value,created_at)').order('created_at',{ascending:false});
   if(loadToken!==requestsLoadToken)return;
   if(error){box.textContent="Impossible de charger le suivi des commandes.";return}
   const rawOrders=data||[];
@@ -118,7 +118,8 @@
    const priceHtml=r.price_eur!==null&&r.price_eur!==undefined&&r.price_eur!==''?'<p class="account-order-alert"><b>'+Number(r.price_eur).toLocaleString('fr-BE',{style:'currency',currency:'EUR'})+'</b></p>':'<p class="account-order-alert"><b>Prix en attente</b></p>';
    const isLegoOrder=(r.request_items||[]).some(i=>/lego/i.test((i.category||'')+' '+(i.team_brand||'')+' '+(i.model||'')));
    const legoNoticeHtml=isLegoOrder?'<div class="account-order-lego-notice"><strong>DÉLAI ESTIMÉ : 2 SEMAINES À COMPTER DE LA DATE DE COMMANDE</strong><strong>LES FRAIS DE PORT INTERNATIONAUX VOUS SERONT COMMUNIQUÉS PLUS TARD.</strong></div>':'';
-   el.innerHTML='<p><b>Commande n° '+esc(r.order_number)+'</b></p><p><small>Date de commande : '+orderDate+'</small></p>'+legoNoticeHtml+priceHtml+'<p><span class="account-status">'+esc(status)+'</span></p>'+timeline+noticeHtml+tracking+'<p><b>Articles de la commande :</b></p>';
+   const internationalFeeHtml=isLegoOrder&&r.international_shipping_eur!==null&&r.international_shipping_eur!==undefined?'<div class="account-order-lego-notice"><strong>FRAIS DE PORT INTERNATIONAUX À PAYER EN PLUS : '+Number(r.international_shipping_eur).toLocaleString('fr-BE',{style:'currency',currency:'EUR'})+'</strong></div>':'';
+   el.innerHTML='<p><b>Commande n° '+esc(r.order_number)+'</b></p><p><small>Date de commande : '+orderDate+'</small></p>'+legoNoticeHtml+priceHtml+internationalFeeHtml+'<p><span class="account-status">'+esc(status)+'</span></p>'+timeline+noticeHtml+tracking+'<p><b>Articles de la commande :</b></p>';
    const copy=document.createElement('button');copy.type='button';copy.className='account-copy-button';copy.textContent='Copier le numéro de commande';
    copy.onclick=async()=>{try{if(navigator.clipboard&&window.isSecureContext)await navigator.clipboard.writeText(r.order_number);else{const t=document.createElement('textarea');t.value=r.order_number;t.style.position='fixed';t.style.opacity='0';document.body.append(t);t.select();const ok=document.execCommand('copy');t.remove();if(!ok)throw new Error('Copie indisponible')}copy.textContent='✓ Numéro copié';setTimeout(()=>copy.textContent='Copier le numéro de commande',1800)}catch{say('La copie automatique a échoué. Vous pouvez sélectionner le numéro de commande.',true)}};
    el.append(copy);

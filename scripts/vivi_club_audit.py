@@ -84,14 +84,14 @@ def slug_of(url):
 
 FOOTBALL_CLUB_SLUGS = set("""
 manchester-united arsenal liverpool manchester-city chelsea tottenham newcastle everton west-ham-united aston-villa crystal-palace wolves fulham leeds-united nottingham-forest brighton leicester-city
-real-madrid barcelona atletico-madrid bilbao betis valencia rayo-vallecano sevilla las-palmas girona mallorca osasuna
+rystal-palace real-madrid barcelona atletico-madrid bilbao betis valencia rayo-vallecano sevilla las-palmas girona mallorca osasuna
 inter-milan ac-milan juventus napoli as-roma lazio atalanta fiorentina parma venice genoa
 bayern-munchen dortmund frankfurt leverkusen rb-leipzig vfl-wolfsburg vfb-stuttgarts werder-bremen borussia-monchengladbach heidenheimer st-pauli 1-fc-union-berlin
 paris-saint-germain marseille lyon monaco lens lille
 benfica fc-porto sporting-cp sporting-braga afc-ajax psv-eindhoven feyenoord
 inter-miami-cf la-galaxy orlando-city palmeiras flamengo sao-paulo santos atletico-mineiro cruzeiro corinthians
 al-nassr al-ittihad al-ain-fc al-hilal al-ahli celtic-fc glasgow-rangers boca-juniors river-plate
-""".split())
+university-of-chile""".split())
 
 def is_club_collection(url, label):
     # Restrict the crawl to actual association-football club collections. The old

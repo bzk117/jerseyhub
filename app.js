@@ -336,6 +336,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const personalizationAllowed=!isClub||p.personalizationAllowed===true||p.personalization?.allowed===true;
   let patchRecords=[];
   if((isNational||isClub)&&window.supabase&&window.JERSEYHUB_SUPABASE){try{const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category",isNational?"national":"clubs").eq("is_active",true).order("sort_order",{ascending:true});if(!error)patchRecords=data||[];}catch(error){console.warn("Options de patch indisponibles :",error)}}
+  const productPatchOptions=Array.isArray(p.patchOptions)?p.patchOptions:[];
   const productSpecific=patchRecords.filter(x=>x.product_name&&x.product_name===p.name);
   const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
   const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);
@@ -367,7 +368,6 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    {id:"vivi-debut-gold",label:"DEBUT Gold",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUT1.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
    {id:"vivi-debut-white",label:"DEBUT White",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUTwhite.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"}
   ];
-  const productPatchOptions=Array.isArray(p.patchOptions)?p.patchOptions:[];
   const displayPatches=applicablePatches.length?applicablePatches:(isNational?builtInPatchStyles:productPatchOptions);
   const optionSlotCount=displayPatches.reduce((max,option)=>Math.max(max,Number(option.slot_number)||0),0);
   const configuredSlotCount=Number.isFinite(Number(p.patchSlots))?Math.max(0,Math.min(3,Number(p.patchSlots))):0;

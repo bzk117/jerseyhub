@@ -19,7 +19,7 @@
 .lego-thumb img{width:100%;height:100%;object-fit:contain}
 .lego-thumb.active,.lego-thumb:hover{border:2px solid #e9bd54}
 .lego-admin-cost{display:none;max-width:1120px;margin:18px auto 0;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}
-.lego-admin-cost strong{display:block;font-size:30px;font-weight:900;color:#e9bd54;margin-top:5px}.lego-supplier-price-editor{display:none;margin-top:12px;max-width:260px}.lego-supplier-price-editor label{display:block;color:#ddd;font-size:13px;margin-bottom:6px}.lego-supplier-price-editor input{width:100%;box-sizing:border-box;padding:14px 14px;border:2px solid #e9bd54;border-radius:8px;background:#202020;color:#f5d27c;font-size:28px;font-weight:900;cursor:text;pointer-events:auto;user-select:text}.lego-supplier-price-hint{display:block;color:#aaa;font-size:12px;margin-top:6px}.lego-price-stock-line{display:flex;align-items:center;flex-wrap:wrap;gap:14px}.lego-stock-badge{display:inline-flex;align-items:center;padding:7px 12px;border:1px solid #a84a4a;border-radius:999px;background:#3b1717;color:#ffb2b2;font-size:13px;font-weight:900;white-space:nowrap}.lego-price-stock-edit input{flex:1 1 220px;min-width:0}.lego-import-notice{margin:14px 0 0;color:#d7c69b;font-size:14px}
+.lego-admin-cost strong{display:block;font-size:30px;font-weight:900;color:#e9bd54;margin-top:5px}.lego-supplier-price-editor{display:none;margin-top:12px;max-width:260px}.lego-supplier-price-editor label{display:block;color:#ddd;font-size:13px;margin-bottom:6px}.lego-supplier-price-editor input{width:100%;box-sizing:border-box;padding:14px 14px;border:2px solid #e9bd54;border-radius:8px;background:#202020;color:#f5d27c;font-size:28px;font-weight:900;cursor:text;pointer-events:auto;user-select:text}.lego-supplier-price-hint{display:block;color:#aaa;font-size:12px;margin-top:6px}.lego-price-stock-line{display:flex;align-items:center;flex-wrap:wrap;gap:14px}.lego-stock-badge{display:inline-flex;align-items:center;padding:7px 12px;border:1px solid #a84a4a;border-radius:999px;background:#3b1717;color:#ffb2b2;font-size:13px;font-weight:900;white-space:nowrap}.lego-price-stock-edit input{flex:1 1 220px;min-width:0}.lego-import-notice{margin:14px 0 0;color:#d7c69b;font-size:14px}.lego-client-actions{max-width:1120px;margin:18px auto;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}.lego-client-actions button{padding:13px 22px;border:0;border-radius:9px;background:#e9bd54;color:#17130a;font-size:16px;font-weight:900;cursor:pointer}.lego-client-actions button:disabled{opacity:.45;cursor:not-allowed}.lego-client-actions p{margin:10px 0 4px;color:#e9bd54;font-weight:700}.lego-client-actions small{color:#aaa}
 
 .lego-page-toolbar{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin:0 auto 18px;min-height:46px}
 .lego-page-toolbar #legoEditToggle,.lego-page-toolbar #legoEditSave{margin:0;flex:0 0 auto}
@@ -55,6 +55,7 @@
 <nav class="main-nav" aria-label="Navigation principale">
 <a class="nav-link" href="index.html">Accueil</a>
 <a class="nav-link active" href="lego.html">Galerie</a>
+<a class="nav-link" href="index.html?openCart=1">Mon panier</a>
 </nav><button class="mobile-menu" id="mobileMenu" aria-label="Ouvrir le menu">☰</button>
 </header>
 <main class="lego-gallery-page">
@@ -123,6 +124,7 @@
 <button class="lego-thumb" type="button" data-image="assets/lifestyle/lego-construction/source-archive/lego-57.jpg" aria-label="Afficher le modèle LEGO 54"><img src="assets/lifestyle/lego-construction/source-archive/lego-57.jpg" alt="" loading="lazy"></button>
 </div>
 </section>
+<section id="legoClientActions" class="lego-client-actions" aria-live="polite"><button type="button" id="legoAddToCart" disabled>Ajouter au panier</button><p id="legoCartFeedback">Sélectionnez un modèle pour l’ajouter à votre panier.</p><small>Le prix et les frais d’importation seront confirmés ultérieurement.</small></section>
 <section class="lego-admin-cost" id="legoAdminCost" aria-label="Prix fournisseur et disponibilité">
 <div>Prix fournisseur — photo sélectionnée</div>
 <div class="lego-price-stock-line"><strong id="legoAdminPrice">Prix non renseigné</strong><span class="lego-stock-badge">Plus de stock</span></div>
@@ -165,6 +167,8 @@ bindLegoThumbs();
  const editStatus=document.getElementById('legoEditStatus');
  let legoRows=[],editMode=false,selectedLegoId=null;
  const left=document.querySelector('.lego-left-thumbs'),right=document.querySelector('.lego-right-options');
+ const addToCartButton=document.getElementById('legoAddToCart');
+ const cartFeedback=document.getElementById('legoCartFeedback');
 
  const setStatus=(message,bad=false)=>{editStatus.textContent=message;editStatus.style.color=bad?'#ff9c9c':'#d7c69b'};
  const safeText=value=>String(value||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -218,9 +222,12 @@ bindLegoThumbs();
   const selected=active.find(x=>x.id===selectedLegoId)||models[0]||presentation[0];
   selectedLegoId=selected?.id||null;
   document.getElementById('legoMainImage').src=selected?.image_url||'';
+  const selectedIsModel=!!selected&&selected.group_key==='models';
+  addToCartButton.disabled=!selectedIsModel;
+  cartFeedback.textContent=selectedIsModel?'Modèle sélectionné : prêt à être ajouté au panier.':'Sélectionnez une voiture dans les modèles pour l’ajouter au panier.';
   bindLegoThumbs();
   document.querySelectorAll('.lego-thumb[data-lego-id]').forEach(btn=>{
-   const selectImage=()=>{selectedLegoId=btn.dataset.legoId;renderSupplierPrice()};
+   const selectImage=()=>{selectedLegoId=btn.dataset.legoId;const row=legoRows.find(x=>x.id===selectedLegoId);const isModel=row?.group_key==='models';addToCartButton.disabled=!isModel;cartFeedback.textContent=isModel?'Modèle sélectionné : prêt à être ajouté au panier.':'Sélectionnez une voiture dans les modèles pour l’ajouter au panier.';renderSupplierPrice()};
    btn.addEventListener('click',selectImage);
    if(btn.classList.contains('lego-left-thumb'))btn.addEventListener('mouseenter',selectImage);
   });
@@ -318,6 +325,16 @@ bindLegoThumbs();
   editToggle.onclick=()=>{editMode=!editMode;editor.style.display=editMode?'block':'none';editToggle.textContent=editMode?'✓ Fermer le mode édition':'✏️ Modifier la galerie LEGO';document.getElementById('legoEditSave').style.display=editMode?'inline-flex':'none';renderGallery();if(editMode)editor.scrollIntoView({behavior:'smooth',block:'nearest'})};
   if(new URLSearchParams(location.search).get('edition')==='1')editToggle.click();
  }
+
+ addToCartButton.addEventListener('click',()=>{
+  const item=legoRows.find(x=>x.id===selectedLegoId&&x.is_active&&x.group_key==='models');
+  if(!item){cartFeedback.textContent='Sélectionnez d’abord une voiture.';return;}
+  let cart=[];try{cart=JSON.parse(localStorage.getItem('jerseyhub_cart_v1')||'[]');if(!Array.isArray(cart))cart=[];}catch{cart=[];}
+  const entry={id:'lego-'+String(item.id)+'-'+Date.now().toString(36),name:'LEGO — '+(item.title||item.name||'Modèle sélectionné'),category:'lego',team:'Galerie LEGO',model:item.title||item.name||'Modèle LEGO',season:'',kitType:'LEGO',version:'',supplier:'',supplierUrl:'',image:item.image_url||null,images:[item.image_url].filter(Boolean),size:'Non applicable',quantity:1,patches:[],patchSelections:[],patchTotalEur:0,personalization:'Aucune',customPrice:null,priceLabel:'Prix à confirmer',importFeesLabel:'Frais d’importation internationaux communiqués ultérieurement'};
+  cart.push(entry);localStorage.setItem('jerseyhub_cart_v1',JSON.stringify(cart));
+  cartFeedback.textContent='✓ LEGO ajouté au panier. Vous pouvez continuer vos achats ou ouvrir « Mon panier ».';
+ });
+
  const {data:gallery,error:galleryError}=await db.from('lego_gallery_images').select('*').order('group_key',{ascending:true}).order('sort_order',{ascending:true});
  if(!galleryError&&gallery?.length){legoRows=gallery;renderGallery();setStatus(legoRows.filter(x=>x.is_active).length+' photos visibles · '+legoRows.filter(x=>!x.is_active).length+' retirée(s).')}
  document.getElementById('legoClearPresentation').onclick=async()=>{

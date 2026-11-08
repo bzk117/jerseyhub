@@ -1,0 +1,64 @@
+name: Audit all Vivi Jersey club products
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/vivi_club_audit.py"
+      - ".github/workflows/vivi-club-audit.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vivi-club-catalog-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout JerseyHub
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install catalogue scraper dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Crawl all club collections and verify product options
+        env:
+          MAX_COLLECTIONS: "500"
+        run: python scripts/vivi_club_audit.py
+
+      - name: Save audit report to repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add VIVI-CLUBS-AUDIT.md data/vivi-clubs-audit.json data/vivi-clubs-audit.csv
+          if git diff --cached --quiet; then
+            echo "Audit identique : aucun changement à committer."
+          else
+            git commit -m "Save verified Vivi Jersey club audit"
+            git push origin HEAD:main
+          fi
+
+      - name: Upload audit files
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivi-jersey-club-audit
+          path: |
+            VIVI-CLUBS-AUDIT.md
+            data/vivi-clubs-audit.json
+            data/vivi-clubs-audit.csv
+          if-no-files-found: error

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Audit Vivi Jersey club collections and product options without publishing guessed records."""
-import csv, json, os, re, sys, time, hashlib
+import csv, json, os, re, sys, time, hashlib, threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin, urlparse, urlunparse, parse_qs
 import requests
@@ -8,8 +8,17 @@ from bs4 import BeautifulSoup
 
 BASE = "https://www.vivi-jersey.com"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; JerseyHubCatalogAudit/1.0; +https://bzk117.github.io/jerseyhub/)"}
-SESSION = requests.Session()
-SESSION.headers.update(HEADERS)
+LOCAL = threading.local()
+FETCH_STATS = {}
+FETCH_STATS_LOCK = threading.Lock()
+
+def session_for_thread():
+    session = getattr(LOCAL, "session", None)
+    if session is None:
+        session = requests.Session()
+        session.headers.update({**HEADERS, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9,fr;q=0.7", "Referer": BASE + "/"})
+        LOCAL.session = session
+    return session
 EXCLUDED = {
     "rugby","nhl","nfl","mlb","nba","jersey-enthusiasts","club-team","national-team",
     "retro-football-jersey","kids-jersey","women-s-jersey","womens-jersey","jacket-suit",
@@ -37,44 +46,57 @@ SIZE_TOKENS = [
 ]
 SIZE_RE = re.compile(r"(?<![A-Z0-9])(" + "|".join(sorted(map(re.escape, set(SIZE_TOKENS)), key=len, reverse=True)) + r")(?![A-Z0-9])", re.I)
 
-def fetch(url, attempts=3):
+def fetch(url, attempts=4):
+    session = session_for_thread()
+    last_url = url
     for i in range(attempts):
         try:
-            r = SESSION.get(url, timeout=30)
-            if r.status_code == 200 and r.text:
+            r = session.get(url, timeout=(10, 22), allow_redirects=True)
+            last_url = r.url
+            with FETCH_STATS_LOCK:
+                key = str(r.status_code)
+                FETCH_STATS[key] = FETCH_STATS.get(key, 0) + 1
+            if r.status_code == 200 and r.text and len(r.text) > 500:
                 return r.text, r.url
-            if r.status_code in (403, 429):
-                time.sleep(2 + i * 3)
+            if r.status_code == 404 or r.status_code == 410:
+                return "", r.url
+            if r.status_code in (403, 408, 425, 429, 500, 502, 503, 504):
+                time.sleep(min(12, 2 ** i + 1))
             else:
-                time.sleep(0.5 + i)
+                time.sleep(1 + i)
         except requests.RequestException:
-            time.sleep(1 + i * 2)
-    return "", url
+            with FETCH_STATS_LOCK:
+                FETCH_STATS["request_exception"] = FETCH_STATS.get("request_exception", 0) + 1
+            time.sleep(min(12, 2 ** i + 1))
+    return "", last_url
 
 def norm_url(href, base=BASE):
     u = urljoin(base, href.strip())
     p = urlparse(u)
     if p.netloc.lower() not in ("vivi-jersey.com", "www.vivi-jersey.com"):
         return ""
-    path = re.sub(r"/+", "/", p.path)
-    return urlunparse(("https", "www.vivi-jersey.com", path.rstrip("/") + ("/" if path.endswith("/") else ""), "", p.query, ""))
+    path = re.sub(r"/+", "/", p.path).rstrip("/")
+    # Shopify tracking/variant query strings are not part of a product or collection identity.
+    return urlunparse(("https", "www.vivi-jersey.com", path, "", "", ""))
 
 def slug_of(url):
     return urlparse(url).path.rstrip("/").split("/")[-1].lower()
 
+FOOTBALL_CLUB_SLUGS = set("""
+manchester-united arsenal liverpool manchester-city chelsea tottenham newcastle everton west-ham-united aston-villa crystal-palace wolves fulham leeds-united nottingham-forest brighton leicester-city
+real-madrid barcelona atletico-madrid bilbao betis valencia rayo-vallecano sevilla las-palmas girona mallorca osasuna
+inter-milan ac-milan juventus napoli as-roma lazio atalanta fiorentina parma venice genoa
+bayern-munchen dortmund frankfurt leverkusen rb-leipzig vfl-wolfsburg vfb-stuttgarts werder-bremen borussia-monchengladbach heidenheimer st-pauli 1-fc-union-berlin
+paris-saint-germain marseille lyon monaco lens lille
+benfica fc-porto sporting-cp sporting-braga afc-ajax psv-eindhoven feyenoord
+inter-miami-cf la-galaxy orlando-city palmeiras flamengo sao-paulo santos atletico-mineiro cruzeiro corinthians
+al-nassr al-ittihad al-ain-fc al-hilal al-ahli celtic-fc glasgow-rangers boca-juniors river-plate
+""".split())
+
 def is_club_collection(url, label):
-    slug = slug_of(url)
-    if not slug or slug in EXCLUDED or slug in COUNTRIES:
-        return False
-    if any(x in slug for x in ("national-team","world-cup","country","retro-kids","kids-jersey","women-s","training-suit")):
-        return False
-    low = label.lower().strip()
-    generic = {"home","all products","collections","products","2025-26","2026-27","2026 world cup","retro","kids","women"}
-    if low in generic:
-        return False
-    if re.fullmatch(r"\d{4}[- ]?\d{2,4}", low):
-        return False
-    return True
+    # Restrict the crawl to actual association-football club collections. The old
+    # broad filter accidentally crawled MLB/NFL/NHL/rugby and national-team pages.
+    return slug_of(url) in FOOTBALL_CLUB_SLUGS
 
 def collect_links(html, pattern):
     soup = BeautifulSoup(html, "html.parser")
@@ -281,7 +303,7 @@ def main():
             collections[href] = label
     if not collections:
         raise SystemExit("Aucune collection de club détectée : arrêt sans modification du catalogue.")
-    print("Collections candidates:",len(collections),flush=True)
+    print("Collections candidates (football clubs only):",len(collections),flush=True)
     products = {}
     collection_errors = []
     max_collections = int(os.getenv("MAX_COLLECTIONS","500"))
@@ -311,7 +333,7 @@ def main():
     if not products:
         raise SystemExit("Aucun produit extrait des collections de clubs : arrêt sans modification du catalogue.")
     details = []
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=3) as pool:
         futures = {pool.submit(product_detail,u,t):u for u,t in products.items()}
         for i,f in enumerate(as_completed(futures),1):
             try: details.append(f.result())
@@ -339,7 +361,8 @@ def main():
         "collection_count":len(collections),"product_url_count":len(products),
         "product_detail_count":len(details),"ready_count":len(ready),
         "duplicate_count":len(duplicates),"incomplete_count":len(incomplete),
-        "collection_errors":collection_errors[:100],
+        "collection_errors":collection_errors[:250],
+        "fetch_status_counts":dict(FETCH_STATS),
         "ready_products":ready,"duplicates":duplicates,"incomplete_products":incomplete
     }
     with open("data/vivi-clubs-audit.json","w",encoding="utf-8") as f: json.dump(report,f,ensure_ascii=False,indent=2)

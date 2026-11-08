@@ -31,6 +31,7 @@
 #legoEditSave{display:none;visibility:visible;opacity:1;position:relative;z-index:5;align-items:center;justify-content:center;min-width:190px;min-height:44px;padding:12px 20px;background:#e9bd54;color:#17130a;border:2px solid #ffe19a;border-radius:9px;font-size:16px;font-weight:900;box-shadow:0 0 0 2px #000,0 3px 12px #0008;cursor:pointer}
 #legoEditSave:disabled{opacity:.6;cursor:wait}\n.lego-save-feedback{color:#f5d27c;font-size:13px;font-weight:700;min-width:180px;text-align:left}
 .lego-edit-status{color:#d7c69b;font-size:13px}
+.lego-stock-toggle-button{display:block;width:100%;margin:10px 0;padding:13px 16px;border:2px solid #d6aa45;border-radius:9px;background:#211b0e;color:#f5d27c;font-size:16px;font-weight:900;text-align:center;cursor:pointer}.lego-stock-toggle-button.is-out-of-stock{background:#4b1717;border-color:#ff7777;color:#fff}.lego-stock-toggle-button:disabled{opacity:.45;cursor:not-allowed}
 .lego-edit-item{position:relative;min-width:0}
 .lego-edit-item .lego-thumb{width:100%}
 .lego-left-thumbs .lego-edit-item{width:64px;height:64px;flex:0 0 64px}
@@ -128,7 +129,7 @@
 <section class="lego-admin-cost" id="legoAdminCost" aria-label="Prix fournisseur et disponibilité">
 <div>Prix fournisseur — photo sélectionnée</div>
 <div class="lego-price-stock-line"><strong id="legoAdminPrice">Prix non renseigné</strong><span class="lego-stock-badge" id="legoAdminStockBadge">En stock</span></div>
-<div class="lego-supplier-price-editor" id="legoSupplierPriceEditor"><label for="legoSupplierPriceInput">Clique ici et saisis le prix fournisseur (€)</label><div class="lego-price-stock-line lego-price-stock-edit"><input id="legoSupplierPriceInput" type="text" inputmode="decimal" autocomplete="off" placeholder="Ex. 45,00" aria-label="Prix fournisseur en euros"></div><label class="lego-stock-toggle"><input id="legoOutOfStockInput" type="checkbox"> Marquer ce LEGO « Plus de stock »</label><small class="lego-supplier-price-hint">Le prix et la disponibilité sont enregistrés pour cette photo uniquement lorsque tu cliques sur « Enregistrer les modifications ».</small></div>
+<div class="lego-supplier-price-editor" id="legoSupplierPriceEditor"><label for="legoSupplierPriceInput">Clique ici et saisis le prix fournisseur (€)</label><div class="lego-price-stock-line lego-price-stock-edit"><input id="legoSupplierPriceInput" type="text" inputmode="decimal" autocomplete="off" placeholder="Ex. 45,00" aria-label="Prix fournisseur en euros"></div><button type="button" id="legoOutOfStockToggle" class="lego-stock-toggle-button">Marquer ce LEGO « Plus de stock »</button><small class="lego-supplier-price-hint">Le prix et la disponibilité sont enregistrés pour cette photo uniquement lorsque tu cliques sur « Enregistrer les modifications ».</small></div>
 <p class="lego-import-notice">Les frais d’importation internationaux vous seront communiqués ultérieurement.</p>
 </section>
 <div class="lego-page-toolbar" id="legoPageToolbar"><button id="legoEditToggle" type="button">✏️ Modifier la galerie LEGO</button><button type="button" id="legoEditSave" aria-label="Enregistrer les modifications">Enregistrer les modifications</button><span id="legoSaveFeedback" role="status" aria-live="polite" class="lego-save-feedback"></span></div>
@@ -165,7 +166,7 @@ bindLegoThumbs();
  const editToggle=document.getElementById('legoEditToggle');
  const editor=document.getElementById('legoInlineEditor');
  const editStatus=document.getElementById('legoEditStatus');
- let legoRows=[],editMode=false,selectedLegoId=null;
+ let legoRows=[],editMode=false,selectedLegoId=null,pendingOutOfStock=false;
  const left=document.querySelector('.lego-left-thumbs'),right=document.querySelector('.lego-right-options');
  const addToCartButton=document.getElementById('legoAddToCart');
  const cartFeedback=document.getElementById('legoCartFeedback');
@@ -176,16 +177,21 @@ bindLegoThumbs();
   const row=legoRows.find(x=>x.id===selectedLegoId);
   const amount=row?.supplier_price_eur;
   const outOfStock=!!row?.is_out_of_stock;
+   pendingOutOfStock=outOfStock;
   const stockBadge=document.getElementById('legoAdminStockBadge');
   stockBadge.textContent=outOfStock?'Plus de stock':'En stock';
   stockBadge.classList.toggle('available',!outOfStock);
-  document.getElementById('legoOutOfStockInput').checked=outOfStock;
+  const stockToggle=document.getElementById('legoOutOfStockToggle');
+   stockToggle.textContent=outOfStock?'✓ Plus de stock — cliquer pour remettre en stock':'Marquer ce LEGO « Plus de stock »';
+   stockToggle.classList.toggle('is-out-of-stock',outOfStock);
+   stockToggle.disabled=!row||row.group_key!=='models';
   document.getElementById('legoAdminPrice').textContent=amount===null||amount===undefined?'Prix non renseigné':new Intl.NumberFormat('fr-BE',{style:'currency',currency:'EUR'}).format(Number(amount));
   document.getElementById('legoAdminPrice').style.display=editMode?'none':'block';
   document.getElementById('legoSupplierPriceEditor').style.display=editMode?'block':'none';
   document.getElementById('legoSupplierPriceInput').value=amount===null||amount===undefined?'':String(amount);
  };
- const renderGallery=()=>{
+ document.getElementById('legoOutOfStockToggle').addEventListener('click',()=>{const row=legoRows.find(x=>x.id===selectedLegoId);if(!row||row.group_key!=='models')return;pendingOutOfStock=!pendingOutOfStock;const badge=document.getElementById('legoAdminStockBadge');badge.textContent=pendingOutOfStock?'Plus de stock':'En stock';badge.classList.toggle('available',!pendingOutOfStock);const button=document.getElementById('legoOutOfStockToggle');button.textContent=pendingOutOfStock?'✓ Plus de stock — cliquer pour remettre en stock':'Marquer ce LEGO « Plus de stock »';button.classList.toggle('is-out-of-stock',pendingOutOfStock);document.getElementById('legoSaveFeedback').textContent='Disponibilité modifiée : clique sur « Enregistrer les modifications » pour confirmer.';});
+  const renderGallery=()=>{
   const active=legoRows.filter(x=>x.is_active);
   const presentation=active.filter(x=>x.group_key==='presentation').sort((a,b)=>a.sort_order-b.sort_order);
   const models=active.filter(x=>x.group_key==='models').sort((a,b)=>a.sort_order-b.sort_order);
@@ -289,7 +295,7 @@ bindLegoThumbs();
    if(!session||session.user?.app_metadata?.role!=='admin')throw new Error('Session administrateur absente ou expirée. Reconnecte-toi.');
    const changes=[];
    const priceRaw=document.getElementById('legoSupplierPriceInput').value.trim().replace(',', '.');
-   const selectedOutOfStock=document.getElementById('legoOutOfStockInput').checked;
+   const selectedOutOfStock=pendingOutOfStock;
    const selectedPrice=priceRaw===''?null:Number(priceRaw);
    if(selectedPrice!==null&&(!Number.isFinite(selectedPrice)||selectedPrice<0))throw new Error('Le prix fournisseur doit être un montant positif ou nul.');
    if(!selectedLegoId)throw new Error('Sélectionne une photo avant d’enregistrer son prix.');

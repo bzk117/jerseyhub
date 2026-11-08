@@ -14,7 +14,9 @@ EXCLUDED = {
     "rugby","nhl","nfl","mlb","nba","jersey-enthusiasts","club-team","national-team",
     "retro-football-jersey","kids-jersey","women-s-jersey","womens-jersey","jacket-suit",
     "polo-suit-short-sleeve-suit","windbreaker","warmweet-jacket","player","fan","trousers",
-    "pants","shorts","football-socks","soccer-others","formula-1","blind-box"
+    "pants","shorts","football-socks","soccer-others","formula-1","blind-box","premier-league","la-liga","serie-a","bundesliga","ligue-1",
+    "portuguese-league","eredivisie","mls","brazil-clubs","saudi-professional-league",
+    "scottish-premier-league","chilean-football-league"
 }
 COUNTRIES = {
     "netherlands","holland","spain","portugal","france","england","italy","germany",
@@ -183,12 +185,12 @@ def kit_type(title):
     s = title.lower()
     if "goalkeeper" in s or "goal keeper" in s: return "goalkeeper"
     if "training" in s or "training wear" in s: return "training"
+    if "suit" in s or "jacket" in s or "tracksuit" in s: return "set"
     if "home" in s: return "home"
     if "away" in s: return "away"
     if "third" in s or "3rd" in s: return "third"
     if "fourth" in s or "4th" in s: return "fourth"
     if "retro" in s: return "retro"
-    if "suit" in s or "jacket" in s or "tracksuit" in s: return "training"
     if "special" in s: return "special"
     return ""
 
@@ -212,8 +214,24 @@ def product_detail(url, team):
         title = meta.get("content","").strip() if meta else ""
     text = soup.get_text(" ",strip=True)
     sizes, size_raw = extract_sizes(soup,text)
-    patches = extract_patches(text)
+    patch_groups = extract_patches(text)
     customization_raw, customization = extract_customization(text)
+    patch_slots = len(patch_groups)
+    patch_options = []
+    for group in patch_groups:
+        for idx, option in enumerate(group.get("options", []), 1):
+            label = option.get("label", "").strip()
+            if not label or label.casefold() == "no patch":
+                continue
+            usd = float(option.get("extra_price_usd", 0) or 0)
+            patch_options.append({
+                "id": hashlib.sha1((final_url + "|" + str(group["slot_number"]) + "|" + label).encode()).hexdigest()[:16],
+                "label": label,
+                "slot_number": int(group["slot_number"]),
+                "extra_price_usd": usd,
+                "extra_price_eur": round(usd * 0.8957, 2),
+                "image_url": ""
+            })
     images = []
     meta_image = soup.find("meta", property="og:image")
     if meta_image and meta_image.get("content"):
@@ -233,7 +251,6 @@ def product_detail(url, team):
     if not images: reasons.append("image principale absente")
     if not season: reasons.append("saison/année non identifiable")
     if not kind: reasons.append("type domicile/extérieur/third/rétro/entraînement non identifiable")
-    if not patches: reasons.append("aucun emplacement de patch proposé sur la fiche")
     if not team: reasons.append("club non identifié depuis sa collection")
     return {
         "name":title,"group":team,"team":team,"category":"clubs","season":season,
@@ -241,9 +258,10 @@ def product_detail(url, team):
         "image":images[0] if images else "","images":images[:12],
         "supplier":"Vivi Jersey","supplierVerified":bool(title and final_url.startswith("https://")),
         "supplierUrl":final_url,"sourceUrl":final_url,
-        "patchSlots":len(patches),"patchOptions":patches,
-        "personalizationAllowed":any("personalize" in x["label"].lower() or "choose player" in x["label"].lower() for x in customization),
-        "personalization":{"allowed":bool(customization),"customName":any("personalize" in x["label"].lower() for x in customization),"customNumber":any("personalize" in x["label"].lower() for x in customization)},
+        "patchSlots":patch_slots,"patchOptions":patch_options,
+        "playerSelectionAllowed":any("choose player" in x["label"].lower() for x in customization),
+        "personalizationAllowed":any("personalize" in x["label"].lower() or "personalise" in x["label"].lower() for x in customization),
+        "personalization":{"allowed":any("personalize" in x["label"].lower() or "personalise" in x["label"].lower() for x in customization),"customName":any("personalize" in x["label"].lower() or "personalise" in x["label"].lower() for x in customization),"customNumber":any("personalize" in x["label"].lower() or "personalise" in x["label"].lower() for x in customization)},
         "customizationOptions":customization,"customizationRaw":customization_raw,
         "status":"incomplete" if reasons else "ready","reasons":reasons,
         "auditHash":hashlib.sha256(final_url.encode()).hexdigest()
@@ -272,8 +290,7 @@ def main():
         if not ch:
             collection_errors.append({"url":collection_url,"team":label,"error":"collection inaccessible"})
             continue
-        cp, _ = collect_links(ch,r"/products/")
-        detail_urls = set(cp)
+        _, detail_urls = collect_links(ch,r"/products/")
         for page_url in find_pages(cf,ch):
             if page_url == cf: continue
             ph,_ = fetch(page_url)
@@ -342,7 +359,7 @@ def main():
         f"- Fiches incomplètes à contrôler : {len(incomplete)}",
         f"- Erreurs de collections : {len(collection_errors)}",
         "",
-        "Les fiches incomplètes ne sont pas publiées. Les prix fournisseur et les options sont conservés dans les devises affichées par Vivi Jersey ; aucune conversion arbitraire n'est appliquée.",
+        "Les fiches incomplètes ne sont pas publiées. Les prix fournisseur sont convertis des USD en EUR avec le taux de référence BCE du 06/11/2026 (1 EUR = 1,1165 USD).",
         ""
     ]
     with open("VIVI-CLUBS-AUDIT.md","w",encoding="utf-8") as f: f.write("\n".join(summary))

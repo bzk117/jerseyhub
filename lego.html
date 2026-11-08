@@ -19,7 +19,7 @@
 .lego-thumb img{width:100%;height:100%;object-fit:contain}
 .lego-thumb.active,.lego-thumb:hover{border:2px solid #e9bd54}
 .lego-admin-cost{display:none;max-width:1120px;margin:18px auto 0;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}
-.lego-admin-cost strong{display:block;font-size:30px;font-weight:900;color:#e9bd54;margin-top:5px}.lego-supplier-price-editor{display:none;margin-top:12px;max-width:260px}.lego-supplier-price-editor label{display:block;color:#ddd;font-size:13px;margin-bottom:6px}.lego-supplier-price-editor input{width:100%;box-sizing:border-box;padding:14px 14px;border:2px solid #e9bd54;border-radius:8px;background:#202020;color:#f5d27c;font-size:28px;font-weight:900;cursor:text;pointer-events:auto;user-select:text}.lego-supplier-price-hint{display:block;color:#aaa;font-size:12px;margin-top:6px}.lego-price-stock-line{display:flex;align-items:center;flex-wrap:wrap;gap:14px}.lego-stock-badge{display:inline-flex;align-items:center;padding:7px 12px;border:1px solid #a84a4a;border-radius:999px;background:#3b1717;color:#ffb2b2;font-size:13px;font-weight:900;white-space:nowrap}.lego-price-stock-edit input{flex:1 1 220px;min-width:0}.lego-import-notice{margin:14px 0 0;color:#d7c69b;font-size:14px}.lego-client-actions{max-width:1120px;margin:18px auto;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}.lego-client-actions button{padding:13px 22px;border:0;border-radius:9px;background:#e9bd54;color:#17130a;font-size:16px;font-weight:900;cursor:pointer}.lego-client-actions button:disabled{opacity:.45;cursor:not-allowed}.lego-client-actions p{margin:10px 0 4px;color:#e9bd54;font-weight:700}.lego-client-actions small{color:#aaa}
+.lego-admin-cost strong{display:block;font-size:30px;font-weight:900;color:#e9bd54;margin-top:5px}.lego-supplier-price-editor{display:none;margin-top:12px;max-width:260px}.lego-supplier-price-editor label{display:block;color:#ddd;font-size:13px;margin-bottom:6px}.lego-supplier-price-editor input{width:100%;box-sizing:border-box;padding:14px 14px;border:2px solid #e9bd54;border-radius:8px;background:#202020;color:#f5d27c;font-size:28px;font-weight:900;cursor:text;pointer-events:auto;user-select:text}.lego-supplier-price-hint{display:block;color:#aaa;font-size:12px;margin-top:6px}.lego-price-stock-line{display:flex;align-items:center;flex-wrap:wrap;gap:14px}.lego-stock-badge{display:inline-flex;align-items:center;padding:7px 12px;border:1px solid #a84a4a;border-radius:999px;background:#3b1717;color:#ffb2b2;font-size:13px;font-weight:900;white-space:nowrap}.lego-stock-badge.available{border-color:#397c55;background:#14291c;color:#a9edbd}.lego-stock-toggle{display:flex;align-items:center;gap:9px;margin-top:14px;color:#f5d27c;font-weight:800}.lego-stock-toggle input{width:20px;height:20px;accent-color:#e9bd54}.lego-price-stock-edit input{flex:1 1 220px;min-width:0}.lego-import-notice{margin:14px 0 0;color:#d7c69b;font-size:14px}.lego-client-actions{max-width:1120px;margin:18px auto;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}.lego-client-actions button{padding:13px 22px;border:0;border-radius:9px;background:#e9bd54;color:#17130a;font-size:16px;font-weight:900;cursor:pointer}.lego-client-actions button:disabled{opacity:.45;cursor:not-allowed}.lego-client-actions p{margin:10px 0 4px;color:#e9bd54;font-weight:700}.lego-client-actions small{color:#aaa}
 
 .lego-page-toolbar{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin:0 auto 18px;min-height:46px}
 .lego-page-toolbar #legoEditToggle,.lego-page-toolbar #legoEditSave{margin:0;flex:0 0 auto}
@@ -127,8 +127,8 @@
 <section id="legoClientActions" class="lego-client-actions" aria-live="polite"><button type="button" id="legoAddToCart" disabled>Ajouter au panier</button><p id="legoCartFeedback">Sélectionnez un modèle pour l’ajouter à votre panier.</p><small>Le prix et les frais d’importation seront confirmés ultérieurement.</small></section>
 <section class="lego-admin-cost" id="legoAdminCost" aria-label="Prix fournisseur et disponibilité">
 <div>Prix fournisseur — photo sélectionnée</div>
-<div class="lego-price-stock-line"><strong id="legoAdminPrice">Prix non renseigné</strong><span class="lego-stock-badge">Plus de stock</span></div>
-<div class="lego-supplier-price-editor" id="legoSupplierPriceEditor"><label for="legoSupplierPriceInput">Clique ici et saisis le prix fournisseur (€)</label><div class="lego-price-stock-line lego-price-stock-edit"><input id="legoSupplierPriceInput" type="text" inputmode="decimal" autocomplete="off" placeholder="Ex. 45,00" aria-label="Prix fournisseur en euros"><span class="lego-stock-badge">Plus de stock</span></div><small class="lego-supplier-price-hint">Tu peux saisir ou remplacer directement le montant (ex. 45,00), puis cliquer sur « Enregistrer les modifications ».</small></div>
+<div class="lego-price-stock-line"><strong id="legoAdminPrice">Prix non renseigné</strong><span class="lego-stock-badge" id="legoAdminStockBadge">En stock</span></div>
+<div class="lego-supplier-price-editor" id="legoSupplierPriceEditor"><label for="legoSupplierPriceInput">Clique ici et saisis le prix fournisseur (€)</label><div class="lego-price-stock-line lego-price-stock-edit"><input id="legoSupplierPriceInput" type="text" inputmode="decimal" autocomplete="off" placeholder="Ex. 45,00" aria-label="Prix fournisseur en euros"></div><label class="lego-stock-toggle"><input id="legoOutOfStockInput" type="checkbox"> Marquer ce LEGO « Plus de stock »</label><small class="lego-supplier-price-hint">Le prix et la disponibilité sont enregistrés pour cette photo uniquement lorsque tu cliques sur « Enregistrer les modifications ».</small></div>
 <p class="lego-import-notice">Les frais d’importation internationaux vous seront communiqués ultérieurement.</p>
 </section>
 <div class="lego-page-toolbar" id="legoPageToolbar"><button id="legoEditToggle" type="button">✏️ Modifier la galerie LEGO</button><button type="button" id="legoEditSave" aria-label="Enregistrer les modifications">Enregistrer les modifications</button><span id="legoSaveFeedback" role="status" aria-live="polite" class="lego-save-feedback"></span></div>
@@ -175,6 +175,11 @@ bindLegoThumbs();
  const renderSupplierPrice=()=>{
   const row=legoRows.find(x=>x.id===selectedLegoId);
   const amount=row?.supplier_price_eur;
+  const outOfStock=!!row?.is_out_of_stock;
+  const stockBadge=document.getElementById('legoAdminStockBadge');
+  stockBadge.textContent=outOfStock?'Plus de stock':'En stock';
+  stockBadge.classList.toggle('available',!outOfStock);
+  document.getElementById('legoOutOfStockInput').checked=outOfStock;
   document.getElementById('legoAdminPrice').textContent=amount===null||amount===undefined?'Prix non renseigné':new Intl.NumberFormat('fr-BE',{style:'currency',currency:'EUR'}).format(Number(amount));
   document.getElementById('legoAdminPrice').style.display=editMode?'none':'block';
   document.getElementById('legoSupplierPriceEditor').style.display=editMode?'block':'none';
@@ -223,11 +228,12 @@ bindLegoThumbs();
   selectedLegoId=selected?.id||null;
   document.getElementById('legoMainImage').src=selected?.image_url||'';
   const selectedIsModel=!!selected&&selected.group_key==='models';
-  addToCartButton.disabled=!selectedIsModel;
-  cartFeedback.textContent=selectedIsModel?'Modèle sélectionné : prêt à être ajouté au panier.':'Sélectionnez une voiture dans les modèles pour l’ajouter au panier.';
+  const selectedOutOfStock=!!selected?.is_out_of_stock;
+  addToCartButton.disabled=!selectedIsModel||selectedOutOfStock;
+  cartFeedback.textContent=!selectedIsModel?'Sélectionnez une voiture dans les modèles pour l’ajouter au panier.':selectedOutOfStock?'Plus de stock pour ce modèle.':'Modèle sélectionné : prêt à être ajouté au panier.';
   bindLegoThumbs();
   document.querySelectorAll('.lego-thumb[data-lego-id]').forEach(btn=>{
-   const selectImage=()=>{selectedLegoId=btn.dataset.legoId;const row=legoRows.find(x=>x.id===selectedLegoId);const isModel=row?.group_key==='models';addToCartButton.disabled=!isModel;cartFeedback.textContent=isModel?'Modèle sélectionné : prêt à être ajouté au panier.':'Sélectionnez une voiture dans les modèles pour l’ajouter au panier.';renderSupplierPrice()};
+   const selectImage=()=>{selectedLegoId=btn.dataset.legoId;const row=legoRows.find(x=>x.id===selectedLegoId);const isModel=row?.group_key==='models';const outOfStock=!!row?.is_out_of_stock;addToCartButton.disabled=!isModel||outOfStock;cartFeedback.textContent=!isModel?'Sélectionnez une voiture dans les modèles pour l’ajouter au panier.':outOfStock?'Plus de stock pour ce modèle.':'Modèle sélectionné : prêt à être ajouté au panier.';renderSupplierPrice()};
    btn.addEventListener('click',selectImage);
    if(btn.classList.contains('lego-left-thumb'))btn.addEventListener('mouseenter',selectImage);
   });
@@ -283,6 +289,7 @@ bindLegoThumbs();
    if(!session||session.user?.app_metadata?.role!=='admin')throw new Error('Session administrateur absente ou expirée. Reconnecte-toi.');
    const changes=[];
    const priceRaw=document.getElementById('legoSupplierPriceInput').value.trim().replace(',', '.');
+   const selectedOutOfStock=document.getElementById('legoOutOfStockInput').checked;
    const selectedPrice=priceRaw===''?null:Number(priceRaw);
    if(selectedPrice!==null&&(!Number.isFinite(selectedPrice)||selectedPrice<0))throw new Error('Le prix fournisseur doit être un montant positif ou nul.');
    if(!selectedLegoId)throw new Error('Sélectionne une photo avant d’enregistrer son prix.');
@@ -296,13 +303,13 @@ bindLegoThumbs();
     const change=changes[index];
     feedback.textContent='Enregistrement '+(index+1)+' / '+changes.length+'…';
     const {data,error}=await db.from('lego_gallery_images')
-     .update({group_key:change.group_key,sort_order:change.sort_order,...(change.id===selectedLegoId?{supplier_price_eur:selectedPrice}:{}),updated_at:new Date().toISOString()})
+     .update({group_key:change.group_key,sort_order:change.sort_order,...(change.id===selectedLegoId?{supplier_price_eur:selectedPrice,is_out_of_stock:selectedOutOfStock}:{}),updated_at:new Date().toISOString()})
      .eq('id',change.id).select('id');
     if(error)throw error;
     if(!data||data.length!==1)throw new Error('La base n’a pas confirmé la mise à jour de la photo '+(index+1)+'. Vérifie les droits administrateur.');
    }
    const {data:verified,error:verifyError}=await db.from('lego_gallery_images')
-    .select('id,group_key,sort_order,is_active,supplier_price_eur').eq('is_active',true);
+    .select('id,group_key,sort_order,is_active,supplier_price_eur,is_out_of_stock').eq('is_active',true);
    if(verifyError)throw verifyError;
    const byId=new Map((verified||[]).map(row=>[row.id,row]));
    const mismatch=changes.find(change=>{
@@ -312,6 +319,7 @@ bindLegoThumbs();
    if(mismatch)throw new Error('La vérification a détecté une photo non enregistrée. Réessaie sans quitter le mode édition.');
    const verifiedSelected=byId.get(selectedLegoId);
    if(!verifiedSelected||(verifiedSelected.supplier_price_eur===null?null:Number(verifiedSelected.supplier_price_eur))!==selectedPrice)throw new Error('Le prix fournisseur de la photo sélectionnée n’a pas été confirmé.');
+   if(!!verifiedSelected.is_out_of_stock!==selectedOutOfStock)throw new Error('La disponibilité de la photo sélectionnée n’a pas été confirmée.');
    await loadLegoGallery();
    report('✓ Modifications enregistrées et vérifiées.');
   }catch(error){
@@ -329,6 +337,7 @@ bindLegoThumbs();
  addToCartButton.addEventListener('click',()=>{
   const item=legoRows.find(x=>x.id===selectedLegoId&&x.is_active&&x.group_key==='models');
   if(!item){cartFeedback.textContent='Sélectionnez d’abord une voiture.';return;}
+  if(item.is_out_of_stock){cartFeedback.textContent='Plus de stock pour ce modèle.';return;}
   let cart=[];try{cart=JSON.parse(localStorage.getItem('jerseyhub_cart_v1')||'[]');if(!Array.isArray(cart))cart=[];}catch{cart=[];}
   const entry={id:'lego-'+String(item.id)+'-'+Date.now().toString(36),name:'LEGO — Modèle '+(Number(item.sort_order||0)+1),category:'lego',team:'Galerie LEGO',model:'Modèle '+(Number(item.sort_order||0)+1),season:'',kitType:'LEGO',version:'',supplier:'',supplierUrl:'',image:item.image_url||null,images:[item.image_url].filter(Boolean),size:'Non applicable',quantity:1,patches:[],patchSelections:[],patchTotalEur:0,personalization:'Aucune',customPrice:null,priceLabel:'Prix à confirmer',importFeesLabel:'Frais d’importation internationaux communiqués ultérieurement'};
   cart.push(entry);localStorage.setItem('jerseyhub_cart_v1',JSON.stringify(cart));

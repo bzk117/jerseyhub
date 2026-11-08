@@ -95,19 +95,35 @@
 <script src="supabase-config.js"></script>
 <script>
 document.getElementById('mobileMenu')?.addEventListener('click',()=>document.querySelector('.main-nav')?.classList.toggle('open'));
-document.querySelectorAll('.lego-thumb').forEach(btn=>{
- const showImage=()=>{
-  document.querySelectorAll('.lego-thumb').forEach(x=>x.classList.remove('active'));
-  btn.classList.add('active');
-  document.getElementById('legoMainImage').src=btn.dataset.image;
- };
- btn.addEventListener('click',showImage);
- if(btn.classList.contains('lego-left-thumb'))btn.addEventListener('mouseenter',showImage);
-});
+const bindLegoThumbs=()=>{
+ document.querySelectorAll('.lego-thumb').forEach(btn=>{
+  const showImage=()=>{
+   document.querySelectorAll('.lego-thumb').forEach(x=>x.classList.remove('active'));
+   btn.classList.add('active');
+   document.getElementById('legoMainImage').src=btn.dataset.image;
+  };
+  btn.addEventListener('click',showImage);
+  if(btn.classList.contains('lego-left-thumb'))btn.addEventListener('mouseenter',showImage);
+ });
+};
+bindLegoThumbs();
 (async()=>{
  const cfg=window.JERSEYHUB_SUPABASE;
  if(!window.supabase||!cfg?.url||!cfg?.anonKey)return;
  const db=window.supabase.createClient(cfg.url,cfg.anonKey);
+ const escapeAttr=value=>String(value||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const {data:gallery,error:galleryError}=await db.from('lego_gallery_images').select('group_key,image_url,sort_order').eq('is_active',true).order('sort_order',{ascending:true});
+ if(!galleryError&&gallery?.length){
+  const presentation=gallery.filter(x=>x.group_key==='presentation').sort((a,b)=>a.sort_order-b.sort_order);
+  const models=gallery.filter(x=>x.group_key==='models').sort((a,b)=>a.sort_order-b.sort_order);
+  const makeButton=(item,index,isPresentation)=>'<button class="lego-thumb'+(isPresentation?' lego-left-thumb':'')+(index===0?' active':'')+'" type="button" data-image="'+escapeAttr(item.image_url)+'" aria-label="Afficher '+(isPresentation?'la photo de présentation ':'le modèle LEGO ')+(index+1)+'"><img src="'+escapeAttr(item.image_url)+'" alt="" loading="lazy"></button>';
+  if(presentation.length)document.querySelector('.lego-left-thumbs').innerHTML=presentation.map((x,i)=>makeButton(x,i,true)).join('');
+  if(models.length){
+   document.querySelector('.lego-right-options').innerHTML=models.map((x,i)=>makeButton(x,i,false)).join('');
+   document.getElementById('legoMainImage').src=models[0].image_url;
+  }
+  bindLegoThumbs();
+ }
  const showAdminPrice=async()=>{
   const {data:{session}}=await db.auth.getSession();
   if(!session)return;

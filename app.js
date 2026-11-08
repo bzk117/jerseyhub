@@ -379,7 +379,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
       const options=displayPatches.filter(x=>Number(x.slot_number)===slot);
       const slotName=isNational?(slot===1?"Compétition / qualifications":slot===2?"FIFA / message":slot===3?"Match / phase du tournoi":slot===4?"Distinction / record":"Variantes FIFA / DEBUT"):(p.patchSlotLabels?.[slot-1]||("Emplacement "+slot));
       return '<fieldset class="jh-patch-slot"><legend>Patch '+slot+' — '+slotName+'</legend><div class="jh-patch-grid"><label class="jh-patch-choice jh-patch-none"><input type="radio" name="jh-patch-slot-'+slot+'" value="" checked><span class="jh-patch-thumb">＋</span><span><b>Aucun patch</b></span></label>'+
-       options.map(x=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+esc(x.id)+'"><img class="jh-patch-thumb" src="'+esc(x.image_url)+'" alt="'+esc(x.label)+'"><span><b>'+esc(x.label)+'</b></span></label>').join("")+
+       options.map(x=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+esc(x.id)+'">'+(x.image_url?'<img class="jh-patch-thumb" src="'+esc(x.image_url)+'" alt="'+esc(x.label)+'">':'<span class="jh-patch-thumb jh-patch-text-thumb">✦</span>')+'<span><b>'+esc(x.label)+'</b></span></label>').join("")+
        '</div></fieldset>';
      }).join("")+'</section>'
    : '<label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+legacyPatchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div>';

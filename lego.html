@@ -21,12 +21,15 @@
 .lego-admin-cost{display:none;max-width:1120px;margin:18px auto 0;padding:18px 22px;border:1px solid #4b4537;border-radius:12px;background:#121212;color:#f7f7f7}
 .lego-admin-cost strong{display:block;font-size:34px;font-weight:900;color:#e9bd54;margin-top:5px}
 
-.lego-page-toolbar{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin:0 auto 18px}\n#legoEditToggle{display:none;margin:0;padding:11px 18px;border:1px solid #d9ad4b;border-radius:9px;background:#211b0e;color:#f5d27c;font-weight:800;cursor:pointer}
+.lego-page-toolbar{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin:0 auto 18px;min-height:46px}
+.lego-page-toolbar #legoEditToggle,.lego-page-toolbar #legoEditSave{margin:0;flex:0 0 auto}
+#legoEditToggle{display:none;margin:0;padding:11px 18px;border:1px solid #d9ad4b;border-radius:9px;background:#211b0e;color:#f5d27c;font-weight:800;cursor:pointer}
 #legoInlineEditor{display:none;max-width:1500px;margin:20px auto;padding:18px;border:1px solid #6d5728;border-radius:14px;background:#151515;color:#f5f5f5}
 #legoInlineEditor h2{margin:0 0 8px;color:#f5d27c}
 .lego-edit-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
 .lego-edit-toolbar button,.lego-inline-add button{padding:10px 14px;border:0;border-radius:8px;background:#d6aa45;color:#17130a;font-weight:800;cursor:pointer}
-#legoEditSave{display:none;visibility:visible;opacity:1;position:relative;z-index:5;align-items:center;justify-content:center;min-width:190px;min-height:44px;padding:12px 20px;background:#e9bd54;color:#17130a;border:2px solid #ffe19a;border-radius:9px;font-size:16px;font-weight:900;box-shadow:0 0 0 2px #000,0 3px 12px #0008;cursor:pointer}\n#legoEditSave:disabled{opacity:.6;cursor:wait}
+#legoEditSave{display:none;visibility:visible;opacity:1;position:relative;z-index:5;align-items:center;justify-content:center;min-width:190px;min-height:44px;padding:12px 20px;background:#e9bd54;color:#17130a;border:2px solid #ffe19a;border-radius:9px;font-size:16px;font-weight:900;box-shadow:0 0 0 2px #000,0 3px 12px #0008;cursor:pointer}
+#legoEditSave:disabled{opacity:.6;cursor:wait}
 .lego-edit-status{color:#d7c69b;font-size:13px}
 .lego-edit-item{position:relative;min-width:0}
 .lego-edit-item .lego-thumb{width:100%}
@@ -130,7 +133,7 @@
 <section class="lego-admin-cost" id="legoAdminCost" aria-label="Prix fournisseur administrateur">
 <div>Prix fournisseur</div><strong id="legoAdminPrice">— €</strong>
 </section>
-<div class="lego-page-toolbar"><button id="legoEditToggle" type="button">✏️ Modifier la galerie LEGO</button><button type="button" id="legoEditSave">Enregistrer les modifications</button></div>
+<div class="lego-page-toolbar" id="legoPageToolbar"><button id="legoEditToggle" type="button">✏️ Modifier la galerie LEGO</button><button type="button" id="legoEditSave" aria-label="Enregistrer les modifications">Enregistrer les modifications</button></div>
 <section id="legoInlineEditor" aria-label="Édition de la galerie LEGO">
  <h2>Modifier la galerie directement</h2>
  <p style="color:#ccc;margin:0">Fais glisser les photos dans la galerie au-dessus, entre les photos de présentation et les modèles. Le résultat affiché est celui que verront les clients après publication.</p>

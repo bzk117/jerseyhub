@@ -26,6 +26,7 @@
 #legoInlineEditor h2{margin:0 0 8px;color:#f5d27c}
 .lego-edit-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
 .lego-edit-toolbar button,.lego-inline-add button{padding:10px 14px;border:0;border-radius:8px;background:#d6aa45;color:#17130a;font-weight:800;cursor:pointer}
+#legoEditSave{display:inline-flex!important;visibility:visible!important;opacity:1!important;position:relative;z-index:5;align-items:center;justify-content:center;min-width:190px;min-height:44px;padding:12px 20px!important;background:#e9bd54!important;color:#17130a!important;border:2px solid #ffe19a!important;border-radius:9px!important;font-size:16px!important;font-weight:900!important;box-shadow:0 0 0 2px #000,0 3px 12px #0008!important}
 .lego-edit-status{color:#d7c69b;font-size:13px}
 .lego-edit-item{position:relative;min-width:0}
 .lego-edit-item .lego-thumb{width:100%}
@@ -133,7 +134,7 @@
 <section id="legoInlineEditor" aria-label="Édition de la galerie LEGO">
  <h2>Modifier la galerie directement</h2>
  <p style="color:#ccc;margin:0">Fais glisser les photos dans la galerie au-dessus, entre les photos de présentation et les modèles. Le résultat affiché est celui que verront les clients après publication.</p>
- <div class="lego-edit-toolbar"><button type="button" id="legoEditSave">Sauvegarder</button><button type="button" id="legoEditClose" class="lego-edit-close">Fermer le mode édition</button><button type="button" id="legoClearPresentation" class="lego-clear-presentation">Vider les 5 photos de présentation</button><span id="legoEditStatus" class="lego-edit-status">Chargement de la galerie…</span></div>
+ <div class="lego-edit-toolbar"><button type="button" id="legoEditSave">Enregistrer les modifications</button><button type="button" id="legoEditClose" class="lego-edit-close">Fermer le mode édition</button><button type="button" id="legoClearPresentation" class="lego-clear-presentation">Vider les 5 photos de présentation</button><span id="legoEditStatus" class="lego-edit-status">Chargement de la galerie…</span></div>
  <p class="lego-edit-status">Tu peux placer jusqu’à 5 photos à gauche. Glisse les modèles depuis la droite vers la gauche dans l’ordre souhaité ; tu peux aussi les réordonner directement par glisser-déposer.</p>
  <form id="legoInlineAddForm" class="lego-inline-add">
   <div><label for="legoInlineGroup">Ajouter dans</label><select id="legoInlineGroup"><option value="presentation">Présentation</option><option value="models">Modèles LEGO</option></select></div>

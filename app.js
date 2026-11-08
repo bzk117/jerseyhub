@@ -467,7 +467,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
     const record=displayPatches.find(x=>String(x.id)===String(input.value));return record?{slot:index+1,id:record.id,label:record.label,image_url:record.image_url,extra_price_eur:Number(record.extra_price_eur)||0}:null;
    }).filter(Boolean):[];
    const patches=(isNational||isClub)?patchSelections.map(x=>x.label):[...dialog.querySelectorAll(".jh-patch:checked")].map(x=>x.value);
-   const patchTotalEur=0;
+   const patchTotalEur=patchSelections.reduce((sum,patch)=>sum+(Number(patch.extra_price_eur)||0),0);
    const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
    const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
    write(next);close();showCart();

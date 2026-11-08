@@ -8,39 +8,14 @@
 <section id="login" class="admin-panel admin-hidden"><h2>Connexion administrateur</h2><form id="loginForm"><label for="email">Adresse e-mail</label><input id="email" type="email" required autocomplete="username"><label for="password">Mot de passe</label><input id="password" type="password" required autocomplete="current-password"><button class="primary" type="submit">Se connecter</button></form></section>
 <section id="dashboard" class="admin-hidden"><section class="admin-panel"><h2>Tableau de bord</h2><div id="adminStats" class="admin-stats"><div class="admin-stat"><small>Commandes en attente</small><strong>—</strong></div><div class="admin-stat"><small>Commandes payées</small><strong>—</strong></div><div class="admin-stat"><small>En transit</small><strong>—</strong></div><div class="admin-stat"><small>Terminées</small><strong>—</strong></div><div class="admin-stat"><small>Chiffre d’affaires encaissé</small><strong>—</strong></div></div></section><section class="admin-panel" id="r2InventoryPanel"><h2>Inventaire des images Cloudflare R2</h2><p class="admin-meta">Analyse les noms et métadonnées de tous les fichiers du bucket pour préparer l’intégration des maillots de clubs. Cette opération ne télécharge, ne déplace et ne supprime aucune image.</p><div class="admin-row"><button type="button" class="primary" id="startR2Inventory">Analyser les fichiers R2</button><span id="r2InventoryFeedback" class="lego-admin-feedback">Prêt à analyser le stockage.</span></div>
 <div class="admin-card" style="margin-top:16px"><h3>Prévisualisation des maillots de clubs</h3><p class="admin-meta">Lecture seule de l’inventaire R2. Saisissez le chemin exact du dossier d’un club (ex. assets/clubs/Angleterre/Liverpool/) et, si besoin, un identifiant à 5 chiffres. Les images originales ne sont ni modifiées ni déplacées.</p><div class="admin-row"><div><label for="r2PreviewFolder">Dossier du club</label><input id="r2PreviewFolder" type="text" value="assets/clubs/Angleterre/Liverpool/" placeholder="assets/clubs/Pays/Club/"></div><div><label for="r2PreviewGroup">Identifiant du groupe (facultatif)</label><input id="r2PreviewGroup" type="text" inputmode="numeric" maxlength="5" placeholder="00062"></div><button type="button" class="primary" id="loadR2Preview">Afficher les photos</button></div><p id="r2PreviewFeedback" class="admin-meta">Aucune photo chargée.</p><div id="r2PreviewGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px"></div></div></section><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section>
-<section id="legoGalleryManagement" class="admin-panel">
-<h2>Gestion de la galerie LEGO</h2>
-<p class="admin-meta">Déplace les photos par glisser-déposer entre les deux zones ou à l'intérieur d'une zone. Enregistre ensuite l'ordre pour le publier sur la galerie du site. Les photos retirées restent récupérables.</p>
-<p><a class="primary" href="lego.html?edition=1" style="display:inline-block;padding:10px 14px;border-radius:8px;text-decoration:none">Ouvrir la page LEGO en mode édition visuelle</a></p>
-<p class="admin-meta">La modification se fait directement sur la page LEGO, avec les photos visibles comme pour les clients.</p>
-<div class="lego-admin-groups">
- <div class="lego-admin-dropzone" data-drop-group="presentation"><h3>Photos de présentation</h3><div id="legoPresentationList" class="lego-admin-list">Chargement…</div></div>
- <div class="lego-admin-dropzone" data-drop-group="models"><h3>Modèles LEGO</h3><div id="legoModelsList" class="lego-admin-list">Chargement…</div></div>
-</div>
-<div class="admin-row" style="margin-top:14px"><button type="button" class="primary" id="saveLegoOrder">Enregistrer l'ordre des photos</button><span id="legoGalleryFeedback" class="lego-admin-feedback">Chargement des photos…</span></div>
-<form id="legoAddForm" class="admin-card">
- <h3>Ajouter une photo</h3>
- <div class="lego-admin-add">
-  <div><label for="legoAddGroup">Placer dans</label><select id="legoAddGroup"><option value="presentation">Photos de présentation</option><option value="models">Modèles LEGO</option></select></div>
-  <div><label for="legoAddFile">Choisir une image (JPG, PNG ou WebP)</label><input id="legoAddFile" type="file" accept="image/jpeg,image/png,image/webp"></div>
-  <div style="grid-column:1/-1"><label for="legoAddUrl">Ou coller l'URL d'une image</label><input id="legoAddUrl" type="url" placeholder="https://…"></div>
-  <button type="submit" class="primary" id="legoAddSubmit">Ajouter la photo</button>
- </div>
- <p class="admin-meta">Un fichier choisi sera envoyé vers le stockage Cloudflare R2. Une URL peut aussi être utilisée.</p>
-</form>
-<div class="admin-card"><h3>Photos retirées (restaurables)</h3><div id="legoInactiveList" class="lego-admin-list">Chargement…</div></div>
 </section>
 
-<section id="patchManagement" class="admin-panel"><h2>Gestion des patchs des maillots nationaux</h2><p class="admin-meta">Ajoutez les patchs illustrés du fournisseur, leur emplacement (aucun supplément de prix). Laissez le pays vide pour une option générale ; indiquez un modèle pour la limiter à une fiche précise.</p>
-<form id="patchForm"><input id="patchId" type="hidden"><div class="admin-row"><div><label for="patchCategory">Catégorie</label><select id="patchCategory"><option value="clubs">Maillots de clubs</option><option value="national">Équipes nationales</option></select></div><div><label for="patchTeam">Équipe / pays (facultatif)</label><input id="patchTeam" placeholder="Ex. France"></div><div><label for="patchProduct">Modèle exact (facultatif)</label><input id="patchProduct" placeholder="Ex. 2026-27 France Home"></div><div><label for="patchSlot">Emplacement</label><select id="patchSlot"><option value="1">Emplacement 1</option><option value="2">Emplacement 2</option><option value="3">Emplacement 3</option></select></div></div>
-<div class="admin-row"><div><label for="patchLabel">Nom du patch</label><input id="patchLabel" required maxlength="100" placeholder="Ex. FIFA World Cup"></div><div><label for="patchOrder">Ordre d’affichage</label><input id="patchOrder" type="number" step="1" value="0"></div><div><label for="patchPrice">Supplément (€)</label><input id="patchPrice" type="number" min="0" step="0.01" value="0"></div></div>
-<label for="patchFile">Image du patch (depuis votre ordinateur)</label><input id="patchFile" type="file" accept="image/jpeg,image/png,image/webp"><p class="admin-meta">Formats JPG, PNG ou WebP · 10 Mo maximum. L’image sera envoyée dans le stockage Cloudflare R2.</p><label for="patchImage">Ou URL d’une image déjà hébergée (facultatif)</label><input id="patchImage" type="url" placeholder="https://…"><label><input id="patchActive" type="checkbox" checked style="width:auto"> Patch disponible sur le site</label>
-<div class="admin-row"><button class="primary" type="submit" id="savePatch">Ajouter le patch</button><button type="button" id="cancelPatch">Effacer le formulaire</button></div></form><div id="patchOptionsList">Chargement des patchs…</div></section>
+</section>
 <div class="admin-row"><div><h2>Demandes clients</h2><p class="admin-meta">Les changements sont enregistrés dans Supabase.</p></div><label class="admin-filter-label" for="archiveFilter">Afficher : <select id="archiveFilter"><option value="active">Demandes actives</option><option value="archived">Demandes archivées</option><option value="all">Toutes les demandes</option></select></label><button id="logout">Déconnexion</button><button id="reload">Actualiser</button></div><div class="admin-search"><label for="adminSearch">Rechercher une commande</label><input id="adminSearch" type="search" placeholder="N° de commande, nom ou adresse e-mail"><p class="admin-search-hint">La recherche couvre les commandes de la vue sélectionnée.</p></div><div class="admin-grid"><section class="admin-panel"><h3>Demandes reçues</h3><div id="requests">Chargement…</div></section><aside class="admin-panel"><h3>Détail de la demande</h3><div id="detail">Sélectionnez une demande.</div></aside></div></section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
 <script>
-(()=>{const $=id=>document.getElementById(id),notice=$('notice');if(!window.supabase||!window.JERSEYHUB_SUPABASE){notice.textContent="Configuration Supabase indisponible.";return}const db=window.supabase.createClient(JERSEYHUB_SUPABASE.url,JERSEYHUB_SUPABASE.anonKey);let selected=null,records=[],patchOptions=[],legoGalleryItems=[],searchIds=null,searchToken=0,ordersLoadToken=0;
+(()=>{const $=id=>document.getElementById(id),notice=$('notice');if(!window.supabase||!window.JERSEYHUB_SUPABASE){notice.textContent="Configuration Supabase indisponible.";return}const db=window.supabase.createClient(JERSEYHUB_SUPABASE.url,JERSEYHUB_SUPABASE.anonKey);let selected=null,records=[],searchIds=null,searchToken=0,ordersLoadToken=0;
 const say=(s,bad=false)=>{notice.textContent=s;notice.style.borderColor=bad?'#a44':'#6b531d'};
 const statuses=['En attente','En transit','Reçu','Terminé','Pas de stock'];
 const statusOptions=current=>statuses.map(s=>'<option'+(s===current?' selected':'')+'>'+s+'</option>').join('');
@@ -53,7 +28,7 @@ if(error||user.app_metadata?.role!=='admin'){$('login').classList.add('admin-hid
 $('login').classList.add('admin-hidden');$('dashboard').classList.remove('admin-hidden');say("Accès administrateur vérifié.");await load()}
 async function load(){
  const loadToken=++ordersLoadToken;
- await loadComments();await loadLegoGallery();await loadPatchOptions();await loadDashboardStats();
+ await loadComments();await loadDashboardStats();
  let requestQuery=db.from('requests').select('id,order_number,status,customer_note,created_at,customer_id,tracking_number,tracking_url,price_eur,payment_status,admin_approved_at,archived_at,request_items(id,category,team_brand,model,season,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur,image_url)').order('created_at',{ascending:false});
  const filter=$('archiveFilter')?.value||'active';
  if(filter==='active')requestQuery=requestQuery.is('archived_at',null);
@@ -127,21 +102,6 @@ async function show(id){
  $('backToAdminPanel').onclick=()=>{selected=null;$('detail').textContent='Sélectionnez une demande.';$('dashboard').scrollIntoView({behavior:'smooth',block:'start'});};
  $('deleteRequest').onclick=async()=>{if(!confirm('Supprimer définitivement cette commande ? Ses articles et sa note interne seront également supprimés. Le client ne la verra plus dans son compte.'))return;const {error}=await db.from('requests').delete().eq('id',id);if(error){say("Suppression impossible : "+error.message,true);return}selected=null;say('Commande supprimée.');$('detail').textContent='Sélectionnez une demande.';await load()}
 }
-async function loadPatchOptions(){
- const box=$('patchOptionsList');if(!box)return;
- const {data,error}=await db.from('patch_options').select('*').order('category',{ascending:true}).order('team_name',{ascending:true}).order('slot_number',{ascending:true}).order('sort_order',{ascending:true});
- if(error){box.textContent='Impossible de charger les patchs : '+error.message;return}
- patchOptions=data||[];box.innerHTML='';
- if(!patchOptions.length){box.textContent='Aucun patch configuré pour le moment.';return}
- patchOptions.forEach(p=>{
-  const el=document.createElement('article');el.className='admin-card';
-  el.innerHTML='<div class="admin-row"><img src="'+esc(p.image_url)+'" alt="" style="width:70px;height:60px;object-fit:contain;background:#090909;border-radius:6px;flex:0 0 70px"><div><b>'+esc(p.label)+'</b><p class="admin-meta">'+esc(p.team_name||'Toutes les équipes')+(p.product_name?' · '+esc(p.product_name):'')+' · '+(p.category==='clubs'?'Clubs':'National')+' · Emplacement '+esc(p.slot_number)+' · '+(p.is_active?'Disponible':'Désactivé')+'</p></div><button type="button" data-edit-patch="'+esc(p.id)+'">Modifier</button><button type="button" class="danger" data-delete-patch="'+esc(p.id)+'">Supprimer</button></div>';
-  box.append(el);
- });
- box.querySelectorAll('[data-edit-patch]').forEach(btn=>btn.onclick=()=>{const p=patchOptions.find(x=>x.id===btn.dataset.editPatch);if(!p)return;$('patchId').value=p.id;$('patchCategory').value=p.category||'national';$('patchTeam').value=p.team_name||'';$('patchProduct').value=p.product_name||'';$('patchSlot').value=String(p.slot_number);$('patchLabel').value=p.label;$('patchOrder').value=p.sort_order;$('patchPrice').value=Number(p.extra_price_eur)||0;$('patchImage').value=p.image_url;$('patchFile').value='';$('patchActive').checked=p.is_active;$('savePatch').textContent='Enregistrer les modifications';$('patchForm').scrollIntoView({behavior:'smooth',block:'center'})});
- box.querySelectorAll('[data-delete-patch]').forEach(btn=>btn.onclick=async()=>{if(!confirm('Supprimer ce patch ?'))return;const {error}=await db.from('patch_options').delete().eq('id',btn.dataset.deletePatch);if(error){say('Suppression impossible : '+error.message,true);return}say('Patch supprimé.');await loadPatchOptions()});
-}
-function resetPatchForm(){$('patchForm').reset();$('patchId').value='';$('patchOrder').value='0';$('patchPrice').value='0';$('patchActive').checked=true;$('savePatch').disabled=false;$('savePatch').textContent='Ajouter le patch'}
 $('adminSearch').addEventListener('input',async()=>{
  const term=$('adminSearch').value.trim(),token=++searchToken;
  if(!term){searchIds=null;renderRequestList();return}
@@ -151,112 +111,7 @@ $('adminSearch').addEventListener('input',async()=>{
  if(error){say('Recherche impossible : '+error.message,true);return}
  searchIds=(data||[]).map(x=>x.request_id);renderRequestList();
 });
-async function uploadAdminImage(file){
- if(!file)return null;
- if(file.size<1||file.size>10*1024*1024)throw new Error('L’image doit peser au maximum 10 Mo.');
- if(!['image/jpeg','image/png','image/webp'].includes(file.type))throw new Error('Choisissez une image JPG, PNG ou WebP.');
- const form=new FormData();form.append('file',file,file.name);
- const {data,error}=await db.functions.invoke('jerseyhub-r2-upload',{body:form});
- if(error){
-  let detail=error.message;
-  try{const body=await error.context?.json();if(body?.error)detail=body.error}catch{}
-  throw new Error(detail||'Échec de l’envoi vers Cloudflare R2.');
- }
- if(!data?.ok||!data?.url)throw new Error('Le stockage n’a pas renvoyé de lien d’image valide.');
- return data.url;
-}
-$('patchForm').onsubmit=async e=>{
- e.preventDefault();
- const file=$('patchFile').files?.[0]||null;
- let image=$('patchImage').value.trim();
- const save=$('savePatch');save.disabled=true;
- try{
-  if(file){say('Envoi de l’image vers Cloudflare R2…');image=await uploadAdminImage(file)}
-  if(!image)throw new Error('Choisissez une image sur votre ordinateur ou indiquez une URL.');
-  const u=new URL(image);if(!['http:','https:'].includes(u.protocol))throw new Error('L’URL de l’image doit commencer par http ou https.');
-  const payload={category:$('patchCategory').value,team_name:$('patchTeam').value.trim()||null,product_name:$('patchProduct').value.trim()||null,slot_number:Number($('patchSlot').value),label:$('patchLabel').value.trim(),image_url:image,extra_price_eur:Math.max(0,Number($('patchPrice').value)||0),sort_order:Number($('patchOrder').value)||0,is_active:$('patchActive').checked};
-  const id=$('patchId').value;const result=id?await db.from('patch_options').update(payload).eq('id',id):await db.from('patch_options').insert(payload);
-  if(result.error)throw new Error(result.error.message);
-  say(id?'Patch mis à jour.':'Patch ajouté.');resetPatchForm();await loadPatchOptions();
- }catch(error){say('Patch non enregistré : '+error.message,true)}
- finally{save.disabled=false}
-};
-$('cancelPatch').onclick=resetPatchForm;
 async function loadComments(){const box=$('comments');const {data,error}=await db.from('site_comments').select('id,display_name,content,status,admin_reply,created_at').order('created_at',{ascending:false});if(error){box.textContent="Commentaires indisponibles : "+error.message;return}box.innerHTML='';if(!data?.length){box.textContent="Aucun commentaire pour le moment.";return}data.forEach(c=>{const el=document.createElement('article');el.className='admin-card';el.innerHTML='<b>'+esc(c.display_name)+'</b> <span class="admin-status">'+esc(c.status)+'</span><p>'+esc(c.content)+'</p><small class="admin-meta">'+new Date(c.created_at).toLocaleString('fr-BE')+'</small><label>Réponse publique (facultatif)</label><textarea rows="2" data-reply></textarea><div class="admin-row"><button data-status="approved">Approuver</button><button data-status="rejected">Refuser</button><button data-delete>Supprimer</button></div>';el.querySelector('[data-reply]').value=c.admin_reply||'';el.querySelectorAll('[data-status]').forEach(btn=>btn.onclick=async()=>{const {error}=await db.from('site_comments').update({status:btn.dataset.status,admin_reply:el.querySelector('[data-reply]').value.trim()||null}).eq('id',c.id);if(error){say(error.message,true);return}say("Modération enregistrée.");await loadComments()});el.querySelector('[data-delete]').onclick=async()=>{if(!confirm('Supprimer définitivement ce commentaire ?'))return;const {error}=await db.from('site_comments').delete().eq('id',c.id);if(error){say(error.message,true);return}say("Commentaire supprimé.");await loadComments()};box.append(el)})}
-
-async function loadLegoGallery(){
- const feedback=$('legoGalleryFeedback');if(!feedback)return;
- const {data,error}=await db.from('lego_gallery_images').select('*').order('group_key',{ascending:true}).order('sort_order',{ascending:true});
- if(error){feedback.textContent='Chargement impossible : '+error.message;return}
- legoGalleryItems=data||[];
- const escUrl=value=>String(value||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const card=(item,index)=>'<article class="lego-admin-card" draggable="true" data-lego-id="'+escUrl(item.id)+'"><img src="'+escUrl(item.image_url)+'" alt="Photo LEGO '+(index+1)+'" loading="lazy"><small>'+escUrl(item.group_key==='presentation'?'Présentation':'Modèle')+' · '+(index+1)+'</small><button type="button" class="danger" data-remove-lego="'+escUrl(item.id)+'">Retirer de la galerie</button></article>';
- const active=legoGalleryItems.filter(x=>x.is_active);
- const presentation=active.filter(x=>x.group_key==='presentation').sort((a,b)=>a.sort_order-b.sort_order);
- const models=active.filter(x=>x.group_key==='models').sort((a,b)=>a.sort_order-b.sort_order);
- $('legoPresentationList').innerHTML=presentation.map(card).join('')||'<p class="admin-meta">Aucune photo.</p>';
- $('legoModelsList').innerHTML=models.map(card).join('')||'<p class="admin-meta">Aucun modèle.</p>';
- const inactive=legoGalleryItems.filter(x=>!x.is_active);
- $('legoInactiveList').innerHTML=inactive.map((x,i)=>'<article class="lego-admin-card"><img src="'+escUrl(x.image_url)+'" alt="Photo retirée" loading="lazy"><small>Photo retirée</small><button type="button" data-restore-lego="'+escUrl(x.id)+'">Restaurer</button></article>').join('')||( '<p class="admin-meta">Aucune photo retirée.</p>');
- document.querySelectorAll('.lego-admin-card[draggable="true"]').forEach(cardEl=>{
-  cardEl.addEventListener('dragstart',e=>{e.dataTransfer.setData('text/plain',cardEl.dataset.legoId);e.dataTransfer.effectAllowed='move'});
- });
- document.querySelectorAll('.lego-admin-dropzone').forEach(zone=>{
-  zone.ondragover=e=>{e.preventDefault();zone.classList.add('dragover')};
-  zone.ondragleave=e=>{if(!zone.contains(e.relatedTarget))zone.classList.remove('dragover')};
-  zone.ondrop=e=>{
-   e.preventDefault();zone.classList.remove('dragover');
-   const id=e.dataTransfer.getData('text/plain');
-   const dragged=[...document.querySelectorAll('[data-lego-id]')].find(el=>el.dataset.legoId===id);
-   if(!dragged)return;
-   const target=e.target.closest('[data-lego-id]');
-   if(target&&target!==dragged)target.before(dragged);
-   else zone.querySelector('.lego-admin-list').append(dragged);
-  };
- });
- document.querySelectorAll('[data-remove-lego]').forEach(btn=>btn.onclick=async()=>{
-  if(!confirm('Retirer cette photo de la galerie visible par les clients ? Tu pourras la restaurer ensuite.'))return;
-  const {error}=await db.from('lego_gallery_images').update({is_active:false,updated_at:new Date().toISOString()}).eq('id',btn.dataset.removeLego);
-  if(error){feedback.textContent='Retrait impossible : '+error.message;return}
-  feedback.textContent='Photo retirée. Elle reste récupérable ci-dessous.';await loadLegoGallery();
- });
- document.querySelectorAll('[data-restore-lego]').forEach(btn=>btn.onclick=async()=>{
-  const {error}=await db.from('lego_gallery_images').update({is_active:true,updated_at:new Date().toISOString()}).eq('id',btn.dataset.restoreLego);
-  if(error){feedback.textContent='Restauration impossible : '+error.message;return}
-  feedback.textContent='Photo restaurée.';await loadLegoGallery();
- });
- feedback.textContent=active.length+' photo(s) visibles · '+presentation.length+' présentation · '+models.length+' modèles · '+inactive.length+' retirée(s).';
-}
-$('saveLegoOrder').onclick=async()=>{
- const button=$('saveLegoOrder');button.disabled=true;
- try{
-  const updates=[];
-  document.querySelectorAll('.lego-admin-dropzone').forEach(zone=>{
-   const group=zone.dataset.dropGroup;
-   [...zone.querySelectorAll('[data-lego-id]')].forEach((card,index)=>updates.push({id:card.dataset.legoId,group_key:group,sort_order:index}));
-  });
-  const results=await Promise.all(updates.map(x=>db.from('lego_gallery_images').update({group_key:x.group_key,sort_order:x.sort_order,updated_at:new Date().toISOString()}).eq('id',x.id)));
-  const failed=results.find(x=>x.error);if(failed)throw failed.error;
-  $('legoGalleryFeedback').textContent='Ordre enregistré et publié sur la galerie LEGO.';
-  await loadLegoGallery();
- }catch(error){$('legoGalleryFeedback').textContent='Enregistrement incomplet : '+(error.message||error)}
- finally{button.disabled=false}
-};
-$('legoAddForm').onsubmit=async e=>{
- e.preventDefault();const button=$('legoAddSubmit'),file=$('legoAddFile').files?.[0]||null,raw=$('legoAddUrl').value.trim(),group=$('legoAddGroup').value;
- button.disabled=true;
- try{
-  let image=raw;
-  if(file){$('legoGalleryFeedback').textContent='Envoi de la photo vers Cloudflare R2…';image=await uploadAdminImage(file)}
-  if(!image)throw new Error('Choisis un fichier ou indique une URL.');
-  const parsed=new URL(image);if(!['http:','https:'].includes(parsed.protocol))throw new Error('L’URL doit commencer par http ou https.');
-  const next=legoGalleryItems.filter(x=>x.is_active&&x.group_key===group).reduce((max,x)=>Math.max(max,Number(x.sort_order)||0),-1)+1;
-  const {error}=await db.from('lego_gallery_images').insert({group_key:group,image_url:image,sort_order:next,is_active:true});
-  if(error)throw error;
-  $('legoAddForm').reset();$('legoGalleryFeedback').textContent='Photo ajoutée.';await loadLegoGallery();
- }catch(error){$('legoGalleryFeedback').textContent='Ajout impossible : '+(error.message||error)}
- finally{button.disabled=false}
-};
 
 async function loadR2Preview(){
  const button=$('loadR2Preview'),feedback=$('r2PreviewFeedback'),grid=$('r2PreviewGrid');
@@ -303,4 +158,4 @@ $('startR2Inventory').onclick=runR2Inventory;
 $('loginForm').onsubmit=async e=>{e.preventDefault();const {error}=await db.auth.signInWithPassword({email:$('email').value.trim(),password:$('password').value});if(error){say(error.message,true);return}await refresh()};
 $('logout').onclick=async()=>{await db.auth.signOut();selected=null;await refresh()};$('reload').onclick=load;$('archiveFilter').onchange=()=>{selected=null;$('detail').textContent='Sélectionnez une demande.';load()};db.auth.onAuthStateChange(()=>setTimeout(refresh,0));refresh();
 })();
-</script><script src="r2-migration.js"></script></body></html>
+</script></body></html>

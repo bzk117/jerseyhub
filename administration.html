@@ -6,7 +6,7 @@
 </style></head><body><header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><a class="nav-link" href="index.html">Retour au site</a></header>
 <main class="admin-wrap"><p class="eyebrow">ZONE PRIVÉE</p><h1>Administration <em>JerseyHub</em></h1><div id="notice" class="admin-panel">Vérification des accès…</div>
 <section id="login" class="admin-panel admin-hidden"><h2>Connexion administrateur</h2><form id="loginForm"><label for="email">Adresse e-mail</label><input id="email" type="email" required autocomplete="username"><label for="password">Mot de passe</label><input id="password" type="password" required autocomplete="current-password"><button class="primary" type="submit">Se connecter</button></form></section>
-<section id="dashboard" class="admin-hidden"><section class="admin-panel"><h2>Tableau de bord</h2><div id="adminStats" class="admin-stats"><div class="admin-stat"><small>Commandes en attente</small><strong>—</strong></div><div class="admin-stat"><small>Commandes payées</small><strong>—</strong></div><div class="admin-stat"><small>En transit</small><strong>—</strong></div><div class="admin-stat"><small>Terminées</small><strong>—</strong></div><div class="admin-stat"><small>Chiffre d’affaires encaissé</small><strong>—</strong></div></div></section><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section>
+<section id="dashboard" class="admin-hidden"><section class="admin-panel"><h2>Tableau de bord</h2><div id="adminStats" class="admin-stats"><div class="admin-stat"><small>Commandes en attente</small><strong>—</strong></div><div class="admin-stat"><small>Commandes payées</small><strong>—</strong></div><div class="admin-stat"><small>En transit</small><strong>—</strong></div><div class="admin-stat"><small>Terminées</small><strong>—</strong></div><div class="admin-stat"><small>Chiffre d’affaires encaissé</small><strong>—</strong></div></div></section><section class="admin-panel" id="r2InventoryPanel"><h2>Inventaire des images Cloudflare R2</h2><p class="admin-meta">Analyse les noms et métadonnées de tous les fichiers du bucket pour préparer l’intégration des maillots de clubs. Cette opération ne télécharge, ne déplace et ne supprime aucune image.</p><div class="admin-row"><button type="button" class="primary" id="startR2Inventory">Analyser les fichiers R2</button><span id="r2InventoryFeedback" class="lego-admin-feedback">Prêt à analyser le stockage.</span></div></section><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section>
 <section id="legoGalleryManagement" class="admin-panel">
 <h2>Gestion de la galerie LEGO</h2>
 <p class="admin-meta">Déplace les photos par glisser-déposer entre les deux zones ou à l'intérieur d'une zone. Enregistre ensuite l'ordre pour le publier sur la galerie du site. Les photos retirées restent récupérables.</p>
@@ -257,6 +257,25 @@ $('legoAddForm').onsubmit=async e=>{
  finally{button.disabled=false}
 };
 
+async function runR2Inventory(){
+ const button=$('startR2Inventory'),feedback=$('r2InventoryFeedback');
+ if(button.disabled)return;
+ button.disabled=true;let token=null,total=0,pages=0;
+ try{
+  feedback.textContent='Connexion et démarrage de l’analyse…';
+  do{
+   const {data,error}=await db.functions.invoke('jerseyhub-r2-upload',{body:{action:'inventory',...(token?{continuationToken:token}:{})}});
+   if(error){let detail=error.message;try{const body=await error.context?.json();if(body?.error)detail=body.error}catch{}throw new Error(detail||'Erreur pendant l’analyse R2.')}
+   if(!data?.ok)throw new Error(data?.error||'Réponse invalide du serveur R2.');
+   total+=Number(data.count)||0;pages++;token=data.nextToken||null;
+   feedback.textContent=total.toLocaleString('fr-BE')+' fichier(s) inventorié(s) · '+pages+' page(s) traitée(s)…';
+  }while(token);
+  feedback.textContent='Analyse terminée : '+total.toLocaleString('fr-BE')+' fichier(s) enregistrés dans l’inventaire R2.';
+  say('Inventaire R2 terminé : '+total.toLocaleString('fr-BE')+' objet(s) analysé(s).');
+ }catch(error){feedback.textContent='Analyse interrompue après '+total.toLocaleString('fr-BE')+' fichier(s) : '+(error.message||error);say('Inventaire R2 incomplet.',true)}
+ finally{button.disabled=false}
+}
+$('startR2Inventory').onclick=runR2Inventory;
 $('loginForm').onsubmit=async e=>{e.preventDefault();const {error}=await db.auth.signInWithPassword({email:$('email').value.trim(),password:$('password').value});if(error){say(error.message,true);return}await refresh()};
 $('logout').onclick=async()=>{await db.auth.signOut();selected=null;await refresh()};$('reload').onclick=load;$('archiveFilter').onchange=()=>{selected=null;$('detail').textContent='Sélectionnez une demande.';load()};db.auth.onAuthStateChange(()=>setTimeout(refresh,0));refresh();
 })();

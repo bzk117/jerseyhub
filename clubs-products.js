@@ -38,7 +38,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/08/products/169db19b3b.jpeg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/08/products/169db19b3b.jpeg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/08/products/169db19b3b.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/08/products/73170d856f.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/08/products/66e2ceaeee.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -79,7 +78,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/33da3d4e64.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/33da3d4e64.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/33da3d4e64.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/4376387bee.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/4d192d3f79.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -164,7 +162,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2509/07/products/bc716946a6.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2509/07/products/bc716946a6.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2509/07/products/bc716946a6.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2509/07/products/81fa45c290.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2509/07/products/26f495b022.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -246,7 +243,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/79f2c4e665.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/79f2c4e665.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/79f2c4e665.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/b2569306fd.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/37370ebd15.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -331,7 +327,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/7-202531da88.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/7-202531da88.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/7-202531da88.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/8-202531d159.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/IMG1054JPG-202531fb89.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -392,7 +387,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/3718766548.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/3718766548.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/3718766548.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/3bf6fa78d4.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/f46616762d.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -456,7 +450,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2409/05/products/30d38d5ec0.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2409/05/products/30d38d5ec0.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2409/05/products/30d38d5ec0.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2409/05/products/5069fb9dd4.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2409/05/products/ff0a0ffad3.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -538,7 +531,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2603/22/products/010ZT-19593199b7.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2603/22/products/010ZT-19593199b7.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2603/22/products/010ZT-19593199b7.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2603/22/products/001-195932d7ac.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2603/22/products/009-1959320232.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -632,7 +624,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/03/products/c2dbc6ec0edbc85a7f38958b46a7fa6-0005190e83.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/03/products/c2dbc6ec0edbc85a7f38958b46a7fa6-0005190e83.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/03/products/c2dbc6ec0edbc85a7f38958b46a7fa6-0005190e83.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/03/products/e721898bc859dee7334fc05f56256d9-000519f50a.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/03/products/221133a7b1c0293425551e90ad065cc-000519ee5d.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -688,7 +679,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/41ab59f4cd.jpeg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/41ab59f4cd.jpeg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/41ab59f4cd.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/1890b0e6fb.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/33e61c066c.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -743,7 +733,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/1-211658fb29.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/1-211658fb29.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/1-211658fb29.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/2-2117063de2.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/IMG4265JPG.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -803,7 +792,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/0c4817e031.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/0c4817e031.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/0c4817e031.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/4a16c08818.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/ee64133156.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -888,7 +876,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/b9d75cfc98.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/b9d75cfc98.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/b9d75cfc98.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/119de641fe.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/65df82f307.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -952,7 +939,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/9997a63547.jpeg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/9997a63547.jpeg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/9997a63547.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/3198bc8f42.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/6adff664f4.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -995,7 +981,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/734926b6d1.jpeg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/734926b6d1.jpeg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/734926b6d1.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/169d0514b8.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/2cae6565aa.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1053,7 +1038,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/63f772f7ba.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/63f772f7ba.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/63f772f7ba.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/306ed6c99c.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/b952f47ab0.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1111,7 +1095,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/be92a36b07.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/be92a36b07.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/be92a36b07.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/93b9973acc.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/addb2de2f0.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1172,7 +1155,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/26-27ManchesterUnitedSpecialEditionSoccerAldultKitAAAAJerseySupplyYupoo-0603480fee.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/26-27ManchesterUnitedSpecialEditionSoccerAldultKitAAAAJerseySupplyYupoo-0603480fee.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/26-27ManchesterUnitedSpecialEditionSoccerAldultKitAAAAJerseySupplyYupoo-0603480fee.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/26-27ManchesterUnitedSpecialEditionSoccerAldultKitAAAAJerseySupplyYupoo-0603487f3e.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/17/photo/4333133213.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_240,w_240",
@@ -1266,7 +1248,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/94a359a876.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/94a359a876.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/94a359a876.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/343f52afdd.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/39ff9e398e.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1348,7 +1329,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/02/products/7bc37e3e8f.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/02/products/7bc37e3e8f.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/02/products/7bc37e3e8f.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/02/products/575e1ad137.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/02/products/cdaa93277f.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1415,7 +1395,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/3dd7debc72.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/3dd7debc72.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/3dd7debc72.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/ce53f079c4.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000"
     ],
@@ -1450,7 +1429,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/f8ce2896bb.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/f8ce2896bb.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/f8ce2896bb.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/6f570a5739.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/4f0312d590.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1532,7 +1510,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/73c2463526.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/73c2463526.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/73c2463526.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/0b04b43355.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/608afeadd0.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1584,7 +1561,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/23/products/cb16b50777.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/23/products/cb16b50777.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/23/products/cb16b50777.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/23/products/d3927e8f59.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/23/products/b7a3de9723.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1666,7 +1642,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2408/06/products/8a9e462e7e.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2408/06/products/8a9e462e7e.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2408/06/products/8a9e462e7e.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2408/06/products/215435f78b.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2408/06/products/2161e3fcce.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1733,7 +1708,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/6c6a475eaf.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/6c6a475eaf.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/6c6a475eaf.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/05f3ba23f4.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/17/photo/4333133213.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_240,w_240",
@@ -1817,7 +1791,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/5-2030273c49.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/5-2030273c49.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/5-2030273c49.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/6-2030285fbd.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2604/13/products/IMG0098JPG-2030282a49.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1877,7 +1850,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2512/14/products/2025110310183331312-061830a670.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2512/14/products/2025110310183331312-061830a670.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2512/14/products/2025110310183331312-061830a670.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2512/14/products/2025110310184231332-06183097be.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2512/14/products/2025110310184031322-061830ca5a.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -1959,7 +1931,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/85398d4139.webp",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/85398d4139.webp",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/85398d4139.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/a93c21e9d6.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/59a245d928.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2020,7 +1991,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2608/22/products/2627ManchesterUnitedThirdKidsSoccerJerseySize16-281.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2608/22/products/2627ManchesterUnitedThirdKidsSoccerJerseySize16-281.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2608/22/products/2627ManchesterUnitedThirdKidsSoccerJerseySize16-281.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2608/22/products/2627ManchesterUnitedThirdKidsSoccerJerseySize16-282.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/17/photo/4333133213.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_240,w_240",
@@ -2117,7 +2087,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/9e9c50e9f0.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/9e9c50e9f0.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/9e9c50e9f0.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/a40e28314e.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/ed8667befe.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2181,7 +2150,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/22/products/e739a6030c.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/22/products/e739a6030c.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/22/products/e739a6030c.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/22/products/7c8559e824.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2501/22/products/fe80a03ef7.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2263,7 +2231,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/14/products/d7b091217a.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/14/products/d7b091217a.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/14/products/d7b091217a.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/14/products/b9c860c3d4.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/14/products/6063f34a61.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2303,7 +2270,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedHomeWomenSoccerJersey1-17195986a9.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedHomeWomenSoccerJersey1-17195986a9.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedHomeWomenSoccerJersey1-17195986a9.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/09/products/2627ManchesterUnitedHomeWomenSoccerJersey2-1719597dfb.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/17/photo/4333133213.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_240,w_240",
@@ -2397,7 +2363,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/ea0f2827ea.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/ea0f2827ea.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/ea0f2827ea.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/9c7a4b355b.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2508/01/products/6d78cc77c2.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2479,7 +2444,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/acdf6019ea.webp",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/acdf6019ea.webp",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/acdf6019ea.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/d11ed5d6a0.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/90698ad099.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2520,7 +2484,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/ffe8283c59.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/ffe8283c59.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/ffe8283c59.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/a0a88db0c3.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/2944110a6c.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2578,7 +2541,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2504/05/products/bc3418e911.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2504/05/products/bc3418e911.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2504/05/products/bc3418e911.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2504/05/products/8b442f90c4.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2504/05/products/7d4f0df771.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2660,7 +2622,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/fa9809856b.webp",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/fa9809856b.webp",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/fa9809856b.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/2a81b38f63.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/7f4a97e5f9.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2705,7 +2666,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2608/22/products/2627ManchesterUnitedThirdLongSleeveSoccerJersey1ziqi-07485124ab.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2608/22/products/2627ManchesterUnitedThirdLongSleeveSoccerJersey1ziqi-07485124ab.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2608/22/products/2627ManchesterUnitedThirdLongSleeveSoccerJersey1ziqi-07485124ab.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2608/22/products/2627ManchesterUnitedThirdLongSleeveSoccerJersey2-0748517003.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/17/photo/4333133213.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_240,w_240",
@@ -2802,7 +2762,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/cc331ca7c7.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/cc331ca7c7.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/cc331ca7c7.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/0dc458d59b.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/0f6e2e3e4d.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2862,7 +2821,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/9a5f46d703.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/9a5f46d703.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/9a5f46d703.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/71cd9f68c6.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/7cb624f46e.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -2944,7 +2902,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/b48a6fa895.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/b48a6fa895.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/b48a6fa895.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/dfea7555bb.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2506/25/products/0c42c16296.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -3026,7 +2983,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/73ed2fc6ff.webp",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/73ed2fc6ff.webp",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/73ed2fc6ff.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/9f77e76041.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/c207b73631.webp?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -3087,7 +3043,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/5b6d3bae61.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/5b6d3bae61.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/5b6d3bae61.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/82cd5c7b81.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2502/11/products/bb99fc37bb.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
@@ -3130,7 +3085,6 @@ const CLUB_PRODUCTS = [
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/947dcf4437.jpg",
     "images": [
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/947dcf4437.jpg",
-      "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2505/26/photo/F639F5FE29AB504E16DCFF6CCCF52DA6.png",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/947dcf4437.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/76ca4b5a3e.jpeg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",
       "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2407/26/products/fd569ec796.jpg?x-oss-process=image/quality,q_100/resize,m_lfit,h_1000,w_1000",

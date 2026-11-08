@@ -6,7 +6,8 @@
 </style></head><body><header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><a class="nav-link" href="index.html">Retour au site</a></header>
 <main class="admin-wrap"><p class="eyebrow">ZONE PRIVÉE</p><h1>Administration <em>JerseyHub</em></h1><div id="notice" class="admin-panel">Vérification des accès…</div>
 <section id="login" class="admin-panel admin-hidden"><h2>Connexion administrateur</h2><form id="loginForm"><label for="email">Adresse e-mail</label><input id="email" type="email" required autocomplete="username"><label for="password">Mot de passe</label><input id="password" type="password" required autocomplete="current-password"><button class="primary" type="submit">Se connecter</button></form></section>
-<section id="dashboard" class="admin-hidden"><section class="admin-panel"><h2>Tableau de bord</h2><div id="adminStats" class="admin-stats"><div class="admin-stat"><small>Commandes en attente</small><strong>—</strong></div><div class="admin-stat"><small>Commandes payées</small><strong>—</strong></div><div class="admin-stat"><small>En transit</small><strong>—</strong></div><div class="admin-stat"><small>Terminées</small><strong>—</strong></div><div class="admin-stat"><small>Chiffre d’affaires encaissé</small><strong>—</strong></div></div></section><section class="admin-panel" id="r2InventoryPanel"><h2>Inventaire des images Cloudflare R2</h2><p class="admin-meta">Analyse les noms et métadonnées de tous les fichiers du bucket pour préparer l’intégration des maillots de clubs. Cette opération ne télécharge, ne déplace et ne supprime aucune image.</p><div class="admin-row"><button type="button" class="primary" id="startR2Inventory">Analyser les fichiers R2</button><span id="r2InventoryFeedback" class="lego-admin-feedback">Prêt à analyser le stockage.</span></div></section><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section>
+<section id="dashboard" class="admin-hidden"><section class="admin-panel"><h2>Tableau de bord</h2><div id="adminStats" class="admin-stats"><div class="admin-stat"><small>Commandes en attente</small><strong>—</strong></div><div class="admin-stat"><small>Commandes payées</small><strong>—</strong></div><div class="admin-stat"><small>En transit</small><strong>—</strong></div><div class="admin-stat"><small>Terminées</small><strong>—</strong></div><div class="admin-stat"><small>Chiffre d’affaires encaissé</small><strong>—</strong></div></div></section><section class="admin-panel" id="r2InventoryPanel"><h2>Inventaire des images Cloudflare R2</h2><p class="admin-meta">Analyse les noms et métadonnées de tous les fichiers du bucket pour préparer l’intégration des maillots de clubs. Cette opération ne télécharge, ne déplace et ne supprime aucune image.</p><div class="admin-row"><button type="button" class="primary" id="startR2Inventory">Analyser les fichiers R2</button><span id="r2InventoryFeedback" class="lego-admin-feedback">Prêt à analyser le stockage.</span></div>
+<div class="admin-card" style="margin-top:16px"><h3>Prévisualisation des maillots de clubs</h3><p class="admin-meta">Lecture seule de l’inventaire R2. Saisissez le chemin exact du dossier d’un club (ex. assets/clubs/Angleterre/Liverpool/) et, si besoin, un identifiant à 5 chiffres. Les images originales ne sont ni modifiées ni déplacées.</p><div class="admin-row"><div><label for="r2PreviewFolder">Dossier du club</label><input id="r2PreviewFolder" type="text" value="assets/clubs/Angleterre/Liverpool/" placeholder="assets/clubs/Pays/Club/"></div><div><label for="r2PreviewGroup">Identifiant du groupe (facultatif)</label><input id="r2PreviewGroup" type="text" inputmode="numeric" maxlength="5" placeholder="00062"></div><button type="button" class="primary" id="loadR2Preview">Afficher les photos</button></div><p id="r2PreviewFeedback" class="admin-meta">Aucune photo chargée.</p><div id="r2PreviewGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px"></div></div></section><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section>
 <section id="legoGalleryManagement" class="admin-panel">
 <h2>Gestion de la galerie LEGO</h2>
 <p class="admin-meta">Déplace les photos par glisser-déposer entre les deux zones ou à l'intérieur d'une zone. Enregistre ensuite l'ordre pour le publier sur la galerie du site. Les photos retirées restent récupérables.</p>
@@ -257,6 +258,29 @@ $('legoAddForm').onsubmit=async e=>{
  finally{button.disabled=false}
 };
 
+async function loadR2Preview(){
+ const button=$('loadR2Preview'),feedback=$('r2PreviewFeedback'),grid=$('r2PreviewGrid');
+ if(button.disabled)return;
+ const folder=$('r2PreviewFolder').value.trim(),group=$('r2PreviewGroup').value.trim();
+ button.disabled=true;grid.innerHTML='';feedback.textContent='Chargement des images…';
+ try{
+  const {data,error}=await db.functions.invoke('jerseyhub-r2-upload',{body:{action:'inventory-preview',folderPrefix:folder,groupId:group,limit:100}});
+  if(error){let detail=error.message;try{const body=await error.context?.json();if(body?.error)detail=body.error}catch{}throw new Error(detail||'Erreur de lecture R2.')}
+  if(!data?.ok)throw new Error(data?.error||'Réponse invalide du serveur R2.');
+  const items=data.objects||[];
+  if(!items.length){feedback.textContent='Aucune image trouvée dans ce dossier ou pour cet identifiant.';return}
+  items.forEach(item=>{
+   const card=document.createElement('article');card.className='admin-card';card.style.cssText='padding:8px;min-width:0';
+   const img=document.createElement('img');img.src=item.public_url;img.alt=item.object_key;img.loading='lazy';img.style.cssText='display:block;width:100%;height:180px;object-fit:contain;background:#111;border-radius:6px';
+   const key=document.createElement('small');key.textContent=item.object_key;key.style.cssText='display:block;overflow-wrap:anywhere;margin-top:8px;font-size:11px';
+   const size=document.createElement('small');size.className='admin-meta';size.textContent=(Number(item.size_bytes)||0).toLocaleString('fr-BE')+' octets';
+   card.append(img,key,size);grid.append(card);
+  });
+  feedback.textContent=items.length+' image(s) affichée(s) sur '+Number(data.count||items.length).toLocaleString('fr-BE')+' correspondance(s). Limite de 100 par affichage.';
+ }catch(error){feedback.textContent='Prévisualisation impossible : '+(error.message||error)}
+ finally{button.disabled=false}
+}
+$('loadR2Preview').onclick=loadR2Preview;
 async function runR2Inventory(){
  const button=$('startR2Inventory'),feedback=$('r2InventoryFeedback');
  if(button.disabled)return;

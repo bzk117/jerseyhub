@@ -91,3 +91,20 @@ if (manchesterUnitedSpecial) {
     players: []
   });
 }
+
+
+/*
+ * Métadonnées lisibles des quatre fiches historiques HKLFP déjà publiées.
+ * On ne touche ni aux images, ni aux tailles, ni aux URL fournisseur.
+ * Les patchs/flocages restent désactivés tant que la fiche exacte ne les confirme pas.
+ */
+const existingClubMetadata = [
+  { name: "26-27 Standard de Liège domicile - Rouge", season: "2026-27", kitType: "home", version: "fan" },
+  { name: "26-27 Standard de Liège extérieur - Noir", season: "2026-27", kitType: "away", version: "fan" },
+  { name: "26-27 Anderlecht domicile - Violet", season: "2026-27", kitType: "home", version: "fan" },
+  { name: "26-27 Club Brugge Home Adult Suit - Ensemble domicile", season: "2026-27", kitType: "home", version: "adult-suit" }
+];
+existingClubMetadata.forEach(metadata => {
+  const product = PRODUCTS.find(item => item.category === "clubs" && item.name === metadata.name);
+  if (product) Object.assign(product, metadata, { personalizationAllowed: false });
+});

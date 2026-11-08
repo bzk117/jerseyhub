@@ -32,7 +32,7 @@
 .lego-left-thumbs .lego-edit-item{width:64px;height:64px;flex:0 0 64px}
 .lego-left-thumbs .lego-edit-item .lego-thumb{height:64px}
 .lego-add-presentation{width:64px;height:64px;flex:0 0 64px;display:grid;place-items:center;border:2px dashed #d6aa45;border-radius:9px;background:#211b0e;color:#f5d27c;font-size:28px;font-weight:800;cursor:pointer}.lego-add-presentation:hover{background:#35290f;border-color:#f5d27c}.lego-add-presentation:disabled{opacity:.55;cursor:wait}
-.lego-clear-presentation{padding:10px 14px;border:1px solid #a84a4a;border-radius:8px;background:#3b1717;color:#fff;font-weight:800;cursor:pointer}
+.lego-edit-close{padding:10px 14px!important;border:1px solid #777!important;background:#333!important;color:#fff!important}.lego-clear-presentation{padding:10px 14px;border:1px solid #a84a4a;border-radius:8px;background:#3b1717;color:#fff;font-weight:800;cursor:pointer}
 .lego-clear-presentation:hover{background:#612020}
 .lego-clear-presentation:disabled{opacity:.55;cursor:wait}
 .lego-right-options .lego-edit-item{width:100%}
@@ -133,7 +133,7 @@
 <section id="legoInlineEditor" aria-label="Édition de la galerie LEGO">
  <h2>Modifier la galerie directement</h2>
  <p style="color:#ccc;margin:0">Fais glisser les photos dans la galerie au-dessus, entre les photos de présentation et les modèles. Le résultat affiché est celui que verront les clients après publication.</p>
- <div class="lego-edit-toolbar"><button type="button" id="legoEditSave">Enregistrer et publier</button><button type="button" id="legoClearPresentation" class="lego-clear-presentation">Vider les 5 photos de présentation</button><span id="legoEditStatus" class="lego-edit-status">Chargement de la galerie…</span></div>
+ <div class="lego-edit-toolbar"><button type="button" id="legoEditSave">Sauvegarder</button><button type="button" id="legoEditClose" class="lego-edit-close">Fermer le mode édition</button><button type="button" id="legoClearPresentation" class="lego-clear-presentation">Vider les 5 photos de présentation</button><span id="legoEditStatus" class="lego-edit-status">Chargement de la galerie…</span></div>
  <p class="lego-edit-status">Tu peux placer jusqu’à 5 photos à gauche. Glisse les modèles depuis la droite vers la gauche dans l’ordre souhaité ; tu peux aussi les réordonner directement par glisser-déposer.</p>
  <form id="legoInlineAddForm" class="lego-inline-add">
   <div><label for="legoInlineGroup">Ajouter dans</label><select id="legoInlineGroup"><option value="presentation">Présentation</option><option value="models">Modèles LEGO</option></select></div>
@@ -242,11 +242,11 @@ bindLegoThumbs();
      const movingIntoPresentation=zone===left&&dragged.parentElement!==left;
      const presentationCount=left.querySelectorAll('.lego-edit-item').length;
      if(movingIntoPresentation&&presentationCount>=5){setStatus('Maximum de 5 photos à gauche. Retire ou déplace d’abord une photo.',true);return}
-     if(target&&target!==dragged){const r=target.getBoundingClientRect();target.parentNode.insertBefore(dragged,e.clientY>r.top+r.height/2?target.nextSibling:target)}
+     if(target&&target!==dragged){target.parentNode.insertBefore(dragged,target)}
      else if(zone===left){const add=left.querySelector('.lego-add-presentation');left.insertBefore(dragged,add||null)}
      else zone.appendChild(dragged);
      dragged.querySelector('.lego-thumb')?.classList.toggle('lego-left-thumb',zone===left);
-     setStatus('Ordre modifié. Clique sur « Enregistrer et publier » pour appliquer les changements.');
+     setStatus('Ordre modifié. Clique sur « Sauvegarder » pour appliquer les changements.');
     };
    });
    document.querySelectorAll('[data-remove-inline]').forEach(btn=>btn.onclick=async()=>{
@@ -271,6 +271,7 @@ bindLegoThumbs();
  }
  const {data:gallery,error:galleryError}=await db.from('lego_gallery_images').select('*').order('group_key',{ascending:true}).order('sort_order',{ascending:true});
  if(!galleryError&&gallery?.length){legoRows=gallery;renderGallery();setStatus(legoRows.filter(x=>x.is_active).length+' photos visibles · '+legoRows.filter(x=>!x.is_active).length+' retirée(s).')}
+ document.getElementById('legoEditClose').onclick=()=>{if(editMode)editToggle.click()};
  document.getElementById('legoClearPresentation').onclick=async()=>{
   const button=document.getElementById('legoClearPresentation');
   const ids=legoRows.filter(x=>x.is_active&&x.group_key==='presentation').map(x=>x.id);
@@ -293,11 +294,16 @@ bindLegoThumbs();
    [{zone:left,group:'presentation'},{zone:right,group:'models'}].forEach(({zone,group})=>{
     [...zone.querySelectorAll('.lego-edit-item')].forEach((card,index)=>changes.push({id:card.dataset.legoId,group_key:group,sort_order:index}));
    });
+   // Libère d'abord toutes les anciennes positions pour éviter les conflits d'index lors d'un réordonnancement.
+   for(let index=0;index<changes.length;index++){
+    const {error}=await db.from('lego_gallery_images').update({sort_order:100000+index,updated_at:new Date().toISOString()}).eq('id',changes[index].id);
+    if(error)throw error;
+   }
    for(const change of changes){
     const {error}=await db.from('lego_gallery_images').update({group_key:change.group_key,sort_order:change.sort_order,updated_at:new Date().toISOString()}).eq('id',change.id);
     if(error)throw error;
    }
-   await loadLegoGallery();setStatus('Ordre enregistré et publié sur la page LEGO.');
+   await loadLegoGallery();setStatus('Photos et ordre sauvegardés. Tu peux maintenant fermer le mode édition.');
   }catch(error){setStatus('Enregistrement impossible : '+(error.message||error),true)}
   finally{save.disabled=false}
  };

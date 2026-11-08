@@ -1,0 +1,84 @@
+name: Publish LEGO gallery images
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/lego-publish.yml"
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Install image validation dependency
+        run: python3 -m pip install --user Pillow
+      - name: Download, validate and stage LEGO images
+        env:
+          DROPBOX_ZIP_URL: "https://www.dropbox.com/scl/fi/taodr31hq31ss1c9d967z/Buy-Cross-border-compatible-LEGO-McLaren-F1-Lamborghini-Ferrari-and-Porsche-sports-car-building-block-toy-_-boonbuy-20261106T224631Z-1-001.zip?rlkey=gqkm2qm8i7gy6wdygbuoqoulw&st=bcradhnm&dl=1"
+        run: |
+          python3 - <<'PY'
+          import os, io, json, hashlib, pathlib, urllib.request, zipfile
+          from PIL import Image
+          req = urllib.request.Request(os.environ["DROPBOX_ZIP_URL"], headers={"User-Agent":"JerseyHub-LEGO-publisher/1.0"})
+          with urllib.request.urlopen(req, timeout=120) as response:
+              payload = response.read()
+              print("Dropbox HTTP:", response.status, "bytes:", len(payload))
+          if not payload.startswith(b"PK"):
+              raise RuntimeError("Dropbox response is not a ZIP archive.")
+          root = pathlib.Path("assets/lifestyle/lego-construction/source-archive")
+          root.mkdir(parents=True, exist_ok=True)
+          records = []
+          with zipfile.ZipFile(io.BytesIO(payload)) as archive:
+              bad = archive.testzip()
+              if bad:
+                  raise RuntimeError(f"ZIP integrity error: {bad}")
+              for item in archive.infolist():
+                  if item.is_dir():
+                      continue
+                  original = pathlib.PurePosixPath(item.filename).name
+                  if pathlib.Path(original).suffix.lower() not in {".jpg", ".jpeg", ".png", ".webp"}:
+                      continue
+                  raw = archive.read(item)
+                  image = Image.open(io.BytesIO(raw))
+                  image.verify()
+                  image = Image.open(io.BytesIO(raw))
+                  width, height = image.size
+                  ext = pathlib.Path(original).suffix.lower()
+                  filename = f"lego-{len(records)+1:02d}{ext}"
+                  target = root / filename
+                  digest = hashlib.sha256(raw).hexdigest()
+                  if target.exists():
+                      existing = target.read_bytes()
+                      if hashlib.sha256(existing).hexdigest() != digest:
+                          raise RuntimeError(f"Refusing to overwrite different existing image: {target}")
+                  else:
+                      target.write_bytes(raw)
+                  records.append({"index":len(records)+1,"file":filename,"source_name":original,"bytes":len(raw),"width":width,"height":height,"sha256":digest})
+          if len(records) != 58:
+              raise RuntimeError(f"Expected 58 validated images; found {len(records)}.")
+          manifest = root / "manifest.json"
+          manifest.write_text(json.dumps({"source":"Dropbox LEGO archive","image_count":len(records),"images":records},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print("Validated and staged",len(records),"images.")
+          print("Total image bytes:",sum(x["bytes"] for x in records))
+          PY
+      - name: Commit images to GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/lifestyle/lego-construction/source-archive/
+          if git diff --cached --quiet; then
+            echo "No new image changes to commit."
+          else
+            git commit -m "Add validated LEGO gallery images"
+            git push origin HEAD:main
+          fi
+      - name: Upload import manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: lego-published-image-manifest
+          path: assets/lifestyle/lego-construction/source-archive/manifest.json
+          if-no-files-found: error

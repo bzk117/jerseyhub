@@ -294,7 +294,6 @@ jobs:
                 "url": "https://uc74744553a7b769d85324cb43ba.previews.dropboxusercontent.com/p/thumb/ADT92dsYEb1lwNJMtI_-aKvi5EzNJMSfCvcml3z43nbzTRtdUCBwqlHhAVMXrAEP1fVCvJYrTG990hapTAQwDmXByP96UZ3v-4lvI5GDOXg0kejP8aoCMTzS-EeWfkJtfVAm5nOIBWJDEQZCbY1Q72iYGf0iy8YEHZV6DAasCZGEZUl1GwHpetIXP90wjLC34B7zwaKnnxkL310sJRLMMLg4XmY6_8q8Iq-r3CvtHRvu-VDpiMeYpOwNvArVXPQTkUd8MBdghyXnYYKncN-_uvJBc7fF0YMDSKE-wzgsS5dQ-6qU0_7_YTbC4iw51y85xf3n-x2KqzQr2LhtK4HRL0YD/p.jpeg"
               }
             ]
-        env:
           DROPBOX_ZIP_URL: "https://www.dropbox.com/scl/fi/taodr31hq31ss1c9d967z/Buy-Cross-border-compatible-LEGO-McLaren-F1-Lamborghini-Ferrari-and-Porsche-sports-car-building-block-toy-_-boonbuy-20261106T224631Z-1-001.zip?rlkey=gqkm2qm8i7gy6wdygbuoqoulw&st=bcradhnm&dl=1"
         run: |
           python3 - <<'PY'

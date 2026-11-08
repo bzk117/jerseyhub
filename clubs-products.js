@@ -1,20 +1,57 @@
 /*
- * Catalogue indépendant des maillots de clubs.
- * Les fiches ne sont ajoutées qu'après vérification visuelle du groupe R2,
- * de la saison, du type de maillot, des tailles et de la source fournisseur.
- * Ne jamais remplacer une fiche historique : import anti-doublon uniquement.
+ * Catalogue des maillots de clubs JerseyHub.
+ *
+ * Une fiche ne devient visible que lorsque sa source fournisseur, ses photos
+ * et ses tailles sont confirmées. Les images R2 existantes sont référencées,
+ * jamais déplacées ni supprimées.
+ *
+ * Champs attendus :
+ * - group / team : club
+ * - season : saison (ex. 2026-27)
+ * - kitType : home | away | third | fourth | retro | training
+ * - version : fan | player | kids | women | retro
+ * - sizes : tailles réellement confirmées par le fournisseur
+ * - sizeChart : mesures si disponibles
+ * - patchSlots / patchSlotLabels / patchOptions : patchs par emplacement
+ * - players : [{name, number, shirt}] pour les flocages joueurs vérifiés
+ * - personalizationAllowed : true uniquement si Vivi confirme le flocage libre
+ * - personalization : {allowed, customName, customNumber}
+ *
+ * Ne pas remplir les données manquantes par supposition.
  */
 const CLUB_PRODUCTS = [];
 
+function isCompleteClubProduct(product) {
+  if (!product || product.category !== "clubs") return false;
+  const validSource = product.supplier === "Vivi Jersey" &&
+    product.supplierVerified === true &&
+    typeof (product.supplierUrl || product.sourceUrl) === "string" &&
+    /^https?:\\/\\/(?:[a-z0-9-]+\\.)?vivi-jersey\\.com\\//i.test(product.supplierUrl || product.sourceUrl);
+  const validImages = typeof product.image === "string" &&
+    /^https?:\\/\\//i.test(product.image) &&
+    (!product.images || (Array.isArray(product.images) && product.images.every(url => typeof url === "string" && /^https?:\\/\\//i.test(url))));
+  const validSizes = Array.isArray(product.sizes) && product.sizes.length > 0 &&
+    product.sizes.every(size => typeof size === "string" && size.trim() && !/à confirmer|unknown|tbc/i.test(size));
+  return validSource && validImages && validSizes &&
+    typeof product.name === "string" && product.name.trim() &&
+    typeof product.group === "string" && product.group.trim() &&
+    typeof product.season === "string" && product.season.trim() &&
+    typeof product.kitType === "string" && product.kitType.trim();
+}
+
 CLUB_PRODUCTS.forEach(product => {
+  if (!isCompleteClubProduct(product)) {
+    console.warn("Fiche club ignorée : informations fournisseur, saison, photos ou tailles incomplètes.", product?.name || "Sans nom");
+    return;
+  }
   const duplicate = PRODUCTS.some(existing =>
     existing.category === "clubs" &&
-    existing.group === product.group &&
     (
-      (product.supplierUrl && existing.supplierUrl === product.supplierUrl) ||
-      (product.sourceUrl && existing.sourceUrl === product.sourceUrl) ||
+      (product.supplierUrl && (existing.supplierUrl === product.supplierUrl || existing.sourceUrl === product.supplierUrl)) ||
+      (product.sourceUrl && (existing.supplierUrl === product.sourceUrl || existing.sourceUrl === product.sourceUrl)) ||
       (existing.name && product.name &&
-        existing.name.trim().toLowerCase() === product.name.trim().toLowerCase())
+        existing.name.trim().toLowerCase() === product.name.trim().toLowerCase() &&
+        existing.group === product.group)
     )
   );
   if (!duplicate) PRODUCTS.push(product);

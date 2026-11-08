@@ -49,12 +49,20 @@ const NATIONAL_REGIONS = [
   ]}
 ];
 const CLUB_LEAGUES = [
-  {name:"Angleterre",items:["Premier League","Championship","Autres clubs anglais"]},
-  {name:"Espagne",items:["La Liga","Autres clubs espagnols"]},
-  {name:"Italie",items:["Serie A","Autres clubs italiens"]},
-  {name:"Allemagne",items:["Bundesliga","Autres clubs allemands"]},
-  {name:"France",items:["Ligue 1","Autres clubs français"]},
-  {name:"Autres championnats",items:["Portugal","Pays-Bas","Écosse","Belgique","Turquie","Arabie saoudite","Brésil","Argentine","États-Unis"]}
+  {name:"Angleterre",items:["Premier League"]},
+  {name:"Allemagne",items:["Bundesliga"]},
+  {name:"Arabie Saoudite",items:["Saudi Pro League"]},
+  {name:"Argentine",items:["Liga Profesional Argentina"]},
+  {name:"Brésil",items:["Campeonato Brasileiro Série A"]},
+  {name:"Écosse",items:["Scottish Premiership"]},
+  {name:"Émirats arabes unis",items:["UAE Pro League"]},
+  {name:"Espagne",items:["La Liga"]},
+  {name:"États-Unis",items:["MLS"]},
+  {name:"France",items:["Ligue 1"]},
+  {name:"Italie",items:["Serie A"]},
+  {name:"Pays-Bas",items:["Eredivisie"]},
+  {name:"Portugal",items:["Liga Portugal"]},
+  {name:"Autres championnats",items:["Belgique","Turquie"]}
 ];
 const OTHER_SPORTS = [
   {name:"NBA",emoji:"🏀",desc:"Basket-ball américain"},
@@ -35567,18 +35575,19 @@ const SPORT_TEAM_GROUPS = {
 };
 
 const CLUB_TEAM_GROUPS = {
-  "Premier League": ["Manchester United","Arsenal","Liverpool","Manchester City","Chelsea","Tottenham","Newcastle","Everton","West Ham United","Aston Villa","Crystal Palace","Wolves","Fulham","Leeds United","Nottingham Forest","Brighton","Leicester City"],
-  "La Liga": ["Real Madrid","FC Barcelona","Atletico Madrid","Athletic Bilbao","Real Betis","Valencia","Rayo Vallecano","Sevilla","Las Palmas","Girona","Mallorca","Osasuna"],
-  "Serie A": ["Inter Milan","AC Milan","Juventus","Napoli","AS Roma","Lazio","Atalanta","Fiorentina","Parma","Venezia","Genoa"],
-  "Bundesliga": ["Bayern Munich","Borussia Dortmund","Eintracht Frankfurt","Bayer Leverkusen","RB Leipzig","VfL Wolfsburg","VfB Stuttgart","Werder Bremen","Borussia Mönchengladbach","Heidenheim","St. Pauli","Union Berlin"],
-  "Ligue 1": ["Paris Saint-Germain","Marseille","Lyon","Monaco","Lens","Lille"],
-  "Portugal": ["Benfica","FC Porto","Sporting CP","Sporting Braga"],
-  "Pays-Bas": ["Ajax","PSV Eindhoven","Feyenoord"],
-  "Écosse": ["Celtic FC","Glasgow Rangers"],
+  "Premier League": ["Arsenal","Aston Villa","Bournemouth","Brentford","Brighton","Chelsea","Crystal Palace","Everton","Fulham","Leeds United","Leicester City","Liverpool","Manchester City","Manchester United","Newcastle","Nottingham Forest","Tottenham","West Ham United","Wolves"],
+  "Bundesliga": ["1. FC Union Berlin","Augsburg","Bayern Munchen","Borussia Monchengladbach","Dortmund","Frankfurt","Leverkusen","RB LEIPZIG","St. Pauli","VfB Stuttgarts","VfL Wolfsburg","Werder Bremen"],
+  "Saudi Pro League": ["Al Ahli","Al-Hilal","Al-Ittihad","Al-Nassr"],
+  "Liga Profesional Argentina": ["Boca Juniors","River Plate"],
+  "Campeonato Brasileiro Série A": ["atletico-mineiro","Corinthians","cruzeiro","Flamengo","Palmeiras","santos","sao paulo"],
+  "Scottish Premiership": ["Celtic FC","Glasgow Rangers"],
+  "UAE Pro League": ["Al Ain FC"],
+  "La Liga": ["Alaves","Atletico Madrid","BETIS","Bilbao","Celta Vigo","FC Barcelona","Getafe","Girona","Las Palmas","Mallorca","Osasuna","Rayo Vallecano","Real Madrid","Real Sociedad","Sevilla","Valencia","Villarreal"],
+  "MLS": ["Chivas USA","Inter Miami CF","LA Galaxy","Orlando City"],
+  "Ligue 1": ["AJ Auxerre","Lens","Lille","Lyon","Marseille","Monaco","Paris Saint Germain"],
+  "Serie A": ["AC Milan","AS Roma","Atalanta","Bologna","Cagliari","Fiorentina","Genoa","Hellas Verona","Inter Milan","Juventus","Lazio","Lecce","Monza","Napoli","Parma","Udinese","Venice"],
+  "Eredivisie": ["AFC Ajax","Feyenoord","PSV Eindhoven"],
+  "Liga Portugal": ["Benfica","FC Porto","Sporting CP"],
   "Belgique": ["Standard de Liège","Cercle de Bruges","Anderlecht"],
-  "Turquie": [],
-  "Arabie saoudite": ["Al-Nassr","Al-Ittihad","Al-Hilal","Al-Ahli","Al-Ain FC"],
-  "Brésil": ["Palmeiras","Flamengo","São Paulo","Santos","Atlético Mineiro","Cruzeiro","Corinthians"],
-  "Argentine": ["Boca Juniors","River Plate"],
-  "États-Unis": ["Inter Miami CF","LA Galaxy","Orlando City"]
+  "Turquie": []
 };

@@ -73,7 +73,7 @@ function renderCatalogPage(page=1,rememberPage=false){
  grid.innerHTML="";
  catalogPagePrefix.forEach(node=>grid.append(node));
  const start=(catalogPage-1)*CATALOG_PAGE_SIZE;
- catalogPageItems.slice(start,start+CATALOG_PAGE_SIZE).forEach(p=>grid.append(productCard(p)));
+ catalogPageItems.slice(start,start+CATALOG_PAGE_SIZE).forEach(p=>grid.append(p.r2Archive?archiveProductCard(p):productCard(p)));
  const pager=$("#catalogPagination");
  if(!pager)return;
  pager.innerHTML="";
@@ -123,6 +123,23 @@ function productCard(p){
  div.innerHTML='<div class="product-art">'+visual+'</div><div class="product-info"><h3>'+p.name+'</h3>'+(out?'<span class="jh-stock-badge">RUPTURE DE STOCK</span>':'')+'<p>'+(p.description||'Modèle présenté dans le catalogue')+'</p><div class="sizes">'+(p.sizes||[]).map(s=>'<span class="size">'+s+'</span>').join('')+'</div><small class="jh-open-hint">'+(out?'Article indisponible — sélection désactivée':'Cliquer pour voir les photos et les options')+'</small></div>';
  div._jhProduct=p;div.dataset.jhProductCard='true';
  if(!out)div.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();div.click()}};
+ return div;
+}
+function archiveProductCard(p){
+ const div=document.createElement("article");
+ div.className="product-card jh-r2-archive-card";
+ div.setAttribute("role","button");div.setAttribute("tabindex","0");
+ div.setAttribute("aria-label","Voir les photos du maillot "+p.reference);
+ const art=document.createElement("div");art.className="product-art";
+ const img=document.createElement("img");img.src=p.image;img.alt=p.name;img.loading="lazy";img.style.cssText="max-width:100%;max-height:190px;object-fit:contain";
+ art.append(img);
+ const info=document.createElement("div");info.className="product-info";
+ const heading=document.createElement("h3");heading.textContent=p.name;
+ const desc=document.createElement("p");desc.textContent="Photos du modèle archivées — fiche en cours de vérification";
+ const hint=document.createElement("small");hint.className="jh-open-hint";hint.textContent="Cliquer pour voir toutes les photos";
+ info.append(heading,desc,hint);div.append(art,info);
+ div._jhProduct=p;div.dataset.jhProductCard="true";
+ div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }
 function setHeading(e,t,b){
@@ -189,7 +206,7 @@ function openView(view){
   lifestyleCategories().forEach(c=>{const h=document.createElement("div");h.style.cssText="grid-column:1/-1;color:#f4bd22;font-weight:800;letter-spacing:1px;padding:12px 0 0";h.textContent=c.name;grid.append(h);c.items.forEach(name=>grid.append(card({name,flag:c.emoji,group:c.name},"lifestyle")))});
  }
 }
-function openGroup(kind,name){
+async function openGroup(kind,name){
  rememberNavigation();
  catalogPageHistory=[];
  currentView=kind;currentGroup=name;
@@ -218,6 +235,36 @@ function openGroup(kind,name){
   SPORT_TEAM_GROUPS[name].forEach(team=>grid.append(card({name:team,flag:name==="NBA"?"🏀":name==="NFL"?"🏈":name==="MLB"?"⚾":name==="NHL"?"🏒":"🏉",group:name},"sports")));
   $("#resultCount").textContent=SPORT_TEAM_GROUPS[name].length+" équipes référencées";
   return;
+ }
+ if(kind==="clubs"){
+  const leagueEntry=Object.entries(CLUB_TEAM_GROUPS||{}).find(([league,teams])=>Array.isArray(teams)&&teams.includes(name));
+  if(leagueEntry){
+   const league=leagueEntry[0];
+   const countryEntry=CLUB_LEAGUES.find(item=>item.items.includes(league));
+   const country=countryEntry?.name;
+   const verified=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category==="clubs"&&p.group===name);
+   setHeading("ÉQUIPE DE CLUB",name,"Accueil / Clubs / "+league+" / "+name);
+   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
+   $("#resultCount").textContent="Chargement des maillots…";
+   let archive=[];
+   try{
+    if(!country||!window.supabase||!window.JERSEYHUB_SUPABASE)throw new Error("Connexion au catalogue d’images indisponible");
+    const client=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);
+    const {data,error}=await client.rpc("jerseyhub_club_gallery",{p_country:country,p_club:name});
+    if(error)throw error;
+    archive=(data||[]).map(row=>({r2Archive:true,reference:String(row.product_ref),name:"Maillot — Réf. "+row.product_ref,category:"clubs",group:name,image:row.image_url,images:Array.isArray(row.images)?row.images:[row.image_url],description:"Aperçu visuel uniquement"}));
+   }catch(error){console.warn("Galerie R2 indisponible pour "+name,error);}
+   if(currentView!=="clubs"||currentGroup!==name)return;
+   const all=[...verified,...archive];
+   renderPagedProducts(all);
+   if(!all.length){
+    $("#emptyState").hidden=false;grid.hidden=true;
+    $("#emptyState h3").textContent="Aucun maillot trouvé";
+    $("#emptyState p").textContent="Aucune photo n’est disponible pour ce club pour le moment.";
+   }
+   $("#resultCount").textContent=all.length?(archive.length+" maillot(s) en photos · "+verified.length+" fiche(s) vérifiée(s)"):"";
+   return;
+  }
  }
  if(["national","clubs","sports"].includes(kind)){
   const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
@@ -322,7 +369,21 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  }
  trigger.onclick=showCart;
  async function openProduct(p){
-  activeProduct=p;dialog.dataset.mode="product";
+  activeProduct=p;
+  if(p.r2Archive){
+   const photos=(Array.isArray(p.images)&&p.images.length?p.images:[p.image]).filter(Boolean);
+   let photoIndex=0;
+   const drawArchivePhoto=()=>{
+    const url=photos[photoIndex];
+    open('<h2>'+esc(p.name)+'</h2><p style="color:#cbd5e1">Référence archive '+esc(p.reference)+' · '+photos.length+' photo(s)</p><div style="display:flex;align-items:center;justify-content:center;gap:10px;margin:16px 0"><button type="button" class="jh-secondary" id="jh-r2-prev" aria-label="Photo précédente">←</button><img id="jh-r2-main" src="'+esc(url)+'" alt="'+esc(p.name)+'" style="width:min(100%,560px);max-height:58vh;object-fit:contain;background:#101722;border-radius:10px"><button type="button" class="jh-secondary" id="jh-r2-next" aria-label="Photo suivante">→</button></div><p id="jh-r2-count" style="text-align:center;color:#e7c879">'+(photoIndex+1)+' / '+photos.length+'</p><p style="color:#f4bd22;font-weight:700">Aperçu visuel uniquement : tailles, saison, patchs et flocage seront confirmés avant mise en vente.</p>');
+    dialog.dataset.mode="r2-gallery";
+    dialog.querySelector("#jh-r2-prev").onclick=()=>{photoIndex=(photoIndex-1+photos.length)%photos.length;drawArchivePhoto()};
+    dialog.querySelector("#jh-r2-next").onclick=()=>{photoIndex=(photoIndex+1)%photos.length;drawArchivePhoto()};
+   };
+   drawArchivePhoto();
+   return;
+  }
+  dialog.dataset.mode="product";
   const sizes=(p.sizes||[]).flatMap(raw=>{
    const value=String(raw).trim().replace(/–/g,"-");
    const range=value.match(/^(S|M|L|XL)\s*-\s*(2XL|3XL|4XL)$/i);

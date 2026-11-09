@@ -1,0 +1,58 @@
+name: Purge national jersey images from Git history
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/purge-national-images-history.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jerseyhub-national-images-history-cleanup
+  cancel-in-progress: false
+
+jobs:
+  rewrite-history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Install git-filter-repo
+        run: |
+          python -m pip install --user git-filter-repo
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Rewrite all branches and tags without national jersey image binaries
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git clone --mirror "$REMOTE" jerseyhub.git
+          cd jerseyhub.git
+
+          echo "=== BEFORE ==="
+          echo "Branches: $(git for-each-ref refs/heads --format='%(refname:short)' | wc -l)"
+          echo "Tags: $(git for-each-ref refs/tags --format='%(refname:short)' | wc -l)"
+          git count-objects -vH
+
+          git filter-repo --force \
+            --path-regex '^assets/equipes-nationales/.*\.(jpg|jpeg|png|webp)$' \
+            --invert-paths
+
+          REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git remote add origin "$REMOTE"
+          git push --force origin --all
+          git push --force origin --tags
+
+          echo "=== VERIFY REWRITTEN HISTORY ==="
+          if git rev-list --objects --all | grep -E ' assets/equipes-nationales/.*\.(jpg|jpeg|png|webp)$'; then
+            echo "ERROR: national image paths remain reachable"
+            exit 1
+          fi
+          echo "No national image binaries remain reachable from local branches or tags."
+          echo "Branches: $(git for-each-ref refs/heads --format='%(refname:short)' | wc -l)"
+          echo "Tags: $(git for-each-ref refs/tags --format='%(refname:short)' | wc -l)"
+          git count-objects -vH

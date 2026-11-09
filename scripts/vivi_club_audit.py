@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE = "https://www.vivi-jersey.com"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; JerseyHubCatalogAudit/1.0; +https://bzk117.github.io/jerseyhub/)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
 LOCAL = threading.local()
 FETCH_STATS = {}
 FETCH_STATS_LOCK = threading.Lock()
@@ -119,10 +119,13 @@ def find_pages(first_url, first_html, max_pages=80):
         candidates = set()
         for a in soup.select("a[href]"):
             href = a.get("href","")
-            dest = norm_url(href, u)
-            if not dest or urlparse(dest).path.rstrip("/") != urlparse(first_url).path.rstrip("/"):
+            raw_dest = urljoin(u, href)
+            parsed_dest = urlparse(raw_dest)
+            if parsed_dest.netloc.lower() not in ("vivi-jersey.com", "www.vivi-jersey.com") or parsed_dest.path.rstrip("/") != urlparse(first_url).path.rstrip("/"):
                 continue
-            q = parse_qs(urlparse(dest).query)
+            # Keep pagination parameters; norm_url removes them for canonical identity.
+            dest = urlunparse(("https", "www.vivi-jersey.com", parsed_dest.path, "", parsed_dest.query, ""))
+            q = parse_qs(parsed_dest.query)
             if any(k.lower() in ("page","p","pageindex","currentpage") for k in q):
                 candidates.add(dest)
             elif (a.get("rel") and "next" in [str(x).lower() for x in a.get("rel")]) or re.search(r"next|下一页|›|»", a.get_text(" ",strip=True), re.I):
@@ -146,6 +149,44 @@ def extract_sizes(soup, text):
     preferred = ["S","M","L","XL","2XL","3XL","4XL","5XL","6XL","XS","XXS","XXL","XXXL","XXXXL"]
     found.sort(key=lambda x: (preferred.index(x) if x in preferred else 100, x))
     return found, segment.strip()
+
+def classify_size_groups(sizes, title, size_raw):
+    """Separate adult and kids sizes only when the product page gives a clear signal."""
+    title_lower = (title or "").lower()
+    kids_title = bool(re.search(r"\b(kids?|children|youth|junior)\b", title_lower))
+    mixed_title = bool(re.search(r"\badults?\b.*\b(kids?|children|youth)\b|\b(kids?|children|youth)\b.*\badults?\b", title_lower))
+    if mixed_title:
+        # Numeric/age sizes are classified as kids only on an explicitly mixed listing.
+        kids = [x for x in sizes if re.fullmatch(r"\d{1,2}(?:-\d{1,2}Y)?", x, re.I)]
+        adults = [x for x in sizes if x not in kids]
+        if adults and kids:
+            return adults, kids, "mixed"
+        return [], [], "unknown"
+    if kids_title:
+        return [], list(sizes), "kids" if sizes else "unknown"
+    return list(sizes), [], "adult" if sizes else "unknown"
+
+
+def patch_image_for_label(soup, label):
+    """Match a patch option to its own supplier thumbnail when the HTML exposes one."""
+    wanted = re.sub(r"[^a-z0-9]+", " ", label.lower()).strip()
+    if not wanted:
+        return ""
+    words = [x for x in wanted.split() if len(x) > 2]
+    best_url, best_score = "", 0
+    for img in soup.select("img[src], img[data-src], img[data-original]"):
+        src = img.get("data-src") or img.get("data-original") or img.get("src") or ""
+        if not src:
+            continue
+        candidate = " ".join(str(img.get(k, "")) for k in ("alt", "title", "aria-label", "data-title"))
+        if img.parent:
+            candidate += " " + img.parent.get_text(" ", strip=True)
+        candidate = re.sub(r"[^a-z0-9]+", " ", candidate.lower())
+        score = sum(1 for word in words if word in candidate)
+        if score > best_score:
+            best_url, best_score = urljoin(BASE, src), score
+    return best_url if best_score >= min(2, len(words)) else ""
+
 
 def clean_dupes(s):
     words = re.sub(r"\s+"," ",s).strip(" \t\r\n:;")
@@ -236,7 +277,9 @@ def product_detail(url, team):
         title = meta.get("content","").strip() if meta else ""
     text = soup.get_text(" ",strip=True)
     sizes, size_raw = extract_sizes(soup,text)
+    adult_sizes, kids_sizes, size_audience = classify_size_groups(sizes,title,size_raw)
     patch_groups = extract_patches(text)
+    patch_status = "available" if any(g.get("options") for g in patch_groups) else ("unreadable" if patch_groups else "not_offered")
     customization_raw, customization = extract_customization(text)
     patch_slots = len(patch_groups)
     patch_options = []
@@ -252,7 +295,7 @@ def product_detail(url, team):
                 "slot_number": int(group["slot_number"]),
                 "extra_price_usd": usd,
                 "extra_price_eur": round(usd * 0.8957, 2),
-                "image_url": ""
+                "image_url": patch_image_for_label(soup, label)
             })
     images = []
     meta_image = soup.find("meta", property="og:image")
@@ -270,17 +313,19 @@ def product_detail(url, team):
     reasons = []
     if not title: reasons.append("titre absent")
     if not sizes: reasons.append("tailles non extraites")
+    if size_audience == "unknown": reasons.append("catégorie adulte/enfant non confirmée")
+    if patch_status == "unreadable": reasons.append("options de patch détectées mais illisibles")
     if not images: reasons.append("image principale absente")
     if not season: reasons.append("saison/année non identifiable")
     if not kind: reasons.append("type domicile/extérieur/third/rétro/entraînement non identifiable")
     if not team: reasons.append("club non identifié depuis sa collection")
     return {
         "name":title,"group":team,"team":team,"category":"clubs","season":season,
-        "kitType":kind,"version":version_from(title),"sizes":sizes,"size_raw":size_raw,
+        "kitType":kind,"version":version_from(title),"sizes":sizes,"adultSizes":adult_sizes,"kidsSizes":kids_sizes,"sizeAudience":size_audience,"size_raw":size_raw,
         "image":images[0] if images else "","images":images[:12],
         "supplier":"Vivi Jersey","supplierVerified":bool(title and final_url.startswith("https://")),
         "supplierUrl":final_url,"sourceUrl":final_url,
-        "patchSlots":patch_slots,"patchOptions":patch_options,
+        "patchSlots":patch_slots,"patchOptions":patch_options,"patchStatus":patch_status,
         "playerSelectionAllowed":any("choose player" in x["label"].lower() for x in customization),
         "personalizationAllowed":any("personalize" in x["label"].lower() or "personalise" in x["label"].lower() for x in customization),
         "personalization":{"allowed":any("personalize" in x["label"].lower() or "personalise" in x["label"].lower() for x in customization),"customName":any("personalize" in x["label"].lower() or "personalise" in x["label"].lower() for x in customization),"customNumber":any("personalize" in x["label"].lower() or "personalise" in x["label"].lower() for x in customization)},
@@ -367,10 +412,10 @@ def main():
     }
     with open("data/vivi-clubs-audit.json","w",encoding="utf-8") as f: json.dump(report,f,ensure_ascii=False,indent=2)
     with open("data/vivi-clubs-audit.csv","w",encoding="utf-8",newline="") as f:
-        w=csv.writer(f); w.writerow(["status","club","name","season","kitType","version","sizes","patch_slots","patch_options","supplier_url","image","reasons"])
+        w=csv.writer(f); w.writerow(["status","club","name","season","kitType","version","size_audience","adult_sizes","kids_sizes","sizes_legacy","patch_status","patch_slots","patch_options","supplier_url","image","reasons"])
         for p in ready+duplicates+incomplete:
-            patch_summary=" | ".join(f"slot {s['slot_number']}: "+", ".join(o["label"] for o in s.get("options",[])) for s in p.get("patchOptions",[]))
-            w.writerow([p.get("status","incomplete"),p.get("group",""),p.get("name",""),p.get("season",""),p.get("kitType",""),p.get("version",""),", ".join(p.get("sizes",[])),p.get("patchSlots",0),patch_summary,p.get("supplierUrl",p.get("url","")),p.get("image",""),"; ".join(p.get("reasons",[]))])
+            patch_summary=" | ".join(f"slot {o.get('slot_number',0)}: {o.get('label','')}" for o in p.get("patchOptions",[]))
+            w.writerow([p.get("status","incomplete"),p.get("group",""),p.get("name",""),p.get("season",""),p.get("kitType",""),p.get("version",""),p.get("sizeAudience","unknown"),", ".join(p.get("adultSizes",[])),", ".join(p.get("kidsSizes",[])),", ".join(p.get("sizes",[])),p.get("patchStatus","unknown"),p.get("patchSlots",0),patch_summary,p.get("supplierUrl",p.get("url","")),p.get("image",""),"; ".join(p.get("reasons",[]))])
     summary = [
         "# Audit du catalogue clubs Vivi Jersey",
         "",
@@ -382,6 +427,7 @@ def main():
         f"- Fiches incomplètes à contrôler : {len(incomplete)}",
         f"- Erreurs de collections : {len(collection_errors)}",
         "",
+        "Les tailles adultes et enfants sont séparées uniquement lorsque le titre/la fiche fournisseur le permet. Les patchs sont relevés par modèle ; une absence de champ patch est distinguée d’une option illisible.",
         "Les fiches incomplètes ne sont pas publiées. Les prix fournisseur sont convertis des USD en EUR avec le taux de référence BCE du 06/11/2026 (1 EUR = 1,1165 USD).",
         ""
     ]

@@ -519,7 +519,10 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
   const normalizeRosterKey=value=>slug(String(value||"")).replace(/[^a-z0-9]/g,"");
   const rosterSource=[p.group,p.team,p.name].filter(Boolean).map(normalizeRosterKey);
-  const rosterKey=isNational&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
+  // Les 48 effectifs présents dans national-players.js sont les listes officielles FIFA 2026.
+  // Ne pas les proposer sur un maillot d'une autre saison : le flocage doit correspondre à l'époque du modèle.
+  const fifaRosterYearCompatible=/2026/.test(String(p.season||"")+" "+String(p.name||""));
+  const rosterKey=isNational&&fifaRosterYearCompatible&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
   const clubRoster=isClub&&Array.isArray(p.players)?p.players:[];
   const renderPersonalization=()=>{

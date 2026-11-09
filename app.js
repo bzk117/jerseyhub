@@ -503,7 +503,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    dialog.querySelector("#jh-gallery-lightbox-close").onclick=()=>{lightbox.hidden=true};
    lightbox.onclick=event=>{if(event.target===lightbox)lightbox.hidden=true};
   }
-  if(p.sizePending){
+  if(p.sizePending||p.sizeAudience==="unknown"||!sizes.length){
    const sizeSelect=dialog.querySelector("#jh-size");
    sizeSelect.disabled=true;
    const addButton=dialog.querySelector("#jh-add");

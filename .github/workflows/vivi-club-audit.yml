@@ -39,7 +39,9 @@ jobs:
           MAX_COLLECTIONS: "500"
         run: python scripts/vivi_club_audit.py
 
+      # Upload generated files even if the crawler exits with an error after producing partial reports.
       - name: Upload audit files
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: vivi-jersey-club-audit
@@ -47,7 +49,7 @@ jobs:
             VIVI-CLUBS-AUDIT.md
             data/vivi-clubs-audit.json
             data/vivi-clubs-audit.csv
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 30
 
       - name: Save audit report safely to repository

@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: vivi-club-catalog-audit
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   audit:
@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,20 +39,6 @@ jobs:
           MAX_COLLECTIONS: "500"
         run: python scripts/vivi_club_audit.py
 
-      - name: Save audit report to repository
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add VIVI-CLUBS-AUDIT.md data/vivi-clubs-audit.json data/vivi-clubs-audit.csv
-          if git diff --cached --quiet; then
-            echo "Audit identique : aucun changement à committer."
-          else
-            git commit -m "Save verified Vivi Jersey club audit"
-            git push origin HEAD:main
-          fi
-
       - name: Upload audit files
         uses: actions/upload-artifact@v4
         with:
@@ -62,3 +48,43 @@ jobs:
             data/vivi-clubs-audit.json
             data/vivi-clubs-audit.csv
           if-no-files-found: error
+          retention-days: 30
+
+      - name: Save audit report safely to repository
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Keep the freshly generated report outside the worktree while refreshing main.
+          REPORT_DIR="$RUNNER_TEMP/vivi-audit-report"
+          mkdir -p "$REPORT_DIR/data"
+          cp VIVI-CLUBS-AUDIT.md "$REPORT_DIR/"
+          cp data/vivi-clubs-audit.json data/vivi-clubs-audit.csv "$REPORT_DIR/data/"
+
+          for attempt in 1 2 3 4 5; do
+            echo "Tentative de sauvegarde $attempt/5"
+            git fetch origin main
+            git reset --hard origin/main
+
+            cp "$REPORT_DIR/VIVI-CLUBS-AUDIT.md" .
+            cp "$REPORT_DIR/data/vivi-clubs-audit.json" "$REPORT_DIR/data/vivi-clubs-audit.csv" data/
+
+            git add VIVI-CLUBS-AUDIT.md data/vivi-clubs-audit.json data/vivi-clubs-audit.csv
+            if git diff --cached --quiet; then
+              echo "Audit identique : aucun changement à committer."
+              exit 0
+            fi
+
+            git commit -m "Save verified Vivi Jersey club audit"
+            if git push origin HEAD:main; then
+              echo "Rapport sauvegardé sur main."
+              exit 0
+            fi
+
+            echo "La branche main a avancé pendant la sauvegarde ; nouvelle tentative."
+            sleep 3
+          done
+
+          echo "Échec après cinq tentatives. Le rapport reste disponible dans l'artefact."
+          exit 1

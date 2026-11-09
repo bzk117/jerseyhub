@@ -384,14 +384,20 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    return;
   }
   dialog.dataset.mode="product";
-  const sizes=(p.sizes||[]).flatMap(raw=>{
+  const normalizeSizeList=values=>(values||[]).flatMap(raw=>{
    const value=String(raw).trim().replace(/–/g,"-");
    const range=value.match(/^(S|M|L|XL)\s*-\s*(2XL|3XL|4XL)$/i);
    if(!range)return [value];
    const order=["S","M","L","XL","2XL","3XL","4XL"];
    return order.slice(order.indexOf(range[1].toUpperCase()),order.indexOf(range[2].toUpperCase())+1);
   }).filter((v,i,a)=>a.indexOf(v)===i);
+  const adultSizes=normalizeSizeList(p.adultSizes);
+  const kidsSizes=normalizeSizeList(p.kidsSizes);
+  const hasSeparateAudiences=adultSizes.length>0&&kidsSizes.length>0;
+  let selectedSizeAudience=hasSeparateAudiences?"adult":((p.sizeAudience==="kids"||p.version==="kids")?"kids":"adult");
+  let sizes=normalizeSizeList(hasSeparateAudiences?adultSizes:(p.sizes||[]));
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
+  const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
   const legacyPatchOptions=Array.isArray(p.patches)?p.patches:[];
   const isNational=p.category==="national",isClub=p.category==="clubs";
   const personalizationAllowed=!isClub||p.personalizationAllowed===true||p.personalization?.allowed===true;
@@ -454,12 +460,21 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    ? '<div class="jh-product-gallery"><div class="jh-gallery-main-wrap"><img id="jh-product-gallery-image" class="jh-gallery-main" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - photo 1"><div id="jh-gallery-zoom" class="jh-gallery-zoom" aria-hidden="true"><span>Zoom</span></div><button type="button" class="jh-gallery-enlarge" id="jh-gallery-enlarge">Agrandir l’image</button></div><div class="jh-gallery-side"><div class="jh-gallery-thumbs">'+galleryImages.map((src,i)=>'<button type="button" class="jh-gallery-thumb'+(i===0?' active':'')+'" data-gallery-index="'+i+'" aria-label="Afficher la photo '+(i+1)+'"><img src="'+esc(src)+'" alt=""></button>').join('')+'</div><div class="jh-gallery-controls"><button type="button" class="jh-secondary" id="jh-gallery-prev" aria-label="Photo précédente">←</button><span id="jh-gallery-count">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next" aria-label="Photo suivante">→</button></div></div><div class="jh-gallery-lightbox" id="jh-gallery-lightbox" hidden><button type="button" id="jh-gallery-lightbox-close" aria-label="Fermer">×</button><img id="jh-gallery-lightbox-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' agrandie"></div></div>'
    : '<div class="jh-product-test-shirt" aria-label="Visuel de démonstration"></div>';
   const outOfStock=isOutOfStock(p);
-  const sizeSummary=sizes.length?'<p class="jh-option-summary"><b>Tailles proposées :</b> '+sizes.map(esc).join(' · ')+'</p>':'<p class="jh-option-summary">Taille à confirmer auprès du fournisseur.</p>';
+  const sizeSummary=sizes.length?'<p class="jh-option-summary" id="jh-size-summary"><b>'+(selectedSizeAudience==="kids"?"Tailles enfants :":"Tailles adultes :")+'</b> '+sizes.map(esc).join(' · ')+'</p>':'<p class="jh-option-summary" id="jh-size-summary">Taille à confirmer auprès du fournisseur.</p>';
   const stockNotice=outOfStock?'<p class="jh-stock-warning">PAS DE STOCK — Cet article ne peut pas être ajouté à la commande pour le moment.</p>':'';
   const personalizationOptions=personalizationAllowed?'<option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option>':"";
   const personalizationNotice=isClub&&!personalizationAllowed?'<p class="jh-player-note">La personnalisation nom/numéro n’est pas encore confirmée pour ce modèle.</p>':"";
   const productMeta=[p.season,p.kitType,p.version].filter(Boolean).map(esc).join(" · ");
-  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeSummary+'<label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select></section><section class="jh-options-block"><h3>2. Choisir les patchs</h3>'+patchMarkup+'</section><section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select></section><section class="jh-options-block"><h3>2. Choisir les patchs</h3>'+patchMarkup+'</section><section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  const sizeAudienceSelect=dialog.querySelector("#jh-size-audience");
+  if(sizeAudienceSelect)sizeAudienceSelect.onchange=()=>{
+   selectedSizeAudience=sizeAudienceSelect.value;
+   sizes=selectedSizeAudience==="kids"?kidsSizes:adultSizes;
+   const select=dialog.querySelector("#jh-size");
+   select.innerHTML='<option value="">Sélectionnez une taille</option>'+sizes.map(s=>'<option>'+esc(s)+'</option>').join("");
+   const summary=dialog.querySelector("#jh-size-summary");
+   if(summary)summary.innerHTML='<b>'+(selectedSizeAudience==="kids"?"Tailles enfants :":"Tailles adultes :")+'</b> '+sizes.map(esc).join(" · ");
+  };
   if(outOfStock){const add=dialog.querySelector('#jh-add');add.disabled=true;add.textContent='Indisponible'}
   if(galleryImages.length){
    const showGalleryImage=()=>{
@@ -534,7 +549,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    const patches=(isNational||isClub)?patchSelections.map(x=>x.label):[...dialog.querySelectorAll(".jh-patch:checked")].map(x=>x.value);
    const patchTotalEur=patchSelections.reduce((sum,patch)=>sum+(Number(patch.extra_price_eur)||0),0);
    const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
-   const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
+   const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
    write(next);close();showCart();
   };
  }

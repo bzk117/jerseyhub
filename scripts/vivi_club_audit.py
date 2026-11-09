@@ -94,9 +94,29 @@ al-nassr al-ittihad al-ain-fc al-hilal al-ahli celtic-fc glasgow-rangers boca-ju
 university-of-chile""".split())
 
 def is_club_collection(url, label):
-    # Restrict the crawl to actual association-football club collections. The old
-    # broad filter accidentally crawled MLB/NFL/NHL/rugby and national-team pages.
-    return slug_of(url) in FOOTBALL_CLUB_SLUGS
+    """Accept actual club collections dynamically instead of a stale club allowlist."""
+    slug = slug_of(url)
+    generic_collections = {
+        "2025-26", "2025-26-series", "2025-26-new-season", "2026-27",
+        "2026-world-cup", "football-jersey", "football-jerseys",
+        "new-season", "hot-sale", "bringback-95-96", "t90",
+        "eindhoven-galatasaray", "retro-football-jersey",
+        "club-team", "national-team", "jersey-enthusiasts",
+    }
+    if not slug or slug in EXCLUDED or slug in COUNTRIES or slug in generic_collections:
+        return False
+    # Reject generic collection names and league/category pages even when the
+    # supplier adds a new category that is not yet in EXCLUDED.
+    generic_words = re.compile(
+        r"(^|[-_])(league|kids?|children|women|womens|national|country|"
+        r"rugby|nhl|nfl|mlb|nba|formula|socks|shorts|pants|trousers|"
+        r"training|windbreaker|jacket|suit|blind|others?)([-_]|$)", re.I
+    )
+    if generic_words.search(slug):
+        return False
+    if re.fullmatch(r"(19|20)?\\d{2}([-_]\\d{2,4})?", slug):
+        return False
+    return True
 
 def collect_links(html, pattern):
     soup = BeautifulSoup(html, "html.parser")

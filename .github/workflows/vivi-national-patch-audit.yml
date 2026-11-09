@@ -1,0 +1,53 @@
+name: Audit national jersey patch options
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/vivi_national_patch_audit.py"
+      - ".github/workflows/vivi-national-patch-audit.yml"
+      - "catalog.js"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vivi-national-patch-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout JerseyHub
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install audit dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Audit national product pages and patch options
+        env:
+          MAX_PRODUCTS: "0"
+          WORKERS: "8"
+        run: python scripts/vivi_national_patch_audit.py
+
+      - name: Upload national patch audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivi-national-patch-audit
+          path: |
+            VIVI-NATIONAL-PATCH-AUDIT.md
+            data/vivi-national-patch-audit.json
+            data/vivi-national-patch-audit.csv
+          if-no-files-found: error
+          retention-days: 30

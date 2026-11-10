@@ -28,6 +28,10 @@ Le script `scripts/build_bundesliga_patch_candidates.py` transforme le rapport b
 
 Cette bibliothèque est un support de préparation, **pas une activation publique**. Il faut confirmer le modèle exact, le club, la saison, le placement et la correspondance avec une fiche JerseyHub avant d'activer une option.
 
+## Complément de collecte préparé
+
+Le collecteur a été étendu pour consulter aussi le sitemap produit de Vivi Jersey. Il ajoute uniquement les pages de clubs absentes des collections déjà trouvées, afin de rechercher les 7 clubs manquants sans réauditer inutilement les collections déjà couvertes. Cette extension doit encore être exécutée dans GitHub Actions et ses résultats contrôlés.
+
 ## Clubs encore absents de la collecte
 
 Les 7 clubs non détectés dans les collections identifiées sont :

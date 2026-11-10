@@ -525,7 +525,8 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const fifaRosterYearCompatible=/2026/.test(String(p.season||"")+" "+String(p.name||""));
   const rosterKey=isNational&&fifaRosterYearCompatible&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
-  const clubRoster=isClub&&Array.isArray(p.players)?p.players:[];
+  const productPlayerLibrary=window.JERSEYHUB_PLAYER_LIBRARY&&p.supplierUrl?window.JERSEYHUB_PLAYER_LIBRARY[p.supplierUrl.replace(/\/$/,"")]:[];
+  const clubRoster=isClub?(Array.isArray(p.players)&&p.players.length?p.players:(Array.isArray(productPlayerLibrary)?productPlayerLibrary:[])):[];
   const renderPersonalization=()=>{
    if(person.value==="Aucune"){fields.innerHTML="";return}
    if(person.value==="Nom et numéro du joueur"){
@@ -554,7 +555,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    }).filter(Boolean):[];
    const patches=(isNational||isClub)?patchSelections.map(x=>x.label):[...dialog.querySelectorAll(".jh-patch:checked")].map(x=>x.value);
    const patchTotalEur=patchSelections.reduce((sum,patch)=>sum+(Number(patch.extra_price_eur)||0),0);
-   const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
+   const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>{const playerName=Array.isArray(x)?x[0]:x.name;const shirtName=Array.isArray(x)?x[1]:x.shirt;return playerName===customName||shirtName===customName;})||null):null;
    const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
    write(next);close();showCart();
   };

@@ -60,12 +60,12 @@ def main():
  js='''/* Auto-generated: verified Premier League sizes only. No patch/flocking data. */
 (() => {
  const incoming = '''+data+''';
- if (!Array.isArray(window.PRODUCTS)) { console.error("JerseyHub PRODUCTS unavailable; size import skipped."); return; }
+ if (typeof PRODUCTS === "undefined" || !Array.isArray(PRODUCTS)) { console.error("JerseyHub PRODUCTS unavailable; size import skipped."); return; }
  let updated=0, added=0;
  for (const item of incoming) {
-  const old=window.PRODUCTS.find(p=>p && p.category==="clubs" && ((p.supplierUrl && p.supplierUrl===item.supplierUrl)||(p.sourceUrl && p.sourceUrl===item.supplierUrl)));
+  const old=PRODUCTS.find(p=>p && p.category==="clubs" && ((p.supplierUrl && p.supplierUrl===item.supplierUrl)||(p.sourceUrl && p.sourceUrl===item.supplierUrl)));
   if(old) { old.sizes=item.sizes; old.adultSizes=item.adultSizes; old.kidsSizes=item.kidsSizes; old.sizeAudience=item.sizeAudience; updated++; }
-  else { window.PRODUCTS.push(item); added++; }
+  else { PRODUCTS.push(item); added++; }
  }
  console.info("Premier League size import", {updated,added,verified:incoming.length});
 })();

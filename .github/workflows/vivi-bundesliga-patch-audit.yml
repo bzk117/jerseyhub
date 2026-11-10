@@ -1,0 +1,49 @@
+name: Audit patchs clubs allemands — Bundesliga
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/vivi_bundesliga_patch_audit.py"
+      - ".github/workflows/vivi-bundesliga-patch-audit.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vivi-bundesliga-patch-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout JerseyHub
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Auditer uniquement les collections des clubs allemands
+        run: python scripts/vivi_bundesliga_patch_audit.py
+
+      - name: Publier le rapport comme artefact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivi-bundesliga-patch-audit
+          path: |
+            VIVI-BUNDESLIGA-PATCH-AUDIT.md
+            data/vivi-bundesliga-patch-audit.json
+            data/vivi-bundesliga-patch-audit.csv
+          if-no-files-found: error
+          retention-days: 30

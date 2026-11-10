@@ -25,7 +25,10 @@
   return result;
  }
  let clubDirectory=directory();
- async function hydrateDirectoryFromInventory(){\n  try{const {data,error}=await db.from("r2_object_inventory").select("object_key").like("object_key","assets/clubs/%").limit(10000);if(error)throw error;(data||[]).forEach(row=>{const parts=String(row.object_key||"").split("/");if(parts.length<4||parts[0]!=="assets"||parts[1]!=="clubs")return;const countryName=parts[2],clubName=parts[3];if(!countryName||!clubName)return;clubDirectory.set(countryName,[...new Set([...(clubDirectory.get(countryName)||[]),clubName])].sort((a,b)=>a.localeCompare(b,"fr")));});}catch(error){console.warn("Répertoire pays/clubs depuis R2 indisponible :",error)}\n }\n function renderCountries(){
+ async function hydrateDirectoryFromInventory(){
+  try{const {data,error}=await db.from("r2_object_inventory").select("object_key").like("object_key","assets/clubs/%").limit(10000);if(error)throw error;(data||[]).forEach(row=>{const parts=String(row.object_key||"").split("/");if(parts.length<4||parts[0]!=="assets"||parts[1]!=="clubs")return;const countryName=parts[2],clubName=parts[3];if(!countryName||!clubName)return;clubDirectory.set(countryName,[...new Set([...(clubDirectory.get(countryName)||[]),clubName])].sort((a,b)=>a.localeCompare(b,"fr")));});}catch(error){console.warn("Répertoire pays/clubs depuis R2 indisponible :",error)}
+ }
+ function renderCountries(){
   country.innerHTML='<option value="">Choisir un pays…</option>'+[...clubDirectory.keys()].sort((a,b)=>a.localeCompare(b,"fr")).map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
   club.innerHTML='<option value="">Choisir un club…</option>';
  }

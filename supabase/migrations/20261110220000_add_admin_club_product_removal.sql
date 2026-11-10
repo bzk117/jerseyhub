@@ -15,6 +15,8 @@ create table if not exists public.club_product_exclusions (
 
 create index if not exists club_product_exclusions_club_idx
   on public.club_product_exclusions (club_name, hidden_at desc);
+create index if not exists club_product_exclusions_hidden_by_idx
+  on public.club_product_exclusions (hidden_by);
 
 alter table public.club_product_exclusions enable row level security;
 

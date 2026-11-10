@@ -183,7 +183,18 @@ def valid_image_bytes(data: bytes, content_type: str) -> str | None:
     ctype = (content_type or "").split(";")[0].strip().lower()
     return { "image/png": ".png", "image/jpeg": ".jpg", "image/webp": ".webp", "image/gif": ".gif" }.get(ctype)
 
-def download_patch_image(url: str, team: str) -> str:
+TEAM_LEAGUES = {
+"Manchester United":"Premier League","Manchester City":"Premier League","Liverpool":"Premier League","Arsenal":"Premier League","Chelsea":"Premier League","Tottenham Hotspur":"Premier League","Newcastle United":"Premier League","Everton":"Premier League","West Ham United":"Premier League","Aston Villa":"Premier League","Crystal Palace":"Premier League","Wolves":"Premier League","Fulham":"Premier League","Leeds United":"Premier League","Nottingham Forest":"Premier League","Brighton":"Premier League","Leicester City":"Premier League",
+"Real Madrid":"La Liga","FC Barcelona":"La Liga","Atletico Madrid":"La Liga","Athletic Club":"La Liga","Sevilla":"La Liga","Valencia":"La Liga","Real Betis":"La Liga",
+"Inter Milan":"Serie A","AC Milan":"Serie A","Juventus":"Serie A","Napoli":"Serie A","AS Roma":"Serie A","Lazio":"Serie A",
+"Bayern Munich":"Bundesliga","Borussia Dortmund":"Bundesliga","Bayer Leverkusen":"Bundesliga","Eintracht Frankfurt":"Bundesliga","RB Leipzig":"Bundesliga",
+"Paris Saint-Germain":"Ligue 1","Olympique de Marseille":"Ligue 1","Olympique Lyonnais":"Ligue 1","AS Monaco":"Ligue 1","LOSC Lille":"Ligue 1",
+"Benfica":"Portuguese League","FC Porto":"Portuguese League","Sporting CP":"Portuguese League","Ajax":"Eredivisie","PSV Eindhoven":"Eredivisie","Feyenoord":"Eredivisie","Celtic":"Scottish Premier League","Rangers":"Scottish Premier League","Al-Nassr":"Saudi Professional League","Al-Hilal":"Saudi Professional League","Inter Miami":"MLS","Boca Juniors":"Superliga Argentina","River Plate":"Superliga Argentina","Anderlecht":"Belgian Pro League","Club Brugge":"Belgian Pro League","Standard de Liège":"Belgian Pro League"
+}
+def league_for_team(team: str) -> str:
+    return TEAM_LEAGUES.get(team, "Autres ligues")
+
+def download_patch_image(url: str, team: str, league: str = "Autres ligues") -> str:
     if not url:
         return ""
     digest = hashlib.sha256(url.encode("utf-8")).hexdigest()[:20]
@@ -203,7 +214,8 @@ def download_patch_image(url: str, team: str) -> str:
     if not extension:
         raise ValueError("supplier URL did not return a recognised image")
     team_slug = re.sub(r"[^a-z0-9]+", "-", norm_text(team)).strip("-") or "club-a-verifier"
-    folder = ASSET_DIR / team_slug
+    league_slug = re.sub(r"[^a-z0-9]+", "-", norm_text(league)).strip("-") or "autres-ligues"
+    folder = ASSET_DIR / league_slug / team_slug
     folder.mkdir(parents=True, exist_ok=True)
     target = folder / f"{digest}{extension}"
     if not target.exists():
@@ -298,6 +310,10 @@ def process_product(url: str, collection_teams: set[str], catalog_urls: set[str]
         return {"supplier_url": final_url, "title": title, "status": "ambiguous_club", "candidate_teams": sorted(candidate_teams), "options": []}
 
     page_text = soup.get_text(" ", strip=True)
+    sizes, size_raw = audit.extract_sizes(soup, page_text)
+    adult_sizes, kids_sizes, size_audience = audit.classify_size_groups(sizes, title, size_raw)
+    customization_raw, customization_options = audit.extract_customization(page_text)
+    league = league_for_team(team)
     patch_groups = audit.extract_patches(page_text)
     options = []
     download_errors = []
@@ -311,7 +327,7 @@ def process_product(url: str, collection_teams: set[str], catalog_urls: set[str]
             local_image = ""
             if image_source:
                 try:
-                    local_image = download_patch_image(image_source, team)
+                    local_image = download_patch_image(image_source, team, league)
                 except Exception as exc:
                     download_errors.append({"label": label, "image_url": image_source, "error": str(exc)})
             usd = raw_option.get("extra_price_usd")
@@ -334,6 +350,14 @@ def process_product(url: str, collection_teams: set[str], catalog_urls: set[str]
         "supplier_url": final_url,
         "title": title,
         "team": team,
+        "league": league,
+        "sizes": sizes,
+        "adult_sizes": adult_sizes,
+        "kids_sizes": kids_sizes,
+        "size_audience": size_audience,
+        "size_raw": size_raw,
+        "customization_raw": customization_raw,
+        "customization_options": customization_options,
         "status": status,
         "patch_slots_detected": len(patch_groups),
         "options": options,
@@ -402,10 +426,28 @@ def main():
         "options_detected_total": sum(len(item.get("options", [])) for item in results),
         "images_downloaded": sum(1 for item in results for option in item.get("options", []) if option.get("image_downloaded")),
         "options_without_downloaded_image": sum(1 for item in results for option in item.get("options", []) if not option.get("image_downloaded")),
+        "products_with_sizes_detected": sum(1 for item in results if item.get("sizes")),
+        "size_values_detected": sum(len(item.get("sizes", [])) for item in results),
+        "products_with_flocage_options": sum(1 for item in results if item.get("customization_options")),
+        "flocage_options_detected": sum(len(item.get("customization_options", [])) for item in results),
         "collection_errors": collection_errors,
         "products": sorted(results, key=lambda item: (item.get("team", ""), item.get("title", ""))),
     }
     (DATA_DIR / "vivi-patch-library.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    with (DATA_DIR / "tailles.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.writer(handle, delimiter=";")
+        writer.writerow(["Ligue", "Club", "Produit", "Tailles adultes", "Tailles enfants", "Audience", "URL fournisseur"])
+        for product in results:
+            if product.get("title"):
+                writer.writerow([product.get("league", ""), product.get("team", ""), product.get("title", ""), ", ".join(product.get("adult_sizes", [])), ", ".join(product.get("kids_sizes", [])), product.get("size_audience", "unknown"), product.get("supplier_url", "")])
+
+    with (DATA_DIR / "flocages.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.writer(handle, delimiter=";")
+        writer.writerow(["Ligue", "Club", "Produit", "Option de flocage", "Supplément USD", "URL fournisseur"])
+        for product in results:
+            for option in product.get("customization_options", []):
+                writer.writerow([product.get("league", ""), product.get("team", ""), product.get("title", ""), option.get("label", ""), option.get("extra_price_usd", 0), product.get("supplier_url", "")])
+
     with (DATA_DIR / "vivi-patch-library.csv").open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle)
         writer.writerow(["team", "product", "status", "catalog_match", "slot", "label", "price_usd", "image_downloaded", "local_image", "supplier_url"])

@@ -27,7 +27,7 @@ jobs:
       - name: Checkout preparation branch
         uses: actions/checkout@v4
         with:
-          ref: \${{ github.ref_name }}
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -68,7 +68,7 @@ jobs:
 
       - name: Commit downloaded images and exact-product manifest to preparation branch
         env:
-          BRANCH_NAME: \${{ github.ref_name }}
+          BRANCH_NAME: ${{ github.ref_name }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -78,17 +78,17 @@ jobs:
             echo "No generated patch-library changes."
           else
             git commit -m "Download and map verified Vivi club patches"
-            git push origin "HEAD:\${BRANCH_NAME}"
+            git push origin "HEAD:${BRANCH_NAME}"
           fi
 
       - name: Open or update review pull request
         env:
-          GH_TOKEN: \${{ github.token }}
-          BRANCH_NAME: \${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
+          BRANCH_NAME: ${{ github.ref_name }}
         run: |
           set -euo pipefail
           if gh pr view "$BRANCH_NAME" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            echo "A pull request already exists for \${BRANCH_NAME}."
+            echo "A pull request already exists for ${BRANCH_NAME}."
           else
             gh pr create \
               --repo "$GITHUB_REPOSITORY" \

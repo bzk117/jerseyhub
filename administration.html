@@ -106,7 +106,7 @@ async function loadClubProductSelection(){
  if(!selected){$("clubProductFeedback").textContent="Sélectionne un club pour afficher ses maillots.";return}
  $("clubProductFeedback").textContent="Chargement des maillots de "+selected.team+"…";
  const products=(typeof PRODUCTS!=="undefined"?PRODUCTS:[]).filter(p=>p?.category==="clubs"&&p.group===selected.team);
- adminClubEntries=products.map(p=>({key:adminCatalogProductKey(p),name:p.name,team:selected.team,image:p.image||"",meta:[p.season,p.version,p.kitType].filter(Boolean).join(" · "),p.supplier||""].filter(Boolean).join(" · "),source:"catalog"}));
+ adminClubEntries=products.map(p=>({key:adminCatalogProductKey(p),name:p.name,team:selected.team,image:p.image||"",meta:[p.season,p.version,p.kitType,p.supplier].filter(Boolean).join(" · "),source:"catalog"}));
  if(selected.country){
   const {data:gallery,error}=await db.rpc("jerseyhub_club_gallery",{p_country:selected.country,p_club:selected.team});
   if(error){

@@ -50,7 +50,7 @@
 </section>
 <div class="admin-row"><div><h2>Demandes clients</h2><p class="admin-meta">Les changements sont enregistrés dans Supabase.</p></div><label class="admin-filter-label" for="archiveFilter">Afficher : <select id="archiveFilter"><option value="active">Demandes actives</option><option value="archived">Demandes archivées</option><option value="all">Toutes les demandes</option></select></label><button id="logout">Déconnexion</button><button id="reload">Actualiser</button></div><div class="admin-search"><label for="adminSearch">Rechercher une commande</label><input id="adminSearch" type="search" placeholder="N° de commande, nom ou adresse e-mail"><p class="admin-search-hint">La recherche couvre les commandes de la vue sélectionnée.</p></div><div class="admin-grid"><section class="admin-panel"><h3>Demandes reçues</h3><div id="requests">Chargement…</div></section><aside class="admin-panel"><h3>Détail de la demande</h3><div id="detail">Sélectionnez une demande.</div></aside></div></section>
 </main>
-<script src="catalog.js?v=20261110-admin-delete"></script><script src="clubs-products.js?v=20261110-admin-delete"></script><script src="club-patch-admin.js?v=20261110-1"></script>\n<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
+<script src="catalog.js?v=20261110-admin-delete"></script><script src="clubs-products.js?v=20261110-admin-delete"></script>\n<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
 <script>
 (()=>{const $=id=>document.getElementById(id),notice=$('notice');if(!window.supabase||!window.JERSEYHUB_SUPABASE){notice.textContent="Configuration Supabase indisponible.";return}const db=window.supabase.createClient(JERSEYHUB_SUPABASE.url,JERSEYHUB_SUPABASE.anonKey);let selected=null,records=[],searchIds=null,searchToken=0,ordersLoadToken=0;
 const say=(s,bad=false)=>{notice.textContent=s;notice.style.borderColor=bad?'#a44':'#6b531d'};
@@ -169,7 +169,7 @@ function renderClubProductList(){
   const info=document.createElement("div");info.className="club-product-admin-info";
   const name=document.createElement("strong");name.textContent=item.name;info.append(name);
   const meta=document.createElement("small");meta.textContent=item.meta||"Fiche catalogue";info.append(meta);
-  const action=document.createElement("button");action.type="button";action.textContent=hidden?"Rétablir dans le catalogue":"Retirer du catalogue";action.className=hidden?"restore":"danger";
+  const action=document.createElement("button");action.type="button";action.textContent=hidden?"Restaurer le maillot":"Supprimer le maillot";action.className=hidden?"restore":"danger";
   action.onclick=()=>toggleClubProductVisibility(item,hidden,action);
   info.append(action);card.append(info);list.append(card);
  });
@@ -312,4 +312,4 @@ $('startR2Inventory').onclick=runR2Inventory;
 $('loginForm').onsubmit=async e=>{e.preventDefault();const {error}=await db.auth.signInWithPassword({email:$('email').value.trim(),password:$('password').value});if(error){say(error.message,true);return}await refresh()};
 $('logout').onclick=async()=>{await db.auth.signOut();selected=null;await refresh()};$('reload').onclick=async()=>{await loadClubProductManager();await load()};$('archiveFilter').onchange=()=>{selected=null;$('detail').textContent='Sélectionnez une demande.';load()};db.auth.onAuthStateChange(()=>setTimeout(refresh,0));refresh();
 })();
-</script></body></html>
+</script><script src="club-patch-admin.js?v=20261110-1"></script></body></html>

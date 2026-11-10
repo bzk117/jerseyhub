@@ -403,7 +403,8 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const personalizationAllowed=!isClub||p.personalizationAllowed===true||p.personalization?.allowed===true;
   let patchRecords=[];
   if((isNational||isClub)&&window.supabase&&window.JERSEYHUB_SUPABASE){try{const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category",isNational?"national":"clubs").eq("is_active",true).order("sort_order",{ascending:true});if(!error)patchRecords=data||[];}catch(error){console.warn("Options de patch indisponibles :",error)}}
-  const productPatchOptions=Array.isArray(p.patchOptions)?p.patchOptions:[];
+  const patchLibraryOptions=window.JERSEYHUB_PATCH_LIBRARY&&p.supplierUrl?window.JERSEYHUB_PATCH_LIBRARY[p.supplierUrl.replace(/\/$/,"")]:[];
+  const productPatchOptions=[...(Array.isArray(p.patchOptions)?p.patchOptions:[]),...(Array.isArray(patchLibraryOptions)?patchLibraryOptions:[])].filter((option,index,all)=>all.findIndex(other=>Number(other.slot_number)===Number(option.slot_number)&&String(other.label||"").trim().toLowerCase()===String(option.label||"").trim().toLowerCase())===index);
   const productSpecific=patchRecords.filter(x=>x.product_name&&x.product_name===p.name);
   const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
   const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);

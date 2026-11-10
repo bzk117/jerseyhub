@@ -15,7 +15,7 @@
 - La table Supabase `public.patch_options` existe mais contient actuellement 0 ligne.
 - Le catalogue de produits clubs `clubs-products.js` contient 46 fiches, toutes associées à Manchester United : aucun produit allemand JerseyHub n'est actuellement présent dans ce fichier.
 - `app.js` sait déjà lire les options `category = 'clubs'`, mais uniquement lorsqu'elles sont liées au nom exact du produit. Il ignore volontairement les options génériques par équipe.
-- Aucune interface de gestion de `patch_options` n'a été trouvée dans `administration.html` : il faudra prévoir un écran admin pour gérer les options, les activer et les désactiver.
+- Une interface de gestion des patchs a été ajoutée dans `administration.html` sur cette branche de préparation : création/modification, activation/désactivation et association obligatoire à une fiche produit précise. Elle n'est pas encore déployée sur le site public.
 
 ## Ce qui a été préparé dans cette branche
 
@@ -41,7 +41,7 @@ L'absence d'options dans le rapport ne prouve pas que Vivi ne propose aucun patc
 
 L'interface client actuelle n'affiche que les options associées au nom exact d'un produit (ou déjà présentes dans `p.patchOptions`). Elle ignore volontairement les options génériques par équipe pour éviter d'afficher un patch sur un maillot incompatible.
 
-En outre, les fiches allemandes Vivi ne correspondent pas à des fiches produit actuellement présentes dans `clubs-products.js`. Importer maintenant des lignes actives créerait une bibliothèque orpheline, sans maillot client auquel les rattacher. L'administration ne possède pas encore d'écran pour gérer ces lignes. Les prix USD ne peuvent pas être placés dans `extra_price_eur` sans conversion confirmée.
+En outre, les fiches allemandes Vivi ne correspondent pas à des fiches produit actuellement présentes dans `clubs-products.js`. Importer maintenant des lignes actives créerait une bibliothèque orpheline, sans maillot client auquel les rattacher. L'écran d'administration est désormais préparé sur cette branche, mais il ne sera disponible publiquement qu'après validation et fusion. Les prix USD ne peuvent pas être placés dans `extra_price_eur` sans conversion confirmée.
 
 ## Conditions avant activation
 

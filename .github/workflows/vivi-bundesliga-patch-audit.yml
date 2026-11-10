@@ -8,6 +8,9 @@ on:
       - "scripts/vivi_bundesliga_patch_audit.py"
       - "scripts/build_bundesliga_patch_candidates.py"
       - "scripts/test_bundesliga_patch_candidates.py"
+      - "scripts/check_admin_inline_js.py"
+      - "administration.html"
+      - "clubs-products.js"
       - ".github/workflows/vivi-bundesliga-patch-audit.yml"
 
 permissions:
@@ -44,8 +47,11 @@ jobs:
 
       - name: Vérifier les scripts et la sécurité des candidats
         run: |
-          python -m py_compile scripts/vivi_bundesliga_patch_audit.py scripts/build_bundesliga_patch_candidates.py scripts/test_bundesliga_patch_candidates.py
+          python -m py_compile scripts/vivi_bundesliga_patch_audit.py scripts/build_bundesliga_patch_candidates.py scripts/test_bundesliga_patch_candidates.py scripts/check_admin_inline_js.py
           python scripts/test_bundesliga_patch_candidates.py
+          python scripts/check_admin_inline_js.py
+          node --check app.js
+          node --check clubs-products.js
 
       - name: Publier les rapports et la bibliothèque de candidats
         uses: actions/upload-artifact@v4

@@ -17,7 +17,7 @@
 <div class="admin-row"><div><label for="patchSlot">Emplacement</label><select id="patchSlot"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></div><div><label for="patchPrice">Supplément (€)</label><input id="patchPrice" type="number" min="0" step="0.01" value="0" required></div></div>
 <label for="patchLabel">Libellé exact du patch</label><input id="patchLabel" required maxlength="160">
 <label for="patchImage">URL de l’image originale</label><input id="patchImage" type="url" required maxlength="1000" placeholder="https://…">
-<div class="admin-row"><label><input id="patchActive" type="checkbox" checked> Option active (visible côté client si la fiche correspond)</label><div><label for="patchSort">Ordre d’affichage</label><input id="patchSort" type="number" step="1" value="0"></div></div>
+<div class="admin-row"><label><input id="patchActive" type="checkbox"> Option active (visible côté client si la fiche correspond)</label><div><label for="patchSort">Ordre d’affichage</label><input id="patchSort" type="number" step="1" value="0"></div></div>
 <div class="admin-row"><button class="primary" type="submit" id="savePatchOption">Enregistrer l’option</button><button type="button" id="resetPatchOption">Réinitialiser</button><span id="patchOptionFeedback" class="lego-admin-feedback">Aucune modification en cours.</span></div>
 </form>
 <div id="patchOptionsList">Chargement des options…</div>
@@ -28,7 +28,7 @@
 </section>
 <div class="admin-row"><div><h2>Demandes clients</h2><p class="admin-meta">Les changements sont enregistrés dans Supabase.</p></div><label class="admin-filter-label" for="archiveFilter">Afficher : <select id="archiveFilter"><option value="active">Demandes actives</option><option value="archived">Demandes archivées</option><option value="all">Toutes les demandes</option></select></label><button id="logout">Déconnexion</button><button id="reload">Actualiser</button></div><div class="admin-search"><label for="adminSearch">Rechercher une commande</label><input id="adminSearch" type="search" placeholder="N° de commande, nom ou adresse e-mail"><p class="admin-search-hint">La recherche couvre les commandes de la vue sélectionnée.</p></div><div class="admin-grid"><section class="admin-panel"><h3>Demandes reçues</h3><div id="requests">Chargement…</div></section><aside class="admin-panel"><h3>Détail de la demande</h3><div id="detail">Sélectionnez une demande.</div></aside></div></section>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
+<script src="clubs-products.js"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
 <script>
 (()=>{const $=id=>document.getElementById(id),notice=$('notice');if(!window.supabase||!window.JERSEYHUB_SUPABASE){notice.textContent="Configuration Supabase indisponible.";return}const db=window.supabase.createClient(JERSEYHUB_SUPABASE.url,JERSEYHUB_SUPABASE.anonKey);let selected=null,records=[],searchIds=null,searchToken=0,ordersLoadToken=0;
 const say=(s,bad=false)=>{notice.textContent=s;notice.style.borderColor=bad?'#a44':'#6b531d'};
@@ -37,6 +37,10 @@ const statusOptions=current=>statuses.map(s=>'<option'+(s===current?' selected':
 const paymentOptions=current=>['En attente de paiement','Payé'].map(s=>'<option value="'+s+'"'+(s===current?' selected':'')+'>'+s+'</option>').join('');
 const statusSummary=r=>{const values=[...new Set((r.request_items||[]).map(i=>i.status).filter(Boolean))];return values.length>1?'Suivi par article':values[0]||r.status};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function findCatalogProduct(teamName, productName){
+ if(typeof CLUB_PRODUCTS==="undefined"||!Array.isArray(CLUB_PRODUCTS))return null;
+ return CLUB_PRODUCTS.find(p=>p.name===productName&&(p.team||p.group)===teamName)||null;
+}
 async function refresh(){const {data}=await db.auth.getSession();const user=data.session?.user;if(!user){$('login').classList.remove('admin-hidden');$('dashboard').classList.add('admin-hidden');say("Connectez-vous avec un compte administrateur.");return}
 const {data:profile,error}=await db.from('profiles').select('role,first_name,last_name').eq('id',user.id).maybeSingle();
 if(error||user.app_metadata?.role!=='admin'){$('login').classList.add('admin-hidden');$('dashboard').classList.add('admin-hidden');say("Accès refusé : ce compte ne possède pas le rôle administrateur autorisé.",true);return}
@@ -132,7 +136,7 @@ function resetPatchOptionForm(){
  $('patchOptionId').value='';$('patchCategory').value='clubs';$('patchTeam').value='';
  $('patchProduct').value='';$('patchSlot').value='1';$('patchPrice').value='0';
  $('patchLabel').value='';$('patchImage').value='';$('patchActive').checked=true;
- $('patchSort').value='0';$('patchOptionFeedback').textContent='Aucune modification en cours.';
+ $('patchSort').value='0';$('patchActive').checked=false;$('patchOptionFeedback').textContent='Aucune modification en cours.';
  $('savePatchOption').textContent='Enregistrer l’option';
 }
 async function loadPatchOptions(){
@@ -155,6 +159,9 @@ async function loadPatchOptions(){
    $('patchOptionsPanel').scrollIntoView({behavior:'smooth',block:'start'});
   };
   card.querySelector('[data-toggle-patch]').onclick=async()=>{
+   if(!option.is_active&&option.category==='clubs'&&!findCatalogProduct(option.team_name,option.product_name)){
+    say('Activation refusée : aucune fiche club ne correspond exactement à cette équipe et à ce nom de produit dans le catalogue.',true);return;
+   }
    const {error}=await db.from('patch_options').update({is_active:!option.is_active}).eq('id',option.id);
    if(error){say('Impossible de changer le statut : '+error.message,true);return}
    say(option.is_active?'Option désactivée.':'Option activée.');await loadPatchOptions();
@@ -167,6 +174,9 @@ $('patchOptionForm').onsubmit=async event=>{
  const category=$('patchCategory').value,team=$('patchTeam').value.trim(),product=$('patchProduct').value.trim();
  const slot=Number($('patchSlot').value),price=Number($('patchPrice').value),label=$('patchLabel').value.trim(),image=$('patchImage').value.trim();
  if(!team||!product){$('patchOptionFeedback').textContent='Équipe et nom exact du produit obligatoires.';return}
+ if(category==='clubs'&&!findCatalogProduct(team,product)){
+  $('patchOptionFeedback').textContent='Enregistrement refusé : cette fiche produit exacte n’existe pas dans le catalogue des clubs JerseyHub. Aucun patch orphelin ne sera créé.';return;
+ }
  if(!Number.isInteger(slot)||slot<1||slot>3||!Number.isFinite(price)||price<0){$('patchOptionFeedback').textContent='Emplacement ou supplément invalide.';return}
  try{new URL(image);if(!/^https?:$/.test(new URL(image).protocol))throw new Error('URL invalide')}catch{$('patchOptionFeedback').textContent='Saisissez une URL d’image HTTP(S) valide.';return}
  const payload={category,team_name:team,product_name:product,slot_number:slot,label,image_url:image,extra_price_eur:price,is_active:$('patchActive').checked,sort_order:Number($('patchSort').value)||0};

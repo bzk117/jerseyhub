@@ -105,12 +105,12 @@ async function loadClubProductSelection(){
  list.innerHTML="";
  if(!selected){$("clubProductFeedback").textContent="Sélectionne un club pour afficher ses maillots.";return}
  $("clubProductFeedback").textContent="Chargement des maillots de "+selected.team+"…";
- const products=(typeof PRODUCTS!=="undefined"?PRODUCTS:[]).filter(p=>p?.category==="clubs"&&p.group===selected.team);
+ let galleryWarning="";\n const products=(typeof PRODUCTS!=="undefined"?PRODUCTS:[]).filter(p=>p?.category==="clubs"&&p.group===selected.team);
  adminClubEntries=products.map(p=>({key:adminCatalogProductKey(p),name:p.name,team:selected.team,image:p.image||"",meta:[p.season,p.version,p.kitType,p.supplier].filter(Boolean).join(" · "),source:"catalog"}));
  if(selected.country){
   const {data:gallery,error}=await db.rpc("jerseyhub_club_gallery",{p_country:selected.country,p_club:selected.team});
   if(error){
-   $("clubProductFeedback").textContent="Fiches du catalogue chargées, mais galerie R2 indisponible : "+error.message;
+   galleryWarning=" · Galerie R2 indisponible : "+error.message;
   }else{
    (gallery||[]).forEach(row=>{
     const reference=String(row.product_ref);
@@ -123,7 +123,7 @@ async function loadClubProductSelection(){
  adminClubEntries=[...unique.values()];
  renderClubProductList();
  const hiddenCount=adminClubEntries.filter(item=>adminClubHiddenKeys.has(item.key)).length;
- $("clubProductFeedback").textContent=adminClubEntries.length+" maillot(s) trouvé(s) pour "+selected.team+" · "+hiddenCount+" retiré(s) du catalogue.";
+ $("clubProductFeedback").textContent=adminClubEntries.length+" maillot(s) trouvé(s) pour "+selected.team+" · "+hiddenCount+" retiré(s) du catalogue."+galleryWarning;
 }
 function renderClubProductList(){
  const list=$("clubProductList");

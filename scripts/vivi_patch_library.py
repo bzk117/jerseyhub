@@ -261,6 +261,9 @@ def crawl_collections():
             infer_team_from_title(collection_label) or collection_label
         )
         for product_url in product_urls:
+            # Keep league-page products too; process_product will require an
+            # explicit club name in the product title before assigning them.
+            product_teams[product_url]
             if collection_team:
                 product_teams[product_url].add(collection_team)
         if index % 10 == 0 or index == len(collections):

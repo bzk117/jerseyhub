@@ -381,7 +381,7 @@ def main():
                     "label": option["label"],
                     "slot_number": option["slot_number"],
                     "image_url": option["image_url"],
-                    "extra_price_eur": 0,
+                    "extra_price_eur": None,
                     "extra_price_usd": option["extra_price_usd"],
                     "supplier_image_url": option["source_image_url"],
                     "supplier_url": option["supplier_url"],

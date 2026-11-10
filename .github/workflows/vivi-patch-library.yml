@@ -51,13 +51,16 @@ jobs:
       - name: Verify generated patch library outputs
         run: |
           test -s vivi-patch-library.js
+          test -s vivi-player-library.js
           test -s data/vivi-patch-library.json
           test -s data/vivi-patch-library.csv
           test -s data/tailles.csv
           test -s data/flocages.csv
+          test -s data/flocages-joueurs.csv
           test -s VIVI-PATCH-LIBRARY-REPORT.md
           node --check app.js
           node --check vivi-patch-library.js
+          node --check vivi-player-library.js
           python - <<'PY'
           import json
           from pathlib import Path
@@ -68,6 +71,8 @@ jobs:
           print("Images downloaded:", report["images_downloaded"])
           print("Existing JerseyHub products with patch options:", report["catalog_matched_products_with_patches"])
           print("Patch options prepared for exact product pages:", report["options_in_site_manifest"])
+          print("Products with verified player lists:", report["products_with_verified_player_rosters"])
+          print("Verified players detected:", report["verified_players_detected"])
           PY
 
       - name: Upload patch images and audit manifest
@@ -78,10 +83,12 @@ jobs:
           path: |
             VIVI-PATCH-LIBRARY-REPORT.md
             vivi-patch-library.js
+            vivi-player-library.js
             data/vivi-patch-library.json
             data/vivi-patch-library.csv
             data/tailles.csv
             data/flocages.csv
+            data/flocages-joueurs.csv
             assets/patches/
           if-no-files-found: warn
           retention-days: 30
@@ -93,7 +100,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add vivi-patch-library.js VIVI-PATCH-LIBRARY-REPORT.md data/vivi-patch-library.json data/vivi-patch-library.csv assets/patches
+          git add vivi-patch-library.js vivi-player-library.js VIVI-PATCH-LIBRARY-REPORT.md data/vivi-patch-library.json data/vivi-patch-library.csv data/flocages-joueurs.csv assets/patches
           if git diff --cached --quiet; then
             echo "No generated patch-library changes."
           else

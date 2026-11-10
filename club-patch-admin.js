@@ -25,7 +25,7 @@
   return result;
  }
  let clubDirectory=directory();
- function renderCountries(){
+ async function hydrateDirectoryFromInventory(){\n  try{const {data,error}=await db.from("r2_object_inventory").select("object_key").like("object_key","assets/clubs/%").limit(10000);if(error)throw error;(data||[]).forEach(row=>{const parts=String(row.object_key||"").split("/");if(parts.length<4||parts[0]!=="assets"||parts[1]!=="clubs")return;const countryName=parts[2],clubName=parts[3];if(!countryName||!clubName)return;clubDirectory.set(countryName,[...new Set([...(clubDirectory.get(countryName)||[]),clubName])].sort((a,b)=>a.localeCompare(b,"fr")));});}catch(error){console.warn("Répertoire pays/clubs depuis R2 indisponible :",error)}\n }\n function renderCountries(){
   country.innerHTML='<option value="">Choisir un pays…</option>'+[...clubDirectory.keys()].sort((a,b)=>a.localeCompare(b,"fr")).map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
   club.innerHTML='<option value="">Choisir un club…</option>';
  }
@@ -85,7 +85,7 @@
  async function integrate(){
   if(!country.value||!club.value){say("Sélectionne d'abord un pays et un club.",true);return}
   if(!selectedImages.size){say("Sélectionne au moins une image.",true);return}
-  const patchLabel=label.value.trim();if(!patchLabel){say("Choisis le nom du patch à intégrer.",true);label.focus();return}
+  const patchLabel=(label.value||$("patchCustomLabel").value).trim();if(!patchLabel){say("Choisis le nom du patch à intégrer.",true);label.focus();return}
   const button=$("integratePatch");button.disabled=true;
   try{
    const {data:userData,error:userError}=await db.auth.getUser();if(userError||!userData?.user)throw userError||new Error("Session administrateur introuvable.");
@@ -100,7 +100,7 @@
      const {data:created,error:createError}=await db.from("club_patch_library").insert({label:patchLabel,category:category.value,image_url:image.url,source_image_url:image.url,created_by:userData.user.id}).select("id").single();
      if(createError)throw createError;patchId=created.id;added++;
     }
-    const {data:association,error:associationReadError}=await db.from("club_patch_assignments").select("id").eq("patch_id",patchId).eq("country",country.value).eq("club_name",club.value).eq("season",season.value||"").limit(1).maybeSingle();
+    let associationQuery=db.from("club_patch_assignments").select("id").eq("patch_id",patchId).eq("country",country.value).eq("club_name",club.value);associationQuery=season.value.trim()?associationQuery.eq("season",season.value.trim()):associationQuery.is("season",null);const {data:association,error:associationReadError}=await associationQuery.limit(1).maybeSingle();
     if(associationReadError)throw associationReadError;
     if(!association){
      const {error:associationError}=await db.from("club_patch_assignments").insert({patch_id:patchId,country:country.value,club_name:club.value,season:season.value.trim()||null});

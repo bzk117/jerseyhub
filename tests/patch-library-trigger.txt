@@ -1,1 +1,3 @@
-Workflow trigger for the verified patch library crawl. Safe to keep in the test folder.
+Workflow trigger for the verified Vivi Jersey club patch, sizes and player audit.
+Requested source: https://vivi-jersey.com/pages/collections-premier-league
+Run requested on 2026-11-10.

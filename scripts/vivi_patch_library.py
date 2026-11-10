@@ -295,24 +295,30 @@ def process_product(url: str, collection_teams: set[str], catalog_urls: set[str]
     if not title:
         meta = soup.find("meta", property="og:title")
         title = meta.get("content", "").strip() if meta else ""
+    page_text = soup.get_text(" ", strip=True)
+    sizes, size_raw = audit.extract_sizes(soup, page_text)
+    adult_sizes, kids_sizes, size_audience = audit.classify_size_groups(sizes, title, size_raw)
+    customization_raw, customization_options = audit.extract_customization(page_text)
+    extracted = {
+        "sizes": sizes, "adult_sizes": adult_sizes, "kids_sizes": kids_sizes,
+        "size_audience": size_audience, "size_raw": size_raw,
+        "customization_raw": customization_raw,
+        "customization_options": customization_options,
+    }
     title_team = infer_team_from_title(title)
     candidate_teams = set(collection_teams)
     if title_team:
         if not candidate_teams or title_team in candidate_teams:
             team = title_team
         else:
-            return {"supplier_url": final_url, "title": title, "status": "team_conflict", "candidate_teams": sorted(candidate_teams), "title_team": title_team, "options": []}
+            return {"supplier_url": final_url, "title": title, **extracted, "status": "team_conflict", "candidate_teams": sorted(candidate_teams), "title_team": title_team, "options": []}
     elif len(candidate_teams) == 1:
         team = next(iter(candidate_teams))
     elif not candidate_teams:
-        return {"supplier_url": final_url, "title": title, "status": "club_unidentified", "options": []}
+        return {"supplier_url": final_url, "title": title, **extracted, "status": "club_unidentified", "options": []}
     else:
-        return {"supplier_url": final_url, "title": title, "status": "ambiguous_club", "candidate_teams": sorted(candidate_teams), "options": []}
+        return {"supplier_url": final_url, "title": title, **extracted, "status": "ambiguous_club", "candidate_teams": sorted(candidate_teams), "options": []}
 
-    page_text = soup.get_text(" ", strip=True)
-    sizes, size_raw = audit.extract_sizes(soup, page_text)
-    adult_sizes, kids_sizes, size_audience = audit.classify_size_groups(sizes, title, size_raw)
-    customization_raw, customization_options = audit.extract_customization(page_text)
     league = league_for_team(team)
     patch_groups = audit.extract_patches(page_text)
     options = []
@@ -351,13 +357,7 @@ def process_product(url: str, collection_teams: set[str], catalog_urls: set[str]
         "title": title,
         "team": team,
         "league": league,
-        "sizes": sizes,
-        "adult_sizes": adult_sizes,
-        "kids_sizes": kids_sizes,
-        "size_audience": size_audience,
-        "size_raw": size_raw,
-        "customization_raw": customization_raw,
-        "customization_options": customization_options,
+        **extracted,
         "status": status,
         "patch_slots_detected": len(patch_groups),
         "options": options,

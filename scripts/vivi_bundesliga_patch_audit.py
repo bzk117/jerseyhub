@@ -11,7 +11,8 @@ import re
 import time
 import unicodedata
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, urlunparse, parse_qs
+from urllib.parse import urljoin, urlparse, urlunparse, parse_qs, unquote
+import xml.etree.ElementTree as ET
 
 import requests
 from bs4 import BeautifulSoup
@@ -23,26 +24,42 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 # German top-flight clubs for the 2025-26 / 2026-27 supplier catalogue.
+# Official 2026-27 Bundesliga membership (18 clubs). St. Pauli and Wolfsburg
+# are deliberately excluded: they are not in the 2026-27 top flight.
+CURRENT_BUNDESLIGA_SEASON = "2026-27"
 CLUB_ALIASES = {
-    "bayern": ("bayern-munchen", "bayern-munich", "fc-bayern"),
-    "dortmund": ("dortmund", "borussia-dortmund", "bvb"),
-    "rb-leipzig": ("rb-leipzig", "rasenballsport-leipzig"),
-    "leverkusen": ("bayer-leverkusen", "leverkusen"),
-    "frankfurt": ("eintracht-frankfurt", "frankfurt"),
-    "freiburg": ("sc-freiburg", "freiburg"),
-    "stuttgart": ("vfb-stuttgart", "stuttgart"),
-    "wolfsburg": ("vfl-wolfsburg", "wolfsburg"),
-    "mainz": ("mainz-05", "fsv-mainz"),
-    "werder-bremen": ("werder-bremen", "bremen"),
-    "monchengladbach": ("borussia-monchengladbach", "monchengladbach", "gladbach"),
-    "union-berlin": ("union-berlin", "1-fc-union-berlin"),
-    "augsburg": ("fc-augsburg", "augsburg"),
-    "hoffenheim": ("tsg-hoffenheim", "hoffenheim"),
-    "st-pauli": ("fc-st-pauli", "st-pauli"),
-    "hamburg": ("hamburger-sv", "hamburg-sv", "hamburg"),
-    "heidenheim": ("fc-heidenheim", "heidenheim"),
-    "koln": ("fc-koln", "1-fc-koln", "koln", "cologne"),
+    "bayern": ("bayern-munchen", "bayern-munich", "fc-bayern", "拜仁"),
+    "dortmund": ("dortmund", "borussia-dortmund", "bvb", "多特"),
+    "rb-leipzig": ("rb-leipzig", "rasenballsport-leipzig", "leipzig", "莱比锡"),
+    "leverkusen": ("bayer-leverkusen", "leverkusen", "勒沃库森"),
+    "frankfurt": ("eintracht-frankfurt", "frankfurt", "法兰克福"),
+    "freiburg": ("sc-freiburg", "freiburg", "弗赖堡"),
+    "stuttgart": ("vfb-stuttgart", "stuttgart", "斯图加特"),
+    "mainz": ("mainz-05", "fsv-mainz", "mainz", "美因茨"),
+    "werder-bremen": ("werder-bremen", "bremen", "云达不莱梅"),
+    "monchengladbach": ("borussia-monchengladbach", "monchengladbach", "gladbach", "门兴"),
+    "union-berlin": ("union-berlin", "1-fc-union-berlin", "柏林联合"),
+    "augsburg": ("fc-augsburg", "augsburg", "奥格斯堡"),
+    "hoffenheim": ("tsg-hoffenheim", "hoffenheim", "霍芬海姆"),
+    "hamburg": ("hamburger-sv", "hamburg-sv", "hamburg", "汉堡"),
+    "koln": ("1-fc-koln", "fc-koln", "koln", "koeln", "cologne", "科隆"),
+    "schalke": ("fc-schalke-04", "schalke-04", "schalke", "沙尔克"),
+    "elversberg": ("sv-elversberg", "elversberg", "埃尔弗斯贝格"),
+    "paderborn": ("sc-paderborn-07", "sc-paderborn", "paderborn", "帕德博恩"),
 }
+TEAM_COLLECTION_SLUGS = {
+    "augsburg": ("fc-augsburg", "augsburg"),
+    "freiburg": ("sc-freiburg", "freiburg"),
+    "hoffenheim": ("tsg-hoffenheim", "hoffenheim"),
+    "mainz": ("mainz-05", "fsv-mainz"),
+    "hamburg": ("hamburger-sv", "hamburg"),
+    "koln": ("1-fc-koln", "fc-koln", "koln"),
+    "schalke": ("fc-schalke-04", "schalke-04", "schalke"),
+    "elversberg": ("sv-elversberg", "elversberg"),
+    "paderborn": ("sc-paderborn-07", "sc-paderborn", "paderborn"),
+}
+CURRENT_TEAMS = set(CLUB_ALIASES)
+
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 COUNTS = {}
@@ -75,12 +92,41 @@ def fetch(url, attempts=4):
     return "", url, "retry_exhausted"
 
 def team_for_collection(url, label):
-    slug = urlparse(url).path.rstrip("/").split("/")[-1].lower()
-    haystack = slug + " " + norm(label).replace(" ", "-")
+    path = unquote(urlparse(url).path).rstrip("/")
+    slug = path.split("/")[-1].lower()
+    raw_label = str(label or "").lower()
+    haystack = slug + " " + raw_label + " " + norm(label).replace(" ", "-")
     for team, aliases in CLUB_ALIASES.items():
         if any(alias in haystack for alias in aliases):
             return team
     return ""
+
+
+def sitemap_locs(content):
+    """Extract sitemap <loc> values, including XML namespaces."""
+    try:
+        root = ET.fromstring(content)
+        return [
+            (node.text or "").strip()
+            for node in root.iter()
+            if node.tag.rsplit("}", 1)[-1].lower() == "loc" and (node.text or "").strip()
+        ]
+    except ET.ParseError:
+        soup = BeautifulSoup(content, "html.parser")
+        return [node.get_text(strip=True) for node in soup.find_all("loc") if node.get_text(strip=True)]
+
+
+def product_links(page_html, page_url, default_team=None):
+    links = {}
+    page = BeautifulSoup(page_html, "html.parser")
+    for anchor in page.select("a[href]"):
+        product_url = canonical(anchor.get("href", ""))
+        if not product_url or "/products/" not in urlparse(product_url).path:
+            continue
+        team = team_for_collection(product_url, anchor.get_text(" ", strip=True)) or default_team
+        if team in CURRENT_TEAMS:
+            links[product_url] = team
+    return links
 
 def paginated_collection_pages(url, html, max_pages=12):
     pages = {url}
@@ -199,25 +245,37 @@ def extract_options(soup):
 
 
 def sitemap_product_urls():
-    """Find product pages outside the visible club collections via Vivi's sitemap."""
-    sitemap_html, _, status = fetch(BASE + "/sitemap.xml")
-    if status != 200:
-        return []
-    index = BeautifulSoup(sitemap_html, "html.parser")
-    locations = [node.get_text(strip=True) for node in index.find_all("loc")]
-    product_maps = [url for url in locations if "sitemap" in url.lower() and "product" in url.lower()]
-    direct_products = [canonical(url) for url in locations if "/products/" in urlparse(url).path]
-    found = list(direct_products)
-    for sitemap_url in product_maps:
-        xml, _, code = fetch(sitemap_url)
-        if code != 200:
+    """Discover product URLs from common Ueeshop sitemap index/product endpoints."""
+    queue = [
+        BASE + "/sitemap.xml",
+        BASE + "/sitemap_index.xml",
+        BASE + "/sitemap_products_1.xml",
+    ]
+    visited = set()
+    found = []
+    max_sitemaps = 40
+    while queue and len(visited) < max_sitemaps:
+        sitemap_url = queue.pop(0)
+        if sitemap_url in visited:
             continue
-        page = BeautifulSoup(xml, "html.parser")
-        for node in page.find_all("loc"):
-            product_url = canonical(node.get_text(strip=True))
-            if product_url and "/products/" in urlparse(product_url).path:
-                found.append(product_url)
-    return list(dict.fromkeys(url for url in found if url))
+        visited.add(sitemap_url)
+        content, final_url, code = fetch(sitemap_url, attempts=2)
+        if code != 200 or not content:
+            continue
+        for loc in sitemap_locs(content):
+            absolute = urljoin(final_url or BASE, loc)
+            parsed = urlparse(absolute)
+            if parsed.netloc.lower() not in ("vivi-jersey.com", "www.vivi-jersey.com"):
+                continue
+            if "/products/" in parsed.path:
+                product_url = canonical(absolute)
+                if product_url:
+                    found.append(product_url)
+            elif "sitemap" in parsed.path.lower() and absolute not in visited and len(queue) + len(visited) < max_sitemaps:
+                queue.append(absolute)
+    unique = list(dict.fromkeys(found))
+    print(f"Sitemap discovery: {len(visited)} sitemap(s) checked, {len(unique)} product URL(s) found.", flush=True)
+    return unique
 
 def main():
     index_html, index_url, status = fetch(BASE + "/collections/")
@@ -225,18 +283,43 @@ def main():
         raise SystemExit(f"Collections index unavailable: {status}")
     index = BeautifulSoup(index_html, "html.parser")
     collections = {}
+    collection_errors = []
     for anchor in index.select("a[href]"):
         url = canonical(anchor.get("href", ""))
         if not url or "/collections/" not in urlparse(url).path:
             continue
-        label = anchor.get_text(" ", strip=True) or urlparse(url).path.split("/")[-1]
+        label = anchor.get_text(" ", strip=True) or unquote(urlparse(url).path.split("/")[-1])
         team = team_for_collection(url, label)
-        if team:
-            collections[url] = {"team": team, "label": label}
+        if team in CURRENT_TEAMS:
+            collections[url] = {"team": team, "label": label, "discovery": "collections_index"}
+
+    # Probe canonical collection slugs for current 2026-27 clubs not linked
+    # from Vivi's public collections index. A URL is accepted only after HTTP
+    # 200 and at least one product link has been observed.
+    known_teams = {meta["team"] for meta in collections.values()}
+    for team, slugs in TEAM_COLLECTION_SLUGS.items():
+        if team in known_teams:
+            continue
+        for slug in slugs:
+            collection_url = canonical(f"{BASE}/collections/{slug}")
+            html, final_url, code = fetch(collection_url, attempts=2)
+            if code == 200 and html:
+                links = product_links(html, final_url, team)
+                if links:
+                    collections[final_url] = {
+                        "team": team, "label": slug, "discovery": "targeted_collection_probe"
+                    }
+                    known_teams.add(team)
+                    print(f"Collection probe found {team}: {final_url} ({len(links)} products)", flush=True)
+                    break
+            elif code not in (404, 410):
+                collection_errors.append({"team": team, "url": collection_url, "status": code})
+            time.sleep(0.5)
+
     if not collections:
-        raise SystemExit("No German club collections detected; stopping without changes.")
+        raise SystemExit("No current Bundesliga club collections detected; stopping without changes.")
+
     products = {}
-    collection_errors = []
     for collection_url, meta in collections.items():
         html, final_url, code = fetch(collection_url)
         if code != 200:
@@ -246,21 +329,25 @@ def main():
             page_html = html if page_url == final_url else fetch(page_url)[0]
             if not page_html:
                 continue
-            page = BeautifulSoup(page_html, "html.parser")
-            for anchor in page.select("a[href]"):
-                product_url = canonical(anchor.get("href", ""))
-                if product_url and "/products/" in urlparse(product_url).path:
-                    products.setdefault(product_url, meta["team"])
+            for product_url, team in product_links(page_html, page_url, meta["team"]).items():
+                products.setdefault(product_url, team)
         time.sleep(0.5)
 
-    # Some clubs are not linked from Vivi's visible /collections/ index.
-    # Discover product URLs from the supplier sitemap, but only add teams
-    # that were not already represented by a detected club collection.
-    collection_teams = {meta["team"] for meta in collections.values()}
+    # Some supplier landing pages are league-wide rather than team-specific.
+    # Only retain product URLs whose own URL/title identifies a current club.
+    league_pages_checked = []
+    for slug in ("the-bundesliga", "bundesliga"):
+        league_url = canonical(f"{BASE}/collections/{slug}")
+        html, final_url, code = fetch(league_url, attempts=2)
+        if code == 200 and html:
+            league_pages_checked.append(final_url)
+            for product_url, team in product_links(html, final_url).items():
+                products.setdefault(product_url, team)
+
     sitemap_added = 0
     for product_url in sitemap_product_urls():
         team = team_for_collection(product_url, "")
-        if team and team not in collection_teams and product_url not in products:
+        if team and team in CURRENT_TEAMS and product_url not in products:
             products[product_url] = team
             sitemap_added += 1
 
@@ -285,16 +372,23 @@ def main():
                 row["patch_status"] = "needs_image_review"
         results.append(row)
         print(f"[{number}/{len(products)}] {team}: {row['title']} — {row['patch_status']}", flush=True)
+
     results.sort(key=lambda x: (x["team"], x["title"]))
+    teams_found = sorted(set(x["team"] for x in results))
+    teams_missing = sorted(CURRENT_TEAMS - set(teams_found))
     report = {
-        "source": "Vivi Jersey German club collections",
+        "source": "Vivi Jersey 2026-27 Bundesliga club collections",
+        "season": CURRENT_BUNDESLIGA_SEASON,
+        "current_league_teams": sorted(CURRENT_TEAMS),
         "generated_at_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "collection_count": len(collections),
+        "league_collection_pages_checked": league_pages_checked,
         "sitemap_product_pages_added": sitemap_added,
         "product_count": len(results),
         "collection_errors": collection_errors,
         "http_status_counts": COUNTS,
-        "teams_found": sorted(set(x["team"] for x in results)),
+        "teams_found": teams_found,
+        "teams_not_detected": teams_missing,
         "products": results,
     }
     Path("data").mkdir(exist_ok=True)
@@ -309,16 +403,18 @@ def main():
             else:
                 writer.writerow([product["team"], product["title"], product["supplier_url"], product["patch_status"], "", "", "", "", ""])
     summary = [
-        "# Audit des patchs — clubs allemands / Bundesliga",
+        "# Audit des patchs — Bundesliga 2026-27",
         "",
-        f"- Collections de clubs allemands détectées : {len(collections)}",
+        f"- Clubs de Bundesliga attendus : {len(CURRENT_TEAMS)}",
+        f"- Collections de clubs détectées : {len(collections)}",
         f"- Fiches produits analysées : {len(results)}",
-        f"- Clubs trouvés : {', '.join(report['teams_found']) or 'aucun'}",
-        f"- Fiches avec toutes les images reliées sans ambiguïté : {sum(x['patch_status'] == 'images_matched' for x in results)}",
+        f"- Clubs trouvés : {', '.join(teams_found) or 'aucun'}",
+        f"- Clubs non détectés : {', '.join(teams_missing) or 'aucun'}",
+        f"- Fiches avec images de patch reliées sans ambiguïté : {sum(x['patch_status'] == 'images_matched' for x in results)}",
         f"- Fiches nécessitant une vérification d'image : {sum(x['patch_status'] == 'needs_image_review' for x in results)}",
         "",
         "Audit en lecture seule : aucune donnée du catalogue, de Supabase ou du site public n'a été modifiée.",
-        "Les suppléments restent en USD dans ce rapport ; aucune conversion en EUR n'est inventée.",
+        "Les suppléments restent en USD ; aucune conversion EUR n'est inventée.",
     ]
     Path("VIVI-BUNDESLIGA-PATCH-AUDIT.md").write_text("\n".join(summary) + "\n", encoding="utf-8")
     print("\n".join(summary), flush=True)

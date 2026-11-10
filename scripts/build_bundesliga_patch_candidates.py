@@ -18,7 +18,8 @@ OUT_CSV = Path("data/vivi-bundesliga-patch-candidates.csv")
 # commemorative labels are intentionally excluded. Review is still required.
 COMPETITION_LABELS = {
     "BUNDESLIGA", "Bundesliga", "bundesliga", "2024-25 bundesliga",
-    "UCL 6+FOUNDATION", "UCL 6 DEBUT+ FOUNDATION",
+    "UCL 6+FOUNDATION",
+    "UCL + FOUNDATION+10", "UCL 6 DEBUT+ FOUNDATION",
     "UCL 6+FOUNDATION+10", "UCL + FOUNDATION", "UCL+FOUNDATION",
     "UCL", "UCL DEBUT+FOUNDATION", "UCL + RESPECT",
     "UCL + Trophy 5 + RESPECT", "UCL + Trophy 4 + RESPECT",
@@ -29,22 +30,25 @@ COMPETITION_LABELS = {
 TEAM_NAMES = {
     "bayern": "Bayern Munich",
     "dortmund": "Borussia Dortmund",
-    "frankfurt": "Eintracht Frankfurt",
-    "leverkusen": "Bayer Leverkusen",
-    "monchengladbach": "Borussia Mönchengladbach",
     "rb-leipzig": "RB Leipzig",
-    "st-pauli": "FC St. Pauli",
+    "leverkusen": "Bayer Leverkusen",
+    "frankfurt": "Eintracht Frankfurt",
+    "freiburg": "SC Freiburg",
     "stuttgart": "VfB Stuttgart",
-    "union-berlin": "Union Berlin",
+    "mainz": "Mainz 05",
     "werder-bremen": "Werder Bremen",
-    "wolfsburg": "VfL Wolfsburg",
+    "monchengladbach": "Borussia Mönchengladbach",
+    "union-berlin": "Union Berlin",
+    "augsburg": "FC Augsburg",
+    "hoffenheim": "TSG Hoffenheim",
+    "hamburg": "Hamburger SV",
+    "koln": "1. FC Köln",
+    "schalke": "Schalke 04",
+    "elversberg": "SV Elversberg",
+    "paderborn": "SC Paderborn 07",
 }
-EXPECTED_TEAMS = {
-    "bayern", "dortmund", "leverkusen", "frankfurt", "freiburg",
-    "stuttgart", "rb-leipzig", "hoffenheim", "werder-bremen",
-    "wolfsburg", "monchengladbach", "augsburg", "mainz",
-    "union-berlin", "st-pauli", "hamburg", "heidenheim", "koln",
-}
+EXPECTED_TEAMS = set(TEAM_NAMES)
+
 
 def main():
     if not SOURCE.exists():
@@ -86,10 +90,11 @@ def main():
     for row in candidates:
         row["evidence_product_count"] = len(row["evidence_products"])
 
-    detected = sorted(set(audit.get("teams_found", [])))
+    detected = sorted(set(audit.get("teams_found", [])) & EXPECTED_TEAMS)
     missing = sorted(EXPECTED_TEAMS - set(detected))
     summary = {
-        "source": "Vivi Jersey Bundesliga audit",
+        "source": "Vivi Jersey Bundesliga 2026-27 audit",
+        "season": "2026-27",
         "generated_at_utc": audit.get("generated_at_utc"),
         "audit_totals": {
             "collections_detected": audit.get("collection_count", 0),
@@ -102,6 +107,7 @@ def main():
                 len(p.get("patch_options", [])) for p in audit.get("products", [])
             ),
         },
+        "current_league_teams": sorted(EXPECTED_TEAMS),
         "teams_detected": detected,
         "teams_not_detected": missing,
         "candidate_count": len(candidates),

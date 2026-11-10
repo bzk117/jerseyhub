@@ -7,6 +7,7 @@ on:
     paths:
       - "scripts/vivi_bundesliga_patch_audit.py"
       - "scripts/build_bundesliga_patch_candidates.py"
+      - "scripts/test_bundesliga_patch_candidates.py"
       - ".github/workflows/vivi-bundesliga-patch-audit.yml"
 
 permissions:
@@ -40,6 +41,11 @@ jobs:
 
       - name: Construire la bibliothèque de candidats (sans activation)
         run: python scripts/build_bundesliga_patch_candidates.py
+
+      - name: Vérifier les scripts et la sécurité des candidats
+        run: |
+          python -m py_compile scripts/vivi_bundesliga_patch_audit.py scripts/build_bundesliga_patch_candidates.py scripts/test_bundesliga_patch_candidates.py
+          python scripts/test_bundesliga_patch_candidates.py
 
       - name: Publier les rapports et la bibliothèque de candidats
         uses: actions/upload-artifact@v4

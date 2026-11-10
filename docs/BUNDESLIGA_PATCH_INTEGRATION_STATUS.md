@@ -1,60 +1,46 @@
-# Bundesliga — préparation à l'intégration des patchs
+# Bundesliga 2026-27 — préparation à l'intégration des patchs
 
-**Branche de préparation :** `prep/bundesliga-patch-integration`  
-**Audit source :** [GitHub Actions #42784843400](https://github.com/bzk117/jerseyhub/actions/runs/42784843400)
+**Branche :** `prep/bundesliga-patch-integration`  
+**PR de préparation :** [#14](https://github.com/bzk117/jerseyhub/pull/14)
 
-## État vérifié
+## Périmètre de référence
 
-- 498 fiches Vivi Jersey analysées.
-- 12 collections détectées.
-- 11 clubs identifiés dans les collections.
-- 247 fiches avec options illustrées extraites.
-- 220 fiches sans sélecteur de patch détecté.
-- 31 fiches illisibles (limitation/réponse fournisseur en fin de collecte).
-- 1 254 lignes d'options brutes dans le rapport ; ce nombre comprend les répétitions et les options non-patch.
-- La table Supabase `public.patch_options` existe mais contient actuellement 0 ligne.
-- Le catalogue de produits clubs `clubs-products.js` contient 46 fiches, toutes associées à Manchester United : aucun produit allemand JerseyHub n'est actuellement présent dans ce fichier.
-- `app.js` sait déjà lire les options `category = 'clubs'`, mais uniquement lorsqu'elles sont liées au nom exact du produit. Il ignore volontairement les options génériques par équipe.
-- Une interface de gestion des patchs a été ajoutée dans `administration.html` sur cette branche de préparation : création/modification, activation/désactivation et association obligatoire à une fiche produit précise. Elle n'est pas encore déployée sur le site public.
+La saison 2026-27 compte 18 clubs : Bayern, Dortmund, RB Leipzig, Leverkusen, Frankfurt, Freiburg, Stuttgart, Mainz, Werder Bremen, Borussia Mönchengladbach, Union Berlin, Augsburg, Hoffenheim, Hamburger SV, 1. FC Köln, Schalke 04, SV Elversberg et SC Paderborn 07.
 
-## Ce qui a été préparé dans cette branche
+St. Pauli et Wolfsburg ne font pas partie de cette liste 2026-27. Les scripts ont été corrigés pour ne plus les compter comme clubs attendus et inclure les trois promus.
 
-Le script `scripts/build_bundesliga_patch_candidates.py` transforme le rapport brut en bibliothèque de candidats :
-- conserve uniquement des libellés exacts liés à une compétition (Bundesliga, UCL, Club World Cup, coupe, Supercup, FIFA) ;
-- exclut « No Patch », les sponsors (Allianz, Vodafone, Polestar, Audi, etc.) et les choix commémoratifs ;
-- conserve les images originales et les liens vers les fiches Vivi où l'option a été observée ;
-- conserve les suppléments dans leur devise fournisseur USD ;
-- marque chaque option `candidate_not_active`.
+## Résultat de l'audit précédent
 
-Cette bibliothèque est un support de préparation, **pas une activation publique**. Il faut confirmer le modèle exact, le club, la saison, le placement et la correspondance avec une fiche JerseyHub avant d'activer une option.
+L'audit initial a analysé 498 fiches issues de 12 collections, mais il utilisait une liste de clubs de saison précédente. Il a trouvé 11 identifiants de clubs, dont St. Pauli et Wolfsburg, et n'a ajouté aucune fiche depuis le sitemap. Il a aussi reçu 128 réponses HTTP 429. Ce résultat est utile comme première extraction, mais ne valide pas une couverture complète de la Bundesliga 2026-27.
 
-## Complément de collecte préparé
+## Correctifs de préparation ajoutés
 
-Le collecteur a été étendu pour consulter aussi le sitemap produit de Vivi Jersey. Il ajoute uniquement les pages de clubs absentes des collections déjà trouvées, afin de rechercher les 7 clubs manquants sans réauditer inutilement les collections déjà couvertes. Cette extension doit encore être exécutée dans GitHub Actions et ses résultats contrôlés.
+- Référence des 18 clubs mise à jour pour 2026-27.
+- Détection des noms de clubs en anglais, allemand et chinois lorsque l'URL ou le libellé les contient.
+- Recherche complémentaire des collections par slugs canoniques pour les clubs absents de l'index public.
+- Lecture plus robuste des sitemaps XML et de leurs index, avec plusieurs points d'entrée courants.
+- Filtrage des produits hors de la liste actuelle des 18 clubs.
+- Génération des candidats sans activation, en conservant les images et les prix USD d'origine.
+- Contrôle automatisé : saison, roster, absence de clubs hors périmètre, URL de preuve, image, devise, unicité et statut obligatoirement inactif.
 
-## Clubs encore absents de la collecte
+## État du catalogue JerseyHub
 
-Les 7 clubs non détectés dans les collections identifiées sont :
-Freiburg, Hoffenheim, Augsburg, Mainz, Hamburg, Heidenheim et Köln.
+- `public.patch_options` existe et contient 0 ligne.
+- `clubs-products.js` contient 46 fiches de Manchester United ; aucune fiche de club allemand n'y est actuellement enregistrée.
+- `catalog.js` ne fournit pas de catalogue de clubs allemand.
+- `app.js` affiche les patchs de clubs uniquement lorsqu'ils sont associés à un nom exact de produit (ou intégrés dans la fiche produit elle-même).
+- L'interface d'administration des patchs est préparée sur cette branche, mais elle n'a pas été publiée.
 
-Quatre clubs identifiés dans les collections ne disposent pas d'options de patch exploitables dans le rapport actuel : Frankfurt, Leverkusen, St. Pauli et Union Berlin.
+## Conditions bloquantes avant publication
 
-L'absence d'options dans le rapport ne prouve pas que Vivi ne propose aucun patch. Ces cas doivent rester « à vérifier ».
+1. Obtenir une collecte suffisamment complète pour les 18 clubs de la saison 2026-27, ou documenter précisément les clubs absents du catalogue Vivi.
+2. Reprendre les pages illisibles et les erreurs de limitation fournisseur.
+3. Vérifier visuellement chaque image, le libellé exact, l'emplacement et le supplément du patch sur la fiche source.
+4. Écarter les options sponsor, commémoratives, « No Patch » et les patchs de compétitions incompatibles avec la saison ou le maillot.
+5. Relier chaque patch à une fiche de maillot JerseyHub existante et compatible. **Aucun nouveau maillot ne doit être créé pour contourner l'absence de fiche.**
+6. Les prix fournisseurs sont en USD : ne pas les écrire dans `extra_price_eur` sans taux daté et conversion vérifiée.
+7. Tester le sélecteur client, le total de supplément et l'enregistrement du snapshot dans une commande.
 
-## Pourquoi rien n'est encore activé dans Supabase
+Tant que le catalogue JerseyHub ne contient pas de fiches allemandes existantes auxquelles relier les patchs, l'activation de patchs Bundesliga pour les clients est impossible sans enfreindre le périmètre demandé. Les options doivent rester non actives.
 
-L'interface client actuelle n'affiche que les options associées au nom exact d'un produit (ou déjà présentes dans `p.patchOptions`). Elle ignore volontairement les options génériques par équipe pour éviter d'afficher un patch sur un maillot incompatible.
-
-En outre, les fiches allemandes Vivi ne correspondent pas à des fiches produit actuellement présentes dans `clubs-products.js`. Importer maintenant des lignes actives créerait une bibliothèque orpheline, sans maillot client auquel les rattacher. L'écran d'administration est désormais préparé sur cette branche, mais il ne sera disponible publiquement qu'après validation et fusion. Les prix USD ne peuvent pas être placés dans `extra_price_eur` sans conversion confirmée.
-
-## Conditions avant activation
-
-1. Compléter la collecte des 18 clubs et reprendre les fiches illisibles.
-2. Revoir les images et séparer les patchs de compétition des sponsors/insignes commémoratifs.
-3. Relier chaque option à une fiche JerseyHub précise, sans créer de maillot.
-4. Convertir les suppléments USD en EUR à partir d'un taux daté, ou les faire confirmer par l'administrateur.
-5. Insérer les options en état inactif, tester l'affichage sur une fiche pilote, puis activer seulement après validation.
-6. Vérifier le snapshot des choix et des suppléments dans les commandes.
-7. Ne rien supprimer ni remplacer dans les options existantes.
-
-**Aucune donnée Supabase et aucune fiche publique n'ont été modifiées par cette préparation.**
+**Aucune écriture Supabase, aucune activation, aucune modification du catalogue client et aucun déploiement public ne sont effectués par les scripts d'audit.**

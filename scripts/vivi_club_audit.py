@@ -274,6 +274,8 @@ def extract_players(soup):
             if not match:
                 match = re.match(r"^(.+?)\s*\(\s*#?(\d{1,2})\s*\)$", label)
             if not match:
+                match = re.match(r"^(.+?)\s*[-–—|:]\s*(\d{1,2})$", label)
+            if not match:
                 match = re.match(r"^(.+?)\s+(\d{1,2})$", label)
             if not match:
                 match = re.match(r"^#\s*(\d{1,2})\s*[-–—|:]\s*(.+)$", label)

@@ -341,8 +341,6 @@ create policy "admins restore club products"
 grant select on public.club_product_exclusions to anon, authenticated;
 grant insert, delete on public.club_product_exclusions to authenticated;
 
-
--- Bibliothèque centrale des patchs des clubs (2026-11-10).
 -- Bibliothèque centrale des patchs des clubs JerseyHub.
 -- Les images sources restent dans leur stockage d'origine : seule leur URL est référencée ici.
 create table if not exists public.club_patch_library (
@@ -400,3 +398,31 @@ comment on table public.club_patch_library is
   'Bibliothèque centrale des patchs des clubs. Une image peut être réutilisée pour plusieurs clubs et saisons.';
 comment on table public.club_patch_assignments is
   'Associations entre les patchs de la bibliothèque centrale et les clubs/saisons.';
+
+
+-- Répertoire pays/clubs réservé aux administrateurs.
+-- L'inventaire R2 n'est pas directement lisible par les clients authentifiés.
+create or replace function public.jerseyhub_admin_club_directory()
+returns table(country text, club_name text)
+language sql
+stable
+security definer
+set search_path = ''
+as $function$
+  select distinct
+    split_part(i.object_key, '/', 3) as country,
+    split_part(i.object_key, '/', 4) as club_name
+  from public.r2_object_inventory as i
+  where auth.uid() is not null
+    and public.is_admin()
+    and i.object_key like 'assets/clubs/%'
+    and split_part(i.object_key, '/', 3) <> ''
+    and split_part(i.object_key, '/', 4) <> ''
+  order by 1, 2;
+$function$;
+
+revoke all on function public.jerseyhub_admin_club_directory() from public, anon;
+grant execute on function public.jerseyhub_admin_club_directory() to authenticated;
+
+comment on function public.jerseyhub_admin_club_directory() is
+  'Returns distinct country and club names from the R2 inventory to authenticated JerseyHub administrators.';

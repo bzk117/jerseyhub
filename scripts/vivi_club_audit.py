@@ -256,6 +256,44 @@ def extract_customization(text):
         opts.append({"label":m2.group(1),"extra_price_usd":float(m2.group(2) or 0)})
     return raw, opts
 
+
+def extract_players(soup):
+    """Extract supplier-listed players only when the selector gives a shirt number."""
+    players = []
+    seen = set()
+    for select in soup.find_all("select"):
+        attrs = " ".join(str(select.get(key, "")) for key in ("name", "id", "class", "aria-label", "data-name"))
+        context = select.parent.get_text(" ", strip=True) if select.parent else ""
+        if not re.search(r"player|joueur|flock|name.?number|choose player", attrs + " " + context, re.I):
+            continue
+        for option in select.find_all("option"):
+            label = re.sub(r"\s+", " ", option.get_text(" ", strip=True)).strip()
+            if not label or re.search(r"^(choose|select|please select|none|no player|personalize|customi[sz]e)", label, re.I):
+                continue
+            match = re.match(r"^(.+?)\s*(?:[-–—|:]\s*)?#\s*(\d{1,2})$", label)
+            if not match:
+                match = re.match(r"^(.+?)\s*\(\s*#?(\d{1,2})\s*\)$", label)
+            if not match:
+                match = re.match(r"^(.+?)\s*[-–—|:]\s*(\d{1,2})$", label)
+            if not match:
+                match = re.match(r"^(.+?)\s+(\d{1,2})$", label)
+            if not match:
+                match = re.match(r"^#\s*(\d{1,2})\s*[-–—|:]\s*(.+)$", label)
+                if match:
+                    name, number = match.group(2).strip(), int(match.group(1))
+                else:
+                    continue
+            else:
+                name, number = match.group(1).strip(), int(match.group(2))
+            if not name or not 0 <= number <= 99:
+                continue
+            key = (name.casefold(), number)
+            if key in seen:
+                continue
+            seen.add(key)
+            players.append({"name": name, "shirt": name, "number": number})
+    return players
+
 def season_from(title):
     m = re.search(r"\b(19|20)\d{2}\s*[-/]\s*\d{2,4}\b", title)
     if m: return re.sub(r"\s+","",m.group(0)).replace("/","-")

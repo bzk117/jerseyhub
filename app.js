@@ -400,10 +400,20 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
   const legacyPatchOptions=Array.isArray(p.patches)?p.patches:[];
   const isNational=p.category==="national",isClub=p.category==="clubs";
-  const personalizationAllowed=!isClub||p.personalizationAllowed===true||p.personalization?.allowed===true;
+  const normalizeClubKey=value=>slug(String(value||"")).replace(/[^a-z0-9]/g,"");
+  const productClubNames=[p.group,p.team,p.name].filter(Boolean).map(normalizeClubKey);
+  const productSeasonKey=String(p.season||"").replace(/[–/]/g,"-").replace(/\s/g,"");
+  const noFlockingClubKeys=["standarddeliege","anderlecht","clubbrugge"];
+  const productIsNoFlockingClub=isClub&&productClubNames.some(value=>noFlockingClubKeys.some(key=>value.includes(key)));
+  const verifiedClubRosterKey=isClub&&!productIsNoFlockingClub&&window.JERSEYHUB_CLUB_ROSTERS?Object.keys(window.JERSEYHUB_CLUB_ROSTERS).find(key=>{
+   const [clubKey,seasonKey]=key.split("|");
+   return seasonKey===productSeasonKey&&productClubNames.some(value=>value.includes(clubKey));
+  }):null;
+  const personalizationAllowed=!isClub||(!productIsNoFlockingClub&&(p.personalizationAllowed===true||p.personalization?.allowed===true||!!verifiedClubRosterKey));
   let patchRecords=[];
   if((isNational||isClub)&&window.supabase&&window.JERSEYHUB_SUPABASE){try{const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category",isNational?"national":"clubs").eq("is_active",true).order("sort_order",{ascending:true});if(!error)patchRecords=data||[];}catch(error){console.warn("Options de patch indisponibles :",error)}}
-  const productPatchOptions=Array.isArray(p.patchOptions)?p.patchOptions:[];
+  const patchLibraryOptions=window.JERSEYHUB_PATCH_LIBRARY&&p.supplierUrl?window.JERSEYHUB_PATCH_LIBRARY[p.supplierUrl.replace(/\/$/,"")]:[];
+  const productPatchOptions=[...(Array.isArray(p.patchOptions)?p.patchOptions:[]),...(Array.isArray(patchLibraryOptions)?patchLibraryOptions:[])].filter((option,index,all)=>all.findIndex(other=>Number(other.slot_number)===Number(option.slot_number)&&String(other.label||"").trim().toLowerCase()===String(option.label||"").trim().toLowerCase())===index);
   const productSpecific=patchRecords.filter(x=>x.product_name&&x.product_name===p.name);
   const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
   const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);
@@ -524,7 +534,9 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const fifaRosterYearCompatible=/2026/.test(String(p.season||"")+" "+String(p.name||""));
   const rosterKey=isNational&&fifaRosterYearCompatible&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
-  const clubRoster=isClub&&Array.isArray(p.players)?p.players:[];
+  const productPlayerLibrary=window.JERSEYHUB_PLAYER_LIBRARY&&p.supplierUrl?window.JERSEYHUB_PLAYER_LIBRARY[p.supplierUrl.replace(/\/$/,"")]:[];
+  const verifiedTeamRoster=verifiedClubRosterKey?window.JERSEYHUB_CLUB_ROSTERS[verifiedClubRosterKey]:[];
+  const clubRoster=isClub?(Array.isArray(p.players)&&p.players.length?p.players:(Array.isArray(productPlayerLibrary)&&productPlayerLibrary.length?productPlayerLibrary:verifiedTeamRoster)):[];
   const renderPersonalization=()=>{
    if(person.value==="Aucune"){fields.innerHTML="";return}
    if(person.value==="Nom et numéro du joueur"){
@@ -553,7 +565,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    }).filter(Boolean):[];
    const patches=(isNational||isClub)?patchSelections.map(x=>x.label):[...dialog.querySelectorAll(".jh-patch:checked")].map(x=>x.value);
    const patchTotalEur=patchSelections.reduce((sum,patch)=>sum+(Number(patch.extra_price_eur)||0),0);
-   const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
+   const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>{const playerName=Array.isArray(x)?x[0]:x.name;const shirtName=Array.isArray(x)?x[1]:x.shirt;return playerName===customName||shirtName===customName;})||null):null;
    const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
    write(next);close();showCart();
   };

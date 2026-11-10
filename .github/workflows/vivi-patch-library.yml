@@ -1,0 +1,141 @@
+name: Build and integrate Vivi club patch library
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - automation/vivi-patch-library
+    paths:
+      - "scripts/vivi_patch_library.py"
+      - "scripts/vivi_club_audit.py"
+      - ".github/workflows/vivi-patch-library.yml"
+      - "tests/**"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: vivi-patch-library
+  cancel-in-progress: false
+
+jobs:
+  download-and-prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout preparation branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install scraper dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Validate Python and club mapping tests
+        run: |
+          python -m py_compile scripts/vivi_club_audit.py scripts/vivi_patch_library.py
+          python -m unittest tests.test_vivi_patch_library -v
+
+      - name: Crawl all club and league collections, download patch images
+        env:
+          MAX_COLLECTIONS: "500"
+        run: python scripts/vivi_patch_library.py
+
+      - name: Verify generated patch library outputs
+        run: |
+          test -s vivi-patch-library.js
+          test -s vivi-player-library.js
+          test -s data/vivi-patch-library.json
+          test -s data/vivi-patch-library.csv
+          test -s data/tailles.csv
+          test -s data/flocages.csv
+          test -s data/flocages-joueurs.csv
+          test -s VIVI-PATCH-LIBRARY-REPORT.md
+          node --check app.js
+          node --check vivi-patch-library.js
+          node --check vivi-player-library.js
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("data/vivi-patch-library.json").read_text(encoding="utf-8"))
+          assert report["unique_product_pages"] > 0, "No supplier product pages were crawled"
+          assert report["options_in_site_manifest"] <= report["options_detected_total"]
+          print("Patch options detected:", report["options_detected_total"])
+          print("Images downloaded:", report["images_downloaded"])
+          print("Existing JerseyHub products with patch options:", report["catalog_matched_products_with_patches"])
+          print("Patch options prepared for exact product pages:", report["options_in_site_manifest"])
+          print("Products with verified player lists:", report["products_with_verified_player_rosters"])
+          print("Verified players detected:", report["verified_players_detected"])
+          PY
+
+      - name: Upload patch images and audit manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivi-club-patch-library
+          path: |
+            VIVI-PATCH-LIBRARY-REPORT.md
+            vivi-patch-library.js
+            vivi-player-library.js
+            data/vivi-patch-library.json
+            data/vivi-patch-library.csv
+            data/tailles.csv
+            data/flocages.csv
+            data/flocages-joueurs.csv
+            assets/patches/
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit downloaded images and exact-product manifest to preparation branch
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add vivi-patch-library.js vivi-player-library.js VIVI-PATCH-LIBRARY-REPORT.md data/vivi-patch-library.json data/vivi-patch-library.csv data/flocages-joueurs.csv assets/patches
+          if git diff --cached --quiet; then
+            echo "No generated patch-library changes."
+          else
+            git commit -m "Download and map verified Vivi club patches"
+            git fetch origin "$BRANCH_NAME"
+            git rebase "origin/$BRANCH_NAME"
+            git push origin "HEAD:${BRANCH_NAME}"
+          fi
+
+      - name: Open or update review pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          if gh pr view "$BRANCH_NAME" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "A pull request already exists for ${BRANCH_NAME}."
+          else
+            gh pr create \
+              --repo "$GITHUB_REPOSITORY" \
+              --base main \
+              --head "$BRANCH_NAME" \
+              --title "Add verified club-specific Vivi patch library" \
+              --body "## What this prepares
+          - Crawls Vivi Jersey club and league collections.
+          - Downloads patch images into assets/patches/<club>/.
+          - Maps each patch to the exact supplier product URL already present in JerseyHub.
+          - Loads the generated manifest into the product patch selector.
+          - Leaves ambiguous clubs and missing images out of the site-facing manifest.
+
+          ## Safety
+          - No Supabase rows are written.
+          - No existing products or patch choices are deleted or overwritten.
+          - No public deployment is started by this workflow.
+          - EUR surcharges are not invented; supplier USD prices are retained in the audit data.
+
+          Review the generated VIVI-PATCH-LIBRARY-REPORT.md and data/vivi-patch-library.json before merging."
+          fi

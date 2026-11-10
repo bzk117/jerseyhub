@@ -3,16 +3,17 @@ name: Audit patchs clubs allemands — Bundesliga
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, "prep/bundesliga-patch-integration"]
     paths:
       - "scripts/vivi_bundesliga_patch_audit.py"
+      - "scripts/build_bundesliga_patch_candidates.py"
       - ".github/workflows/vivi-bundesliga-patch-audit.yml"
 
 permissions:
   contents: read
 
 concurrency:
-  group: vivi-bundesliga-patch-audit
+  group: vivi-bundesliga-patch-audit-${{ github.ref_name }}
   cancel-in-progress: false
 
 jobs:
@@ -23,7 +24,7 @@ jobs:
       - name: Checkout JerseyHub
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.ref_name }}
           fetch-depth: 1
 
       - name: Set up Python
@@ -37,13 +38,18 @@ jobs:
       - name: Auditer uniquement les collections des clubs allemands
         run: python scripts/vivi_bundesliga_patch_audit.py
 
-      - name: Publier le rapport comme artefact
+      - name: Construire la bibliothèque de candidats (sans activation)
+        run: python scripts/build_bundesliga_patch_candidates.py
+
+      - name: Publier les rapports et la bibliothèque de candidats
         uses: actions/upload-artifact@v4
         with:
-          name: vivi-bundesliga-patch-audit
+          name: vivi-bundesliga-patch-integration-prep
           path: |
             VIVI-BUNDESLIGA-PATCH-AUDIT.md
             data/vivi-bundesliga-patch-audit.json
             data/vivi-bundesliga-patch-audit.csv
+            data/vivi-bundesliga-patch-candidates.json
+            data/vivi-bundesliga-patch-candidates.csv
           if-no-files-found: error
           retention-days: 30

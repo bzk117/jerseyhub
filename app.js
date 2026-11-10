@@ -51,6 +51,33 @@ function card(item,kind){
  div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }
+let hiddenClubProductKeys = null;
+let hiddenClubProductLoadPromise = null;
+function clubProductKey(p){
+ const source=String(p?.supplierUrl||p?.sourceUrl||"").trim();
+ return source?"catalog:"+source:"catalog:"+encodeURIComponent(String(p?.group||""))+":"+encodeURIComponent(String(p?.name||""));
+}
+function r2ClubProductKey(country,club,reference){
+ return "r2:"+[country,club,String(reference)].join("/");
+}
+async function loadHiddenClubProductKeys(){
+ if(hiddenClubProductKeys)return hiddenClubProductKeys;
+ if(hiddenClubProductLoadPromise)return hiddenClubProductLoadPromise;
+ hiddenClubProductLoadPromise=(async()=>{
+  try{
+   if(!window.supabase||!window.JERSEYHUB_SUPABASE)return new Set();
+   const client=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);
+   const {data,error}=await client.from("club_product_exclusions").select("product_key");
+   if(error)throw error;
+   hiddenClubProductKeys=new Set((data||[]).map(row=>row.product_key));
+  }catch(error){
+   console.warn("Liste des maillots retirés du catalogue indisponible :",error);
+   hiddenClubProductKeys=new Set();
+  }
+  return hiddenClubProductKeys;
+ })();
+ return hiddenClubProductLoadPromise;
+}
 function isReadyForCatalog(p){
  // Une fiche est publiable si sa source fournisseur est explicitement vérifiée.
  const viviSourceOk = p.supplier === "Vivi Jersey" && (
@@ -242,7 +269,7 @@ async function openGroup(kind,name){
    const league=leagueEntry[0];
    const countryEntry=CLUB_LEAGUES.find(item=>item.items.includes(league));
    const country=countryEntry?.name;
-   const verified=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category==="clubs"&&p.group===name);
+   const hiddenKeys=await loadHiddenClubProductKeys();\n   const verified=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category==="clubs"&&p.group===name&&!hiddenKeys.has(clubProductKey(p)));
    setHeading("ÉQUIPE DE CLUB",name,"Accueil / Clubs / "+league+" / "+name);
    grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
    $("#resultCount").textContent="Chargement des maillots…";
@@ -252,7 +279,7 @@ async function openGroup(kind,name){
     const client=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);
     const {data,error}=await client.rpc("jerseyhub_club_gallery",{p_country:country,p_club:name});
     if(error)throw error;
-    archive=(data||[]).map(row=>({r2Archive:true,reference:String(row.product_ref),name:"Maillot — Réf. "+row.product_ref,category:"clubs",group:name,image:row.image_url,images:Array.isArray(row.images)?row.images:[row.image_url],description:"Aperçu visuel uniquement"}));
+    archive=(data||[]).map(row=>({r2Archive:true,reference:String(row.product_ref),name:"Maillot — Réf. "+row.product_ref,category:"clubs",group:name,image:row.image_url,images:Array.isArray(row.images)?row.images:[row.image_url],description:"Aperçu visuel uniquement"})).filter(product=>!hiddenKeys.has(r2ClubProductKey(country,name,product.reference)));
    }catch(error){console.warn("Galerie R2 indisponible pour "+name,error);}
    if(currentView!=="clubs"||currentGroup!==name)return;
    const all=[...verified,...archive];
@@ -267,7 +294,7 @@ async function openGroup(kind,name){
   }
  }
  if(["national","clubs","sports"].includes(kind)){
-  const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
+  const hiddenKeys=kind==="clubs"?await loadHiddenClubProductKeys():new Set();\n  const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name&&(kind!=="clubs"||!hiddenKeys.has(clubProductKey(p))));
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
    renderPagedProducts(matches);
@@ -296,11 +323,11 @@ async function openGroup(kind,name){
  }else{$("#emptyState").hidden=true;grid.hidden=false}
  $("#resultCount").textContent=matches.length?`${matches.length} modèle(s)`:"";
 }
-function applySearch(){
+async function applySearch(){
  query=slug($("#searchInput").value.trim());
  if(!query){currentView==="home"?renderHome():openView(currentView);return}
  const entries=[...allNational(),...allClubs(),...OTHER_SPORTS.map(x=>({...x,kind:"sports"})),...SHOE_BRANDS.map(x=>({...x,kind:"shoes"})),...allLifestyle()].filter(x=>slug(x.name).includes(query));
- const prods=PRODUCTS.filter(isReadyForCatalog).filter(p=>slug(p.name+" "+p.group).includes(query));
+ const hiddenKeys=await loadHiddenClubProductKeys();\n const prods=PRODUCTS.filter(isReadyForCatalog).filter(p=>(p.category!=="clubs"||!hiddenKeys.has(clubProductKey(p)))&&slug(p.name+" "+p.group).includes(query));
  setHeading("RECHERCHE",`Résultats pour « ${$("#searchInput").value} »`,"Accueil / Recherche");
  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
  const prefixNodes=entries.map(x=>card(x,x.kind));renderPagedProducts(prods,prefixNodes);

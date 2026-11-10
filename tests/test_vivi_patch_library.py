@@ -34,6 +34,32 @@ class PatchLibraryTests(unittest.TestCase):
         self.assertTrue(raw)
         self.assertTrue(any("Personalize" in item["label"] for item in options))
 
+    def test_supplier_player_options_require_explicit_numbers(self):
+        soup = BeautifulSoup("""
+          <div class="customization"><label>Choose player</label>
+            <select id="choose-player">
+              <option>Select player</option>
+              <option>Mohamed Salah #11</option>
+              <option>Virgil van Dijk - 4</option>
+              <option>Customise</option>
+            </select>
+          </div>
+        """, "html.parser")
+        players = audit.extract_players(soup)
+        self.assertEqual(players, [
+            {"name": "Mohamed Salah", "shirt": "Mohamed Salah", "number": 11},
+            {"name": "Virgil van Dijk", "shirt": "Virgil van Dijk", "number": 4},
+        ])
+
+    def test_player_options_without_numbers_are_not_published(self):
+        soup = BeautifulSoup("""
+          <select name="choose-player">
+            <option>Choose player</option>
+            <option>Mohamed Salah</option>
+          </select>
+        """, "html.parser")
+        self.assertEqual(audit.extract_players(soup), [])
+
     def test_text_normalisation(self):
         self.assertEqual(norm_text("Paris-Saint-Germain"), "paris saint germain")
 

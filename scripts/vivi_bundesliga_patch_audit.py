@@ -197,6 +197,28 @@ def extract_options(soup):
         unique[(item["slot_number"], norm(item["label"]), item["image_url"])] = item
     return list(unique.values()), slot
 
+
+def sitemap_product_urls():
+    """Find product pages outside the visible club collections via Vivi's sitemap."""
+    sitemap_html, _, status = fetch(BASE + "/sitemap.xml")
+    if status != 200:
+        return []
+    index = BeautifulSoup(sitemap_html, "html.parser")
+    locations = [node.get_text(strip=True) for node in index.find_all("loc")]
+    product_maps = [url for url in locations if "sitemap" in url.lower() and "product" in url.lower()]
+    direct_products = [canonical(url) for url in locations if "/products/" in urlparse(url).path]
+    found = list(direct_products)
+    for sitemap_url in product_maps:
+        xml, _, code = fetch(sitemap_url)
+        if code != 200:
+            continue
+        page = BeautifulSoup(xml, "html.parser")
+        for node in page.find_all("loc"):
+            product_url = canonical(node.get_text(strip=True))
+            if product_url and "/products/" in urlparse(product_url).path:
+                found.append(product_url)
+    return list(dict.fromkeys(url for url in found if url))
+
 def main():
     index_html, index_url, status = fetch(BASE + "/collections/")
     if status != 200:
@@ -230,6 +252,18 @@ def main():
                 if product_url and "/products/" in urlparse(product_url).path:
                     products.setdefault(product_url, meta["team"])
         time.sleep(0.5)
+
+    # Some clubs are not linked from Vivi's visible /collections/ index.
+    # Discover product URLs from the supplier sitemap, but only add teams
+    # that were not already represented by a detected club collection.
+    collection_teams = {meta["team"] for meta in collections.values()}
+    sitemap_added = 0
+    for product_url in sitemap_product_urls():
+        team = team_for_collection(product_url, "")
+        if team and team not in collection_teams and product_url not in products:
+            products[product_url] = team
+            sitemap_added += 1
+
     results = []
     for number, (product_url, team) in enumerate(products.items(), 1):
         html, final_url, code = fetch(product_url)
@@ -256,6 +290,7 @@ def main():
         "source": "Vivi Jersey German club collections",
         "generated_at_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "collection_count": len(collections),
+        "sitemap_product_pages_added": sitemap_added,
         "product_count": len(results),
         "collection_errors": collection_errors,
         "http_status_counts": COUNTS,

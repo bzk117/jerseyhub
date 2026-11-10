@@ -400,7 +400,14 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
   const legacyPatchOptions=Array.isArray(p.patches)?p.patches:[];
   const isNational=p.category==="national",isClub=p.category==="clubs";
-  const personalizationAllowed=!isClub||p.personalizationAllowed===true||p.personalization?.allowed===true;
+  const normalizeClubKey=value=>slug(String(value||"")).replace(/[^a-z0-9]/g,"");
+  const productClubNames=[p.group,p.team,p.name].filter(Boolean).map(normalizeClubKey);
+  const productSeasonKey=String(p.season||"").replace(/[–/]/g,"-").replace(/\s/g,"");
+  const verifiedClubRosterKey=isClub&&window.JERSEYHUB_CLUB_ROSTERS?Object.keys(window.JERSEYHUB_CLUB_ROSTERS).find(key=>{
+   const [clubKey,seasonKey]=key.split("|");
+   return seasonKey===productSeasonKey&&productClubNames.some(value=>value.includes(clubKey));
+  }):null;
+  const personalizationAllowed=!isClub||p.personalizationAllowed===true||p.personalization?.allowed===true||!!verifiedClubRosterKey;
   let patchRecords=[];
   if((isNational||isClub)&&window.supabase&&window.JERSEYHUB_SUPABASE){try{const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category",isNational?"national":"clubs").eq("is_active",true).order("sort_order",{ascending:true});if(!error)patchRecords=data||[];}catch(error){console.warn("Options de patch indisponibles :",error)}}
   const patchLibraryOptions=window.JERSEYHUB_PATCH_LIBRARY&&p.supplierUrl?window.JERSEYHUB_PATCH_LIBRARY[p.supplierUrl.replace(/\/$/,"")]:[];
@@ -526,7 +533,8 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const rosterKey=isNational&&fifaRosterYearCompatible&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
   const productPlayerLibrary=window.JERSEYHUB_PLAYER_LIBRARY&&p.supplierUrl?window.JERSEYHUB_PLAYER_LIBRARY[p.supplierUrl.replace(/\/$/,"")]:[];
-  const clubRoster=isClub?(Array.isArray(p.players)&&p.players.length?p.players:(Array.isArray(productPlayerLibrary)?productPlayerLibrary:[])):[];
+  const verifiedTeamRoster=verifiedClubRosterKey?window.JERSEYHUB_CLUB_ROSTERS[verifiedClubRosterKey]:[];
+  const clubRoster=isClub?(Array.isArray(p.players)&&p.players.length?p.players:(Array.isArray(productPlayerLibrary)&&productPlayerLibrary.length?productPlayerLibrary:verifiedTeamRoster)):[];
   const renderPersonalization=()=>{
    if(person.value==="Aucune"){fields.innerHTML="";return}
    if(person.value==="Nom et numéro du joueur"){

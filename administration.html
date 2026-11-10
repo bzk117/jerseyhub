@@ -3,17 +3,24 @@
 .admin-wrap{max-width:1200px;margin:auto;padding:32px 20px 70px}.admin-panel{background:#141414;border:1px solid #393939;border-radius:13px;padding:20px;margin:18px 0}.admin-wrap input,.admin-wrap select,.admin-wrap textarea{width:100%;padding:11px;background:#090909;border:1px solid #494949;border-radius:7px;color:#fff}.admin-wrap label{display:block;margin:12px 0 6px;color:#ccc}.admin-wrap button{padding:10px 14px;border-radius:7px;border:1px solid #555;background:#222;color:white;cursor:pointer}.admin-wrap button.primary{background:#f4bd22;color:#111;border-color:#f4bd22}.admin-grid{display:grid;grid-template-columns: minmax(0,1.2fr) minmax(280px,.8fr);gap:18px}.admin-card{border:1px solid #444;border-radius:10px;padding:15px;margin:12px 0;background:#101010}.admin-meta{color:#aaa;font-size:12px}.admin-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.admin-row>*{flex:1}.admin-note{margin-top:12px}.admin-hidden{display:none!important}.admin-status{color:#f4bd22;font-weight:700}.admin-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}.admin-stat{border:1px solid #4b4028;background:#101010;border-radius:10px;padding:14px}.admin-stat small{display:block;color:#aaa;margin-bottom:7px}.admin-stat strong{font-size:23px;color:#f4bd22}.admin-search{max-width:430px;margin:12px 0}.admin-search input{width:100%}.admin-search-hint{color:#aaa;font-size:12px;margin:5px 0 12px}\n.admin-filter-label{display:flex!important;align-items:center;gap:8px;flex:1;min-width:210px;margin:0!important}.admin-filter-label select{width:auto;flex:1;min-width:150px}@media(max-width:760px){.admin-grid{grid-template-columns:1fr}}
 .danger{background:#8f3030;color:#fff;border:0;border-radius:8px;padding:10px 14px;cursor:pointer;margin:8px 0 14px}.detail-actions{margin:0 0 18px}.detail-actions>*{flex:0 1 auto}.detail-actions .danger{margin:0}
 .lego-admin-groups{display:grid;grid-template-columns:1fr 1fr;gap:14px}.lego-admin-dropzone{min-height:150px;padding:12px;border:1px dashed #6b5a35;border-radius:10px;background:#0d0d0d}.lego-admin-dropzone.dragover{border-color:#f4bd22;background:#1b170d}.lego-admin-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(115px,1fr));gap:10px}.lego-admin-card{min-width:0;border:1px solid #444;border-radius:8px;padding:7px;background:#171717}.lego-admin-card img{display:block;width:100%;height:92px;object-fit:contain;background:#090909;border-radius:5px}.lego-admin-card small{display:block;color:#aaa;overflow-wrap:anywhere;margin:5px 0}.lego-admin-card button{width:100%;font-size:12px;padding:7px}.lego-admin-add{display:grid;grid-template-columns:1fr 1fr;gap:12px}.lego-admin-add button{align-self:end}.lego-admin-feedback{color:#e9bd54;font-size:13px;margin:10px 0}@media(max-width:760px){.lego-admin-groups,.lego-admin-add{grid-template-columns:1fr}}
-</style></head><body><header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><a class="nav-link" href="index.html">Retour au site</a></header>
+.club-product-admin-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:14px}.club-product-admin-card{display:flex;gap:12px;align-items:center;min-width:0;border:1px solid #414141;border-radius:10px;padding:11px;background:#101010}.club-product-admin-card img{width:76px;height:86px;object-fit:contain;background:#fff;border-radius:6px;flex:0 0 76px}.club-product-admin-card .club-product-admin-info{min-width:0;flex:1}.club-product-admin-card strong{display:block;overflow-wrap:anywhere}.club-product-admin-card small{display:block;color:#aaa;margin:4px 0 8px}.club-product-admin-card button{width:100%;font-size:12px}.club-product-admin-card button.danger{margin:0;background:#8f3030;color:#fff}.club-product-admin-card button.restore{background:#1b3826;border-color:#386448;color:#b7f0c5}@media(max-width:600px){.club-product-admin-card{align-items:flex-start}}\n</style></head><body><header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><a class="nav-link" href="index.html">Retour au site</a></header>
 <main class="admin-wrap"><p class="eyebrow">ZONE PRIVÉE</p><h1>Administration <em>JerseyHub</em></h1><div id="notice" class="admin-panel">Vérification des accès…</div>
 <section id="login" class="admin-panel admin-hidden"><h2>Connexion administrateur</h2><form id="loginForm"><label for="email">Adresse e-mail</label><input id="email" type="email" required autocomplete="username"><label for="password">Mot de passe</label><input id="password" type="password" required autocomplete="current-password"><button class="primary" type="submit">Se connecter</button></form></section>
 <section id="dashboard" class="admin-hidden"><section class="admin-panel"><h2>Tableau de bord</h2><div id="adminStats" class="admin-stats"><div class="admin-stat"><small>Commandes en attente</small><strong>—</strong></div><div class="admin-stat"><small>Commandes payées</small><strong>—</strong></div><div class="admin-stat"><small>En transit</small><strong>—</strong></div><div class="admin-stat"><small>Terminées</small><strong>—</strong></div><div class="admin-stat"><small>Chiffre d’affaires encaissé</small><strong>—</strong></div></div></section><section class="admin-panel" id="r2InventoryPanel"><h2>Inventaire des images Cloudflare R2</h2><p class="admin-meta">Analyse les noms et métadonnées de tous les fichiers du bucket pour préparer l’intégration des maillots de clubs. Cette opération ne télécharge, ne déplace et ne supprime aucune image.</p><div class="admin-row"><button type="button" class="primary" id="startR2Inventory">Analyser les fichiers R2</button><span id="r2InventoryFeedback" class="lego-admin-feedback">Prêt à analyser le stockage.</span></div>
-<div class="admin-card" style="margin-top:16px"><h3>Prévisualisation des maillots de clubs</h3><p class="admin-meta">Lecture seule de l’inventaire R2. Saisissez le chemin exact du dossier d’un club (ex. assets/clubs/Angleterre/Liverpool/) et, si besoin, un identifiant à 5 chiffres. Les images originales ne sont ni modifiées ni déplacées.</p><div class="admin-row"><div><label for="r2PreviewFolder">Dossier du club</label><input id="r2PreviewFolder" type="text" value="assets/clubs/Angleterre/Liverpool/" placeholder="assets/clubs/Pays/Club/"></div><div><label for="r2PreviewGroup">Identifiant du groupe (facultatif)</label><input id="r2PreviewGroup" type="text" inputmode="numeric" maxlength="5" placeholder="00062"></div><button type="button" class="primary" id="loadR2Preview">Afficher les photos</button></div><p id="r2PreviewFeedback" class="admin-meta">Aucune photo chargée.</p><div id="r2PreviewGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px"></div></div></section><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section>
+<div class="admin-card" style="margin-top:16px"><h3>Prévisualisation des maillots de clubs</h3><p class="admin-meta">Lecture seule de l’inventaire R2. Saisissez le chemin exact du dossier d’un club (ex. assets/clubs/Angleterre/Liverpool/) et, si besoin, un identifiant à 5 chiffres. Les images originales ne sont ni modifiées ni déplacées.</p><div class="admin-row"><div><label for="r2PreviewFolder">Dossier du club</label><input id="r2PreviewFolder" type="text" value="assets/clubs/Angleterre/Liverpool/" placeholder="assets/clubs/Pays/Club/"></div><div><label for="r2PreviewGroup">Identifiant du groupe (facultatif)</label><input id="r2PreviewGroup" type="text" inputmode="numeric" maxlength="5" placeholder="00062"></div><button type="button" class="primary" id="loadR2Preview">Afficher les photos</button></div><p id="r2PreviewFeedback" class="admin-meta">Aucune photo chargée.</p><div id="r2PreviewGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px"></div></div></section><section class="admin-panel" id="clubProductsPanel">
+<h2>Gestion des maillots des clubs</h2>
+<p class="admin-meta">Retire un maillot du catalogue public sans supprimer ses photos ni les anciennes commandes. Tu peux le rétablir à tout moment.</p>
+<div class="admin-row"><label for="clubProductTeam">Club<select id="clubProductTeam"><option value="">Chargement des clubs…</option></select></label><label for="clubProductSearch">Rechercher un maillot<input id="clubProductSearch" type="search" placeholder="Domicile, extérieur, saison…"></label></div>
+<p id="clubProductFeedback" class="admin-meta" aria-live="polite">Sélectionne un club pour afficher ses maillots.</p>
+<div id="clubProductList" class="club-product-admin-list"></div>
+</section>
+<section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section>
 </section>
 
 </section>
 <div class="admin-row"><div><h2>Demandes clients</h2><p class="admin-meta">Les changements sont enregistrés dans Supabase.</p></div><label class="admin-filter-label" for="archiveFilter">Afficher : <select id="archiveFilter"><option value="active">Demandes actives</option><option value="archived">Demandes archivées</option><option value="all">Toutes les demandes</option></select></label><button id="logout">Déconnexion</button><button id="reload">Actualiser</button></div><div class="admin-search"><label for="adminSearch">Rechercher une commande</label><input id="adminSearch" type="search" placeholder="N° de commande, nom ou adresse e-mail"><p class="admin-search-hint">La recherche couvre les commandes de la vue sélectionnée.</p></div><div class="admin-grid"><section class="admin-panel"><h3>Demandes reçues</h3><div id="requests">Chargement…</div></section><aside class="admin-panel"><h3>Détail de la demande</h3><div id="detail">Sélectionnez une demande.</div></aside></div></section>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
+<script src="catalog.js?v=20261110-admin-delete"></script><script src="clubs-products.js?v=20261110-admin-delete"></script>\n<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
 <script>
 (()=>{const $=id=>document.getElementById(id),notice=$('notice');if(!window.supabase||!window.JERSEYHUB_SUPABASE){notice.textContent="Configuration Supabase indisponible.";return}const db=window.supabase.createClient(JERSEYHUB_SUPABASE.url,JERSEYHUB_SUPABASE.anonKey);let selected=null,records=[],searchIds=null,searchToken=0,ordersLoadToken=0;
 const say=(s,bad=false)=>{notice.textContent=s;notice.style.borderColor=bad?'#a44':'#6b531d'};
@@ -25,7 +32,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 async function refresh(){const {data}=await db.auth.getSession();const user=data.session?.user;if(!user){$('login').classList.remove('admin-hidden');$('dashboard').classList.add('admin-hidden');say("Connectez-vous avec un compte administrateur.");return}
 const {data:profile,error}=await db.from('profiles').select('role,first_name,last_name').eq('id',user.id).maybeSingle();
 if(error||user.app_metadata?.role!=='admin'){$('login').classList.add('admin-hidden');$('dashboard').classList.add('admin-hidden');say("Accès refusé : ce compte ne possède pas le rôle administrateur autorisé.",true);return}
-$('login').classList.add('admin-hidden');$('dashboard').classList.remove('admin-hidden');say("Accès administrateur vérifié.");await load()}
+$('login').classList.add('admin-hidden');$('dashboard').classList.remove('admin-hidden');say("Accès administrateur vérifié.");await loadClubProductManager();await load()}
 async function load(){
  const loadToken=++ordersLoadToken;
  await loadComments();await loadDashboardStats();
@@ -44,6 +51,122 @@ async function load(){
  records=[...uniqueOrders.values()].map(r=>({...r,customer_profile:profilesById[r.customer_id]||null}));
  renderRequestList();
  }
+let adminClubOptions=[];
+let adminClubEntries=[];
+let adminClubHiddenKeys=new Set();
+let adminClubUserId=null;
+function adminCatalogProductKey(p){
+ const source=String(p?.supplierUrl||p?.sourceUrl||"").trim();
+ return source?"catalog:"+source:"catalog:"+encodeURIComponent(String(p?.group||""))+":"+encodeURIComponent(String(p?.name||""));
+}
+function adminR2ProductKey(country,club,reference){
+ return "r2:"+[country,club,String(reference)].join("/");
+}
+function buildAdminClubOptions(){
+ const options=[];
+ const leagueRows=typeof CLUB_LEAGUES!=="undefined"?CLUB_LEAGUES:[];
+ const teamGroups=typeof CLUB_TEAM_GROUPS!=="undefined"?CLUB_TEAM_GROUPS:{};
+ leagueRows.forEach(countryRow=>(countryRow.items||[]).forEach(league=>{
+  (teamGroups[league]||[]).forEach(team=>options.push({team,country:countryRow.name,league}));
+ }));
+ const products=typeof PRODUCTS!=="undefined"?PRODUCTS:[];
+ products.filter(p=>p?.category==="clubs"&&p.group).forEach(p=>{
+  if(!options.some(x=>x.team===p.group))options.push({team:p.group,country:"",league:""});
+ });
+ const seen=new Set();
+ adminClubOptions=options.filter(x=>{const key=x.country+"::"+x.team;if(seen.has(key))return false;seen.add(key);return true;}).sort((a,b)=>a.team.localeCompare(b.team,"fr"));
+ const select=$("clubProductTeam");
+ select.innerHTML='<option value="">Choisir un club…</option>'+adminClubOptions.map((x,i)=>'<option value="'+i+'">'+esc(x.team)+(x.country?' — '+esc(x.country):'')+'</option>').join("");
+}
+async function loadClubProductManager(){
+ try{
+  const {data:userData,error:userError}=await db.auth.getUser();
+  if(userError||!userData?.user)throw userError||new Error("Session administrateur introuvable.");
+  adminClubUserId=userData.user.id;
+  const {data:hidden,error}=await db.from("club_product_exclusions").select("product_key,product_name,club_name,product_source");
+  if(error)throw error;
+  adminClubHiddenKeys=new Set((hidden||[]).map(row=>row.product_key));
+  buildAdminClubOptions();
+  $("clubProductFeedback").textContent=adminClubOptions.length+" club(s) disponibles. Sélectionne un club.";
+  if(!$("clubProductTeam").dataset.bound){
+   $("clubProductTeam").onchange=loadClubProductSelection;
+   $("clubProductSearch").oninput=renderClubProductList;
+   $("clubProductTeam").dataset.bound="1";
+  }
+ }catch(error){
+  $("clubProductFeedback").textContent="Gestion des maillots indisponible : "+(error.message||error);
+  say("Impossible de charger la gestion des maillots.",true);
+ }
+}
+async function loadClubProductSelection(){
+ const index=Number($("clubProductTeam").value);
+ const selected=adminClubOptions[index];
+ const list=$("clubProductList");
+ list.innerHTML="";
+ if(!selected){$("clubProductFeedback").textContent="Sélectionne un club pour afficher ses maillots.";return}
+ $("clubProductFeedback").textContent="Chargement des maillots de "+selected.team+"…";
+ const products=(typeof PRODUCTS!=="undefined"?PRODUCTS:[]).filter(p=>p?.category==="clubs"&&p.group===selected.team);
+ adminClubEntries=products.map(p=>({key:adminCatalogProductKey(p),name:p.name,team:selected.team,image:p.image||"",meta:[p.season,p.version,p.kitType].filter(Boolean).join(" · "),p.supplier||""].filter(Boolean).join(" · "),source:"catalog"}));
+ if(selected.country){
+  const {data:gallery,error}=await db.rpc("jerseyhub_club_gallery",{p_country:selected.country,p_club:selected.team});
+  if(error){
+   $("clubProductFeedback").textContent="Fiches du catalogue chargées, mais galerie R2 indisponible : "+error.message;
+  }else{
+   (gallery||[]).forEach(row=>{
+    const reference=String(row.product_ref);
+    adminClubEntries.push({key:adminR2ProductKey(selected.country,selected.team,reference),name:"Maillot — Réf. "+reference,team:selected.team,image:row.image_url||"",meta:"Photos de la galerie R2",source:"r2_gallery"});
+   });
+  }
+ }
+ const unique=new Map();
+ adminClubEntries.forEach(item=>{if(!unique.has(item.key))unique.set(item.key,item)});
+ adminClubEntries=[...unique.values()];
+ renderClubProductList();
+ const hiddenCount=adminClubEntries.filter(item=>adminClubHiddenKeys.has(item.key)).length;
+ $("clubProductFeedback").textContent=adminClubEntries.length+" maillot(s) trouvé(s) pour "+selected.team+" · "+hiddenCount+" retiré(s) du catalogue.";
+}
+function renderClubProductList(){
+ const list=$("clubProductList");
+ const term=String($("clubProductSearch").value||"").trim().toLocaleLowerCase("fr");
+ list.innerHTML="";
+ const visible=adminClubEntries.filter(item=>(item.name+" "+item.meta).toLocaleLowerCase("fr").includes(term));
+ if(!visible.length){list.textContent=adminClubEntries.length?"Aucun maillot ne correspond à cette recherche.":"Aucun maillot trouvé pour ce club.";return}
+ visible.forEach(item=>{
+  const hidden=adminClubHiddenKeys.has(item.key);
+  const card=document.createElement("article");card.className="club-product-admin-card";
+  if(item.image){const img=document.createElement("img");img.src=item.image;img.alt=item.name;img.loading="lazy";card.append(img)}
+  const info=document.createElement("div");info.className="club-product-admin-info";
+  const name=document.createElement("strong");name.textContent=item.name;info.append(name);
+  const meta=document.createElement("small");meta.textContent=item.meta||"Fiche catalogue";info.append(meta);
+  const action=document.createElement("button");action.type="button";action.textContent=hidden?"Rétablir dans le catalogue":"Retirer du catalogue";action.className=hidden?"restore":"danger";
+  action.onclick=()=>toggleClubProductVisibility(item,hidden,action);
+  info.append(action);card.append(info);list.append(card);
+ });
+}
+async function toggleClubProductVisibility(item,isHidden,button){
+ if(button.disabled)return;
+ const action=isHidden?"rétablir":"retirer du catalogue";
+ if(!confirm("Confirmer : "+action+" « "+item.name+" » de "+item.team+" ?"))return;
+ button.disabled=true;
+ try{
+  if(isHidden){
+   const {error}=await db.from("club_product_exclusions").delete().eq("product_key",item.key);
+   if(error)throw error;
+   adminClubHiddenKeys.delete(item.key);
+  }else{
+   const {error}=await db.from("club_product_exclusions").insert({product_key:item.key,product_name:item.name,club_name:item.team,product_source:item.source,hidden_by:adminClubUserId});
+   if(error)throw error;
+   adminClubHiddenKeys.add(item.key);
+  }
+  renderClubProductList();
+  const hiddenCount=adminClubEntries.filter(row=>adminClubHiddenKeys.has(row.key)).length;
+  $("clubProductFeedback").textContent=adminClubEntries.length+" maillot(s) pour "+item.team+" · "+hiddenCount+" retiré(s) du catalogue.";
+  say(isHidden?"Maillot rétabli dans le catalogue.":"Maillot retiré du catalogue pour tous les visiteurs.");
+ }catch(error){
+  say("Modification impossible : "+(error.message||error),true);
+  button.disabled=false;
+ }
+}
 async function loadDashboardStats(){
  const {data,error}=await db.from('requests').select('status,payment_status,price_eur,international_shipping_eur,request_items(category,custom_price_eur,quantity)');
  if(error){say('Statistiques indisponibles : '+error.message,true);return}
@@ -156,6 +279,6 @@ async function runR2Inventory(){
 }
 $('startR2Inventory').onclick=runR2Inventory;
 $('loginForm').onsubmit=async e=>{e.preventDefault();const {error}=await db.auth.signInWithPassword({email:$('email').value.trim(),password:$('password').value});if(error){say(error.message,true);return}await refresh()};
-$('logout').onclick=async()=>{await db.auth.signOut();selected=null;await refresh()};$('reload').onclick=load;$('archiveFilter').onchange=()=>{selected=null;$('detail').textContent='Sélectionnez une demande.';load()};db.auth.onAuthStateChange(()=>setTimeout(refresh,0));refresh();
+$('logout').onclick=async()=>{await db.auth.signOut();selected=null;await refresh()};$('reload').onclick=async()=>{await loadClubProductManager();await load()};$('archiveFilter').onchange=()=>{selected=null;$('detail').textContent='Sélectionnez une demande.';load()};db.auth.onAuthStateChange(()=>setTimeout(refresh,0));refresh();
 })();
 </script></body></html>

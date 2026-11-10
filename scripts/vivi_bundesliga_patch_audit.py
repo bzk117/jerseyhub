@@ -129,8 +129,15 @@ def product_links(page_html, page_url, default_team=None):
     return links
 
 def paginated_collection_pages(url, html, max_pages=12):
+    """Discover collection pages from anchors and probe numbered pagination.
+
+    Vivi sometimes exposes only a subset of pagination links in the initial HTML.
+    Probe ?page=1..N as a fallback so later collection pages are not silently
+    skipped. Only keep pages that actually contain product links.
+    """
     pages = {url}
     queue = [url]
+    base_path = urlparse(url).path.rstrip("/")
     while queue and len(pages) < max_pages:
         current = queue.pop(0)
         page_html = html if current == url else fetch(current)[0]
@@ -142,7 +149,7 @@ def paginated_collection_pages(url, html, max_pages=12):
             parsed = urlparse(dest)
             if parsed.netloc.lower() not in ("vivi-jersey.com", "www.vivi-jersey.com"):
                 continue
-            if parsed.path.rstrip("/") != urlparse(url).path.rstrip("/"):
+            if parsed.path.rstrip("/") != base_path:
                 continue
             query = parse_qs(parsed.query)
             if any(k.lower() in ("page", "p", "pageindex", "currentpage") for k in query):
@@ -150,6 +157,23 @@ def paginated_collection_pages(url, html, max_pages=12):
                 if normalized not in pages and len(pages) < max_pages:
                     pages.add(normalized)
                     queue.append(normalized)
+
+    # Fallback: sequentially probe numbered pages because Vivi's pager may
+    # render page links through JavaScript or omit later numbers from the DOM.
+    for page_number in range(1, max_pages + 1):
+        candidate = urlunparse(("https", "www.vivi-jersey.com", base_path, "",
+                                f"page={page_number}", ""))
+        if candidate in pages:
+            continue
+        page_html, final_url, status = fetch(candidate, attempts=2)
+        if status != 200 or not page_html:
+            continue
+        has_products = bool(BeautifulSoup(page_html, "html.parser").select('a[href*="/products/"]'))
+        if has_products:
+            normalized = urlunparse(("https", "www.vivi-jersey.com",
+                                     urlparse(final_url).path, "",
+                                     urlparse(final_url).query, ""))
+            pages.add(normalized)
     return sorted(pages)
 
 def clean_label(value):

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Audit Vivi Jersey club collections and product options without publishing guessed records."""
+"""Audit Vivi Jersey club collections and product options without publishing guessed records.
+
+Re-run requested on 2026-11-11 to refresh verified club sizes; Manchester United is already
+covered in the catalogue and must not be duplicated during the follow-up review.
+"""
 import csv, json, os, re, sys, time, hashlib, threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin, urlparse, urlunparse, parse_qs

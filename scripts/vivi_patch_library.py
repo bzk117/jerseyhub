@@ -299,11 +299,14 @@ def process_product(url: str, collection_teams: set[str], catalog_urls: set[str]
     sizes, size_raw = audit.extract_sizes(soup, page_text)
     adult_sizes, kids_sizes, size_audience = audit.classify_size_groups(sizes, title, size_raw)
     customization_raw, customization_options = audit.extract_customization(page_text)
+    players = audit.extract_players(soup)
     extracted = {
         "sizes": sizes, "adult_sizes": adult_sizes, "kids_sizes": kids_sizes,
         "size_audience": size_audience, "size_raw": size_raw,
         "customization_raw": customization_raw,
         "customization_options": customization_options,
+        "players": players,
+        "players_verified": bool(players),
     }
     title_team = infer_team_from_title(title)
     candidate_teams = set(collection_teams)
@@ -415,6 +418,15 @@ def main():
     # Site-facing JS manifest is deliberately keyed by exact supplier URL.
     js_payload = "window.JERSEYHUB_PATCH_LIBRARY = " + json.dumps(library, ensure_ascii=False, separators=(",", ":")) + ";\n"
     (ROOT / "vivi-patch-library.js").write_text(js_payload, encoding="utf-8")
+
+    # Publish player rosters only when they were extracted from the exact supplier product page.
+    player_library = {
+        product["supplier_url"].rstrip("/"): product["players"]
+        for product in results
+        if product.get("catalog_match") and product.get("players_verified") and product.get("players")
+    }
+    player_payload = "window.JERSEYHUB_PLAYER_LIBRARY = " + json.dumps(player_library, ensure_ascii=False, separators=(",", ":")) + ";\n"
+    (ROOT / "vivi-player-library.js").write_text(player_payload, encoding="utf-8")
     manifest = {
         "source": BASE,
         "generated_at_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
@@ -430,6 +442,8 @@ def main():
         "size_values_detected": sum(len(item.get("sizes", [])) for item in results),
         "products_with_flocage_options": sum(1 for item in results if item.get("customization_options")),
         "flocage_options_detected": sum(len(item.get("customization_options", [])) for item in results),
+        "products_with_verified_player_rosters": sum(1 for item in results if item.get("players_verified")),
+        "verified_players_detected": sum(len(item.get("players", [])) for item in results),
         "collection_errors": collection_errors,
         "products": sorted(results, key=lambda item: (item.get("team", ""), item.get("title", ""))),
     }
@@ -440,6 +454,13 @@ def main():
         for product in results:
             if product.get("title"):
                 writer.writerow([product.get("league", ""), product.get("team", ""), product.get("title", ""), ", ".join(product.get("adult_sizes", [])), ", ".join(product.get("kids_sizes", [])), product.get("size_audience", "unknown"), product.get("supplier_url", "")])
+
+    with (DATA_DIR / "flocages-joueurs.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.writer(handle, delimiter=";")
+        writer.writerow(["Ligue", "Club", "Produit", "Joueur", "Nom sur maillot", "Numéro", "URL fournisseur", "Effectif vérifié"])
+        for product in results:
+            for player in product.get("players", []):
+                writer.writerow([product.get("league", ""), product.get("team", ""), product.get("title", ""), player.get("name", ""), player.get("shirt", ""), player.get("number", ""), product.get("supplier_url", ""), product.get("players_verified", False)])
 
     with (DATA_DIR / "flocages.csv").open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.writer(handle, delimiter=";")

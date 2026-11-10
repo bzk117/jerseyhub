@@ -1,0 +1,36 @@
+name: Diagnostic HTML options patchs Vivi
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/diagnose_vivi_patch_markup.py"
+      - ".github/workflows/vivi-patch-markup-diagnostic.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+      - name: Inspecter le HTML des sélecteurs patch (lecture seule)
+        run: python scripts/diagnose_vivi_patch_markup.py
+      - name: Publier le diagnostic
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivi-patch-markup-diagnostic
+          path: patch-markup-diagnostic.json
+          if-no-files-found: error
+          retention-days: 7

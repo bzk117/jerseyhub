@@ -54,6 +54,8 @@ jobs:
           test -s data/vivi-patch-library.json
           test -s data/vivi-patch-library.csv
           test -s VIVI-PATCH-LIBRARY-REPORT.md
+          node --check app.js
+          node --check vivi-patch-library.js
           python - <<'PY'
           import json
           from pathlib import Path
@@ -65,6 +67,20 @@ jobs:
           print("Existing JerseyHub products with patch options:", report["catalog_matched_products_with_patches"])
           print("Patch options prepared for exact product pages:", report["options_in_site_manifest"])
           PY
+
+      - name: Upload patch images and audit manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivi-club-patch-library
+          path: |
+            VIVI-PATCH-LIBRARY-REPORT.md
+            vivi-patch-library.js
+            data/vivi-patch-library.json
+            data/vivi-patch-library.csv
+            assets/patches/
+          if-no-files-found: warn
+          retention-days: 30
 
       - name: Commit downloaded images and exact-product manifest to preparation branch
         env:
@@ -78,6 +94,8 @@ jobs:
             echo "No generated patch-library changes."
           else
             git commit -m "Download and map verified Vivi club patches"
+            git fetch origin "$BRANCH_NAME"
+            git rebase "origin/$BRANCH_NAME"
             git push origin "HEAD:${BRANCH_NAME}"
           fi
 

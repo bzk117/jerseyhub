@@ -269,7 +269,8 @@ async function openGroup(kind,name){
    const league=leagueEntry[0];
    const countryEntry=CLUB_LEAGUES.find(item=>item.items.includes(league));
    const country=countryEntry?.name;
-   const hiddenKeys=await loadHiddenClubProductKeys();\n   const verified=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category==="clubs"&&p.group===name&&!hiddenKeys.has(clubProductKey(p)));
+   const hiddenKeys=await loadHiddenClubProductKeys();
+   const verified=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category==="clubs"&&p.group===name&&!hiddenKeys.has(clubProductKey(p)));
    setHeading("ÉQUIPE DE CLUB",name,"Accueil / Clubs / "+league+" / "+name);
    grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
    $("#resultCount").textContent="Chargement des maillots…";
@@ -294,7 +295,8 @@ async function openGroup(kind,name){
   }
  }
  if(["national","clubs","sports"].includes(kind)){
-  const hiddenKeys=kind==="clubs"?await loadHiddenClubProductKeys():new Set();\n  const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name&&(kind!=="clubs"||!hiddenKeys.has(clubProductKey(p))));
+  const hiddenKeys=kind==="clubs"?await loadHiddenClubProductKeys():new Set();
+  const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name&&(kind!=="clubs"||!hiddenKeys.has(clubProductKey(p))));
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
    renderPagedProducts(matches);
@@ -327,7 +329,8 @@ async function applySearch(){
  query=slug($("#searchInput").value.trim());
  if(!query){currentView==="home"?renderHome():openView(currentView);return}
  const entries=[...allNational(),...allClubs(),...OTHER_SPORTS.map(x=>({...x,kind:"sports"})),...SHOE_BRANDS.map(x=>({...x,kind:"shoes"})),...allLifestyle()].filter(x=>slug(x.name).includes(query));
- const hiddenKeys=await loadHiddenClubProductKeys();\n const prods=PRODUCTS.filter(isReadyForCatalog).filter(p=>(p.category!=="clubs"||!hiddenKeys.has(clubProductKey(p)))&&slug(p.name+" "+p.group).includes(query));
+ const hiddenKeys=await loadHiddenClubProductKeys();
+ const prods=PRODUCTS.filter(isReadyForCatalog).filter(p=>(p.category!=="clubs"||!hiddenKeys.has(clubProductKey(p)))&&slug(p.name+" "+p.group).includes(query));
  setHeading("RECHERCHE",`Résultats pour « ${$("#searchInput").value} »`,"Accueil / Recherche");
  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
  const prefixNodes=entries.map(x=>card(x,x.kind));renderPagedProducts(prods,prefixNodes);

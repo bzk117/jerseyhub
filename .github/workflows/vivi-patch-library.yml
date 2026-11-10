@@ -53,6 +53,8 @@ jobs:
           test -s vivi-patch-library.js
           test -s data/vivi-patch-library.json
           test -s data/vivi-patch-library.csv
+          test -s data/tailles.csv
+          test -s data/flocages.csv
           test -s VIVI-PATCH-LIBRARY-REPORT.md
           node --check app.js
           node --check vivi-patch-library.js
@@ -78,6 +80,8 @@ jobs:
             vivi-patch-library.js
             data/vivi-patch-library.json
             data/vivi-patch-library.csv
+            data/tailles.csv
+            data/flocages.csv
             assets/patches/
           if-no-files-found: warn
           retention-days: 30

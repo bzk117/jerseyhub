@@ -403,11 +403,13 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const normalizeClubKey=value=>slug(String(value||"")).replace(/[^a-z0-9]/g,"");
   const productClubNames=[p.group,p.team,p.name].filter(Boolean).map(normalizeClubKey);
   const productSeasonKey=String(p.season||"").replace(/[–/]/g,"-").replace(/\s/g,"");
-  const verifiedClubRosterKey=isClub&&window.JERSEYHUB_CLUB_ROSTERS?Object.keys(window.JERSEYHUB_CLUB_ROSTERS).find(key=>{
+  const noFlockingClubKeys=["standarddeliege","anderlecht","clubbrugge"];
+  const productIsNoFlockingClub=isClub&&productClubNames.some(value=>noFlockingClubKeys.some(key=>value.includes(key)));
+  const verifiedClubRosterKey=isClub&&!productIsNoFlockingClub&&window.JERSEYHUB_CLUB_ROSTERS?Object.keys(window.JERSEYHUB_CLUB_ROSTERS).find(key=>{
    const [clubKey,seasonKey]=key.split("|");
    return seasonKey===productSeasonKey&&productClubNames.some(value=>value.includes(clubKey));
   }):null;
-  const personalizationAllowed=!isClub||p.personalizationAllowed===true||p.personalization?.allowed===true||!!verifiedClubRosterKey;
+  const personalizationAllowed=!isClub||(!productIsNoFlockingClub&&(p.personalizationAllowed===true||p.personalization?.allowed===true||!!verifiedClubRosterKey));
   let patchRecords=[];
   if((isNational||isClub)&&window.supabase&&window.JERSEYHUB_SUPABASE){try{const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category",isNational?"national":"clubs").eq("is_active",true).order("sort_order",{ascending:true});if(!error)patchRecords=data||[];}catch(error){console.warn("Options de patch indisponibles :",error)}}
   const patchLibraryOptions=window.JERSEYHUB_PATCH_LIBRARY&&p.supplierUrl?window.JERSEYHUB_PATCH_LIBRARY[p.supplierUrl.replace(/\/$/,"")]:[];

@@ -125,36 +125,77 @@ def exact_image_for_label(soup, label):
     return unique[0] if len(unique) == 1 else ""
 
 def extract_options(soup):
-    text = soup.get_text(" ", strip=True)
-    markers = list(re.finditer(r"Select\s+Patch\s*[:：]?", text, re.I))
+    """Read Vivi's real custom-attribute controls and their adjacent image nodes.
+
+    Vivi renders patch options as input[data-name][data-price] inside
+    .custom_attr_item, with the original image in .pro_enlarge[data-picture]
+    and/or .attr_pic img[data-picture]. Group IDs are kept in DOM order;
+    text-only personalization groups are excluded.
+    """
+    groups = {}
+    for control in soup.select('input[name*="OtherAttributes[custom_attributes]"]'):
+        name_attr = control.get("name", "")
+        match = re.search(r"custom_attributes\]\[(\d+)\]", name_attr)
+        if not match:
+            continue
+        group_id = match.group(1)
+        item = control.find_parent(class_="custom_attr_item")
+        if not item:
+            continue
+        label = (control.get("data-name") or item.get("data-title") or "").strip()
+        if not label:
+            tip = item.select_one(".attr_value_tips span")
+            label = tip.get_text(" ", strip=True) if tip else item.get_text(" ", strip=True)
+        display_label = re.sub(r"\s*\[\s*\+\s*\$\s*[0-9]+(?:\.[0-9]+)?\s*\]\s*", "", label).strip()
+        price_raw = control.get("data-price")
+        try:
+            price = float(price_raw) if price_raw is not None else None
+        except (TypeError, ValueError):
+            price = None
+        picture = None
+        enlarge = item.select_one(".pro_enlarge[data-picture]")
+        if enlarge:
+            picture = enlarge.get("data-picture")
+        if not picture:
+            image = item.select_one(".attr_pic img[data-picture], img[data-picture], img[src]")
+            if image:
+                picture = image.get("data-picture") or image.get("src")
+        if picture:
+            picture = urljoin(BASE, picture)
+        group = groups.setdefault(group_id, {"items": [], "has_picture_options": False})
+        if item.get("data-is-picture") == "1" and picture:
+            group["has_picture_options"] = True
+        group["items"].append({
+            "label": display_label,
+            "extra_price_usd": price,
+            "image_url": picture,
+            "image_status": "exact_adjacent_option_image" if picture and item.get("data-is-picture") == "1" else "no_option_image",
+            "input_type": control.get("type", ""),
+            "source_group_id": group_id,
+        })
+
     options = []
-    for slot, marker in enumerate(markers, 1):
-        end = markers[slot].start() if slot < len(markers) else len(text)
-        section = text[marker.end():end]
-        stop = re.search(r"Customi[sz]e\s+this\s+item|Total\s+extras|Qty\s*:|ADD\s+TO\s+CART", section, re.I)
-        if stop:
-            section = section[:stop.start()]
-        # Vivi pages expose option captions as "Image: NAME" followed by its surcharge.
-        blocks = list(re.finditer(r"Image\s*:\s*(.+?)(?=(?:\s*\[Input\])?\s*Image\s*:|$)", section, re.I))
-        for block in blocks:
-            raw = block.group(1).strip()
-            price_match = re.search(r"\[\s*\+\s*\$\s*([0-9]+(?:\.[0-9]+)?)\s*\]", raw)
-            label = clean_label(raw)
-            if not label or norm(label) == "no patch":
+    slot = 0
+    for group_id, group in groups.items():
+        if not group["has_picture_options"]:
+            continue
+        slot += 1
+        for item in group["items"]:
+            if item["image_status"] == "no_option_image":
                 continue
-            image_url = exact_image_for_label(soup, label)
             options.append({
                 "slot_number": slot,
-                "label": label,
-                "extra_price_usd": float(price_match.group(1)) if price_match else None,
-                "image_url": image_url or None,
-                "image_status": "exact_alt_match" if image_url else "image_not_unambiguously_matched",
+                "label": item["label"],
+                "extra_price_usd": item["extra_price_usd"],
+                "image_url": item["image_url"],
+                "image_status": item["image_status"],
+                "input_type": item["input_type"],
+                "source_group_id": group_id,
             })
-    # De-duplicate identical label/slot pairs without merging different slots.
     unique = {}
     for item in options:
-        unique[(item["slot_number"], norm(item["label"]))] = item
-    return list(unique.values()), len(markers)
+        unique[(item["slot_number"], norm(item["label"]), item["image_url"])] = item
+    return list(unique.values()), slot
 
 def main():
     index_html, index_url, status = fetch(BASE + "/collections/")

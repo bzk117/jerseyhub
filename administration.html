@@ -99,8 +99,8 @@ async function loadClubProductManager(){
  }
 }
 async function loadClubProductSelection(){
- const index=Number($("clubProductTeam").value);
- const selected=adminClubOptions[index];
+ const selectedValue=$("clubProductTeam").value;
+ const selected=selectedValue===""?null:adminClubOptions[Number(selectedValue)];
  const list=$("clubProductList");
  list.innerHTML="";
  if(!selected){$("clubProductFeedback").textContent="Sélectionne un club pour afficher ses maillots.";return}

@@ -336,13 +336,17 @@ def main():
     # Some supplier landing pages are league-wide rather than team-specific.
     # Only retain product URLs whose own URL/title identifies a current club.
     league_pages_checked = []
-    for slug in ("the-bundesliga", "bundesliga"):
+    for slug in ("the-bundesliga", "bundesliga", "bundesliga-jersey"):
         league_url = canonical(f"{BASE}/collections/{slug}")
         html, final_url, code = fetch(league_url, attempts=2)
         if code == 200 and html:
-            league_pages_checked.append(final_url)
-            for product_url, team in product_links(html, final_url).items():
-                products.setdefault(product_url, team)
+            for page_url in paginated_collection_pages(final_url, html):
+                league_pages_checked.append(page_url)
+                page_html = html if page_url == final_url else fetch(page_url)[0]
+                if not page_html:
+                    continue
+                for product_url, team in product_links(page_html, page_url).items():
+                    products.setdefault(product_url, team)
 
     sitemap_added = 0
     for product_url in sitemap_product_urls():

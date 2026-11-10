@@ -9,7 +9,7 @@ on:
       - "scripts/vivi_patch_library.py"
       - "scripts/vivi_club_audit.py"
       - ".github/workflows/vivi-patch-library.yml"
-      - "tests/test_vivi_patch_library.py"
+      - "tests/**"
 
 permissions:
   contents: write

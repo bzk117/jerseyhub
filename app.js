@@ -385,75 +385,9 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   let sizes=normalizeSizeList(p.category==="clubs"?["S","M","L","XL","2XL","3XL","4XL"]:(hasSeparateAudiences?adultSizes:(p.sizes||[])));
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
-  const legacyPatchOptions=Array.isArray(p.patches)?p.patches:[];
   const isNational=p.category==="national",isClub=p.category==="clubs";
   const personalizationAllowed=true;
-  let patchRecords=[],patchDbClient=null,canManageClubPatches=false;
-  if((isNational||isClub)&&window.supabase&&window.JERSEYHUB_SUPABASE){
-   try{
-    patchDbClient=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);
-    const patchCategory=isClub?"club":"national";
-    const {data,error}=await patchDbClient.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category",patchCategory).eq("is_active",true).order("sort_order",{ascending:true});
-    if(!error)patchRecords=(data||[]).filter(x=>!isClub||x.team_name===p.group);
-    if(isClub){
-     const {data:sessionData}=await patchDbClient.auth.getSession();
-     canManageClubPatches=sessionData?.session?.user?.app_metadata?.role==="admin";
-    }
-   }catch(error){console.warn("Options de patch indisponibles :",error)}
-  }
-  const productPatchOptions=Array.isArray(p.patchOptions)?p.patchOptions:[];
-  const productSpecific=patchRecords.filter(x=>x.product_name&&x.product_name===p.name);
-  const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
-  const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);
-  // Les options propres au produit restent prioritaires. Les autres niveaux sont sélectionnés après le catalogue visuel historique.
-  // Catalogue visuel de secours : les choix restent disponibles même si patch_options est vide.
-  // Images originales et libellés relevés sur les options patch du fournisseur Vivi Jersey.
-  // Les groupes correspondent aux cinq champs « Select Patch » de sa fiche produit Belgique 2025-26.
-  const builtInPatchStyles=[
-   {id:"vivi-wc-qualifiers",label:"2026 World Cup Qualifiers",slot_number:1,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2601/10/photo/3314131311.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-fifa-worldcup",label:"2026 FIFA World Cup",slot_number:1,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2601/10/photo/121342132131.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-worldcup-2026",label:"FIFA World Cup 2026",slot_number:1,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/2636323A1726286F5CEDC8298BA68436.png?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-uefa-foundation",label:"UEFA National + FOUNDATION",slot_number:1,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2610/09/photo/121321321313.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-football-unites",label:"FOOTBALL UNITES",slot_number:2,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2601/10/photo/3314131311.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-debut-fifa",label:"DEBUT FIFA",slot_number:2,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUT.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-match-1",label:"Group Stage Match 1",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/GroupStageMatch1.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-match-2",label:"Group Stage Match 2",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/GroupStageMatch2.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-match-3",label:"Group Stage Match 3",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/GroupStageMatch3.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-r32",label:"R32",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/R32.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-r16",label:"R16",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/R16.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-qfs",label:"QFs",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/QFs.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-sfs",label:"SFs",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/SFs.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-final",label:"Final",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/Final.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-match-1000",label:"MATCH 1000",slot_number:4,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/02/photo/1000.png?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-best-goalkeeper-2018",label:"2018 Best Goalkeeper",slot_number:4,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/02/photo/2018.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-golden-globe-2022",label:"2022 Golden Globe",slot_number:4,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/02/photo/2022-224731ea2d.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-golden-boot-2022",label:"2022 Golden Boot",slot_number:4,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/02/photo/2022.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-fifa-2026-white",label:"FIFA 2026 White",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/43545434565.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-fifa-2026-gold",label:"FIFA 2026 Gold",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/2026.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-debut-gold",label:"DEBUT Gold",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUT1.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
-   {id:"vivi-debut-white",label:"DEBUT White",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUTwhite.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"}
-  ];
-  const displayPatches=productPatchOptions.length?productPatchOptions:productSpecific.length?productSpecific:isNational?(teamSpecific.length?teamSpecific:(globalOptions.length?globalOptions:builtInPatchStyles)):isClub?teamSpecific:[];
-  const optionSlotCount=displayPatches.reduce((max,option)=>Math.max(max,Number(option.slot_number)||0),0);
-  const configuredSlotCount=Number.isFinite(Number(p.patchSlots))?Math.max(0,Math.min(3,Number(p.patchSlots))):0;
-  const patchSlotCount=isNational?Math.min(5,optionSlotCount):isClub?Math.min(3,optionSlotCount):0;
-  if((isNational||isClub)&&!document.getElementById("jh-patch-visual-styles")){
-   const style=document.createElement("style");style.id="jh-patch-visual-styles";style.textContent=".jh-patch-selector{margin:18px 0}.jh-patch-intro{color:#cbd5e1;font-size:14px}.jh-patch-slot{border:1px solid #465365;border-radius:12px;padding:12px;margin:12px 0}.jh-patch-slot legend{padding:0 7px;font-weight:700;color:#f2c66d}.jh-patch-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:10px}.jh-patch-choice{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:7px;min-height:132px;padding:10px 7px;border:2px solid #465365;border-radius:10px;background:#17202d;color:#fff;text-align:center;cursor:pointer;transition:border-color .15s,background .15s,transform .15s}.jh-patch-choice:hover{border-color:#d8b45a;transform:translateY(-2px)}.jh-patch-choice:has(input:checked){border-color:#e5b94e;background:#293143;box-shadow:0 0 0 2px #e5b94e33}.jh-patch-choice input{position:absolute;top:8px;right:8px;accent-color:#e5b94e;width:17px;height:17px;cursor:pointer}.jh-patch-thumb{display:block;width:76px;height:76px;object-fit:contain;pointer-events:none}.jh-patch-choice b{font-size:12px;line-height:1.25}.jh-patch-extra{font-size:11px;color:#f2c66d}.jh-patch-none .jh-patch-thumb{display:grid;place-items:center;border:1px dashed #8995a5;border-radius:50%;font-size:32px;color:#d8b45a}.jh-patch-empty{color:#f2c66d;font-size:13px}.jh-patch-choice input:focus-visible{outline:2px solid #fff;outline-offset:3px}";
-   document.head.appendChild(style);
-  }
-  const patchMarkup=(isClub||isNational)
-   ? (patchSlotCount>0
-      ? '<section class="jh-patch-selector"><p class="jh-patch-intro">'+(isNational?"Touchez une image pour sélectionner une option de patch.":"Choisissez uniquement les patchs confirmés pour ce modèle.")+'</p>'+Array.from({length:patchSlotCount},(_,index)=>index+1).map(slot=>{
-      const options=displayPatches.filter(x=>Number(x.slot_number)===slot);
-      const slotName=isClub?"Patch du championnat":(slot===1?"Compétition / qualifications":slot===2?"FIFA / message":slot===3?"Match / phase du tournoi":slot===4?"Distinction / record":"Variantes FIFA / DEBUT");
-      return '<fieldset class="jh-patch-slot"><legend>Patch '+slot+' — '+slotName+'</legend><div class="jh-patch-grid"><label class="jh-patch-choice jh-patch-none"><input type="radio" name="jh-patch-slot-'+slot+'" value="" checked><span class="jh-patch-thumb">＋</span><span><b>Aucun patch</b></span></label>'+
-       options.map(x=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+esc(x.id)+'">'+(x.image_url?'<img class="jh-patch-thumb" src="'+esc(x.image_url)+'" alt="'+esc(x.label)+'">':'<span class="jh-patch-thumb jh-patch-text-thumb">✦</span>')+'<span><b>'+esc(x.label)+'</b></span>'+(Number(x.extra_price_eur)>0?'<small class="jh-patch-extra">+ '+Number(x.extra_price_eur).toFixed(2).replace(".",",")+' €</small>':'')+'</label>').join("")+
-       '</div></fieldset>';
-     }).join("")+'</section>'
-      : '<p class="jh-patch-empty">Le fournisseur ne propose pas d’option de patch pour ce modèle.</p>')
-   : '<label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+legacyPatchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div>';
-  if(!document.getElementById("jh-patch-admin-styles")){const style=document.createElement("style");style.id="jh-patch-admin-styles";style.textContent=".jh-patch-admin{margin-top:14px;padding-top:12px;border-top:1px dashed #66552d}.jh-patch-admin>button{width:100%;border:1px dashed #cba64e;color:#f4bd22;background:#211b0c;padding:11px;border-radius:8px;font-weight:800}.jh-patch-admin #jh-patch-admin-form{margin-top:12px;padding:12px;border:1px solid #66552d;border-radius:9px;background:#111}.jh-patch-admin input{width:100%;box-sizing:border-box;margin:5px 0 10px;padding:10px;border:1px solid #596579;border-radius:7px;background:#080d14;color:#fff}.jh-patch-admin label{display:block;margin:8px 0 4px;color:#ddd;font-size:12px}.jh-r2-pager{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:8px 0}.jh-r2-pager button{padding:7px 10px}.jh-r2-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px;max-height:340px;overflow:auto;margin:8px 0}.jh-r2-card{min-width:0;padding:6px;border:1px solid #444;border-radius:8px;background:#171717;color:#fff;cursor:pointer;overflow-wrap:anywhere}.jh-r2-card.selected{border:2px solid #f4bd22;background:#28200d}.jh-r2-card img{display:block;width:100%;height:82px;object-fit:contain;background:#090909;border-radius:5px}.jh-r2-card small{display:block;margin-top:5px;font-size:10px;line-height:1.25}.jh-r2-card:disabled{opacity:.5;cursor:wait}";document.head.appendChild(style)};
-  const patchAdminMarkup=isClub?'<div class="jh-patch-admin" id="jh-patch-admin" hidden><button type="button" class="jh-secondary" id="jh-show-patch-admin">＋ Ajouter un patch</button><div id="jh-patch-admin-form" hidden><label for="jh-new-patch-label">Nom du patch</label><input id="jh-new-patch-label" maxlength="100" placeholder="Ex. Premier League"><button type="button" class="jh-secondary" id="jh-r2-browse">Parcourir les images du dossier R2 de ce club</button><div id="jh-r2-browser" hidden><input id="jh-r2-search" type="search" placeholder="Filtrer les images de cette page…"><div class="jh-r2-pager"><button type="button" id="jh-r2-prev">← Précédent</button><span id="jh-r2-page">Page 1</span><button type="button" id="jh-r2-next">Suivant →</button></div><p id="jh-r2-status" class="jh-patch-intro">Chargement des images…</p><div id="jh-r2-grid" class="jh-r2-grid"></div></div><label for="jh-new-patch-image">Adresse de l’image sélectionnée (URL)</label><input id="jh-new-patch-image" type="url" placeholder="Choisis une image dans R2 ou colle une URL"><label for="jh-new-patch-price">Supplément (€) — facultatif</label><input id="jh-new-patch-price" type="number" min="0" step="0.01" value="0"><div class="jh-actions"><button type="button" class="jh-primary" id="jh-save-new-patch">Enregistrer le patch</button><button type="button" class="jh-secondary" id="jh-cancel-new-patch">Annuler</button></div><p class="jh-patch-intro">L’image originale restera dans R2. Le patch sera enregistré pour ce club et proposé aux clients sur cette fiche.</p></div></div>':"";  const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
+  const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
   let galleryIndex=0;
   const productVisual=galleryImages.length
    ? '<div class="jh-product-gallery"><div class="jh-gallery-main-wrap"><img id="jh-product-gallery-image" class="jh-gallery-main" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - photo 1"><div id="jh-gallery-zoom" class="jh-gallery-zoom" aria-hidden="true"><span>Zoom</span></div><button type="button" class="jh-gallery-enlarge" id="jh-gallery-enlarge">Agrandir l’image</button></div><div class="jh-gallery-side"><div class="jh-gallery-thumbs">'+galleryImages.map((src,i)=>'<button type="button" class="jh-gallery-thumb'+(i===0?' active':'')+'" data-gallery-index="'+i+'" aria-label="Afficher la photo '+(i+1)+'"><img src="'+esc(src)+'" alt=""></button>').join('')+'</div><div class="jh-gallery-controls"><button type="button" class="jh-secondary" id="jh-gallery-prev" aria-label="Photo précédente">←</button><span id="jh-gallery-count">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next" aria-label="Photo suivante">→</button></div></div><div class="jh-gallery-lightbox" id="jh-gallery-lightbox" hidden><button type="button" id="jh-gallery-lightbox-close" aria-label="Fermer">×</button><img id="jh-gallery-lightbox-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' agrandie"></div></div>'
@@ -464,67 +398,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const personalizationOptions=isClub?'<option value="Nom et numéro personnalisés">Personnaliser avec mon nom et mon numéro</option>':(personalizationAllowed?'<option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option>':"");
   const personalizationNotice=isClub&&!personalizationAllowed?'<p class="jh-player-note">La personnalisation nom/numéro n’est pas encore confirmée pour ce modèle.</p>':"";
   const productMeta=[p.season,p.kitType,p.version].filter(Boolean).map(esc).join(" · ");
-  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select></section>'+((isClub||isNational)?'<section class="jh-options-block"><h3>2. Choisir les patchs</h3>'+patchMarkup+(isClub?patchAdminMarkup:"")+'</section>':"")+'<section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
-  if(isClub&&patchDbClient){
-   const adminBox=dialog.querySelector("#jh-patch-admin");
-   if(adminBox&&canManageClubPatches){
-    adminBox.hidden=false;
-    dialog.querySelector("#jh-show-patch-admin").onclick=()=>{dialog.querySelector("#jh-patch-admin-form").hidden=false};
-    dialog.querySelector("#jh-cancel-new-patch").onclick=()=>{dialog.querySelector("#jh-patch-admin-form").hidden=true};
-    const r2Browse=dialog.querySelector("#jh-r2-browse"),r2Browser=dialog.querySelector("#jh-r2-browser"),r2Grid=dialog.querySelector("#jh-r2-grid"),r2Status=dialog.querySelector("#jh-r2-status"),r2Search=dialog.querySelector("#jh-r2-search"),r2Prev=dialog.querySelector("#jh-r2-prev"),r2Next=dialog.querySelector("#jh-r2-next");
-    const r2PageSize=60;let r2Offset=0,r2Total=0,r2Rows=[];
-    const patchLeagueEntry=Object.entries(CLUB_TEAM_GROUPS||{}).find(([,teams])=>Array.isArray(teams)&&teams.includes(p.group));
-    const patchCountry=CLUB_LEAGUES.find(item=>item.items.includes(patchLeagueEntry?.[0]))?.name;
-    const patchFolderPrefix=patchCountry?"assets/clubs/"+patchCountry+"/"+p.group+"/":null;
-    const renderR2PatchGrid=()=>{
-     const term=(r2Search.value||"").trim().toLocaleLowerCase("fr");
-     const rows=r2Rows.filter(row=>!term||row.object_key.toLocaleLowerCase("fr").includes(term));
-     r2Grid.innerHTML=rows.map(row=>{
-      const filename=String(row.object_key).split("/").pop(),url=String(row.public_url||"");
-      return '<button type="button" class="jh-r2-card'+(dialog.querySelector("#jh-new-patch-image").value===url?" selected":"")+'" data-r2-url="'+esc(url)+'" data-r2-name="'+esc(filename.replace(/\.[^.]+$/,"").replace(/^[0-9]{5}_[0-9]{2}_/,"").replace(/_[a-f0-9]{8,}$/i,""))+'"><img src="'+esc(url)+'" alt="'+esc(filename)+'" loading="lazy"><small>'+esc(filename)+'</small></button>';
-     }).join("");
-     r2Status.textContent=rows.length+" image(s) affichée(s) sur cette page · "+r2Total.toLocaleString("fr-BE")+" fichier(s) dans le dossier";
-     r2Grid.querySelectorAll("[data-r2-url]").forEach(button=>button.onclick=()=>{
-      dialog.querySelector("#jh-new-patch-image").value=button.dataset.r2Url;
-      const label=dialog.querySelector("#jh-new-patch-label");if(!label.value.trim())label.value=button.dataset.r2Name||"Patch";
-      r2Grid.querySelectorAll(".jh-r2-card").forEach(card=>card.classList.toggle("selected",card===button));
-      r2Status.textContent="Image sélectionnée : "+button.querySelector("small").textContent;
-     });
-    };
-    const loadR2PatchPage=async(offset=0)=>{
-     if(!patchFolderPrefix){r2Status.textContent="Impossible de retrouver le dossier R2 de ce club.";return}
-     r2Browse.disabled=true;r2Prev.disabled=true;r2Next.disabled=true;r2Status.textContent="Lecture des images R2…";
-     try{
-      const {data,error}=await patchDbClient.functions.invoke("jerseyhub-r2-upload",{body:{action:"inventory-preview",folderPrefix:patchFolderPrefix,limit:r2PageSize,offset}});
-      if(error)throw new Error(error.message||"Lecture R2 impossible");
-      if(!data?.ok)throw new Error(data?.error||"Réponse R2 invalide");
-      r2Rows=Array.isArray(data.objects)?data.objects:[];
-      r2Total=Number(data.count)||0;r2Offset=offset;
-      r2Browser.hidden=false;r2Search.value="";
-      dialog.querySelector("#jh-r2-page").textContent="Page "+(Math.floor(offset/r2PageSize)+1)+" · "+r2Total.toLocaleString("fr-BE")+" fichiers";
-      r2Prev.disabled=offset===0;r2Next.disabled=offset+r2PageSize>=r2Total;
-      renderR2PatchGrid();
-      if(!r2Rows.length)r2Status.textContent="Aucune image dans ce dossier à cette page.";
-     }catch(error){r2Status.textContent="Erreur : "+(error.message||error);console.warn("Prévisualisation R2 des patchs impossible",error)}
-     finally{r2Browse.disabled=false}
-    };
-    r2Browse.onclick=()=>loadR2PatchPage(0);
-    r2Prev.onclick=()=>loadR2PatchPage(Math.max(0,r2Offset-r2PageSize));
-    r2Next.onclick=()=>loadR2PatchPage(r2Offset+r2PageSize);
-    r2Search.oninput=renderR2PatchGrid;
-    dialog.querySelector("#jh-save-new-patch").onclick=async()=>{
-     const label=dialog.querySelector("#jh-new-patch-label").value.trim();
-     const imageUrl=dialog.querySelector("#jh-new-patch-image").value.trim();
-     const extraPrice=Number(dialog.querySelector("#jh-new-patch-price").value||0);
-     if(!label||!/^https?:\/\//i.test(imageUrl)){alert("Indique un nom et une URL d’image valide pour le patch.");return}
-     if(!Number.isFinite(extraPrice)||extraPrice<0){alert("Le supplément doit être un montant positif ou nul.");return}
-     const saveButton=dialog.querySelector("#jh-save-new-patch");saveButton.disabled=true;saveButton.textContent="Enregistrement…";
-     const {error}=await patchDbClient.from("patch_options").insert({category:"club",team_name:p.group,product_name:null,slot_number:1,label,image_url:imageUrl,extra_price_eur:extraPrice,is_active:true,sort_order:patchRecords.length});
-     if(error){alert("Le patch n’a pas pu être enregistré : "+error.message);saveButton.disabled=false;saveButton.textContent="Enregistrer le patch";return}
-     await openProduct(p);
-    };
-   }
-  }
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select></section>'+'<section class="jh-options-block"><h3>2. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
   const sizeAudienceSelect=dialog.querySelector("#jh-size-audience");
   if(sizeAudienceSelect)sizeAudienceSelect.onchange=()=>{
    selectedSizeAudience=sizeAudienceSelect.value;
@@ -595,21 +469,13 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    fields.innerHTML='<label for="jh-name">Nom personnalisé</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';
   };
   person.onchange=renderPersonalization;
-  if(isNational||isClub){
-  }else{
-   dialog.querySelector("#jh-no-patch").onchange=e=>{dialog.querySelectorAll(".jh-patch").forEach(x=>{x.disabled=e.target.checked;if(e.target.checked)x.checked=false})};
-   dialog.querySelectorAll(".jh-patch").forEach(x=>x.onchange=()=>{if(x.checked)dialog.querySelector("#jh-no-patch").checked=false;if(![...dialog.querySelectorAll(".jh-patch")].some(y=>y.checked))dialog.querySelector("#jh-no-patch").checked=true});
-  }
   dialog.querySelector("#jh-add").onclick=()=>{
    const size=dialog.querySelector("#jh-size").value;if(!size){alert("Veuillez choisir une taille.");return}
    const customName=dialog.querySelector("#jh-name")?.value.trim()||"",customNumber=dialog.querySelector("#jh-number")?.value.trim()||"";
    if(person.value!=="Aucune"&&(!customName||!customNumber)){alert("Complétez le nom et le numéro.");return}
-   const patchSelections=(isNational||isClub)?[...dialog.querySelectorAll(".jh-patch-slot")].map((fieldset,index)=>{
-    const input=fieldset.querySelector("input:checked");if(!input||!input.value)return null;
-    const record=displayPatches.find(x=>String(x.id)===String(input.value));return record?{slot:index+1,id:record.id,label:record.label,image_url:record.image_url,extra_price_eur:Number(record.extra_price_eur)||0}:null;
-   }).filter(Boolean):[];
-   const patches=(isNational||isClub)?patchSelections.map(x=>x.label):[...dialog.querySelectorAll(".jh-patch:checked")].map(x=>x.value);
-   const patchTotalEur=patchSelections.reduce((sum,patch)=>sum+(Number(patch.extra_price_eur)||0),0);
+   const patchSelections=[];
+   const patches=[];
+   const patchTotalEur=0;
    const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
    const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
    write(next);close();showCart();

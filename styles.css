@@ -238,3 +238,7 @@ button,input,select{font:inherit}.topbar{height:82px;display:flex;align-items:ce
 .jh-banner-hotspot:hover,.jh-banner-hotspot:focus-visible{outline:3px solid #f4bd22;outline-offset:-4px;background:#f4bd2212}
 .jh-banner-hotspot:focus-visible{outline-offset:-6px}
 @media(max-width:760px){.jh-category-banner{margin:0 auto 18px}.jh-category-banner>img{border-radius:8px}.jh-banner-hotspot{border-radius:6px}}
+
+
+/* Survol des cartes du catalogue : conserver le relief sans contour jaune. */
+.category-card:hover,.product-card:hover{border-color:#536176;box-shadow:0 12px 28px rgba(0,0,0,.34);transform:translateY(-3px)}

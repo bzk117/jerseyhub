@@ -40,22 +40,22 @@ def get(url):
         return None
 
 def clean(s):
-    return re.sub(r"\\s+", " ", str(s or "")).strip()
+    return re.sub(r"\s+", " ", str(s or "")).strip()
 
 def is_child_product(title, tags):
     txt = (title + " " + " ".join(tags)).casefold()
-    return bool(re.search(r"\\b(kids?|children|child|youth|junior|boy|girl|toddler|infant)\\b", txt))
+    return bool(re.search(r"\b(kids?|children|child|youth|junior|boy|girl|toddler|infant)\b", txt))
 
 def is_explicitly_adult(title, tags):
     txt = (title + " " + " ".join(tags)).casefold()
-    return bool(re.search(r"\\b(adult|men|mens|men’s|male)\\b", txt))
+    return bool(re.search(r"\b(adult|men|mens|men’s|male)\b", txt))
 
 def load_existing_urls():
     urls = set()
     for filename in ("catalog.js", "nba-products.js"):
         r = get(REPO_RAW + filename)
         if r:
-            urls.update(re.findall(r"https?://(?:www\\.)?vivi-jersey\\.com/products/[^\\s\"']+", r.text, re.I))
+            urls.update(re.findall(r"https?://(?:www\.)?vivi-jersey\.com/products/[^\s\"']+", r.text, re.I))
     return urls
 
 def main():

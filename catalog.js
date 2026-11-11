@@ -35565,7 +35565,7 @@ const SPORT_TEAM_GROUPS = {
     "All Blacks","Bath Rugby","British & Irish Lions","Cardiff","Connacht","Croatia","England","Fiji",
     "Fiji Warriors","Fijian Drua","France","Harlequins","Ireland","Kenya","Leinster","Maori All Blacks",
     "Melbourne Rebels","Munster","Northampton Saints","Samoa","Scotland","Stade Toulouse","Tasman Mako",
-    "Tonga","Ulster","Wallabies","Worcester Warriors","South Africa","Australia","Australia Kangaroos",
+    "Tonga","Ulster","Wallabies","Worcester Warriors","South Africa","Australia","Australia Kangaroos","Gaelic Football GAA",
     "Brisbane Broncos","Canberra Raiders","Canterbury Bankstown Bulldogs","Cronulla Sharks","Dolphins",
     "Fiji Bati","Gold Coast Titans","Hull FC","Manly Warringah Sea Eagles","Melbourne Storm",
     "New South Wales Blues","New Zealand Kiwis","New Zealand Warriors","Newcastle Knights",
@@ -35589,5 +35589,6 @@ const CLUB_TEAM_GROUPS = {
   "Eredivisie": ["AFC Ajax","Feyenoord","PSV Eindhoven"],
   "Liga Portugal": ["Benfica","FC Porto","Sporting CP"],
   "Belgique": ["Standard de Liège","Cercle de Bruges","Anderlecht"],
-  "Turquie": []
+  "Turquie": [],
+  "Primera División de Chile": ["University of Chile"]
 };

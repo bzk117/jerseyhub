@@ -1,334 +1,616 @@
 {
-  "generated_at_utc": "2026-11-11T11:10:33Z",
-  "existing_products_checked": 46,
-  "verified_count": 0,
-  "without_sizes": 0,
-  "unavailable_or_errors": 46,
-  "results": [
+  "generated_at_utc": "2026-11-11T11:11:17Z",
+  "source": "Existing supplier-verified Vivi Jersey audit; exact URL matching only",
+  "source_audit_generated_at_utc": "2026-11-08T20:00:24Z",
+  "existing_premier_league_products": 46,
+  "updated_with_verified_sizes": 46,
+  "without_exact_verified_size_record": 0,
+  "verified_products": [
     {
       "url": "https://www.vivi-jersey.com/products/retro-manchester-united-1983-away-retro",
       "club": "Manchester United",
       "name": "Retro Manchester United 1983 away Football jersey retro",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-long-sleeve-07-08-manchester-united-champions-league-version-home-football-jersey-retro",
-      "club": "Manchester United",
-      "name": "Retro Long Sleeve 2007-08 UCL Manchester United Champions League version home   Football jersey retro",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/2024-25-manchester-united-goalkeeper-football-jersey",
-      "club": "Manchester United",
-      "name": "2024-25 Manchester United Goalkeeper football jersey",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/kids-2025-26-manchester-united-home-kids-football-jersey",
-      "club": "Manchester United",
-      "name": "KIDS 2025-26 Manchester United Home KIDS Football jersey",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-kids-2000-01-manchester-united-away-kids-football-jersey",
-      "club": "Manchester United",
-      "name": "Retro Kids 2000-01 Manchester United Away Kids Football jersey",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/player-2025-26-manchester-united-special-edition-football-jersey-16",
-      "club": "Manchester United",
-      "name": "Player 2025-26 Manchester United Special Edition Football jersey",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-2021-22-manchester-united-home-football-jersey-retro-long-sleeves",
-      "club": "Manchester United",
-      "name": "Retro 2021-22 Manchester United Home Football jersey Retro long sleeves",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/2026-27-manchester-united-special-edition-football-jersey",
-      "club": "Manchester United",
-      "name": "2026-27 Manchester United Special Edition Football Jersey",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/2025-26-manchester-united-short-sleeved-training-shirt",
       "club": "Manchester United",
       "name": "2025-26 Manchester United short-sleeved training shirt",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/kids-2025-26-manchester-united-home-kids-football-jersey",
+      "club": "Manchester United",
+      "name": "KIDS 2025-26 Manchester United Home KIDS Football jersey",
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/player-2025-26-manchester-united-special-edition-football-jersey-16",
+      "club": "Manchester United",
+      "name": "Player 2025-26 Manchester United Special Edition Football jersey",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/retro-kids-2000-01-manchester-united-away-kids-football-jersey",
+      "club": "Manchester United",
+      "name": "Retro Kids 2000-01 Manchester United Away Kids Football jersey",
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-2008-09-manchester-united-away-ucl-kids-football-jersey-kids-ucl",
       "club": "Manchester United",
       "name": "Retro 2008-09 Manchester United Away UCL Kids Football jersey Kids UCL",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/2024-25-manchester-united-goalkeeper-football-jersey",
+      "club": "Manchester United",
+      "name": "2024-25 Manchester United Goalkeeper football jersey",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/2026-27-manchester-united-special-edition-football-jersey",
+      "club": "Manchester United",
+      "name": "2026-27 Manchester United Special Edition Football Jersey",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/retro-2021-22-manchester-united-home-football-jersey-retro-long-sleeves",
+      "club": "Manchester United",
+      "name": "Retro 2021-22 Manchester United Home Football jersey Retro long sleeves",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/retro-long-sleeve-07-08-manchester-united-champions-league-version-home-football-jersey-retro",
+      "club": "Manchester United",
+      "name": "Retro Long Sleeve 2007-08 UCL Manchester United Champions League version home   Football jersey retro",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-2006-07-manchester-united-home-kids-football-jersey-kids",
       "club": "Manchester United",
       "name": "Retro 2006-07 Manchester United Home Kids Football jersey Kids",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-1990-92-manchester-united-away-football-jersey-retro",
-      "club": "Manchester United",
-      "name": "Retro 1990-92 Manchester United  away   Football jersey retro",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/2025-26-manchester-united-second-away-game-soccer-jersey-s-4xl",
       "club": "Manchester United",
       "name": "2025-26 Manchester United Second away game Soccer Jersey S-4XL",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-1994-96-manchester-united-away-cantona-hughes-keane-football-jersey-retro",
-      "club": "Manchester United",
-      "name": "Retro 1994-96 Manchester United away CANTONA HUGHES KEANE  Football jersey retro",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/kids-2026-27-manchester-united-special-edition-kids-football-jersey-1",
-      "club": "Manchester United",
-      "name": "KIDS 2026-27 Manchester United Special Edition KIDS Football jersey",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-2007-08-manchester-united-home-euro-three-stars-football-jersey",
-      "club": "Manchester United",
-      "name": "Retro 2007-08 Manchester United Home Euro Three Stars Football jersey",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/2024-25-manchester-united-special-edition-football-jersey-4",
-      "club": "Manchester United",
-      "name": "2024-25 Manchester United Special Edition Football jersey",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "3XL",
+        "4XL",
+        "XXL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-2008-09-manchester-united-away-kids-football-jersey-kids-1",
       "club": "Manchester United",
       "name": "Retro 2008-09 Manchester United Away Kids Football jersey Kids",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
     },
     {
-      "url": "https://www.vivi-jersey.com/products/retro-2009-10-manchester-united-home-football-jersey-retro-long-sleeve",
+      "url": "https://www.vivi-jersey.com/products/retro-1990-92-manchester-united-away-football-jersey-retro",
       "club": "Manchester United",
-      "name": "Retro 2009-10 Manchester United home Football jersey retro Long sleeve",
-      "sizes": [],
-      "status": "unavailable"
+      "name": "Retro 1990-92 Manchester United  away   Football jersey retro",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/2023-24-manchester-united-away-1",
       "club": "Manchester United",
       "name": "2023-24 Manchester United  away",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/retro-2007-08-manchester-united-home-euro-three-stars-football-jersey",
+      "club": "Manchester United",
+      "name": "Retro 2007-08 Manchester United Home Euro Three Stars Football jersey",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/retro-1994-96-manchester-united-away-cantona-hughes-keane-football-jersey-retro",
+      "club": "Manchester United",
+      "name": "Retro 1994-96 Manchester United away CANTONA HUGHES KEANE  Football jersey retro",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/kids-2026-27-manchester-united-special-edition-kids-football-jersey-1",
+      "club": "Manchester United",
+      "name": "KIDS 2026-27 Manchester United Special Edition KIDS Football jersey",
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/2024-25-manchester-united-special-edition-football-jersey-4",
+      "club": "Manchester United",
+      "name": "2024-25 Manchester United Special Edition Football jersey",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/retro-2009-10-manchester-united-home-football-jersey-retro-long-sleeve",
+      "club": "Manchester United",
+      "name": "Retro 2009-10 Manchester United home Football jersey retro Long sleeve",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-2002-03-manchester-united-home-kids-football-jersey-kids",
       "club": "Manchester United",
       "name": "Retro 2002-03 Manchester United Home Kids Football jersey Kids",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-1996-97-manchester-united-away-cantona-beckham-giggs-keane-football-jersey-retro",
-      "club": "Manchester United",
-      "name": "Retro 1996-97 Manchester United away CANTONA BECKHAM GIGGS KEANE Football jersey retro",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/player-2025-26-manchester-united-special-edition-football-jersey-13",
       "club": "Manchester United",
       "name": "Player 2025-26 Manchester United Special Edition Football jersey",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
-      "url": "https://www.vivi-jersey.com/products/2024-25-manchester-united-home-kids-kit-1",
+      "url": "https://www.vivi-jersey.com/products/retro-1996-97-manchester-united-away-cantona-beckham-giggs-keane-football-jersey-retro",
       "club": "Manchester United",
-      "name": "2024-25 Manchester United Home Kids Kit",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-2008-09-manchester-united-away-retro-football-jersey-fan-version",
-      "club": "Manchester United",
-      "name": "Retro 2008-09 Manchester United away retro football jersey Fan version",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/2025-26-manchester-united-goalkeeper-football-jersey-s-4xl",
-      "club": "Manchester United",
-      "name": "2025-26 Manchester United goalkeeper Football jersey S-4XL",
-      "sizes": [],
-      "status": "unavailable"
+      "name": "Retro 1996-97 Manchester United away CANTONA BECKHAM GIGGS KEANE Football jersey retro",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/2024-25-manchester-united-short-sleeved-training-shirt-4",
       "club": "Manchester United",
       "name": "2024-25 Manchester United short-sleeved training shirt",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
-      "url": "https://www.vivi-jersey.com/products/kids-2026-27-manchester-united-third-kids-football-jersey",
+      "url": "https://www.vivi-jersey.com/products/retro-2008-09-manchester-united-away-retro-football-jersey-fan-version",
       "club": "Manchester United",
-      "name": "KIDS 2026-27 Manchester United Third KIDS Football jersey",
-      "sizes": [],
-      "status": "unavailable"
+      "name": "Retro 2008-09 Manchester United away retro football jersey Fan version",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/2024-25-manchester-united-home-kids-kit-1",
+      "club": "Manchester United",
+      "name": "2024-25 Manchester United Home Kids Kit",
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-kids-1997-99-manchester-united-away-kids-football-jersey",
       "club": "Manchester United",
       "name": "Retro Kids 1997-99 Manchester United Away Kids Football jersey",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/2025-26-manchester-united-goalkeeper-football-jersey-s-4xl",
+      "club": "Manchester United",
+      "name": "2025-26 Manchester United goalkeeper Football jersey S-4XL",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-player-2021-22-manchester-united-2-away-football-jersey-retro",
       "club": "Manchester United",
       "name": "Retro Player 2021-22 Manchester United 2 away Football jersey Retro",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/kids-2026-27-manchester-united-third-kids-football-jersey",
+      "club": "Manchester United",
+      "name": "KIDS 2026-27 Manchester United Third KIDS Football jersey",
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-2007-08-manchester-united-home-kids-football-jersey-kids",
       "club": "Manchester United",
       "name": "Retro 2007-08 Manchester United Home Kids Football jersey Kids",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-1985-manchester-united-white-football-jersey-retro",
-      "club": "Manchester United",
-      "name": "Retro 1985 Manchester United white Football jersey retro",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/2024-25-manchester-united-short-sleeved-training-jersey-shirt-adults-and-kids-3",
       "club": "Manchester United",
       "name": "2024-25 Manchester United short-sleeved training jersey shirt Adults and KIDS",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26"
+      ]
     },
     {
-      "url": "https://www.vivi-jersey.com/products/retro-2016-17-manchester-united-home-football-jersey-retro",
+      "url": "https://www.vivi-jersey.com/products/retro-1985-manchester-united-white-football-jersey-retro",
       "club": "Manchester United",
-      "name": "Retro 2016-17 Manchester United Home Football jersey retro",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/retro-1994-96-manchester-united-home-cantona-hughes-keane-football-jersey-retro",
-      "club": "Manchester United",
-      "name": "Retro 1994-96 Manchester United Home CANTONA HUGHES KEANE  Football jersey retro",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/2025-26-manchester-united-special-edition-football-jersey-6",
-      "club": "Manchester United",
-      "name": "2025-26 Manchester United Special Edition Football jersey",
-      "sizes": [],
-      "status": "unavailable"
+      "name": "Retro 1985 Manchester United white Football jersey retro",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/women-2026-27-manchester-united-home-womens-football-jersey",
       "club": "Manchester United",
       "name": "Women 2026-27 Manchester United Home Women's Football jersey",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/2025-26-manchester-united-special-edition-football-jersey-6",
+      "club": "Manchester United",
+      "name": "2025-26 Manchester United Special Edition Football jersey",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/retro-2016-17-manchester-united-home-football-jersey-retro",
+      "club": "Manchester United",
+      "name": "Retro 2016-17 Manchester United Home Football jersey retro",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/retro-1994-96-manchester-united-home-cantona-hughes-keane-football-jersey-retro",
+      "club": "Manchester United",
+      "name": "Retro 1994-96 Manchester United Home CANTONA HUGHES KEANE  Football jersey retro",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/player-2025-26-manchester-united-special-edition-soccer-jersey",
       "club": "Manchester United",
       "name": "Player 2025-26 Manchester United Special Edition Soccer Jersey",
-      "sizes": [],
-      "status": "unavailable"
-    },
-    {
-      "url": "https://www.vivi-jersey.com/products/2026-27-manchester-united-third-football-jersey-s-4xl-long-sleeves",
-      "club": "Manchester United",
-      "name": "2026-27 Manchester United Third Football Jersey S-4XL Long sleeves",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/vintage-1983-manchester-united-home-soccer-shirt-jersey",
       "club": "Manchester United",
       "name": "Retro 1982-83 Manchester United Home Soccer Shirt Jersey",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "url": "https://www.vivi-jersey.com/products/2026-27-manchester-united-third-football-jersey-s-4xl-long-sleeves",
+      "club": "Manchester United",
+      "name": "2026-27 Manchester United Third Football Jersey S-4XL Long sleeves",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-2007-08-manchester-united-home-ucl-kids-football-jersey-kids-ucl",
       "club": "Manchester United",
       "name": "Retro 2007-08 Manchester United Home UCL Kids Football jersey Kids UCL",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/2024-25-manchester-united-home-jersey-player-version-1",
       "club": "Manchester United",
       "name": "2024-25 Manchester United Home Jersey Player Version",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/player-2025-26-manchester-united-special-edition-football-jersey-11",
       "club": "Manchester United",
       "name": "player 2025-26 Manchester United Special Edition Football jersey",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-2021-22-manchester-united-home-football-jersey-retro",
       "club": "Manchester United",
       "name": "Retro 2021-22 Manchester United Home Football jersey Retro",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-2005-06-manchester-united-home-kids-football-jersey-kids",
       "club": "Manchester United",
       "name": "Retro 2005-06 Manchester United Home Kids Football jersey Kids",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ]
     },
     {
       "url": "https://www.vivi-jersey.com/products/retro-manchester-united-2002-04-home-beckham-vnistelrooy-giggs-keane-football-jersey-retro",
       "club": "Manchester United",
       "name": "Retro Manchester United 2002-04 home BECKHAM v.NISTELROOY GIGGS KEANE Football jersey retro",
-      "sizes": [],
-      "status": "unavailable"
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
     }
   ],
-  "fetch_stats": {
-    "403": 92
-  }
+  "unmatched_products": []
 }

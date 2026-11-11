@@ -242,3 +242,29 @@ button,input,select{font:inherit}.topbar{height:82px;display:flex;align-items:ce
 
 /* Survol des cartes du catalogue : conserver le relief sans contour jaune. */
 .category-card:hover,.product-card:hover{border-color:#536176;box-shadow:0 12px 28px rgba(0,0,0,.34);transform:translateY(-3px)}
+
+
+/* Correction renforcée du survol : aucune bordure ou lueur jaune sur les cartes et la bannière. */
+.category-card:hover,
+.category-card:focus,
+.category-card:focus-visible,
+.product-card:hover,
+.product-card:focus,
+.product-card:focus-visible{
+  outline:none !important;
+  border-color:#536176 !important;
+  box-shadow:0 12px 28px rgba(0,0,0,.34) !important;
+}
+.category-card:hover .category-art:after,
+.category-card:focus .category-art:after,
+.category-card:focus-visible .category-art:after{
+  border-color:rgba(255,255,255,.12) !important;
+  box-shadow:none !important;
+}
+.jh-banner-hotspot:hover,
+.jh-banner-hotspot:focus,
+.jh-banner-hotspot:focus-visible{
+  outline:none !important;
+  background:transparent !important;
+  box-shadow:none !important;
+}

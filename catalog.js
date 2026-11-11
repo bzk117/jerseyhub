@@ -62,6 +62,7 @@ const CLUB_LEAGUES = [
   {name:"Italie",items:["Serie A"]},
   {name:"Pays-Bas",items:["Eredivisie"]},
   {name:"Portugal",items:["Liga Portugal"]},
+  {name:"Chili",items:["Primera División de Chile"]},
   {name:"Autres championnats",items:["Belgique","Turquie"]}
 ];
 const OTHER_SPORTS = [

@@ -407,9 +407,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const productSpecific=patchRecords.filter(x=>x.product_name&&x.product_name===p.name);
   const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
   const globalOptions=patchRecords.filter(x=>!x.product_name&&!x.team_name);
-  // N'afficher que les patchs confirmés sur cette fiche précise.
-  // Les options globales ou simplement associées au club ne prouvent pas leur compatibilité avec ce modèle.
-  const applicablePatches=productPatchOptions.length?productPatchOptions:productSpecific;
+  // Les options propres au produit restent prioritaires. Les autres niveaux sont sélectionnés après le catalogue visuel historique.
   // Catalogue visuel de secours : les choix restent disponibles même si patch_options est vide.
   // Images originales et libellés relevés sur les options patch du fournisseur Vivi Jersey.
   // Les groupes correspondent aux cinq champs « Select Patch » de sa fiche produit Belgique 2025-26.
@@ -437,7 +435,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    {id:"vivi-debut-gold",label:"DEBUT Gold",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUT1.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
    {id:"vivi-debut-white",label:"DEBUT White",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUTwhite.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"}
   ];
-  const displayPatches=applicablePatches;
+  const displayPatches=productPatchOptions.length?productPatchOptions:productSpecific.length?productSpecific:isNational?(teamSpecific.length?teamSpecific:(globalOptions.length?globalOptions:builtInPatchStyles)):[];
   const optionSlotCount=displayPatches.reduce((max,option)=>Math.max(max,Number(option.slot_number)||0),0);
   const configuredSlotCount=Number.isFinite(Number(p.patchSlots))?Math.max(0,Math.min(3,Number(p.patchSlots))):0;
   const patchSlotCount=(isNational||isClub)?Math.min(isNational?5:3,optionSlotCount):0;

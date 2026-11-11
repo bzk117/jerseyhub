@@ -68,7 +68,20 @@ function card(item,kind){
  const visualKey=kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
  const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain",MLB:"baseball",NHL:"hockey",Rugby:"rugby","Autres articles":"autres-articles",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
  const imageKey=kind==="national"?categoryImages.national:kind==="clubs"&&item.name==="Clubs de football"?categoryImages.clubs:kind==="sports"?categoryImages[item.name]:kind==="shoes"?categoryImages.shoes:kind==="lifestyle"&&item.name==="Lifestyle & Accessoires"?categoryImages["Lifestyle & Accessoires"]:kind==="lego"?categoryImages.lego:null;
- const visual=clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="assets/categories/${imageKey}.svg" alt="" loading="lazy">`:`<span class="emoji">${kind==="national"?nationalFlagMarkup(item.name,false):emoji}</span>`);
+ const categoryPhotoMap={
+  "equipes-nationales":"https://images.pexels.com/photos/28827841/pexels-photo-28827841/free-photo-of-illuminated-soccer-stadium-at-night.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "clubs":"https://images.pexels.com/photos/16651578/pexels-photo-16651578/free-photo-of-a-football-player-running-on-a-pitch-during-a-match.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "nba":"https://images.pexels.com/photos/32835088/pexels-photo-32835088/free-photo-of-outdoor-basketball-game-with-player-dribbling.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "football-americain":"https://images.pexels.com/photos/19912316/pexels-photo-19912316/free-photo-of-american-footballer-standing-with-ball.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "baseball":"https://images.pexels.com/photos/17723981/pexels-photo-17723981/free-photo-of-a-baseball-player-is-running-on-the-field.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "hockey":"https://images.pexels.com/photos/35643108/pexels-photo-35643108/free-photo-of-ice-hockey-players-on-rink-during-game.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "rugby":"https://images.pexels.com/photos/5116575/pexels-photo-5116575.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "autres-articles":"https://images.pexels.com/photos/13142769/pexels-photo-13142769.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "chaussures":"https://images.pexels.com/photos/7271269/pexels-photo-7271269.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "lifestyle-accessoires":"https://images.pexels.com/photos/29160881/pexels-photo-29160881/free-photo-of-trendy-urban-streetwear-look-with-headphones.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "lego":"https://images.pexels.com/photos/8289844/pexels-photo-8289844.jpeg?auto=compress&cs=tinysrgb&w=1600"
+ };
+ const visual=clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${kind==="national"?nationalFlagMarkup(item.name,false):emoji}</span>`);
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  // Navigation attachée directement à chaque carte, sans délégation globale.
  div.addEventListener("click",()=>{

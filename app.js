@@ -339,6 +339,17 @@ async function applySearch(){
  const prefixNodes=entries.map(x=>card(x,x.kind));renderPagedProducts(prods,prefixNodes);
  if(!entries.length&&!prods.length){$("#emptyState").hidden=false;grid.hidden=true}
 }
+window.addEventListener("load",function(){
+ if(!window.supabase||!window.JERSEYHUB_SUPABASE)return;
+ const client=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);
+ client.from("club_league_logos").select("league_name,image_url").then(function(result){
+  if(result.error){console.warn("Logo championnat non chargé",result.error);return;}
+  window.JH_CLUB_LEAGUE_LOGOS={};
+  (result.data||[]).forEach(function(row){window.JH_CLUB_LEAGUE_LOGOS[row.league_name]={src:row.image_url,alt:"Logo personnalisé "+row.league_name};});
+  document.querySelectorAll('.category-card[data-jh-kind="clubs"][data-jh-name="MLS"] .category-art').forEach(function(el){el.innerHTML=clubLeagueVisual("MLS",false);});
+  document.querySelectorAll(".side-item").forEach(function(button){var label=button.querySelector("span:last-child"),flag=button.querySelector(".side-flag");if(label&&label.textContent.trim()==="MLS"&&flag)flag.innerHTML=clubLeagueVisual("MLS",true);});
+ });
+});
 renderHome();
 document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".nav-link").forEach(x=>x.classList.remove("active"));b.classList.add("active");openView(b.dataset.view)}));
 $("#searchInput").addEventListener("input",applySearch);

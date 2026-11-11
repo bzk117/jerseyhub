@@ -36,7 +36,7 @@ function clubLeagueVisual(name,compact=false,heading=false){
   "Belgique":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Belgian%20Pro%20League%20logo%20%282020%2C%20boxed%29.svg",alt:"Logo officiel Pro League Belgique"}
  };
  const normalized=slug(String(name||"")).replace(/[^a-z0-9]+/g," ").trim();
- const aliases={"la liga":"LaLiga","laliga":"LaLiga","liga espagnole":"LaLiga","championnat espagnol":"LaLiga","emirats arabes unis":"UAE Pro League","arabie emirats arabes unis":"UAE Pro League","uae pro league":"UAE Pro League","adnoc pro league":"UAE Pro League","major league soccer":"MLS","major league soccer mls":"MLS","lms":"MLS","mls soccer":"MLS"};
+ const aliases={"la liga":"LaLiga","laliga":"LaLiga","liga espagnole":"LaLiga","championnat espagnol":"LaLiga","uae pro league":"UAE Pro League","uae pro league":"UAE Pro League","adnoc pro league":"UAE Pro League","major league soccer":"MLS","major league soccer mls":"MLS","lms":"MLS","mls soccer":"MLS"};
  const logo=logos[name]||logos[aliases[normalized]];
  if(!logo)return "";
  const src=logo.src,alt=logo.alt;

@@ -27,7 +27,7 @@ function clubLeagueVisual(name,compact=false,heading=false){
   "UAE Pro League":{src:"https://www.uaepl.ae/web/images/ADNOC_PL.png",alt:"Logo officiel UAE Pro League"},
   "LaLiga":{src:"https://assets.laliga.com/assets/logos/LALIGA_RGB_h_monocromatico_positivo/LALIGA_RGB_h_monocromatico_positivo.png",alt:"Logo officiel LaLiga"},
   "Ligue 1":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Ligue%201%20McDonald%27s%20logo.svg",alt:"Logo officiel Ligue 1"},
-  "MLS":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/MLS_crest_logo_RGB.svg",alt:"Logo officiel Major League Soccer"},
+  "MLS":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Major%20League%20Soccer%20Crest%20Logo%20Black%20Transparent%202024.svg",alt:"Logo officiel Major League Soccer"},
   "LMS":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/MLS_crest_logo_RGB.svg",alt:"Logo officiel Major League Soccer"},
   "Serie A":{src:"https://images.legaseriea.it/image/private/t_q_good/v1762881268/prd/assets/competitions/Serie%20A.png",alt:"Logo officiel Serie A"},
   "Eredivisie":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Eredivisie%20nieuw%20logo%202017-.svg",alt:"Logo officiel Eredivisie"},
@@ -224,8 +224,6 @@ function openView(view){
   CLUB_LEAGUES.forEach(l=>{
    const h=document.createElement("div");
    h.style.cssText="grid-column:1/-1;display:flex;align-items:center;gap:12px;color:#f4bd22;font-weight:800;letter-spacing:1px;padding:12px 0 0;min-height:60px";
-   const leagueLogo=clubLeagueVisual(l.name,false,true);
-   if(leagueLogo){const logoWrap=document.createElement("span");logoWrap.innerHTML=leagueLogo;h.append(logoWrap);}
    const label=document.createElement("span");label.textContent=l.name;h.append(label);
    grid.append(h);
    l.items.forEach(name=>grid.append(card({name,flag:"⚽",group:l.name},"clubs")));

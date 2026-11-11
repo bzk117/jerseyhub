@@ -7,7 +7,7 @@
     if(!Array.isArray(list)) return 0;
     let changed=0;
     for(const p of list){
-      if(!p || (p.category!=="clubs" && !p.group && !p.team)) continue;
+      if(!p || p.category!=="clubs") continue;
       const isKids=p.version==="kids" || p.sizeAudience==="kids" || /\b(kids|children|junior)\b/i.test(p.name||"");
       if(!Array.isArray(p.sizes) || p.sizes.length===0){
         p.sizes=[...(isKids?KIDS:ADULT)];

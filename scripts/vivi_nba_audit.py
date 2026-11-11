@@ -24,7 +24,7 @@ def get(url):
         except Exception as e:
             if attempt == 3: return url, ""
             time.sleep(2*(attempt+1))
-def clean(s): return re.sub(r"\\s+"," ",s or "").strip()
+def clean(s): return re.sub(r"\s+"," ",s or "").strip()
 def main():
     _, html = get(BASE + "/pages/nba")
     if not html: raise SystemExit("NBA page inaccessible; no catalogue changes made.")
@@ -74,10 +74,10 @@ def main():
         if not title: reasons.append("titre absent")
         if not image: reasons.append("image principale absente")
         if not sizes: reasons.append("tailles non détectées")
-        if not re.search(r'\\b(19|20)\\d{2}\\b',title): reasons.append("saison/année non identifiée")
+        if not re.search(r'\b(19|20)\d{2}\b',title): reasons.append("saison/année non identifiée")
         return {"name":title,"team":team,"league":"NBA","category":"sports","image":image,
           "sizes":sizes,"supplier":"Vivi Jersey","supplierUrl":final,"sourceUrl":final,
-          "season":(re.search(r'\\b(?:19|20)\\d{2}(?:\\s*[-/]\\s*\\d{2,4})?\\b',title).group(0) if re.search(r'\\b(?:19|20)\\d{2}(?:\\s*[-/]\\s*\\d{2,4})?\\b',title) else ""),
+          "season":(re.search(r'\b(?:19|20)\d{2}(?:\s*[-/]\s*\d{2,4})?\b',title).group(0) if re.search(r'\b(?:19|20)\d{2}(?:\s*[-/]\s*\d{2,4})?\b',title) else ""),
           "status":"incomplete" if reasons else "ready","reasons":reasons}
     details=[]
     with ThreadPoolExecutor(max_workers=4) as ex:
@@ -90,7 +90,7 @@ def main():
     for p in ("catalog.js","clubs-products.js","nba-products.js"):
         try: existing_text += open(p,encoding="utf-8").read()
         except OSError: pass
-    existing_urls=set(re.findall(r"https?://(?:www\\.)?vivi-jersey\\.com/products/[^\\s\"']+",existing_text,re.I))
+    existing_urls=set(re.findall(r"https?://(?:www\.)?vivi-jersey\.com/products/[^\s\"']+",existing_text,re.I))
     ready=[]; duplicates=[]; incomplete=[]
     for p in details:
         if p.get("status")!="ready": incomplete.append(p)
@@ -107,7 +107,7 @@ def main():
         w=csv.writer(f); w.writerow(["status","team","name","season","sizes","supplier_url","image","reasons"])
         for p in ready+duplicates+incomplete: w.writerow([p.get("status"),p.get("team"),p.get("name"),p.get("season"),", ".join(p.get("sizes",[])),p.get("supplierUrl",p.get("url","")),p.get("image",""),"; ".join(p.get("reasons",[]))])
     with open("VIVI-NBA-AUDIT.md","w",encoding="utf-8") as f:
-        f.write("# Audit du catalogue NBA Vivi Jersey\\n\\n")
-        f.write(f"- Franchises trouvées : {len(team_urls)}/30\\n- Fiches produits trouvées : {len(product_map)}\\n- Fiches détaillées : {len(details)}\\n- Fiches prêtes à vérifier avant import : {len(ready)}\\n- Doublons : {len(duplicates)}\\n- Fiches incomplètes : {len(incomplete)}\\n- Collections inaccessibles : {len(collection_errors)}\\n\\nAucune fiche n'est publiée automatiquement par cet audit. Les fiches incomplètes restent exclues; les produits existants ne sont jamais remplacés.\\n")
+        f.write("# Audit du catalogue NBA Vivi Jersey\n\n")
+        f.write(f"- Franchises trouvées : {len(team_urls)}/30\n- Fiches produits trouvées : {len(product_map)}\n- Fiches détaillées : {len(details)}\n- Fiches prêtes à vérifier avant import : {len(ready)}\n- Doublons : {len(duplicates)}\n- Fiches incomplètes : {len(incomplete)}\n- Collections inaccessibles : {len(collection_errors)}\n\nAucune fiche n'est publiée automatiquement par cet audit. Les fiches incomplètes restent exclues; les produits existants ne sont jamais remplacés.\n")
     print(f"NBA audit: franchises={len(team_urls)}/30 products={len(product_map)} ready={len(ready)} duplicates={len(duplicates)} incomplete={len(incomplete)}")
 if __name__=="__main__": main()

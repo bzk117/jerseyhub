@@ -28,6 +28,7 @@ function clubLeagueVisual(name,compact=false){
   "LaLiga":{src:"https://assets.laliga.com/assets/logos/LALIGA_RGB_h_monocromatico_positivo/LALIGA_RGB_h_monocromatico_positivo.png",alt:"Logo officiel LaLiga"},
   "Ligue 1":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Ligue%201%20McDonald%27s%20logo.svg",alt:"Logo officiel Ligue 1"},
   "MLS":{src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MLS_crest_logo_RGB.svg/1938px-MLS_crest_logo_RGB.svg.png",alt:"Logo officiel Major League Soccer"},
+  "LMS":{src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MLS_crest_logo_RGB.svg/1938px-MLS_crest_logo_RGB.svg.png",alt:"Logo officiel Major League Soccer"},
   "Serie A":{src:"https://images.legaseriea.it/image/private/t_q_good/v1762881268/prd/assets/competitions/Serie%20A.png",alt:"Logo officiel Serie A"},
   "Eredivisie":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Eredivisie%20nieuw%20logo%202017-.svg",alt:"Logo officiel Eredivisie"},
   "Liga Portugal":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Liga%20Portugal%20Betclic%20logo.svg",alt:"Logo officiel Liga Portugal"},
@@ -35,7 +36,7 @@ function clubLeagueVisual(name,compact=false){
   "Belgique":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Belgian%20Pro%20League%20logo%20%282020%2C%20boxed%29.svg",alt:"Logo officiel Pro League Belgique"}
  };
  const normalized=slug(String(name||"")).replace(/[^a-z0-9]+/g," ").trim();
- const aliases={"la liga":"LaLiga","laliga":"LaLiga","liga espagnole":"LaLiga","championnat espagnol":"LaLiga","emirats arabes unis":"UAE Pro League","arabie emirats arabes unis":"UAE Pro League","uae pro league":"UAE Pro League","adnoc pro league":"UAE Pro League","major league soccer":"MLS","major league soccer mls":"MLS","mls soccer":"MLS","etats unis":"MLS","usa":"MLS","united states":"MLS"};
+ const aliases={"la liga":"LaLiga","laliga":"LaLiga","liga espagnole":"LaLiga","championnat espagnol":"LaLiga","emirats arabes unis":"UAE Pro League","arabie emirats arabes unis":"UAE Pro League","uae pro league":"UAE Pro League","adnoc pro league":"UAE Pro League","major league soccer":"MLS","major league soccer mls":"MLS","lms":"MLS","mls soccer":"MLS","etats unis":"MLS","usa":"MLS","united states":"MLS"};
  const logo=logos[name]||logos[aliases[normalized]];
  if(!logo)return "";
  const src=logo.src,alt=logo.alt;

@@ -17,9 +17,14 @@ function nationalFlagMarkup(name,compact=false){
  return '<img src="https://flagcdn.com/w'+width+'/'+code+'.png" alt="Drapeau '+name+'" width="'+width+'" height="'+height+'" loading="lazy" style="display:inline-block;width:'+width+'px;height:'+height+'px;object-fit:cover;border-radius:3px;vertical-align:middle">';
 }
 function clubLeagueVisual(name,compact=false){
- if(name!=="Premier League")return "";
- const src="https://commons.wikimedia.org/wiki/Special:FilePath/Premier%20League.svg";
- return compact?`<img src="${src}" alt="Logo Premier League" width="22" height="22" loading="lazy" style="display:inline-block;width:22px;height:22px;object-fit:contain;background:#fff;padding:3px;border-radius:4px;vertical-align:middle;flex-shrink:0">`:`<img class="category-visual" src="${src}" alt="Logo Premier League" loading="lazy" style="width:140px;height:100px;min-height:0;max-height:none;object-fit:contain;padding:12px;background:#fff;border-radius:12px;box-sizing:border-box">`;
+ const logos={
+  "Premier League":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Premier%20League.svg",alt:"Logo Premier League"},
+  "Bundesliga":{src:"https://www.footylogos.com/downloads/logo/bundesliga-germany-logo-footylogos.svg",alt:"Logo Bundesliga"}
+ };
+ const logo=logos[name];
+ if(!logo)return "";
+ const src=logo.src,alt=logo.alt;
+ return compact?`<img src="${src}" alt="${alt}" width="22" height="22" loading="lazy" style="display:inline-block;width:22px;height:22px;object-fit:contain;background:#fff;padding:3px;border-radius:4px;vertical-align:middle;flex-shrink:0">`:`<img class="category-visual" src="${src}" alt="${alt}" loading="lazy" style="width:140px;height:100px;min-height:0;max-height:none;object-fit:contain;padding:12px;background:#fff;border-radius:12px;box-sizing:border-box">`;
 }
 function allNational(){return NATIONAL_REGIONS.flatMap(r=>r.items.map(([name,flag])=>({name,flag,group:r.name,kind:"national"})))}
 function lifestyleCategories(){return LIFESTYLE.filter(c=>!/(lego|construction)/i.test(c.name))}

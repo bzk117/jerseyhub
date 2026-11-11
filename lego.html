@@ -48,6 +48,7 @@
 
 @media(max-width:1050px){.lego-gallery{grid-template-columns:64px minmax(300px,1fr)}.lego-right-options{grid-column:1/-1;grid-template-columns:repeat(10,minmax(0,1fr));max-height:none}.lego-main{height:520px}}
 @media(max-width:650px){.lego-gallery-page{padding:18px 12px 50px}.lego-gallery{grid-template-columns:52px minmax(0,1fr);gap:10px}.lego-left-thumbs{gap:8px}.lego-left-thumb{width:48px;height:48px;flex-basis:48px}.lego-main{height:360px;min-height:260px}.lego-main img{width:82%;height:82%}.lego-right-options{grid-template-columns:repeat(6,minmax(0,1fr));gap:6px}.lego-thumb{height:50px}}
+.lego-back-button{display:inline-flex;align-items:center;gap:8px;margin:0 0 18px;padding:10px 16px;border:1px solid #665326;border-radius:9px;background:#171717;color:#f4bd22;font-size:14px;font-weight:800;cursor:pointer}.lego-back-button:hover{background:#30250d;border-color:#f4bd22}.lego-back-button:focus-visible{outline:2px solid #f4bd22;outline-offset:3px}
 </style>
 </head>
 <body>
@@ -60,6 +61,7 @@
 </nav><button class="mobile-menu" id="mobileMenu" aria-label="Ouvrir le menu">☰</button>
 </header>
 <main class="lego-gallery-page">
+<button class="lego-back-button" id="legoBackButton" type="button" aria-label="Retour à la page précédente">← <span>Retour</span></button>
 <section class="lego-gallery" aria-label="Galerie et modèles LEGO">
 <div class="lego-left-thumbs" aria-label="Photos de présentation">
 <button class="lego-thumb lego-left-thumb active" type="button" data-image="assets/lifestyle/lego-construction/source-archive/lego-14.jpg" aria-label="Afficher la photo de présentation 1"><img src="assets/lifestyle/lego-construction/source-archive/lego-14.jpg" alt="" loading="lazy"></button>
@@ -388,6 +390,7 @@ bindLegoThumbs();
  await showAdminPrice();
  db.auth.onAuthStateChange(()=>{showAdminPrice()});
 })();
+document.getElementById('legoBackButton').addEventListener('click',()=>{try{if(document.referrer&&new URL(document.referrer).origin===location.origin&&history.length>1){history.back();return;}}catch(e){}location.href='index.html';});
 </script>
 </body>
 </html>

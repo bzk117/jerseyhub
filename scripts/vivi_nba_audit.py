@@ -90,7 +90,7 @@ def main():
     for p in ("catalog.js","clubs-products.js","nba-products.js"):
         try: existing_text += open(p,encoding="utf-8").read()
         except OSError: pass
-    existing_urls=set(re.findall(r'https?://(?:www\\.)?vivi-jersey\\.com/products/[^\\s"\\']+',existing_text,re.I))
+    existing_urls=set(re.findall(r"https?://(?:www\\.)?vivi-jersey\\.com/products/[^\\s\"']+",existing_text,re.I))
     ready=[]; duplicates=[]; incomplete=[]
     for p in details:
         if p.get("status")!="ready": incomplete.append(p)

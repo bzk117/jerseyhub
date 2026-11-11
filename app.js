@@ -10,11 +10,12 @@ const NATIONAL_FLAG_CODES={
  "Argentine":"ar","Brésil":"br","Uruguay":"uy","Colombie":"co","Mexique":"mx","États-Unis":"us","Canada":"ca","Chili":"cl","Équateur":"ec","Paraguay":"py","Pérou":"pe","Bolivie":"bo","Costa Rica":"cr","Venezuela":"ve","Panama":"pa","Jamaïque":"jm","Haïti":"ht",
  "Japon":"jp","Corée du Sud":"kr","Palestine":"ps","Arabie saoudite":"sa","Qatar":"qa","Émirats arabes unis":"ae","Jordanie":"jo","Australie":"au"
 };
-function nationalFlagMarkup(name,compact=false){
+function nationalFlagMarkup(name,compact=false,large=false){
  const code=NATIONAL_FLAG_CODES[name];
  if(!code)return "";
- const width=compact?40:80,height=compact?27:53;
- return '<img src="https://flagcdn.com/w'+width+'/'+code+'.png" alt="Drapeau '+name+'" width="'+width+'" height="'+height+'" loading="lazy" style="display:inline-block;width:'+width+'px;height:'+height+'px;object-fit:cover;border-radius:3px;vertical-align:middle">';
+ const width=large?320:compact?40:80,height=large?213:compact?27:53;
+ const className=large?' class="category-visual national-country-flag"':'';
+ return '<img'+className+' src="https://flagcdn.com/w'+width+'/'+code+'.png" alt="Drapeau '+name+'" width="'+width+'" height="'+height+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="display:inline-block;width:'+width+'px;height:'+height+'px;object-fit:contain;border-radius:3px;vertical-align:middle">';
 }
 function clubLeagueVisual(name,compact=false,heading=false){
  const logos={
@@ -82,7 +83,8 @@ function card(item,kind){
   "lifestyle-accessoires":"https://images.pexels.com/photos/29160881/pexels-photo-29160881/free-photo-of-trendy-urban-streetwear-look-with-headphones.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lego":"https://images.pexels.com/photos/11015132/pexels-photo-11015132.jpeg?auto=compress&cs=tinysrgb&w=1600"
  };
- const visual=kind==="national"?`<img class="category-visual" src="${categoryPhotoMap["equipes-nationales"]}" alt="Visuel commun des équipes nationales" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${emoji}</span>`);
+ const nationalFlag=nationalFlagMarkup(item.name,false,true);
+  const visual=kind==="national"?(nationalFlag||`<img class="category-visual" src="${categoryPhotoMap["equipes-nationales"]}" alt="Équipe nationale ${displayName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`):clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${emoji}</span>`);
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${displayName}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  // Navigation attachée directement à chaque carte, sans délégation globale.
  div.addEventListener("click",()=>{

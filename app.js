@@ -475,7 +475,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
      const label=dialog.querySelector("#jh-new-patch-label").value.trim();
      const imageUrl=dialog.querySelector("#jh-new-patch-image").value.trim();
      const extraPrice=Number(dialog.querySelector("#jh-new-patch-price").value||0);
-     if(!label||!/^https?:\\/\\//i.test(imageUrl)){alert("Indique un nom et une URL d’image valide pour le patch.");return}
+     if(!label||!/^https?:\/\//i.test(imageUrl)){alert("Indique un nom et une URL d’image valide pour le patch.");return}
      if(!Number.isFinite(extraPrice)||extraPrice<0){alert("Le supplément doit être un montant positif ou nul.");return}
      const saveButton=dialog.querySelector("#jh-save-new-patch");saveButton.disabled=true;saveButton.textContent="Enregistrement…";
      const {error}=await patchDbClient.from("patch_options").insert({category:"club",team_name:p.group,product_name:null,slot_number:1,label,image_url:imageUrl,extra_price_eur:extraPrice,is_active:true,sort_order:patchRecords.length});

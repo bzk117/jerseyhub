@@ -82,7 +82,7 @@ function card(item,kind){
   "lifestyle-accessoires":"https://images.pexels.com/photos/29160881/pexels-photo-29160881/free-photo-of-trendy-urban-streetwear-look-with-headphones.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lego":"https://images.pexels.com/photos/11015132/pexels-photo-11015132.jpeg?auto=compress&cs=tinysrgb&w=1600"
  };
- const visual=clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${kind==="national"?nationalFlagMarkup(item.name,false):emoji}</span>`);
+ const visual=kind==="national"?`<img class="category-visual" src="${categoryPhotoMap["equipes-nationales"]}" alt="Visuel commun des équipes nationales" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${emoji}</span>`);
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${displayName}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  // Navigation attachée directement à chaque carte, sans délégation globale.
  div.addEventListener("click",()=>{

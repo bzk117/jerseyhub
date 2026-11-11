@@ -1,0 +1,2 @@
+/* Verified size-only overlay; existing product records are preserved. */
+(()=>{const rows=[];let updated=0;for(const row of rows){const p=CLUB_PRODUCTS.find(x=>x&&x.supplier==='Vivi Jersey'&&(x.supplierUrl===row.url||x.sourceUrl===row.url));if(p){p.sizes=row.sizes;if(row.sizeAudience!=='unknown')p.sizeAudience=row.sizeAudience;if(row.adultSizes.length)p.adultSizes=row.adultSizes;if(row.kidsSizes.length)p.kidsSizes=row.kidsSizes;updated++;}}console.info('JerseyHub verified PL sizes',{updated,verified:rows.length});})();

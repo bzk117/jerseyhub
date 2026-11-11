@@ -13,9 +13,11 @@ const NATIONAL_FLAG_CODES={
 function nationalFlagMarkup(name,compact=false,large=false){
  const code=NATIONAL_FLAG_CODES[name];
  if(!code)return "";
- const width=large?320:compact?40:80,height=large?213:compact?27:53;
- const className=large?' class="category-visual national-country-flag"':'';
- return '<img'+className+' src="https://flagcdn.com/w'+width+'/'+code+'.png" alt="Drapeau '+name+'" width="'+width+'" height="'+height+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="display:inline-block;width:'+width+'px;height:'+height+'px;object-fit:contain;border-radius:3px;vertical-align:middle">';
+ if(large){
+  return '<img class="category-visual national-country-flag" src="https://flagcdn.com/w640/'+code+'.png" alt="Drapeau '+name+'" width="640" height="427" loading="lazy" decoding="async" referrerpolicy="no-referrer">';
+ }
+ const width=compact?40:80,height=compact?27:53;
+ return '<img src="https://flagcdn.com/w'+width+'/'+code+'.png" alt="Drapeau '+name+'" width="'+width+'" height="'+height+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="display:inline-block;width:'+width+'px;height:'+height+'px;object-fit:contain;border-radius:3px;vertical-align:middle">';
 }
 function clubLeagueVisual(name,compact=false,heading=false){
  const logos={

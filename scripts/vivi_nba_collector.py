@@ -46,6 +46,10 @@ def is_child_product(title, tags):
     txt = (title + " " + " ".join(tags)).casefold()
     return bool(re.search(r"\\b(kids?|children|child|youth|junior|boy|girl|toddler|infant)\\b", txt))
 
+def is_explicitly_adult(title, tags):
+    txt = (title + " " + " ".join(tags)).casefold()
+    return bool(re.search(r"\\b(adult|men|mens|men’s|male)\\b", txt))
+
 def load_existing_urls():
     urls = set()
     for filename in ("catalog.js", "nba-products.js"):
@@ -133,6 +137,7 @@ def main():
         image = images[0] if images else ""
         if image and image.startswith("//"): image = "https:" + image
         reasons = []
+        if not is_explicitly_adult(title, tags): reasons.append("statut adulte non confirmé par la fiche fournisseur")
         if not title: reasons.append("titre absent")
         if not image: reasons.append("photo absente")
         if not size_values: reasons.append("tailles non identifiées dans les variantes")
@@ -150,7 +155,7 @@ def main():
                 reasons.append("téléchargement photo échoué")
         status = "duplicate" if url in existing else ("ready" if not reasons else "incomplete")
         results.append({
-            "status":status,"name":title,"team":team,"league":"NBA","age_group":"adult_to_review",
+            "status":status,"name":title,"team":team,"league":"NBA","age_group":"adult_confirmed" if is_explicitly_adult(title, tags) else "unconfirmed",
             "supplier":"Vivi Jersey","supplierUrl":url,"image":image,
             "local_image":str(Path("photos") / filename) if filename else "",
             "sizes":size_values,"size_availability":size_availability,
@@ -181,7 +186,7 @@ def main():
                f"- Prêtes à vérifier : {len(ready)}\n- Doublons : {len(duplicates)}\n"
                f"- Incomplètes : {len(incomplete)}\n- Photos téléchargées : {len(list(IMAGES.iterdir()))}\n\n"
                "Les tailles et leur disponibilité proviennent des variantes produit exposées par le fournisseur. "
-               "Les produits enfants/juniors explicitement identifiés sont exclus. Les fiches ambiguës restent à vérifier. "
+               "Les produits enfants/juniors explicitement identifiés sont exclus. Les fiches sans mention explicite adulte restent incomplètes et à vérifier. "
                "Aucun changement n'est effectué dans le catalogue JerseyHub.\n")
     (OUT/"LISEZ-MOI_RAPPORT_NBA.md").write_text(summary,encoding="utf-8")
     print(summary)

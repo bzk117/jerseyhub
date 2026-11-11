@@ -135,7 +135,7 @@ async function saveLeagueLogo(){
   if(!upload?.ok||!upload.url)throw new Error(upload?.error||'Le stockage n’a pas confirmé l’envoi.');
   const {data:sessionData}=await db.auth.getSession(),user=sessionData.session?.user;
   if(!user)throw new Error('Session administrateur expirée. Reconnecte-toi.');
-  const {error:saveError}=await db.from('club_league_logos').upsert({league_name:'MLS',image_url:upload.url,updated_by:user.id},{onConflict:'league_name'});
+  const {error:saveError}=await db.from('club_league_logos').upsert({league_name:'MLS',image_url:upload.url,updated_by:user.id,updated_at:new Date().toISOString()},{onConflict:'league_name'});
   if(saveError)throw new Error('Image envoyée, mais enregistrement du logo impossible : '+saveError.message);
   $('leagueLogoPreview').src=upload.url;$('leagueLogoPreview').hidden=false;input.value='';
   feedback.textContent='Logo MLS importé et enregistré. Il sera utilisé sur la vignette du site.';

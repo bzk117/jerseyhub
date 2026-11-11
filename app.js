@@ -471,8 +471,9 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
   const isNational=p.category==="national",isClub=p.category==="clubs";
   const personalizationAllowed=true;
-  // Les patchs restent réservés aux sélections nationales. Seules les options actives
-  // enregistrées pour l'équipe et le modèle concernés sont proposées.
+  // Les patchs sont proposés uniquement sur les maillots des équipes nationales.
+  // On privilégie les options configurées pour l'équipe/le modèle ; à défaut,
+  // on rétablit la bibliothèque visuelle historique des patchs nationaux.
   let nationalPatchOptions=[];
   if(isNational&&window.supabase&&window.JERSEYHUB_SUPABASE){
    try{
@@ -487,11 +488,37 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
     }
    }catch(error){console.warn("Chargement des patchs nationaux impossible.",error)}
   }
+  const builtInPatchStyles=[
+   {id:"vivi-wc-qualifiers",label:"2026 World Cup Qualifiers",slot_number:1,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2601/10/photo/3314131311.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-fifa-worldcup",label:"2026 FIFA World Cup",slot_number:1,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2601/10/photo/121342132131.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-worldcup-2026",label:"FIFA World Cup 2026",slot_number:1,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/2636323A1726286F5CEDC8298BA68436.png?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-uefa-foundation",label:"UEFA National + FOUNDATION",slot_number:1,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2610/09/photo/121321321313.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-football-unites",label:"FOOTBALL UNITES",slot_number:2,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2601/10/photo/3314131311.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-debut-fifa",label:"DEBUT FIFA",slot_number:2,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUT.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-match-1",label:"Group Stage Match 1",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/GroupStageMatch1.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-match-2",label:"Group Stage Match 2",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/GroupStageMatch2.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-match-3",label:"Group Stage Match 3",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/GroupStageMatch3.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-r32",label:"R32",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/R32.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-r16",label:"R16",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/R16.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-qfs",label:"QFs",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/QFs.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-sfs",label:"SFs",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/SFs.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-final",label:"Final",slot_number:3,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2606/04/photo/Final.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-match-1000",label:"MATCH 1000",slot_number:4,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/02/photo/1000.png?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-best-goalkeeper-2018",label:"2018 Best Goalkeeper",slot_number:4,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/02/photo/2018.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-golden-globe-2022",label:"2022 Golden Globe",slot_number:4,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/02/photo/2022-224731ea2d.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-golden-boot-2022",label:"2022 Golden Boot",slot_number:4,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/02/photo/2022.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-fifa-2026-white",label:"FIFA 2026 White",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/43545434565.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-fifa-2026-gold",label:"FIFA 2026 Gold",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/2026.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-debut-gold",label:"DEBUT Gold",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUT1.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"},
+   {id:"vivi-debut-white",label:"DEBUT White",slot_number:5,image_url:"https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2607/03/photo/DEBUTwhite.webp?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_240%2Cw_240"}
+  ];
+  if(isNational&&!nationalPatchOptions.length)nationalPatchOptions=builtInPatchStyles;
+  const nationalPatchSlotNames={1:"Compétition / qualifications",2:"FIFA / message",3:"Match / phase du tournoi",4:"Distinction / record",5:"Variantes FIFA / DEBUT"};
   const patchSlotsMarkup=isNational&&nationalPatchOptions.length
-   ?'<section class="jh-options-block jh-patch-selector"><h3>3. Patchs officiels</h3><p class="jh-patch-intro">Choisissez les patchs disponibles pour ce maillot. Chaque emplacement est facultatif.</p>'+[1,2,3].map(slot=>{
+   ?'<section class="jh-options-block jh-patch-selector"><h3>3. Patchs officiels</h3><p class="jh-patch-intro">Choisissez les patchs disponibles pour votre maillot. Chaque emplacement est facultatif.</p>'+[1,2,3,4,5].map(slot=>{
      const options=nationalPatchOptions.filter(option=>Number(option.slot_number)===slot);
      if(!options.length)return "";
-     return '<fieldset class="jh-patch-slot"><legend>Emplacement '+slot+'</legend><div class="jh-patch-grid"><label class="jh-patch-choice jh-patch-none"><input type="radio" name="jh-patch-slot-'+slot+'" value="" checked><span class="jh-patch-thumb">—</span><span><b>Sans patch</b></span></label>'+options.map((option,index)=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+index+'"><img class="jh-patch-thumb" src="'+esc(option.image_url)+'" alt="'+esc(option.label)+'" loading="lazy"><span><b>'+esc(option.label)+'</b></span>'+(Number(option.extra_price_eur)>0?'<strong>+'+Number(option.extra_price_eur).toFixed(2)+' €</strong>':'')+'</label>').join("")+'</div></fieldset>';
+     return '<fieldset class="jh-patch-slot"><legend>Patch '+slot+' — '+nationalPatchSlotNames[slot]+'</legend><div class="jh-patch-grid"><label class="jh-patch-choice jh-patch-none"><input type="radio" name="jh-patch-slot-'+slot+'" value="" checked><span class="jh-patch-thumb">＋</span><span><b>Aucun patch</b></span></label>'+options.map((option,index)=>'<label class="jh-patch-choice"><input type="radio" name="jh-patch-slot-'+slot+'" value="'+index+'"><img class="jh-patch-thumb" src="'+esc(option.image_url)+'" alt="'+esc(option.label)+'" loading="lazy"><span><b>'+esc(option.label)+'</b></span></label>').join("")+'</div></fieldset>';
     }).join("")+'</section>'
    :"";
   const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
@@ -580,7 +607,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    const size=dialog.querySelector("#jh-size").value;if(!size){alert("Veuillez choisir une taille.");return}
    const customName=dialog.querySelector("#jh-name")?.value.trim()||"",customNumber=dialog.querySelector("#jh-number")?.value.trim()||"";
    if(person.value!=="Aucune"&&(!customName||!customNumber)){alert("Complétez le nom et le numéro.");return}
-   const patchSelections=isNational?[1,2,3].flatMap(slot=>{
+   const patchSelections=isNational?[1,2,3,4,5].flatMap(slot=>{
     const chosen=dialog.querySelector('input[name="jh-patch-slot-'+slot+'"]:checked');
     if(!chosen||chosen.value==="")return [];
     const slotOptions=nationalPatchOptions.filter(row=>Number(row.slot_number)===slot);

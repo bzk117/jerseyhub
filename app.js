@@ -264,6 +264,16 @@ function openView(view){
   lifestyleCategories().forEach(c=>{const h=document.createElement("div");h.style.cssText="grid-column:1/-1;color:#f4bd22;font-weight:800;letter-spacing:1px;padding:12px 0 0";h.textContent=c.name;grid.append(h);c.items.forEach(name=>grid.append(card({name,flag:c.emoji,group:c.name},"lifestyle")))});
  }
 }
+function showConstructionState(heading="En construction",message="Cette rubrique sera disponible dès que son catalogue sera prêt."){
+ const state=$("#emptyState");state.innerHTML="";
+ const panel=document.createElement("div");panel.className="jh-construction-visual";panel.setAttribute("role","status");
+ const icon=document.createElement("div");icon.className="jh-construction-icon";icon.textContent="🚧";
+ const label=document.createElement("span");label.className="jh-construction-label";label.textContent="EN CONSTRUCTION";
+ const title=document.createElement("h3");title.textContent=heading;
+ const detail=document.createElement("p");detail.textContent=message;
+ panel.append(icon,label,title,detail);state.append(panel);state.hidden=false;grid.hidden=true;
+ if(!document.getElementById("jh-construction-styles")){const style=document.createElement("style");style.id="jh-construction-styles";style.textContent=".jh-construction-visual{width:min(100%,520px);margin:26px auto;padding:30px 22px;text-align:center;border:1px solid #35445a;border-radius:16px;background:linear-gradient(145deg,#142238,#0b1320);box-shadow:0 14px 36px #0006}.jh-construction-icon{display:grid;place-items:center;width:86px;height:86px;margin:0 auto 14px;border:1px solid #d7ad45;border-radius:22px;background:linear-gradient(145deg,#382d16,#171b24);font-size:48px}.jh-construction-label{display:inline-block;padding:6px 12px;border:1px solid #d7ad45;border-radius:30px;color:#f4bd22;font-size:11px;font-weight:900;letter-spacing:1.6px}.jh-construction-visual h3{margin:14px 0 7px;color:#fff;font-size:22px}.jh-construction-visual p{max-width:390px;margin:0 auto;color:#b9c4d3;font-size:13px;line-height:1.6}";document.head.appendChild(style);}
+}
 async function openGroup(kind,name){
  const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
  grid.hidden=false;
@@ -285,7 +295,7 @@ async function openGroup(kind,name){
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
   const teams=CLUB_TEAM_GROUPS[name];
   teams.forEach(team=>grid.append(card({name:team,flag:"⚽",group:name},"clubs")));
-  if(!teams.length){$("#emptyState").hidden=false;grid.hidden=true;$("#emptyState h3").textContent="Clubs à vérifier";$("#emptyState p").textContent="Les clubs de cette compétition seront ajoutés après vérification de leurs fiches Vivi Jersey.";}
+  if(!teams.length){showConstructionState("Clubs en construction","Les clubs de cette compétition seront ajoutés après vérification de leurs fiches fournisseur.");}
   $("#resultCount").textContent=teams.length?teams.length+" clubs référencés":"";
   return;
  }
@@ -317,12 +327,8 @@ async function openGroup(kind,name){
    if(currentView!=="clubs"||currentGroup!==name)return;
    const all=[...verified,...archive];
    renderPagedProducts(all);
-   if(!all.length){
-    $("#emptyState").hidden=false;grid.hidden=true;
-    $("#emptyState h3").textContent="Aucun maillot trouvé";
-    $("#emptyState p").textContent="Aucune photo n’est disponible pour ce club pour le moment.";
-   }
-   $("#resultCount").textContent=all.length?(archive.length+" maillot(s) en photos · "+verified.length+" fiche(s) vérifiée(s)"):"";
+   if(!all.length){showConstructionState("Catalogue en construction","Les photos et les fiches de ce club seront affichées dès qu’elles seront prêtes.");}
+    $("#resultCount").textContent=all.length?(archive.length+" maillot(s) en photos · "+verified.length+" fiche(s) vérifiée(s)"):"";
    return;
   }
  }
@@ -331,11 +337,7 @@ async function openGroup(kind,name){
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
    renderPagedProducts(matches);
-  if(!matches.length){
-   $("#emptyState").hidden=false;grid.hidden=true;
-   $("#emptyState h3").textContent="Articles en préparation";
-   $("#emptyState p").textContent="Les photos et tailles seront affichées dès que la fiche exacte aura été vérifiée sur Vivi Jersey.";
-  }
+  if(!matches.length){showConstructionState("Articles en construction","Les photos et les tailles seront affichées dès que les fiches auront été vérifiées.");}
   $("#resultCount").textContent=matches.length?`${matches.length} modèle(s)`:"";
   return;
  }
@@ -343,17 +345,8 @@ async function openGroup(kind,name){
  setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":kind==="shoes"?"MARQUE DE CHAUSSURES":kind==="lifestyle"?"LIFESTYLE & ACCESSOIRES":"CATÉGORIE",name,`Accueil / ${name}`);
  grid.innerHTML="";
  renderPagedProducts(matches);
- if(!matches.length){
-  if(kind==="shoes"){
-   $("#emptyState").hidden=false;grid.hidden=true;
-   $("#emptyState h3").textContent="Catalogue en préparation";
-   $("#emptyState p").textContent="Les modèles, photos et pointures seront ajoutés après vérification.";
-  }else{
-   $("#emptyState").hidden=false;grid.hidden=true;
-   $("#emptyState h3").textContent="Catalogue en préparation";
-   $("#emptyState p").textContent="Les modèles de cette catégorie seront ajoutés après vérification des photos et des tailles.";
-  }
- }else{$("#emptyState").hidden=true;grid.hidden=false}
+ if(!matches.length){showConstructionState("Catalogue en construction",kind==="shoes"?"Les modèles, photos et pointures seront ajoutés après vérification.":"Les modèles de cette catégorie seront ajoutés après vérification des photos et des tailles.");}
+  else{$("#emptyState").hidden=true;grid.hidden=false}
  $("#resultCount").textContent=matches.length?`${matches.length} modèle(s)`:"";
 }
 async function applySearch(){

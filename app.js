@@ -370,19 +370,6 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
  trigger.onclick=showCart;
  async function openProduct(p){
   activeProduct=p;
-  if(p.r2Archive){
-   const photos=(Array.isArray(p.images)&&p.images.length?p.images:[p.image]).filter(Boolean);
-   let photoIndex=0;
-   const drawArchivePhoto=()=>{
-    const url=photos[photoIndex];
-    open('<h2>'+esc(p.name)+'</h2><p style="color:#cbd5e1">Référence archive '+esc(p.reference)+' · '+photos.length+' photo(s)</p><div style="display:flex;align-items:center;justify-content:center;gap:10px;margin:16px 0"><button type="button" class="jh-secondary" id="jh-r2-prev" aria-label="Photo précédente">←</button><img id="jh-r2-main" src="'+esc(url)+'" alt="'+esc(p.name)+'" style="width:min(100%,560px);max-height:58vh;object-fit:contain;background:#101722;border-radius:10px"><button type="button" class="jh-secondary" id="jh-r2-next" aria-label="Photo suivante">→</button></div><p id="jh-r2-count" style="text-align:center;color:#e7c879">'+(photoIndex+1)+' / '+photos.length+'</p><p style="color:#f4bd22;font-weight:700">Aperçu visuel uniquement : tailles, saison, patchs et flocage seront confirmés avant mise en vente.</p>');
-    dialog.dataset.mode="r2-gallery";
-    dialog.querySelector("#jh-r2-prev").onclick=()=>{photoIndex=(photoIndex-1+photos.length)%photos.length;drawArchivePhoto()};
-    dialog.querySelector("#jh-r2-next").onclick=()=>{photoIndex=(photoIndex+1)%photos.length;drawArchivePhoto()};
-   };
-   drawArchivePhoto();
-   return;
-  }
   dialog.dataset.mode="product";
   const normalizeSizeList=values=>(values||[]).flatMap(raw=>{
    const value=String(raw).trim().replace(/–/g,"-");
@@ -400,9 +387,9 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
   const legacyPatchOptions=Array.isArray(p.patches)?p.patches:[];
   const isNational=p.category==="national",isClub=p.category==="clubs";
-  const personalizationAllowed=!isClub||p.personalizationAllowed===true||p.personalization?.allowed===true;
+  const personalizationAllowed=true;
   let patchRecords=[];
-  if((isNational||isClub)&&window.supabase&&window.JERSEYHUB_SUPABASE){try{const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category",isNational?"national":"clubs").eq("is_active",true).order("sort_order",{ascending:true});if(!error)patchRecords=data||[];}catch(error){console.warn("Options de patch indisponibles :",error)}}
+  if(isNational&&window.supabase&&window.JERSEYHUB_SUPABASE){try{const patchDb=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);const {data,error}=await patchDb.from("patch_options").select("id,category,team_name,product_name,slot_number,label,image_url,extra_price_eur,sort_order").eq("category","national").eq("is_active",true).order("sort_order",{ascending:true});if(!error)patchRecords=data||[];}catch(error){console.warn("Options de patch indisponibles :",error)}}
   const productPatchOptions=Array.isArray(p.patchOptions)?p.patchOptions:[];
   const productSpecific=patchRecords.filter(x=>x.product_name&&x.product_name===p.name);
   const teamSpecific=patchRecords.filter(x=>!x.product_name&&x.team_name&&x.team_name===p.group);
@@ -438,12 +425,12 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const displayPatches=productPatchOptions.length?productPatchOptions:productSpecific.length?productSpecific:isNational?(teamSpecific.length?teamSpecific:(globalOptions.length?globalOptions:builtInPatchStyles)):[];
   const optionSlotCount=displayPatches.reduce((max,option)=>Math.max(max,Number(option.slot_number)||0),0);
   const configuredSlotCount=Number.isFinite(Number(p.patchSlots))?Math.max(0,Math.min(3,Number(p.patchSlots))):0;
-  const patchSlotCount=(isNational||isClub)?Math.min(isNational?5:3,optionSlotCount):0;
+  const patchSlotCount=isNational?Math.min(5,optionSlotCount):0;
   if((isNational||isClub)&&!document.getElementById("jh-patch-visual-styles")){
    const style=document.createElement("style");style.id="jh-patch-visual-styles";style.textContent=".jh-patch-selector{margin:18px 0}.jh-patch-intro{color:#cbd5e1;font-size:14px}.jh-patch-slot{border:1px solid #465365;border-radius:12px;padding:12px;margin:12px 0}.jh-patch-slot legend{padding:0 7px;font-weight:700;color:#f2c66d}.jh-patch-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:10px}.jh-patch-choice{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:7px;min-height:132px;padding:10px 7px;border:2px solid #465365;border-radius:10px;background:#17202d;color:#fff;text-align:center;cursor:pointer;transition:border-color .15s,background .15s,transform .15s}.jh-patch-choice:hover{border-color:#d8b45a;transform:translateY(-2px)}.jh-patch-choice:has(input:checked){border-color:#e5b94e;background:#293143;box-shadow:0 0 0 2px #e5b94e33}.jh-patch-choice input{position:absolute;top:8px;right:8px;accent-color:#e5b94e;width:17px;height:17px;cursor:pointer}.jh-patch-thumb{display:block;width:76px;height:76px;object-fit:contain;pointer-events:none}.jh-patch-choice b{font-size:12px;line-height:1.25}.jh-patch-extra{font-size:11px;color:#f2c66d}.jh-patch-none .jh-patch-thumb{display:grid;place-items:center;border:1px dashed #8995a5;border-radius:50%;font-size:32px;color:#d8b45a}.jh-patch-empty{color:#f2c66d;font-size:13px}.jh-patch-choice input:focus-visible{outline:2px solid #fff;outline-offset:3px}";
    document.head.appendChild(style);
   }
-  const patchMarkup=(isNational||isClub)
+  const patchMarkup=isClub?"" : isNational
    ? (patchSlotCount>0
       ? '<section class="jh-patch-selector"><p class="jh-patch-intro">'+(isNational?"Touchez une image pour sélectionner une option de patch.":"Choisissez uniquement les patchs confirmés pour ce modèle.")+'</p>'+Array.from({length:patchSlotCount},(_,index)=>index+1).map(slot=>{
       const options=displayPatches.filter(x=>Number(x.slot_number)===slot);
@@ -462,10 +449,10 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const outOfStock=isOutOfStock(p);
   const sizeSummary=sizes.length?'<p class="jh-option-summary" id="jh-size-summary"><b>'+(selectedSizeAudience==="kids"?"Tailles enfants :":"Tailles adultes :")+'</b> '+sizes.map(esc).join(' · ')+'</p>':'<p class="jh-option-summary" id="jh-size-summary">Taille à confirmer auprès du fournisseur.</p>';
   const stockNotice=outOfStock?'<p class="jh-stock-warning">PAS DE STOCK — Cet article ne peut pas être ajouté à la commande pour le moment.</p>':'';
-  const personalizationOptions=personalizationAllowed?'<option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option>':"";
+  const personalizationOptions=isClub?'<option value="Nom et numéro personnalisés">Personnaliser avec mon nom et mon numéro</option>':(personalizationAllowed?'<option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option>':"");
   const personalizationNotice=isClub&&!personalizationAllowed?'<p class="jh-player-note">La personnalisation nom/numéro n’est pas encore confirmée pour ce modèle.</p>':"";
   const productMeta=[p.season,p.kitType,p.version].filter(Boolean).map(esc).join(" · ");
-  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select></section><section class="jh-options-block"><h3>2. Choisir les patchs</h3>'+patchMarkup+'</section><section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select></section>'+(isClub?"":'<section class="jh-options-block"><h3>2. Choisir les patchs</h3>'+patchMarkup+'</section>')+'<section class="jh-options-block"><h3>'+(isClub?"2. Personnalisation":"3. Personnalisation")+'</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
   const sizeAudienceSelect=dialog.querySelector("#jh-size-audience");
   if(sizeAudienceSelect)sizeAudienceSelect.onchange=()=>{
    selectedSizeAudience=sizeAudienceSelect.value;

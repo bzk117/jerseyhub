@@ -317,6 +317,9 @@ create table if not exists public.club_league_logos (
 alter table public.club_league_logos enable row level security;
 grant select on public.club_league_logos to anon, authenticated;
 grant insert, update, select on public.club_league_logos to authenticated;
+drop policy if exists "Public can read club league logos" on public.club_league_logos;
+drop policy if exists "Admins can insert club league logos" on public.club_league_logos;
+drop policy if exists "Admins can update club league logos" on public.club_league_logos;
 create policy "Public can read club league logos"
   on public.club_league_logos for select to anon, authenticated using (true);
 create policy "Admins can insert club league logos"

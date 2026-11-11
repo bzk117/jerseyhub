@@ -16,7 +16,7 @@ function nationalFlagMarkup(name,compact=false){
  const width=compact?40:80,height=compact?27:53;
  return '<img src="https://flagcdn.com/w'+width+'/'+code+'.png" alt="Drapeau '+name+'" width="'+width+'" height="'+height+'" loading="lazy" style="display:inline-block;width:'+width+'px;height:'+height+'px;object-fit:cover;border-radius:3px;vertical-align:middle">';
 }
-function clubLeagueVisual(name,compact=false){
+function clubLeagueVisual(name,compact=false,heading=false){
  const logos={
   "Premier League":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Premier%20League.svg",alt:"Logo officiel Premier League"},
   "Bundesliga":{src:"https://www.footylogos.com/downloads/logo/bundesliga-germany-logo-footylogos.svg",alt:"Logo Bundesliga"},
@@ -40,7 +40,8 @@ function clubLeagueVisual(name,compact=false){
  const logo=logos[name]||logos[aliases[normalized]];
  if(!logo)return "";
  const src=logo.src,alt=logo.alt;
- return compact?`<img src="${src}" alt="${alt}" width="22" height="22" loading="lazy" style="display:inline-block;width:22px;height:22px;object-fit:contain;background:#fff;padding:3px;border-radius:4px;vertical-align:middle;flex-shrink:0">`:`<img class="category-visual" src="${src}" alt="${alt}" loading="lazy" style="width:140px;height:100px;min-height:0;max-height:none;object-fit:contain;padding:12px;background:#fff;border-radius:12px;box-sizing:border-box">`;
+ if(heading)return `<img src="${src}" alt="${alt}" width="48" height="48" loading="lazy" style="display:block;width:48px;height:48px;object-fit:contain;background:#fff;padding:4px;border-radius:8px;flex:0 0 48px">`;
+ return compact?`<img src="${src}" alt="${alt}" width="22" height="22" loading="lazy" style="display:inline-block;width:22px;height:22px;object-fit:contain;background:#fff;padding:3px;border-radius:4px;vertical-align:middle;flex-shrink:0">`:`<img class="category-visual" src="${src}" alt="${alt}" loading="lazy" style="width:140px;height:100px;min-height:0;max-height:none;object-fit:contain;padding:12px;background:#fff;border-radius:12px;box-sizing:border-box">`
 }
 function allNational(){return NATIONAL_REGIONS.flatMap(r=>r.items.map(([name,flag])=>({name,flag,group:r.name,kind:"national"})))}
 function lifestyleCategories(){return LIFESTYLE.filter(c=>!/(lego|construction)/i.test(c.name))}
@@ -220,7 +221,15 @@ function openView(view){
   NATIONAL_REGIONS.forEach(r=>{const h=document.createElement("div");h.className="region-heading";h.style.cssText="grid-column:1/-1;color:#f4bd22;font-weight:800;letter-spacing:1px;padding:12px 0 0";h.textContent=r.name;grid.append(h);r.items.forEach(([name,flag])=>grid.append(card({name,flag,group:r.name},"national")))});
  }else if(view==="clubs"){
   setHeading("FOOTBALL","Clubs et championnats","Accueil / Équipe de club");
-  CLUB_LEAGUES.forEach(l=>{const h=document.createElement("div");h.style.cssText="grid-column:1/-1;color:#f4bd22;font-weight:800;letter-spacing:1px;padding:12px 0 0";h.textContent=l.name;grid.append(h);l.items.forEach(name=>grid.append(card({name,flag:"⚽",group:l.name},"clubs")))});
+  CLUB_LEAGUES.forEach(l=>{
+   const h=document.createElement("div");
+   h.style.cssText="grid-column:1/-1;display:flex;align-items:center;gap:12px;color:#f4bd22;font-weight:800;letter-spacing:1px;padding:12px 0 0;min-height:60px";
+   const leagueLogo=clubLeagueVisual(l.name,false,true);
+   if(leagueLogo){const logoWrap=document.createElement("span");logoWrap.innerHTML=leagueLogo;h.append(logoWrap);}
+   const label=document.createElement("span");label.textContent=l.name;h.append(label);
+   grid.append(h);
+   l.items.forEach(name=>grid.append(card({name,flag:"⚽",group:l.name},"clubs")));
+  });
  }else if(view==="sports"){
   setHeading("TOUS LES SPORTS","Autres catégories","Accueil / Autres sports");
   OTHER_SPORTS.forEach(x=>grid.append(card(x,"sports")));

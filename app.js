@@ -27,8 +27,8 @@ function clubLeagueVisual(name,compact=false,heading=false){
   "UAE Pro League":{src:"https://www.uaepl.ae/web/images/ADNOC_PL.png",alt:"Logo officiel UAE Pro League"},
   "LaLiga":{src:"https://assets.laliga.com/assets/logos/LALIGA_RGB_h_monocromatico_positivo/LALIGA_RGB_h_monocromatico_positivo.png",alt:"Logo officiel LaLiga"},
   "Ligue 1":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Ligue%201%20McDonald%27s%20logo.svg",alt:"Logo officiel Ligue 1"},
-  "MLS":{src:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/MLS_crest_logo_CMYK_gradient.svg/960px-MLS_crest_logo_CMYK_gradient.svg.png",alt:"Logo officiel Major League Soccer"},
-  "LMS":{src:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/MLS_crest_logo_CMYK_gradient.svg/960px-MLS_crest_logo_CMYK_gradient.svg.png",alt:"Logo officiel Major League Soccer"},
+  "MLS":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/MLS_crest_logo_RGB.svg",alt:"Logo officiel Major League Soccer"},
+  "LMS":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/MLS_crest_logo_RGB.svg",alt:"Logo officiel Major League Soccer"},
   "Serie A":{src:"https://images.legaseriea.it/image/private/t_q_good/v1762881268/prd/assets/competitions/Serie%20A.png",alt:"Logo officiel Serie A"},
   "Eredivisie":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Eredivisie%20nieuw%20logo%202017-.svg",alt:"Logo officiel Eredivisie"},
   "Liga Portugal":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Liga%20Portugal%20Betclic%20logo.svg",alt:"Logo officiel Liga Portugal"},
@@ -40,7 +40,7 @@ function clubLeagueVisual(name,compact=false,heading=false){
  const logo=logos[name]||logos[aliases[normalized]];
  if(!logo)return "";
  const src=logo.src,alt=logo.alt;
- if(heading)return `<img src="${src}" alt="${alt}" width="48" height="48" loading="lazy" style="display:block;width:48px;height:48px;object-fit:contain;background:#fff;padding:4px;border-radius:8px;flex:0 0 48px">`;
+ if(heading)return `<img src="${src}" alt="${alt}" width="64" height="64" loading="eager" style="display:block;width:64px;height:64px;object-fit:contain;background:#fff;padding:3px;border-radius:8px;flex:0 0 64px">`;
  return compact?`<img src="${src}" alt="${alt}" width="22" height="22" loading="lazy" style="display:inline-block;width:22px;height:22px;object-fit:contain;background:#fff;padding:3px;border-radius:4px;vertical-align:middle;flex-shrink:0">`:`<img class="category-visual" src="${src}" alt="${alt}" loading="lazy" style="width:140px;height:100px;min-height:0;max-height:none;object-fit:contain;padding:12px;background:#fff;border-radius:12px;box-sizing:border-box">`
 }
 function allNational(){return NATIONAL_REGIONS.flatMap(r=>r.items.map(([name,flag])=>({name,flag,group:r.name,kind:"national"})))}

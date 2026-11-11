@@ -161,9 +161,27 @@ function productCard(p){
  const out=isOutOfStock(p);
  if(out){div.classList.add('is-out-of-stock');div.setAttribute('aria-disabled','true');}
  else{div.tabIndex=0;div.setAttribute('role','button');}
- const visual=p.image?'<img src="'+p.image+'" alt="'+p.name+'" style="max-width:100%;max-height:190px;object-fit:contain">':'<div class="shirt"><span>'+(p.number||'10')+'</span></div>';
- div.innerHTML='<div class="product-art">'+visual+'</div><div class="product-info"><h3>'+p.name+'</h3>'+(out?'<span class="jh-stock-badge">RUPTURE DE STOCK</span>':'')+'<p>'+(p.description||'Modèle présenté dans le catalogue')+'</p><div class="sizes">'+(p.sizes||[]).map(s=>'<span class="size">'+s+'</span>').join('')+'</div><small class="jh-open-hint">'+(out?'Article indisponible — sélection désactivée':'Cliquer pour voir les photos et les options')+'</small></div>';
- div._jhProduct=p;div.dataset.jhProductCard='true';
+ const art=document.createElement('div');art.className='product-art';
+ if(p.image){
+  const img=document.createElement('img');img.className='product-card-image';img.src=p.image;img.alt=p.name||'Maillot';img.loading='lazy';img.decoding='async';art.append(img);
+ }else{
+  const shirt=document.createElement('div');shirt.className='shirt';const number=document.createElement('span');number.textContent=p.number||'10';shirt.append(number);art.append(shirt);
+ }
+ const info=document.createElement('div');info.className='product-info';
+ const heading=document.createElement('h3');heading.textContent=p.name||'Maillot';info.append(heading);
+ if(out){const badge=document.createElement('span');badge.className='jh-stock-badge';badge.textContent='RUPTURE DE STOCK';info.append(badge);}
+ const meta=[p.season,p.kitType,p.version].filter(Boolean);
+ if(meta.length){const line=document.createElement('p');line.className='product-meta';line.textContent=meta.join(' · ');info.append(line);}
+ const description=document.createElement('p');description.textContent=p.description||'Modèle présenté dans le catalogue';info.append(description);
+ const sizes=Array.isArray(p.sizes)?p.sizes.filter(s=>typeof s==='string'&&s.trim()):[];
+ if(sizes.length){
+  const label=document.createElement('small');label.className='product-size-label';label.textContent='Tailles indiquées';info.append(label);
+  const sizeBox=document.createElement('div');sizeBox.className='sizes';sizes.forEach(value=>{const chip=document.createElement('span');chip.className='size';chip.textContent=value;sizeBox.append(chip)});info.append(sizeBox);
+ }else{
+  const pending=document.createElement('small');pending.className='product-size-pending';pending.textContent='Tailles à confirmer';info.append(pending);
+ }
+ const hint=document.createElement('small');hint.className='jh-open-hint';hint.textContent=out?'Article indisponible — sélection désactivée':'Cliquer pour voir les photos et les options';info.append(hint);
+ div.append(art,info);div._jhProduct=p;div.dataset.jhProductCard='true';
  if(!out)div.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();div.click()}};
  return div;
 }
@@ -272,7 +290,7 @@ function showConstructionState(heading="En construction",message="Cette rubrique
  const title=document.createElement("h3");title.textContent=heading;
  const detail=document.createElement("p");detail.textContent=message;
  panel.append(icon,label,title,detail);state.append(panel);state.hidden=false;grid.hidden=true;
- if(!document.getElementById("jh-construction-styles")){const style=document.createElement("style");style.id="jh-construction-styles";style.textContent=".jh-construction-visual{width:min(100%,520px);margin:26px auto;padding:30px 22px;text-align:center;border:1px solid #35445a;border-radius:16px;background:linear-gradient(145deg,#142238,#0b1320);box-shadow:0 14px 36px #0006}.jh-construction-icon{display:grid;place-items:center;width:86px;height:86px;margin:0 auto 14px;border:1px solid #d7ad45;border-radius:22px;background:linear-gradient(145deg,#382d16,#171b24);font-size:48px}.jh-construction-label{display:inline-block;padding:6px 12px;border:1px solid #d7ad45;border-radius:30px;color:#f4bd22;font-size:11px;font-weight:900;letter-spacing:1.6px}.jh-construction-visual h3{margin:14px 0 7px;color:#fff;font-size:22px}.jh-construction-visual p{max-width:390px;margin:0 auto;color:#b9c4d3;font-size:13px;line-height:1.6}";document.head.appendChild(style);}
+ if(!document.getElementById("jh-construction-styles")){const style=document.createElement("style");style.id="jh-construction-styles";style.textContent=".jh-construction-visual{width:min(100%,520px);margin:26px auto;padding:30px 22px;text-align:center;border:1px solid #665326;border-radius:16px;background:radial-gradient(ellipse at 50% 0%,#30250f 0,#15120c 52%,#0d0d0d 100%);box-shadow:0 14px 36px #0008}.jh-construction-icon{display:grid;place-items:center;width:86px;height:86px;margin:0 auto 14px;border:1px solid #d7ad45;border-radius:22px;background:linear-gradient(145deg,#382d16,#17130b);font-size:48px}.jh-construction-label{display:inline-block;padding:6px 12px;border:1px solid #d7ad45;border-radius:30px;color:#f4bd22;font-size:11px;font-weight:900;letter-spacing:1.6px}.jh-construction-visual h3{margin:14px 0 7px;color:#fff;font-size:22px}.jh-construction-visual p{max-width:390px;margin:0 auto;color:#c7c0ae;font-size:13px;line-height:1.6}";document.head.appendChild(style);}
 }
 async function openGroup(kind,name){
  const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
@@ -376,7 +394,7 @@ document.querySelectorAll("[data-jh-banner-action]").forEach(button=>button.addE
 document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".nav-link").forEach(x=>x.classList.remove("active"));b.classList.add("active");openView(b.dataset.view)}));
 $("#searchInput").addEventListener("input",applySearch);
 $("#sortSelect").addEventListener("change",()=>{const cards=[...grid.children];cards.sort((a,b)=>$("#sortSelect").value==="az"?a.textContent.localeCompare(b.textContent,"fr"):b.textContent.localeCompare(a.textContent,"fr"));cards.forEach(c=>grid.append(c))});
-$("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
+$("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.contains("open");menu.classList.toggle("open",open);$("#mobileMenu").setAttribute("aria-expanded",String(open));$("#mobileMenu").setAttribute("aria-label",open?"Fermer le menu":"Ouvrir le menu");};
 
 
 // --- Panier JerseyHub : conservé pendant la navigation et la connexion ---
@@ -448,7 +466,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
   const kidsSizes=normalizeSizeList(p.kidsSizes);
   const hasSeparateAudiences=p.category!=="clubs"&&adultSizes.length>0&&kidsSizes.length>0;
   let selectedSizeAudience=p.category==="clubs"?"adult":(hasSeparateAudiences?"adult":((p.sizeAudience==="kids"||p.version==="kids")?"kids":"adult"));
-  let sizes=normalizeSizeList(p.category==="clubs"?["S","M","L","XL","2XL","3XL","4XL"]:(hasSeparateAudiences?adultSizes:(p.sizes||[])));
+  let sizes=normalizeSizeList(hasSeparateAudiences?adultSizes:(p.sizes||[]));
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
   const isNational=p.category==="national",isClub=p.category==="clubs";
@@ -500,7 +518,7 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
    dialog.querySelector("#jh-gallery-lightbox-close").onclick=()=>{lightbox.hidden=true};
    lightbox.onclick=event=>{if(event.target===lightbox)lightbox.hidden=true};
   }
-  if(!isClub&&(p.sizePending||p.sizeAudience==="unknown"||!sizes.length)){
+  if(p.sizePending||p.sizeAudience==="unknown"||!sizes.length){
    const sizeSelect=dialog.querySelector("#jh-size");
    sizeSelect.disabled=true;
    const addButton=dialog.querySelector("#jh-add");

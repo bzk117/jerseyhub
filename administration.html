@@ -5,11 +5,11 @@
 .danger{background:#8f3030;color:#fff;border:0;border-radius:8px;padding:10px 14px;cursor:pointer;margin:8px 0 14px}.detail-actions{margin:0 0 18px}.detail-actions>*{flex:0 1 auto}.detail-actions .danger{margin:0}
 .lego-admin-groups{display:grid;grid-template-columns:1fr 1fr;gap:14px}.lego-admin-dropzone{min-height:150px;padding:12px;border:1px dashed #6b5a35;border-radius:10px;background:#0d0d0d}.lego-admin-dropzone.dragover{border-color:#f4bd22;background:#1b170d}.lego-admin-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(115px,1fr));gap:10px}.lego-admin-card{min-width:0;border:1px solid #444;border-radius:8px;padding:7px;background:#171717}.lego-admin-card img{display:block;width:100%;height:92px;object-fit:contain;background:#090909;border-radius:5px}.lego-admin-card small{display:block;color:#aaa;overflow-wrap:anywhere;margin:5px 0}.lego-admin-card button{width:100%;font-size:12px;padding:7px}.lego-admin-add{display:grid;grid-template-columns:1fr 1fr;gap:12px}.lego-admin-add button{align-self:end}.lego-admin-feedback{color:#e9bd54;font-size:13px;margin:10px 0}@media(max-width:760px){.lego-admin-groups,.lego-admin-add{grid-template-columns:1fr}}
 
-</style></head><body><header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><a class="nav-link" href="index.html">Retour au site</a></header>
+.league-logo-preview{display:flex;align-items:center;justify-content:center;width:190px;height:130px;margin:12px 0;padding:10px;background:#fff;border:1px solid #665326;border-radius:10px}.league-logo-preview img{max-width:100%;max-height:100%;object-fit:contain}.league-logo-feedback{display:block;margin-top:10px;color:#e9bd54;font-size:13px}</style></head><body><header class="topbar"><a class="brand" href="index.html"><img class="brand-logo" src="assets/branding/logo-jerseyhub.png" alt="JerseyHub"><span>JERSEY<br><b>HUB</b></span></a><a class="nav-link" href="index.html">Retour au site</a></header>
 <main class="admin-wrap"><p class="eyebrow">ZONE PRIVÉE</p><h1>Administration <em>JerseyHub</em></h1><div id="notice" class="admin-panel">Vérification des accès…</div>
 <section id="login" class="admin-panel admin-hidden"><h2>Connexion administrateur</h2><form id="loginForm"><label for="email">Adresse e-mail</label><input id="email" type="email" required autocomplete="username"><label for="password">Mot de passe</label><input id="password" type="password" required autocomplete="current-password"><button class="primary" type="submit">Se connecter</button></form></section>
 <section id="dashboard" class="admin-hidden"><section class="admin-panel"><h2>Tableau de bord</h2><div id="adminStats" class="admin-stats"><div class="admin-stat"><small>Commandes en attente</small><strong>—</strong></div><div class="admin-stat"><small>Commandes payées</small><strong>—</strong></div><div class="admin-stat"><small>En transit</small><strong>—</strong></div><div class="admin-stat"><small>Terminées</small><strong>—</strong></div><div class="admin-stat"><small>Chiffre d’affaires encaissé</small><strong>—</strong></div></div></section><section class="admin-panel" id="r2InventoryPanel"><h2>Inventaire des images Cloudflare R2</h2><p class="admin-meta">Analyse les noms et métadonnées de tous les fichiers du bucket pour préparer l’intégration des maillots de clubs. Cette opération ne télécharge, ne déplace et ne supprime aucune image.</p><div class="admin-row"><button type="button" class="primary" id="startR2Inventory">Analyser les fichiers R2</button><span id="r2InventoryFeedback" class="lego-admin-feedback">Prêt à analyser le stockage.</span></div>
-</section><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section>
+</section><section class="admin-panel" id="leagueLogoAdmin"><h2>Logos des championnats</h2><p class="admin-meta">Importer ou remplacer le logo affiché sur la vignette d’un championnat. Pour le moment, cette gestion est activée uniquement pour MLS.</p><label for="leagueLogoLeague">Championnat</label><select id="leagueLogoLeague"><option value="MLS">MLS — Major League Soccer</option></select><label for="leagueLogoFile">Image du logo (JPG, PNG ou WebP — 10 Mo maximum)</label><input id="leagueLogoFile" type="file" accept="image/jpeg,image/png,image/webp"><div class="league-logo-preview"><img id="leagueLogoPreview" alt="Aperçu du logo MLS" hidden></div><button class="primary" type="button" id="saveLeagueLogo">Importer et enregistrer le logo MLS</button><span id="leagueLogoFeedback" class="league-logo-feedback">Chargement du logo enregistré…</span></section><section class="admin-panel"><h2>Modération des commentaires</h2><p class="admin-meta">Les commentaires restent invisibles publiquement jusqu’à leur approbation.</p><div id="comments">Chargement…</div></section>
 <div class="admin-row"><div><h2>Demandes clients</h2><p class="admin-meta">Les changements sont enregistrés dans Supabase.</p></div><label class="admin-filter-label" for="archiveFilter">Afficher : <select id="archiveFilter"><option value="active">Demandes actives</option><option value="archived">Demandes archivées</option><option value="all">Toutes les demandes</option></select></label><button id="logout">Déconnexion</button><button id="reload">Actualiser</button></div><div class="admin-search"><label for="adminSearch">Rechercher une commande</label><input id="adminSearch" type="search" placeholder="N° de commande, nom ou adresse e-mail"><p class="admin-search-hint">La recherche couvre les commandes de la vue sélectionnée.</p></div><div class="admin-grid"><section class="admin-panel"><h3>Demandes reçues</h3><div id="requests">Chargement…</div></section><aside class="admin-panel"><h3>Détail de la demande</h3><div id="detail">Sélectionnez une demande.</div></aside></div></section>
 </main>
 <script src="catalog.js?v=20261110-admin-delete"></script><script src="clubs-products.js?v=20261110-admin-delete"></script>\n<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js"></script><script src="supabase-config.js"></script>
@@ -24,7 +24,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 async function refresh(){const {data}=await db.auth.getSession();const user=data.session?.user;if(!user){$('login').classList.remove('admin-hidden');$('dashboard').classList.add('admin-hidden');say("Connectez-vous avec un compte administrateur.");return}
 const {data:profile,error}=await db.from('profiles').select('role,first_name,last_name').eq('id',user.id).maybeSingle();
 if(error||user.app_metadata?.role!=='admin'){$('login').classList.add('admin-hidden');$('dashboard').classList.add('admin-hidden');say("Accès refusé : ce compte ne possède pas le rôle administrateur autorisé.",true);return}
-$('login').classList.add('admin-hidden');$('dashboard').classList.remove('admin-hidden');say("Accès administrateur vérifié.");await load()}
+$('login').classList.add('admin-hidden');$('dashboard').classList.remove('admin-hidden');say("Accès administrateur vérifié.");await loadLeagueLogoAdmin();await load()}
 async function load(){
  const loadToken=++ordersLoadToken;
  await loadComments();await loadDashboardStats();
@@ -113,6 +113,36 @@ $('adminSearch').addEventListener('input',async()=>{
 async function loadComments(){const box=$('comments');const {data,error}=await db.from('site_comments').select('id,display_name,content,status,admin_reply,created_at').order('created_at',{ascending:false});if(error){box.textContent="Commentaires indisponibles : "+error.message;return}box.innerHTML='';if(!data?.length){box.textContent="Aucun commentaire pour le moment.";return}data.forEach(c=>{const el=document.createElement('article');el.className='admin-card';el.innerHTML='<b>'+esc(c.display_name)+'</b> <span class="admin-status">'+esc(c.status)+'</span><p>'+esc(c.content)+'</p><small class="admin-meta">'+new Date(c.created_at).toLocaleString('fr-BE')+'</small><label>Réponse publique (facultatif)</label><textarea rows="2" data-reply></textarea><div class="admin-row"><button data-status="approved">Approuver</button><button data-status="rejected">Refuser</button><button data-delete>Supprimer</button></div>';el.querySelector('[data-reply]').value=c.admin_reply||'';el.querySelectorAll('[data-status]').forEach(btn=>btn.onclick=async()=>{const {error}=await db.from('site_comments').update({status:btn.dataset.status,admin_reply:el.querySelector('[data-reply]').value.trim()||null}).eq('id',c.id);if(error){say(error.message,true);return}say("Modération enregistrée.");await loadComments()});el.querySelector('[data-delete]').onclick=async()=>{if(!confirm('Supprimer définitivement ce commentaire ?'))return;const {error}=await db.from('site_comments').delete().eq('id',c.id);if(error){say(error.message,true);return}say("Commentaire supprimé.");await loadComments()};box.append(el)})}
 
 
+async function loadLeagueLogoAdmin(){
+ const feedback=$('leagueLogoFeedback'),preview=$('leagueLogoPreview');
+ if(!feedback||!preview)return;
+ feedback.textContent='Chargement du logo MLS enregistré…';
+ const {data,error}=await db.from('club_league_logos').select('image_url').eq('league_name','MLS').maybeSingle();
+ if(error){feedback.textContent='Lecture du logo impossible : '+error.message;return}
+ if(data?.image_url){preview.src=data.image_url;preview.hidden=false;feedback.textContent='Logo MLS actuellement enregistré.'}
+ else{preview.removeAttribute('src');preview.hidden=true;feedback.textContent='Aucun logo personnalisé enregistré pour MLS.'}
+}
+async function saveLeagueLogo(){
+ const button=$('saveLeagueLogo'),input=$('leagueLogoFile'),feedback=$('leagueLogoFeedback'),file=input.files?.[0];
+ if(button.disabled)return;
+ if(!file){feedback.textContent='Choisis d’abord une image.';return}
+ if(!['image/jpeg','image/png','image/webp'].includes(file.type)||file.size>10*1024*1024){feedback.textContent='Format invalide ou fichier supérieur à 10 Mo. Utilise JPG, PNG ou WebP.';return}
+ button.disabled=true;feedback.textContent='Envoi du logo vers le stockage sécurisé…';
+ try{
+  const form=new FormData();form.append('file',file,file.name);
+  const {data:upload,error:uploadError}=await db.functions.invoke('jerseyhub-r2-upload',{body:form});
+  if(uploadError){let detail=uploadError.message;try{const body=await uploadError.context?.json();if(body?.error)detail=body.error}catch{}throw new Error(detail||'Envoi du fichier impossible.')}
+  if(!upload?.ok||!upload.url)throw new Error(upload?.error||'Le stockage n’a pas confirmé l’envoi.');
+  const {data:sessionData}=await db.auth.getSession(),user=sessionData.session?.user;
+  if(!user)throw new Error('Session administrateur expirée. Reconnecte-toi.');
+  const {error:saveError}=await db.from('club_league_logos').upsert({league_name:'MLS',image_url:upload.url,updated_by:user.id},{onConflict:'league_name'});
+  if(saveError)throw new Error('Image envoyée, mais enregistrement du logo impossible : '+saveError.message);
+  $('leagueLogoPreview').src=upload.url;$('leagueLogoPreview').hidden=false;input.value='';
+  feedback.textContent='Logo MLS importé et enregistré. Il sera utilisé sur la vignette du site.';
+  say('Logo MLS enregistré avec succès.');
+ }catch(error){feedback.textContent='Échec : '+(error.message||'réessaie.');say('Logo MLS non enregistré.',true)}
+ finally{button.disabled=false}
+}
 async function runR2Inventory(){
  const button=$('startR2Inventory'),feedback=$('r2InventoryFeedback');
  if(button.disabled)return;
@@ -131,7 +161,7 @@ async function runR2Inventory(){
  }catch(error){feedback.textContent='Analyse interrompue après '+total.toLocaleString('fr-BE')+' fichier(s) : '+(error.message||error);say('Inventaire R2 incomplet.',true)}
  finally{button.disabled=false}
 }
-$('startR2Inventory').onclick=runR2Inventory;
+$('startR2Inventory').onclick=runR2Inventory;$('saveLeagueLogo').onclick=saveLeagueLogo;
 $('loginForm').onsubmit=async e=>{e.preventDefault();const {error}=await db.auth.signInWithPassword({email:$('email').value.trim(),password:$('password').value});if(error){say(error.message,true);return}await refresh()};
 $('logout').onclick=async()=>{await db.auth.signOut();selected=null;await refresh()};$('reload').onclick=async()=>{await load()};$('archiveFilter').onchange=()=>{selected=null;$('detail').textContent='Sélectionnez une demande.';load()};db.auth.onAuthStateChange(()=>setTimeout(refresh,0));refresh();
 })();

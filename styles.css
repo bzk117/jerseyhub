@@ -268,3 +268,27 @@ button,input,select{font:inherit}.topbar{height:82px;display:flex;align-items:ce
   background:transparent !important;
   box-shadow:none !important;
 }
+
+
+/* Logos des championnats : occuper toute la zone, centrés et entièrement visibles. */
+.category-art img.category-visual.league-visual{
+  position:absolute;
+  inset:0;
+  display:block;
+  width:100% !important;
+  height:100% !important;
+  min-width:100%;
+  min-height:100%;
+  max-width:none;
+  max-height:none;
+  object-fit:contain !important;
+  object-position:center;
+  padding:20px;
+  box-sizing:border-box;
+  border-radius:0;
+  background:#f7f7f7;
+  filter:none;
+}
+@media(max-width:760px){
+  .category-art img.category-visual.league-visual{padding:14px}
+}

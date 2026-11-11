@@ -18,8 +18,20 @@ function nationalFlagMarkup(name,compact=false){
 }
 function clubLeagueVisual(name,compact=false){
  const logos={
-  "Premier League":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Premier%20League.svg",alt:"Logo Premier League"},
-  "Bundesliga":{src:"https://www.footylogos.com/downloads/logo/bundesliga-germany-logo-footylogos.svg",alt:"Logo Bundesliga"}
+  "Premier League":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Premier%20League.svg",alt:"Logo officiel Premier League"},
+  "Bundesliga":{src:"https://www.footylogos.com/downloads/logo/bundesliga-germany-logo-footylogos.svg",alt:"Logo Bundesliga"},
+  "Saudi Pro League":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Saudi%20Pro%20League%20Logo.svg",alt:"Logo officiel Saudi Pro League"},
+  "Liga Profesional Argentina":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Liga%20Profesional%20de%20F%C3%BAtbol%20%28Argentina%29%20wordmark.svg",alt:"Logo Liga Profesional Argentina"},
+  "Campeonato Brasileiro Série A":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Campeonato%20Brasileiro%20S%C3%A9rie%20A%20logo%20%282026%29.svg",alt:"Logo Campeonato Brasileiro Série A 2026"},
+  "Scottish Premiership":{src:"https://cdn.prod.website-files.com/68f550992570ca0322737dc2/68f97f250403a59958d81476_scottish-premiership-footballlogos-org.svg",alt:"Logo Scottish Premiership"},
+  "UAE Pro League":{src:"https://uae-proleague.s3.me-south-1.amazonaws.com/uploads/news/web/images/detail/newsWebDetail_220788730.png",alt:"Nouveau logo officiel UAE Pro League"},
+  "Ligue 1":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Ligue%201%20McDonald%27s%20logo.svg",alt:"Logo officiel Ligue 1"},
+  "MLS":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/MLS_crest_logo_RGB_gradient.svg",alt:"Logo officiel Major League Soccer"},
+  "Serie A":{src:"https://images.legaseriea.it/image/private/t_q_good/v1762881268/prd/assets/competitions/Serie%20A.png",alt:"Logo officiel Serie A"},
+  "Eredivisie":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Eredivisie%20nieuw%20logo%202017-.svg",alt:"Logo officiel Eredivisie"},
+  "Liga Portugal":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Liga%20Portugal%20Betclic%20logo.svg",alt:"Logo officiel Liga Portugal"},
+  "Primera División de Chile":{src:"https://www.anfp.cl/wp-content/uploads/2026/01/NOTA-LDP-BALON-1-1024x629.png",alt:"Identité officielle Liga de Primera Chile 2026"},
+  "Belgique":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Belgian%20Pro%20League%20logo%20%282020%2C%20boxed%29.svg",alt:"Logo officiel Pro League Belgique"}
  };
  const logo=logos[name];
  if(!logo)return "";

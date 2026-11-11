@@ -79,7 +79,7 @@ function card(item,kind){
   "autres-articles":"https://images.pexels.com/photos/13142769/pexels-photo-13142769.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "chaussures":"https://images.pexels.com/photos/7271269/pexels-photo-7271269.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lifestyle-accessoires":"https://images.pexels.com/photos/29160881/pexels-photo-29160881/free-photo-of-trendy-urban-streetwear-look-with-headphones.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "lego":"https://images.pexels.com/photos/8289844/pexels-photo-8289844.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  "lego":"https://images.pexels.com/photos/11015132/pexels-photo-11015132.jpeg?auto=compress&cs=tinysrgb&w=1600"
  };
  const visual=clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${kind==="national"?nationalFlagMarkup(item.name,false):emoji}</span>`);
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;

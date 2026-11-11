@@ -452,8 +452,8 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
      }).join("")+'</section>'
       : '<p class="jh-patch-empty">Le fournisseur ne propose pas d’option de patch pour ce modèle.</p>')
    : '<label>Patchs</label><div style="border:1px solid #444;border-radius:8px;padding:10px"><label><input type="checkbox" id="jh-no-patch" checked> Aucun patch</label>'+legacyPatchOptions.map((v,i)=>'<label><input type="checkbox" class="jh-patch" value="'+esc(v)+'"> '+esc(v)+'</label>').join("")+'</div>';
-  if(!document.getElementById("jh-patch-admin-styles")){const style=document.createElement("style");style.id="jh-patch-admin-styles";style.textContent=".jh-patch-admin{margin-top:14px;padding-top:12px;border-top:1px dashed #66552d}.jh-patch-admin>button{width:100%;border:1px dashed #cba64e;color:#f4bd22;background:#211b0c;padding:11px;border-radius:8px;font-weight:800}.jh-patch-admin #jh-patch-admin-form{margin-top:12px;padding:12px;border:1px solid #66552d;border-radius:9px;background:#111}.jh-patch-admin input{width:100%;box-sizing:border-box;margin:5px 0 10px;padding:10px;border:1px solid #596579;border-radius:7px;background:#080d14;color:#fff}.jh-patch-admin label{display:block;margin:8px 0 4px;color:#ddd;font-size:12px}";document.head.appendChild(style)};
-  const patchAdminMarkup=isClub?'<div class="jh-patch-admin" id="jh-patch-admin" hidden><button type="button" class="jh-secondary" id="jh-show-patch-admin">＋ Ajouter un patch</button><div id="jh-patch-admin-form" hidden><label for="jh-new-patch-label">Nom du patch</label><input id="jh-new-patch-label" maxlength="100" placeholder="Ex. Premier League"><label for="jh-new-patch-image">Adresse de l’image du patch (URL)</label><input id="jh-new-patch-image" type="url" placeholder="https://…"><label for="jh-new-patch-price">Supplément (€) — facultatif</label><input id="jh-new-patch-price" type="number" min="0" step="0.01" value="0"><div class="jh-actions"><button type="button" class="jh-primary" id="jh-save-new-patch">Enregistrer le patch</button><button type="button" class="jh-secondary" id="jh-cancel-new-patch">Annuler</button></div><p class="jh-patch-intro">Le patch sera enregistré pour ce club et proposé aux clients sur cette fiche.</p></div></div>':"";  const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
+  if(!document.getElementById("jh-patch-admin-styles")){const style=document.createElement("style");style.id="jh-patch-admin-styles";style.textContent=".jh-patch-admin{margin-top:14px;padding-top:12px;border-top:1px dashed #66552d}.jh-patch-admin>button{width:100%;border:1px dashed #cba64e;color:#f4bd22;background:#211b0c;padding:11px;border-radius:8px;font-weight:800}.jh-patch-admin #jh-patch-admin-form{margin-top:12px;padding:12px;border:1px solid #66552d;border-radius:9px;background:#111}.jh-patch-admin input{width:100%;box-sizing:border-box;margin:5px 0 10px;padding:10px;border:1px solid #596579;border-radius:7px;background:#080d14;color:#fff}.jh-patch-admin label{display:block;margin:8px 0 4px;color:#ddd;font-size:12px}.jh-r2-pager{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:8px 0}.jh-r2-pager button{padding:7px 10px}.jh-r2-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px;max-height:340px;overflow:auto;margin:8px 0}.jh-r2-card{min-width:0;padding:6px;border:1px solid #444;border-radius:8px;background:#171717;color:#fff;cursor:pointer;overflow-wrap:anywhere}.jh-r2-card.selected{border:2px solid #f4bd22;background:#28200d}.jh-r2-card img{display:block;width:100%;height:82px;object-fit:contain;background:#090909;border-radius:5px}.jh-r2-card small{display:block;margin-top:5px;font-size:10px;line-height:1.25}.jh-r2-card:disabled{opacity:.5;cursor:wait}";document.head.appendChild(style)};
+  const patchAdminMarkup=isClub?'<div class="jh-patch-admin" id="jh-patch-admin" hidden><button type="button" class="jh-secondary" id="jh-show-patch-admin">＋ Ajouter un patch</button><div id="jh-patch-admin-form" hidden><label for="jh-new-patch-label">Nom du patch</label><input id="jh-new-patch-label" maxlength="100" placeholder="Ex. Premier League"><button type="button" class="jh-secondary" id="jh-r2-browse">Parcourir les images du dossier R2 de ce club</button><div id="jh-r2-browser" hidden><input id="jh-r2-search" type="search" placeholder="Filtrer les images de cette page…"><div class="jh-r2-pager"><button type="button" id="jh-r2-prev">← Précédent</button><span id="jh-r2-page">Page 1</span><button type="button" id="jh-r2-next">Suivant →</button></div><p id="jh-r2-status" class="jh-patch-intro">Chargement des images…</p><div id="jh-r2-grid" class="jh-r2-grid"></div></div><label for="jh-new-patch-image">Adresse de l’image sélectionnée (URL)</label><input id="jh-new-patch-image" type="url" placeholder="Choisis une image dans R2 ou colle une URL"><label for="jh-new-patch-price">Supplément (€) — facultatif</label><input id="jh-new-patch-price" type="number" min="0" step="0.01" value="0"><div class="jh-actions"><button type="button" class="jh-primary" id="jh-save-new-patch">Enregistrer le patch</button><button type="button" class="jh-secondary" id="jh-cancel-new-patch">Annuler</button></div><p class="jh-patch-intro">L’image originale restera dans R2. Le patch sera enregistré pour ce club et proposé aux clients sur cette fiche.</p></div></div>':"";  const galleryImages=Array.isArray(p.images)&&p.images.length?p.images:(p.image?[p.image]:[]);
   let galleryIndex=0;
   const productVisual=galleryImages.length
    ? '<div class="jh-product-gallery"><div class="jh-gallery-main-wrap"><img id="jh-product-gallery-image" class="jh-gallery-main" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' - photo 1"><div id="jh-gallery-zoom" class="jh-gallery-zoom" aria-hidden="true"><span>Zoom</span></div><button type="button" class="jh-gallery-enlarge" id="jh-gallery-enlarge">Agrandir l’image</button></div><div class="jh-gallery-side"><div class="jh-gallery-thumbs">'+galleryImages.map((src,i)=>'<button type="button" class="jh-gallery-thumb'+(i===0?' active':'')+'" data-gallery-index="'+i+'" aria-label="Afficher la photo '+(i+1)+'"><img src="'+esc(src)+'" alt=""></button>').join('')+'</div><div class="jh-gallery-controls"><button type="button" class="jh-secondary" id="jh-gallery-prev" aria-label="Photo précédente">←</button><span id="jh-gallery-count">1 / '+galleryImages.length+'</span><button type="button" class="jh-secondary" id="jh-gallery-next" aria-label="Photo suivante">→</button></div></div><div class="jh-gallery-lightbox" id="jh-gallery-lightbox" hidden><button type="button" id="jh-gallery-lightbox-close" aria-label="Fermer">×</button><img id="jh-gallery-lightbox-image" src="'+esc(galleryImages[0])+'" alt="'+esc(p.name)+' agrandie"></div></div>'
@@ -471,6 +471,47 @@ $("#mobileMenu").onclick=()=>$(".main-nav").classList.toggle("open");
     adminBox.hidden=false;
     dialog.querySelector("#jh-show-patch-admin").onclick=()=>{dialog.querySelector("#jh-patch-admin-form").hidden=false};
     dialog.querySelector("#jh-cancel-new-patch").onclick=()=>{dialog.querySelector("#jh-patch-admin-form").hidden=true};
+    const r2Browse=dialog.querySelector("#jh-r2-browse"),r2Browser=dialog.querySelector("#jh-r2-browser"),r2Grid=dialog.querySelector("#jh-r2-grid"),r2Status=dialog.querySelector("#jh-r2-status"),r2Search=dialog.querySelector("#jh-r2-search"),r2Prev=dialog.querySelector("#jh-r2-prev"),r2Next=dialog.querySelector("#jh-r2-next");
+    const r2PageSize=60;let r2Offset=0,r2Total=0,r2Rows=[];
+    const patchLeagueEntry=Object.entries(CLUB_TEAM_GROUPS||{}).find(([,teams])=>Array.isArray(teams)&&teams.includes(p.group));
+    const patchCountry=CLUB_LEAGUES.find(item=>item.items.includes(patchLeagueEntry?.[0]))?.name;
+    const patchFolderPrefix=patchCountry?"assets/clubs/"+patchCountry+"/"+p.group+"/":null;
+    const renderR2PatchGrid=()=>{
+     const term=(r2Search.value||"").trim().toLocaleLowerCase("fr");
+     const rows=r2Rows.filter(row=>!term||row.object_key.toLocaleLowerCase("fr").includes(term));
+     r2Grid.innerHTML=rows.map(row=>{
+      const filename=String(row.object_key).split("/").pop(),url=String(row.public_url||"");
+      return '<button type="button" class="jh-r2-card'+(dialog.querySelector("#jh-new-patch-image").value===url?" selected":"")+'" data-r2-url="'+esc(url)+'" data-r2-name="'+esc(filename.replace(/\.[^.]+$/,"").replace(/^[0-9]{5}_[0-9]{2}_/,"").replace(/_[a-f0-9]{8,}$/i,""))+'"><img src="'+esc(url)+'" alt="'+esc(filename)+'" loading="lazy"><small>'+esc(filename)+'</small></button>';
+     }).join("");
+     r2Status.textContent=rows.length+" image(s) affichée(s) sur cette page · "+r2Total.toLocaleString("fr-BE")+" fichier(s) dans le dossier";
+     r2Grid.querySelectorAll("[data-r2-url]").forEach(button=>button.onclick=()=>{
+      dialog.querySelector("#jh-new-patch-image").value=button.dataset.r2Url;
+      const label=dialog.querySelector("#jh-new-patch-label");if(!label.value.trim())label.value=button.dataset.r2Name||"Patch";
+      r2Grid.querySelectorAll(".jh-r2-card").forEach(card=>card.classList.toggle("selected",card===button));
+      r2Status.textContent="Image sélectionnée : "+button.querySelector("small").textContent;
+     });
+    };
+    const loadR2PatchPage=async(offset=0)=>{
+     if(!patchFolderPrefix){r2Status.textContent="Impossible de retrouver le dossier R2 de ce club.";return}
+     r2Browse.disabled=true;r2Prev.disabled=true;r2Next.disabled=true;r2Status.textContent="Lecture des images R2…";
+     try{
+      const {data,error}=await patchDbClient.functions.invoke("jerseyhub-r2-upload",{body:{action:"inventory-preview",folderPrefix:patchFolderPrefix,limit:r2PageSize,offset}});
+      if(error)throw new Error(error.message||"Lecture R2 impossible");
+      if(!data?.ok)throw new Error(data?.error||"Réponse R2 invalide");
+      r2Rows=Array.isArray(data.objects)?data.objects:[];
+      r2Total=Number(data.count)||0;r2Offset=offset;
+      r2Browser.hidden=false;r2Search.value="";
+      dialog.querySelector("#jh-r2-page").textContent="Page "+(Math.floor(offset/r2PageSize)+1)+" · "+r2Total.toLocaleString("fr-BE")+" fichiers";
+      r2Prev.disabled=offset===0;r2Next.disabled=offset+r2PageSize>=r2Total;
+      renderR2PatchGrid();
+      if(!r2Rows.length)r2Status.textContent="Aucune image dans ce dossier à cette page.";
+     }catch(error){r2Status.textContent="Erreur : "+(error.message||error);console.warn("Prévisualisation R2 des patchs impossible",error)}
+     finally{r2Browse.disabled=false}
+    };
+    r2Browse.onclick=()=>loadR2PatchPage(0);
+    r2Prev.onclick=()=>loadR2PatchPage(Math.max(0,r2Offset-r2PageSize));
+    r2Next.onclick=()=>loadR2PatchPage(r2Offset+r2PageSize);
+    r2Search.oninput=renderR2PatchGrid;
     dialog.querySelector("#jh-save-new-patch").onclick=async()=>{
      const label=dialog.querySelector("#jh-new-patch-label").value.trim();
      const imageUrl=dialog.querySelector("#jh-new-patch-image").value.trim();

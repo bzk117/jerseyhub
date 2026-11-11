@@ -357,6 +357,7 @@ async function openGroup(kind,name){
  $("#resultCount").textContent=matches.length?`${matches.length} modèle(s)`:"";
 }
 async function applySearch(){
+ const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
  query=slug($("#searchInput").value.trim());
  if(!query){currentView==="home"?renderHome():openView(currentView);return}
  const entries=[...allNational(),...allClubs(),...OTHER_SPORTS.map(x=>({...x,kind:"sports"})),...SHOE_BRANDS.map(x=>({...x,kind:"shoes"})),...allLifestyle()].filter(x=>slug(x.name).includes(query));

@@ -72,6 +72,7 @@ function card(item,kind){
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  // Navigation attachée directement à chaque carte, sans délégation globale.
  div.addEventListener("click",()=>{
+  if(kind==="lego"){window.location.href="lego.html";return}
   if(div.dataset.jhView){openView(div.dataset.jhView);return}
   openGroup(kind,item.name);
  });
@@ -207,7 +208,8 @@ function renderHome(){
   {name:"Clubs de football",flag:"⚽",desc:"Championnats et clubs",kind:"clubs"},
   ...OTHER_SPORTS.map(x=>({...x,kind:"sports"})),
   {name:"Chaussures",flag:"👟",desc:"Toutes les marques du catalogue",kind:"shoes"},
-  {name:"Lifestyle & Accessoires",flag:"🎧",desc:"Audio, lunettes, casquettes",kind:"lifestyle"}
+  {name:"Lifestyle & Accessoires",flag:"🎧",desc:"Audio, lunettes, casquettes",kind:"lifestyle"},
+  {name:"LEGO & Construction",flag:"🧱",desc:"Découvrir les modèles LEGO et construction",kind:"lego"}
  ];
  home.forEach(x=>{const c=card(x,x.kind);if(x.kind!=="sports")c.dataset.jhView=x.kind;grid.append(c)});
 }

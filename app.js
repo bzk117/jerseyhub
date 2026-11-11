@@ -213,21 +213,30 @@ function goBack(){
  else openView(previous.view);
  restoringNavigation=false;
 }
+function navigateBannerCategory(action){
+ const sportAliases={
+  nba:["NBA"],"football-americain":["Football américain","Football Americain","NFL"],nfl:["NFL","Football américain","Football Americain"],
+  mlb:["MLB","Baseball"],nhl:["NHL","Hockey sur glace","Hockey"],rugby:["Rugby"]
+ };
+ if(action==="national"){openView("national");return}
+ if(action==="clubs"){openView("clubs");return}
+ if(action==="shoes"){openView("shoes");return}
+ if(action==="lifestyle"){openView("lifestyle");return}
+ if(action==="lego"){window.location.href="lego.html";return}
+ const candidates=sportAliases[action]||[];
+ const found=OTHER_SPORTS.find(item=>candidates.some(name=>slug(item.name)===slug(name)));
+ openGroup("sports",found?found.name:candidates[0]||action);
+}
 function renderHome(){
  catalogPageHistory=[];
  currentView="home";currentGroup=null;setHeading("BIENVENUE","Nos catégories","Accueil");
- grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
- const home=[
-  {name:"Équipes nationales",flag:"🌍",desc:"Sélections du monde entier",kind:"national"},
-  {name:"Clubs de football",flag:"⚽",desc:"Championnats et clubs",kind:"clubs"},
-  ...OTHER_SPORTS.map(x=>({...x,kind:"sports"})),
-  {name:"Chaussures",flag:"👟",desc:"Toutes les marques du catalogue",kind:"shoes"},
-  {name:"Lifestyle & Accessoires",flag:"🎧",desc:"Audio, lunettes, casquettes",kind:"lifestyle"},
-  {name:"LEGO & Construction",flag:"🧱",desc:"Découvrir les modèles LEGO et construction",kind:"lego"}
- ];
- home.forEach(x=>{const c=card(x,x.kind);if(x.kind!=="sports")c.dataset.jhView=x.kind;grid.append(c)});
+ const banner=$("#jh-category-banner");
+ if(banner)banner.hidden=false;
+ grid.innerHTML="";grid.hidden=true;$("#emptyState").hidden=true;
+ const pager=$("#catalogPagination");if(pager)pager.innerHTML="";
 }
 function openView(view){
+ const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
  rememberNavigation();
  catalogPageHistory=[];
  if(view==="home"){renderHome();return}
@@ -256,6 +265,8 @@ function openView(view){
  }
 }
 async function openGroup(kind,name){
+ const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
+ grid.hidden=false;
  rememberNavigation();
  catalogPageHistory=[];
  currentView=kind;currentGroup=name;
@@ -367,6 +378,7 @@ window.addEventListener("load",function(){
  });
 });
 renderHome();
+document.querySelectorAll("[data-jh-banner-action]").forEach(button=>button.addEventListener("click",()=>navigateBannerCategory(button.dataset.jhBannerAction)));
 document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".nav-link").forEach(x=>x.classList.remove("active"));b.classList.add("active");openView(b.dataset.view)}));
 $("#searchInput").addEventListener("input",applySearch);
 $("#sortSelect").addEventListener("change",()=>{const cards=[...grid.children];cards.sort((a,b)=>$("#sortSelect").value==="az"?a.textContent.localeCompare(b.textContent,"fr"):b.textContent.localeCompare(a.textContent,"fr"));cards.forEach(c=>grid.append(c))});

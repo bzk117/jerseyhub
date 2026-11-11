@@ -65,8 +65,9 @@ function card(item,kind){
  const div=document.createElement("article");div.className="category-card";div.tabIndex=0;div.setAttribute("role","button");
  div.dataset.jhKind=kind;div.dataset.jhName=item.name;
  const emoji=item.flag||item.emoji||"⚽";
- const visualKey=kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
- const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain",MLB:"baseball",NHL:"hockey",Rugby:"rugby","Autres articles":"autres-articles",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
+ const displayName=kind==="sports"&&/^(football américain|football americain)$/i.test(item.name)?"NFL":item.name;
+ const visualKey=kind==="sports"&&displayName==="NFL"?"nfl":kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
+ const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain","Football américain":"football-americain","Football Americain":"football-americain",MLB:"baseball",NHL:"hockey",Rugby:"rugby","Autres articles":"autres-articles",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
  const imageKey=kind==="national"?categoryImages.national:kind==="clubs"&&item.name==="Clubs de football"?categoryImages.clubs:kind==="sports"?categoryImages[item.name]:kind==="shoes"?categoryImages.shoes:kind==="lifestyle"&&item.name==="Lifestyle & Accessoires"?categoryImages["Lifestyle & Accessoires"]:kind==="lego"?categoryImages.lego:null;
  const categoryPhotoMap={
   "equipes-nationales":"https://images.pexels.com/photos/28827841/pexels-photo-28827841/free-photo-of-illuminated-soccer-stadium-at-night.jpeg?auto=compress&cs=tinysrgb&w=1600",
@@ -82,7 +83,7 @@ function card(item,kind){
   "lego":"https://images.pexels.com/photos/11015132/pexels-photo-11015132.jpeg?auto=compress&cs=tinysrgb&w=1600"
  };
  const visual=clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${kind==="national"?nationalFlagMarkup(item.name,false):emoji}</span>`);
- div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${item.name}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
+ div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${displayName}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  // Navigation attachée directement à chaque carte, sans délégation globale.
  div.addEventListener("click",()=>{
   if(kind==="lego"){window.location.href="lego.html";return}

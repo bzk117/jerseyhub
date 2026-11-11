@@ -63,7 +63,7 @@ const CLUB_LEAGUES = [
   {name:"Pays-Bas",items:["Eredivisie"]},
   {name:"Portugal",items:["Liga Portugal"]},
   {name:"Chili",items:["Primera División de Chile"]},
-  {name:"Autres championnats",items:["Belgique","Turquie"]}
+  {name:"Autres championnats",items:["Belgique"]}
 ];
 const OTHER_SPORTS = [
   {name:"NBA",emoji:"🏀",desc:"Basket-ball américain"},
@@ -35590,6 +35590,5 @@ const CLUB_TEAM_GROUPS = {
   "Eredivisie": ["AFC Ajax","Feyenoord","PSV Eindhoven"],
   "Liga Portugal": ["Benfica","FC Porto","Sporting CP"],
   "Belgique": ["Standard de Liège","Cercle de Bruges","Anderlecht"],
-  "Turquie": [],
   "Primera División de Chile": ["University of Chile"]
 };

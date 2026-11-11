@@ -22,13 +22,13 @@ def existing_products():
  r.raise_for_status()
  source=r.text
  # Catalogue objects use two-space object indentation; nested objects are deeper.
- blocks=re.findall(r'(?ms)^  \\{(.*?)^  \\}',source)
+ blocks=re.findall(r'(?ms)^  \{(.*?)^  \}',source)
  found={}
  for block in blocks:
   if '"supplier": "Vivi Jersey"' not in block: continue
-  group=re.search(r'"(?:group|team)":\\s*"([^"]+)"',block)
-  url=re.search(r'"(?:supplierUrl|sourceUrl)":\\s*"(https://www\\.vivi-jersey\\.com/products/[^"]+)"',block)
-  name=re.search(r'"name":\\s*"([^"]+)"',block)
+  group=re.search(r'"(?:group|team)":\s*"([^"]+)"',block)
+  url=re.search(r'"(?:supplierUrl|sourceUrl)":\s*"(https://www\.vivi-jersey\.com/products/[^"]+)"',block)
+  name=re.search(r'"name":\s*"([^"]+)"',block)
   if not group or not url: continue
   club=norm(group.group(1))
   if club not in PL_CLUBS: continue

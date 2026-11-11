@@ -50,7 +50,7 @@ function allClubs(){return CLUB_LEAGUES.flatMap(l=>l.items.map(name=>({name,flag
 function sideGroup(label,items,kind){
  const box=document.createElement("div");box.className="side-group";
  const h=document.createElement("h3");h.textContent=label;box.append(h);
- items.forEach(item=>{const b=document.createElement("button");b.className="side-item";const visual=kind==="national"?nationalFlagMarkup(item.name,true):(kind==="clubs"?(clubLeagueVisual(item.name,true)||(item.flag||item.emoji||"✦")):(item.flag||item.emoji||"✦"));b.innerHTML=`<span class="side-flag">${visual}</span><span>${item.name}</span>`;b.onclick=()=>openGroup(kind,item.name);box.append(b)});
+ items.forEach(item=>{const b=document.createElement("button");b.className="side-item";const visual=kind==="national"?nationalFlagMarkup(item.name,true):(kind==="clubs"?(clubLeagueVisual(item.name,true)||(item.flag||item.emoji||"✦")):(item.flag||item.emoji||"✦"));const sideLabel=kind==="sports"&&/^(football américain|football americain|nfl)$/i.test(item.name)?"NFL":item.name;b.innerHTML=`<span class="side-flag">${visual}</span><span>${sideLabel}</span>`;b.onclick=()=>openGroup(kind,item.name);box.append(b)});
  return box;
 }
 function renderSidebar(){
@@ -68,7 +68,7 @@ function card(item,kind){
  const displayName=kind==="sports"&&/^(football américain|football americain)$/i.test(item.name)?"NFL":item.name;
  const visualKey=kind==="sports"&&displayName==="NFL"?"nfl":kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
  const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain","Football américain":"football-americain","Football Americain":"football-americain",MLB:"baseball",NHL:"hockey",Rugby:"rugby","Autres articles":"autres-articles",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
- const imageKey=kind==="national"?categoryImages.national:kind==="clubs"&&item.name==="Clubs de football"?categoryImages.clubs:kind==="sports"?categoryImages[item.name]:kind==="shoes"?categoryImages.shoes:kind==="lifestyle"&&item.name==="Lifestyle & Accessoires"?categoryImages["Lifestyle & Accessoires"]:kind==="lego"?categoryImages.lego:null;
+ const imageKey=kind==="national"?categoryImages.national:kind==="clubs"&&item.name==="Clubs de football"?categoryImages.clubs:kind==="sports"?(displayName==="NFL"?categoryImages.NFL:categoryImages[item.name]):kind==="shoes"?categoryImages.shoes:kind==="lifestyle"&&item.name==="Lifestyle & Accessoires"?categoryImages["Lifestyle & Accessoires"]:kind==="lego"?categoryImages.lego:null;
  const categoryPhotoMap={
   "equipes-nationales":"https://images.pexels.com/photos/28827841/pexels-photo-28827841/free-photo-of-illuminated-soccer-stadium-at-night.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "clubs":"https://images.pexels.com/photos/16651578/pexels-photo-16651578/free-photo-of-a-football-player-running-on-a-pitch-during-a-match.jpeg?auto=compress&cs=tinysrgb&w=1600",

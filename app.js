@@ -24,7 +24,8 @@ function clubLeagueVisual(name,compact=false){
   "Liga Profesional Argentina":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Liga%20Profesional%20de%20F%C3%BAtbol%20%28Argentina%29%20wordmark.svg",alt:"Logo Liga Profesional Argentina"},
   "Campeonato Brasileiro Série A":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Campeonato%20Brasileiro%20S%C3%A9rie%20A%20logo%20%282026%29.svg",alt:"Logo Campeonato Brasileiro Série A 2026"},
   "Scottish Premiership":{src:"https://cdn.prod.website-files.com/68f550992570ca0322737dc2/68f97f250403a59958d81476_scottish-premiership-footballlogos-org.svg",alt:"Logo Scottish Premiership"},
-  "UAE Pro League":{src:"https://uae-proleague.s3.me-south-1.amazonaws.com/uploads/news/web/images/detail/newsWebDetail_220788730.png",alt:"Nouveau logo officiel UAE Pro League"},
+  "UAE Pro League":{src:"https://www.uaepl.ae/web/images/ADNOC_PL.png",alt:"Logo officiel UAE Pro League"},
+  "LaLiga":{src:"https://assets.laliga.com/assets/logos/LALIGA_RGB_h_monocromatico_positivo/LALIGA_RGB_h_monocromatico_positivo.png",alt:"Logo officiel LaLiga"},
   "Ligue 1":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Ligue%201%20McDonald%27s%20logo.svg",alt:"Logo officiel Ligue 1"},
   "MLS":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/MLS_crest_logo_RGB_gradient.svg",alt:"Logo officiel Major League Soccer"},
   "Serie A":{src:"https://images.legaseriea.it/image/private/t_q_good/v1762881268/prd/assets/competitions/Serie%20A.png",alt:"Logo officiel Serie A"},
@@ -33,7 +34,9 @@ function clubLeagueVisual(name,compact=false){
   "Primera División de Chile":{src:"https://www.anfp.cl/wp-content/uploads/2026/01/NOTA-LDP-BALON-1-1024x629.png",alt:"Identité officielle Liga de Primera Chile 2026"},
   "Belgique":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Belgian%20Pro%20League%20logo%20%282020%2C%20boxed%29.svg",alt:"Logo officiel Pro League Belgique"}
  };
- const logo=logos[name];
+ const normalized=slug(String(name||"")).replace(/[^a-z0-9]+/g," ").trim();
+ const aliases={"la liga":"LaLiga","laliga":"LaLiga","liga espagnole":"LaLiga","championnat espagnol":"LaLiga","emirats arabes unis":"UAE Pro League","arabie emirats arabes unis":"UAE Pro League","uae pro league":"UAE Pro League","adnoc pro league":"UAE Pro League"};
+ const logo=logos[name]||logos[aliases[normalized]];
  if(!logo)return "";
  const src=logo.src,alt=logo.alt;
  return compact?`<img src="${src}" alt="${alt}" width="22" height="22" loading="lazy" style="display:inline-block;width:22px;height:22px;object-fit:contain;background:#fff;padding:3px;border-radius:4px;vertical-align:middle;flex-shrink:0">`:`<img class="category-visual" src="${src}" alt="${alt}" loading="lazy" style="width:140px;height:100px;min-height:0;max-height:none;object-fit:contain;padding:12px;background:#fff;border-radius:12px;box-sizing:border-box">`;

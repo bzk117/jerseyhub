@@ -41,7 +41,7 @@ function clubLeagueVisual(name,compact=false,heading=false){
  if(!logo)return "";
  const src=logo.src,alt=logo.alt;
  if(heading)return `<img src="${src}" alt="${alt}" width="64" height="64" loading="eager" style="display:block;width:64px;height:64px;object-fit:contain;background:#fff;padding:3px;border-radius:8px;flex:0 0 64px">`;
- return compact?`<img src="${src}" alt="${alt}" width="22" height="22" loading="lazy" style="display:inline-block;width:22px;height:22px;object-fit:contain;background:#fff;padding:3px;border-radius:4px;vertical-align:middle;flex-shrink:0">`:`<img class="category-visual" src="${src}" alt="${alt}" loading="lazy" style="width:140px;height:100px;min-height:0;max-height:none;object-fit:contain;padding:12px;background:#fff;border-radius:12px;box-sizing:border-box">`
+ return compact?`<img src="${src}" alt="${alt}" width="22" height="22" loading="lazy" style="display:inline-block;width:22px;height:22px;object-fit:contain;background:#fff;padding:3px;border-radius:4px;vertical-align:middle;flex-shrink:0">`:`<img class="category-visual league-visual" src="${src}" alt="${alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
 }
 function allNational(){return NATIONAL_REGIONS.flatMap(r=>r.items.map(([name,flag])=>({name,flag,group:r.name,kind:"national"})))}
 function lifestyleCategories(){return LIFESTYLE.filter(c=>!/(lego|construction)/i.test(c.name))}

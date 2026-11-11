@@ -202,3 +202,16 @@ button,input,select{font:inherit}.topbar{height:82px;display:flex;align-items:ce
  .jh-gallery-zoom{display:none}
  .jh-gallery-enlarge{font-size:11px;padding:6px 8px}
 }
+
+
+/* Visuels premium des catégories d'accueil JerseyHub */
+.category-card{border:1px solid rgba(244,189,34,.42);background:linear-gradient(150deg,#111d31,#080d17);box-shadow:0 9px 24px rgba(0,0,0,.28)}
+.category-card:hover{box-shadow:0 12px 30px rgba(0,0,0,.5),0 0 0 1px rgba(244,189,34,.4)}
+.category-art{height:190px;min-height:190px;padding:0;background:#0a1424;isolation:isolate}
+.category-art:before{background:linear-gradient(180deg,rgba(4,10,20,.04) 45%,rgba(4,10,20,.32));z-index:1;pointer-events:none}
+.category-art:after{z-index:0;pointer-events:none;border-color:rgba(255,220,130,.12)}
+.category-art img.category-visual{position:absolute;inset:0;width:100%;height:100%;max-width:none;max-height:none;object-fit:cover;display:block;z-index:0}
+.category-info{background:linear-gradient(110deg,#101d32,#0a101c);border-top:1px solid rgba(244,189,34,.25);padding:14px 15px;min-height:78px}
+.category-info h3{font-size:22px;color:#fff;letter-spacing:.35px}
+.category-info p{color:#c1c9d5;font-size:11px}
+@media(max-width:760px){.category-art{height:130px;min-height:130px}.category-info h3{font-size:18px}}

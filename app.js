@@ -572,7 +572,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    dialog.querySelector("#jh-gallery-lightbox-close").onclick=()=>{lightbox.hidden=true};
    lightbox.onclick=event=>{if(event.target===lightbox)lightbox.hidden=true};
   }
-  if(p.sizePending||p.sizeAudience==="unknown"||!sizes.length){
+  // Les tailles listées proviennent de la fiche produit vérifiée. Une audience non classée (adulte/enfant) ne doit pas bloquer leur sélection.\n  if(!sizes.length){
    const sizeSelect=dialog.querySelector("#jh-size");
    sizeSelect.disabled=true;
    const addButton=dialog.querySelector("#jh-add");
@@ -590,7 +590,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const rosterSource=[p.group,p.team,p.name].filter(Boolean).map(normalizeRosterKey);
   // Les 48 effectifs présents dans national-players.js sont les listes officielles FIFA 2026.
   // Ne pas les proposer sur un maillot d'une autre saison : le flocage doit correspondre à l'époque du modèle.
-  const fifaRosterYearCompatible=/2026/.test(String(p.season||"")+" "+String(p.name||""));
+  const fifaRosterYearCompatible=/(?:2026|26[-/ ]?27)/i.test(String(p.season||"")+" "+String(p.name||""));
   const rosterKey=isNational&&fifaRosterYearCompatible&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
   const clubRoster=isClub&&Array.isArray(p.players)?p.players:[];
@@ -608,7 +608,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   };
   person.onchange=renderPersonalization;
   dialog.querySelector("#jh-add").onclick=()=>{
-   const size=dialog.querySelector("#jh-size").value;if(!size){alert("Veuillez choisir une taille.");return}
+   const size=dialog.querySelector("#jh-size").value;if(!size){alert("Veuillez choisir une taille.");return}if(!sizes.includes(size)){alert("Cette taille n’est pas disponible pour cette fiche.");return}
    const customName=dialog.querySelector("#jh-name")?.value.trim()||"",customNumber=dialog.querySelector("#jh-number")?.value.trim()||"";
    if(person.value!=="Aucune"&&(!customName||!customNumber)){alert("Complétez le nom et le numéro.");return}
    const patchSelections=isNational?[1,2,3,4,5].flatMap(slot=>{

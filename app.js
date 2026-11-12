@@ -466,11 +466,25 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    const order=["S","M","L","XL","2XL","3XL","4XL"];
    return order.slice(order.indexOf(range[1].toUpperCase()),order.indexOf(range[2].toUpperCase())+1);
   }).filter((v,i,a)=>a.indexOf(v)===i);
-  const adultSizes=normalizeSizeList(p.adultSizes);
-  const kidsSizes=normalizeSizeList(p.kidsSizes);
+  // Pour les clubs, récupérer les tailles de la fiche catalogue source si la carte
+  // a perdu son tableau sizes lors de son chargement. Correspondance stricte par URL
+  // fournisseur, puis par nom + club ; aucune grille générique n'est inventée.
+  const clubSourceProducts=Array.isArray(window.CLUB_PRODUCTS)?window.CLUB_PRODUCTS:[];
+  const clubSource= p.category==="clubs" ? clubSourceProducts.find(item =>
+    (p.supplierUrl && (item.supplierUrl===p.supplierUrl || item.sourceUrl===p.supplierUrl)) ||
+    (p.sourceUrl && (item.supplierUrl===p.sourceUrl || item.sourceUrl===p.sourceUrl)) ||
+    (item.name===p.name && (item.group||item.team)===(p.group||p.team))
+  ) : null;
+  const cleanSizes=values=>normalizeSizeList(values).filter(value=>value&&!/^(à confirmer|a confirmer|unknown|tbc)$/i.test(value));
+  const adultSizes=cleanSizes(p.adultSizes);
+  const kidsSizes=cleanSizes(p.kidsSizes);
   const hasSeparateAudiences=p.category!=="clubs"&&adultSizes.length>0&&kidsSizes.length>0;
   let selectedSizeAudience=p.category==="clubs"?"adult":(hasSeparateAudiences?"adult":((p.sizeAudience==="kids"||p.version==="kids")?"kids":"adult"));
-  let sizes=normalizeSizeList(hasSeparateAudiences?adultSizes:(p.sizes||[]));
+  let sizes=cleanSizes(hasSeparateAudiences?adultSizes:(p.sizes||[]));
+  if(p.category==="clubs"&&!sizes.length){
+    const sourceSizes=cleanSizes(clubSource?.sizes);
+    sizes=sourceSizes.length?sourceSizes:(selectedSizeAudience==="kids"?kidsSizes:adultSizes);
+  }
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
   const isNational=p.category==="national",isClub=p.category==="clubs";

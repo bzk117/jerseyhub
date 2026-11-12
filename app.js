@@ -119,7 +119,7 @@ function renderCatalogPage(page=1,rememberPage=false){
  grid.innerHTML="";
  catalogPagePrefix.forEach(node=>grid.append(node));
  const start=(catalogPage-1)*CATALOG_PAGE_SIZE;
- catalogPageItems.slice(start,start+CATALOG_PAGE_SIZE).forEach(p=>grid.append(p.r2Archive?archiveProductCard(p):productCard(p)));
+ catalogPageItems.slice(start,start+CATALOG_PAGE_SIZE).forEach(p=>grid.append(productCard(p)));
  const pager=$("#catalogPagination");
  if(!pager)return;
  pager.innerHTML="";
@@ -346,7 +346,7 @@ async function openGroup(kind,name){
     const client=window.supabase.createClient(window.JERSEYHUB_SUPABASE.url,window.JERSEYHUB_SUPABASE.anonKey);
     const {data,error}=await client.rpc("jerseyhub_club_gallery",{p_country:country,p_club:name});
     if(error)throw error;
-    archive=(data||[]).map(row=>({r2Archive:true,reference:String(row.product_ref),name:"Maillot — Réf. "+row.product_ref,category:"clubs",group:name,image:row.image_url,images:Array.isArray(row.images)?row.images:[row.image_url],description:"Aperçu visuel uniquement"}));
+    archive=(data||[]).map(row=>({r2Archive:true,reference:String(row.product_ref),name:"Maillot "+name+" — Réf. "+row.product_ref,category:"clubs",group:name,team:name,image:row.image_url,images:Array.isArray(row.images)?row.images:[row.image_url],sizes:[...(window.JH_CLUB_DEFAULT_SIZES||["S","M","L","XL","XXL","3XL","4XL"])],sizeAudience:"adult",description:"Modèle issu de la galerie du club. Grille de tailles commune reprise des fiches Standard, Anderlecht et Bruges. La disponibilité finale de la taille sera confirmée lors du traitement de la commande."}));
    }catch(error){console.warn("Galerie R2 indisponible pour "+name,error);}
    if(currentView!=="clubs"||currentGroup!==name)return;
    const seenClubProducts=new Set();
@@ -358,10 +358,11 @@ async function openGroup(kind,name){
    });
    // Les images R2 sans fiche fournisseur/taille restent consultables, mais ne
    // doivent jamais ouvrir une fenêtre d'achat avec un sélecteur vide.
-   const all=[...purchasable,...archive];
+   const fallbackProduct = !purchasable.length && !archive.length ? [{name:"Maillot "+name,category:"clubs",group:name,team:name,sizes:[...(window.JH_CLUB_DEFAULT_SIZES||["S","M","L","XL","XXL","3XL","4XL"])],sizeAudience:"adult",description:"Fiche de commande simplifiée pour "+name+". Grille de tailles commune reprise des fiches Standard, Anderlecht et Bruges. La disponibilité finale de la taille sera confirmée lors du traitement de la commande."}] : [];
+    const all=[...purchasable,...archive,...fallbackProduct];
    renderPagedProducts(all);
    if(!all.length){showConstructionState("Catalogue en construction","Les photos et les fiches de ce club seront affichées dès qu’elles seront prêtes.");}
-    $("#resultCount").textContent=all.length?(archive.length+" maillot(s) en photos · "+verified.length+" fiche(s) vérifiée(s)"):"";
+    $("#resultCount").textContent=all.length?(all.length+" maillot(s) sélectionnable(s) · disponibilité confirmée lors du traitement"):"";
    return;
   }
  }

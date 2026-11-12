@@ -283,6 +283,7 @@ function renderHome(){
  const pager=$("#catalogPagination");if(pager)pager.innerHTML="";
 }
 function openView(view){
+ grid.classList.remove("jh-mobile-home-grid");
  const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
  rememberNavigation();
  catalogPageHistory=[];

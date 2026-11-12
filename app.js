@@ -572,7 +572,8 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    dialog.querySelector("#jh-gallery-lightbox-close").onclick=()=>{lightbox.hidden=true};
    lightbox.onclick=event=>{if(event.target===lightbox)lightbox.hidden=true};
   }
-  // Les tailles listées proviennent de la fiche produit vérifiée. Une audience non classée (adulte/enfant) ne doit pas bloquer leur sélection.\n  if(!sizes.length){
+  // Les tailles listées proviennent de la fiche produit vérifiée. Une audience non classée (adulte/enfant) ne doit pas bloquer leur sélection.
+  if(!sizes.length){
    const sizeSelect=dialog.querySelector("#jh-size");
    sizeSelect.disabled=true;
    const addButton=dialog.querySelector("#jh-add");

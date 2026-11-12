@@ -192,18 +192,15 @@ function productCard(p){
 function archiveProductCard(p){
  const div=document.createElement("article");
  div.className="product-card jh-r2-archive-card";
- div.setAttribute("role","button");div.setAttribute("tabindex","0");
- div.setAttribute("aria-label","Voir les photos du maillot "+p.reference);
+ div.setAttribute("aria-label","Aperçu photo uniquement du maillot "+p.reference);
  const art=document.createElement("div");art.className="product-art";
  const img=document.createElement("img");img.src=p.image;img.alt=p.name;img.loading="lazy";img.style.cssText="max-width:100%;max-height:190px;object-fit:contain";
  art.append(img);
  const info=document.createElement("div");info.className="product-info";
  const heading=document.createElement("h3");heading.textContent=p.name;
- const desc=document.createElement("p");desc.textContent="Photos du modèle archivées — fiche en cours de vérification";
- const hint=document.createElement("small");hint.className="jh-open-hint";hint.textContent="Cliquer pour voir toutes les photos";
+ const desc=document.createElement("p");desc.textContent="Photos archivées uniquement — tailles et fiche fournisseur non vérifiées";
+ const hint=document.createElement("small");hint.className="jh-open-hint";hint.textContent="Achat indisponible tant que les tailles exactes ne sont pas vérifiées";
  info.append(heading,desc,hint);div.append(art,info);
- div._jhProduct=p;div.dataset.jhProductCard="true";
- div.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();div.click()}};
  return div;
 }
 function setHeading(e,t,b){
@@ -335,6 +332,11 @@ async function openGroup(kind,name){
    const countryEntry=CLUB_LEAGUES.find(item=>item.items.includes(league));
    const country=countryEntry?.name;
    const verified=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category==="clubs"&&p.group===name);
+   // Ajouter les fiches clubs déjà vérifiées dans le catalogue source indépendant.
+   // Les fiches existantes restent prioritaires et ne sont jamais remplacées.
+   const sourceVerified=typeof CLUB_PRODUCTS!=="undefined"&&Array.isArray(CLUB_PRODUCTS)
+    ? CLUB_PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category==="clubs"&&(p.group||p.team)===name)
+    : [];
    setHeading("ÉQUIPE DE CLUB",name,"Accueil / Clubs / "+league+" / "+name);
    grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
    $("#resultCount").textContent="Chargement des maillots…";
@@ -347,7 +349,16 @@ async function openGroup(kind,name){
     archive=(data||[]).map(row=>({r2Archive:true,reference:String(row.product_ref),name:"Maillot — Réf. "+row.product_ref,category:"clubs",group:name,image:row.image_url,images:Array.isArray(row.images)?row.images:[row.image_url],description:"Aperçu visuel uniquement"}));
    }catch(error){console.warn("Galerie R2 indisponible pour "+name,error);}
    if(currentView!=="clubs"||currentGroup!==name)return;
-   const all=[...verified,...archive];
+   const seenClubProducts=new Set();
+   const purchasable=[...verified,...sourceVerified].filter(product=>{
+    const key=String(product.supplierUrl||product.sourceUrl||((product.group||product.team||"")+"|"+product.name)).trim().toLowerCase();
+    if(seenClubProducts.has(key))return false;
+    seenClubProducts.add(key);
+    return true;
+   });
+   // Les images R2 sans fiche fournisseur/taille restent consultables, mais ne
+   // doivent jamais ouvrir une fenêtre d'achat avec un sélecteur vide.
+   const all=[...purchasable,...archive];
    renderPagedProducts(all);
    if(!all.length){showConstructionState("Catalogue en construction","Les photos et les fiches de ce club seront affichées dès qu’elles seront prêtes.");}
     $("#resultCount").textContent=all.length?(archive.length+" maillot(s) en photos · "+verified.length+" fiche(s) vérifiée(s)"):"";

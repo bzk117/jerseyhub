@@ -250,8 +250,36 @@ function renderHome(){
  catalogPageHistory=[];
  currentView="home";currentGroup=null;setHeading("BIENVENUE","Nos catégories","Accueil");
  const banner=$("#jh-category-banner");
- if(banner)banner.hidden=false;
- grid.innerHTML="";grid.hidden=true;$("#emptyState").hidden=true;
+ const mobile=window.matchMedia("(max-width:760px)").matches;
+ grid.innerHTML="";
+ if(mobile){
+  if(banner)banner.hidden=true;
+  const mobileCategories=[
+   {name:"Équipes nationales",kind:"national",view:"national",desc:"Les sélections du monde"},
+   {name:"Clubs de football",kind:"clubs",view:"clubs",desc:"Clubs et championnats"},
+   {name:"NBA",kind:"sports",desc:"Basketball"},
+   {name:"NFL",kind:"sports",desc:"Football américain"},
+   {name:"MLB",kind:"sports",desc:"Baseball"},
+   {name:"NHL",kind:"sports",desc:"Hockey sur glace"},
+   {name:"Rugby",kind:"sports",desc:"Clubs et sélections"},
+   {name:"Chaussures",kind:"shoes",view:"shoes",desc:"Marques et modèles"},
+   {name:"Lifestyle & Accessoires",kind:"lifestyle",view:"lifestyle",desc:"Accessoires et style"},
+   {name:"LEGO",kind:"lego",desc:"Univers construction"}
+  ];
+  mobileCategories.forEach(item=>{
+   const emoji=item.name==="NBA"?"🏀":item.name==="NFL"?"🏈":item.name==="MLB"?"⚾":item.name==="NHL"?"🏒":item.name==="Rugby"?"🏉":item.name==="LEGO"?"🧱":"⚽";
+   const tile=card({name:item.name,desc:item.desc,flag:emoji},item.kind);
+   if(item.view)tile.dataset.jhView=item.view;
+   grid.append(tile);
+  });
+  grid.classList.add("jh-mobile-home-grid");
+  grid.hidden=false;
+ }else{
+  if(banner)banner.hidden=false;
+  grid.classList.remove("jh-mobile-home-grid");
+  grid.hidden=true;
+ }
+ $("#emptyState").hidden=true;
  const pager=$("#catalogPagination");if(pager)pager.innerHTML="";
 }
 function openView(view){

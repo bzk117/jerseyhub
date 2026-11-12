@@ -395,7 +395,17 @@ window.addEventListener("load",function(){
 });
 renderHome();
 document.querySelectorAll("[data-jh-banner-action]").forEach(button=>button.addEventListener("click",()=>navigateBannerCategory(button.dataset.jhBannerAction)));
-document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".nav-link").forEach(x=>x.classList.remove("active"));b.classList.add("active");openView(b.dataset.view)}));
+document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{
+ document.querySelectorAll(".nav-link").forEach(x=>x.classList.remove("active"));
+ b.classList.add("active");
+ const menu=$(".main-nav");
+ if(menu)menu.classList.remove("open");
+ const mobileMenu=$("#mobileMenu");
+ if(mobileMenu){mobileMenu.setAttribute("aria-expanded","false");mobileMenu.setAttribute("aria-label","Ouvrir le menu");}
+ openView(b.dataset.view);
+ const heading=document.querySelector(".section-heading");
+ if(heading&&window.matchMedia("(max-width:760px)").matches)heading.scrollIntoView({block:"start",behavior:"smooth"});
+}));
 $("#searchInput").addEventListener("input",applySearch);
 $("#sortSelect").addEventListener("change",()=>{const cards=[...grid.children];cards.sort((a,b)=>$("#sortSelect").value==="az"?a.textContent.localeCompare(b.textContent,"fr"):b.textContent.localeCompare(a.textContent,"fr"));cards.forEach(c=>grid.append(c))});
 $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.contains("open");menu.classList.toggle("open",open);$("#mobileMenu").setAttribute("aria-expanded",String(open));$("#mobileMenu").setAttribute("aria-label",open?"Fermer le menu":"Ouvrir le menu");};

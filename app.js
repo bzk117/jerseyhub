@@ -510,10 +510,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const isNational=p.category==="national",isClub=p.category==="clubs";
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
-  let selectedClubSize="";
-  const clubSizeControl=isClub
-   ? '<div class="jh-size-picker" id="jh-size-picker"><button type="button" class="jh-size-trigger" id="jh-size-trigger" aria-expanded="false" '+(!sizes.length?'disabled':'')+'>Sélectionnez une taille <span aria-hidden="true">▾</span></button><div class="jh-size-options" id="jh-size-options" hidden>'+sizes.map(s=>'<button type="button" class="jh-size-option" data-jh-size="'+esc(s)+'">'+esc(s)+'</button>').join("")+'</div></div>'
-   : '<select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>';
+  const clubSizeControl='<select id="jh-size" required '+(!sizes.length?'disabled':'')+'><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>';
   const personalizationAllowed=true;
   // Les patchs sont proposés uniquement sur les maillots des équipes nationales.
   // On privilégie les options configurées pour l'équipe/le modèle ; à défaut,
@@ -577,21 +574,6 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const personalizationNotice=isClub&&!personalizationAllowed?'<p class="jh-player-note">La personnalisation nom/numéro n’est pas encore confirmée pour ce modèle.</p>':"";
   const productMeta=[p.season,p.kitType,p.version].filter(Boolean).map(esc).join(" · ");
   open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label>'+clubSizeControl+'</section>'+patchSlotsMarkup+'<section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
-  const clubSizeTrigger=dialog.querySelector("#jh-size-trigger");
-  const clubSizeOptions=dialog.querySelector("#jh-size-options");
-  if(clubSizeTrigger&&clubSizeOptions){
-   clubSizeTrigger.onclick=()=>{
-    const opening=clubSizeOptions.hidden;
-    clubSizeOptions.hidden=!opening;
-    clubSizeTrigger.setAttribute("aria-expanded",String(opening));
-   };
-   clubSizeOptions.querySelectorAll("[data-jh-size]").forEach(option=>option.onclick=()=>{
-    selectedClubSize=option.dataset.jhSize||"";
-    clubSizeTrigger.innerHTML=esc(selectedClubSize)+' <span aria-hidden="true">▾</span>';
-    clubSizeOptions.hidden=true;
-    clubSizeTrigger.setAttribute("aria-expanded","false");
-   });
-  }
   const sizeAudienceSelect=dialog.querySelector("#jh-size-audience");
   if(sizeAudienceSelect)sizeAudienceSelect.onchange=()=>{
    selectedSizeAudience=sizeAudienceSelect.value;
@@ -631,8 +613,6 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   if(!sizes.length){
    const sizeSelect=dialog.querySelector("#jh-size");
    if(sizeSelect)sizeSelect.disabled=true;
-   const clubTrigger=dialog.querySelector("#jh-size-trigger");
-   if(clubTrigger)clubTrigger.disabled=true;
    const addButton=dialog.querySelector("#jh-add");
    addButton.disabled=true;
    addButton.textContent="Tailles à confirmer";
@@ -666,7 +646,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   };
   person.onchange=renderPersonalization;
   dialog.querySelector("#jh-add").onclick=()=>{
-   const size=isClub?selectedClubSize:dialog.querySelector("#jh-size").value;if(!size){alert("Veuillez choisir une taille.");return}if(!sizes.includes(size)){alert("Cette taille n’est pas disponible pour cette fiche.");return}
+   const size=dialog.querySelector("#jh-size")?.value||"";if(!size){alert("Veuillez choisir une taille.");return}if(!sizes.includes(size)){alert("Cette taille n’est pas disponible pour cette fiche.");return}
    const customName=dialog.querySelector("#jh-name")?.value.trim()||"",customNumber=dialog.querySelector("#jh-number")?.value.trim()||"";
    if(person.value!=="Aucune"&&(!customName||!customNumber)){alert("Complétez le nom et le numéro.");return}
    const patchSelections=isNational?[1,2,3,4,5].flatMap(slot=>{

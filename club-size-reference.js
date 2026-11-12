@@ -4,7 +4,7 @@
   const national = typeof PRODUCTS !== "undefined" && Array.isArray(PRODUCTS)
     ? PRODUCTS.filter(p => p && p.category === "national" && Array.isArray(p.sizes) && p.sizes.length)
     : [];
-  const isKids = p => p.version === "kids" || p.sizeAudience === "kids" || /\\b(kids|children|junior)\\b/i.test(p.name || "");
+  const isKids = p => p.version === "kids" || p.sizeAudience === "kids" || /\b(kids|children|junior)\b/i.test(p.name || "");
   const mostCommonSizes = rows => {
     const counts = new Map();
     for (const p of rows) {

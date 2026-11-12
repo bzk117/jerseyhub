@@ -469,7 +469,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   // Pour les clubs, récupérer les tailles de la fiche catalogue source si la carte
   // a perdu son tableau sizes lors de son chargement. Correspondance stricte par URL
   // fournisseur, puis par nom + club ; aucune grille générique n'est inventée.
-  const clubSourceProducts=Array.isArray(window.CLUB_PRODUCTS)?window.CLUB_PRODUCTS:[];
+  const clubSourceProducts=typeof CLUB_PRODUCTS!=="undefined"&&Array.isArray(CLUB_PRODUCTS)?CLUB_PRODUCTS:[];
   const clubSource= p.category==="clubs" ? clubSourceProducts.find(item =>
     (p.supplierUrl && (item.supplierUrl===p.supplierUrl || item.sourceUrl===p.supplierUrl)) ||
     (p.sourceUrl && (item.supplierUrl===p.sourceUrl || item.sourceUrl===p.sourceUrl)) ||

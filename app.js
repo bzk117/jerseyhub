@@ -425,6 +425,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
  .jh-dialog{background:#111;color:#fff;border:1px solid #5b4b27;border-radius:14px;width:min(720px,100%);max-height:90vh;overflow:auto;padding:22px;box-shadow:0 20px 80px #000}
  .jh-dialog h2{margin:0 0 14px;color:#f4bd22}.jh-dialog label{display:block;margin:13px 0 6px;color:#ddd;font-size:13px}
  .jh-dialog select,.jh-dialog input{width:100%;padding:11px;background:#080808;border:1px solid #555;border-radius:7px;color:white}
+ .jh-size-picker{position:relative;width:100%;z-index:2}.jh-size-trigger{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:48px;padding:12px;background:#080808;border:1px solid #777;border-radius:8px;color:#fff;text-align:left;font:inherit;cursor:pointer;touch-action:manipulation;-webkit-appearance:none;appearance:none}.jh-size-trigger:disabled{opacity:.55;cursor:not-allowed}.jh-size-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:9px;padding:10px;border:1px solid #66552d;border-radius:9px;background:#191919}.jh-size-options[hidden]{display:none!important}.jh-size-option{min-height:44px;padding:10px;border:1px solid #555;border-radius:7px;background:#262626;color:#fff;font:inherit;font-weight:800;cursor:pointer;touch-action:manipulation}.jh-size-option:active{background:#6a511a;border-color:#f4bd22}
  .jh-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.jh-actions button{padding:12px 16px;border:0;border-radius:8px;cursor:pointer;font-weight:800}
  .jh-primary{background:#f4bd22;color:#111}.jh-secondary{background:#292929;color:#fff;border:1px solid #555!important}
  .jh-cart-row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:14px 0;border-bottom:1px solid #333}
@@ -495,9 +496,13 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
     const sourceSizes=cleanSizes(clubSource?.sizes);
     sizes=sourceSizes.length?sourceSizes:(selectedSizeAudience==="kids"?kidsSizes:adultSizes);
   }
+  const isNational=p.category==="national",isClub=p.category==="clubs";
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
-  const isNational=p.category==="national",isClub=p.category==="clubs";
+  let selectedClubSize="";
+  const clubSizeControl=isClub
+   ? '<div class="jh-size-picker" id="jh-size-picker"><button type="button" class="jh-size-trigger" id="jh-size-trigger" aria-expanded="false" '+(!sizes.length?'disabled':'')+'>Sélectionnez une taille <span aria-hidden="true">▾</span></button><div class="jh-size-options" id="jh-size-options" hidden>'+sizes.map(s=>'<button type="button" class="jh-size-option" data-jh-size="'+esc(s)+'">'+esc(s)+'</button>').join("")+'</div></div>'
+   : '<select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>';
   const personalizationAllowed=true;
   // Les patchs sont proposés uniquement sur les maillots des équipes nationales.
   // On privilégie les options configurées pour l'équipe/le modèle ; à défaut,
@@ -560,7 +565,22 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const personalizationOptions=isClub?'<option value="Nom et numéro personnalisés">Personnaliser avec mon nom et mon numéro</option>':(personalizationAllowed?'<option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option>':"");
   const personalizationNotice=isClub&&!personalizationAllowed?'<p class="jh-player-note">La personnalisation nom/numéro n’est pas encore confirmée pour ce modèle.</p>':"";
   const productMeta=[p.season,p.kitType,p.version].filter(Boolean).map(esc).join(" · ");
-  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label><select id="jh-size" required><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select></section>'+patchSlotsMarkup+'<section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label>'+clubSizeControl+'</section>'+patchSlotsMarkup+'<section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  const clubSizeTrigger=dialog.querySelector("#jh-size-trigger");
+  const clubSizeOptions=dialog.querySelector("#jh-size-options");
+  if(clubSizeTrigger&&clubSizeOptions){
+   clubSizeTrigger.onclick=()=>{
+    const opening=clubSizeOptions.hidden;
+    clubSizeOptions.hidden=!opening;
+    clubSizeTrigger.setAttribute("aria-expanded",String(opening));
+   };
+   clubSizeOptions.querySelectorAll("[data-jh-size]").forEach(option=>option.onclick=()=>{
+    selectedClubSize=option.dataset.jhSize||"";
+    clubSizeTrigger.innerHTML=esc(selectedClubSize)+' <span aria-hidden="true">▾</span>';
+    clubSizeOptions.hidden=true;
+    clubSizeTrigger.setAttribute("aria-expanded","false");
+   });
+  }
   const sizeAudienceSelect=dialog.querySelector("#jh-size-audience");
   if(sizeAudienceSelect)sizeAudienceSelect.onchange=()=>{
    selectedSizeAudience=sizeAudienceSelect.value;
@@ -599,7 +619,9 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   // Les tailles listées proviennent de la fiche produit vérifiée. Une audience non classée (adulte/enfant) ne doit pas bloquer leur sélection.
   if(!sizes.length){
    const sizeSelect=dialog.querySelector("#jh-size");
-   sizeSelect.disabled=true;
+   if(sizeSelect)sizeSelect.disabled=true;
+   const clubTrigger=dialog.querySelector("#jh-size-trigger");
+   if(clubTrigger)clubTrigger.disabled=true;
    const addButton=dialog.querySelector("#jh-add");
    addButton.disabled=true;
    addButton.textContent="Tailles à confirmer";
@@ -633,7 +655,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   };
   person.onchange=renderPersonalization;
   dialog.querySelector("#jh-add").onclick=()=>{
-   const size=dialog.querySelector("#jh-size").value;if(!size){alert("Veuillez choisir une taille.");return}if(!sizes.includes(size)){alert("Cette taille n’est pas disponible pour cette fiche.");return}
+   const size=isClub?selectedClubSize:dialog.querySelector("#jh-size").value;if(!size){alert("Veuillez choisir une taille.");return}if(!sizes.includes(size)){alert("Cette taille n’est pas disponible pour cette fiche.");return}
    const customName=dialog.querySelector("#jh-name")?.value.trim()||"",customNumber=dialog.querySelector("#jh-number")?.value.trim()||"";
    if(person.value!=="Aucune"&&(!customName||!customNumber)){alert("Complétez le nom et le numéro.");return}
    const patchSelections=isNational?[1,2,3,4,5].flatMap(slot=>{

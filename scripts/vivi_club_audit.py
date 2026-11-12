@@ -24,7 +24,7 @@ def session_for_thread():
         LOCAL.session = session
     return session
 EXCLUDED = {
-    "rugby","nhl","nfl","mlb","nba","jersey-enthusiasts","club-team","national-team",
+    "rugby","nhl","nfl","mlb","nba","atlanta","atlanta-braves","miami-marlins","jersey-enthusiasts","club-team","national-team",
     "retro-football-jersey","kids-jersey","women-s-jersey","womens-jersey","jacket-suit",
     "polo-suit-short-sleeve-suit","windbreaker","warmweet-jacket","player","fan","trousers",
     "pants","shorts","football-socks","soccer-others","formula-1","blind-box","premier-league","la-liga","serie-a","bundesliga","ligue-1",
@@ -337,7 +337,7 @@ def product_detail(url, team):
     reasons = []
     if not title: reasons.append("titre absent")
     if not sizes: reasons.append("tailles non extraites")
-    if size_audience == "unknown": reasons.append("catégorie adulte/enfant non confirmée")
+    if size_audience != "adult": reasons.append("maillot adulte non confirmé (enfant/mixte/inconnu)")
     if patch_status == "unreadable": reasons.append("options de patch détectées mais illisibles")
     if not images: reasons.append("image principale absente")
     if not season: reasons.append("saison/année non identifiable")

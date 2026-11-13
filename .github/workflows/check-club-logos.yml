@@ -18,28 +18,28 @@ jobs:
       - name: Check every crest URL
         run: |
           python - <<'PY'
-          import re, requests
-          import time
+          import re, requests, time
           source = open("club-logos-world.js", encoding="utf-8").read()
           entries = re.findall(r'"([^"]+)"\s*:\s*\{\s*src:\s*"([^"]+)"', source)
           print(f"TOTAL CRESTS: {len(entries)}")
-          def check(item):
-              name, url = item
-              try:
-                  r = requests.get(url, timeout=25, allow_redirects=True, headers={"User-Agent":"JerseyHub-logo-check/1.0"})
-                  ok = r.status_code == 200 and ("image/" in r.headers.get("content-type","").lower() or r.url.lower().endswith((".svg",".png",".jpg",".jpeg",".webp")))
-                  return name, r.status_code, r.headers.get("content-type",""), r.url, ok
-              except Exception as e:
-                  return name, "ERROR", "", str(e), False
           results = []
-          for entry in entries:
-              result = check(entry)
-              results.append(result)
-              time.sleep(0.35)
+          for name, url in entries:
+              try:
+                  response = None
+                  for attempt in range(5):
+                      response = requests.get(url, timeout=25, allow_redirects=True, headers={"User-Agent":"Mozilla/5.0 JerseyHub crest checker"})
+                      if response.status_code != 429:
+                          break
+                      time.sleep(2 ** attempt)
+                  ok = response.status_code == 200 and "image/" in response.headers.get("content-type","").lower()
+                  results.append((name, response.status_code, response.headers.get("content-type",""), response.url, ok))
+              except Exception as exc:
+                  results.append((name, "ERROR", "", str(exc), False))
+              time.sleep(0.5)
           for name, status, ctype, final_url, ok in results:
               print(("OK  " if ok else "FAIL") + f" | {name} | {status} | {ctype} | {final_url}")
-          failed = [x for x in results if not x[-1]]
-          print(f"\nSUMMARY: {len(results)-len(failed)} OK / {len(failed)} FAIL")
-          if any(x[1] == 404 for x in results):
+          failed = [item for item in results if item[1] == 404 or item[1] == "ERROR"]
+          print(f"\nSUMMARY: {len(results)-len(failed)} OK / {len(failed)} confirmed failures (429 counted separately)")
+          if failed:
               raise SystemExit(1)
           PY

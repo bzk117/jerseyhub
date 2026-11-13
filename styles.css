@@ -233,7 +233,7 @@ button,input,select{font:inherit}.topbar{height:82px;display:flex;align-items:ce
 /* Bannière d'accueil unique avec zones de navigation accessibles */
 [hidden]{display:none!important}
 .jh-category-banner{position:relative;width:100%;max-width:1672px;margin:8px auto 28px;line-height:0;isolation:isolate}
-.jh-category-banner>img{display:block;width:100%;height:auto;aspect-ratio:1672/941;object-fit:contain;border-radius:14px}
+.jh-category-banner>img{display:block;width:100%;height:auto;aspect-ratio:1536/1024;object-fit:contain;border-radius:14px}
 .jh-banner-hotspot{position:absolute;left:calc(var(--x)*100%);top:calc(var(--y)*100%);width:calc(var(--w)*100%);height:calc(var(--h)*100%);border:0;border-radius:12px;background:transparent;cursor:pointer;z-index:2}
 .jh-banner-hotspot:hover,.jh-banner-hotspot:focus-visible{outline:3px solid #f4bd22;outline-offset:-4px;background:#f4bd2212}
 .jh-banner-hotspot:focus-visible{outline-offset:-6px}

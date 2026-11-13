@@ -385,3 +385,26 @@ button:disabled{cursor:not-allowed;opacity:.58}
  .jh-mobile-home-grid .category-info h3{font-size:15px}
  .catalog-grid:not(.jh-mobile-home-grid){gap:8px}
 }
+
+
+/* Compteur de fréquentation réservé à l'administrateur. */
+.jh-admin-visitor-counter{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  margin-left:auto;
+  padding:8px 12px;
+  border:1px solid #665326;
+  border-radius:8px;
+  background:#111820;
+  color:#c7cfda;
+  font-size:11px;
+}
+.jh-admin-visitor-counter strong{
+  color:#f4bd22;
+  font-size:15px;
+  font-variant-numeric:tabular-nums;
+}
+@media(max-width:760px){
+  .jh-admin-visitor-counter{margin-left:0}
+}

@@ -85,3 +85,5 @@ window.JH_CLUB_LEAGUE_LOGOS = Object.assign(window.JH_CLUB_LEAGUE_LOGOS || {}, {
   "Anderlecht": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/RSC%20Anderlecht%20logo.svg", alt: "Écusson Anderlecht" },
   "University of Chile": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/Club%20Universidad%20de%20Chile%20logo.svg", alt: "Écusson Universidad de Chile" }
 });
+
+// Validation trigger: all crest image URLs are checked by GitHub Actions.

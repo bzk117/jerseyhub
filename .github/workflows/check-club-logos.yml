@@ -21,7 +21,7 @@ jobs:
           import re, requests
           from concurrent.futures import ThreadPoolExecutor
           source = open("club-logos-world.js", encoding="utf-8").read()
-          entries = re.findall(r'"([^"]+)"\\s*:\\s*\\{\\s*src:\\s*"([^"]+)"', source)
+          entries = re.findall(r'"([^"]+)"\s*:\s*\\{\s*src:\s*"([^"]+)"', source)
           entries = [(name,url) for name,url in entries if "commons.wikimedia.org" not in url]
           print(f"CHECKING {len(entries)} NON-WIKIMEDIA CRESTS")
           def check(item):
@@ -37,6 +37,6 @@ jobs:
           for name,status,ctype,url,ok in results:
               print(("OK  " if ok else "FAIL")+" | "+name+" | "+str(status)+" | "+ctype+" | "+url)
           failed=[x for x in results if x[1] in (404,"ERROR")]
-          print(f"\\nSUMMARY: {len(results)-len(failed)} accessible / {len(failed)} confirmed 404 or network failures")
+          print(f"\nSUMMARY: {len(results)-len(failed)} accessible / {len(failed)} confirmed 404 or network failures")
           if failed: raise SystemExit(1)
           PY

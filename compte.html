@@ -87,10 +87,23 @@
  async function loadRequests(){
   const loadToken=++requestsLoadToken;
   const box=$('requestsList');box.textContent='Chargement…';
-  const {data,error}=await db.from('requests').select('id,order_number,status,created_at,admin_approved_at,tracking_number,tracking_url,price_eur,international_shipping_eur,request_items(category,team_brand,model,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur,custom_price_eur),request_events(event_type,old_value,new_value,created_at)').order('created_at',{ascending:false});
-  if(loadToken!==requestsLoadToken)return;
-  if(error){box.textContent="Impossible de charger le suivi des commandes.";return}
-  const rawOrders=data||[];
+  try{
+   const isAdmin=String(user?.app_metadata?.role||'').toLowerCase()==='admin';
+   const columns='id,order_number,status,created_at,admin_approved_at,tracking_number,tracking_url,price_eur,international_shipping_eur,request_items(category,team_brand,model,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur,custom_price_eur)';
+   const scope=query=>isAdmin?query:query.eq('customer_id',user.id);
+   let {data,error}=await scope(db.from('requests').select(columns+',request_events(event_type,old_value,new_value,created_at)')).order('created_at',{ascending:false});
+   // Les événements sont complémentaires : si leur relation ou leurs droits posent problème,
+   // le suivi principal (statut, articles et colis) doit tout de même rester visible.
+   if(error){
+    const retry=await scope(db.from('requests').select(columns)).order('created_at',{ascending:false});
+    data=retry.data;error=retry.error;
+   }
+   if(loadToken!==requestsLoadToken)return;
+   if(error){
+    box.textContent="Impossible de charger le suivi : "+(error.message||"erreur Supabase");
+    return;
+   }
+   const rawOrders=data||[];
   // Une commande est identifiée par son UUID ; order_number sert de garde-fou d'affichage.
   const uniqueOrders=new Map();
   rawOrders.forEach(r=>{const key=r.id||r.order_number;if(key&&!uniqueOrders.has(key))uniqueOrders.set(key,r)});
@@ -133,6 +146,9 @@
     item.append(reorder);el.append(item);
    });box.append(el);
   });
+  }catch(err){
+   if(loadToken===requestsLoadToken)box.textContent="Le suivi des commandes est momentanément indisponible : "+(err?.message||"erreur inattendue");
+  }
  }
  async function refresh(){const {data}=await db.auth.getSession();user=data.session?.user||null;if(user){const {data:verified}=await db.auth.getUser();if(verified?.user)user=verified.user}$('authPanel').classList.toggle('account-hidden',!!user);$('clientPanel').classList.toggle('account-hidden',!user);if(user){showBasket();const isAdmin=String(user.app_metadata?.role||'').toLowerCase()==='admin';$('adminShortcut').classList.toggle('account-hidden',!isAdmin);$('accountEmail').textContent=user.email||'—';$('accountCreated').textContent=user.created_at?new Date(user.created_at).toLocaleDateString('fr-BE',{day:'2-digit',month:'long',year:'numeric'}):'—';const {data:p}=await db.from('profiles').select('first_name,last_name').eq('id',user.id).maybeSingle();$('accountFirstName').textContent=p?.first_name||user.user_metadata?.first_name||'—';$('accountLastName').textContent=p?.last_name||user.user_metadata?.last_name||'—';$('welcome').textContent='Bienvenue'+(p?.first_name?' '+p.first_name:'');say('Vous êtes connecté.');await Promise.all([loadRequests(),loadComments()])}else{showBasket();say('Connectez-vous ou créez votre compte pour continuer. La validation du panier nécessite un compte.')}}
  db.auth.onAuthStateChange(()=>{setTimeout(refresh,0)});refresh();

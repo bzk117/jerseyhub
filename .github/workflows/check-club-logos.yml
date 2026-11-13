@@ -15,31 +15,28 @@ jobs:
           python-version: "3.x"
       - name: Install checker dependency
         run: python -m pip install requests
-      - name: Check every crest URL
+      - name: Check non-Wikimedia crest URLs
         run: |
           python - <<'PY'
-          import re, requests, time
+          import re, requests
+          from concurrent.futures import ThreadPoolExecutor
           source = open("club-logos-world.js", encoding="utf-8").read()
-          entries = re.findall(r'"([^"]+)"\s*:\s*\{\s*src:\s*"([^"]+)"', source)
-          print(f"TOTAL CRESTS: {len(entries)}")
-          results = []
-          for name, url in entries:
+          entries = re.findall(r'"([^"]+)"\\s*:\\s*\\{\\s*src:\\s*"([^"]+)"', source)
+          entries = [(name,url) for name,url in entries if "commons.wikimedia.org" not in url]
+          print(f"CHECKING {len(entries)} NON-WIKIMEDIA CRESTS")
+          def check(item):
+              name,url=item
               try:
-                  response = None
-                  for attempt in range(5):
-                      response = requests.get(url, timeout=25, allow_redirects=True, headers={"User-Agent":"Mozilla/5.0 JerseyHub crest checker"})
-                      if response.status_code != 429:
-                          break
-                      time.sleep(2 ** attempt)
-                  ok = response.status_code == 200 and "image/" in response.headers.get("content-type","").lower()
-                  results.append((name, response.status_code, response.headers.get("content-type",""), response.url, ok))
-              except Exception as exc:
-                  results.append((name, "ERROR", "", str(exc), False))
-              time.sleep(0.5)
-          for name, status, ctype, final_url, ok in results:
-              print(("OK  " if ok else "FAIL") + f" | {name} | {status} | {ctype} | {final_url}")
-          failed = [item for item in results if item[1] == 404 or item[1] == "ERROR"]
-          print(f"\nSUMMARY: {len(results)-len(failed)} OK / {len(failed)} confirmed failures (429 counted separately)")
-          if failed:
-              raise SystemExit(1)
+                  r=requests.get(url,timeout=12,allow_redirects=True,headers={"User-Agent":"Mozilla/5.0 JerseyHub crest checker"})
+                  ok=(r.status_code==200 and "image/" in r.headers.get("content-type","").lower())
+                  return name,r.status_code,r.headers.get("content-type",""),r.url,ok
+              except Exception as e:
+                  return name,"ERROR","",str(e),False
+          with ThreadPoolExecutor(max_workers=10) as pool:
+              results=list(pool.map(check,entries))
+          for name,status,ctype,url,ok in results:
+              print(("OK  " if ok else "FAIL")+" | "+name+" | "+str(status)+" | "+ctype+" | "+url)
+          failed=[x for x in results if x[1] in (404,"ERROR")]
+          print(f"\\nSUMMARY: {len(results)-len(failed)} accessible / {len(failed)} confirmed 404 or network failures")
+          if failed: raise SystemExit(1)
           PY

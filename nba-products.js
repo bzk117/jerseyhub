@@ -34,12 +34,12 @@ const NBA_PRODUCTS = [
 
 // Import sans doublon : une fiche existante n'est jamais remplacée.
 NBA_PRODUCTS.forEach(product => {
+  const normalizeName = value => String(value || "").trim().toLocaleLowerCase("fr")
+    .normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
   const duplicate = PRODUCTS.some(existing =>
     existing.category === product.category &&
     existing.group === product.group &&
-    (existing.supplierUrl === product.supplierUrl ||
-     existing.sourceUrl === product.sourceUrl ||
-     existing.name?.trim().toLowerCase() === product.name.trim().toLowerCase())
+    normalizeName(existing.name) === normalizeName(product.name)
   );
   if (!duplicate) PRODUCTS.push(product);
 });

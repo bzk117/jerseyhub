@@ -21,27 +21,36 @@
   }
 
   async function init() {
-    try {
-      const id = visitorId();
-      await fetch(config.url + "/functions/v1/track-visitor", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "apikey": config.anonKey
-        },
-        body: JSON.stringify({ visitor_id: id }),
-        keepalive: true
-      });
-    } catch (error) {
-      console.warn("JerseyHub visitor tracking unavailable.", error);
-    }
-
+    let isAdmin = false;
     try {
       const { data: { user } = {} } = await db.auth.getUser();
-      if (!user || String(user.app_metadata?.role || "").toLowerCase() !== "admin") return;
+      isAdmin = !!user && String(user.app_metadata?.role || "").toLowerCase() === "admin";
+    } catch {
+      isAdmin = false;
+    }
 
-      counter.hidden = false;
-      number.textContent = "…";
+    // Les visites de l'administrateur ne gonflent pas les statistiques.
+    if (!isAdmin) {
+      try {
+        const id = visitorId();
+        await fetch(config.url + "/functions/v1/track-visitor", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "apikey": config.anonKey
+          },
+          body: JSON.stringify({ visitor_id: id }),
+          keepalive: true
+        });
+      } catch (error) {
+        console.warn("JerseyHub visitor tracking unavailable.", error);
+      }
+      return;
+    }
+
+    counter.hidden = false;
+    number.textContent = "…";
+    try {
       const { count, error } = await db
         .from("site_visitors")
         .select("visitor_id", { count: "exact", head: true });

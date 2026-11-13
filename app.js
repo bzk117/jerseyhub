@@ -40,7 +40,15 @@ function clubLeagueVisual(name,compact=false,heading=false){
  };
  const normalized=slug(String(name||"")).replace(/[^a-z0-9]+/g," ").trim();
  const aliases={"la liga":"LaLiga","laliga":"LaLiga","liga espagnole":"LaLiga","championnat espagnol":"LaLiga","uae pro league":"UAE Pro League","uae pro league":"UAE Pro League","adnoc pro league":"UAE Pro League","major league soccer":"MLS","major league soccer mls":"MLS","lms":"MLS","mls soccer":"MLS"};
- const logo=(window.JH_CLUB_LEAGUE_LOGOS&&window.JH_CLUB_LEAGUE_LOGOS[name])||logos[name]||logos[aliases[normalized]];
+ const clubLogos=window.JH_CLUB_LEAGUE_LOGOS||{};
+ const normalizeClubName=value=>slug(String(value||""))
+  .replace(/[^a-z0-9]+/g," ").trim()
+  .replace(/^(afc|fc) /,"")
+  .replace(/ (afc|fc|football club)$/,"")
+  .replace(/ united$/,"");
+ const normalizedClub=normalizeClubName(name);
+ const clubEntry=Object.entries(clubLogos).find(([clubName])=>normalizeClubName(clubName)===normalizedClub);
+ const logo=clubLogos[name]||(clubEntry&&clubEntry[1])||logos[name]||logos[aliases[normalized]];
  if(!logo)return "";
  const src=logo.src,alt=logo.alt;
  if(heading)return `<img src="${src}" alt="${alt}" width="64" height="64" loading="eager" style="display:block;width:64px;height:64px;object-fit:contain;background:#fff;padding:3px;border-radius:8px;flex:0 0 64px">`;

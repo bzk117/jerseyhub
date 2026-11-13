@@ -1,18 +1,18 @@
 /* Écussons des clubs hors Premier League pour le sélecteur JerseyHub.
    Images Wikimedia Commons ; les noms reprennent les entrées de CLUB_TEAM_GROUPS. */
 window.JH_CLUB_LEAGUE_LOGOS = Object.assign(window.JH_CLUB_LEAGUE_LOGOS || {}, {
-  "1. FC Union Berlin": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/1.%20FC%20Union%20Berlin%20Logo.svg", alt: "Écusson Union Berlin" },
-  "Augsburg": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/FCA%20Logo.gif", alt: "Écusson FC Augsburg" },
+  "1. FC Union Berlin": { src: "https://assets.football-logos.cc/logos/germany/256x256/union-berlin.b0d180f9.png", alt: "Écusson Union Berlin" },
+  "Augsburg": { src: "https://assets.football-logos.cc/logos/germany/256x256/augsburg.2bc910e0.png", alt: "Écusson FC Augsburg" },
   "Bayern Munchen": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/FC%20Bayern%20M%C3%BCnchen%20logo%20(2017).svg", alt: "Écusson Bayern Munich" },
   "Borussia Monchengladbach": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/Borussia%20M%C3%B6nchengladbach%20logo.svg", alt: "Écusson Borussia Mönchengladbach" },
   "Dortmund": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/Borussia%20Dortmund%20logo.svg", alt: "Écusson Borussia Dortmund" },
-  "Frankfurt": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt%20Hier%20W.png", alt: "Écusson Eintracht Frankfurt" },
+  "Frankfurt": { src: "https://assets.football-logos.cc/logos/germany/256x256/eintracht-frankfurt.a8244b07.png", alt: "Écusson Eintracht Frankfurt" },
   "Leverkusen": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/TSV%20Bayer%2004%20Leverkusen%20logo%20%28striped%29.svg", alt: "Écusson Bayer Leverkusen" },
   "RB LEIPZIG": { src: "https://assets.football-logos.cc/logos/germany/256x256/rb-leipzig.9d65faeb.png", alt: "Écusson RB Leipzig" },
   "St. Pauli": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/FC%20St%20Pauli%20logo.jpg", alt: "Écusson FC St. Pauli" },
   "VfB Stuttgarts": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/VfB%20Stuttgart%201893%20Logo.svg", alt: "Écusson VfB Stuttgart" },
   "VfL Wolfsburg": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/VfL%20Wolfsburg%20logo.svg", alt: "Écusson VfL Wolfsburg" },
-  "Werder Bremen": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/SV-Werder-Bremen-Logo.svg", alt: "Écusson Werder Bremen" },
+  "Werder Bremen": { src: "https://assets.football-logos.cc/logos/germany/256x256/werder-bremen.f8333154.png", alt: "Écusson Werder Bremen" },
   "Al Ahli": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/Alahlilogo.svg", alt: "Écusson Al-Ahli Saudi" },
   "Al-Hilal": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Hilal%20SFC%20logo.svg", alt: "Écusson Al-Hilal" },
   "Al-Ittihad": { src: "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Ittihad%20logo.png", alt: "Écusson Al-Ittihad" },

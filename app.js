@@ -479,7 +479,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   if(String(item.category||"").toLowerCase()==="lego")return null;
   const hasPatch=(Array.isArray(item.patchSelections)&&item.patchSelections.length>0)||(Array.isArray(item.patches)&&item.patches.length>0);
   const hasFlocking=!!item.personalization&&item.personalization!=="Aucune";
-  return hasPatch?35:(hasFlocking?30:25);
+  return (hasPatch||hasFlocking)?30:25;
  };
  function renderCart(){
   cart=read();const count=cart.reduce((n,x)=>n+(Number(x.quantity)||1),0);
@@ -643,7 +643,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    dialog.querySelector(".jh-actions").before(note);
   }
   dialog.querySelector("#jh-cancel").onclick=close;
-  if(!document.getElementById("jh-player-select-styles")){const style=document.createElement("style");style.id="jh-player-select-styles";style.textContent=".jh-player-note{color:#e7c879;font-size:13px;line-height:1.45;margin:10px 0}#jh-player-fields select,#jh-player-fields input{width:100%;box-sizing:border-box;margin:6px 0 12px;padding:11px;border:1px solid #596579;border-radius:8px;background:#111a26;color:#fff}";document.head.appendChild(style)}
+  if(!document.getElementById("jh-player-select-styles")){const style=document.createElement("style");style.id="jh-player-select-styles";style.textContent=".jh-player-note{color:#e7c879;font-size:13px;line-height:1.45;margin:10px 0}#jh-player-fields select,#jh-player-fields input{width:100%;box-sizing:border-box;margin:6px 0 12px;padding:11px;border:1px solid #596579;border-radius:8px;background:#111a26;color:#fff}#jh-player-fields select[size="6"]{height:228px;max-height:228px;overflow-y:auto;overscroll-behavior:contain}#jh-player-fields select[size="6"] option{padding:7px 9px}";document.head.appendChild(style)}
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
   const normalizeRosterKey=value=>slug(String(value||"")).replace(/[^a-z0-9]/g,"");
   const rosterSource=[p.group,p.team,p.name].filter(Boolean).map(normalizeRosterKey);
@@ -661,7 +661,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    if(person.value==="Nom et numéro du joueur"){
     if(!isNational&&!isClub){fields.innerHTML='<p class="jh-player-note">Saisissez le nom et le numéro manuellement.</p><label for="jh-name">Nom du joueur</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';return}
     const options=isNational?(Array.isArray(nationalRoster)?nationalRoster:[]):clubRoster;
-    fields.innerHTML='<p class="jh-player-note">'+(options.length?(isNational?"Effectif national disponible. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro.":"Effectif du club vérifié. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro."):"Aucun effectif vérifié pour cette fiche. Vous pouvez saisir le nom et le numéro manuellement.")+'</p>'+(options.length?'<label for="jh-player-select">Joueur</label><select id="jh-player-select"><option value="">Choisir un joueur</option>'+options.map((x,i)=>{const playerName=Array.isArray(x)?x[0]:x.name;const playerNumber=Array.isArray(x)?x[2]:x.number;return '<option value="'+i+'">'+esc(playerName)+' — #'+esc(playerNumber)+'</option>'}).join("")+'</select>':'')+'<label for="jh-name">Nom sur le maillot</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';
+    fields.innerHTML='<p class="jh-player-note">'+(options.length?(isNational?"Effectif national disponible. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro.":"Effectif du club vérifié. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro."):"Aucun effectif vérifié pour cette fiche. Vous pouvez saisir le nom et le numéro manuellement.")+'</p>'+(options.length?'<label for="jh-player-select">Joueur</label><select id="jh-player-select" size="6" aria-label="Liste des joueurs"><option value="">Choisir un joueur</option>'+options.map((x,i)=>{const playerName=Array.isArray(x)?x[0]:x.name;const playerNumber=Array.isArray(x)?x[2]:x.number;return '<option value="'+i+'">'+esc(playerName)+' — #'+esc(playerNumber)+'</option>'}).join("")+'</select>':'')+'<label for="jh-name">Nom sur le maillot</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';
     const select=fields.querySelector("#jh-player-select");
     if(select)select.onchange=()=>{if(select.value===""){fields.querySelector("#jh-name").value="";fields.querySelector("#jh-number").value="";return}const chosen=options[Number(select.value)];if(chosen){const playerName=Array.isArray(chosen)?chosen[0]:chosen.name;const shirtName=Array.isArray(chosen)?chosen[1]:chosen.shirt;const playerNumber=Array.isArray(chosen)?chosen[2]:chosen.number;fields.querySelector("#jh-name").value=shirtName||playerName||"";fields.querySelector("#jh-number").value=playerNumber??"";}};
     return;
@@ -671,7 +671,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const updatePricePreview=()=>{
    const hasPatch=Array.from(dialog.querySelectorAll(".jh-patch-choice input:checked")).some(input=>input.value!=="");
    const hasFlocking=person.value!=="Aucune";
-   const price=hasPatch?35:(hasFlocking?30:25);
+   const price=(hasPatch||hasFlocking)?30:25;
    const preview=dialog.querySelector("#jh-price-preview-value");
    if(preview)preview.textContent=price+" € — frais de port compris"+(hasPatch?" · patch(s) inclus":hasFlocking?" · flocage inclus":"");
   };
@@ -691,7 +691,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    }):[];
    const patches=patchSelections.map(selection=>selection.label);
    const patchTotalEur=patchSelections.reduce((total,selection)=>total+(Number(selection.extra_price_eur)||0),0);
-   const unitPriceEur=patchSelections.length?35:(person.value!=="Aucune"?30:25);
+   const unitPriceEur=(patchSelections.length>0||person.value!=="Aucune")?30:25;
    const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
    const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,unitPriceEur,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
    write(next);close();showCart();

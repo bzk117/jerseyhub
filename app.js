@@ -647,13 +647,11 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
   const normalizeRosterKey=value=>slug(String(value||"")).replace(/[^a-z0-9]/g,"");
   const rosterSource=[p.group,p.team,p.name].filter(Boolean).map(normalizeRosterKey);
-  // Les 48 effectifs présents dans national-players.js sont les listes officielles FIFA 2026.
-  // Ne pas les proposer sur un maillot d'une autre saison : le flocage doit correspondre à l'époque du modèle.
+  // Les effectifs FIFA 2026 sont proposés sur les maillots actuels 2025/26 et 2026/27.
+  // Les modèles rétro, enfants et articles d'entraînement/accessoires gardent la saisie manuelle.
   const rosterSeasonText=String(p.season||"")+" "+String(p.name||"");
-  // Les maillots World Cup 2025/26 correspondent aussi aux effectifs FIFA 2026.
-  // Les modèles rétro ou d'une autre saison ne récupèrent pas automatiquement l'effectif 2026.
-  const fifaRosterYearCompatible=/(?:2026|26[-/ ]?27)/i.test(rosterSeasonText)||(/2025[\s/-]+26/i.test(rosterSeasonText)&&/world\s*cup/i.test(String(p.name||"")));
-  const rosterKey=isNational&&fifaRosterYearCompatible&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
+  const rosterIsCurrentNationalShirt=/(?:2026|26[-/ ]?27|2025[\s/-]+26)/i.test(rosterSeasonText)&&!/(?:\bretro\b|\bkids?\b|\bbaby\b|\btraining\b|\bshorts?\b|\bsocks?\b|\bwindbreaker\b|\bjacket\b|\btrench\b|\bhoodie\b|\bpolo\b|\bt[\s-]?shirt\b|\btracksuit\b|\bsuit\b)/i.test(rosterSeasonText);
+  const rosterKey=isNational&&rosterIsCurrentNationalShirt&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
   const clubRoster=isClub&&Array.isArray(p.players)?p.players:[];
   const renderPersonalization=()=>{

@@ -106,7 +106,13 @@ function card(item,kind){
  return div;
 }
 function isReadyForCatalog(p){
- // Une fiche est publiable si sa source fournisseur est explicitement vérifiée.
+ // Les maillots NBA importés ont été autorisés à la publication avec tailles et photos,
+ // même si leur validation adulte/fournisseur reste à effectuer.
+ const imageOk = typeof p.image === "string" && (/^https?:\/\//i.test(p.image) || /^assets\/equipes-nationales\//.test(p.image));
+ const sizesOk = Array.isArray(p.sizes) && p.sizes.length > 0 && p.sizes.every(s => typeof s === "string" && s.trim());
+ const nameOk = typeof p.name === "string" && p.name.trim().length > 0;
+ const nbaImportOk = p.league === "NBA" && p.category === "sports" &&
+  typeof p.group === "string" && p.group.trim().length > 0 && imageOk && sizesOk && nameOk;
  const viviSourceOk = p.supplier === "Vivi Jersey" && (
   (typeof p.sourceUrl === "string" && /^https?:\/\/([a-z0-9-]+\.)?vivi-jersey\.com\//i.test(p.sourceUrl)) ||
   (typeof p.supplierUrl === "string" && /^https?:\/\/([a-z0-9-]+\.)?vivi-jersey\.com\//i.test(p.supplierUrl)) ||
@@ -114,9 +120,7 @@ function isReadyForCatalog(p){
  );
  const hklfpSourceOk = p.supplier === "HKLFP" && typeof p.supplierUrl === "string" &&
   /^https?:\/\/(www\.)?hklfp\.com\//i.test(p.supplierUrl);
- const imageOk = typeof p.image === "string" && (/^https?:\/\//i.test(p.image) || /^assets\/equipes-nationales\//.test(p.image));
- const sizesOk = Array.isArray(p.sizes) && p.sizes.length > 0 && p.sizes.every(s => typeof s === "string" && s.trim());
- return p.supplierVerified === true && (viviSourceOk || hklfpSourceOk) && imageOk && sizesOk && typeof p.name === "string" && p.name.trim().length > 0;
+ return nbaImportOk || (p.supplierVerified === true && (viviSourceOk || hklfpSourceOk) && imageOk && sizesOk && nameOk);
 }
 const CATALOG_PAGE_SIZE=18;
 let catalogPage=1,catalogPageItems=[],catalogPagePrefix=[],catalogPageHistory=[];

@@ -159,8 +159,30 @@
    const isLegoPaymentOrder=(r.request_items||[]).some(i=>/lego/i.test((i.category||'')+' '+(i.team_brand||'')+' '+(i.model||'')));
    const allLegoPricesKnown=(r.request_items||[]).every(i=>!/lego/i.test((i.category||'')+' '+(i.team_brand||'')+' '+(i.model||''))||(i.custom_price_eur!==null&&i.custom_price_eur!==undefined));
    if(r.payment_status!=='Payé'&&(!isLegoPaymentOrder||(r.price_confirmed_at&&r.price_eur!==null&&r.price_eur!==undefined))){
-    const payButton=document.createElement('button');payButton.type='button';payButton.className='gold-button';payButton.textContent='Payer maintenant avec PayPal';
-    payButton.onclick=async()=>{payButton.disabled=true;try{const {data:payment,error}=await db.functions.invoke('jerseyhub-paypal',{body:{action:'create',requestId:r.id}});if(error)throw new Error(payment?.error||error.message||'Paiement PayPal indisponible.');if(!payment?.ok||!payment.approveUrl)throw new Error(payment?.error||'Lien PayPal indisponible.');location.assign(payment.approveUrl)}catch(err){say(err.message||'Impossible de démarrer le paiement.',true);payButton.disabled=false}};
+    const payButton=document.createElement('button');
+    payButton.type='button';
+    payButton.className='gold-button account-paypal-button';
+    payButton.textContent='Payer maintenant avec PayPal';
+    payButton.setAttribute('data-paypal-request',r.id);
+    payButton.style.cssText='display:inline-flex!important;position:relative;z-index:10;pointer-events:auto;cursor:pointer;opacity:1;';
+    payButton.addEventListener('click',async event=>{
+     event.preventDefault();
+     event.stopPropagation();
+     if(payButton.disabled)return;
+     payButton.disabled=true;
+     payButton.textContent='Connexion à PayPal…';
+     say('Connexion sécurisée à PayPal en cours…');
+     try{
+      const {data:payment,error}=await db.functions.invoke('jerseyhub-paypal',{body:{action:'create',requestId:r.id}});
+      if(error)throw new Error(payment?.error||error.message||'Paiement PayPal indisponible.');
+      if(!payment?.ok||!payment.approveUrl)throw new Error(payment?.error||'PayPal n’a pas retourné de lien de paiement.');
+      window.location.href=payment.approveUrl;
+     }catch(err){
+      say(err.message||'Impossible de démarrer le paiement.',true);
+      payButton.disabled=false;
+      payButton.textContent='Réessayer avec PayPal';
+     }
+    });
     el.append(payButton);
    }
    const copy=document.createElement('button');copy.type='button';copy.className='account-copy-button';copy.textContent='Copier le numéro de commande';

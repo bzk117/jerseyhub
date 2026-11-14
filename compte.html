@@ -77,9 +77,10 @@
    const {error:itemErr}=await db.from('request_items').insert(rows);if(itemErr){await db.from('requests').delete().eq('id',req.id);throw itemErr}
    if(paymentMethod==='paypal'){
     const {data:payment,error:paymentError}=await db.functions.invoke('jerseyhub-paypal',{body:{action:'create',requestId:req.id}});
-    if(paymentError)throw new Error(payment?.error||paymentError.message||'Impossible de préparer le paiement PayPal.');
-    if(!payment?.ok||!payment.approveUrl)throw new Error(payment?.error||'PayPal n’a pas fourni de lien de paiement.');
-    say('Commande '+req.order_number+' créée. Redirection vers PayPal…');
+    if(paymentError||!payment?.ok||!payment.approveUrl){
+     localStorage.removeItem(CART_KEY);showBasket();say('Commande '+req.order_number+' enregistrée, mais le paiement PayPal n’a pas pu démarrer. Elle reste dans votre compte et vous pourrez réessayer depuis le suivi.',true);await loadRequests();return;
+    }
+    localStorage.removeItem(CART_KEY);showBasket();say('Commande '+req.order_number+' créée. Redirection vers PayPal…');
     location.assign(payment.approveUrl);return;
    }
    localStorage.removeItem(CART_KEY);showBasket();say('Commande '+req.order_number+' enregistrée. Paiement en espèces en attente de réception.');await loadRequests();

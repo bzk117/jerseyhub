@@ -479,7 +479,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   if(String(item.category||"").toLowerCase()==="lego")return null;
   const hasPatch=(Array.isArray(item.patchSelections)&&item.patchSelections.length>0)||(Array.isArray(item.patches)&&item.patches.length>0);
   const hasFlocking=!!item.personalization&&item.personalization!=="Aucune";
-  return hasPatch?35:(hasFlocking?30:25);
+  return (hasPatch||hasFlocking)?30:25;
  };
  function renderCart(){
   cart=read();const count=cart.reduce((n,x)=>n+(Number(x.quantity)||1),0);
@@ -671,7 +671,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const updatePricePreview=()=>{
    const hasPatch=Array.from(dialog.querySelectorAll(".jh-patch-choice input:checked")).some(input=>input.value!=="");
    const hasFlocking=person.value!=="Aucune";
-   const price=hasPatch?35:(hasFlocking?30:25);
+   const price=(hasPatch||hasFlocking)?30:25;
    const preview=dialog.querySelector("#jh-price-preview-value");
    if(preview)preview.textContent=price+" € — frais de port compris"+(hasPatch?" · patch(s) inclus":hasFlocking?" · flocage inclus":"");
   };
@@ -691,7 +691,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    }):[];
    const patches=patchSelections.map(selection=>selection.label);
    const patchTotalEur=patchSelections.reduce((total,selection)=>total+(Number(selection.extra_price_eur)||0),0);
-   const unitPriceEur=patchSelections.length?35:(person.value!=="Aucune"?30:25);
+   const unitPriceEur=(patchSelections.length||person.value!=="Aucune")?30:25;
    const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
    const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,unitPriceEur,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
    write(next);close();showCart();

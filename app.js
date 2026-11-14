@@ -653,7 +653,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   // Les maillots World Cup 2025/26 correspondent aussi aux effectifs FIFA 2026.
   // Les modèles rétro ou d'une autre saison ne récupèrent pas automatiquement l'effectif 2026.
   const fifaRosterYearCompatible=/(?:2026|26[-/ ]?27)/i.test(rosterSeasonText)||(/2025[\s/-]+26/i.test(rosterSeasonText)&&/world\s*cup/i.test(String(p.name||"")));
-  const rosterKey=isNational&&fifaRosterYearCompatible&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
+  const rosterKey=isNational&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
   const clubRoster=isClub&&Array.isArray(p.players)?p.players:[];
   const renderPersonalization=()=>{

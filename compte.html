@@ -110,7 +110,7 @@
   const box=$('requestsList');box.textContent='Chargement…';
   try{
    const isAdmin=String(user?.app_metadata?.role||'').toLowerCase()==='admin';
-   const columns='id,order_number,status,created_at,admin_approved_at,tracking_number,tracking_url,price_eur,international_shipping_eur,payment_status,payment_method,paid_at,request_items(category,team_brand,model,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur,custom_price_eur)';
+   const columns='id,order_number,status,created_at,admin_approved_at,tracking_number,tracking_url,price_eur,price_confirmed_at,international_shipping_eur,payment_status,payment_method,paid_at,request_items(category,team_brand,model,size,quantity,status,customization_type,custom_name,custom_number,patch_selections,patch_total_eur,custom_price_eur)';
    const scope=query=>isAdmin?query:query.eq('customer_id',user.id);
    let {data,error}=await scope(db.from('requests').select(columns+',request_events(event_type,old_value,new_value,created_at)')).order('created_at',{ascending:false});
    // Les événements sont complémentaires : si leur relation ou leurs droits posent problème,
@@ -158,7 +158,7 @@
    el.innerHTML='<p><b>Commande n° '+esc(r.order_number)+'</b></p><p><small>Date de commande : '+orderDate+'</small></p>'+legoNoticeHtml+priceHtml+internationalFeeHtml+paymentInfo+'<p><span class="account-status">'+esc(status)+'</span></p>'+timeline+noticeHtml+tracking+'<p><b>Articles de la commande :</b></p>';
    const isLegoPaymentOrder=(r.request_items||[]).some(i=>/lego/i.test((i.category||'')+' '+(i.team_brand||'')+' '+(i.model||'')));
    const allLegoPricesKnown=(r.request_items||[]).every(i=>!/lego/i.test((i.category||'')+' '+(i.team_brand||'')+' '+(i.model||''))||(i.custom_price_eur!==null&&i.custom_price_eur!==undefined));
-   if(r.payment_status!=='Payé'&&((r.price_eur!==null&&r.price_eur!==undefined)||(isLegoPaymentOrder&&allLegoPricesKnown))){
+   if(r.payment_status!=='Payé'&&(!isLegoPaymentOrder||(r.price_confirmed_at&&r.price_eur!==null&&r.price_eur!==undefined))){
     const payButton=document.createElement('button');payButton.type='button';payButton.className='gold-button';payButton.textContent='Payer maintenant avec PayPal';
     payButton.onclick=async()=>{payButton.disabled=true;try{const {data:payment,error}=await db.functions.invoke('jerseyhub-paypal',{body:{action:'create',requestId:r.id}});if(error)throw new Error(payment?.error||error.message||'Paiement PayPal indisponible.');if(!payment?.ok||!payment.approveUrl)throw new Error(payment?.error||'Lien PayPal indisponible.');location.assign(payment.approveUrl)}catch(err){say(err.message||'Impossible de démarrer le paiement.',true);payButton.disabled=false}};
     el.append(payButton);

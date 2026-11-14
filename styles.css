@@ -236,7 +236,7 @@ button,input,select{font:inherit}.topbar{height:82px;display:flex;align-items:ce
 .jh-category-banner>img{display:block;width:100%;height:auto;aspect-ratio:1536/1024;object-fit:contain;border-radius:14px}
 .jh-category-banner>img{pointer-events:none}
 .jh-banner-hotspot{pointer-events:auto}
-.jh-banner-hotspot{position:absolute;left:calc(var(--x)*100%);top:calc(var(--y)*100%);width:calc(var(--w)*100%);height:calc(var(--h)*100%);border:0;border-radius:12px;background:transparent;cursor:pointer;z-index:2}
+.jh-banner-hotspot{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h);padding:0;border:0;border-radius:12px;background:transparent;cursor:pointer;z-index:2}
 .jh-banner-hotspot:hover,.jh-banner-hotspot:focus-visible{outline:3px solid #f4bd22;outline-offset:-4px;background:#f4bd2212}
 .jh-banner-hotspot:focus-visible{outline-offset:-6px}
 @media(max-width:760px){.jh-category-banner{margin:0 auto 18px}.jh-category-banner>img{border-radius:8px}.jh-banner-hotspot{border-radius:6px}}

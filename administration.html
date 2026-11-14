@@ -165,6 +165,7 @@ async function runR2Inventory(){
  finally{button.disabled=false}
 }
 $('startR2Inventory').onclick=runR2Inventory;$('saveLeagueLogo').onclick=saveLeagueLogo;
+$('copyPaypalSupplierLink').onclick=async()=>{const input=$('paypalSupplierLink'),feedback=$('paypalSupplierCopyFeedback');try{input.focus();input.select();input.setSelectionRange(0,input.value.length);if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(input.value)}else if(!document.execCommand('copy'))throw new Error('Copie automatique indisponible');feedback.textContent='Lien PayPal copié.'}catch(error){feedback.textContent='Sélectionne le lien dans le champ puis copie-le.'}};
 $('loginForm').onsubmit=async e=>{e.preventDefault();const {error}=await db.auth.signInWithPassword({email:$('email').value.trim(),password:$('password').value});if(error){say(error.message,true);return}await refresh()};
 $('logout').onclick=async()=>{await db.auth.signOut();selected=null;await refresh()};$('reload').onclick=async()=>{await load()};$('archiveFilter').onchange=()=>{selected=null;$('detail').textContent='Sélectionnez une demande.';load()};db.auth.onAuthStateChange(()=>setTimeout(refresh,0));refresh();
 })();

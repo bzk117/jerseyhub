@@ -418,7 +418,7 @@ window.addEventListener("load",function(){
  });
 });
 renderHome();
-document.querySelectorAll("[data-jh-banner-action]").forEach(button=>button.addEventListener("click",()=>navigateBannerCategory(button.dataset.jhBannerAction)));
+
 document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>{
  document.querySelectorAll(".nav-link").forEach(x=>x.classList.remove("active"));
  b.classList.add("active");

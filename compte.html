@@ -41,6 +41,12 @@
  let mode='login', user=null;
  const CART_KEY='jerseyhub_cart_v1';
  const getCart=()=>{try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')}catch{return []}};
+ const jerseyUnitPrice=i=>{
+  if(String(i.category||'').toLowerCase()==='lego')return null;
+  const hasPatch=(Array.isArray(i.patchSelections)&&i.patchSelections.length>0)||(Array.isArray(i.patches)&&i.patches.length>0);
+  const hasFlocking=!!i.personalization&&i.personalization!=='Aucune';
+  return hasPatch?35:(hasFlocking?30:25);
+ };
  const showBasket=()=>{
   const items=getCart(),box=$('basketItems'),btn=$('validateBasket');
   if(!box||!btn)return;
@@ -48,10 +54,13 @@
   if(!items.length)box.textContent='Votre panier est vide. Ajoutez des articles depuis le catalogue.';
   items.forEach((i,n)=>{
    const el=document.createElement('article');el.className='account-request';
-   el.innerHTML='<b>'+esc(i.name)+'</b><p><small>Taille : '+esc(i.size)+' · Qté : '+esc(i.quantity)+'</small>'+(i.category==='lego'?'<br><strong>Prix du LEGO : '+esc(i.priceLabel||'Prix non renseigné')+'</strong>':'')+'<br><small>Patchs : '+esc((i.patchSelections||[]).map(p=>'Emplacement '+p.slot+' : '+p.label).join(' · ')||(i.patches||[]).join(', ')||'Aucun')+'</small><br><small>Personnalisation : '+esc(i.personalization||'Aucune')+(i.player?' — '+esc(i.player):'')+(i.customName?' — '+esc(i.customName):'')+(i.customNumber?' #'+esc(i.customNumber):'')+'</small></p><button type="button" style="padding:9px 12px;background:#351919;color:#fff;border:1px solid #844;border-radius:7px">Retirer cet article</button>';
+   const unitPrice=jerseyUnitPrice(i);
+   el.innerHTML='<b>'+esc(i.name)+'</b><p><small>Taille : '+esc(i.size)+' · Qté : '+esc(i.quantity)+'</small>'+(i.category==='lego'?'<br><strong>Prix du LEGO : '+esc(i.priceLabel||'Prix non renseigné')+'</strong>':'<br><strong>'+unitPrice+' € / maillot · Frais de port compris</strong>')+'<br><small>Patchs : '+esc((i.patchSelections||[]).map(p=>'Emplacement '+p.slot+' : '+p.label).join(' · ')||(i.patches||[]).join(', ')||'Aucun')+'</small><br><small>Personnalisation : '+esc(i.personalization||'Aucune')+(i.player?' — '+esc(i.player):'')+(i.customName?' — '+esc(i.customName):'')+(i.customNumber?' #'+esc(i.customNumber):'')+'</small></p><button type="button" style="padding:9px 12px;background:#351919;color:#fff;border:1px solid #844;border-radius:7px">Retirer cet article</button>';
    el.querySelector('button').onclick=()=>{const next=getCart();next.splice(n,1);localStorage.setItem(CART_KEY,JSON.stringify(next));showBasket()};
    box.append(el);
   });
+  const jerseyTotal=items.reduce((sum,item)=>{const unit=jerseyUnitPrice(item);return sum+(unit===null?0:unit*(Number(item.quantity)||1))},0);
+  if(items.some(item=>jerseyUnitPrice(item)!==null)){const total=document.createElement('p');total.className='intro';total.innerHTML='<strong>Sous-total des maillots : '+jerseyTotal+' €</strong><br>Frais de port compris.';box.append(total)}
   btn.disabled=!items.length;btn.textContent=items.length?'Valider ma demande ('+items.length+' article(s))':'Panier vide';
  };
  $('validateBasket').addEventListener('click',async()=>{
@@ -59,7 +68,9 @@
   const items=getCart();if(!items.length){say('Votre panier est vide.',true);return}
   const btn=$('validateBasket');btn.disabled=true;
   try{
-   const {data:req,error:reqErr}=await db.from('requests').insert({customer_id:user.id,customer_note:null}).select('id,order_number').single();if(reqErr)throw reqErr;
+   const hasLego=items.some(i=>String(i.category||'').toLowerCase()==='lego');
+   const requestPrice=hasLego?null:items.reduce((sum,item)=>sum+jerseyUnitPrice(item)*(Number(item.quantity)||1),0);
+   const {data:req,error:reqErr}=await db.from('requests').insert({customer_id:user.id,customer_note:null,price_eur:requestPrice}).select('id,order_number').single();if(reqErr)throw reqErr;
    const rows=items.map(i=>({request_id:req.id,category:i.category||'Maillot de football',team_brand:i.team||'Article JerseyHub',model:[i.model||i.name,(i.kitType?'Type : '+i.kitType:''),(i.version?'Version : '+i.version:''),(i.patches&&i.patches.length?'Patch(s): '+i.patches.join(', '):'')].filter(Boolean).join(' — '),season:i.season||null,size:i.size,quantity:Number(i.quantity)||1,customization_type:i.personalization||'Aucune',custom_name:i.player||i.customName||null,custom_number:i.customNumber||null,patch_selections:i.patchSelections||[],patch_total_eur:Number(i.patchTotalEur)||0,custom_price_eur:i.category==='lego'&&i.customPrice!==null&&i.customPrice!==undefined&&i.customPrice!==''&&Number.isFinite(Number(i.customPrice))?Number(i.customPrice):null,image_url:i.image||null}));
    const {error:itemErr}=await db.from('request_items').insert(rows);if(itemErr){await db.from('requests').delete().eq('id',req.id);throw itemErr}
    localStorage.removeItem(CART_KEY);showBasket();say('Demande envoyée ! Numéro de commande : '+req.order_number+'.');await loadRequests();

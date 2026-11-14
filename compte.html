@@ -45,7 +45,7 @@
   if(String(i.category||'').toLowerCase()==='lego')return null;
   const hasPatch=(Array.isArray(i.patchSelections)&&i.patchSelections.length>0)||(Array.isArray(i.patches)&&i.patches.length>0);
   const hasFlocking=!!i.personalization&&i.personalization!=='Aucune';
-  return hasPatch?35:(hasFlocking?30:25);
+  return (hasPatch||hasFlocking)?30:25;
  };
  const showBasket=()=>{
   const items=getCart(),box=$('basketItems'),btn=$('validateBasket');

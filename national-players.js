@@ -1439,7 +1439,7 @@ window.JH_NATIONAL_PLAYERS = {
   ["Srđan Babić","BABIC",null],
   ["Nikola Simić","SIMIC",null],
   ["Aleksa Terzić","TERZIC",null],
-  ["Petar Šuk ačev","ACEV",null],
+  ["Petar Šukacev","SUKACEV",null],
   ["Nemanja Maksimović","MAKSIMOVIC",null],
   ["Aleksandar Stanković","STANKOVIC",null],
   ["Andrija Živković","ZIVKOVIC",null],

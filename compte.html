@@ -157,7 +157,7 @@
    el.innerHTML='<p><b>Commande n° '+esc(r.order_number)+'</b></p><p><small>Date de commande : '+orderDate+'</small></p>'+legoNoticeHtml+priceHtml+internationalFeeHtml+paymentInfo+'<p><span class="account-status">'+esc(status)+'</span></p>'+timeline+noticeHtml+tracking+'<p><b>Articles de la commande :</b></p>';
    const isLegoPaymentOrder=(r.request_items||[]).some(i=>/lego/i.test((i.category||'')+' '+(i.team_brand||'')+' '+(i.model||'')));
    const allLegoPricesKnown=(r.request_items||[]).every(i=>!/lego/i.test((i.category||'')+' '+(i.team_brand||'')+' '+(i.model||''))||(i.custom_price_eur!==null&&i.custom_price_eur!==undefined));
-   if(r.payment_status!=='Payé'&&r.price_eur!==null&&r.price_eur!==undefined||r.payment_status!=='Payé'&&isLegoPaymentOrder&&allLegoPricesKnown){
+   if(r.payment_status!=='Payé'&&((r.price_eur!==null&&r.price_eur!==undefined)||(isLegoPaymentOrder&&allLegoPricesKnown))){
     const payButton=document.createElement('button');payButton.type='button';payButton.className='gold-button';payButton.textContent='Payer maintenant avec PayPal';
     payButton.onclick=async()=>{payButton.disabled=true;try{const {data:payment,error}=await db.functions.invoke('jerseyhub-paypal',{body:{action:'create',requestId:r.id}});if(error)throw new Error(payment?.error||error.message||'Paiement PayPal indisponible.');if(!payment?.ok||!payment.approveUrl)throw new Error(payment?.error||'Lien PayPal indisponible.');location.assign(payment.approveUrl)}catch(err){say(err.message||'Impossible de démarrer le paiement.',true);payButton.disabled=false}};
     el.append(payButton);

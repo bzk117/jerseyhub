@@ -4,6 +4,16 @@ let currentView="home", currentGroup=null, query="";
 $("#year").textContent=new Date().getFullYear();
 
 function slug(s){return s.toLocaleLowerCase("fr").normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
+function orderNbaSizes(values){
+ const preferred=["L","M","S","XL","2XL"];
+ const rank=new Map(preferred.map((size,index)=>[size,index]));
+ return [...values].sort((a,b)=>{
+  const aa=String(a).trim().toUpperCase(),bb=String(b).trim().toUpperCase();
+  const ra=rank.has(aa)?rank.get(aa):preferred.length;
+  const rb=rank.has(bb)?rank.get(bb):preferred.length;
+  return ra-rb;
+ });
+}
 const NBA_R2_MANIFEST_URL="https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/NBA_IMAGES_TAILLES_FINAL.json";
 const nbaManifestReady=(async()=>{
  try{
@@ -240,7 +250,8 @@ function productCard(p){
  const meta=[p.season,p.kitType,p.version].filter(Boolean);
  if(meta.length){const line=document.createElement('p');line.className='product-meta';line.textContent=meta.join(' · ');info.append(line);}
  const description=document.createElement('p');description.textContent=p.description||'Modèle présenté dans le catalogue';info.append(description);
- const sizes=Array.isArray(p.sizes)?p.sizes.filter(s=>typeof s==='string'&&s.trim()):[];
+ let sizes=Array.isArray(p.sizes)?p.sizes.filter(s=>typeof s==='string'&&s.trim()):[];
+ if(p.league==="NBA")sizes=orderNbaSizes(sizes);
  if(sizes.length){
   const label=document.createElement('small');label.className='product-size-label';label.textContent='Tailles indiquées';info.append(label);
   const sizeBox=document.createElement('div');sizeBox.className='sizes';sizes.forEach(value=>{const chip=document.createElement('span');chip.className='size';chip.textContent=value;sizeBox.append(chip)});info.append(sizeBox);
@@ -583,6 +594,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const hasSeparateAudiences=p.category!=="clubs"&&adultSizes.length>0&&kidsSizes.length>0;
   let selectedSizeAudience=p.category==="clubs"?"adult":(hasSeparateAudiences?"adult":((p.sizeAudience==="kids"||p.version==="kids")?"kids":"adult"));
   let sizes=cleanSizes(hasSeparateAudiences?adultSizes:(p.sizes||[]));
+  if(p.league==="NBA")sizes=orderNbaSizes(sizes);
   if(p.category==="clubs"&&!sizes.length){
     const sourceSizes=cleanSizes(clubSource?.sizes);
     sizes=sourceSizes.length?sourceSizes:(selectedSizeAudience==="kids"?kidsSizes:adultSizes);

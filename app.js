@@ -129,6 +129,19 @@ function renderSidebar(){
  el.append(sideGroup("Chaussures",SHOE_BRANDS.map(x=>({...x,flag:x.emoji})),"shoes"));
  el.append(sideGroup("Lifestyle & Accessoires",lifestyleCategories().map(x=>({...x,flag:x.emoji})),"lifestyle"));
 }
+function nbaTeamLogoMarkup(name){
+ const logos={
+  "Atlanta Hawks":"atl","Boston Celtics":"bos","Brooklyn Nets":"bkn","Charlotte Hornets":"cha","Chicago Bulls":"chi",
+  "Cleveland Cavaliers":"cle","Dallas Mavericks":"dal","Denver Nuggets":"den","Detroit Pistons":"det","Golden State Warriors":"gs",
+  "Houston Rockets":"hou","Indiana Pacers":"ind","LA Clippers":"lac","Los Angeles Clippers":"lac","Los Angeles Lakers":"lal",
+  "Memphis Grizzlies":"mem","Miami Heat":"mia","Milwaukee Bucks":"mil","Minnesota Timberwolves":"min","New Orleans Pelicans":"no",
+  "New York Knicks":"ny","Oklahoma City Thunder":"okc","Orlando Magic":"orl","Philadelphia 76ers":"phi","Phoenix Suns":"phx",
+  "Portland Trail Blazers":"por","Sacramento Kings":"sac","San Antonio Spurs":"sa","Toronto Raptors":"tor","Utah Jazz":"uta",
+  "Washington Wizards":"was"
+ };
+ const code=logos[name];
+ return code?'<img src="https://a.espncdn.com/i/teamlogos/nba/500/'+code+'.png" alt="Logo officiel '+esc(name)+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="display:block;width:100%;height:100%;max-height:112px;object-fit:contain;padding:10px;box-sizing:border-box">':"";
+}
 function card(item,kind){
  const div=document.createElement("article");div.className="category-card";div.tabIndex=0;div.setAttribute("role","button");
  div.dataset.jhKind=kind;div.dataset.jhName=item.name;
@@ -151,7 +164,8 @@ function card(item,kind){
   "lego":"https://images.pexels.com/photos/11015132/pexels-photo-11015132.jpeg?auto=compress&cs=tinysrgb&w=1600"
  };
  const nationalFlag=nationalFlagMarkup(item.name,false,true);
-  const visual=kind==="national"?(nationalFlag||`<img class="category-visual" src="${categoryPhotoMap["equipes-nationales"]}" alt="Équipe nationale ${displayName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`):clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${emoji}</span>`);
+  const nbaTeamLogo=kind==="sports"&&item.group==="NBA"?nbaTeamLogoMarkup(item.name):"";
+ const visual=kind==="national"?(nationalFlag||`<img class="category-visual" src="${categoryPhotoMap["equipes-nationales"]}" alt="Équipe nationale ${displayName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`):nbaTeamLogo||clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${emoji}</span>`);
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${displayName}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  // Navigation attachée directement à chaque carte, sans délégation globale.
  div.addEventListener("click",()=>{

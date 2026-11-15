@@ -160,7 +160,7 @@ function card(item,kind){
   "baseball":"https://commons.wikimedia.org/wiki/Special:FilePath/Major_League_Baseball_logo.svg",
   "hockey":"https://commons.wikimedia.org/wiki/Special:FilePath/National_Hockey_League_shield.svg",
   "gaa":"https://commons.wikimedia.org/wiki/Special:FilePath/Official_Gaelic_Athletic_Association_logo.jpg",
-  "rugby":"assets/categories/rugby-world.svg",
+  "rugby":"assets/categories/rugby-world.svg?v=20261115-rugby-cachefix-2",
   "chaussures":"https://images.pexels.com/photos/7271269/pexels-photo-7271269.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lifestyle-accessoires":"https://images.pexels.com/photos/29160881/pexels-photo-29160881/free-photo-of-trendy-urban-streetwear-look-with-headphones.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lego":"https://images.pexels.com/photos/11015132/pexels-photo-11015132.jpeg?auto=compress&cs=tinysrgb&w=1600"

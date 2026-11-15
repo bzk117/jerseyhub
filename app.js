@@ -159,7 +159,6 @@ function card(item,kind){
   "football-americain":"https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
   "baseball":"https://commons.wikimedia.org/wiki/Special:FilePath/Major_League_Baseball_logo.svg",
   "hockey":"https://commons.wikimedia.org/wiki/Special:FilePath/National_Hockey_League_shield.svg",
-  "rugby":"https://d1f00kj7ad54bu.cloudfront.net/Pictures/1024x536/9/9/0/25990_worldrugbylogo_406963.png",
   "gaa":"https://commons.wikimedia.org/wiki/Special:FilePath/Official_Gaelic_Athletic_Association_logo.jpg",
   "chaussures":"https://images.pexels.com/photos/7271269/pexels-photo-7271269.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lifestyle-accessoires":"https://images.pexels.com/photos/29160881/pexels-photo-29160881/free-photo-of-trendy-urban-streetwear-look-with-headphones.jpeg?auto=compress&cs=tinysrgb&w=1600",
@@ -167,7 +166,7 @@ function card(item,kind){
  };
  const nationalFlag=nationalFlagMarkup(item.name,false,true);
   const nbaTeamLogo=kind==="sports"&&item.group==="NBA"?nbaTeamLogoMarkup(item.name):"";
- const isSportLogo=kind==="sports"&&["NBA","NFL","Football américain","Football Americain","MLB","NHL","Rugby","Sports gaéliques"].includes(displayName);
+ const isSportLogo=kind==="sports"&&["NBA","NFL","Football américain","Football Americain","MLB","NHL","Sports gaéliques"].includes(displayName);
  const visual=kind==="national"?(nationalFlag||`<img class="category-visual" src="${categoryPhotoMap["equipes-nationales"]}" alt="Équipe nationale ${displayName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`):nbaTeamLogo||clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual${isSportLogo?" category-logo":""}" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="${isSportLogo?"Logo "+displayName:""}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${emoji}</span>`);
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${displayName}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  // Navigation attachée directement à chaque carte, sans délégation globale.
@@ -329,6 +328,7 @@ function navigateBannerCategory(action){
   mlb:["MLB","Baseball"],nhl:["NHL","Hockey sur glace","Hockey"],rugby:["Rugby"]
  };
  if(action==="national"){openView("national");return}
+ if(action==="gaa"){openView("sports");return}
  if(action==="clubs"){openView("clubs");return}
  if(action==="shoes"){openView("shoes");return}
  if(action==="lifestyle"){openView("lifestyle");return}

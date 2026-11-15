@@ -370,6 +370,9 @@ function openView(view){
  }else if(view==="shoes"){
   setHeading("SNEAKERS & CHAUSSURES","Toutes les marques","Accueil / Chaussures");
   SHOE_BRANDS.forEach(x=>grid.append(card(x,"shoes")));
+ }else if(view==="gaa"){
+  setHeading("AUTRES SPORTS","Sports gaéliques","Accueil / Sports gaéliques");
+  showConstructionState("Sports gaéliques","Les maillots de football gaélique et de hurling seront présentés ici dès que leur catalogue sera prêt.");
  }else if(view==="lifestyle"){
   setHeading("LIFESTYLE & ACCESSOIRES","Lifestyle & Accessoires","Accueil / Lifestyle & Accessoires");
   lifestyleCategories().forEach(c=>{const h=document.createElement("div");h.style.cssText="grid-column:1/-1;color:#f4bd22;font-weight:800;letter-spacing:1px;padding:12px 0 0";h.textContent=c.name;grid.append(h);c.items.forEach(name=>grid.append(card({name,flag:c.emoji,group:c.name},"lifestyle")))});

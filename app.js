@@ -112,20 +112,21 @@ function clubLeagueVisual(name,compact=false,heading=false){
  return compact?`<img src="${src}" alt="${alt}" width="22" height="22" loading="lazy" style="display:inline-block;width:22px;height:22px;object-fit:contain;background:#fff;padding:3px;border-radius:4px;vertical-align:middle;flex-shrink:0">`:`<img class="category-visual league-visual" src="${src}" alt="${alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
 }
 function allNational(){return NATIONAL_REGIONS.flatMap(r=>r.items.map(([name,flag])=>({name,flag,group:r.name,kind:"national"})))}
+function sportsCategoryItems(){return [...OTHER_SPORTS.filter(x=>slug(x.name)!==slug("Autres articles")),{name:"Sports gaéliques",emoji:"🏐",desc:"Football gaélique et hurling"}]}
 function lifestyleCategories(){return LIFESTYLE.filter(c=>!/(lego|construction)/i.test(c.name))}
 function allLifestyle(){return lifestyleCategories().flatMap(c=>[{name:c.name,emoji:c.emoji,desc:c.desc,kind:"lifestyle"},...c.items.map(name=>({name,flag:c.emoji,group:c.name,kind:"lifestyle"}))])}
 function allClubs(){return CLUB_LEAGUES.flatMap(l=>l.items.map(name=>({name,flag:"⚽",group:l.name,kind:"clubs"})))}
 function sideGroup(label,items,kind){
  const box=document.createElement("div");box.className="side-group";
  const h=document.createElement("h3");h.textContent=label;box.append(h);
- items.forEach(item=>{const b=document.createElement("button");b.className="side-item";const visual=kind==="national"?nationalFlagMarkup(item.name,true):(kind==="clubs"?(clubLeagueVisual(item.name,true)||(item.flag||item.emoji||"✦")):(item.flag||item.emoji||"✦"));const sideLabel=kind==="sports"&&/^(football américain|football americain|nfl)$/i.test(item.name)?"NFL":item.name;b.innerHTML=`<span class="side-flag">${visual}</span><span>${sideLabel}</span>`;b.onclick=()=>openGroup(kind,item.name);box.append(b)});
+ items.forEach(item=>{const b=document.createElement("button");b.className="side-item";const visual=kind==="national"?nationalFlagMarkup(item.name,true):(kind==="clubs"?(clubLeagueVisual(item.name,true)||(item.flag||item.emoji||"✦")):(item.flag||item.emoji||"✦"));const sideLabel=kind==="sports"&&/^(football américain|football americain|nfl)$/i.test(item.name)?"NFL":item.name;b.innerHTML=`<span class="side-flag">${visual}</span><span>${sideLabel}</span>`;b.onclick=()=>kind==="sports"&&item.name==="Sports gaéliques"?openView("gaa"):openGroup(kind,item.name);box.append(b)});
  return box;
 }
 function renderSidebar(){
  const el=$("#sideCategories");el.innerHTML="";
  el.append(sideGroup("Équipes nationales",allNational(),"national"));
  el.append(sideGroup("Clubs et championnats",allClubs(),"clubs"));
- el.append(sideGroup("Autres sports et articles",OTHER_SPORTS.map(x=>({...x,flag:x.emoji})),"sports"));
+ el.append(sideGroup("Autres sports",sportsCategoryItems().map(x=>({...x,flag:x.emoji})),"sports"));
  el.append(sideGroup("Chaussures",SHOE_BRANDS.map(x=>({...x,flag:x.emoji})),"shoes"));
  el.append(sideGroup("Lifestyle & Accessoires",lifestyleCategories().map(x=>({...x,flag:x.emoji})),"lifestyle"));
 }
@@ -145,27 +146,28 @@ function nbaTeamLogoMarkup(name){
 function card(item,kind){
  const div=document.createElement("article");div.className="category-card";div.tabIndex=0;div.setAttribute("role","button");
  div.dataset.jhKind=kind;div.dataset.jhName=item.name;
+ if(kind==="sports"&&item.name==="Sports gaéliques")div.dataset.jhView="gaa";
  const emoji=item.flag||item.emoji||"⚽";
  const displayName=kind==="sports"&&/^(football américain|football americain)$/i.test(item.name)?"NFL":item.name;
  const visualKey=kind==="sports"&&displayName==="NFL"?"nfl":kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
- const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain","Football américain":"football-americain","Football Americain":"football-americain",MLB:"baseball",NHL:"hockey",Rugby:"rugby","Autres articles":"autres-articles",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
+ const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain","Football américain":"football-americain","Football Americain":"football-americain",MLB:"baseball",NHL:"hockey","Sports gaéliques":"gaa",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
  const imageKey=kind==="national"?categoryImages.national:kind==="clubs"&&item.name==="Clubs de football"?categoryImages.clubs:kind==="sports"?(displayName==="NFL"?categoryImages.NFL:categoryImages[item.name]):kind==="shoes"?categoryImages.shoes:kind==="lifestyle"&&item.name==="Lifestyle & Accessoires"?categoryImages["Lifestyle & Accessoires"]:kind==="lego"?categoryImages.lego:null;
  const categoryPhotoMap={
   "equipes-nationales":"https://images.pexels.com/photos/28827841/pexels-photo-28827841/free-photo-of-illuminated-soccer-stadium-at-night.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "clubs":"https://images.pexels.com/photos/16651578/pexels-photo-16651578/free-photo-of-a-football-player-running-on-a-pitch-during-a-match.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "nba":"https://images.pexels.com/photos/32835088/pexels-photo-32835088/free-photo-of-outdoor-basketball-game-with-player-dribbling.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "football-americain":"https://images.pexels.com/photos/19912316/pexels-photo-19912316/free-photo-of-american-footballer-standing-with-ball.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "baseball":"https://images.pexels.com/photos/17723981/pexels-photo-17723981/free-photo-of-a-baseball-player-is-running-on-the-field.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "hockey":"https://images.pexels.com/photos/35643108/pexels-photo-35643108/free-photo-of-ice-hockey-players-on-rink-during-game.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "rugby":"https://images.pexels.com/photos/5116575/pexels-photo-5116575.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "autres-articles":"https://images.pexels.com/photos/13142769/pexels-photo-13142769.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "nba":"https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+  "football-americain":"https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
+  "baseball":"https://commons.wikimedia.org/wiki/Special:FilePath/Major_League_Baseball_logo.svg",
+  "hockey":"https://commons.wikimedia.org/wiki/Special:FilePath/National_Hockey_League_shield.svg",
+  "gaa":"https://commons.wikimedia.org/wiki/Special:FilePath/Official_Gaelic_Athletic_Association_logo.jpg",
   "chaussures":"https://images.pexels.com/photos/7271269/pexels-photo-7271269.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lifestyle-accessoires":"https://images.pexels.com/photos/29160881/pexels-photo-29160881/free-photo-of-trendy-urban-streetwear-look-with-headphones.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lego":"https://images.pexels.com/photos/11015132/pexels-photo-11015132.jpeg?auto=compress&cs=tinysrgb&w=1600"
  };
  const nationalFlag=nationalFlagMarkup(item.name,false,true);
   const nbaTeamLogo=kind==="sports"&&item.group==="NBA"?nbaTeamLogoMarkup(item.name):"";
- const visual=kind==="national"?(nationalFlag||`<img class="category-visual" src="${categoryPhotoMap["equipes-nationales"]}" alt="Équipe nationale ${displayName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`):nbaTeamLogo||clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${emoji}</span>`);
+ const isSportLogo=kind==="sports"&&["NBA","NFL","Football américain","Football Americain","MLB","NHL","Sports gaéliques"].includes(displayName);
+ const visual=kind==="national"?(nationalFlag||`<img class="category-visual" src="${categoryPhotoMap["equipes-nationales"]}" alt="Équipe nationale ${displayName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`):nbaTeamLogo||clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual${isSportLogo?" category-logo":""}" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="${isSportLogo?"Logo "+displayName:""}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${emoji}</span>`);
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${displayName}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  // Navigation attachée directement à chaque carte, sans délégation globale.
  div.addEventListener("click",()=>{
@@ -326,6 +328,7 @@ function navigateBannerCategory(action){
   mlb:["MLB","Baseball"],nhl:["NHL","Hockey sur glace","Hockey"],rugby:["Rugby"]
  };
  if(action==="national"){openView("national");return}
+ if(action==="gaa"){openView("sports");return}
  if(action==="clubs"){openView("clubs");return}
  if(action==="shoes"){openView("shoes");return}
  if(action==="lifestyle"){openView("lifestyle");return}
@@ -366,7 +369,7 @@ function openView(view){
   });
  }else if(view==="sports"){
   setHeading("TOUS LES SPORTS","Autres catégories","Accueil / Autres sports");
-  OTHER_SPORTS.forEach(x=>grid.append(card(x,"sports")));
+  sportsCategoryItems().forEach(x=>grid.append(card(x,"sports")));
  }else if(view==="shoes"){
   setHeading("SNEAKERS & CHAUSSURES","Toutes les marques","Accueil / Chaussures");
   SHOE_BRANDS.forEach(x=>grid.append(card(x,"shoes")));

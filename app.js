@@ -150,7 +150,7 @@ function card(item,kind){
  const emoji=item.flag||item.emoji||"⚽";
  const displayName=kind==="sports"&&/^(football américain|football americain)$/i.test(item.name)?"NFL":item.name;
  const visualKey=kind==="sports"&&displayName==="NFL"?"nfl":kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
- const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain","Football américain":"football-americain","Football Americain":"football-americain",MLB:"baseball",NHL:"hockey",Rugby:"rugby","Sports gaéliques":"gaa",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
+ const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain","Football américain":"football-americain","Football Americain":"football-americain",MLB:"baseball",NHL:"hockey","Sports gaéliques":"gaa",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
  const imageKey=kind==="national"?categoryImages.national:kind==="clubs"&&item.name==="Clubs de football"?categoryImages.clubs:kind==="sports"?(displayName==="NFL"?categoryImages.NFL:categoryImages[item.name]):kind==="shoes"?categoryImages.shoes:kind==="lifestyle"&&item.name==="Lifestyle & Accessoires"?categoryImages["Lifestyle & Accessoires"]:kind==="lego"?categoryImages.lego:null;
  const categoryPhotoMap={
   "equipes-nationales":"https://images.pexels.com/photos/28827841/pexels-photo-28827841/free-photo-of-illuminated-soccer-stadium-at-night.jpeg?auto=compress&cs=tinysrgb&w=1600",

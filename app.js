@@ -150,7 +150,7 @@ function card(item,kind){
  const emoji=item.flag||item.emoji||"⚽";
  const displayName=kind==="sports"&&/^(football américain|football americain)$/i.test(item.name)?"NFL":item.name;
  const visualKey=kind==="sports"&&displayName==="NFL"?"nfl":kind==="sports"?slug(item.name):kind==="shoes"?"shoes":kind==="national"?"national":kind==="clubs"?"clubs":slug(item.name);
- const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain","Football américain":"football-americain","Football Americain":"football-americain",MLB:"baseball",NHL:"hockey","Sports gaéliques":"gaa",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
+ const categoryImages={national:"equipes-nationales",clubs:"clubs",NBA:"nba",NFL:"football-americain","Football américain":"football-americain","Football Americain":"football-americain",MLB:"baseball",NHL:"hockey",Rugby:"rugby","Sports gaéliques":"gaa",shoes:"chaussures","Lifestyle & Accessoires":"lifestyle-accessoires",lego:"lego"};
  const imageKey=kind==="national"?categoryImages.national:kind==="clubs"&&item.name==="Clubs de football"?categoryImages.clubs:kind==="sports"?(displayName==="NFL"?categoryImages.NFL:categoryImages[item.name]):kind==="shoes"?categoryImages.shoes:kind==="lifestyle"&&item.name==="Lifestyle & Accessoires"?categoryImages["Lifestyle & Accessoires"]:kind==="lego"?categoryImages.lego:null;
  const categoryPhotoMap={
   "equipes-nationales":"https://images.pexels.com/photos/28827841/pexels-photo-28827841/free-photo-of-illuminated-soccer-stadium-at-night.jpeg?auto=compress&cs=tinysrgb&w=1600",
@@ -160,13 +160,14 @@ function card(item,kind){
   "baseball":"https://commons.wikimedia.org/wiki/Special:FilePath/Major_League_Baseball_logo.svg",
   "hockey":"https://commons.wikimedia.org/wiki/Special:FilePath/National_Hockey_League_shield.svg",
   "gaa":"https://commons.wikimedia.org/wiki/Special:FilePath/Official_Gaelic_Athletic_Association_logo.jpg",
+  "rugby":"assets/categories/rugby-world.svg",
   "chaussures":"https://images.pexels.com/photos/7271269/pexels-photo-7271269.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lifestyle-accessoires":"https://images.pexels.com/photos/29160881/pexels-photo-29160881/free-photo-of-trendy-urban-streetwear-look-with-headphones.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lego":"https://images.pexels.com/photos/11015132/pexels-photo-11015132.jpeg?auto=compress&cs=tinysrgb&w=1600"
  };
  const nationalFlag=nationalFlagMarkup(item.name,false,true);
   const nbaTeamLogo=kind==="sports"&&item.group==="NBA"?nbaTeamLogoMarkup(item.name):"";
- const isSportLogo=kind==="sports"&&["NBA","NFL","Football américain","Football Americain","MLB","NHL","Sports gaéliques"].includes(displayName);
+ const isSportLogo=kind==="sports"&&["NBA","NFL","Football américain","Football Americain","MLB","NHL","Rugby","Sports gaéliques"].includes(displayName);
  const visual=kind==="national"?(nationalFlag||`<img class="category-visual" src="${categoryPhotoMap["equipes-nationales"]}" alt="Équipe nationale ${displayName}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`):nbaTeamLogo||clubLeagueVisual(item.name,false)||(imageKey?`<img class="category-visual${isSportLogo?" category-logo":""}" src="${categoryPhotoMap[imageKey]||("assets/categories/"+imageKey+".svg")}" alt="${isSportLogo?"Logo "+displayName:""}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="emoji">${emoji}</span>`);
  div.innerHTML=`<div class="category-art art-${visualKey}">${visual}</div><div class="category-info"><h3>${displayName}</h3><p>${item.desc||item.group||"Découvrir les modèles"}</p></div>`;
  // Navigation attachée directement à chaque carte, sans délégation globale.

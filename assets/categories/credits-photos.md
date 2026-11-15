@@ -9,12 +9,12 @@ La licence autorise l'utilisation sur un site web ou une boutique en ligne, la m
 |---|---|---|
 | Équipes nationales | Siarhei Nester | https://www.pexels.com/photo/illuminated-soccer-stadium-at-night-28827841/ |
 | Clubs de football | Franco Monsalvo | https://www.pexels.com/photo/a-football-player-running-on-a-pitch-during-a-match-16651578/ |
-| NBA | Alexis Kiza | https://www.pexels.com/photo/outdoor-basketball-game-with-player-dribbling-32835088/ |
-| Football américain | Israel Torres | https://www.pexels.com/photo/american-footballer-standing-with-ball-19912316/ |
-| MLB | Israel Torres | https://www.pexels.com/photo/a-baseball-player-is-running-on-the-field-17723981/ |
-| NHL | Idean Azad | https://www.pexels.com/photo/ice-hockey-players-on-rink-during-game-35643108/ |
-| Rugby | Nayla Charo | https://www.pexels.com/photo/a-close-up-shot-of-a-rugby-ball-5116575/ |
-| Autres articles | Thomas Ronveaux | https://www.pexels.com/photo/a-football-player-gear-on-the-grass-13142769/ |
+| NBA | Logo de la ligue (ESPN CDN) | https://a.espncdn.com/i/teamlogos/leagues/500/nba.png |
+| NFL | Logo de la ligue (ESPN CDN) | https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png |
+| MLB | Logo de la ligue (Wikimedia Commons, fichier issu de MLB.com) | https://commons.wikimedia.org/wiki/File:Major_League_Baseball_logo.svg |
+| NHL | Logo de la ligue (Wikimedia Commons, source NHL.com) | https://commons.wikimedia.org/wiki/File:National_Hockey_League_shield.svg |
+| Rugby | Logo World Rugby | https://d1f00kj7ad54bu.cloudfront.net/Pictures/1024x536/9/9/0/25990_worldrugbylogo_406963.png |
+| Sports gaéliques | Logo officiel GAA (Wikimedia Commons, source GAA) | https://commons.wikimedia.org/wiki/File:Official_Gaelic_Athletic_Association_logo.jpg |
 | Chaussures | Animesh Srivastava | https://www.pexels.com/photo/a-person-wearing-cleats-7271269/ |
 | Lifestyle & Accessoires | El gringo photo | https://www.pexels.com/photo/trendy-urban-streetwear-look-with-headphones-29160881/ |
 | LEGO & Construction | Duc Anh Nguyen | https://www.pexels.com/photo/colorful-building-blocks-on-a-table-8289844/ |

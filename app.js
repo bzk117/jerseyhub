@@ -4,6 +4,39 @@ let currentView="home", currentGroup=null, query="";
 $("#year").textContent=new Date().getFullYear();
 
 function slug(s){return s.toLocaleLowerCase("fr").normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
+const NBA_R2_MANIFEST_URL="https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/NBA_IMAGES_TAILLES_FINAL.json";
+const nbaManifestReady=(async()=>{
+ try{
+  const response=await fetch(NBA_R2_MANIFEST_URL,{cache:"no-store"});
+  if(!response.ok)throw new Error("HTTP "+response.status);
+  const payload=await response.json();
+  const records=Array.isArray(payload)?payload:(Array.isArray(payload.products)?payload.products:(Array.isArray(payload.items)?payload.items:[]));
+  const key=value=>String(value||"").toLocaleLowerCase("fr").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]/g,"");
+  const manifest=new Map();
+  records.forEach(record=>{
+   if(!record||!record.name||!record.team||!Array.isArray(record.images))return;
+   const paths=record.images.filter(path=>typeof path==="string"&&path.trim()).map(path=>"https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/"+path.replace(/\\/g,"/").replace(/^\/+?/,""));
+   if(!paths.length)return;
+   manifest.set(key(record.team)+"|"+key(record.name),paths);
+  });
+  let matched=0;
+  if(typeof PRODUCTS!=="undefined"&&Array.isArray(PRODUCTS)){
+   PRODUCTS.filter(product=>product&&product.league==="NBA").forEach(product=>{
+    const team=product.team||product.group;
+    const images=manifest.get(key(team)+"|"+key(product.name));
+    if(!images||!images.length)return;
+    product.images=images;
+    product.image=images[0];
+    matched++;
+   });
+  }
+  window.JH_NBA_R2_MANIFEST={loaded:true,records:records.length,matched};
+  console.info("Catalogue NBA : "+matched+" fiches reliées aux images R2 sur "+records.length+" entrées JSON.");
+ }catch(error){
+  window.JH_NBA_R2_MANIFEST={loaded:false,error:String(error)};
+  console.warn("Manifest images NBA R2 non chargé. Vérifier l’accès public et le CORS R2.",error);
+ }
+})();
 const NATIONAL_FLAG_CODES={
  "Allemagne":"de","France":"fr","Angleterre":"gb-eng","Italie":"it","Portugal":"pt","Pays-Bas":"nl","Espagne":"es","Belgique":"be","Irlande":"ie","Pologne":"pl","Écosse":"gb-sct","Danemark":"dk","Finlande":"fi","Pays de Galles":"gb-wls","Serbie":"rs","Grèce":"gr","Norvège":"no","Croatie":"hr",
  "Maroc":"ma","Algérie":"dz","Tunisie":"tn","Sénégal":"sn","Côte d’Ivoire":"ci","Cameroun":"cm","Nigeria":"ng","Égypte":"eg","Ghana":"gh","Afrique du Sud":"za","Cap-Vert":"cv",
@@ -328,6 +361,7 @@ function showConstructionState(heading="En construction",message="Cette rubrique
  if(!document.getElementById("jh-construction-styles")){const style=document.createElement("style");style.id="jh-construction-styles";style.textContent=".jh-construction-visual{width:min(100%,520px);margin:26px auto;padding:30px 22px;text-align:center;border:1px solid #665326;border-radius:16px;background:radial-gradient(ellipse at 50% 0%,#30250f 0,#15120c 52%,#0d0d0d 100%);box-shadow:0 14px 36px #0008}.jh-construction-icon{display:grid;place-items:center;width:86px;height:86px;margin:0 auto 14px;border:1px solid #d7ad45;border-radius:22px;background:linear-gradient(145deg,#382d16,#17130b);font-size:48px}.jh-construction-label{display:inline-block;padding:6px 12px;border:1px solid #d7ad45;border-radius:30px;color:#f4bd22;font-size:11px;font-weight:900;letter-spacing:1.6px}.jh-construction-visual h3{margin:14px 0 7px;color:#fff;font-size:22px}.jh-construction-visual p{max-width:390px;margin:0 auto;color:#c7c0ae;font-size:13px;line-height:1.6}";document.head.appendChild(style);}
 }
 async function openGroup(kind,name){
+ if(kind==="sports")await nbaManifestReady;
  const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
  grid.hidden=false;
  rememberNavigation();
@@ -418,6 +452,7 @@ async function openGroup(kind,name){
  $("#resultCount").textContent=matches.length?`${matches.length} modèle(s)`:"";
 }
 async function applySearch(){
+ await nbaManifestReady;
  const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
  query=slug($("#searchInput").value.trim());
  if(!query){currentView==="home"?renderHome():openView(currentView);return}

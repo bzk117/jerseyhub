@@ -12736,20 +12736,3819 @@ const NBA_PRODUCTS = [
     "description": "Maillot Nike Swingman rouge de Bradley Beal des Washington Wizards – Édition Icon,球迷",
     "supplierUrl": "https://www.vivi-jersey.com/products/bradley-beal-washington-wizards-nike-swingman-jersey-red-icon-edition",
     "adultStatus": "A_VALIDER_MANUELLEMENT"
+  },
+  {
+    "name": "Trae Young Atlanta Hawks Nike Unisex 2023/24 Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0002_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0002_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0002_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0002_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Atlanta Hawks Nike Unisex 2023/24 Custom Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0003_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0003_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0003_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0003_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dejounte Murray Atlanta Hawks Nike Unisex Swingman Jersey – Icon Edition – Red",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0004_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0004_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0004_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0004_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Trae Young Atlanta Hawks Jordan Brand 2022/23 Statement Edition Swingman Jersey – Black",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0005_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0005_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0005_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0005_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Atlanta Hawks Nike Unisex 2022/23 Swingman Custom Jersey White – Association Edition",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0006_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0006_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0006_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0006_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Trae Young Atlanta Hawks Nike Unisex 2022/23 Swingman Jersey – Association Edition – White",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0007_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0007_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0007_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0007_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Atlanta Hawks Nike Unisex 2022/23 Swingman Custom Jersey Red – Icon Edition",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0008_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0008_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0008_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0008_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Trae Young Atlanta Hawks Jordan Brand 2020/21 Swingman Jersey – Statement Edition – Black",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0009_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0009_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0009_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0009_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2021/22 Atlanta Hawks City Edition Trae Young #11 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0014_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0014_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0014_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0014_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0014_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2022/23 Atlanta Hawks City Edition Trae Young #11 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0015_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0015_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0015_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Atlanta Hawks Trae Young #11 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0016_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0016_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0016_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2021/22 Atlanta Hawks Trae Young #11 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0017_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0017_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0017_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Atlanta Hawks Clint Capela #15 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0018_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0018_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0018_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Atlanta Hawks Dejounte Murray #5 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0019_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0019_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0019_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2023/24 Atlanta Hawks City Edition Dejounte Murray #5 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0020_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0020_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0020_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0020_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0020_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2023/24 Atlanta Hawks City Edition Trae Young #11 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0021_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0021_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0021_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0021_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0021_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2025/26 Atlanta Hawks City Edition Trae Young #11 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0022_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0022_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0022_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0022_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0022_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2024/25 Atlanta Hawks City Edition Trae Young #11 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0023_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0023_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0023_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0023_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0023_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2024/25 Atlanta Hawks City Edition Dejounte Murray #5 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0024_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0024_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0024_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0024_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0024_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "1985/86 Atlanta Hawks Mitchell & Ness Retro Red Dominique Wilkins #21 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0025_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0025_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0025_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0025_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0025_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Atlanta Hawks Jordan Edition Dejounte Murray #5 Jersey | NBA Swingman Jersey",
+    "category": "sports",
+    "group": "Atlanta Hawks",
+    "league": "NBA",
+    "team": "Atlanta Hawks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0026_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0026_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0026_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0026_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/atlanta-hawks/NBA_0026_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jaylen Brown Boston Celtics Nike Unisex 2025/26 White Swingman Jersey – City Edition",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0028_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0028_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jayson Tatum Boston Celtics Nike Unisex 2025/26 White Swingman Jersey – City Edition",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0029_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0029_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Boston Celtics Nike Unisex 2024/25 Custom Swingman Jersey – City Edition – Black",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0030_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0030_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0030_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0030_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Derrick White Boston Celtics Nike Unisex 2024/25 Swingman Player Jersey – City Edition – Black",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0031_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0031_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0031_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0031_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jaylen Brown Boston Celtics Nike Unisex 2024/25 Swingman Player Jersey – City Edition – Black",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0032_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0032_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0032_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0032_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jayson Tatum Boston Celtics Nike Unisex 2024/25 Swingman Player Jersey – City Edition – Black",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0033_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0033_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0033_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0033_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jrue Holiday Boston Celtics Nike Unisex Swingman Jersey – Icon Edition – Kelly Green",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0034_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0034_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0034_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0034_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kristaps Porzingis Boston Celtics Nike Unisex Swingman Jersey – Icon Edition – Kelly Green",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0035_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0035_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0035_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0035_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jayson Tatum Boston Celtics Nike Unisex 2023/24 Swingman Jersey – White – City Edition",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0036_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0036_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0036_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0036_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jayson Tatum Boston Celtics Unisex Nike 2022/23 Swingman Jersey – City Edition – Kelly Green",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0037_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0037_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0037_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Boston Celtics Nike Unisex 2023/24 Custom Swingman Jersey – White – City Edition",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0038_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0038_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0038_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0038_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Larry Bird Boston Celtics Throwback 1985-86 Hardwood Classics Jersey – Kelly Green",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0039_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0039_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0039_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0039_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0039_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Boston Celtics Jordan Brand Unisex 2022/23 Swingman Custom Jersey – Statement Edition – Black",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0040_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0040_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0040_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0040_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Boston Celtics Nike Unisex 2022/23 Swingman Custom Jersey – City Edition – Kelly Green",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0041_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0041_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0041_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0041_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jaylen Brown Boston Celtics Jordan Brand 2022/23 Statement Edition Swingman Jersey – Black",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0042_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0042_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0042_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0042_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jayson Tatum Boston Celtics Jordan Brand 2022/23 Statement Edition Swingman Jersey – Black",
+    "category": "sports",
+    "group": "Boston Celtics",
+    "league": "NBA",
+    "team": "Boston Celtics",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0044_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0044_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0044_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/boston-celtics/NBA_0044_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kevin Durant Brooklyn Nets Nike Swingman Jersey – Classic Edition – White",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0045_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0045_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0045_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0045_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Brooklyn Nets Nike Unisex 2023/24 Custom Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0046_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0046_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0046_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0046_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kevin Durant Brooklyn Nets Nike Unisex 2022/23 Swingman Jersey – Icon Edition – Black",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0047_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0047_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0047_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0047_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Mikal Bridges Brooklyn Nets Nike Unisex 2023/24 Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0048_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0048_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0048_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0048_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Ben Simmons Brooklyn Nets Nike Unisex 2022/23 Swingman Jersey – City Edition – White",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0049_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0049_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0049_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0049_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Patty Mills Brooklyn Nets Nike 2021/22 Moments Mixtape Swingman Jersey – Navy",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0050_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0050_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0050_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0050_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Ben Simmons Brooklyn Nets Nike 2022/23 Swingman Jersey White – Classic Edition",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0051_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0051_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0051_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0051_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Brooklyn Nets Nike Unisex 2022/23 Swingman Custom Jersey – City Edition – White",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0052_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0052_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0052_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0052_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Ben Simmons Brooklyn Nets Jordan Brand 2022/23 Statement Edition Swingman Jersey – Black",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0053_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0053_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0053_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0053_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Brooklyn Nets Nike Unisex 2022/23 Custom Swingman Jersey – Classic Edition – White",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0054_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0054_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0054_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0054_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Brooklyn Nets Nike Unisex 2022/23 Swingman Custom Jersey Black – Icon Edition",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0055_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0055_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0055_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0055_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Brooklyn Nets Nike 2021/22 Swingman Custom Jersey – City Edition – Navy",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0056_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0056_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0056_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0056_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Brooklyn Nets Nike Unisex 2022/23 Swingman Custom Jersey White – Association Edition",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0057_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0057_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0057_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0057_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kevin Durant Brooklyn Nets Nike 2021/22 Swingman Jersey – City Edition – Navy",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0058_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0058_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0058_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0058_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kyrie Irving Brooklyn Nets Nike 2021/22 Swingman Jersey – City Edition – Navy",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0059_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0059_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0059_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0059_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kyrie Irving Brooklyn Nets Nike 2020/21 Swingman Jersey – Black – Icon Edition",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0060_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0060_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0060_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0060_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Brooklyn Nets Jordan Brand Swingman Custom Jersey – Statement Edition – Gray",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0061_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0061_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0061_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0061_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kyrie Irving Brooklyn Nets Nike 2020/21 Swingman Jersey – White – Association Edition",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0062_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0062_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0062_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0062_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Brooklyn Nets Nike 2021/22 Diamond Swingman Custom Jersey – Icon Edition – Black",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0063_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0063_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0063_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0063_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kevin Durant Brooklyn Nets Nike 2020/21 Swingman Jersey – Black – Icon Edition",
+    "category": "sports",
+    "group": "Brooklyn Nets",
+    "league": "NBA",
+    "team": "Brooklyn Nets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0064_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0064_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0064_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/brooklyn-nets/NBA_0064_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "LaMelo Ball Charlotte Hornets Jordan Brand Orange 2025/26 City Edition Swingman Jersey",
+    "category": "sports",
+    "group": "Charlotte Hornets",
+    "league": "NBA",
+    "team": "Charlotte Hornets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0066_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0066_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Charlotte Hornets Jordan Brand Orange 2025/26 City Edition Swingman Custom Jersey",
+    "category": "sports",
+    "group": "Charlotte Hornets",
+    "league": "NBA",
+    "team": "Charlotte Hornets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0067_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0067_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Unisex Jordan Brand LaMelo Ball Teal Charlotte Hornets 2023/24 Swingman Replica Jersey – Classic Edition",
+    "category": "sports",
+    "group": "Charlotte Hornets",
+    "league": "NBA",
+    "team": "Charlotte Hornets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0068_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0068_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0068_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0068_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Charlotte Hornets Jordan Brand Unisex 2022/23 Swingman Custom Jersey – Statement Edition – Teal",
+    "category": "sports",
+    "group": "Charlotte Hornets",
+    "league": "NBA",
+    "team": "Charlotte Hornets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0069_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0069_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0069_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0069_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "LaMelo Ball Charlotte Hornets Jordan Brand Unisex 2022/23 Swingman Jersey – City Edition – Black",
+    "category": "sports",
+    "group": "Charlotte Hornets",
+    "league": "NBA",
+    "team": "Charlotte Hornets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0070_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0070_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0070_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0070_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Charlotte Hornets Jordan Brand Unisex 2022/23 Swingman Custom Jersey White – Association Edition",
+    "category": "sports",
+    "group": "Charlotte Hornets",
+    "league": "NBA",
+    "team": "Charlotte Hornets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0071_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0071_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0071_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0071_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Charlotte Hornets Jordan Brand 2020/21 Swingman Custom Jersey – Icon Edition – Teal",
+    "category": "sports",
+    "group": "Charlotte Hornets",
+    "league": "NBA",
+    "team": "Charlotte Hornets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0072_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0072_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0072_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0072_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Charlotte Hornets Jordan Brand Unisex 2022/23 Swingman Custom Jersey Teal – Icon Edition",
+    "category": "sports",
+    "group": "Charlotte Hornets",
+    "league": "NBA",
+    "team": "Charlotte Hornets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0074_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0074_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0074_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/charlotte-hornets/NBA_0074_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Chicago Bulls Michael Jordan #23 Throwback Street Graffiti 1997-98 Hardwood Classics Jersey",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0090_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0090_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0090_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0090_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0090_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Michael Jordan Chicago Bulls Nike Unisex 2025/26 City Edition Black Swingman Jersey",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0091_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0091_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Matas Buzelis Chicago Bulls Nike Unisex 2025/26 City Edition Black Swingman Jersey",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0092_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0092_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Josh Giddey Chicago Bulls Nike Unisex 2025/26 City Edition Black Swingman Jersey",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0093_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0093_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Coby White Chicago Bulls Nike Unisex 2025/26 City Edition Black Swingman Jersey",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0094_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0094_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dennis Rodman Chicago Bulls Jordan Brand Unisex Black Swingman Jersey – Statement Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0095_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0095_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Michael Jordan Chicago Bulls Jordan Brand Unisex Black Swingman Jersey – Statement Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0096_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0096_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Scottie Pippen Chicago Bulls Jordan Brand Unisex Black Swingman Jersey – Statement Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0097_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0097_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "DeMar DeRozan Chicago Bulls Jordan Brand Unisex Black Swingman Jersey – Statement Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0098_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0098_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Zach LaVine Chicago Bulls Jordan Brand Unisex Black Swingman Jersey – Statement Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0099_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0099_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Chicago Bulls Nike Unisex 2025/26 City Edition Black Swingman Custom Jersey",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0100_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0100_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Chicago Bulls Jordan Brand Unisex Black Swingman Custom Jersey – Statement Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0101_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0101_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Zach LaVine Chicago Bulls Nike Unisex 2023/24 Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0102_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0102_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0102_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0102_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "DeMar DeRozan Chicago Bulls Nike Unisex 2023/24 Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0103_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0103_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0103_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0103_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Alex Caruso Chicago Bulls Nike Unisex Swingman Jersey – Icon Edition – Red",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0104_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0104_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0104_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0104_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Lonzo Ball Chicago Bulls Nike Unisex 2023/24 Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0105_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0105_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0105_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0105_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Chicago Bulls Nike Unisex 2023/24 Custom Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Chicago Bulls",
+    "league": "NBA",
+    "team": "Chicago Bulls",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0106_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0106_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0106_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/chicago-bulls/NBA_0106_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Donovan Mitchell Cleveland Cavaliers Nike Unisex Navy Swingman Jersey – Classic Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0109_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0109_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "LeBron James Cleveland Cavaliers Nike Unisex Navy Swingman Jersey – Classic Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0110_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0110_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Darius Garland Cleveland Cavaliers Nike Unisex Navy Swingman Jersey – Classic Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0111_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0111_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "James Harden Cleveland Cavaliers Nike Unisex Navy Swingman Jersey – Classic Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0112_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0112_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Donovan Mitchell Cleveland Cavaliers Nike 2025/26 Orange Swingman Jersey – City Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0113_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0113_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "LeBron James Cleveland Cavaliers Nike 2025/26 Orange Swingman Jersey – City Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0114_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0114_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Darius Garland Cleveland Cavaliers Nike 2025/26 Orange Swingman Jersey – City Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0115_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0115_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "James Harden Cleveland Cavaliers Nike 2025/26 Orange Swingman Jersey – City Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0116_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0116_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cleveland Cavaliers Nike 2025/26 Orange Swingman Custom Jersey – City Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0117_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0117_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cleveland Cavaliers Nike Unisex Navy Swingman Custom Jersey – Classic Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0118_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0118_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Donovan Mitchell Cleveland Cavaliers Nike Unisex Swingman Jersey – Association Edition – White",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0119_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0119_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0119_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0119_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Donovan Mitchell Cleveland Cavaliers Nike Unisex 2023/24 Swingman Jersey – Wine – City Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0120_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0120_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0120_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0120_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Darius Garland Cleveland Cavaliers Nike Unisex Swingman Jersey – Association Edition – White",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0121_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0121_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0121_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0121_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Evan Mobley Cleveland Cavaliers Jordan Brand 2022/23 Statement Edition Swingman Jersey – Black",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0122_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0122_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0122_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0122_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Donovan Mitchell Cleveland Cavaliers Jordan Brand Swingman Player Jersey – Statement Edition – Black",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0123_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0123_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0123_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0123_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cleveland Cavaliers Nike Unisex 2023/24 Custom Swingman Jersey – Wine – City Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0124_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0124_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0124_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0124_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Darius Garland Cleveland Cavaliers Nike Unisex 2023/24 Swingman Jersey – Wine – City Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0125_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0125_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0125_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0125_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jarrett Allen Cleveland Cavaliers Nike 2022/23 Swingman Jersey Wine – Icon Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0126_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0126_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0126_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0126_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Evan Mobley Cleveland Cavaliers Nike 2022/23 Swingman Jersey Wine – Icon Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0127_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0127_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0127_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0127_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cleveland Cavaliers Nike Unisex 2022/23 Swingman Custom Jersey Wine – Icon Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0128_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0128_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0128_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0128_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cleveland Cavaliers Jordan Brand Unisex 2022/23 Swingman Custom Jersey – Statement Edition – Black",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0129_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0129_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0129_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Donovan Mitchell Cleveland Cavaliers Nike Unisex 2022/23 Swingman Jersey – Icon Edition – Burgundy",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0130_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0130_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0130_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Darius Garland Cleveland Cavaliers Nike 2022/23 Swingman Jersey Wine – Icon Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0131_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0131_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0131_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0131_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cleveland Cavaliers Nike Swingman Custom Jersey Black – Statement Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0132_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0132_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0132_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0132_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cleveland Cavaliers Nike Unisex 2022/23 Swingman Custom Jersey White – Association Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0133_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0133_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0133_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0133_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Evan Mobley Cleveland Cavaliers Nike Unisex 2022/23 Swingman Jersey – Association Edition – White",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0134_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0134_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0134_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0134_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Collin Sexton Cleveland Cavaliers Jordan Brand 2020/21 Swingman Jersey – Statement Edition – Black",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0135_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0135_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Collin Sexton Cleveland Cavaliers Nike 2021/22 Diamond Swingman Jersey – Icon Edition – Wine",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0136_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0136_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0136_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0136_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kevin Love Cleveland Cavaliers Nike Swingman Jersey Maroon – Icon Edition",
+    "category": "sports",
+    "group": "Cleveland Cavaliers",
+    "league": "NBA",
+    "team": "Cleveland Cavaliers",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0138_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/cleveland-cavaliers/NBA_0138_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Unisex Dallas Mavericks Cooper Flagg #32 Green Swingman Jersey – Classic Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0142_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0142_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0142_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0142_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Unisex Dallas Mavericks Kyrie Irving #11 White Swingman Jersey – City Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0143_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0143_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0143_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0143_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Unisex Dallas Mavericks Kyrie Irving #11 Green Swingman Jersey – Classic Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0144_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0144_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0144_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Unisex Dallas Mavericks Kyrie Irving #11 Blue Swingman Jersey – Icon Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0145_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0145_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0145_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0145_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Unisex Dallas Mavericks Cooper Flagg Nike Blue Swingman Jersey – Icon Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0146_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0146_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0146_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0146_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cooper Flagg Dallas Mavericks Nike Unisex 2025 NBA Draft First Round Pick Swingman Jersey – Icon Edition – Blue",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0147_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0147_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cooper Flagg Dallas Mavericks Jordan Brand Swingman Jersey – Statement Edition – Navy",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0148_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0148_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Don?i? Dallas Mavericks Nike Unisex 2024/25 Swingman Player Jersey – City Edition – White",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0149_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0149_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0149_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0149_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Nike Unisex 2023/24 Custom Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0150_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0150_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0150_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0150_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Kyrie Irving Dallas Mavericks Nike Unisex Swingman Jersey – Icon Edition – Blue",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0151_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0151_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0151_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0151_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Don?i? Dallas Mavericks Nike Unisex 2023/24 Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0152_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0152_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0152_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Jordan Brand Unisex 2022/23 Swingman Custom Jersey – Statement Edition – Navy",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0153_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0153_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0153_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0153_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Nike Unisex 2022/23 Swingman Custom Jersey White – Association Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0154_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0154_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0154_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0154_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Doncic Dallas Mavericks Nike Unisex 2022/23 Swingman Jersey – Icon Edition – Royal",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0155_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0155_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0155_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0155_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Doncic Dallas Mavericks Nike Unisex 2022/23 Swingman Jersey – City Edition – Blue",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0156_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0156_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0156_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0156_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Nike Unisex 2022/23 Swingman Custom Jersey – City Edition – Blue",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0157_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0157_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0157_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0157_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Nike Unisex 2022/23 Swingman Custom Jersey Royal – Icon Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0158_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0158_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0158_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0158_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Doncic Dallas Mavericks Nike Unisex 2022/23 Swingman Jersey – Icon Edition – White",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0159_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0159_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0159_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0159_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Doncic Dallas Mavericks Nike Select Series Rookie of the Year Swingman Team Jersey – Navy",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0160_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0160_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0160_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0160_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Doncic Dallas Mavericks Jordan Brand 2020/21 Swingman Jersey – Statement Edition – Navy",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0161_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0161_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0161_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0161_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Nike 2021/22 Swingman Custom Jersey – City Edition – White",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0162_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0162_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0162_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0162_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Nike 2020/21 Hardwood Classics Swingman Custom Jersey – Green",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0163_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0163_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0163_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0163_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Nike Custom Swingman Jersey White – Association Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0164_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0164_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0164_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0164_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Doncic Dallas Mavericks Nike 2020/21 Swingman Jersey Royal – Icon Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0165_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0165_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0165_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0165_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Nike Swingman Custom Jersey Royal – Icon Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0166_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0166_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0166_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0166_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Doncic Dallas Mavericks Nike 2021/22 Diamond Swingman Jersey – Icon Edition – Blue",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0167_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0167_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0167_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0167_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Luka Doncic Dallas Mavericks Nike 2021/22 Swingman Jersey – City Edition – White",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0169_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0169_01.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Dallas Mavericks Nike 2019/20 Custom Swingman Jersey Navy – Statement Edition",
+    "category": "sports",
+    "group": "Dallas Mavericks",
+    "league": "NBA",
+    "team": "Dallas Mavericks",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0170_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0170_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0170_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/dallas-mavericks/NBA_0170_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jamal Murray Denver Nuggets Nike Unisex 2024/25 Swingman Player Jersey – City Edition – White",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0171_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0171_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0171_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0171_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jamal Murray Denver Nuggets Nike Unisex 2022/23 Swingman Jersey – City Edition – Silver",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0172_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0172_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0172_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0172_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Denver Nuggets Nike Unisex 2024/25 Custom Swingman Jersey – City Edition – White",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0173_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0173_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0173_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0173_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0173_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Nikola Jokic Denver Nuggets Nike Unisex 2024/25 Swingman Player Jersey – City Edition – White",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0174_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0174_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0174_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0174_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Aaron Gordon Denver Nuggets Nike Unisex 2022/23 Swingman Jersey – City Edition – Silver",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0175_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0175_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0175_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0175_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Denver Nuggets Nike Unisex 2022/23 Swingman Custom Jersey – City Edition – Gray",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0176_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0176_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0176_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0176_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Nikola Jokic Denver Nuggets Nike Unisex 2022/23 Swingman Jersey – City Edition – Silver",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0177_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0177_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0177_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0177_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jamal Murray Denver Nuggets Jordan Brand 2022/23 Statement Edition Swingman Jersey – Blue",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0178_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0178_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0178_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0178_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jamal Murray Denver Nuggets Nike Unisex 2022/23 Swingman Jersey – Icon Edition – Navy",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0179_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0179_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0179_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Nikola Jokic Denver Nuggets Jordan Brand 2022/23 Statement Edition Swingman Jersey – Blue",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0180_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0180_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0180_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0180_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Nikola Jokic Denver Nuggets Nike Unisex 2022/23 Swingman Jersey – Icon Edition – Navy",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0181_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0181_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0181_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0181_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Denver Nuggets Nike Unisex 2022/23 Swingman Custom Jersey Navy – Icon Edition",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0182_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0182_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0182_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0182_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Denver Nuggets Nike Unisex 2022/23 Swingman Custom Jersey White – Association Edition",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0183_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0183_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0183_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0183_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jamal Murray Denver Nuggets Nike 2020/21 Swingman Player Jersey – Association Edition – White",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0184_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0184_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0184_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0184_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Nikola Jokic Denver Nuggets Jordan Brand 2020/21 Swingman Jersey – Statement Edition – Blue",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0185_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0185_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0185_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0185_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Denver Nuggets Nike 2021/22 Swingman Custom Jersey – City Edition – Navy",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0186_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0186_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0186_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0186_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0186_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Denver Nuggets Nike 2021/22 Diamond Swingman Custom Jersey – Icon Edition – Navy",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0187_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0187_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0187_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0187_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Nikola Jokic Denver Nuggets Nike 2020/21 Swingman Jersey Navy – Icon Edition",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0188_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0188_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0188_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0188_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jamal Murray Denver Nuggets Jordan Brand 2020/21 Swingman Jersey – Statement Edition – Blue",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0189_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0189_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0189_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0189_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jamal Murray Denver Nuggets Nike 2021/22 Swingman Jersey – City Edition – Navy",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0190_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0190_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0190_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0190_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Denver Nuggets Nike Custom Swingman Jersey Navy – Icon Edition",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0191_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0191_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0191_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0191_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jamal Murray Denver Nuggets Nike 2020/21 Swingman Jersey Navy – Icon Edition",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0192_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0192_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0192_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0192_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Nikola Jokic Denver Nuggets Nike 2021/22 Swingman Jersey – City Edition – Navy",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0193_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0193_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0193_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0193_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jamal Murray Denver Nuggets Nike 2021/22 Diamond Swingman Jersey – Icon Edition – Navy",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0195_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0195_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0195_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0195_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Nikola Jokic Denver Nuggets Nike Replica Swingman Jersey – Icon Edition – Navy",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0196_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0196_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0196_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Nikola Jokic Denver Nuggets Nike 2021/22 Diamond Swingman Jersey – Icon Edition – Navy",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0198_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0198_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0198_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Men’s Denver Nuggets Porter Jr #1 Nike Navy 2021/22 Swingman NBA Jersey – City Edition",
+    "category": "sports",
+    "group": "Denver Nuggets",
+    "league": "NBA",
+    "team": "Denver Nuggets",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0204_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0204_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0204_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/denver-nuggets/NBA_0204_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jaden Ivey Detroit Pistons Nike 2022/23 Swingman Jersey – City Edition – Green",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0205_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0205_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0205_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0205_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cade Cunningham Detroit Pistons Nike Unisex 2022/23 Swingman Jersey – City Edition – Green",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0206_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0206_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0206_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0206_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons Nike Unisex 2022/23 Swingman Custom Jersey White – Association Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0207_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0207_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0207_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0207_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons Nike Unisex 2022/23 Swingman Custom Jersey Blue – Icon Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0208_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0208_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0208_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0208_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons Jordan Brand Unisex 2022/23 Swingman Custom Jersey – Statement Edition – Blue",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0209_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0209_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0209_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0209_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cade Cunningham Detroit Pistons Nike Unisex 2023/24 Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0210_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0210_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0210_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0210_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons Nike Unisex 2023/24 Custom Swingman Jersey – Black – City Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0211_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0211_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0211_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0211_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons Nike Unisex 2022/23 Custom Swingman Jersey – Classic Edition – Teal",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0212_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0212_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0212_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0212_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cade Cunningham Detroit Pistons Jordan Brand 2022/23 Statement Edition Swingman Jersey – Black",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0213_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0213_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0213_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0213_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons Nike Unisex 2022/23 Swingman Custom Jersey – City Edition – Green",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0214_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0214_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0214_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0214_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cade Cunningham Detroit Pistons Nike 2022/23 Swingman Jersey Teal – Classic Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0215_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0215_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0215_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0215_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Jaden Ivey Detroit Pistons Nike Unisex 2022 NBA Draft First Round Pick Swingman Jersey – Icon Edition – Blue",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0216_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0216_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0216_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0216_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons Nike 2021/22 Diamond Swingman Custom Jersey – Icon Edition – Blue",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0217_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0217_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0217_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0217_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons 2018/19 Swingman Custom Men’s Jersey – City Edition – Black",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0218_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0218_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0218_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0218_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Reggie Jackson Detroit Pistons Nike Swingman Jersey Blue – Icon Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0219_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0219_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0219_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons Nike Swingman Custom Jersey Blue – Icon Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0220_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0220_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0220_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0220_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Cade Cunningham Detroit Pistons Nike Unisex 2022/23 Swingman Jersey – Icon Edition – Blue",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0221_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0221_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0221_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0221_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Men’s Detroit Pistons Cade Cunningham #2 Nike Blue 2021 Swingman Jersey – Icon Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0222_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0222_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0222_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0222_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Men’s Detroit Pistons Grant Hill #33 Throwback Blue 98-99 Hardwood Classics Swingman Jersey",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0223_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0223_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0223_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0223_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0223_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Detroit Pistons Nike 2020/21 Swingman Custom Jersey Blue – City Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0224_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0224_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0224_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0224_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Men’s Detroit Pistons Cade Cunningham #2 Nike Red 2021/22 Swingman NBA Jersey – City Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0225_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0225_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0225_02.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Men’s Detroit Pistons Derrick Rose #25 Nike White 2021/22 Swingman NBA Jersey – Icon Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0226_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0226_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0226_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0226_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0226_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Men’s Detroit Pistons Cade Cunningham #2 Nike Blue 2021/22 Swingman NBA Jersey – Icon Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0227_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0227_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0227_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0227_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0227_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Men’s Detroit Pistons Allen Iverson #1 Nike Blue 2021/22 Swingman NBA Jersey – Icon Edition",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0228_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0228_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0228_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0228_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0228_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2023-24 Detroit Pistons City Edition Cade Cunningham #2 Men’s Jersey",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0229_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0229_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0229_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0229_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0229_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "2023-24 Detroit Pistons Cade Cunningham #2 Men’s Jersey",
+    "category": "sports",
+    "group": "Detroit Pistons",
+    "league": "NBA",
+    "team": "Detroit Pistons",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0230_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0230_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0230_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0230_03.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/detroit-pistons/NBA_0230_04.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
+  },
+  {
+    "name": "Men’s Toronto Raptors Vince Carter #15 White 1998-99 Hardwood Classics Swingman Jersey",
+    "category": "sports",
+    "group": "Toronto Raptors",
+    "league": "NBA",
+    "team": "Toronto Raptors",
+    "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/toronto-raptors/NBA_0798_01.png",
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/toronto-raptors/NBA_0798_01.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/toronto-raptors/NBA_0798_02.png",
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/toronto-raptors/NBA_0798_03.png"
+    ],
+    "sizes": [
+      "2XL",
+      "L",
+      "M",
+      "S",
+      "XL"
+    ]
   }
 ]
 ];
 
-// Import sans doublon : une fiche existante n'est jamais remplacée.
+// Ajout sans doublon : les fiches déjà présentes dans le catalogue restent prioritaires.
 NBA_PRODUCTS.forEach(product => {
   const normalizeName = value => String(value || "").trim().toLocaleLowerCase("fr")
-    .normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
-  const duplicate = PRODUCTS.some(existing =>
-    existing.category === product.category &&
-    existing.group === product.group &&
-    normalizeName(existing.name) === normalizeName(product.name)
-  );
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+  const duplicate = PRODUCTS.some(existing => existing.category === product.category && existing.group === product.group && normalizeName(existing.name) === normalizeName(product.name));
   if (!duplicate) PRODUCTS.push(product);
 });
 
-// Catalogue NBA : aucune URL fournisseur, aucun prix, aucune description fournisseur.
+// Catalogue NBA : aucun prix ni lien fournisseur n'est publié.

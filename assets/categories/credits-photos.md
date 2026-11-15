@@ -13,7 +13,7 @@ La licence autorise l'utilisation sur un site web ou une boutique en ligne, la m
 | NFL | Logo de la ligue (ESPN CDN) | https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png |
 | MLB | Logo de la ligue (Wikimedia Commons, fichier issu de MLB.com) | https://commons.wikimedia.org/wiki/File:Major_League_Baseball_logo.svg |
 | NHL | Logo de la ligue (Wikimedia Commons, source NHL.com) | https://commons.wikimedia.org/wiki/File:National_Hockey_League_shield.svg |
-| Rugby | Logo World Rugby | https://d1f00kj7ad54bu.cloudfront.net/Pictures/1024x536/9/9/0/25990_worldrugbylogo_406963.png |
+| Rugby | Icône Unicode de ballon de rugby | Visuel système, sans fichier externe |
 | Sports gaéliques | Logo officiel GAA (Wikimedia Commons, source GAA) | https://commons.wikimedia.org/wiki/File:Official_Gaelic_Athletic_Association_logo.jpg |
 | Chaussures | Animesh Srivastava | https://www.pexels.com/photo/a-person-wearing-cleats-7271269/ |
 | Lifestyle & Accessoires | El gringo photo | https://www.pexels.com/photo/trendy-urban-streetwear-look-with-headphones-29160881/ |

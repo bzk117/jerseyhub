@@ -179,7 +179,11 @@ function productCard(p){
  else{div.tabIndex=0;div.setAttribute('role','button');}
  const art=document.createElement('div');art.className='product-art';
  if(p.image){
-  const img=document.createElement('img');img.className='product-card-image';img.src=p.image;img.alt=p.name||'Maillot';img.loading='lazy';img.decoding='async';art.append(img);
+  const img=document.createElement('img');img.className='product-card-image';img.alt=p.name||'Maillot';img.loading='lazy';img.decoding='async';
+  const imageSources=[p.image,...(Array.isArray(p.images)?p.images:[])].filter((src,index,all)=>typeof src==="string"&&src&&all.indexOf(src)===index);
+  let imageSourceIndex=0;
+  img.onerror=()=>{imageSourceIndex++;if(imageSourceIndex<imageSources.length){img.src=imageSources[imageSourceIndex];}else{img.style.display="none";art.classList.add("product-image-unavailable");}};
+  img.src=imageSources[0]||p.image;art.append(img);
  }else{
   const shirt=document.createElement('div');shirt.className='shirt';const number=document.createElement('span');number.textContent=p.number||'10';shirt.append(number);art.append(shirt);
  }
@@ -479,8 +483,10 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
  const close=()=>overlay.style.display="none";
  overlay.addEventListener("click",e=>{if(e.target===overlay)close()});
  const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ const isNbaItem=item=>String(item.league||"").toUpperCase()==="NBA" ||
+  (String(item.category||"").toLowerCase()==="sports" && typeof SPORT_TEAM_GROUPS!=="undefined" && Array.isArray(SPORT_TEAM_GROUPS.NBA) && SPORT_TEAM_GROUPS.NBA.includes(item.team));
  const jerseyUnitPrice=item=>{
-  if(String(item.category||"").toLowerCase()==="lego")return null;
+  if(String(item.category||"").toLowerCase()==="lego"||isNbaItem(item))return null;
   const hasPatch=(Array.isArray(item.patchSelections)&&item.patchSelections.length>0)||(Array.isArray(item.patches)&&item.patches.length>0);
   const hasFlocking=!!item.personalization&&item.personalization!=="Aucune";
   return (hasPatch||hasFlocking)?30:25;
@@ -598,7 +604,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const personalizationOptions=personalizationAllowed?'<option value="Nom et numéro du joueur">Choisir un joueur</option><option value="Nom et numéro personnalisés">Personnalisation manuelle</option>':"";
   const personalizationNotice=isClub&&!personalizationAllowed?'<p class="jh-player-note">La personnalisation nom/numéro n’est pas encore confirmée pour ce modèle.</p>':"";
   const productMeta=[p.season,p.kitType,p.version].filter(Boolean).map(esc).join(" · ");
-  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label>'+clubSizeControl+'</section>'+patchSlotsMarkup+'<section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section><div class="jh-options-block" id="jh-price-preview"><h3>Prix du maillot</h3><p class="jh-option-summary" id="jh-price-preview-value">25 € — frais de port compris</p></div><div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label>'+clubSizeControl+'</section>'+patchSlotsMarkup+'<section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section>'+(p.league==="NBA"?"":'<div class="jh-options-block" id="jh-price-preview"><h3>Prix du maillot</h3><p class="jh-option-summary" id="jh-price-preview-value">25 € — frais de port compris</p></div>')+'<div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
   const sizeAudienceSelect=dialog.querySelector("#jh-size-audience");
   if(sizeAudienceSelect)sizeAudienceSelect.onchange=()=>{
    selectedSizeAudience=sizeAudienceSelect.value;
@@ -695,9 +701,9 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    }):[];
    const patches=patchSelections.map(selection=>selection.label);
    const patchTotalEur=patchSelections.reduce((total,selection)=>total+(Number(selection.extra_price_eur)||0),0);
-   const unitPriceEur=(patchSelections.length||person.value!=="Aucune")?30:25;
+   const unitPriceEur=p.league==="NBA"?null:((patchSelections.length||person.value!=="Aucune")?30:25);
    const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
-   const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,unitPriceEur,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
+   const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,league:p.league||"",team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,unitPriceEur,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
    write(next);close();showCart();
   };
  }

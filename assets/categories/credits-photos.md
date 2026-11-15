@@ -2,8 +2,8 @@
 
 Les photos ci-dessous sont utilisées comme illustrations de navigation des catégories, et non comme caution ou partenariat des personnes photographiées.
 
-Toutes les photos proviennent de Pexels et sont présentées comme gratuites à utiliser selon la licence Pexels : https://www.pexels.com/license/
-La licence autorise l'utilisation sur un site web ou une boutique en ligne, la modification est permise et l'attribution n'est pas obligatoire. JerseyHub conserve les crédits ci-dessous par transparence.
+Les photographies de catégories proviennent de Pexels et sont utilisées selon la licence Pexels : https://www.pexels.com/license/.
+Les logos de ligues et fédérations sont des marques ou visuels appartenant à leurs détenteurs ; les sources sont indiquées dans le tableau. Leur présence à des fins d'identification ne vaut pas partenariat ni autorisation commerciale.
 
 | Catégorie | Photographe | Page source |
 |---|---|---|

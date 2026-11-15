@@ -409,3 +409,6 @@ button:disabled{cursor:not-allowed;opacity:.58}
 @media(max-width:760px){
   .jh-admin-visitor-counter{margin-left:0}
 }
+
+/* Logos des fédérations et ligues dans les cartes Autres sports. */
+.category-art .category-visual.category-logo{object-fit:contain;padding:16px;background:#fff;border-radius:9px;filter:none;}

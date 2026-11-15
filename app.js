@@ -140,7 +140,7 @@ function nbaTeamLogoMarkup(name){
   "Washington Wizards":"was"
  };
  const code=logos[name];
- return code?'<img src="https://a.espncdn.com/i/teamlogos/nba/500/'+code+'.png" alt="Logo officiel '+esc(name)+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="display:block;width:100%;height:100%;max-height:112px;object-fit:contain;padding:10px;box-sizing:border-box">':"";
+ return code?'<img src="https://a.espncdn.com/i/teamlogos/nba/500/'+code+'.png" alt="Logo officiel '+esc(name)+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="position:relative;z-index:3;display:block;width:100%;height:100%;max-height:112px;object-fit:contain;padding:10px;box-sizing:border-box;filter:none">':"";
 }
 function card(item,kind){
  const div=document.createElement("article");div.className="category-card";div.tabIndex=0;div.setAttribute("role","button");

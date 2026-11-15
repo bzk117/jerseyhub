@@ -14,7 +14,7 @@ const NATIONAL_FLAG_CODES={
 function nextR2ImageExtension(img){
  const src=img.currentSrc||img.src;
  if(!src||!src.includes("pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/"))return false;
- const match=src.match(/^(.*)\\.(jpg|jpeg|png)(\\?.*)?$/i);
+ const match=src.match(/^(.*)\.(jpg|jpeg|png)(\?.*)?$/i);
  if(!match)return false;
  const tried=img._jhTriedR2Extensions||(img._jhTriedR2Extensions=[match[2].toLowerCase()]);
  const next=["jpg","jpeg","png"].find(ext=>!tried.includes(ext));

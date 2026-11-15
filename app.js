@@ -10,6 +10,20 @@ const NATIONAL_FLAG_CODES={
  "Argentine":"ar","Brésil":"br","Uruguay":"uy","Colombie":"co","Mexique":"mx","États-Unis":"us","Canada":"ca","Chili":"cl","Équateur":"ec","Paraguay":"py","Pérou":"pe","Bolivie":"bo","Costa Rica":"cr","Venezuela":"ve","Panama":"pa","Jamaïque":"jm","Haïti":"ht",
  "Japon":"jp","Corée du Sud":"kr","Palestine":"ps","Arabie saoudite":"sa","Qatar":"qa","Émirats arabes unis":"ae","Jordanie":"jo","Australie":"au"
 };
+
+function nextR2ImageExtension(img){
+ const src=img.currentSrc||img.src;
+ if(!src||!src.includes("pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/"))return false;
+ const match=src.match(/^(.*)\\.(jpg|jpeg|png)(\\?.*)?$/i);
+ if(!match)return false;
+ const tried=img._jhTriedR2Extensions||(img._jhTriedR2Extensions=[match[2].toLowerCase()]);
+ const next=["jpg","jpeg","png"].find(ext=>!tried.includes(ext));
+ if(!next)return false;
+ tried.push(next);
+ img.src=match[1]+"."+next+(match[3]||"");
+ return true;
+}
+
 function nationalFlagMarkup(name,compact=false,large=false){
  const code=NATIONAL_FLAG_CODES[name];
  if(!code)return "";
@@ -182,7 +196,7 @@ function productCard(p){
   const img=document.createElement('img');img.className='product-card-image';img.alt=p.name||'Maillot';img.loading='lazy';img.decoding='async';
   const imageSources=[p.image,...(Array.isArray(p.images)?p.images:[])].filter((src,index,all)=>typeof src==="string"&&src&&all.indexOf(src)===index);
   let imageSourceIndex=0;
-  img.onerror=()=>{imageSourceIndex++;if(imageSourceIndex<imageSources.length){img.src=imageSources[imageSourceIndex];}else{img.style.display="none";art.classList.add("product-image-unavailable");}};
+  img.onerror=()=>{if(nextR2ImageExtension(img))return;imageSourceIndex++;if(imageSourceIndex<imageSources.length){img._jhTriedR2Extensions=[];img.src=imageSources[imageSourceIndex];}else{img.style.display="none";art.classList.add("product-image-unavailable");}};
   img.src=imageSources[0]||p.image;art.append(img);
  }else{
   const shirt=document.createElement('div');shirt.className='shirt';const number=document.createElement('span');number.textContent=p.number||'10';shirt.append(number);art.append(shirt);
@@ -616,6 +630,9 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   };
   if(outOfStock){const add=dialog.querySelector('#jh-add');add.disabled=true;add.textContent='Indisponible'}
   if(galleryImages.length){
+   dialog.querySelectorAll('img[src*="pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NBA_IMPORT/images/"]').forEach(img=>{
+    img.onerror=()=>{if(!nextR2ImageExtension(img))img.style.visibility="hidden";};
+   });
    const showGalleryImage=()=>{
     const img=dialog.querySelector("#jh-product-gallery-image"),zoom=dialog.querySelector("#jh-gallery-zoom"),lightbox=dialog.querySelector("#jh-gallery-lightbox-image");
     if(img){img.src=galleryImages[galleryIndex];img.alt=esc(p.name)+" - photo "+(galleryIndex+1);}

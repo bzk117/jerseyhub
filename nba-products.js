@@ -30,7 +30,7 @@ const NBA_PRODUCTS = [
     image: "https://ueeshop.ly200-cdn.com/u_file/UPBD/UPBD139/2408/17/products/8a31519114.jpg?x-oss-process=image%2Fformat%2Cwebp%2Fquality%2Cq_100%2Fresize%2Cm_lfit%2Ch_1000%2Cw_1000",
     sizes: ["S", "M", "L", "XL", "2XL"],
   },
-[
+
   {
     "name": "Men’s Atlanta Hawks Dominique Wilkins #21 Throwback Mitchell & Ness Red 86-87 Hardwood Classics Player Jersey",
     "category": "sports",
@@ -16540,7 +16540,7 @@ const NBA_PRODUCTS = [
       "XL"
     ]
   }
-]
+
 ];
 
 // Ajout sans doublon : les fiches déjà présentes dans le catalogue restent prioritaires.

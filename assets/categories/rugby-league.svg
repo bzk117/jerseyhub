@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">International Rugby League</title>
+  <desc id="desc">Logo Rugby League international, lettering blanche et symbole géométrique bleu sur fond sombre.</desc>
+  <rect width="900" height="360" fill="#101820"/>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-weight="800">
+    <text x="78" y="105" font-size="50" letter-spacing="8">INTERNATIONAL</text>
+    <text x="72" y="225" font-size="132" letter-spacing="-5">RUGBY</text>
+    <text x="78" y="320" font-size="91" letter-spacing="2">LEAGUE</text>
+  </g>
+  <path d="M650 72 L817 72 L817 122 L744 122 L817 195 L817 260 L650 260 L650 210 L735 210 L650 125 Z" fill="#26A9E0"/>
+  <path d="M650 72 L715 72 L650 137 Z" fill="#fff" opacity=".95"/>
+</svg>

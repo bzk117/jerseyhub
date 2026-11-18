@@ -161,7 +161,7 @@ function card(item,kind){
   "hockey":"https://commons.wikimedia.org/wiki/Special:FilePath/National_Hockey_League_shield.svg",
   "gaa":"https://commons.wikimedia.org/wiki/Special:FilePath/Official_Gaelic_Athletic_Association_logo.jpg",
   "rugby-union":"https://cdn.prod.website-files.com/6a7acdd3fed7e6e46279c26d/6a7f7cf8327033d680b7297f_worldrugby.jpg",
-  "rugby-league":"https://commons.wikimedia.org/wiki/Special:FilePath/International_Rugby_League.png",
+  "rugby-league":"https://www.intrl.sport/themes/irl/_img/main-logo.svg",
   "rugby":"assets/categories/rugby-world.svg?v=20261115-rugby-final-1",
   "chaussures":"https://images.pexels.com/photos/7271269/pexels-photo-7271269.jpeg?auto=compress&cs=tinysrgb&w=1600",
   "lifestyle-accessoires":"https://images.pexels.com/photos/29160881/pexels-photo-29160881/free-photo-of-trendy-urban-streetwear-look-with-headphones.jpeg?auto=compress&cs=tinysrgb&w=1600",

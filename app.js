@@ -306,6 +306,22 @@ function setHeading(e,t,b){
 }
 let navigationHistory=[];
 let restoringNavigation=false;
+// Une entrée tampon permet à la flèche du navigateur de revenir directement à l'accueil.
+let jhBrowserBackArmed=false;
+function armBrowserBackToHome(){
+ if(jhBrowserBackArmed)return;
+ try{
+  history.pushState({jhReturnHome:true},"",location.href);
+  jhBrowserBackArmed=true;
+ }catch(error){console.warn("Historique de navigation indisponible.",error);}
+}
+window.addEventListener("popstate",()=>{
+ if(!jhBrowserBackArmed)return;
+ jhBrowserBackArmed=false;
+ navigationHistory=[];
+ catalogPageHistory=[];
+ renderHome();
+});
 function rememberNavigation(){
  if(!restoringNavigation)navigationHistory.push({view:currentView,group:currentGroup,page:catalogPage});
 }
@@ -352,6 +368,7 @@ function renderHome(){
  const pager=$("#catalogPagination");if(pager)pager.innerHTML="";
 }
 function openView(view){
+ armBrowserBackToHome();
  grid.classList.remove("jh-mobile-home-grid");
  const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
  rememberNavigation();
@@ -394,6 +411,7 @@ function showConstructionState(heading="En construction",message="Cette rubrique
  if(!document.getElementById("jh-construction-styles")){const style=document.createElement("style");style.id="jh-construction-styles";style.textContent=".jh-construction-visual{width:min(100%,520px);margin:26px auto;padding:30px 22px;text-align:center;border:1px solid #665326;border-radius:16px;background:radial-gradient(ellipse at 50% 0%,#30250f 0,#15120c 52%,#0d0d0d 100%);box-shadow:0 14px 36px #0008}.jh-construction-icon{display:grid;place-items:center;width:86px;height:86px;margin:0 auto 14px;border:1px solid #d7ad45;border-radius:22px;background:linear-gradient(145deg,#382d16,#17130b);font-size:48px}.jh-construction-label{display:inline-block;padding:6px 12px;border:1px solid #d7ad45;border-radius:30px;color:#f4bd22;font-size:11px;font-weight:900;letter-spacing:1.6px}.jh-construction-visual h3{margin:14px 0 7px;color:#fff;font-size:22px}.jh-construction-visual p{max-width:390px;margin:0 auto;color:#c7c0ae;font-size:13px;line-height:1.6}";document.head.appendChild(style);}
 }
 async function openGroup(kind,name){
+ armBrowserBackToHome();
  const multisportProducts=typeof MULTISPORT_PRODUCTS!=="undefined"&&Array.isArray(MULTISPORT_PRODUCTS)?MULTISPORT_PRODUCTS:[];
  const allCatalogProducts=[...PRODUCTS,...multisportProducts];
  // Ne jamais bloquer l’affichage des catégories sur le chargement du manifeste R2.

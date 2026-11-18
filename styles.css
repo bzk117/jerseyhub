@@ -412,3 +412,16 @@ button:disabled{cursor:not-allowed;opacity:.58}
 
 /* Logos des fédérations et ligues dans les cartes Autres sports. */
 .category-art .category-visual.category-logo{object-fit:contain;padding:16px;background:#fff;border-radius:9px;filter:none;}
+
+
+/* Rugby League : le logo officiel IRL est blanc, il doit donc rester sur fond sombre. */
+.category-art.art-rugby-league img.category-visual.category-logo{
+  background:#101820 !important;
+  padding:20px !important;
+  border-radius:0 !important;
+  object-fit:contain !important;
+  filter:none !important;
+}
+@media(max-width:760px){
+  .category-art.art-rugby-league img.category-visual.category-logo{padding:12px !important;}
+}

@@ -392,6 +392,8 @@ function showConstructionState(heading="En construction",message="Cette rubrique
  if(!document.getElementById("jh-construction-styles")){const style=document.createElement("style");style.id="jh-construction-styles";style.textContent=".jh-construction-visual{width:min(100%,520px);margin:26px auto;padding:30px 22px;text-align:center;border:1px solid #665326;border-radius:16px;background:radial-gradient(ellipse at 50% 0%,#30250f 0,#15120c 52%,#0d0d0d 100%);box-shadow:0 14px 36px #0008}.jh-construction-icon{display:grid;place-items:center;width:86px;height:86px;margin:0 auto 14px;border:1px solid #d7ad45;border-radius:22px;background:linear-gradient(145deg,#382d16,#17130b);font-size:48px}.jh-construction-label{display:inline-block;padding:6px 12px;border:1px solid #d7ad45;border-radius:30px;color:#f4bd22;font-size:11px;font-weight:900;letter-spacing:1.6px}.jh-construction-visual h3{margin:14px 0 7px;color:#fff;font-size:22px}.jh-construction-visual p{max-width:390px;margin:0 auto;color:#c7c0ae;font-size:13px;line-height:1.6}";document.head.appendChild(style);}
 }
 async function openGroup(kind,name){
+ const multisportProducts=typeof MULTISPORT_PRODUCTS!=="undefined"&&Array.isArray(MULTISPORT_PRODUCTS)?MULTISPORT_PRODUCTS:[];
+ const allCatalogProducts=[...PRODUCTS,...multisportProducts];
  // Ne jamais bloquer l’affichage des catégories sur le chargement du manifeste R2.
  const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
  grid.hidden=false;
@@ -466,7 +468,7 @@ async function openGroup(kind,name){
   }
  }
  if(["national","clubs","sports"].includes(kind)){
-  const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
+  const matches=allCatalogProducts.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
   setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":"AUTRES SPORTS",name,`Accueil / ${name}`);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
    renderPagedProducts(matches);
@@ -474,7 +476,7 @@ async function openGroup(kind,name){
   $("#resultCount").textContent=matches.length?`${matches.length} modèle(s)`:"";
   return;
  }
- const matches=PRODUCTS.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
+ const matches=allCatalogProducts.filter(isReadyForCatalog).filter(p=>p.category===kind&&p.group===name);
  setHeading(kind==="national"?"ÉQUIPE NATIONALE":kind==="clubs"?"ÉQUIPE DE CLUB":kind==="shoes"?"MARQUE DE CHAUSSURES":kind==="lifestyle"?"LIFESTYLE & ACCESSOIRES":"CATÉGORIE",name,`Accueil / ${name}`);
  grid.innerHTML="";
  renderPagedProducts(matches);
@@ -488,7 +490,7 @@ async function applySearch(){
  query=slug($("#searchInput").value.trim());
  if(!query){currentView==="home"?renderHome():openView(currentView);return}
  const entries=[...allNational(),...allClubs(),...OTHER_SPORTS.map(x=>({...x,kind:"sports"})),...SHOE_BRANDS.map(x=>({...x,kind:"shoes"})),...allLifestyle()].filter(x=>slug(x.name).includes(query));
- const prods=PRODUCTS.filter(isReadyForCatalog).filter(p=>slug(p.name+" "+p.group).includes(query));
+ const prods=[...PRODUCTS,...(typeof MULTISPORT_PRODUCTS!=="undefined"&&Array.isArray(MULTISPORT_PRODUCTS)?MULTISPORT_PRODUCTS:[])].filter(isReadyForCatalog).filter(p=>slug(p.name+" "+p.group+" "+(p.sport||p.league||"")).includes(query));
  setHeading("RECHERCHE",`Résultats pour « ${$("#searchInput").value} »`,"Accueil / Recherche");
  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
  const prefixNodes=entries.map(x=>card(x,x.kind));renderPagedProducts(prods,prefixNodes);

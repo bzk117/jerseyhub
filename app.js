@@ -419,6 +419,15 @@ async function openGroup(kind,name){
   $("#resultCount").textContent=teams.length?teams.length+" clubs référencés":"";
   return;
  }
+ if(kind==="sports" && ["NFL","MLB","NHL"].includes(name)){
+  const sportProducts=allCatalogProducts.filter(isReadyForCatalog).filter(p=>String(p.sport||p.league||"").toUpperCase()===name);
+  setHeading("MAILLOTS "+name,name,"Accueil / Autres sports / "+name);
+  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
+  renderPagedProducts(sportProducts);
+  if(!sportProducts.length){showConstructionState("Maillots en cours de raccordement","Les fiches de cette catégorie sont présentes dans le catalogue mais ne sont pas encore prêtes à être affichées.");}
+  $("#resultCount").textContent=sportProducts.length?sportProducts.length+" maillot(s)":"";
+  return;
+ }
  if(kind==="sports" && typeof SPORT_TEAM_GROUPS!=="undefined" && SPORT_TEAM_GROUPS[name]){
   setHeading("ÉQUIPES & FRANCHISES",name,"Accueil / Autres sports / "+name);
   grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;

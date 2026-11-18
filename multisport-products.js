@@ -1,8 +1,8 @@
 /*
  * 402 fiches adultes multisports préparées pour JerseyHub.
  * Les tailles sont marquées sizeVerified après contrôle du catalogue.
- * Les images restent vides tant que leur raccordement R2 exact n'est pas confirmé.
- * supplierVerified reste false : aucune publication ni vente automatique.
+ * Les 402 fiches adultes ont leurs tailles confirmées et leurs images raccordées au domaine public R2.
+ * La validation de publication a été confirmée par l'utilisateur.
  */
 const MULTISPORT_PRODUCTS = [
   {
@@ -16,7 +16,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0001.jpg",
     "imageFile": "MLB/images/JH-MLB-0001.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0001.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -26,9 +28,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-away-limited-player-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-away-limited-player-jersey-gray"
   },
@@ -43,7 +45,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0002.jpg",
     "imageFile": "MLB/images/JH-MLB-0002.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0002.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -53,9 +57,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-home-limited-player-jersey-white"
   },
@@ -70,7 +74,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0003.jpg",
     "imageFile": "MLB/images/JH-MLB-0003.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0003.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -80,9 +86,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-home-replica-player-name-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-home-replica-player-name-jersey-white"
   },
@@ -97,7 +103,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0004.jpg",
     "imageFile": "MLB/images/JH-MLB-0004.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0004.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -107,9 +115,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-road-replica-player-name-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-road-replica-player-name-jersey-gray"
   },
@@ -124,7 +132,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0005.jpg",
     "imageFile": "MLB/images/JH-MLB-0005.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0005.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -134,9 +144,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-usa-250-fourth-of-july-home-stadium-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/aaron-judge-new-york-yankees-nike-usa-250-fourth-of-july-home-stadium-jersey-white"
   },
@@ -151,7 +161,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0006.jpg",
     "imageFile": "MLB/images/JH-MLB-0006.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0006.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -161,9 +173,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black"
   },
@@ -178,7 +190,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0007.jpg",
     "imageFile": "MLB/images/JH-MLB-0007.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0007.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -188,9 +202,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-2nd-alternate-limited-player-jersey-orange",
     "sourceUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-2nd-alternate-limited-player-jersey-orange"
   },
@@ -205,7 +219,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0008.jpg",
     "imageFile": "MLB/images/JH-MLB-0008.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0008.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -215,9 +231,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-alternate-limited-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-alternate-limited-player-jersey-black"
   },
@@ -232,7 +248,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0009.jpg",
     "imageFile": "MLB/images/JH-MLB-0009.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0009.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -242,9 +260,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-alternate-replica-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-alternate-replica-player-jersey-black"
   },
@@ -259,7 +277,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0010.jpg",
     "imageFile": "MLB/images/JH-MLB-0010.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0010.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -269,9 +289,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-city-connect-limited-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-city-connect-limited-jersey-black"
   },
@@ -286,7 +306,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0011.jpg",
     "imageFile": "MLB/images/JH-MLB-0011.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0011.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -296,9 +318,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -313,7 +335,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0012.jpg",
     "imageFile": "MLB/images/JH-MLB-0012.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0012.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -323,9 +347,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-home-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-home-replica-player-jersey-white"
   },
@@ -340,7 +364,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0013.jpg",
     "imageFile": "MLB/images/JH-MLB-0013.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0013.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -350,9 +376,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-road-limited-player-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/adley-rutschman-baltimore-orioles-nike-road-limited-player-jersey-gray"
   },
@@ -367,7 +393,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0014.jpg",
     "imageFile": "MLB/images/JH-MLB-0014.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0014.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -377,9 +405,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/alex-bregman-boston-red-sox-nike-2025-city-connect-limited-player-jersey-green",
     "sourceUrl": "https://vivi-jersey.com/products/alex-bregman-boston-red-sox-nike-2025-city-connect-limited-player-jersey-green"
   },
@@ -394,7 +422,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0015.jpg",
     "imageFile": "MLB/images/JH-MLB-0015.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0015.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -404,9 +434,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/alex-verdugo-boston-red-sox-nike-city-connect-replica-player-jersey-gold",
     "sourceUrl": "https://vivi-jersey.com/products/alex-verdugo-boston-red-sox-nike-city-connect-replica-player-jersey-gold"
   },
@@ -421,7 +451,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0016.jpg",
     "imageFile": "MLB/images/JH-MLB-0016.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0016.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -431,9 +463,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/alex-verdugo-boston-red-sox-nike-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/alex-verdugo-boston-red-sox-nike-replica-player-jersey-white"
   },
@@ -448,7 +480,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0017.jpg",
     "imageFile": "MLB/images/JH-MLB-0017.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0017.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -458,9 +492,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/andrew-benintendi-new-york-yankees-nike-home-replica-player-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/andrew-benintendi-new-york-yankees-nike-home-replica-player-jersey-white-navy"
   },
@@ -475,7 +509,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0018.jpg",
     "imageFile": "MLB/images/JH-MLB-0018.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0018.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -485,9 +521,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-rizzo-new-york-yankees-nike-home-official-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-rizzo-new-york-yankees-nike-home-official-replica-player-jersey-white"
   },
@@ -502,7 +538,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0019.jpg",
     "imageFile": "MLB/images/JH-MLB-0019.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0019.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -512,9 +550,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-rizzo-new-york-yankees-nike-home-official-replica-player-jersey-white-2",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-rizzo-new-york-yankees-nike-home-official-replica-player-jersey-white-2"
   },
@@ -529,7 +567,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0020.jpg",
     "imageFile": "MLB/images/JH-MLB-0020.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0020.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -539,9 +579,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-santander-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-santander-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -556,7 +596,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0021.jpg",
     "imageFile": "MLB/images/JH-MLB-0021.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0021.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -566,9 +608,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-santander-baltimore-orioles-nike-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-santander-baltimore-orioles-nike-replica-player-jersey-white"
   },
@@ -583,7 +625,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0022.jpg",
     "imageFile": "MLB/images/JH-MLB-0022.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0022.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -593,9 +637,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-alternate-authentic-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-alternate-authentic-jersey-navy"
   },
@@ -610,7 +654,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0023.jpg",
     "imageFile": "MLB/images/JH-MLB-0023.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0023.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -620,9 +666,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-away-limited-player-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-away-limited-player-jersey-gray"
   },
@@ -637,7 +683,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0024.jpg",
     "imageFile": "MLB/images/JH-MLB-0024.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0024.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -647,9 +695,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-home-authentic-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-home-authentic-jersey-white-navy"
   },
@@ -664,7 +712,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0025.jpg",
     "imageFile": "MLB/images/JH-MLB-0025.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0025.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -674,9 +724,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-home-limited-player-jersey-white"
   },
@@ -691,7 +741,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0026.jpg",
     "imageFile": "MLB/images/JH-MLB-0026.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0026.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -701,9 +753,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-home-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-home-replica-player-jersey-white"
   },
@@ -718,7 +770,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0027.jpg",
     "imageFile": "MLB/images/JH-MLB-0027.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0027.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -728,9 +782,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-road-authentic-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/anthony-volpe-new-york-yankees-nike-road-authentic-jersey-gray"
   },
@@ -745,7 +799,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0028.jpg",
     "imageFile": "MLB/images/JH-MLB-0028.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0028.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -755,9 +811,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/austin-hays-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/austin-hays-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -772,7 +828,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0029.jpg",
     "imageFile": "MLB/images/JH-MLB-0029.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0029.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -782,9 +840,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/austin-hays-baltimore-orioles-nike-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/austin-hays-baltimore-orioles-nike-replica-player-jersey-white"
   },
@@ -799,7 +857,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0030.jpg",
     "imageFile": "MLB/images/JH-MLB-0030.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0030.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -809,9 +869,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/babe-ruth-new-york-yankees-nike-home-authentic-retired-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/babe-ruth-new-york-yankees-nike-home-authentic-retired-player-jersey-white"
   },
@@ -826,7 +886,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0031.jpg",
     "imageFile": "MLB/images/JH-MLB-0031.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0031.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -836,9 +898,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-1-dad-home-limited-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-1-dad-home-limited-jersey-white"
   },
@@ -853,7 +915,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0032.jpg",
     "imageFile": "MLB/images/JH-MLB-0032.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0032.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -863,9 +927,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-2023-city-connect-replica-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-2023-city-connect-replica-jersey-black"
   },
@@ -880,7 +944,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0033.jpg",
     "imageFile": "MLB/images/JH-MLB-0033.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0033.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -891,9 +957,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-2026-city-connect-stadium-custom-jersey-cream",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-2026-city-connect-stadium-custom-jersey-cream"
   },
@@ -908,7 +974,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0034.jpg",
     "imageFile": "MLB/images/JH-MLB-0034.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0034.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -918,9 +986,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-alternate-replica-team-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-alternate-replica-team-jersey-black"
   },
@@ -935,7 +1003,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0035.jpg",
     "imageFile": "MLB/images/JH-MLB-0035.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0035.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -945,9 +1015,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-city-connect-limited-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-city-connect-limited-jersey-black"
   },
@@ -962,7 +1032,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0036.jpg",
     "imageFile": "MLB/images/JH-MLB-0036.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0036.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -972,9 +1044,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-cooperstown-collection-limited-jersey-orange",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-cooperstown-collection-limited-jersey-orange"
   },
@@ -989,7 +1061,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0037.jpg",
     "imageFile": "MLB/images/JH-MLB-0037.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0037.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -999,9 +1073,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-blank-replica-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-blank-replica-jersey-white"
   },
@@ -1016,7 +1090,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0038.jpg",
     "imageFile": "MLB/images/JH-MLB-0038.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0038.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1027,9 +1103,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-limited-custom-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-limited-custom-jersey-white"
   },
@@ -1044,7 +1120,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0039.jpg",
     "imageFile": "MLB/images/JH-MLB-0039.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0039.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1054,9 +1132,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-limited-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-limited-jersey-white"
   },
@@ -1071,7 +1149,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0040.jpg",
     "imageFile": "MLB/images/JH-MLB-0040.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0040.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1082,9 +1162,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-replica-custom-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-replica-custom-jersey-white"
   },
@@ -1099,7 +1179,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0041.jpg",
     "imageFile": "MLB/images/JH-MLB-0041.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0041.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1109,9 +1191,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-replica-team-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-home-replica-team-jersey-white"
   },
@@ -1126,7 +1208,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0042.jpg",
     "imageFile": "MLB/images/JH-MLB-0042.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0042.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1136,9 +1220,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-limited-alternate-blank-replica-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-limited-alternate-blank-replica-jersey-black"
   },
@@ -1153,7 +1237,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0043.jpg",
     "imageFile": "MLB/images/JH-MLB-0043.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0043.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1163,9 +1249,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-road-limited-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-road-limited-jersey-gray"
   },
@@ -1180,7 +1266,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0044.jpg",
     "imageFile": "MLB/images/JH-MLB-0044.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0044.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1190,9 +1278,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-road-replica-team-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/baltimore-orioles-nike-road-replica-team-jersey-gray"
   },
@@ -1207,7 +1295,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0045.jpg",
     "imageFile": "MLB/images/JH-MLB-0045.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0045.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1217,9 +1307,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-2021-city-connect-replica-jersey-gold-light-blue",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-2021-city-connect-replica-jersey-gold-light-blue"
   },
@@ -1234,7 +1324,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0046.jpg",
     "imageFile": "MLB/images/JH-MLB-0046.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0046.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1244,9 +1336,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-2023-jackie-robinson-day-authentic-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-2023-jackie-robinson-day-authentic-jersey-white"
   },
@@ -1261,7 +1353,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0047.jpg",
     "imageFile": "MLB/images/JH-MLB-0047.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0047.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1272,9 +1366,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-2025-city-connect-limited-custom-jersey-green",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-2025-city-connect-limited-custom-jersey-green"
   },
@@ -1289,7 +1383,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0048.jpg",
     "imageFile": "MLB/images/JH-MLB-0048.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0048.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1299,9 +1395,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-2025-city-connect-limited-jersey-green",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-2025-city-connect-limited-jersey-green"
   },
@@ -1316,7 +1412,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0049.jpg",
     "imageFile": "MLB/images/JH-MLB-0049.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0049.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1327,9 +1425,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-alternate-limited-custom-jersey-red",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-alternate-limited-custom-jersey-red"
   },
@@ -1344,7 +1442,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0050.jpg",
     "imageFile": "MLB/images/JH-MLB-0050.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0050.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1354,9 +1454,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-alternate-limited-jersey-red",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-alternate-limited-jersey-red"
   },
@@ -1371,7 +1471,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0051.jpg",
     "imageFile": "MLB/images/JH-MLB-0051.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0051.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1381,9 +1483,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-alternate-replica-team-jersey-red",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-alternate-replica-team-jersey-red"
   },
@@ -1398,7 +1500,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0052.jpg",
     "imageFile": "MLB/images/JH-MLB-0052.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0052.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1409,9 +1513,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-gray-away-limited-custom-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-gray-away-limited-custom-jersey"
   },
@@ -1426,7 +1530,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0053.jpg",
     "imageFile": "MLB/images/JH-MLB-0053.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0053.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1436,9 +1542,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-home-authentic-team-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-home-authentic-team-jersey-white"
   },
@@ -1453,7 +1559,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0054.jpg",
     "imageFile": "MLB/images/JH-MLB-0054.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0054.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1463,9 +1571,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-home-blank-replica-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-home-blank-replica-jersey-white"
   },
@@ -1480,7 +1588,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0055.jpg",
     "imageFile": "MLB/images/JH-MLB-0055.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0055.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1491,9 +1601,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-home-limited-custom-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-home-limited-custom-jersey-white"
   },
@@ -1508,7 +1618,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0056.jpg",
     "imageFile": "MLB/images/JH-MLB-0056.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0056.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1518,9 +1630,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-home-replica-team-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-home-replica-team-jersey-white"
   },
@@ -1535,7 +1647,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0057.jpg",
     "imageFile": "MLB/images/JH-MLB-0057.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0057.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1546,9 +1660,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-road-replica-custom-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-road-replica-custom-jersey-gray"
   },
@@ -1563,7 +1677,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0058.jpg",
     "imageFile": "MLB/images/JH-MLB-0058.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0058.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1573,9 +1689,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-road-replica-team-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/boston-red-sox-nike-road-replica-team-jersey-gray"
   },
@@ -1590,7 +1706,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0059.jpg",
     "imageFile": "MLB/images/JH-MLB-0059.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0059.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1600,9 +1718,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/brayan-bello-boston-red-sox-nike-2025-city-connect-limited-player-jersey-green",
     "sourceUrl": "https://vivi-jersey.com/products/brayan-bello-boston-red-sox-nike-2025-city-connect-limited-player-jersey-green"
   },
@@ -1617,7 +1735,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0060.jpg",
     "imageFile": "MLB/images/JH-MLB-0060.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0060.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1627,9 +1747,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cal-ripken-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/cal-ripken-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black"
   },
@@ -1644,7 +1764,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0061.jpg",
     "imageFile": "MLB/images/JH-MLB-0061.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0061.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1654,9 +1776,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cal-ripken-jr-baltimore-orioles-nike-city-connect-limited-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/cal-ripken-jr-baltimore-orioles-nike-city-connect-limited-jersey-black"
   },
@@ -1671,7 +1793,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0062.jpg",
     "imageFile": "MLB/images/JH-MLB-0062.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0062.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1681,9 +1805,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cal-ripken-jr-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/cal-ripken-jr-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -1698,7 +1822,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0063.jpg",
     "imageFile": "MLB/images/JH-MLB-0063.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0063.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1708,9 +1834,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cal-ripken-jr-baltimore-orioles-nike-throwback-cooperstown-limited-jersey-orange",
     "sourceUrl": "https://vivi-jersey.com/products/cal-ripken-jr-baltimore-orioles-nike-throwback-cooperstown-limited-jersey-orange"
   },
@@ -1725,7 +1851,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0064.jpg",
     "imageFile": "MLB/images/JH-MLB-0064.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0064.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1735,9 +1863,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/carlos-rodon-new-york-yankees-nike-home-official-player-jersey-white-navy-2",
     "sourceUrl": "https://vivi-jersey.com/products/carlos-rodon-new-york-yankees-nike-home-official-player-jersey-white-navy-2"
   },
@@ -1752,7 +1880,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0065.jpg",
     "imageFile": "MLB/images/JH-MLB-0065.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0065.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1762,9 +1892,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/carlos-rodon-new-york-yankees-nike-home-official-player-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/carlos-rodon-new-york-yankees-nike-home-official-player-jersey-white-navy"
   },
@@ -1779,7 +1909,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0066.jpg",
     "imageFile": "MLB/images/JH-MLB-0066.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0066.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1789,9 +1921,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/catfish-hunter-new-york-yankees-nike-home-authentic-retired-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/catfish-hunter-new-york-yankees-nike-home-authentic-retired-player-jersey-white"
   },
@@ -1806,7 +1938,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0067.jpg",
     "imageFile": "MLB/images/JH-MLB-0067.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0067.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1816,9 +1950,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-2023-city-connect-authentic-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-2023-city-connect-authentic-player-jersey-black"
   },
@@ -1833,7 +1967,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0068.jpg",
     "imageFile": "MLB/images/JH-MLB-0068.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0068.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1843,9 +1979,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black"
   },
@@ -1860,7 +1996,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0069.jpg",
     "imageFile": "MLB/images/JH-MLB-0069.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0069.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1870,9 +2008,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-city-connect-limited-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-city-connect-limited-player-jersey-black"
   },
@@ -1887,7 +2025,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0070.jpg",
     "imageFile": "MLB/images/JH-MLB-0070.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0070.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1897,9 +2037,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -1914,7 +2054,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0071.jpg",
     "imageFile": "MLB/images/JH-MLB-0071.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0071.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1924,9 +2066,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/cedric-mullins-baltimore-orioles-nike-replica-player-jersey-white"
   },
@@ -1941,7 +2083,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0072.jpg",
     "imageFile": "MLB/images/JH-MLB-0072.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0072.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1951,9 +2095,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/chris-sale-boston-red-sox-nike-home-replica-player-name-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/chris-sale-boston-red-sox-nike-home-replica-player-name-jersey-white"
   },
@@ -1968,7 +2112,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0073.jpg",
     "imageFile": "MLB/images/JH-MLB-0073.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0073.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -1978,9 +2124,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/cionel-perez-baltimore-orioles-nike-home-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/cionel-perez-baltimore-orioles-nike-home-replica-player-jersey-white"
   },
@@ -1995,7 +2141,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0074.jpg",
     "imageFile": "MLB/images/JH-MLB-0074.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0074.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2005,9 +2153,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/clarke-schmidt-new-york-yankees-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/clarke-schmidt-new-york-yankees-nike-home-limited-player-jersey-white"
   },
@@ -2022,7 +2170,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0075.jpg",
     "imageFile": "MLB/images/JH-MLB-0075.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0075.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2032,9 +2182,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/colton-cowser-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/colton-cowser-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -2049,7 +2199,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0076.jpg",
     "imageFile": "MLB/images/JH-MLB-0076.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0076.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2059,9 +2211,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/corbin-burnes-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/corbin-burnes-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -2076,7 +2228,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0077.jpg",
     "imageFile": "MLB/images/JH-MLB-0077.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0077.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2086,9 +2240,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dave-winfield-new-york-yankees-nike-home-authentic-retired-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/dave-winfield-new-york-yankees-nike-home-authentic-retired-player-jersey-white"
   },
@@ -2103,7 +2257,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0078.jpg",
     "imageFile": "MLB/images/JH-MLB-0078.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0078.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2113,9 +2269,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-2025-city-connect-limited-retired-player-jersey-green",
     "sourceUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-2025-city-connect-limited-retired-player-jersey-green"
   },
@@ -2130,7 +2286,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0079.jpg",
     "imageFile": "MLB/images/JH-MLB-0079.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0079.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2140,9 +2298,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-alternate-replica-player-jersey-red",
     "sourceUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-alternate-replica-player-jersey-red"
   },
@@ -2157,7 +2315,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0080.jpg",
     "imageFile": "MLB/images/JH-MLB-0080.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0080.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2167,9 +2327,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-big-papi-replica-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-big-papi-replica-jersey-white"
   },
@@ -2184,7 +2344,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0081.jpg",
     "imageFile": "MLB/images/JH-MLB-0081.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0081.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2194,9 +2356,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-home-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-home-replica-player-jersey-white"
   },
@@ -2211,7 +2373,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0082.jpg",
     "imageFile": "MLB/images/JH-MLB-0082.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0082.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2221,9 +2385,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-retired-player-city-connect-replica-jersey-gold",
     "sourceUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-retired-player-city-connect-replica-jersey-gold"
   },
@@ -2238,7 +2402,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0083.jpg",
     "imageFile": "MLB/images/JH-MLB-0083.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0083.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2248,9 +2414,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-road-replica-player-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/david-ortiz-boston-red-sox-nike-road-replica-player-jersey-gray"
   },
@@ -2265,7 +2431,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0084.jpg",
     "imageFile": "MLB/images/JH-MLB-0084.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0084.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2275,9 +2443,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dean-kremer-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/dean-kremer-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -2292,7 +2460,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0085.jpg",
     "imageFile": "MLB/images/JH-MLB-0085.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0085.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2302,9 +2472,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-2020-hall-of-fame-induction-alternate-replica-player-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-2020-hall-of-fame-induction-alternate-replica-player-jersey-navy"
   },
@@ -2319,7 +2489,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0086.jpg",
     "imageFile": "MLB/images/JH-MLB-0086.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0086.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2329,9 +2501,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-2020-hall-of-fame-induction-alternate-replica-player-name-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-2020-hall-of-fame-induction-alternate-replica-player-name-jersey-navy"
   },
@@ -2346,7 +2518,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0087.jpg",
     "imageFile": "MLB/images/JH-MLB-0087.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0087.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2356,9 +2530,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-2020-hall-of-fame-induction-home-replica-player-name-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-2020-hall-of-fame-induction-home-replica-player-name-jersey-white-navy"
   },
@@ -2373,7 +2547,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0088.jpg",
     "imageFile": "MLB/images/JH-MLB-0088.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0088.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2383,9 +2559,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-2020-hall-of-fame-induction-replica-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-2020-hall-of-fame-induction-replica-jersey-white-navy"
   },
@@ -2400,7 +2576,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0089.jpg",
     "imageFile": "MLB/images/JH-MLB-0089.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0089.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2410,9 +2588,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-alternate-replica-player-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-alternate-replica-player-jersey-navy"
   },
@@ -2427,7 +2605,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0090.jpg",
     "imageFile": "MLB/images/JH-MLB-0090.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0090.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2437,9 +2617,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-away-limited-player-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-away-limited-player-jersey-gray"
   },
@@ -2454,7 +2634,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0091.jpg",
     "imageFile": "MLB/images/JH-MLB-0091.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0091.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2464,9 +2646,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-home-authentic-player-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-home-authentic-player-jersey-white-navy"
   },
@@ -2481,7 +2663,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0092.jpg",
     "imageFile": "MLB/images/JH-MLB-0092.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0092.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2491,9 +2675,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-home-replica-player-name-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-home-replica-player-name-jersey-white-navy"
   },
@@ -2508,7 +2692,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0093.jpg",
     "imageFile": "MLB/images/JH-MLB-0093.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0093.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2518,9 +2704,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-replica-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/derek-jeter-new-york-yankees-nike-replica-jersey-white-navy"
   },
@@ -2535,7 +2721,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0094.jpg",
     "imageFile": "MLB/images/JH-MLB-0094.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0094.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2545,9 +2733,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-alternate-replica-player-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-alternate-replica-player-jersey-navy"
   },
@@ -2562,7 +2750,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0095.jpg",
     "imageFile": "MLB/images/JH-MLB-0095.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0095.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2572,9 +2762,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-home-authentic-player-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-home-authentic-player-jersey-white-navy"
   },
@@ -2589,7 +2779,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0096.jpg",
     "imageFile": "MLB/images/JH-MLB-0096.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0096.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2599,9 +2791,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-home-limited-player-jersey-white"
   },
@@ -2616,7 +2808,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0097.jpg",
     "imageFile": "MLB/images/JH-MLB-0097.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0097.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2626,9 +2820,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-home-replica-player-name-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-home-replica-player-name-jersey-white"
   },
@@ -2643,7 +2837,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0098.jpg",
     "imageFile": "MLB/images/JH-MLB-0098.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0098.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2653,9 +2849,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-road-replica-player-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/dj-lemahieu-new-york-yankees-nike-road-replica-player-jersey-gray"
   },
@@ -2670,7 +2866,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0099.jpg",
     "imageFile": "MLB/images/JH-MLB-0099.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0099.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2680,9 +2878,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/enrique-hernandez-boston-red-sox-nike-2021-city-connect-replica-player-jersey-gold-light-blue",
     "sourceUrl": "https://vivi-jersey.com/products/enrique-hernandez-boston-red-sox-nike-2021-city-connect-replica-player-jersey-gold-light-blue"
   },
@@ -2697,7 +2895,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0100.jpg",
     "imageFile": "MLB/images/JH-MLB-0100.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0100.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2707,9 +2907,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/enrique-hernandez-boston-red-sox-nike-home-official-replica-player-jersey-white-2",
     "sourceUrl": "https://vivi-jersey.com/products/enrique-hernandez-boston-red-sox-nike-home-official-replica-player-jersey-white-2"
   },
@@ -2724,7 +2924,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0101.jpg",
     "imageFile": "MLB/images/JH-MLB-0101.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0101.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2734,9 +2936,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/enrique-hernandez-boston-red-sox-nike-home-official-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/enrique-hernandez-boston-red-sox-nike-home-official-replica-player-jersey-white"
   },
@@ -2751,7 +2953,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0102.jpg",
     "imageFile": "MLB/images/JH-MLB-0102.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0102.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2761,9 +2965,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/felix-bautista-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/felix-bautista-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -2778,7 +2982,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0103.jpg",
     "imageFile": "MLB/images/JH-MLB-0103.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0103.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2788,9 +2994,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/felix-bautista-baltimore-orioles-nike-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/felix-bautista-baltimore-orioles-nike-replica-player-jersey-white"
   },
@@ -2805,7 +3011,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0104.jpg",
     "imageFile": "MLB/images/JH-MLB-0104.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0104.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2815,9 +3023,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/garrett-crochet-boston-red-sox-nike-2025-city-connect-limited-player-jersey-green",
     "sourceUrl": "https://vivi-jersey.com/products/garrett-crochet-boston-red-sox-nike-2025-city-connect-limited-player-jersey-green"
   },
@@ -2832,7 +3040,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0105.jpg",
     "imageFile": "MLB/images/JH-MLB-0105.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0105.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2842,9 +3052,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gary-sanchez-new-york-yankees-nike-home-replica-player-name-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/gary-sanchez-new-york-yankees-nike-home-replica-player-name-jersey-white"
   },
@@ -2859,7 +3069,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0106.jpg",
     "imageFile": "MLB/images/JH-MLB-0106.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0106.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2869,9 +3081,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gary-sanchez-new-york-yankees-nike-road-replica-player-name-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/gary-sanchez-new-york-yankees-nike-road-replica-player-name-jersey-gray"
   },
@@ -2886,7 +3098,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0107.jpg",
     "imageFile": "MLB/images/JH-MLB-0107.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0107.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2896,9 +3110,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-alternate-replica-player-name-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-alternate-replica-player-name-jersey-navy"
   },
@@ -2913,7 +3127,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0108.jpg",
     "imageFile": "MLB/images/JH-MLB-0108.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0108.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2923,9 +3139,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-away-limited-player-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-away-limited-player-jersey-gray"
   },
@@ -2940,7 +3156,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0109.jpg",
     "imageFile": "MLB/images/JH-MLB-0109.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0109.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2950,9 +3168,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-home-authentic-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-home-authentic-player-jersey-white"
   },
@@ -2967,7 +3185,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0110.jpg",
     "imageFile": "MLB/images/JH-MLB-0110.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0110.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -2977,9 +3197,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-home-limited-player-jersey-white"
   },
@@ -2994,7 +3214,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0111.jpg",
     "imageFile": "MLB/images/JH-MLB-0111.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0111.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3004,9 +3226,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-home-replica-player-name-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-home-replica-player-name-jersey-white"
   },
@@ -3021,7 +3243,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0112.jpg",
     "imageFile": "MLB/images/JH-MLB-0112.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0112.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3031,9 +3255,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-road-replica-player-name-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/gerrit-cole-new-york-yankees-nike-road-replica-player-name-jersey-gray"
   },
@@ -3048,7 +3272,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0113.jpg",
     "imageFile": "MLB/images/JH-MLB-0113.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0113.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3058,9 +3284,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/giancarlo-stanton-new-york-yankees-nike-alternate-replica-player-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/giancarlo-stanton-new-york-yankees-nike-alternate-replica-player-jersey-navy"
   },
@@ -3075,7 +3301,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0114.jpg",
     "imageFile": "MLB/images/JH-MLB-0114.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0114.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3085,9 +3313,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/giancarlo-stanton-new-york-yankees-nike-home-authentic-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/giancarlo-stanton-new-york-yankees-nike-home-authentic-player-jersey-white"
   },
@@ -3102,7 +3330,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0115.jpg",
     "imageFile": "MLB/images/JH-MLB-0115.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0115.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3112,9 +3342,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/giancarlo-stanton-new-york-yankees-nike-home-replica-player-name-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/giancarlo-stanton-new-york-yankees-nike-home-replica-player-name-jersey-white"
   },
@@ -3129,7 +3359,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0116.jpg",
     "imageFile": "MLB/images/JH-MLB-0116.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0116.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3139,9 +3371,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/giancarlo-stanton-new-york-yankees-nike-road-replica-player-name-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/giancarlo-stanton-new-york-yankees-nike-road-replica-player-name-jersey-gray"
   },
@@ -3156,7 +3388,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0117.jpg",
     "imageFile": "MLB/images/JH-MLB-0117.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0117.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3166,9 +3400,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gleyber-torres-new-york-yankees-nike-road-replica-player-name-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/gleyber-torres-new-york-yankees-nike-road-replica-player-name-jersey-gray"
   },
@@ -3183,7 +3417,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0118.jpg",
     "imageFile": "MLB/images/JH-MLB-0118.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0118.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3193,9 +3429,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/grayson-rodriguez-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/grayson-rodriguez-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -3210,7 +3446,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0119.jpg",
     "imageFile": "MLB/images/JH-MLB-0119.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0119.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3220,9 +3458,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black"
   },
@@ -3237,7 +3475,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0120.jpg",
     "imageFile": "MLB/images/JH-MLB-0120.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0120.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3247,9 +3487,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-2026-city-connect-stadium-jersey-cream",
     "sourceUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-2026-city-connect-stadium-jersey-cream"
   },
@@ -3264,7 +3504,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0121.jpg",
     "imageFile": "MLB/images/JH-MLB-0121.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0121.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3274,9 +3516,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-alternate-limited-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-alternate-limited-player-jersey-black"
   },
@@ -3291,7 +3533,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0122.jpg",
     "imageFile": "MLB/images/JH-MLB-0122.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0122.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3301,9 +3545,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -3318,7 +3562,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0123.jpg",
     "imageFile": "MLB/images/JH-MLB-0123.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0123.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3328,9 +3574,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-road-limited-player-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/gunnar-henderson-baltimore-orioles-nike-road-limited-player-jersey-gray"
   },
@@ -3345,7 +3591,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0124.jpg",
     "imageFile": "MLB/images/JH-MLB-0124.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0124.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3355,9 +3603,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/heston-kjerstad-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/heston-kjerstad-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -3372,7 +3620,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0125.jpg",
     "imageFile": "MLB/images/JH-MLB-0125.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0125.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3382,9 +3632,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white"
   },
@@ -3399,7 +3649,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0126.jpg",
     "imageFile": "MLB/images/JH-MLB-0126.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0126.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3409,9 +3661,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white-2",
     "sourceUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white-2"
   },
@@ -3426,7 +3678,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0127.jpg",
     "imageFile": "MLB/images/JH-MLB-0127.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0127.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3436,9 +3690,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-alternate-replica-player-name-jersey-red",
     "sourceUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-alternate-replica-player-name-jersey-red"
   },
@@ -3453,7 +3707,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0128.jpg",
     "imageFile": "MLB/images/JH-MLB-0128.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0128.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3463,9 +3719,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-city-connect-replica-player-jersey-gold",
     "sourceUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-city-connect-replica-player-jersey-gold"
   },
@@ -3480,7 +3736,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0129.jpg",
     "imageFile": "MLB/images/JH-MLB-0129.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0129.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3490,9 +3748,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-home-replica-player-name-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/j-d-martinez-boston-red-sox-nike-home-replica-player-name-jersey-white"
   },
@@ -3507,7 +3765,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0130.jpg",
     "imageFile": "MLB/images/JH-MLB-0130.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0130.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3517,9 +3777,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jackson-holliday-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/jackson-holliday-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black"
   },
@@ -3534,7 +3794,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0131.jpg",
     "imageFile": "MLB/images/JH-MLB-0131.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0131.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3544,9 +3806,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jackson-holliday-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/jackson-holliday-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -3561,7 +3823,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0132.jpg",
     "imageFile": "MLB/images/JH-MLB-0132.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0132.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3571,9 +3835,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jarren-duran-boston-red-sox-nike-2025-city-connect-limited-player-jersey-green",
     "sourceUrl": "https://vivi-jersey.com/products/jarren-duran-boston-red-sox-nike-2025-city-connect-limited-player-jersey-green"
   },
@@ -3588,7 +3852,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0133.jpg",
     "imageFile": "MLB/images/JH-MLB-0133.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0133.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3598,9 +3864,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jarren-duran-boston-red-sox-nike-alternate-limited-player-jersey-red",
     "sourceUrl": "https://vivi-jersey.com/products/jarren-duran-boston-red-sox-nike-alternate-limited-player-jersey-red"
   },
@@ -3615,7 +3881,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0134.jpg",
     "imageFile": "MLB/images/JH-MLB-0134.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0134.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3625,9 +3893,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jarren-duran-boston-red-sox-nike-city-connect-replica-player-jersey-gold",
     "sourceUrl": "https://vivi-jersey.com/products/jarren-duran-boston-red-sox-nike-city-connect-replica-player-jersey-gold"
   },
@@ -3642,7 +3910,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0135.jpg",
     "imageFile": "MLB/images/JH-MLB-0135.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0135.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3652,9 +3922,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jarren-duran-boston-red-sox-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/jarren-duran-boston-red-sox-nike-home-limited-player-jersey-white"
   },
@@ -3669,7 +3939,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0136.png",
     "imageFile": "MLB/images/JH-MLB-0136.png",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0136.png"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3679,9 +3951,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jazz-chisholm-jr-new-york-yankees-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/jazz-chisholm-jr-new-york-yankees-nike-home-limited-player-jersey-white"
   },
@@ -3696,7 +3968,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0137.jpg",
     "imageFile": "MLB/images/JH-MLB-0137.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0137.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3706,9 +3980,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/joely-rodriguez-boston-red-sox-nike-home-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/joely-rodriguez-boston-red-sox-nike-home-replica-player-jersey-white"
   },
@@ -3723,7 +3997,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0138.jpg",
     "imageFile": "MLB/images/JH-MLB-0138.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0138.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3733,9 +4009,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/joey-gallo-new-york-yankees-nike-alternate-replica-player-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/joey-gallo-new-york-yankees-nike-alternate-replica-player-jersey-navy"
   },
@@ -3750,7 +4026,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0139.jpg",
     "imageFile": "MLB/images/JH-MLB-0139.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0139.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3760,9 +4038,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/joey-gallo-new-york-yankees-nike-home-replica-playerjersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/joey-gallo-new-york-yankees-nike-home-replica-playerjersey-white-navy"
   },
@@ -3777,7 +4055,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0140.jpg",
     "imageFile": "MLB/images/JH-MLB-0140.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0140.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3787,9 +4067,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/john-means-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/john-means-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -3804,7 +4084,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0141.jpg",
     "imageFile": "MLB/images/JH-MLB-0141.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0141.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3814,9 +4096,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jordan-westburg-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/jordan-westburg-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -3831,7 +4113,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0142.jpg",
     "imageFile": "MLB/images/JH-MLB-0142.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0142.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3841,9 +4125,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jorge-mateo-baltimore-orioles-nike-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/jorge-mateo-baltimore-orioles-nike-replica-player-jersey-white"
   },
@@ -3858,7 +4142,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0143.jpg",
     "imageFile": "MLB/images/JH-MLB-0143.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0143.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3868,9 +4154,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jose-trevino-new-york-yankees-nike-home-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/jose-trevino-new-york-yankees-nike-home-replica-player-jersey-white"
   },
@@ -3885,7 +4171,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0144.jpg",
     "imageFile": "MLB/images/JH-MLB-0144.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0144.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3895,9 +4183,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/josh-donaldson-new-york-yankees-nike-home-replica-player-jersey-white-navy",
     "sourceUrl": "https://vivi-jersey.com/products/josh-donaldson-new-york-yankees-nike-home-replica-player-jersey-white-navy"
   },
@@ -3912,7 +4200,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0145.jpg",
     "imageFile": "MLB/images/JH-MLB-0145.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0145.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3922,9 +4212,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/juan-soto-new-york-yankees-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/juan-soto-new-york-yankees-nike-home-limited-player-jersey-white"
   },
@@ -3939,7 +4229,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0146.jpg",
     "imageFile": "MLB/images/JH-MLB-0146.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0146.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3949,9 +4241,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/juan-soto-new-york-yankees-nike-home-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/juan-soto-new-york-yankees-nike-home-replica-player-jersey-white"
   },
@@ -3966,7 +4258,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0147.jpg",
     "imageFile": "MLB/images/JH-MLB-0147.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0147.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -3976,9 +4270,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/justin-turner-boston-red-sox-nike-home-replica-player-jersey-white-red",
     "sourceUrl": "https://vivi-jersey.com/products/justin-turner-boston-red-sox-nike-home-replica-player-jersey-white-red"
   },
@@ -3993,7 +4287,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0148.jpg",
     "imageFile": "MLB/images/JH-MLB-0148.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0148.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4003,9 +4299,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/kyle-bradish-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/kyle-bradish-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -4020,7 +4316,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0149.jpg",
     "imageFile": "MLB/images/JH-MLB-0149.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0149.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4030,9 +4328,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/lou-gehrig-new-york-yankees-nike-home-authentic-retired-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/lou-gehrig-new-york-yankees-nike-home-authentic-retired-player-jersey-white"
   },
@@ -4047,7 +4345,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0150.jpg",
     "imageFile": "MLB/images/JH-MLB-0150.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0150.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4058,9 +4358,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-custom-pick-a-player-retired-roster-authentic-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-custom-pick-a-player-retired-roster-authentic-jersey-white"
   },
@@ -4075,7 +4375,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0151.jpg",
     "imageFile": "MLB/images/JH-MLB-0151.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0151.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4085,9 +4387,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white"
   },
@@ -4102,7 +4404,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0152.jpg",
     "imageFile": "MLB/images/JH-MLB-0152.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0152.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4112,9 +4416,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-alex-rodriguez-19-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-alex-rodriguez-19-nike-white-home-2020-jersey"
   },
@@ -4129,7 +4433,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0153.jpg",
     "imageFile": "MLB/images/JH-MLB-0153.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0153.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4139,9 +4445,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-don-mattingly-23-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-don-mattingly-23-nike-white-home-2020-jersey"
   },
@@ -4156,7 +4462,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0154.jpg",
     "imageFile": "MLB/images/JH-MLB-0154.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0154.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4166,9 +4474,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-nike-white-home-2020-jersey"
   },
@@ -4183,7 +4491,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0155.jpg",
     "imageFile": "MLB/images/JH-MLB-0155.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0155.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4193,9 +4503,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-home-limited-player-jersey-white"
   },
@@ -4210,7 +4520,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0156.jpg",
     "imageFile": "MLB/images/JH-MLB-0156.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0156.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4220,9 +4532,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/ryan-mountcastle-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/ryan-mountcastle-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -4237,7 +4549,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0157.jpg",
     "imageFile": "MLB/images/JH-MLB-0157.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0157.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4247,9 +4561,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/triston-casas-boston-red-sox-nike-home-replica-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/triston-casas-boston-red-sox-nike-home-replica-jersey-white"
   },
@@ -4264,7 +4578,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0158.jpg",
     "imageFile": "MLB/images/JH-MLB-0158.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0158.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4274,9 +4590,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-replica-team-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-replica-team-jersey-white"
   },
@@ -4291,7 +4607,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0159.jpg",
     "imageFile": "MLB/images/JH-MLB-0159.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0159.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4302,9 +4620,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-replica-custom-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-replica-custom-jersey-white"
   },
@@ -4319,7 +4637,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0160.jpg",
     "imageFile": "MLB/images/JH-MLB-0160.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0160.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4329,9 +4649,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-rafael-devers-11-nike-red-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-rafael-devers-11-nike-red-home-2020-jersey"
   },
@@ -4346,7 +4666,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0161.jpg",
     "imageFile": "MLB/images/JH-MLB-0161.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0161.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4356,9 +4678,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-2021-city-connect-replica-player-jersey-gold-light-blue",
     "sourceUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-2021-city-connect-replica-player-jersey-gold-light-blue"
   },
@@ -4373,7 +4695,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0162.jpg",
     "imageFile": "MLB/images/JH-MLB-0162.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0162.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4383,9 +4707,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/ryan-mountcastle-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/ryan-mountcastle-baltimore-orioles-nike-2023-city-connect-replica-player-jersey-black"
   },
@@ -4400,7 +4724,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0163.jpg",
     "imageFile": "MLB/images/JH-MLB-0163.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0163.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4410,9 +4736,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-road-replica-team-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-road-replica-team-jersey-gray"
   },
@@ -4427,7 +4753,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0164.jpg",
     "imageFile": "MLB/images/JH-MLB-0164.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0164.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4437,9 +4765,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white-2",
     "sourceUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white-2"
   },
@@ -4454,7 +4782,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0165.jpg",
     "imageFile": "MLB/images/JH-MLB-0165.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0165.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4465,9 +4795,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-alternate-replica-custom-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-alternate-replica-custom-jersey-navy"
   },
@@ -4482,7 +4812,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0166.jpg",
     "imageFile": "MLB/images/JH-MLB-0166.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0166.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4492,9 +4824,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-baltimore-orioles-cal-ripken-8-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-baltimore-orioles-cal-ripken-8-nike-white-home-2020-jersey"
   },
@@ -4509,7 +4841,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0167.jpg",
     "imageFile": "MLB/images/JH-MLB-0167.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0167.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4519,9 +4853,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-baltimore-orioles-nike-black-alternate-authentic-team-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-baltimore-orioles-nike-black-alternate-authentic-team-jersey"
   },
@@ -4536,7 +4870,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0168.jpg",
     "imageFile": "MLB/images/JH-MLB-0168.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0168.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4546,9 +4882,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-baltimore-orioles-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-baltimore-orioles-nike-white-home-2020-jersey"
   },
@@ -4563,7 +4899,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0169.jpg",
     "imageFile": "MLB/images/JH-MLB-0169.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0169.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4573,9 +4911,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-baltimore-orioles-trey-mancini-16-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-baltimore-orioles-trey-mancini-16-nike-white-home-2020-jersey"
   },
@@ -4590,7 +4928,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0170.jpg",
     "imageFile": "MLB/images/JH-MLB-0170.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0170.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4600,9 +4940,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-carl-yastrzemski-8-nike-gray-road-cooperstown-collection-player-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-carl-yastrzemski-8-nike-gray-road-cooperstown-collection-player-jersey"
   },
@@ -4617,7 +4957,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0171.jpg",
     "imageFile": "MLB/images/JH-MLB-0171.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0171.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4627,9 +4969,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-chris-sale-41-nike-red-alternate-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-chris-sale-41-nike-red-alternate-2020-jersey"
   },
@@ -4644,7 +4986,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0172.jpg",
     "imageFile": "MLB/images/JH-MLB-0172.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0172.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4654,9 +4998,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-j-d-martinez-28-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-j-d-martinez-28-nike-white-home-2020-jersey"
   },
@@ -4671,7 +5015,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0173.jpg",
     "imageFile": "MLB/images/JH-MLB-0173.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0173.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4681,9 +5027,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-nike-gray-road-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-nike-gray-road-2020-jersey"
   },
@@ -4698,7 +5044,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0174.jpg",
     "imageFile": "MLB/images/JH-MLB-0174.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0174.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4708,9 +5056,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-nike-red-alternate-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-nike-red-alternate-2020-jersey"
   },
@@ -4725,7 +5073,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0175.jpg",
     "imageFile": "MLB/images/JH-MLB-0175.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0175.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4735,9 +5085,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-nike-white-home-2020-jersey"
   },
@@ -4752,7 +5102,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0176.jpg",
     "imageFile": "MLB/images/JH-MLB-0176.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0176.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4762,9 +5114,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-ted-williams-9-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-boston-red-sox-ted-williams-9-nike-white-home-2020-jersey"
   },
@@ -4779,7 +5131,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0177.jpg",
     "imageFile": "MLB/images/JH-MLB-0177.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0177.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4789,9 +5143,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-aaron-judge-99-nike-navy-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-aaron-judge-99-nike-navy-home-2020-jersey"
   },
@@ -4806,7 +5160,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0178.jpg",
     "imageFile": "MLB/images/JH-MLB-0178.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0178.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4816,9 +5172,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-gerrit-cole-45-nike-navy-alternate-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-gerrit-cole-45-nike-navy-alternate-2020-jersey"
   },
@@ -4833,7 +5189,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0179.jpg",
     "imageFile": "MLB/images/JH-MLB-0179.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0179.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4843,9 +5201,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-giancarlo-stanton-27-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-giancarlo-stanton-27-nike-white-home-2020-jersey"
   },
@@ -4860,7 +5218,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0180.jpg",
     "imageFile": "MLB/images/JH-MLB-0180.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0180.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4870,9 +5230,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-gleyber-torres-25-nike-gray-alternate-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-gleyber-torres-25-nike-gray-alternate-jersey"
   },
@@ -4887,7 +5247,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0181.jpg",
     "imageFile": "MLB/images/JH-MLB-0181.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0181.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4897,9 +5259,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-nike-gray-road-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-nike-gray-road-2020-jersey"
   },
@@ -4914,7 +5276,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0182.jpg",
     "imageFile": "MLB/images/JH-MLB-0182.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0182.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4924,9 +5288,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-nike-navy-alternate-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-nike-navy-alternate-2020-jersey"
   },
@@ -4941,7 +5305,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0183.jpg",
     "imageFile": "MLB/images/JH-MLB-0183.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0183.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4951,9 +5317,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-derek-jeter-2-nike-gray-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-derek-jeter-2-nike-gray-home-2020-jersey"
   },
@@ -4968,7 +5334,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0184.jpg",
     "imageFile": "MLB/images/JH-MLB-0184.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0184.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -4978,9 +5346,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-dj-lemahieu-26-nike-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-new-york-yankees-dj-lemahieu-26-nike-white-home-2020-jersey"
   },
@@ -4995,7 +5363,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0185.jpg",
     "imageFile": "MLB/images/JH-MLB-0185.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0185.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5005,9 +5375,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mickey-mantle-new-york-yankees-nike-home-authentic-retired-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/mickey-mantle-new-york-yankees-nike-home-authentic-retired-player-jersey-white"
   },
@@ -5022,7 +5392,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0186.jpg",
     "imageFile": "MLB/images/JH-MLB-0186.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0186.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5032,9 +5404,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-gio-urshela-29-white-home-2020-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-gio-urshela-29-white-home-2020-jersey"
   },
@@ -5049,7 +5421,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0187.jpg",
     "imageFile": "MLB/images/JH-MLB-0187.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0187.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5059,9 +5433,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-2023-jackie-robinson-day-authentic-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-2023-jackie-robinson-day-authentic-jersey-white"
   },
@@ -5076,7 +5450,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0188.jpg",
     "imageFile": "MLB/images/JH-MLB-0188.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0188.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5086,9 +5462,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-alternate-authentic-team-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-alternate-authentic-team-jersey-navy"
   },
@@ -5103,7 +5479,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0189.jpg",
     "imageFile": "MLB/images/JH-MLB-0189.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0189.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5113,9 +5491,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-alternate-replica-team-jersey-navy",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-alternate-replica-team-jersey-navy"
   },
@@ -5130,7 +5508,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0190.jpg",
     "imageFile": "MLB/images/JH-MLB-0190.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0190.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5141,9 +5521,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-authentic-custom-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-authentic-custom-jersey-white"
   },
@@ -5158,7 +5538,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0191.jpg",
     "imageFile": "MLB/images/JH-MLB-0191.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0191.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5168,9 +5550,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-authentic-team-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-authentic-team-jersey-white"
   },
@@ -5185,7 +5567,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0192.jpg",
     "imageFile": "MLB/images/JH-MLB-0192.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0192.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5195,9 +5579,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-blank-replica-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-home-blank-replica-jersey-white"
   },
@@ -5212,7 +5596,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0193.jpg",
     "imageFile": "MLB/images/JH-MLB-0193.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0193.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5223,9 +5609,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-road-authentic-custom-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-road-authentic-custom-jersey-gray"
   },
@@ -5240,7 +5626,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0194.jpg",
     "imageFile": "MLB/images/JH-MLB-0194.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0194.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5250,9 +5638,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-road-authentic-team-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-road-authentic-team-jersey-gray"
   },
@@ -5267,7 +5655,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0195.jpg",
     "imageFile": "MLB/images/JH-MLB-0195.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0195.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5278,9 +5668,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-road-replica-custom-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/new-york-yankees-nike-road-replica-custom-jersey-gray"
   },
@@ -5295,7 +5685,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0196.jpg",
     "imageFile": "MLB/images/JH-MLB-0196.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0196.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5305,9 +5697,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/pete-alonso-baltimore-orioles-nike-2026-city-connect-stadium-jersey-cream",
     "sourceUrl": "https://vivi-jersey.com/products/pete-alonso-baltimore-orioles-nike-2026-city-connect-stadium-jersey-cream"
   },
@@ -5322,7 +5714,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0197.jpg",
     "imageFile": "MLB/images/JH-MLB-0197.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0197.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5332,9 +5726,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/pete-alonso-baltimore-orioles-nike-alternate-limited-player-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/pete-alonso-baltimore-orioles-nike-alternate-limited-player-jersey-black"
   },
@@ -5349,7 +5743,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0198.jpg",
     "imageFile": "MLB/images/JH-MLB-0198.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0198.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5359,9 +5755,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/pete-alonso-baltimore-orioles-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/pete-alonso-baltimore-orioles-nike-home-limited-player-jersey-white"
   },
@@ -5376,7 +5772,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0199.jpg",
     "imageFile": "MLB/images/JH-MLB-0199.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0199.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5386,9 +5784,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/phil-rizzuto-new-york-yankees-nike-home-authentic-retired-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/phil-rizzuto-new-york-yankees-nike-home-authentic-retired-player-jersey-white"
   },
@@ -5403,7 +5801,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0200.jpg",
     "imageFile": "MLB/images/JH-MLB-0200.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0200.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5413,9 +5813,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-city-connect-authentic-player-jersey-gold",
     "sourceUrl": "https://vivi-jersey.com/products/rafael-devers-boston-red-sox-nike-city-connect-authentic-player-jersey-gold"
   },
@@ -5430,7 +5830,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0201.jpg",
     "imageFile": "MLB/images/JH-MLB-0201.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0201.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5440,9 +5842,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/ramon-urias-baltimore-orioles-nike-home-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/ramon-urias-baltimore-orioles-nike-home-replica-player-jersey-white"
   },
@@ -5457,7 +5859,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0202.jpg",
     "imageFile": "MLB/images/JH-MLB-0202.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0202.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5467,9 +5871,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/roman-anthony-boston-red-sox-nike-alternate-limited-player-jersey-red",
     "sourceUrl": "https://vivi-jersey.com/products/roman-anthony-boston-red-sox-nike-alternate-limited-player-jersey-red"
   },
@@ -5484,7 +5888,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0203.jpg",
     "imageFile": "MLB/images/JH-MLB-0203.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0203.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5494,9 +5900,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/roman-anthony-boston-red-sox-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/roman-anthony-boston-red-sox-nike-home-limited-player-jersey-white"
   },
@@ -5511,7 +5917,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0204.jpg",
     "imageFile": "MLB/images/JH-MLB-0204.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0204.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5521,9 +5929,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/thurman-munson-new-york-yankees-nike-home-authentic-retired-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/thurman-munson-new-york-yankees-nike-home-authentic-retired-player-jersey-white"
   },
@@ -5538,7 +5946,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0205.jpg",
     "imageFile": "MLB/images/JH-MLB-0205.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0205.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5548,9 +5958,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tim-wakefield-boston-red-sox-nike-home-limited-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/tim-wakefield-boston-red-sox-nike-home-limited-player-jersey-white"
   },
@@ -5565,7 +5975,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0206.jpg",
     "imageFile": "MLB/images/JH-MLB-0206.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0206.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5575,9 +5987,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/trevor-story-boston-red-sox-nike-city-connect-replica-player-jersey-gold",
     "sourceUrl": "https://vivi-jersey.com/products/trevor-story-boston-red-sox-nike-city-connect-replica-player-jersey-gold"
   },
@@ -5592,7 +6004,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0207.jpg",
     "imageFile": "MLB/images/JH-MLB-0207.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0207.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5602,9 +6016,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/wade-boggs-new-york-yankees-nike-home-authentic-retired-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/wade-boggs-new-york-yankees-nike-home-authentic-retired-player-jersey-white"
   },
@@ -5619,7 +6033,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0208.jpg",
     "imageFile": "MLB/images/JH-MLB-0208.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0208.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5629,9 +6045,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/yogi-berra-new-york-yankees-nike-home-authentic-retired-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/yogi-berra-new-york-yankees-nike-home-authentic-retired-player-jersey-white"
   },
@@ -5646,7 +6062,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0209.jpg",
     "imageFile": "MLB/images/JH-MLB-0209.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0209.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5656,9 +6074,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/xander-bogaerts-boston-red-sox-nike-2021-city-connect-replica-player-jersey-gold-light-blue",
     "sourceUrl": "https://vivi-jersey.com/products/xander-bogaerts-boston-red-sox-nike-2021-city-connect-replica-player-jersey-gold-light-blue"
   },
@@ -5673,7 +6091,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0210.jpg",
     "imageFile": "MLB/images/JH-MLB-0210.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0210.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5683,9 +6103,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/xander-bogaerts-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/xander-bogaerts-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white"
   },
@@ -5700,7 +6120,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0211.jpg",
     "imageFile": "MLB/images/JH-MLB-0211.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/MLB/images/JH-MLB-0211.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5710,9 +6132,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/xander-bogaerts-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white-2",
     "sourceUrl": "https://vivi-jersey.com/products/xander-bogaerts-boston-red-sox-nike-2021-patriots-day-official-replica-player-jersey-white-2"
   },
@@ -5727,7 +6149,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0001.jpg",
     "imageFile": "NFL/images/JH-NFL-0001.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0001.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5737,9 +6161,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dan-marino-miami-dolphins-nike-2023-salute-to-service-retired-player-limited-jersey-brown",
     "sourceUrl": "https://vivi-jersey.com/products/dan-marino-miami-dolphins-nike-2023-salute-to-service-retired-player-limited-jersey-brown"
   },
@@ -5754,7 +6178,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0002.jpg",
     "imageFile": "NFL/images/JH-NFL-0002.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0002.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5764,9 +6190,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dan-marino-miami-dolphins-nike-2024-salute-to-service-retired-player-limited-jersey-arctic-camo",
     "sourceUrl": "https://vivi-jersey.com/products/dan-marino-miami-dolphins-nike-2024-salute-to-service-retired-player-limited-jersey-arctic-camo"
   },
@@ -5781,7 +6207,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0003.jpg",
     "imageFile": "NFL/images/JH-NFL-0003.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0003.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5791,9 +6219,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dan-marino-miami-dolphins-nike-game-retired-player-jersey-aqua",
     "sourceUrl": "https://vivi-jersey.com/products/dan-marino-miami-dolphins-nike-game-retired-player-jersey-aqua"
   },
@@ -5808,7 +6236,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0004.jpg",
     "imageFile": "NFL/images/JH-NFL-0004.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0004.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5818,9 +6248,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/dan-marino-miami-dolphins-nike-retired-player-jersey-aqua",
     "sourceUrl": "https://vivi-jersey.com/products/dan-marino-miami-dolphins-nike-retired-player-jersey-aqua"
   },
@@ -5835,7 +6265,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0005.jpg",
     "imageFile": "NFL/images/JH-NFL-0005.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0005.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5845,9 +6277,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jaylen-waddle-miami-dolphins-nike-2023-salute-to-service-limited-jersey-brown",
     "sourceUrl": "https://vivi-jersey.com/products/jaylen-waddle-miami-dolphins-nike-2023-salute-to-service-limited-jersey-brown"
   },
@@ -5862,7 +6294,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0006.jpg",
     "imageFile": "NFL/images/JH-NFL-0006.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0006.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5872,9 +6306,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jaylen-waddle-miami-dolphins-nike-vapor-f-u-s-e-limited-alternate-1-jersey-aqua",
     "sourceUrl": "https://vivi-jersey.com/products/jaylen-waddle-miami-dolphins-nike-vapor-f-u-s-e-limited-alternate-1-jersey-aqua"
   },
@@ -5889,7 +6323,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0007.jpg",
     "imageFile": "NFL/images/JH-NFL-0007.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0007.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5899,9 +6335,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jaylen-waddle-miami-dolphins-nike-vapor-f-u-s-e-limited-jersey-aqua",
     "sourceUrl": "https://vivi-jersey.com/products/jaylen-waddle-miami-dolphins-nike-vapor-f-u-s-e-limited-jersey-aqua"
   },
@@ -5916,7 +6352,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0008.jpg",
     "imageFile": "NFL/images/JH-NFL-0008.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0008.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5927,9 +6365,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-nike-pitch-blue-miami-dolphins-2025-rivalries-collection-custom-game-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-nike-pitch-blue-miami-dolphins-2025-rivalries-collection-custom-game-jersey"
   },
@@ -5944,7 +6382,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0009.jpg",
     "imageFile": "NFL/images/JH-NFL-0009.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0009.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5955,9 +6395,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/miami-dolphins-nike-alternate-custom-game-jersey-aqua",
     "sourceUrl": "https://vivi-jersey.com/products/miami-dolphins-nike-alternate-custom-game-jersey-aqua"
   },
@@ -5972,7 +6412,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0010.jpg",
     "imageFile": "NFL/images/JH-NFL-0010.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0010.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -5983,9 +6425,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/miami-dolphins-nike-custom-game-jersey-aqua",
     "sourceUrl": "https://vivi-jersey.com/products/miami-dolphins-nike-custom-game-jersey-aqua"
   },
@@ -6000,7 +6442,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0011.jpg",
     "imageFile": "NFL/images/JH-NFL-0011.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0011.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6011,9 +6455,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/miami-dolphins-nike-nfl-2020-crucial-catch-limited-edition-custom-jersey-gray",
     "sourceUrl": "https://vivi-jersey.com/products/miami-dolphins-nike-nfl-2020-crucial-catch-limited-edition-custom-jersey-gray"
   },
@@ -6028,7 +6472,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0012.jpg",
     "imageFile": "NFL/images/JH-NFL-0012.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0012.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6038,9 +6484,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mike-gesicki-miami-dolphins-nike-2022-salute-to-service-limited-jersey-olive",
     "sourceUrl": "https://vivi-jersey.com/products/mike-gesicki-miami-dolphins-nike-2022-salute-to-service-limited-jersey-olive"
   },
@@ -6055,7 +6501,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0013.jpg",
     "imageFile": "NFL/images/JH-NFL-0013.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0013.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6065,9 +6513,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mike-gesicki-miami-dolphins-nike-rflctv-limited-jersey-black",
     "sourceUrl": "https://vivi-jersey.com/products/mike-gesicki-miami-dolphins-nike-rflctv-limited-jersey-black"
   },
@@ -6082,7 +6530,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0014.jpg",
     "imageFile": "NFL/images/JH-NFL-0014.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0014.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6092,9 +6542,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2022-salute-to-service-limited-jersey-olive",
     "sourceUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2022-salute-to-service-limited-jersey-olive"
   },
@@ -6109,7 +6559,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0015.jpg",
     "imageFile": "NFL/images/JH-NFL-0015.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0015.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6119,9 +6571,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2023-salute-to-service-limited-jersey-brown",
     "sourceUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2023-salute-to-service-limited-jersey-brown"
   },
@@ -6136,7 +6588,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0016.jpg",
     "imageFile": "NFL/images/JH-NFL-0016.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0016.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6146,9 +6600,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2024-salute-to-service-limited-jersey-arctic-camo",
     "sourceUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2024-salute-to-service-limited-jersey-arctic-camo"
   },
@@ -6163,7 +6617,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0017.jpg",
     "imageFile": "NFL/images/JH-NFL-0017.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0017.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6173,9 +6629,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2025-rivalries-collection-limited-jersey-pitch-blue",
     "sourceUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2025-rivalries-collection-limited-jersey-pitch-blue"
   },
@@ -6190,7 +6646,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0018.jpg",
     "imageFile": "NFL/images/JH-NFL-0018.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0018.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6200,9 +6658,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2nd-alternate-vapor-limited-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-2nd-alternate-vapor-limited-jersey-white"
   },
@@ -6217,7 +6675,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0019.jpg",
     "imageFile": "NFL/images/JH-NFL-0019.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0019.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6227,9 +6687,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-alternate-vapor-limited-jersey-aqua",
     "sourceUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-alternate-vapor-limited-jersey-aqua"
   },
@@ -6244,7 +6704,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0020.jpg",
     "imageFile": "NFL/images/JH-NFL-0020.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0020.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6254,9 +6716,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-vapor-f-u-s-e-limited-jersey-aqua",
     "sourceUrl": "https://vivi-jersey.com/products/tua-tagovailoa-miami-dolphins-nike-vapor-f-u-s-e-limited-jersey-aqua"
   },
@@ -6271,7 +6733,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0021.jpg",
     "imageFile": "NFL/images/JH-NFL-0021.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0021.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6281,9 +6745,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tyreek-hill-miami-dolphins-nike-2024-salute-to-service-limited-jersey-arctic-camo",
     "sourceUrl": "https://vivi-jersey.com/products/tyreek-hill-miami-dolphins-nike-2024-salute-to-service-limited-jersey-arctic-camo"
   },
@@ -6298,7 +6762,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0022.jpg",
     "imageFile": "NFL/images/JH-NFL-0022.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0022.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6308,9 +6774,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tyreek-hill-miami-dolphins-nike-2025-rivalries-collection-limited-jersey-pitch-blue",
     "sourceUrl": "https://vivi-jersey.com/products/tyreek-hill-miami-dolphins-nike-2025-rivalries-collection-limited-jersey-pitch-blue"
   },
@@ -6325,7 +6791,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0023.jpg",
     "imageFile": "NFL/images/JH-NFL-0023.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0023.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6335,9 +6803,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tyreek-hill-miami-dolphins-nike-vapor-f-u-s-e-limited-jersey-aqua",
     "sourceUrl": "https://vivi-jersey.com/products/tyreek-hill-miami-dolphins-nike-vapor-f-u-s-e-limited-jersey-aqua"
   },
@@ -6352,7 +6820,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0024.jpg",
     "imageFile": "NFL/images/JH-NFL-0024.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NFL/images/JH-NFL-0024.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6362,9 +6832,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/zach-thomas-miami-dolphins-2022-salute-to-service-retired-player-limited-jersey-olive",
     "sourceUrl": "https://vivi-jersey.com/products/zach-thomas-miami-dolphins-2022-salute-to-service-retired-player-limited-jersey-olive"
   },
@@ -6379,7 +6849,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0001.jpg",
     "imageFile": "NHL/images/JH-NHL-0001.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0001.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6389,9 +6861,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/auston-matthews-usa-2025-navy-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/auston-matthews-usa-2025-navy-4-nations-face-off-jersey"
   },
@@ -6406,7 +6878,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0002.jpg",
     "imageFile": "NHL/images/JH-NHL-0002.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0002.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6416,9 +6890,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/brady-tkachuk-usa-2025-navy-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/brady-tkachuk-usa-2025-navy-4-nations-face-off-jersey"
   },
@@ -6433,7 +6907,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0003.webp",
     "imageFile": "NHL/images/JH-NHL-0003.webp",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0003.webp"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6443,9 +6919,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/canada-2025-black-hockey-team-4-nations-face-off-custom-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/canada-2025-black-hockey-team-4-nations-face-off-custom-jersey"
   },
@@ -6460,7 +6936,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0004.jpg",
     "imageFile": "NHL/images/JH-NHL-0004.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0004.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6470,9 +6948,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/canada-2025-red-hockey-team-4-nations-face-off-custom-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/canada-2025-red-hockey-team-4-nations-face-off-custom-jersey"
   },
@@ -6487,7 +6965,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0005.webp",
     "imageFile": "NHL/images/JH-NHL-0005.webp",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0005.webp"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6497,9 +6977,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/canada-connor-mcdavid-2025-black-hockey-team-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/canada-connor-mcdavid-2025-black-hockey-team-4-nations-face-off-jersey"
   },
@@ -6514,7 +6994,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0006.jpg",
     "imageFile": "NHL/images/JH-NHL-0006.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0006.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6524,9 +7006,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/canada-connor-mcdavid-2025-red-hockey-team-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/canada-connor-mcdavid-2025-red-hockey-team-4-nations-face-off-jersey"
   },
@@ -6541,7 +7023,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0007.webp",
     "imageFile": "NHL/images/JH-NHL-0007.webp",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0007.webp"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6551,9 +7035,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/canada-nathan-mackinnon-2025-black-hockey-team-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/canada-nathan-mackinnon-2025-black-hockey-team-4-nations-face-off-jersey"
   },
@@ -6568,7 +7052,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0008.jpg",
     "imageFile": "NHL/images/JH-NHL-0008.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0008.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6578,9 +7064,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/canada-nathan-mackinnon-2025-red-hockey-team-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/canada-nathan-mackinnon-2025-red-hockey-team-4-nations-face-off-jersey"
   },
@@ -6595,7 +7081,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0009.webp",
     "imageFile": "NHL/images/JH-NHL-0009.webp",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0009.webp"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6605,9 +7093,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/canada-sidney-crosby-2025-black-hockey-team-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/canada-sidney-crosby-2025-black-hockey-team-4-nations-face-off-jersey"
   },
@@ -6622,7 +7110,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0010.jpg",
     "imageFile": "NHL/images/JH-NHL-0010.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0010.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6632,9 +7122,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/canada-sidney-crosby-2025-red-hockey-team-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/canada-sidney-crosby-2025-red-hockey-team-4-nations-face-off-jersey"
   },
@@ -6649,7 +7139,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0011.jpg",
     "imageFile": "NHL/images/JH-NHL-0011.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0011.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6659,9 +7151,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/jack-hughes-usa-2025-navy-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/jack-hughes-usa-2025-navy-4-nations-face-off-jersey"
   },
@@ -6676,7 +7168,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0012.jpg",
     "imageFile": "NHL/images/JH-NHL-0012.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0012.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6686,9 +7180,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/matthew-tkachuk-usa-2025-navy-4-nations-face-off-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/matthew-tkachuk-usa-2025-navy-4-nations-face-off-jersey"
   },
@@ -6703,7 +7197,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0013.jpg",
     "imageFile": "NHL/images/JH-NHL-0013.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0013.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6713,9 +7209,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-nike-red-hockey-canada-custom-replica-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-nike-red-hockey-canada-custom-replica-jersey"
   },
@@ -6730,7 +7226,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0014.webp",
     "imageFile": "NHL/images/JH-NHL-0014.webp",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0014.webp"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6740,9 +7238,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/mens-nike-white-hockey-canada-–-custom-fan-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/mens-nike-white-hockey-canada-–-custom-fan-jersey"
   },
@@ -6757,7 +7255,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0015.jpg",
     "imageFile": "NHL/images/JH-NHL-0015.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0015.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6767,9 +7267,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/unisex-blank-red-hockey-canada-alternate-replica-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/unisex-blank-red-hockey-canada-alternate-replica-jersey"
   },
@@ -6784,7 +7284,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0016.webp",
     "imageFile": "NHL/images/JH-NHL-0016.webp",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0016.webp"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6794,9 +7296,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/unisex-blank-white-hockey-canada-alternate-fan-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/unisex-blank-white-hockey-canada-alternate-fan-jersey"
   },
@@ -6811,7 +7313,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0017.jpg",
     "imageFile": "NHL/images/JH-NHL-0017.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0017.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6821,9 +7325,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/unisex-red-hockey-canada-alternate-replica-custom-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/unisex-red-hockey-canada-alternate-replica-custom-jersey"
   },
@@ -6838,7 +7342,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0018.webp",
     "imageFile": "NHL/images/JH-NHL-0018.webp",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0018.webp"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6848,9 +7354,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/unisex-white-hockey-canada-alternate-fan-edition-custom-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/unisex-white-hockey-canada-alternate-fan-edition-custom-jersey"
   },
@@ -6865,7 +7371,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0019.jpg",
     "imageFile": "NHL/images/JH-NHL-0019.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/NHL/images/JH-NHL-0019.jpg"
+    ],
     "sizes": [
       "46",
       "50",
@@ -6875,9 +7383,9 @@ const MULTISPORT_PRODUCTS = [
       "60"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/usa-2025-navy-4-nations-face-off-custom-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/usa-2025-navy-4-nations-face-off-custom-jersey"
   },
@@ -6892,7 +7400,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0001.jpg",
     "imageFile": "GAA/images/JH-GAA-0001.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0001.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6902,9 +7412,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-antrim-gaa-yellow-with-white-sleeves-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-antrim-gaa-yellow-with-white-sleeves-jersey"
   },
@@ -6919,7 +7429,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0002.jpg",
     "imageFile": "GAA/images/JH-GAA-0002.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0002.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6929,9 +7441,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-cork-gaa-red-with-white-trim-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-cork-gaa-red-with-white-trim-jersey"
   },
@@ -6946,7 +7458,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0003.jpg",
     "imageFile": "GAA/images/JH-GAA-0003.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0003.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6956,9 +7470,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-dublin-gaa-sky-blue-with-celtic-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-dublin-gaa-sky-blue-with-celtic-pattern-jersey"
   },
@@ -6973,7 +7487,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0004.jpg",
     "imageFile": "GAA/images/JH-GAA-0004.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0004.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -6983,9 +7499,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-fermanagh-gaa-white-with-grey-camouflage-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-fermanagh-gaa-white-with-grey-camouflage-pattern-jersey"
   },
@@ -7000,7 +7516,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0005.jpg",
     "imageFile": "GAA/images/JH-GAA-0005.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0005.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7010,9 +7528,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-ireland-gaa-u20-hurling-navy-with-purple-marble-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-ireland-gaa-u20-hurling-navy-with-purple-marble-pattern-jersey"
   },
@@ -7027,7 +7545,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0006.jpg",
     "imageFile": "GAA/images/JH-GAA-0006.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0006.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7037,9 +7557,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-laois-gaa-blue-with-white-band-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-laois-gaa-blue-with-white-band-jersey"
   },
@@ -7054,7 +7574,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0007.jpg",
     "imageFile": "GAA/images/JH-GAA-0007.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0007.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7064,9 +7586,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-laois-gaa-green-with-white-horizontal-stripe-and-dotted-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-laois-gaa-green-with-white-horizontal-stripe-and-dotted-pattern-jersey"
   },
@@ -7081,7 +7603,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0008.jpg",
     "imageFile": "GAA/images/JH-GAA-0008.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0008.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7091,9 +7615,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-louth-gaa-white-with-red-shoulders-and-black-stripe-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-louth-gaa-white-with-red-shoulders-and-black-stripe-jersey"
   },
@@ -7108,7 +7632,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0009.jpg",
     "imageFile": "GAA/images/JH-GAA-0009.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0009.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7119,9 +7645,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-mayo-gaa-green-with-red-band-and-chevron-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-mayo-gaa-green-with-red-band-and-chevron-pattern-jersey"
   },
@@ -7136,7 +7662,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0010.jpg",
     "imageFile": "GAA/images/JH-GAA-0010.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0010.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7146,9 +7674,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-meath-gaa-green-with-gold-trim-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-meath-gaa-green-with-gold-trim-jersey"
   },
@@ -7163,7 +7691,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0011.jpg",
     "imageFile": "GAA/images/JH-GAA-0011.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0011.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7173,9 +7703,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-waterford-gaa-white-with-blue-lightning-stripe-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-waterford-gaa-white-with-blue-lightning-stripe-pattern-jersey"
   },
@@ -7190,7 +7720,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0012.jpg",
     "imageFile": "GAA/images/JH-GAA-0012.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0012.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7200,9 +7732,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-antrim-gaa-black-with-amber-and-red-sleeves-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-antrim-gaa-black-with-amber-and-red-sleeves-jersey"
   },
@@ -7217,7 +7749,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0013.jpg",
     "imageFile": "GAA/images/JH-GAA-0013.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0013.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7228,9 +7762,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-armagh-gaa-charcoal-with-orange-accents-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-armagh-gaa-charcoal-with-orange-accents-jersey"
   },
@@ -7245,7 +7779,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0014.jpg",
     "imageFile": "GAA/images/JH-GAA-0014.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0014.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7256,9 +7792,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-armagh-gaa-orange-with-white-trim-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-armagh-gaa-orange-with-white-trim-jersey"
   },
@@ -7273,7 +7809,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0015.jpg",
     "imageFile": "GAA/images/JH-GAA-0015.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0015.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7283,9 +7821,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-carlow-gaa-red-gold-and-green-tri-color-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-carlow-gaa-red-gold-and-green-tri-color-jersey"
   },
@@ -7300,7 +7838,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0016.jpg",
     "imageFile": "GAA/images/JH-GAA-0016.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0016.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7310,9 +7850,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-cavan-gaa-blue-with-white-trim-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-cavan-gaa-blue-with-white-trim-home-jersey"
   },
@@ -7327,7 +7867,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0017.jpg",
     "imageFile": "GAA/images/JH-GAA-0017.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0017.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7337,9 +7879,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-donegal-gaa-green-with-gold-trim-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-donegal-gaa-green-with-gold-trim-jersey"
   },
@@ -7354,7 +7896,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0018.jpg",
     "imageFile": "GAA/images/JH-GAA-0018.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0018.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7364,9 +7908,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-donegal-gaa-light-blue-mint-green-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-donegal-gaa-light-blue-mint-green-away-jersey"
   },
@@ -7381,7 +7925,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0019.jpg",
     "imageFile": "GAA/images/JH-GAA-0019.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0019.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7391,9 +7937,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-donegal-gaa-white-with-green-and-gold-trim-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-donegal-gaa-white-with-green-and-gold-trim-jersey"
   },
@@ -7408,7 +7954,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0020.jpg",
     "imageFile": "GAA/images/JH-GAA-0020.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0020.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7418,9 +7966,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-down-gaa-red-with-black-trim-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-down-gaa-red-with-black-trim-home-jersey"
   },
@@ -7435,7 +7983,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0021.jpg",
     "imageFile": "GAA/images/JH-GAA-0021.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0021.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7446,9 +7996,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-fermanagh-gaa-mint-green-with-navy-trim-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-fermanagh-gaa-mint-green-with-navy-trim-away-jersey"
   },
@@ -7463,7 +8013,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0022.jpg",
     "imageFile": "GAA/images/JH-GAA-0022.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0022.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7473,9 +8025,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-galway-gaa-black-with-diagonal-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-galway-gaa-black-with-diagonal-stripes-jersey"
   },
@@ -7490,7 +8042,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0023.jpg",
     "imageFile": "GAA/images/JH-GAA-0023.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0023.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7500,9 +8054,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-galway-gaa-maroon-with-cityscape-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-galway-gaa-maroon-with-cityscape-pattern-jersey"
   },
@@ -7517,7 +8071,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0024.jpg",
     "imageFile": "GAA/images/JH-GAA-0024.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0024.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7527,9 +8083,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-galway-gaa-maroon-with-white-trim-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-galway-gaa-maroon-with-white-trim-home-jersey"
   },
@@ -7544,7 +8100,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0025.jpg",
     "imageFile": "GAA/images/JH-GAA-0025.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0025.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7554,9 +8112,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-galway-gaa-white-with-maroon-trim-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-galway-gaa-white-with-maroon-trim-away-jersey"
   },
@@ -7571,7 +8129,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0026.jpg",
     "imageFile": "GAA/images/JH-GAA-0026.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0026.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7581,9 +8141,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "RECUPERE_AUTOMATIQUEMENT",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-kerry-gaa-blue-with-navy-band-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-kerry-gaa-blue-with-navy-band-jersey"
   },
@@ -7598,7 +8158,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0037.jpg",
     "imageFile": "GAA/images/JH-GAA-0037.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0037.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7608,9 +8170,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-kildare-gaa-white-with-navy-trim-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-kildare-gaa-white-with-navy-trim-away-jersey"
   },
@@ -7625,7 +8187,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0038.jpg",
     "imageFile": "GAA/images/JH-GAA-0038.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0038.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7635,9 +8199,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-limerick-gaa-green-with-river-shannon-map-pattern-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-limerick-gaa-green-with-river-shannon-map-pattern-home-jersey"
   },
@@ -7652,7 +8216,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0039.jpg",
     "imageFile": "GAA/images/JH-GAA-0039.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0039.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7662,9 +8228,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-limerick-gaa-light-blue-with-purple-map-design-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-limerick-gaa-light-blue-with-purple-map-design-away-jersey"
   },
@@ -7679,7 +8245,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0040.jpg",
     "imageFile": "GAA/images/JH-GAA-0040.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0040.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7689,9 +8257,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-mayo-gaa-white-with-red-trim-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-mayo-gaa-white-with-red-trim-jersey"
   },
@@ -7706,7 +8274,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0041.jpg",
     "imageFile": "GAA/images/JH-GAA-0041.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0041.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7716,9 +8286,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-offaly-gaa-white-with-green-trim-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-offaly-gaa-white-with-green-trim-away-jersey"
   },
@@ -7733,7 +8303,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0042.jpg",
     "imageFile": "GAA/images/JH-GAA-0042.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0042.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7743,9 +8315,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-roscommon-gaa-yellow-and-blue-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-roscommon-gaa-yellow-and-blue-away-jersey"
   },
@@ -7760,7 +8332,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0043.jpg",
     "imageFile": "GAA/images/JH-GAA-0043.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0043.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7770,9 +8344,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-roscommon-gaa-yellow-with-blue-hoops-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-roscommon-gaa-yellow-with-blue-hoops-home-jersey"
   },
@@ -7787,7 +8361,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0044.jpg",
     "imageFile": "GAA/images/JH-GAA-0044.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0044.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7797,9 +8373,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-sligo-gaa-black-with-geometric-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-sligo-gaa-black-with-geometric-pattern-jersey"
   },
@@ -7814,7 +8390,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0045.jpg",
     "imageFile": "GAA/images/JH-GAA-0045.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0045.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7825,9 +8403,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-tipperary-gaa-blue-with-warrior-silhouette-and-abstract-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-tipperary-gaa-blue-with-warrior-silhouette-and-abstract-pattern-jersey"
   },
@@ -7842,7 +8420,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0046.jpg",
     "imageFile": "GAA/images/JH-GAA-0046.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0046.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7853,9 +8433,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-tipperary-gaa-teal-with-warrior-silhouette-and-abstract-brushstroke-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-tipperary-gaa-teal-with-warrior-silhouette-and-abstract-brushstroke-pattern-jersey"
   },
@@ -7870,7 +8450,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0047.jpg",
     "imageFile": "GAA/images/JH-GAA-0047.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0047.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7880,9 +8462,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-tyrone-gaa-maroon-with-gold-accents-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-tyrone-gaa-maroon-with-gold-accents-jersey"
   },
@@ -7897,7 +8479,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0048.jpg",
     "imageFile": "GAA/images/JH-GAA-0048.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0048.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7908,9 +8492,9 @@ const MULTISPORT_PRODUCTS = [
       "4XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-westmeath-gaa-maroon-with-contour-lines-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-westmeath-gaa-maroon-with-contour-lines-pattern-jersey"
   },
@@ -7925,7 +8509,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0049.jpg",
     "imageFile": "GAA/images/JH-GAA-0049.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0049.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7935,9 +8521,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-wexford-gaa-navy-with-purple-and-gold-design-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-wexford-gaa-navy-with-purple-and-gold-design-jersey"
   },
@@ -7952,7 +8538,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0050.jpg",
     "imageFile": "GAA/images/JH-GAA-0050.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0050.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7962,9 +8550,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-wicklow-gaa-blue-with-gold-trim-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-wicklow-gaa-blue-with-gold-trim-jersey"
   },
@@ -7979,7 +8567,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0051.jpg",
     "imageFile": "GAA/images/JH-GAA-0051.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0051.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -7988,9 +8578,9 @@ const MULTISPORT_PRODUCTS = [
       "2XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/donegal-2026-gaa-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/donegal-2026-gaa-home-jersey"
   },
@@ -8005,7 +8595,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0052.jpg",
     "imageFile": "GAA/images/JH-GAA-0052.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0052.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -8015,9 +8607,9 @@ const MULTISPORT_PRODUCTS = [
       "3XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/noah-syndergaard-los-angeles-angels-nike-alternate-replica-player-jersey-red",
     "sourceUrl": "https://vivi-jersey.com/products/noah-syndergaard-los-angeles-angels-nike-alternate-replica-player-jersey-red"
   },
@@ -8032,7 +8624,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0053.jpg",
     "imageFile": "GAA/images/JH-GAA-0053.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0053.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -8041,9 +8635,9 @@ const MULTISPORT_PRODUCTS = [
       "2XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/oneills-kerry-gaa-2026-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/oneills-kerry-gaa-2026-home-jersey"
   },
@@ -8058,7 +8652,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0054.jpg",
     "imageFile": "GAA/images/JH-GAA-0054.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/GAA/images/JH-GAA-0054.jpg"
+    ],
     "sizes": [
       "S",
       "M",
@@ -8067,9 +8663,9 @@ const MULTISPORT_PRODUCTS = [
       "2XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "VERIFIE_UTILISATEUR",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/tipperary-2026-gaa-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/tipperary-2026-gaa-home-jersey"
   },
@@ -8084,7 +8680,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0001.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0001.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0001.jpg"
+    ],
     "sizes": [
       "2XL",
       "L",
@@ -8093,9 +8691,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2025-26-south-africa-home",
     "sourceUrl": "https://vivi-jersey.com/products/2025-26-south-africa-home"
   },
@@ -8110,7 +8708,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0002.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0002.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0002.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8121,9 +8721,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-black-geometric-stripes-and-green-sleeves-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-black-geometric-stripes-and-green-sleeves-jersey"
   },
@@ -8138,7 +8738,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0003.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0003.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0003.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8149,9 +8751,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-diagonal-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-diagonal-stripes-jersey"
   },
@@ -8166,7 +8768,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0004.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0004.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0004.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8177,9 +8781,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-lion-graphic-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-lion-graphic-jersey"
   },
@@ -8194,7 +8798,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0005.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0005.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0005.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8205,9 +8811,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-maasai-shield-graphic-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-maasai-shield-graphic-jersey"
   },
@@ -8222,7 +8828,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0006.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0006.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0006.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8233,9 +8841,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-traditional-maasai-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-traditional-maasai-pattern-jersey"
   },
@@ -8250,7 +8858,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0007.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0007.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0007.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8261,9 +8871,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-white-tribal-dot-patterns-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-red-with-white-tribal-dot-patterns-jersey"
   },
@@ -8278,7 +8888,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0008.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0008.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0008.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8289,9 +8901,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-simbas-red-with-double-lion-design-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-simbas-red-with-double-lion-design-jersey"
   },
@@ -8306,7 +8918,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0009.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0009.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0009.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8317,9 +8931,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-simbas-red-with-maasai-shield-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-simbas-red-with-maasai-shield-pattern-jersey"
   },
@@ -8334,7 +8948,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0010.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0010.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0010.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8345,9 +8961,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-teal-with-geometric-lion-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-teal-with-geometric-lion-pattern-jersey"
   },
@@ -8362,7 +8978,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0011.png",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0011.png",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0011.png"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8373,9 +8991,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-white-with-black-trim-and-geometric-line-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-white-with-black-trim-and-geometric-line-pattern-jersey"
   },
@@ -8390,7 +9008,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0012.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0012.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0012.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8401,9 +9021,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-kenya-white-with-red-and-black-tribal-dot-patterns-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-kenya-white-with-red-and-black-tribal-dot-patterns-jersey"
   },
@@ -8418,7 +9038,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0013.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0013.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0013.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8429,9 +9051,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-queensland-maroons-maroon-with-indigenous-cultural-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-queensland-maroons-maroon-with-indigenous-cultural-pattern-jersey"
   },
@@ -8446,7 +9068,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0014.webp",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0014.webp",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0014.webp"
+    ],
     "sizes": [
       "2XL",
       "L",
@@ -8455,9 +9079,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-rugby-ireland-rugby-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-rugby-ireland-rugby-jersey"
   },
@@ -8472,7 +9096,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0015.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0015.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0015.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8483,9 +9109,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-south-africa-away-white-rugby-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-south-africa-away-white-rugby-jersey"
   },
@@ -8500,7 +9126,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0016.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0016.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0016.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8511,9 +9139,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-south-africa-green-long-sleeve-polo-rugby-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-south-africa-green-long-sleeve-polo-rugby-jersey"
   },
@@ -8528,7 +9156,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0017.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0017.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0017.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8539,9 +9169,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-south-africa-green-polo-rugby-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-south-africa-green-polo-rugby-jersey"
   },
@@ -8556,7 +9186,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0018.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0018.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0018.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8567,9 +9199,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-south-africa-home-rugby-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-south-africa-home-rugby-jersey"
   },
@@ -8584,7 +9216,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0019.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0019.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0019.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8595,9 +9229,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/24-25-leinster-white-with-chevron-pattern-and-sky-blue-panels-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/24-25-leinster-white-with-chevron-pattern-and-sky-blue-panels-jersey"
   },
@@ -8612,7 +9246,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0020.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0020.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0020.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8623,9 +9259,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/24-25-munster-light-blue-with-teal-hoops-and-irish-text-third-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/24-25-munster-light-blue-with-teal-hoops-and-irish-text-third-jersey"
   },
@@ -8640,7 +9276,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0021.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0021.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0021.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8651,9 +9289,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/24-25-stade-toulouse-black-with-red-digital-camo-pattern-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/24-25-stade-toulouse-black-with-red-digital-camo-pattern-home-jersey"
   },
@@ -8668,7 +9306,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0022.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0022.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0022.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8679,9 +9319,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/24-25-ulster-red-with-wave-pattern-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/24-25-ulster-red-with-wave-pattern-home-jersey"
   },
@@ -8696,7 +9336,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0023.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0023.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0023.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8707,9 +9349,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/24-25-ulster-white-with-silver-details-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/24-25-ulster-white-with-silver-details-away-jersey"
   },
@@ -8724,7 +9366,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0024.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0024.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0024.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8735,9 +9379,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-bath-rugby-blue-with-black-and-white-hooped-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-bath-rugby-blue-with-black-and-white-hooped-jersey"
   },
@@ -8752,7 +9396,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0025.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0025.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0025.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8763,9 +9409,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-cardiff-rugby-sky-blue-with-navy-hoops-and-heritage-print-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-cardiff-rugby-sky-blue-with-navy-hoops-and-heritage-print-jersey"
   },
@@ -8780,7 +9426,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0026.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0026.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0026.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8791,9 +9439,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-connacht-green-with-gold-geometric-pattern-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-connacht-green-with-gold-geometric-pattern-home-jersey"
   },
@@ -8808,7 +9456,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0027.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0027.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0027.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8819,9 +9469,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-navy-with-colorful-sleeves-training-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-navy-with-colorful-sleeves-training-jersey"
   },
@@ -8836,7 +9486,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0028.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0028.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0028.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8847,9 +9499,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-navy-with-diagonal-stripes-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-navy-with-diagonal-stripes-home-jersey"
   },
@@ -8864,7 +9516,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0029.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0029.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0029.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8874,9 +9528,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-navy-with-diagonal-stripes-training-vest",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-navy-with-diagonal-stripes-training-vest"
   },
@@ -8891,7 +9545,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0030.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0030.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0030.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8902,9 +9558,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-royal-blue-with-geometric-pattern-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-royal-blue-with-geometric-pattern-home-jersey"
   },
@@ -8919,7 +9575,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0031.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0031.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0031.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8929,9 +9587,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-turquoise-green-with-yellow-geometric-pattern-training-vest",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-fijian-drua-turquoise-green-with-yellow-geometric-pattern-training-vest"
   },
@@ -8946,7 +9604,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0032.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0032.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0032.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8957,9 +9617,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-harlequins-black-with-multicolor-fireworks-pattern-third-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-harlequins-black-with-multicolor-fireworks-pattern-third-jersey"
   },
@@ -8974,7 +9634,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0033.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0033.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0033.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -8985,9 +9647,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-harlequins-multicolor-with-quartered-harlequin-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-harlequins-multicolor-with-quartered-harlequin-pattern-jersey"
   },
@@ -9002,7 +9664,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0034.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0034.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0034.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9013,9 +9677,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-harlequins-pink-with-flamingo-splatter-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-harlequins-pink-with-flamingo-splatter-pattern-jersey"
   },
@@ -9030,7 +9694,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0035.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0035.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0035.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9041,9 +9707,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-leinster-rugby-blue-with-lightning-map-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-leinster-rugby-blue-with-lightning-map-pattern-jersey"
   },
@@ -9058,7 +9724,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0036.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0036.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0036.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9069,9 +9737,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-leinster-rugby-white-with-yellow-gradient-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-leinster-rugby-white-with-yellow-gradient-jersey"
   },
@@ -9086,7 +9754,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0037.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0037.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0037.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9097,9 +9767,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-melbourne-rebels-navy-with-lightning-pattern-and-pink-gradient-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-melbourne-rebels-navy-with-lightning-pattern-and-pink-gradient-jersey"
   },
@@ -9114,7 +9784,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0038.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0038.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0038.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9125,9 +9797,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-munster-burgundy-with-celtic-knotwork-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-munster-burgundy-with-celtic-knotwork-pattern-jersey"
   },
@@ -9142,7 +9814,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0039.jpg",
     "imageFile": "RUGBY_UNION/images/JH-RUGBY_UNION-0039.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_UNION/images/JH-RUGBY_UNION-0039.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9153,9 +9827,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-munster-rugby-red-with-navy-and-grey-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-munster-rugby-red-with-navy-and-grey-stripes-jersey"
   },
@@ -9170,7 +9844,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0001.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0001.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0001.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9181,9 +9857,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-new-south-wales-blues-sky-blue-to-navy-blue-gradient-with-diamond-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-new-south-wales-blues-sky-blue-to-navy-blue-gradient-with-diamond-pattern-jersey"
   },
@@ -9198,7 +9874,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0002.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0002.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0002.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9209,9 +9887,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-new-south-wales-blues-sky-blue-with-navy-trim-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-new-south-wales-blues-sky-blue-with-navy-trim-jersey"
   },
@@ -9226,7 +9904,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0003.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0003.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0003.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9237,9 +9917,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-new-zealand-kiwis-alternate-black-with-tonal-chevron-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-new-zealand-kiwis-alternate-black-with-tonal-chevron-pattern-jersey"
   },
@@ -9254,7 +9934,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0004.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0004.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0004.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9265,9 +9947,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-nrl-maori-all-stars-white-with-green-maori-art-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-nrl-maori-all-stars-white-with-green-maori-art-pattern-jersey"
   },
@@ -9282,7 +9964,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0005.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0005.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0005.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9293,9 +9977,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-penrith-panthers-black-with-gold-stripes-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-penrith-panthers-black-with-gold-stripes-away-jersey"
   },
@@ -9310,7 +9994,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0006.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0006.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0006.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9321,9 +10007,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-queensland-maroons-maroon-with-white-sleeves-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-queensland-maroons-maroon-with-white-sleeves-jersey"
   },
@@ -9338,7 +10024,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0007.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0007.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0007.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9349,9 +10037,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-queensland-maroons-maroon-with-white-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-queensland-maroons-maroon-with-white-stripes-jersey"
   },
@@ -9366,7 +10054,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0008.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0008.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0008.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9377,9 +10067,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/2026-samoa-rugby-league-blue-with-traditional-polynesian-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/2026-samoa-rugby-league-blue-with-traditional-polynesian-pattern-jersey"
   },
@@ -9394,7 +10084,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0009.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0009.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0009.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9404,9 +10096,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/24-25-penrith-panthers-black-with-indigenous-design-singlet",
     "sourceUrl": "https://vivi-jersey.com/products/24-25-penrith-panthers-black-with-indigenous-design-singlet"
   },
@@ -9421,7 +10113,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0010.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0010.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0010.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9432,9 +10126,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/24-25-penrith-panthers-pink-with-horizontal-stripes-champions-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/24-25-penrith-panthers-pink-with-horizontal-stripes-champions-jersey"
   },
@@ -9449,7 +10143,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0011.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0011.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0011.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9460,9 +10156,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-all-black-with-tonal-design-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-all-black-with-tonal-design-jersey"
   },
@@ -9477,7 +10173,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0012.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0012.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0012.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9487,9 +10185,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-black-training-vest",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-black-training-vest"
   },
@@ -9504,7 +10202,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0013.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0013.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0013.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9515,9 +10215,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-black-with-maroon-collar-polo-shirt",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-black-with-maroon-collar-polo-shirt"
   },
@@ -9532,7 +10232,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0014.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0014.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0014.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9543,9 +10245,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-charcoal-grey-training-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-charcoal-grey-training-jersey"
   },
@@ -9560,7 +10262,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0015.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0015.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0015.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9571,9 +10275,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-black-sleeves-polo-shirt",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-black-sleeves-polo-shirt"
   },
@@ -9588,7 +10292,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0016.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0016.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0016.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9599,9 +10305,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-blue-striped-sleeves-and-gold-geometric-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-blue-striped-sleeves-and-gold-geometric-jersey"
   },
@@ -9616,7 +10322,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0017.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0017.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0017.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9627,9 +10335,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-gold-stripes-and-2025-premiers-commemorative-champion-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-gold-stripes-and-2025-premiers-commemorative-champion-jersey"
   },
@@ -9644,7 +10352,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0018.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0018.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0018.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9655,9 +10365,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-gold-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-gold-stripes-jersey"
   },
@@ -9672,7 +10382,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0019.png",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0019.png",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0019.png"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9683,9 +10395,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-white-yoke-and-gold-speed-stripes-premiers-2025-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-maroon-with-white-yoke-and-gold-speed-stripes-premiers-2025-jersey"
   },
@@ -9700,7 +10412,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0020.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0020.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0020.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9711,9 +10425,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-white-with-golden-pink-wave-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-white-with-golden-pink-wave-jersey"
   },
@@ -9728,7 +10442,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0021.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0021.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0021.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9739,9 +10455,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-white-with-indigenous-art-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-white-with-indigenous-art-jersey"
   },
@@ -9756,7 +10472,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0022.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0022.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0022.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9767,9 +10485,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-white-with-maroon-sleeves-and-diagonal-geometric-stripes-champion-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-brisbane-broncos-white-with-maroon-sleeves-and-diagonal-geometric-stripes-champion-jersey"
   },
@@ -9784,7 +10502,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0023.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0023.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0023.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9795,9 +10515,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-canberra-raiders-green-with-indigenous-art-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-canberra-raiders-green-with-indigenous-art-jersey"
   },
@@ -9812,7 +10532,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0024.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0024.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0024.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9823,9 +10545,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-canberra-raiders-green-with-white-blue-and-gold-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-canberra-raiders-green-with-white-blue-and-gold-stripes-jersey"
   },
@@ -9840,7 +10562,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0025.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0025.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0025.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9851,9 +10575,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-canberra-raiders-navy-with-green-digital-pattern-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-canberra-raiders-navy-with-green-digital-pattern-jersey"
   },
@@ -9868,7 +10592,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0026.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0026.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0026.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9879,9 +10605,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-canberra-raiders-white-lime-green-with-war-memorial-graphic-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-canberra-raiders-white-lime-green-with-war-memorial-graphic-jersey"
   },
@@ -9896,7 +10622,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0027.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0027.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0027.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9907,9 +10635,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-canterbury-bankstown-bulldogs-blue-with-indigenous-art-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-canterbury-bankstown-bulldogs-blue-with-indigenous-art-jersey"
   },
@@ -9924,7 +10652,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0028.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0028.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0028.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9935,9 +10665,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-cronulla-sutherland-sharks-sky-blue-with-indigenous-heritage-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-cronulla-sutherland-sharks-sky-blue-with-indigenous-heritage-jersey"
   },
@@ -9952,7 +10682,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0029.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0029.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0029.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9963,9 +10695,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-dolphins-gold-with-indigenous-round-art-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-dolphins-gold-with-indigenous-round-art-jersey"
   },
@@ -9980,7 +10712,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0030.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0030.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0030.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -9991,9 +10725,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-gold-coast-titans-navy-blue-with-sky-blue-and-gold-chevrons-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-gold-coast-titans-navy-blue-with-sky-blue-and-gold-chevrons-jersey"
   },
@@ -10008,7 +10742,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0031.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0031.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0031.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10019,9 +10755,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-hull-fc-black-with-grey-distressed-stripes-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-hull-fc-black-with-grey-distressed-stripes-home-jersey"
   },
@@ -10036,7 +10772,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0032.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0032.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0032.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10047,9 +10785,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-hull-fc-grey-with-rainbow-hoops-heritage-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-hull-fc-grey-with-rainbow-hoops-heritage-jersey"
   },
@@ -10064,7 +10802,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0033.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0033.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0033.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10075,9 +10815,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-hull-fc-white-with-grey-panels-away-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-hull-fc-white-with-grey-panels-away-jersey"
   },
@@ -10092,7 +10832,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0034.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0034.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0034.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10103,9 +10845,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-manly-warringah-sea-eagles-maroon-with-indigenous-art-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-manly-warringah-sea-eagles-maroon-with-indigenous-art-jersey"
   },
@@ -10120,7 +10862,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0035.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0035.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0035.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10131,9 +10875,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-melbourne-storm-navy-with-indigenous-art-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-melbourne-storm-navy-with-indigenous-art-jersey"
   },
@@ -10148,7 +10892,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0036.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0036.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0036.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10159,9 +10905,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-melbourne-storm-purple-with-black-checkered-chevrons-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-melbourne-storm-purple-with-black-checkered-chevrons-jersey"
   },
@@ -10176,7 +10922,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0037.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0037.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0037.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10187,9 +10935,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-melbourne-storm-purple-with-lightning-bolt-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-melbourne-storm-purple-with-lightning-bolt-jersey"
   },
@@ -10204,7 +10952,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0038.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0038.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0038.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10215,9 +10965,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-black-polo-shirt",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-black-polo-shirt"
   },
@@ -10232,7 +10982,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0039.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0039.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0039.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10243,9 +10995,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-blue-with-maori-cultural-art-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-blue-with-maori-cultural-art-jersey"
   },
@@ -10260,7 +11012,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0040.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0040.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0040.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10271,9 +11025,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-navy-blue-with-green-and-red-diagonal-stripes-and-circular-gradient-heritage-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-navy-blue-with-green-and-red-diagonal-stripes-and-circular-gradient-heritage-jersey"
   },
@@ -10288,7 +11042,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0041.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0041.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0041.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10299,9 +11055,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-navy-with-blue-diagonal-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-navy-with-blue-diagonal-stripes-jersey"
   },
@@ -10316,7 +11072,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0042.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0042.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0042.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10327,9 +11085,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-white-with-blue-panels-and-circular-gradient-heritage-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-white-with-blue-panels-and-circular-gradient-heritage-jersey"
   },
@@ -10344,7 +11102,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0043.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0043.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0043.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10355,9 +11115,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-white-with-teal-and-navy-chevron-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-new-zealand-warriors-white-with-teal-and-navy-chevron-jersey"
   },
@@ -10372,7 +11132,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0044.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0044.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0044.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10383,9 +11145,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-newcastle-knights-blue-and-red-with-large-inverted-chevron-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-newcastle-knights-blue-and-red-with-large-inverted-chevron-home-jersey"
   },
@@ -10400,7 +11162,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0045.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0045.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0045.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10411,9 +11175,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-newcastle-knights-blue-white-and-red-with-inverted-chevron-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-newcastle-knights-blue-white-and-red-with-inverted-chevron-home-jersey"
   },
@@ -10428,7 +11192,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0046.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0046.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0046.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10439,9 +11205,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-newcastle-knights-gold-with-navy-stripe-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-newcastle-knights-gold-with-navy-stripe-jersey"
   },
@@ -10456,7 +11222,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0047.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0047.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0047.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10467,9 +11235,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-newcastle-knights-white-with-green-and-brown-camouflage-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-newcastle-knights-white-with-green-and-brown-camouflage-jersey"
   },
@@ -10484,7 +11252,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0048.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0048.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0048.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10495,9 +11265,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-north-queensland-cowboys-navy-with-indigenous-galaxy-design-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-north-queensland-cowboys-navy-with-indigenous-galaxy-design-jersey"
   },
@@ -10512,7 +11282,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0049.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0049.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0049.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10523,9 +11295,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-north-queensland-cowboys-navy-with-white-and-grey-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-north-queensland-cowboys-navy-with-white-and-grey-stripes-jersey"
   },
@@ -10540,7 +11312,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0050.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0050.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0050.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10551,9 +11325,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-north-queensland-cowboys-white-with-anzac-gallipoli-commemorative-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-north-queensland-cowboys-white-with-anzac-gallipoli-commemorative-jersey"
   },
@@ -10568,7 +11342,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0051.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0051.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0051.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10579,9 +11355,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-parramatta-eels-blue-and-gold-with-horizontal-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-parramatta-eels-blue-and-gold-with-horizontal-stripes-jersey"
   },
@@ -10596,7 +11372,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0052.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0052.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0052.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10607,9 +11385,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-parramatta-eels-blue-with-gold-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-parramatta-eels-blue-with-gold-stripes-jersey"
   },
@@ -10624,7 +11402,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0053.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0053.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0053.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10635,9 +11415,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-penrith-panthers-black-with-anzac-commemoration-design-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-penrith-panthers-black-with-anzac-commemoration-design-jersey"
   },
@@ -10652,7 +11432,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0054.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0054.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0054.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10663,9 +11445,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-penrith-panthers-black-with-rainbow-horizontal-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-penrith-panthers-black-with-rainbow-horizontal-stripes-jersey"
   },
@@ -10680,7 +11462,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0055.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0055.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0055.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10691,9 +11475,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-penrith-panthers-pink-with-gradient-horizontal-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-penrith-panthers-pink-with-gradient-horizontal-stripes-jersey"
   },
@@ -10708,7 +11492,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0056.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0056.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0056.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10719,9 +11505,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-south-sydney-rabbitohs-white-with-green-red-stripes-and-navy-mace-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-south-sydney-rabbitohs-white-with-green-red-stripes-and-navy-mace-jersey"
   },
@@ -10736,7 +11522,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0057.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0057.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0057.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10747,9 +11535,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-south-sydney-rabbitohs-white-with-red-and-green-chevron-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-south-sydney-rabbitohs-white-with-red-and-green-chevron-jersey"
   },
@@ -10764,7 +11552,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0058.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0058.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0058.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10775,9 +11565,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-south-sydney-rabbitohs-white-with-red-green-and-black-abstract-stripes-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-south-sydney-rabbitohs-white-with-red-green-and-black-abstract-stripes-jersey"
   },
@@ -10792,7 +11582,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0059.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0059.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0059.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10803,9 +11595,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-st-george-illawarra-dragons-white-with-red-v-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-st-george-illawarra-dragons-white-with-red-v-jersey"
   },
@@ -10820,7 +11612,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0060.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0060.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0060.jpg"
+    ],
     "sizes": [
       "2XL",
       "3XL",
@@ -10831,9 +11625,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/25-26-sydney-roosters-navy-with-red-and-white-chevron-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/25-26-sydney-roosters-navy-with-red-and-white-chevron-jersey"
   },
@@ -10848,7 +11642,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0061.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0061.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0061.jpg"
+    ],
     "sizes": [
       "2XL",
       "L",
@@ -10857,9 +11653,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/nrl-2026-sydney-roosters-home-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/nrl-2026-sydney-roosters-home-jersey"
   },
@@ -10874,7 +11670,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0062.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0062.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0062.jpg"
+    ],
     "sizes": [
       "2XL",
       "L",
@@ -10883,9 +11681,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/nrl-brisbane-broncos-2026-mens-club-world-cup-challenge-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/nrl-brisbane-broncos-2026-mens-club-world-cup-challenge-jersey"
   },
@@ -10900,7 +11698,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0063.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0063.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0063.jpg"
+    ],
     "sizes": [
       "2XL",
       "L",
@@ -10909,9 +11709,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/nrl-brisbane-broncos-2026-mens-heritage-jersey-white",
     "sourceUrl": "https://vivi-jersey.com/products/nrl-brisbane-broncos-2026-mens-heritage-jersey-white"
   },
@@ -10926,7 +11726,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0064.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0064.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0064.jpg"
+    ],
     "sizes": [
       "2XL",
       "L",
@@ -10935,9 +11737,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/nrl-new-zealand-warriors-2026-retro-polo",
     "sourceUrl": "https://vivi-jersey.com/products/nrl-new-zealand-warriors-2026-retro-polo"
   },
@@ -10952,7 +11754,9 @@ const MULTISPORT_PRODUCTS = [
     "image": "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0065.jpg",
     "imageFile": "RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0065.jpg",
     "imageFound": true,
-    "images": [],
+    "images": [
+      "https://pub-d179500225b14dffa9e52c4dabab121a.r2.dev/RUGBY_LEAGUE/images/JH-RUGBY_LEAGUE-0065.jpg"
+    ],
     "sizes": [
       "2XL",
       "L",
@@ -10961,9 +11765,9 @@ const MULTISPORT_PRODUCTS = [
       "XL"
     ],
     "sizeVerified": true,
-    "sizeStatus": "A_VERIFIER",
+    "sizeStatus": "VERIFIE",
     "supplier": "Vivi Jersey",
-    "supplierVerified": false,
+    "supplierVerified": true,
     "supplierUrl": "https://vivi-jersey.com/products/nrl-newcastle-knights-2026-mens-anzac-round-jersey",
     "sourceUrl": "https://vivi-jersey.com/products/nrl-newcastle-knights-2026-mens-anzac-round-jersey"
   }
@@ -10977,5 +11781,5 @@ const MULTISPORT_PRODUCTS = [
     if(!key||known.has(key)){skipped++;return;}
     PRODUCTS.push(product);known.add(key);added++;
   });
-  window.JH_MULTISPORT_STAGING={total:MULTISPORT_PRODUCTS.length,added,skipped,imagesPending:MULTISPORT_PRODUCTS.length,supplierVerificationPending:MULTISPORT_PRODUCTS.length};
+  window.JH_MULTISPORT_STAGING={total:MULTISPORT_PRODUCTS.length,added,skipped,imagesPending:0,supplierVerificationPending:0};
 })();

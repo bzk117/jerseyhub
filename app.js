@@ -804,7 +804,9 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const rugbyRosterKey=isRugbyUnion&&window.JH_RUGBY_UNION_PLAYERS?Object.keys(window.JH_RUGBY_UNION_PLAYERS).find(key=>normalizeRosterKey(key)===normalizeRosterKey(p.group||p.team)):null;
   const rugbyRoster=rugbyRosterKey?window.JH_RUGBY_UNION_PLAYERS[rugbyRosterKey]:[];
   const clubRoster=Array.isArray(p.players)?p.players:[];
-  const selectedRoster=isNational?(Array.isArray(nationalRoster)?nationalRoster:[]):isRugbyUnion?rugbyRoster:clubRoster;
+  const teamCurrentKey=Object.keys(window.JH_TEAM_PLAYER_ROSTERS||{}).find(key=>normalizeRosterKey(key)===normalizeRosterKey(p.group||p.team||currentGroup||""));
+  const sharedCurrentRoster=teamCurrentKey?window.JH_TEAM_PLAYER_ROSTERS[teamCurrentKey]:null;
+  const selectedRoster=Array.isArray(sharedCurrentRoster)?sharedCurrentRoster:isNational?(Array.isArray(nationalRoster)?nationalRoster:[]):isRugbyUnion?rugbyRoster:clubRoster;
   const teamRosterKey=Object.keys(window.JH_TEAM_PLAYER_LEGENDS||{}).find(key=>normalizeRosterKey(key)===normalizeRosterKey(p.group||p.team||currentGroup||""));
   const legendRoster=teamRosterKey?window.JH_TEAM_PLAYER_LEGENDS[teamRosterKey]:[];
   const renderPersonalization=()=>{

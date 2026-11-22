@@ -1197,7 +1197,7 @@ window.JH_NATIONAL_PLAYERS = {
   ["Behruzjon Karimov","KARIMOV",24],
   ["Avazbek Ulmasaliyev","ULMASALIYEV",25],
   ["Jakhongir Urozov","UROZOV",26]
- ]
+ ],
  "cameroun": [
   ["Simon Brady Ngapandouetnbu","NGAPANDOUETNBU",null],
   ["Blondy Rudolph Nna Noukeu","NOUKEU",null],

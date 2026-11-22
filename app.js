@@ -675,6 +675,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
     sizes=sourceSizes.length?sourceSizes:(selectedSizeAudience==="kids"?kidsSizes:adultSizes);
   }
   const isNational=p.category==="national",isClub=p.category==="clubs";
+  const isRugbyUnion=p.sport==="RUGBY_UNION"||p.league==="RUGBY_UNION";
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
   const clubSizeControl='<select id="jh-size" required '+(!sizes.length?'disabled':'')+'><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>';
@@ -800,14 +801,17 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const rosterSource=[currentView==="national"?currentGroup:"",p.group,p.team,p.name,p.country,p.nationalTeam,p.teamName].filter(Boolean).map(normalizeRosterKey);
   const rosterKey=isNational&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
+  const rugbyRosterKey=isRugbyUnion&&window.JH_RUGBY_UNION_PLAYERS?Object.keys(window.JH_RUGBY_UNION_PLAYERS).find(key=>normalizeRosterKey(key)===normalizeRosterKey(p.group||p.team)):null;
+  const rugbyRoster=rugbyRosterKey?window.JH_RUGBY_UNION_PLAYERS[rugbyRosterKey]:[];
   const clubRoster=isClub&&Array.isArray(p.players)?p.players:[];
+  const selectedRoster=isNational?(Array.isArray(nationalRoster)?nationalRoster:[]):isClub?clubRoster:isRugbyUnion?rugbyRoster:[];
   const renderPersonalization=()=>{
    if(person.value==="Aucune"){fields.innerHTML="";return}
    if(person.value==="Nom et numéro du joueur"){
-    if(!isNational&&!isClub){fields.innerHTML='<p class="jh-player-note">Saisissez le nom et le numéro manuellement.</p><label for="jh-name">Nom du joueur</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';return}
-    const options=isNational?(Array.isArray(nationalRoster)?nationalRoster:[]):clubRoster;
-    const hasUnverifiedNumbers=isNational&&options.some(x=>(Array.isArray(x)?x[2]:x.number)==null);
-    const rosterNote=options.length?(isNational?(hasUnverifiedNumbers?"Effectif disponible. Certains numéros ne sont pas confirmés : vérifiez le numéro du joueur avant de valider.":"Effectif national disponible. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro."):"Effectif du club vérifié. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro."):"Aucun effectif vérifié pour cette fiche. Vous pouvez saisir le nom et le numéro manuellement.";
+    if(!isNational&&!isClub&&!isRugbyUnion){fields.innerHTML='<p class="jh-player-note">Saisissez le nom et le numéro manuellement.</p><label for="jh-name">Nom du joueur</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';return}
+    const options=selectedRoster;
+    const hasUnverifiedNumbers=options.some(x=>(Array.isArray(x)?x[2]:x.number)==null);
+    const rosterNote=options.length?(isNational?(hasUnverifiedNumbers?"Effectif disponible. Certains numéros ne sont pas confirmés : vérifiez le numéro du joueur avant de valider.":"Effectif national disponible. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro."):(isRugbyUnion?"Liste de joueurs issue de l’effectif publié. Les numéros de maillot varient selon les matchs : indiquez le numéro souhaité.":"Effectif du club vérifié. Sélectionnez un joueur pour remplir automatiquement son nom et son numéro.")):(isRugbyUnion?"Aucune liste de joueurs vérifiée pour cette équipe. Vous pouvez saisir le nom et le numéro manuellement.":"Aucun effectif vérifié pour cette fiche. Vous pouvez saisir le nom et le numéro manuellement.");
     fields.innerHTML='<p class="jh-player-note">'+rosterNote+'</p>'+(options.length?'<label for="jh-player-select">Joueur</label><select id="jh-player-select"><option value="">Choisir un joueur</option>'+options.map((x,i)=>{const playerName=Array.isArray(x)?x[0]:x.name;const playerNumber=Array.isArray(x)?x[2]:x.number;return '<option value="'+i+'">'+esc(playerName)+(playerNumber==null?' — numéro à confirmer':' — #'+esc(playerNumber))+'</option>'}).join("")+'</select>':'')+'<label for="jh-name">Nom sur le maillot</label><input id="jh-name" maxlength="40" placeholder="Nom"><label for="jh-number">Numéro</label><input id="jh-number" maxlength="3" inputmode="numeric" placeholder="Numéro">';
     const select=fields.querySelector("#jh-player-select");
     if(select)select.onchange=()=>{if(select.value===""){fields.querySelector("#jh-name").value="";fields.querySelector("#jh-number").value="";return}const chosen=options[Number(select.value)];if(chosen){const playerName=Array.isArray(chosen)?chosen[0]:chosen.name;const shirtName=Array.isArray(chosen)?chosen[1]:chosen.shirt;const playerNumber=Array.isArray(chosen)?chosen[2]:chosen.number;fields.querySelector("#jh-name").value=shirtName||playerName||"";fields.querySelector("#jh-number").value=playerNumber??"";}};
@@ -839,7 +843,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    const patches=patchSelections.map(selection=>selection.label);
    const patchTotalEur=patchSelections.reduce((total,selection)=>total+(Number(selection.extra_price_eur)||0),0);
    const unitPriceEur=p.league==="NBA"?null:((patchSelections.length||person.value!=="Aucune")?30:25);
-   const selectedPlayer=person.value==="Nom et numéro du joueur"?(clubRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
+   const selectedPlayer=person.value==="Nom et numéro du joueur"?(selectedRoster.find(x=>(Array.isArray(x)?x[0]:x.name)===customName)||null):null;
    const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,league:p.league||"",team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,unitPriceEur,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});
    write(next);close();showCart();
   };

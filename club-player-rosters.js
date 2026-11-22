@@ -4,37 +4,16 @@
 
 window.JH_CLUB_FOOTBALL_PLAYERS = {
   "Manchester United": [
-    ["Senne Lammens", "LAMMENS 1", "1"],
-    ["Diogo Dalot", "DALOT 2", "2"],
-    ["Noussair Mazraoui", "MAZRAOUI 3", "3"],
-    ["Matthijs de Ligt", "DE LIGT 4", "4"],
-    ["Harry Maguire", "MAGUIRE 5", "5"],
-    ["Lisandro Martínez", "MARTÍNEZ 6", "6"],
-    ["Mason Mount", "MOUNT 7", "7"],
-    ["Bruno Fernandes", "FERNANDES 8", "8"],
-    ["Marcus Rashford", "RASHFORD 9", "9"],
-    ["Matheus Cunha", "CUNHA 10", "10"],
-    ["Joshua Zirkzee", "ZIRKZEE 11", "11"],
-    ["Karl Darlow", "DARLOW 12", "12"],
-    ["Patrick Dorgu", "DORGU 13", "13"],
-    ["Leny Yoro", "YORO 15", "15"],
-    ["Amad Diallo", "AMAD 16", "16"],
-    ["Andrey Santos", "SANTOS 17", "17"],
-    ["Youri Tielemans", "TIELEMANS 18", "18"],
-    ["Bryan Mbeumo", "MBEUMO 19", "19"],
-    ["Carlos Baleba", "BALEBA 20", "20"],
-    ["Thomas Heaton", "HEATON 22", "22"],
-    ["Luke Shaw", "SHAW 23", "23"],
-    ["Manuel Ugarte", "UGARTE 25", "25"],
-    ["Ayden Heaven", "HEAVEN 26", "26"],
-    ["Benjamin Šeško", "ŠEŠKO 30", "30"],
-    ["Shea Lacey", "LACEY 31", "31"],
-    ["Diego León", "LEÓN 35", "35"],
-    ["Kobbie Mainoo", "MAINOO 37", "37"],
-    ["Jack Fletcher", "FLETCHER 38", "38"],
-    ["Tyler Fletcher", "FLETCHER 39", "39"],
-    ["Harry Amass", "AMASS 41", "41"],
-    ["Dermot Mee", "MEE 45", "45"]
+    ["Senne Lammens", "LAMMENS 1", "1"], ["Diogo Dalot", "DALOT 2", "2"], ["Noussair Mazraoui", "MAZRAOUI 3", "3"], ["Matthijs de Ligt", "DE LIGT 4", "4"], ["Harry Maguire", "MAGUIRE 5", "5"], ["Lisandro Martínez", "MARTÍNEZ 6", "6"], ["Mason Mount", "MOUNT 7", "7"], ["Bruno Fernandes", "FERNANDES 8", "8"], ["Marcus Rashford", "RASHFORD 9", "9"], ["Matheus Cunha", "CUNHA 10", "10"], ["Joshua Zirkzee", "ZIRKZEE 11", "11"], ["Karl Darlow", "DARLOW 12", "12"], ["Patrick Dorgu", "DORGU 13", "13"], ["Leny Yoro", "YORO 15", "15"], ["Amad Diallo", "AMAD 16", "16"], ["Andrey Santos", "SANTOS 17", "17"], ["Youri Tielemans", "TIELEMANS 18", "18"], ["Bryan Mbeumo", "MBEUMO 19", "19"], ["Carlos Baleba", "BALEBA 20", "20"], ["Thomas Heaton", "HEATON 22", "22"], ["Luke Shaw", "SHAW 23", "23"], ["Manuel Ugarte", "UGARTE 25", "25"], ["Ayden Heaven", "HEAVEN 26", "26"], ["Benjamin Šeško", "ŠEŠKO 30", "30"], ["Shea Lacey", "LACEY 31", "31"], ["Diego León", "LEÓN 35", "35"], ["Kobbie Mainoo", "MAINOO 37", "37"], ["Jack Fletcher", "FLETCHER 38", "38"], ["Tyler Fletcher", "FLETCHER 39", "39"], ["Harry Amass", "AMASS 41", "41"], ["Dermot Mee", "MEE 45", "45"]
+  ],
+  "Arsenal": [
+    ["David Raya", "RAYA 1", "1"], ["William Saliba", "SALIBA 2", "2"], ["Cristhian Mosquera", "MOSQUERA 3", "3"], ["Ben White", "WHITE 4", "4"], ["Piero Hincapié", "HINCAPIÉ 5", "5"], ["Gabriel Magalhães", "GABRIEL 6", "6"], ["Bukayo Saka", "SAKA 7", "7"], ["Martin Ødegaard", "ØDEGAARD 8", "8"], ["Eberechi Eze", "EZE 10", "10"], ["Jurrien Timber", "TIMBER 12", "12"], ["Kepa Arrizabalaga", "KEPA 13", "13"], ["Viktor Gyökeres", "GYÖKERES 14", "14"], ["Ezri Konsa", "KONSA 15", "15"], ["Christos Tzolis", "TZOLIS 17", "17"], ["Noni Madueke", "MADUEKE 20", "20"], ["Mikel Merino", "MERINO 23", "23"], ["Kai Havertz", "HAVERTZ 29", "29"], ["Illan Meslier", "MESLIER 30", "30"], ["Riccardo Calafiori", "CALAFIORI 33", "33"], ["Martín Zubimendi", "ZUBIMENDI 36", "36"], ["Bruno Guimarães", "GUIMARÃES 39", "39"], ["Declan Rice", "RICE 41", "41"], ["Myles Lewis-Skelly", "LEWIS-SKELLY 49", "49"], ["Max Dowman", "DOWMAN 56", "56"]
+  ],
+  "Barcelona": [
+    ["Joan García", "JOAN GARCÍA 1", "1"], ["João Cancelo", "CANCELO 2", "2"], ["Alejandro Balde", "BALDE 3", "3"], ["Brian Fariñas", "FARIÑAS 4", "4"], ["Pau Cubarsí", "CUBARSÍ 5", "5"], ["Gavi", "GAVI 6", "6"], ["Fermín López", "FERMÍN 7", "7"], ["Pedri", "PEDRI 8", "8"], ["Gabriel Jesus", "GABRIEL JESUS 9", "9"], ["Lamine Yamal", "LAMINE YAMAL 10", "10"], ["Raphinha", "RAPHINHA 11", "11"], ["Xavi Espart", "ESPART 12", "12"], ["Wojciech Szczęsny", "SZCZĘSNY 13", "13"], ["Karim Adeyemi", "ADEYEMI 14", "14"], ["Andreas Christensen", "CHRISTENSEN 15", "15"], ["Rodri", "RODRI 16", "16"], ["Anthony Gordon", "GORDON 17", "17"], ["Gerard Martín", "GERARD MARTÍN 18", "18"], ["Roony Bardghji", "BARDGHJI 19", "19"], ["Dani Olmo", "OLMO 20", "20"], ["Frenkie de Jong", "DE JONG 21", "21"], ["Marc Bernal", "BERNAL 22", "22"], ["Jules Koundé", "KOUNDÉ 23", "23"], ["Eric García", "ERIC GARCÍA 24", "24"], ["Dominik Livaković", "LIVAKOVIĆ 25", "25"]
+  ],
+  "Anderlecht": [
+    ["Zoumana Keita", "KEITA 2", "2"], ["Lucas Hey", "HEY 3", "3"], ["Giulian Biancone", "BIANCONE 4", "4"], ["Oleg Reabciuk", "REABCIUK 5", "5"], ["Ludwig Augustinsson", "AUGUSTINSSON 6", "6"], ["Ilay Camara", "CAMARA 7", "7"], ["Amane Romeo", "ROMEO 8", "8"], ["Mihajlo Cvetković", "CVETKOVIĆ 9", "9"], ["Marten Winkler", "WINKLER 10", "10"], ["Oliver Antman", "ANTMAN 11", "11"], ["Andrew Omobamidele", "OMOBAMIDELE 12", "12"], ["Danylo Sikan", "SIKAN 14", "14"], ["Lukáš Ambros", "AMBROS 18", "18"], ["Thelo Aasgaard", "AASGAARD 19", "19"], ["Tawfik Bentayeb", "BENTAYEB 21", "21"], ["Enric Llansana", "LLANSANA 24", "24"], ["Colin Coosemans", "COOSEMANS 26", "26"], ["Léo Petrot", "PETROT 27", "27"], ["Mario Stroeykens", "STROEYKENS 29", "29"], ["Ilias Koutsoupias", "KOUTSOUPIAS 30", "30"], ["Justin Heekeren", "HEEKEREN 32", "32"], ["Mattis Seghers", "SEGHERS 33", "33"]
   ]
 };
 

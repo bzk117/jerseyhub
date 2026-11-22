@@ -72,6 +72,85 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["George Hemmings","George Hemmings","53"],["Nicolas Jackson","Nicolas Jackson","11"],
     ["Tammy Abraham","Tammy Abraham","18"],["Brian Madjo","Brian Madjo","39"]
   ]
+,
+  "Brentford": [
+    ["Caoimhin Kelleher","Caoimhin Kelleher","1"],["Hakon Valdimarsson","Hakon Valdimarsson","12"],
+    ["Ellery Balcombe","Ellery Balcombe","31"],["Aaron Hickey","Aaron Hickey","2"],
+    ["Rico Henry","Rico Henry","3"],["Sepp van den Berg","Sepp van den Berg","4"],
+    ["Kristoffer Ajer","Kristoffer Ajer","20"],["Nathan Collins","Nathan Collins","22"],
+    ["El Hadji Malick Diouf","El Hadji Malick Diouf","25"],["Michael Kayode","Michael Kayode","33"],
+    ["Ji-soo Kim","Ji-soo Kim","36"],["Jannik Schuster","Jannik Schuster","44"],
+    ["Benjamin Fredrick","Benjamin Fredrick","48"],["Yehor Yarmoliuk","Yehor Yarmoliuk","6"],
+    ["Mathias Jensen","Mathias Jensen","8"],["Josh Dasilva","Josh Dasilva","10"],
+    ["Fabio Carvalho","Fabio Carvalho","14"],["Antoni Milambo","Antoni Milambo","17"],
+    ["Mamadou Sangare","Mamadou Sangare","18"],["Keane Lewis-Potter","Keane Lewis-Potter","23"],
+    ["Mikkel Damsgaard","Mikkel Damsgaard","24"],["Vitaly Janelt","Vitaly Janelt","27"],
+    ["Kevin Schade","Kevin Schade","7"],["Igor Thiago","Igor Thiago","9"],
+    ["Dango Ouattara","Dango Ouattara","11"],["Callum Wilson","Callum Wilson","13"],
+    ["Jaidon Anthony","Jaidon Anthony","19"],["Gustavo Nunes","Gustavo Nunes","39"],
+    ["Kaye Furo","Kaye Furo","47"]
+  ],
+  "Brighton & Hove Albion": [
+    ["Bart Verbruggen","Bart Verbruggen","1"],["Jason Steele","Jason Steele","23"],
+    ["Tom McGill","Tom McGill","38"],["Igor Julio","Igor Julio","3"],
+    ["Pascal Struijk","Pascal Struijk","4"],["Lewis Dunk","Lewis Dunk","5"],
+    ["Jack Hinshelwood","Jack Hinshelwood","8"],["Olivier Boscagli","Olivier Boscagli","21"],
+    ["Ferdi Kadioglu","Ferdi Kadioglu","24"],["Maxim De Cuyper","Maxim De Cuyper","29"],
+    ["Michael Svoboda","Michael Svoboda","30"],["Luka Vuskovic","Luka Vuskovic","44"],
+    ["Kaoru Mitoma","Kaoru Mitoma","7"],["Georginio Rutter","Georginio Rutter","10"],
+    ["Yankuba Minteh","Yankuba Minteh","11"],["Pascal Gross","Pascal Gross","13"],
+    ["Ibrahim Osman","Ibrahim Osman","15"],["Eiran Cashin","Eiran Cashin","16"],
+    ["Carlos Baleba","Carlos Baleba","17"],["Joao Costinha","Joao Costinha","20"],
+    ["Diego Gomez","Diego Gomez","25"],["Yasin Ayari","Yasin Ayari","26"],
+    ["Mats Wieffer","Mats Wieffer","27"],["Matt O'Riley","Matt O'Riley","33"],
+    ["Malick Yalcouye","Malick Yalcouye","35"],["Zadok Yohanna","Zadok Yohanna","36"],
+    ["Stefanos Tzimas","Stefanos Tzimas","9"],["Promise David","Promise David","12"],
+    ["Charalampos Kostoulas","Charalampos Kostoulas","19"],["Evan Ferguson","Evan Ferguson","28"]
+  ],
+  "Fulham": [
+    ["Bernd Leno","Bernd Leno","1"],["Benjamin Lecomte","Benjamin Lecomte","23"],
+    ["Alex Borto","Alex Borto","36"],["Dino Kaiser","Dino Kaiser","37"],
+    ["Kenny Tete","Kenny Tete","2"],["Calvin Bassey","Calvin Bassey","3"],
+    ["Jorge Cuenca","Jorge Cuenca","4"],["Joachim Andersen","Joachim Andersen","5"],
+    ["Timothy Castagne","Timothy Castagne","21"],["Antonee Robinson","Antonee Robinson","33"],
+    ["Harrison Reed","Harrison Reed","6"],["Gonzalo Garcia","Gonzalo Garcia","7"],
+    ["Cesar Palacios","Cesar Palacios","8"],["Tom Cairney","Tom Cairney","10"],
+    ["Oscar Bobb","Oscar Bobb","14"],["Sander Berge","Sander Berge","16"],
+    ["Alex Iwobi","Alex Iwobi","17"],["Shea Charles","Shea Charles","19"],
+    ["Ryan Sessegnon","Ryan Sessegnon","30"],["Emile Smith Rowe","Emile Smith Rowe","32"],
+    ["Rodrigo Muniz","Rodrigo Muniz","9"],["Kevin","Kevin","11"],
+    ["Jonah Kusi-Asare","Jonah Kusi-Asare","18"],["Josh King","Josh King","24"],
+    ["Michael Allen","Michael Allen","39"],["Luc De Fougerolles","Luc De Fougerolles","44"]
+  ],
+  "AFC Bournemouth": [
+    ["Djordje Petrovic","Djordje Petrovic","1"],["Michele Di Gregorio","Michele Di Gregorio","20"],
+    ["Julian Araujo","Julian Araujo","2"],["Adrien Truffert","Adrien Truffert","3"],
+    ["James Hill","James Hill","5"],["Julio Soler","Julio Soler","6"],
+    ["Antonio Silva","Antonio Silva","14"],["Adam Smith","Adam Smith","15"],
+    ["Bafode Diakite","Bafode Diakite","18"],["Juanlu Sanchez","Juanlu Sanchez","24"],
+    ["Max Aarons","Max Aarons","28"],["Veljko Milosavljevic","Veljko Milosavljevic","44"],
+    ["Lewis Cook","Lewis Cook","4"],["David Brooks","David Brooks","7"],
+    ["Alex Scott","Alex Scott","8"],["Ryan Christie","Ryan Christie","10"],
+    ["Ben Gannon-Doak","Ben Gannon-Doak","11"],["Tyler Adams","Tyler Adams","12"],
+    ["Marcus Tavernier","Marcus Tavernier","16"],["Alex Toth","Alex Toth","27"],
+    ["Evanilson","Evanilson","9"],["Justin Kluivert","Justin Kluivert","19"],
+    ["Amine Adli","Amine Adli","21"],["Junior Kroupi","Junior Kroupi","22"],
+    ["Daniel Jebbison","Daniel Jebbison","29"],["Alvaro Rodriguez","Alvaro Rodriguez","30"],
+    ["Rayan","Rayan","37"],["Fraser Forster","Fraser Forster","17"]
+  ],
+  "Nottingham Forest": [
+    ["John Victor","John Victor","12"],["Matz Sels","Matz Sels","26"],["Steven Benda","Steven Benda","33"],
+    ["Ousmane Diomande","Ousmane Diomande","2"],["Neco Williams","Neco Williams","3"],
+    ["Murillo","Murillo","5"],["Jair Cunha","Jair Cunha","23"],["Luca Netz","Luca Netz","25"],
+    ["Daniel Munoz","Daniel Munoz","27"],["Nikola Milenkovic","Nikola Milenkovic","31"],
+    ["Ola Aina","Ola Aina","34"],["Nicolo Savona","Nicolo Savona","37"],
+    ["Ibrahim Sangare","Ibrahim Sangare","6"],["Nicolas Dominguez","Nicolas Dominguez","8"],
+    ["Morgan Gibbs-White","Morgan Gibbs-White","10"],["Xaver Schlager","Xaver Schlager","21"],
+    ["Ryan Yates","Ryan Yates","22"],["James McAtee","James McAtee","24"],
+    ["Callum Hudson-Odoi","Callum Hudson-Odoi","7"],["Chris Wood","Chris Wood","9"],
+    ["Igor Jesus","Igor Jesus","11"],["Dan Ndoye","Dan Ndoye","14"],
+    ["Arnaud Kalimuendo","Arnaud Kalimuendo","15"],["Liam Delap","Liam Delap","19"]
+  ]
 };
 window.JH_TEAM_PLAYER_ROSTERS = window.JH_TEAM_PLAYER_ROSTERS || {};
 Object.assign(window.JH_TEAM_PLAYER_ROSTERS, window.JH_CLUB_FOOTBALL_PLAYERS);

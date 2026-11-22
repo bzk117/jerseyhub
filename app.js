@@ -300,9 +300,14 @@ function setHeading(e,t,b){
  eyebrow.textContent=e;title.textContent=t;crumbs.textContent=b;$("#resultCount").textContent="";
  const pager=$("#catalogPagination");if(pager)pager.innerHTML="";
  const sectionHeading=document.querySelector(".section-heading");
- let back=sectionHeading.querySelector(".jh-page-back");
- if(!back){back=document.createElement("button");back.type="button";back.className="jh-page-back";back.innerHTML="← <span>Retour</span>";back.setAttribute("aria-label","Retour à la page précédente");sectionHeading.prepend(back);back.onclick=goBack;}
- back.hidden=currentView==="home";
+ const catalogArea=sectionHeading.closest(".catalog-area");
+ let rail=catalogArea.querySelector(".jh-back-rail");
+ if(!rail){rail=document.createElement("div");rail.className="jh-back-rail";rail.setAttribute("aria-label","Navigation de la rubrique");catalogArea.prepend(rail);}
+ let back=rail.querySelector(".jh-page-back");
+ if(!back){back=document.createElement("button");back.type="button";back.className="jh-page-back";back.innerHTML="← <span>Retour</span>";back.setAttribute("aria-label","Retour à la page précédente");rail.append(back);back.onclick=goBack;}
+ const showBack=currentView!=="home";
+ rail.hidden=!showBack;
+ catalogArea.classList.toggle("has-page-back",showBack);
 }
 let navigationHistory=[];
 let restoringNavigation=false;

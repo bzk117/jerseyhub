@@ -427,20 +427,35 @@ button:disabled{cursor:not-allowed;opacity:.58}
 }
 
 
-/* Le bouton Retour existant reste accessible pendant le défilement. */
-.jh-page-back{
- position:fixed;
+/* Rail latéral : le bouton Retour accompagne la rubrique pendant le défilement. */
+.catalog-area.has-page-back{
+ display:grid;
+ grid-template-columns:88px minmax(0,1fr);
+ column-gap:14px;
+ align-items:start;
+}
+.catalog-area.has-page-back > :not(.jh-back-rail){grid-column:2;min-width:0}
+.jh-back-rail{
+ grid-column:1;
+ grid-row:1 / span 20;
+ position:sticky;
  top:94px;
- left:16px;
- z-index:40;
- align-self:auto;
+ align-self:start;
+ z-index:30;
+}
+.jh-back-rail[hidden]{display:none}
+.jh-page-back{
+ position:static;
+ display:inline-flex;
+ justify-content:center;
+ width:100%;
  margin:0;
- box-shadow:0 4px 16px #0009;
+ padding:10px 8px;
+ box-shadow:none;
+ white-space:nowrap;
 }
 @media(max-width:760px){
- .jh-page-back{
-  top:78px;
-  left:10px;
-  padding:9px 11px;
- }
+ .catalog-area.has-page-back{grid-template-columns:70px minmax(0,1fr);column-gap:9px}
+ .jh-back-rail{top:78px}
+ .jh-page-back{padding:9px 5px;font-size:12px}
 }

@@ -352,7 +352,7 @@ function navigateBannerCategory(action){
   mlb:["MLB","Baseball"],nhl:["NHL","Hockey sur glace","Hockey"],rugby:["Rugby"]
  };
  if(action==="national"){openView("national");return}
- if(action==="gaa"){openView("gaa");return}
+ if(action==="gaa"){openGroup("sports","Sports gaéliques");return}
  if(action==="clubs"){openView("clubs");return}
  if(action==="shoes"){openView("shoes");return}
  if(action==="lifestyle"){openView("lifestyle");return}

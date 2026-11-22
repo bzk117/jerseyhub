@@ -425,3 +425,22 @@ button:disabled{cursor:not-allowed;opacity:.58}
 @media(max-width:760px){
   .category-art.art-rugby-league img.category-visual.category-logo{padding:12px !important;}
 }
+
+
+/* Le bouton Retour existant reste accessible pendant le défilement. */
+.jh-page-back{
+ position:fixed;
+ top:94px;
+ left:16px;
+ z-index:40;
+ align-self:auto;
+ margin:0;
+ box-shadow:0 4px 16px #0009;
+}
+@media(max-width:760px){
+ .jh-page-back{
+  top:78px;
+  left:10px;
+  padding:9px 11px;
+ }
+}

@@ -1804,6 +1804,34 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["Mika Biereth","BIERETH 14","14"],
     ["Paris Brunner","BRUNNER 29","29"],
     ["Ansu Fati","FATI 31","31"]
+  ],
+  "LOSC Lille": [
+    ["Berke Özer","OZER 1","1"],
+    ["Orlando Gill","GILL 12","12"],
+    ["Tiago Santos","SANTOS 22","22"],
+    ["Loun Srdanovic","SRDANOVIC 2","2"],
+    ["Romain Perraud","PERRAUD 15","15"],
+    ["Calvin Verdonk","VERDONK 24","24"],
+    ["Alexsandro","ALEXSANDRO 4","4"],
+    ["Nathan Ngoy","NGOY 3","3"],
+    ["Tanguy Nianzou","NIANZOU 23","23"],
+    ["Isaac Cossier","COSSIER 26","26"],
+    ["Maxima Goffi","GOFFI 38","38"],
+    ["Benjamin André","ANDRE 21","21"],
+    ["Ngal'ayel Mukau","MUKAU 17","17"],
+    ["Nabil Bentaleb","BENTALEB 6","6"],
+    ["Maurits Kjærgaard","KJAERGAARD 14","14"],
+    ["Olivier Giroud","GIROUD 9","9"],
+    ["Hamza Igamane","IGAMANE 29","29"],
+    ["Başar Önal","ONAL 19","19"],
+    ["Félix Correia","CORREIA 27","27"],
+    ["Osame Sahraoui","SAHRAOUI 11","11"],
+    ["Ayase Ueda","UEDA 18","18"],
+    ["Gaëtan Perrin","PERRIN 28","28"],
+    ["Dilane Bakwa","BAKWA 7","7"],
+    ["Soriba Diaoune","DIAOUNE 35","35"],
+    ["Hákon Haraldsson","HARALDSSON 10","10"],
+    ["Ethan Mbappé","MBAPPÉ 8","8"]
   ]
 };
 

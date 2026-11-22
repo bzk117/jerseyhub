@@ -1860,6 +1860,29 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["Luca Koleosho","KOLEOSHO 15","15"],
     ["Lassine Sinayoko","SINAYOKO 9","9"],
     ["Pablo Pagis","PAGIS 7","7"]
+  ],
+  "Olympique de Marseille": [
+    ["Jeffrey de Lange","DE LANGE 1","1"],
+    ["Jelle Van Neck","VAN NECK 40","40"],
+    ["Théo Vermot","VERMOT 92","92"],
+    ["Conrad Jaden Egan-Riley","EGAN-RILEY 4","4"],
+    ["Derek Cornelius","CORNELIUS 13","13"],
+    ["Bamo Meïté","MEITE 18","18"],
+    ["Timothy Weah","WEAH 22","22"],
+    ["Ulisses Garcia","GARCIA 25","25"],
+    ["Emerson Palmieri","PALMIERI 33","33"],
+    ["Tochukwu Nnadi","NNADI 6","6"],
+    ["Angel Gomes","GOMES 7","7"],
+    ["Himad Abdelli","ABDELLI 8","8"],
+    ["Geoffrey Kondogbia","KONDOGBIA 19","19"],
+    ["Pierre-Emile Højbjerg","HOJBJERG 23","23"],
+    ["Amine Harit","HARIT 77","77"],
+    ["Amine Gouiri","GOUIRI 9","9"],
+    ["Neal Maupay","MAUPAY 11","11"],
+    ["Igor Paixão","PAIXAO 14","14"],
+    ["Faris Moumbagna","MOUMBAGNA 29","29"],
+    ["Tadjidine Mmadi","MMADI 43","43"],
+    ["Keyliane Abdallah","ABDALLAH 48","48"]
   ]
 };
 

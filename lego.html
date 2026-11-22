@@ -50,17 +50,15 @@
 @media(max-width:650px){.lego-gallery-page{padding:18px 12px 50px}.lego-gallery{grid-template-columns:52px minmax(0,1fr);gap:10px}.lego-left-thumbs{gap:8px}.lego-left-thumb{width:48px;height:48px;flex-basis:48px}.lego-main{height:360px;min-height:260px}.lego-main img{width:82%;height:82%}.lego-right-options{grid-template-columns:repeat(6,minmax(0,1fr));gap:6px}.lego-thumb{height:50px}}
 .lego-back-button{display:inline-flex;align-items:center;gap:8px;margin:0 0 18px;padding:10px 16px;border:1px solid #665326;border-radius:9px;background:#171717;color:#f4bd22;font-size:14px;font-weight:800;cursor:pointer}.lego-back-button:hover{background:#30250d;border-color:#f4bd22}.lego-back-button:focus-visible{outline:2px solid #f4bd22;outline-offset:3px}
 
-/* Le bouton Retour LEGO reste accessible pendant le défilement. */
-.lego-back-button{
- position:fixed;
- top:94px;
- left:16px;
- z-index:40;
- margin:0;
- box-shadow:0 4px 16px #0009;
-}
+/* Rail latéral LEGO : le bouton accompagne la galerie pendant le défilement. */
+.lego-gallery-page{display:grid;grid-template-columns:88px minmax(0,1fr);column-gap:14px}
+.lego-gallery-page > :not(.lego-back-rail){grid-column:2;min-width:0}
+.lego-back-rail{grid-column:1;grid-row:1 / span 10;position:sticky;top:94px;align-self:start;z-index:30}
+.lego-back-button{position:static;width:100%;justify-content:center;margin:0;padding:10px 8px;white-space:nowrap;box-shadow:none}
 @media(max-width:760px){
- .lego-back-button{top:78px;left:10px}
+ .lego-gallery-page{grid-template-columns:70px minmax(0,1fr);column-gap:9px}
+ .lego-back-rail{top:78px}
+ .lego-back-button{padding:9px 5px;font-size:12px}
 }
 </style>
 </head>
@@ -74,7 +72,7 @@
 </nav><button class="mobile-menu" id="mobileMenu" aria-label="Ouvrir le menu">☰</button>
 </header>
 <main class="lego-gallery-page">
-<button class="lego-back-button" id="legoBackButton" type="button" aria-label="Retour à la page précédente">← <span>Retour</span></button>
+<div class="lego-back-rail"><button class="lego-back-button" id="legoBackButton" type="button" aria-label="Retour à la page précédente">← <span>Retour</span></button></div>
 <section class="lego-gallery" aria-label="Galerie et modèles LEGO">
 <div class="lego-left-thumbs" aria-label="Photos de présentation">
 <button class="lego-thumb lego-left-thumb active" type="button" data-image="assets/lifestyle/lego-construction/source-archive/lego-14.jpg" aria-label="Afficher la photo de présentation 1"><img src="assets/lifestyle/lego-construction/source-archive/lego-14.jpg" alt="" loading="lazy"></button>

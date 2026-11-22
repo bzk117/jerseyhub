@@ -78,14 +78,14 @@
     });
   }
   if(typeof OTHER_SPORTS!=="undefined"&&Array.isArray(OTHER_SPORTS)){
-    const legacy=OTHER_SPORTS.findIndex(item=>String(item.name||"").toLowerCase()==="rugby");
-    if(legacy>=0)OTHER_SPORTS.splice(legacy,1);
-    [
-      {name:"Rugby Union",emoji:"🏉",desc:"Rugby à XV"},
-      {name:"Rugby League",emoji:"🏉",desc:"Rugby à XIII"}
-    ].forEach(item=>{
-      if(!OTHER_SPORTS.some(existing=>existing.name===item.name))OTHER_SPORTS.push(item);
+    // Une seule catégorie parent Rugby : les deux disciplines sont proposées à l’intérieur.
+    ["Rugby Union","Rugby League"].forEach(name=>{
+      const index=OTHER_SPORTS.findIndex(item=>String(item.name||"").toLowerCase()===name.toLowerCase());
+      if(index>=0)OTHER_SPORTS.splice(index,1);
     });
+    const rugbyIndex=OTHER_SPORTS.findIndex(item=>String(item.name||"").toLowerCase()==="rugby");
+    if(rugbyIndex>=0)OTHER_SPORTS[rugbyIndex]={name:"Rugby",emoji:"🏉",desc:"Rugby à XV et rugby à XIII"};
+    else OTHER_SPORTS.push({name:"Rugby",emoji:"🏉",desc:"Rugby à XV et rugby à XIII"});
   }
   window.JH_MULTISPORT_GROUPS_READY={sports:Object.keys(groups),teams:Object.fromEntries(Object.entries(groups).map(([k,v])=>[k,v.length]))};
 })();

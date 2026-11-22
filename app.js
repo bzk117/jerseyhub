@@ -690,8 +690,12 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
    const teamIndex=teamName?nbaTitle.toLowerCase().indexOf(teamName.toLowerCase()):-1;
    const before=teamIndex>=0?nbaTitle.slice(0,teamIndex).replace(/^(?:Men['’]s|Women['’]s)\s+/i,"").trim():"";
    const after=teamIndex>=0?nbaTitle.slice(teamIndex+teamName.length).trim():"";
-   const playerName=/^[A-Z][a-zÀ-ÿ'’\-]+\s+[A-Z][a-zÀ-ÿ'’\-]+(?:\s+[A-Z][a-zÀ-ÿ'’\-]+)?(?:\s+#?\d{1,2})?\b/;
-   return playerName.test(before)||playerName.test(after);
+   const looksLikePlayerName=value=>{
+    const words=value.split(/\s+/).slice(0,2);
+    const blocked=new Set(["nike","jordan","mitchell","ness","adidas","fanatics","unisex","adult","swingman","jersey","classic","hardwood","throwback","player","edition","city","association","statement","icon","earned","white","black","red","blue","green","navy","royal","gold","season","men’s","women’s"]);
+    return words.length===2&&words.every(word=>/^[A-Z][a-zÀ-ÿ'’\-]+$/.test(word)&&!blocked.has(word.toLowerCase()));
+   };
+   return looksLikePlayerName(before)||looksLikePlayerName(after);
   })();
   const personalizationAllowed=!isPreFlocked&&!nbaHasPrintedPlayer;
   // Les patchs sont proposés uniquement sur les maillots des équipes nationales.

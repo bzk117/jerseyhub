@@ -49,6 +49,51 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["Manuel Ugarte","Manuel Ugarte","25"],["Ayden Heaven","Ayden Heaven","26"],["Benjamin Sesko","Benjamin Sesko","30"],
     ["Shea Lacey","Shea Lacey","31"],["Kobbie Mainoo","Kobbie Mainoo","37"],["Jack Fletcher","Jack Fletcher","38"],
     ["Tyler Fletcher","Tyler Fletcher","39"],["Harry Amass","Harry Amass","41"],["Dermot Mee","Dermot Mee","45"]
+  ],
+  "Chelsea": [
+    ["Emiliano Martinez","Emiliano Martinez","1"],["Marco Palestra","Marco Palestra","2"],["Wesley Fofana","Wesley Fofana","3"],
+    ["Valentin Barco","Valentin Barco","4"],["Maxence Lacroix","Maxence Lacroix","5"],["Levi Colwill","Levi Colwill","6"],
+    ["Pedro Neto","Pedro Neto","7"],["Joao Pedro","Joao Pedro","9"],["Cole Palmer","Cole Palmer","10"],
+    ["Jamie Gittens","Jamie Gittens","11"],["Jordan Henderson","Jordan Henderson","14"],["Morgan Rogers","Morgan Rogers","17"],
+    ["Danny Welbeck","Danny Welbeck","18"],["Jorrel Hato","Jorrel Hato","21"],["Emmanuel Emegha","Emmanuel Emegha","22"],
+    ["Geovany Quenda","Geovany Quenda","23"],["Reece James","Reece James","24"],["Moises Caicedo","Moises Caicedo","25"],
+    ["Malo Gusto","Malo Gusto","27"],["Teddy Sharman-Lowe","Teddy Sharman-Lowe","28"],["Pep Chavarria","Pep Chavarria","29"],
+    ["Aaron Anselmino","Aaron Anselmino","30"],["Mahdi Nicoll-Jazuli","Mahdi Nicoll-Jazuli","32"],["Josh Acheampong","Josh Acheampong","34"],
+    ["Olutayo Subuloye","Olutayo Subuloye","37"],["Mike Penders","Mike Penders","39"],["Estevao","Estevao","41"],
+    ["Gabriel Slonina","Gabriel Slonina","44"],["Romeo Lavia","Romeo Lavia","45"]
+  ],
+  "Crystal Palace": [
+    ["Dean Henderson","Dean Henderson","1"],["Tyrick Mitchell","Tyrick Mitchell","3"],["Chadi Riad","Chadi Riad","4"],
+    ["Axel Disasi","Axel Disasi","5"],["Jaydee Canvot","Jaydee Canvot","6"],["Ismaila Sarr","Ismaila Sarr","7"],
+    ["Jefferson Lerma","Jefferson Lerma","8"],["Eddie Nketiah","Eddie Nketiah","9"],["Yeremy Pino","Yeremy Pino","10"],
+    ["Dwight McNeil","Dwight McNeil","11"],["Zavier Gozo","Zavier Gozo","12"],["Jean-Philippe Mateta","Jean-Philippe Mateta","14"],
+    ["Takehiro Tomiyasu","Takehiro Tomiyasu","17"],["Daichi Kamada","Daichi Kamada","18"],["Will Hughes","Will Hughes","19"],
+    ["Adam Wharton","Adam Wharton","20"],["Honest Ahanor","Honest Ahanor","21"],["Jorgen Strand Larsen","Jorgen Strand Larsen","22"],
+    ["Quinten Timber","Quinten Timber","23"],["Dario Osorio","Dario Osorio","24"],["Anan Khalaili","Anan Khalaili","25"],
+    ["Chris Richards","Chris Richards","26"],["Matheus Franca","Matheus Franca","27"],["Cheick Doucoure","Cheick Doucoure","28"],
+    ["Evann Guessand","Evann Guessand","29"],["Oscar Mingueza","Oscar Mingueza","30"],["Remi Matthews","Remi Matthews","31"],
+    ["Ben Chilwell","Ben Chilwell","33"],["Walter Benitez","Walter Benitez","44"]
+  ],
+  "Newcastle United": [
+    ["Nick Pope","Nick Pope","1"],["Tino Livramento","Tino Livramento","2"],["Lewis Hall","Lewis Hall","3"],
+    ["Sven Botman","Sven Botman","4"],["Fabian Schar","Fabian Schar","5"],["Nico Gonzalez","Nico Gonzalez","6"],
+    ["Joelinton","Joelinton","7"],["Aladji Bamba","Aladji Bamba","8"],["Yoane Wissa","Yoane Wissa","9"],
+    ["William Osula","William Osula","10"],["Harvey Barnes","Harvey Barnes","11"],["Malick Thiaw","Malick Thiaw","12"],
+    ["Sean Steur","Sean Steur","14"],["Bazoumana Toure","Bazoumana Toure","17"],["Anthony Elanga","Anthony Elanga","19"],
+    ["Matias Fernandez-Pardo","Matias Fernandez-Pardo","20"],["Lukas Hornicek","Lukas Hornicek","21"],["Jacob Murphy","Jacob Murphy","23"],
+    ["Ewen Jaouen","Ewen Jaouen","24"],["Joe Willock","Joe Willock","28"],["Mark Gillespie","Mark Gillespie","29"],
+    ["Aidan Harris","Aidan Harris","31"],["Dan Burn","Dan Burn","33"],["Amar Dedic","Amar Dedic","37"],
+    ["Jacob Ramsey","Jacob Ramsey","41"],["Leo Shahar","Leo Shahar","51"],["Lewis Miley","Lewis Miley","67"]
+  ],
+  "Everton": [
+    ["Jordan Pickford","Jordan Pickford","1"],["Ainsley Maitland-Niles","Ainsley Maitland-Niles","2"],["Jarrad Branthwaite","Jarrad Branthwaite","4"],
+    ["Michael Keane","Michael Keane","5"],["James Tarkowski","James Tarkowski","6"],["Kiernan Dewsbury-Hall","Kiernan Dewsbury-Hall","8"],
+    ["Jack Grealish","Jack Grealish","10"],["Thierno Barry","Thierno Barry","11"],["Mark Travers","Mark Travers","12"],
+    ["Jake O'Brien","Jake O'Brien","15"],["Vitalii Mykolenko","Vitalii Mykolenko","16"],["Tyrique George","Tyrique George","19"],
+    ["Tyler Dibling","Tyler Dibling","20"],["Brennan Johnson","Brennan Johnson","22"],["Christian Norgaard","Christian Norgaard","23"],
+    ["Charly Alcaraz","Charly Alcaraz","24"],["Hayden Hackney","Hayden Hackney","30"],["Tom King","Tom King","31"],
+    ["Merlin Rohl","Merlin Rohl","34"],["James Garner","James Garner","37"],["Harrison Armstrong","Harrison Armstrong","45"],
+    ["Fraser Barnsley","Fraser Barnsley","47"]
   ]
 };
 

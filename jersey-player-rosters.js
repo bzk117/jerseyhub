@@ -7077,3 +7077,33 @@ window.JH_GAA_PLAYERS = {
   ]
 };
 Object.entries(window.JH_GAA_PLAYERS).forEach(([team,roster])=>{window.JH_TEAM_PLAYER_ROSTERS[`GAA|${team}`]=roster;});
+
+// Garde-fous : un effectif absent dans un sport ne doit jamais retomber sur celui d'un autre sport.
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_UNION|Kenya"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_UNION|Leinster"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_UNION|Melbourne Rebels"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_UNION|Munster"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_UNION|Queensland Maroons"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["GAA|Ireland"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Brisbane Broncos"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Canberra Raiders"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Canterbury Bankstown Bulldogs"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Cronulla Sharks"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Dolphins"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Gold Coast Titans"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Hull FC"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Manly Warringah Sea Eagles"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Maori All Stars"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Melbourne Storm"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|New South Wales Blues"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|New Zealand Kiwis"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|New Zealand Warriors"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Newcastle Knights"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|North Queensland Cowboys"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Parramatta Eels"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Penrith Panthers"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Queensland Maroons"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Samoa"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|South Sydney Rabbitohs"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|St George Illawarra Dragons"] = [];
+window.JH_TEAM_PLAYER_ROSTERS["RUGBY_LEAGUE|Sydney Roosters"] = [];

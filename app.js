@@ -679,7 +679,9 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const sizeOptions=sizes.length?sizes.map(s=>'<option>'+esc(s)+'</option>').join(""):'<option value="À confirmer">À confirmer</option>';
   const sizeAudienceMarkup=hasSeparateAudiences?'<label for="jh-size-audience">Catégorie de taille</label><select id="jh-size-audience"><option value="adult">Adulte</option><option value="kids">Enfant</option></select>':"";
   const clubSizeControl='<select id="jh-size" required '+(!sizes.length?'disabled':'')+'><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>';
-  const personalizationAllowed=true;
+  const rosterSportCode=String(p.sport||p.league||"").toUpperCase();
+  const isPreFlocked=["NFL","MLB","NHL"].includes(rosterSportCode);
+  const personalizationAllowed=!isPreFlocked;
   // Les patchs sont proposés uniquement sur les maillots des équipes nationales.
   // On privilégie les options configurées pour l'équipe/le modèle ; à défaut,
   // on rétablit la bibliothèque visuelle historique des patchs nationaux.
@@ -742,7 +744,8 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const personalizationOptions=personalizationAllowed?'<option value="Nom et numéro du joueur">Joueur de l’effectif actuel</option>'+(isNBA?'<option value="Nom et numéro d’une légende">Légende / joueur historique</option>':"")+'<option value="Nom et numéro personnalisés">Personnalisation manuelle</option>':"";
   const personalizationNotice=isClub&&!personalizationAllowed?'<p class="jh-player-note">La personnalisation nom/numéro n’est pas encore confirmée pour ce modèle.</p>':"";
   const productMeta=[p.season,p.kitType,p.version].filter(Boolean).map(esc).join(" · ");
-  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+'</p>'+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label>'+clubSizeControl+'</section>'+patchSlotsMarkup+'<section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section>'+(p.league==="NBA"?"":'<div class="jh-options-block" id="jh-price-preview"><h3>Prix du maillot</h3><p class="jh-option-summary" id="jh-price-preview-value">25 € — frais de port compris</p></div>')+'<div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
+  const personalizationMarkup=personalizationAllowed?'<section class="jh-options-block"><h3>3. Personnalisation</h3>'+personalizationNotice+'<label for="jh-person">Nom et numéro</label><select id="jh-person"><option value="Aucune">Aucune personnalisation</option>'+personalizationOptions+'</select><div id="jh-player-fields"></div></section>':'<p class="jh-player-note">Flocage d’origine inclus sur ce maillot : aucune sélection de joueur ou de numéro n’est nécessaire.</p><select id="jh-person" hidden><option value="Flocage d’origine" selected>Flocage d’origine</option></select><div id="jh-player-fields" hidden></div>';
+  open('<h2>'+esc(p.name)+'</h2>'+productVisual+(productMeta?'<p class="jh-option-summary">'+productMeta+'</p>':"")+'<p style="color:#bbb">'+esc(p.description||"Choisissez les options de votre article.")+"</p>"+stockNotice+'<section class="jh-options-block"><h3>1. Choisir la taille</h3>'+sizeAudienceMarkup+sizeSummary+'<label for="jh-size">Taille *</label>'+clubSizeControl+'</section>'+patchSlotsMarkup+personalizationMarkup+(p.league==="NBA"?"":'<div class="jh-options-block" id="jh-price-preview"><h3>Prix du maillot</h3><p class="jh-option-summary" id="jh-price-preview-value">25 € — frais de port compris</p></div>')+'<div class="jh-actions"><button class="jh-secondary" id="jh-cancel">Annuler</button><button class="jh-primary" id="jh-add">Ajouter à ma commande</button></div>');
   const sizeAudienceSelect=dialog.querySelector("#jh-size-audience");
   if(sizeAudienceSelect)sizeAudienceSelect.onchange=()=>{
    selectedSizeAudience=sizeAudienceSelect.value;
@@ -829,7 +832,7 @@ const teamCurrentKey=Object.keys(window.JH_TEAM_PLAYER_ROSTERS||{}).find(key=>no
   };
   const updatePricePreview=()=>{
    const hasPatch=Array.from(dialog.querySelectorAll(".jh-patch-choice input:checked")).some(input=>input.value!=="");
-   const hasFlocking=person.value!=="Aucune";
+   const hasFlocking=person.value==="Nom et numéro du joueur"||person.value==="Nom et numéro d’une légende"||person.value==="Nom et numéro personnalisés";
    const price=(hasPatch||hasFlocking)?30:25;
    const preview=dialog.querySelector("#jh-price-preview-value");
    if(preview)preview.textContent=price+" € — frais de port compris"+(hasPatch?" · patch(s) inclus":hasFlocking?" · flocage inclus":"");
@@ -850,7 +853,8 @@ const teamCurrentKey=Object.keys(window.JH_TEAM_PLAYER_ROSTERS||{}).find(key=>no
    }):[];
    const patches=patchSelections.map(selection=>selection.label);
    const patchTotalEur=patchSelections.reduce((total,selection)=>total+(Number(selection.extra_price_eur)||0),0);
-   const unitPriceEur=p.league==="NBA"?null:((patchSelections.length||person.value!=="Aucune")?30:25);
+   const hasAddedFlocking=person.value==="Nom et numéro du joueur"||person.value==="Nom et numéro d’une légende"||person.value==="Nom et numéro personnalisés";
+   const unitPriceEur=p.league==="NBA"?null:((patchSelections.length||hasAddedFlocking)?30:25);
    const playerSource=person.value==="Nom et numéro d’une légende"?legendRoster:selectedRoster;
    const selectedPlayer=(person.value==="Nom et numéro du joueur"||person.value==="Nom et numéro d’une légende")?(playerSource.find(x=>(typeof x==="string"?x:Array.isArray(x)?x[0]:x.name)===customName)||null):null;
    const next=read();next.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name:p.name,category:p.category,league:p.league||"",team:p.group,model:p.name,season:p.season||"",kitType:p.kitType||"",version:p.version||"",supplier:p.supplier||"",supplierUrl:p.supplierUrl||p.sourceUrl||"",image:p.image||null,images:Array.isArray(p.images)?p.images:[],size,sizeAudience:selectedSizeAudience,quantity:1,patches,patchSelections,patchTotalEur,personalization:person.value,unitPriceEur,player:person.value==="Nom et numéro du joueur"?customName:"",customName:person.value==="Nom et numéro personnalisés"?customName:"",customNumber,playerNumber:selectedPlayer?(Array.isArray(selectedPlayer)?selectedPlayer[2]:selectedPlayer.number)||"":""});

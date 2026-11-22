@@ -773,7 +773,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const normalizeRosterKey=value=>slug(String(value||"")).replace(/[^a-z0-9]/g,"");
   // L'effectif est associé au pays, pas à la saison ou au libellé commercial du maillot.
   // Ainsi, les fiches nationales restent compatibles même si leur saison est absente ou rédigée différemment.
-  const rosterSource=[p.group,p.team,p.name,p.country,p.nationalTeam,p.teamName].filter(Boolean).map(normalizeRosterKey);
+  const rosterSource=[currentView==="national"?currentGroup:"",p.group,p.team,p.name,p.country,p.nationalTeam,p.teamName].filter(Boolean).map(normalizeRosterKey);
   const rosterKey=isNational&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
   const clubRoster=isClub&&Array.isArray(p.players)?p.players:[];

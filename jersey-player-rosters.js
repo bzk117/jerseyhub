@@ -40,7 +40,7 @@ Object.assign(window.JH_TEAM_PLAYER_ROSTERS, window.JH_NFL_PLAYERS || {});
 
 
 // NBA — Chicago Bulls : effectif 2026-27 relevé dans les game notes officiels NBA.
-window.JH_NBA_PLAYERS = {
+window.JH_NBA_PLAYERS = window.JH_NBA_PLAYERS = {
   "Atlanta Hawks": [
     [
       "Luguentz Dort",
@@ -2279,6 +2279,451 @@ window.JH_NBA_PLAYERS = {
       "Felix Okpara",
       "Felix Okpara",
       "34"
+    ]
+  ],
+  "Brooklyn Nets": [
+    [
+      "Josh Minott",
+      "Josh Minott",
+      "00"
+    ],
+    [
+      "Mikel Brown Jr.",
+      "Mikel Brown Jr.",
+      "0"
+    ],
+    [
+      "Keon Ellis",
+      "Keon Ellis",
+      "1"
+    ],
+    [
+      "Danny Wolf",
+      "Danny Wolf",
+      "2"
+    ],
+    [
+      "Drake Powell",
+      "Drake Powell",
+      "4"
+    ],
+    [
+      "Egor Dëmin",
+      "Egor Dëmin",
+      "8"
+    ],
+    [
+      "Joshua Jefferson",
+      "Joshua Jefferson",
+      "9"
+    ],
+    [
+      "Nolan Traore",
+      "Nolan Traore",
+      "10"
+    ],
+    [
+      "Moritz Wagner",
+      "Moritz Wagner",
+      "13"
+    ],
+    [
+      "Terance Mann",
+      "Terance Mann",
+      "14"
+    ],
+    [
+      "Grant Nelson",
+      "Grant Nelson",
+      "16"
+    ],
+    [
+      "Michael Porter Jr.",
+      "Michael Porter Jr.",
+      "17"
+    ],
+    [
+      "Day'Ron Sharpe",
+      "Day'Ron Sharpe",
+      "20"
+    ],
+    [
+      "Noah Clowney",
+      "Noah Clowney",
+      "21"
+    ],
+    [
+      "Julius Randle",
+      "Julius Randle",
+      "30"
+    ],
+    [
+      "Chaney Johnson",
+      "Chaney Johnson",
+      "31"
+    ],
+    [
+      "Tyler Bilodeau",
+      "Tyler Bilodeau",
+      "34"
+    ],
+    [
+      "Ben Saraf",
+      "Ben Saraf",
+      "77"
+    ]
+  ],
+  "Houston Rockets": [
+    [
+      "Amen Thompson",
+      "Amen Thompson",
+      "1"
+    ],
+    [
+      "Bruce Thornton",
+      "Bruce Thornton",
+      "2"
+    ],
+    [
+      "Julian Phillips",
+      "Julian Phillips",
+      "3"
+    ],
+    [
+      "Fred VanVleet",
+      "Fred VanVleet",
+      "5"
+    ],
+    [
+      "Kevin Durant",
+      "Kevin Durant",
+      "7"
+    ],
+    [
+      "Jae'Sean Tate",
+      "Jae'Sean Tate",
+      "8"
+    ],
+    [
+      "Oscar Tshiebwe",
+      "Oscar Tshiebwe",
+      "9"
+    ],
+    [
+      "Jabari Smith Jr.",
+      "Jabari Smith Jr.",
+      "10"
+    ],
+    [
+      "Steven Adams",
+      "Steven Adams",
+      "12"
+    ],
+    [
+      "Reed Sheppard",
+      "Reed Sheppard",
+      "15"
+    ],
+    [
+      "Tari Eason",
+      "Tari Eason",
+      "17"
+    ],
+    [
+      "Quadir Copeland",
+      "Quadir Copeland",
+      "25"
+    ],
+    [
+      "Isaiah Crawford",
+      "Isaiah Crawford",
+      "27"
+    ],
+    [
+      "Alperen Şengün",
+      "Alperen Şengün",
+      "28"
+    ],
+    [
+      "Clint Capela",
+      "Clint Capela",
+      "30"
+    ],
+    [
+      "Bogdan Bogdanović",
+      "Bogdan Bogdanović",
+      "31"
+    ],
+    [
+      "Marcus Smart",
+      "Marcus Smart",
+      "36"
+    ]
+  ],
+  "LA Clippers": [
+    [
+      "Bradley Beal",
+      "Bradley Beal",
+      "3"
+    ],
+    [
+      "Cam Christie",
+      "Cam Christie",
+      "24"
+    ],
+    [
+      "Gradey Dick",
+      "Gradey Dick",
+      "9"
+    ],
+    [
+      "Kris Dunn",
+      "Kris Dunn",
+      "8"
+    ],
+    [
+      "Darius Garland",
+      "Darius Garland",
+      "10"
+    ],
+    [
+      "Rui Hachimura",
+      "Rui Hachimura",
+      "28"
+    ],
+    [
+      "Brandon Ingram",
+      "Brandon Ingram",
+      "7"
+    ],
+    [
+      "Isaiah Jackson",
+      "Isaiah Jackson",
+      "23"
+    ],
+    [
+      "Derrick Jones Jr.",
+      "Derrick Jones Jr.",
+      "5"
+    ],
+    [
+      "Brook Lopez",
+      "Brook Lopez",
+      "11"
+    ],
+    [
+      "Nick Martinelli",
+      "Nick Martinelli",
+      "12"
+    ],
+    [
+      "Baba Miller",
+      "Baba Miller",
+      "18"
+    ],
+    [
+      "Jordan Miller",
+      "Jordan Miller",
+      "22"
+    ],
+    [
+      "Yanic Konan Niederhäuser",
+      "Yanic Konan Niederhäuser",
+      "14"
+    ],
+    [
+      "Jalen Pickett",
+      "Jalen Pickett",
+      "21"
+    ],
+    [
+      "Kobe Sanders",
+      "Kobe Sanders",
+      "4"
+    ],
+    [
+      "Max Strus",
+      "Max Strus",
+      "31"
+    ],
+    [
+      "Keaton Wagler",
+      "Keaton Wagler",
+      "1"
+    ]
+  ],
+  "Minnesota Timberwolves": [
+    [
+      "Donte DiVincenzo",
+      "Donte DiVincenzo",
+      "0"
+    ],
+    [
+      "LaMelo Ball",
+      "LaMelo Ball",
+      "1"
+    ],
+    [
+      "Jaden McDaniels",
+      "Jaden McDaniels",
+      "3"
+    ],
+    [
+      "Terrence Shannon Jr.",
+      "Terrence Shannon Jr.",
+      "4"
+    ],
+    [
+      "Anthony Edwards",
+      "Anthony Edwards",
+      "5"
+    ],
+    [
+      "Jaylen Clark",
+      "Jaylen Clark",
+      "7"
+    ],
+    [
+      "Bones Hyland",
+      "Bones Hyland",
+      "8"
+    ],
+    [
+      "Cody Williams",
+      "Cody Williams",
+      "9"
+    ],
+    [
+      "Ayo Dosunmu",
+      "Ayo Dosunmu",
+      "13"
+    ],
+    [
+      "Zyon Pullin",
+      "Zyon Pullin",
+      "15"
+    ],
+    [
+      "Joan Beringer",
+      "Joan Beringer",
+      "19"
+    ],
+    [
+      "Johni Broome",
+      "Johni Broome",
+      "22"
+    ],
+    [
+      "Jonathan Kuminga",
+      "Jonathan Kuminga",
+      "24"
+    ],
+    [
+      "Rudy Gobert",
+      "Rudy Gobert",
+      "27"
+    ],
+    [
+      "Isaiah Evans",
+      "Isaiah Evans",
+      "33"
+    ],
+    [
+      "Trey Lyles",
+      "Trey Lyles",
+      "41"
+    ],
+    [
+      "Rocco Zikarsky",
+      "Rocco Zikarsky",
+      "44"
+    ]
+  ],
+  "Orlando Magic": [
+    [
+      "Anthony Black",
+      "Anthony Black",
+      "0"
+    ],
+    [
+      "Jonathan Isaac",
+      "Jonathan Isaac",
+      "1"
+    ],
+    [
+      "Jevon Carter",
+      "Jevon Carter",
+      "2"
+    ],
+    [
+      "Desmond Bane",
+      "Desmond Bane",
+      "3"
+    ],
+    [
+      "Jalen Suggs",
+      "Jalen Suggs",
+      "4"
+    ],
+    [
+      "Paolo Banchero",
+      "Paolo Banchero",
+      "5"
+    ],
+    [
+      "Jamal Cain",
+      "Jamal Cain",
+      "8"
+    ],
+    [
+      "Nikola Vučević",
+      "Nikola Vučević",
+      "9"
+    ],
+    [
+      "Jase Richardson",
+      "Jase Richardson",
+      "11"
+    ],
+    [
+      "Colin Castleton",
+      "Colin Castleton",
+      "14"
+    ],
+    [
+      "Franz Wagner",
+      "Franz Wagner",
+      "22"
+    ],
+    [
+      "Tristan da Silva",
+      "Tristan da Silva",
+      "23"
+    ],
+    [
+      "Izaiyah Nelson",
+      "Izaiyah Nelson",
+      "25"
+    ],
+    [
+      "Alex Morales",
+      "Alex Morales",
+      "30"
+    ],
+    [
+      "Wendell Carter Jr.",
+      "Wendell Carter Jr.",
+      "34"
+    ],
+    [
+      "Goga Bitadze",
+      "Goga Bitadze",
+      "35"
+    ],
+    [
+      "Noah Penda",
+      "Noah Penda",
+      "93"
     ]
   ]
 };

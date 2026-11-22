@@ -40,7 +40,7 @@ Object.assign(window.JH_TEAM_PLAYER_ROSTERS, window.JH_NFL_PLAYERS || {});
 
 
 // NBA — Chicago Bulls : effectif 2026-27 relevé dans les game notes officiels NBA.
-window.JH_NBA_PLAYERS = window.JH_NBA_PLAYERS = {
+window.JH_NBA_PLAYERS = {
   "Atlanta Hawks": [
     [
       "Luguentz Dort",

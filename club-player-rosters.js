@@ -151,6 +151,39 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["Igor Jesus","Igor Jesus","11"],["Dan Ndoye","Dan Ndoye","14"],
     ["Arnaud Kalimuendo","Arnaud Kalimuendo","15"],["Liam Delap","Liam Delap","19"]
   ]
+,
+    ,
+  "Everton": [
+    ["Jordan Pickford","Jordan Pickford","1"],["Mark Travers","Mark Travers","12"],
+    ["Tom King","Tom King","31"],["Ainsley Maitland-Niles","Ainsley Maitland-Niles","2"],
+    ["Jarrad Branthwaite","Jarrad Branthwaite","4"],["Michael Keane","Michael Keane","5"],
+    ["James Tarkowski","James Tarkowski","6"],["Jake O'Brien","Jake O'Brien","15"],
+    ["Vitalii Mykolenko","Vitalii Mykolenko","16"],["Kiernan Dewsbury-Hall","Kiernan Dewsbury-Hall","8"],
+    ["Jack Grealish","Jack Grealish","10"],["Christian Norgaard","Christian Norgaard","23"],
+    ["Charly Alcaraz","Charly Alcaraz","24"],["Hayden Hackney","Hayden Hackney","30"],
+    ["Merlin Rohl","Merlin Rohl","34"],["James Garner","James Garner","37"],
+    ["Harrison Armstrong","Harrison Armstrong","45"],["Thierno Barry","Thierno Barry","11"],
+    ["Tyrique George","Tyrique George","19"],["Tyler Dibling","Tyler Dibling","20"],
+    ["Brennan Johnson","Brennan Johnson","22"]
+  ],
+  "Manchester United": [
+    ["Senne Lammens","Senne Lammens","1"],["Karl Darlow","Karl Darlow","12"],
+    ["Tom Heaton","Tom Heaton","22"],["Diogo Dalot","Diogo Dalot","2"],
+    ["Noussair Mazraoui","Noussair Mazraoui","3"],["Matthijs de Ligt","Matthijs de Ligt","4"],
+    ["Harry Maguire","Harry Maguire","5"],["Lisandro Martinez","Lisandro Martinez","6"],
+    ["Leny Yoro","Leny Yoro","15"],["Luke Shaw","Luke Shaw","23"],
+    ["Ayden Heaven","Ayden Heaven","26"],["Harry Amass","Harry Amass","41"],
+    ["Bruno Fernandes","Bruno Fernandes","8"],["Mason Mount","Mason Mount","7"],
+    ["Matheus Cunha","Matheus Cunha","10"],["Andrey Santos","Andrey Santos","17"],
+    ["Youri Tielemans","Youri Tielemans","18"],["Manuel Ugarte","Manuel Ugarte","25"],
+    ["Kobbie Mainoo","Kobbie Mainoo","37"],["Jack Fletcher","Jack Fletcher","38"],
+    ["Tyler Fletcher","Tyler Fletcher","39"],["Toby Collyer","Toby Collyer","43"],
+    ["Marcus Rashford","Marcus Rashford","9"],["Joshua Zirkzee","Joshua Zirkzee","11"],
+    ["Amad","Amad","16"],["Bryan Mbeumo","Bryan Mbeumo","19"],
+    ["Benjamin Sesko","Benjamin Sesko","30"],["Shea Lacey","Shea Lacey","31"],
+    ["Dermot Mee","Dermot Mee","45"],["Tynan Thompson","Tynan Thompson","27"],
+    ["JJ Gabriel","JJ Gabriel","77"]
+  ]
 };
 window.JH_TEAM_PLAYER_ROSTERS = window.JH_TEAM_PLAYER_ROSTERS || {};
 Object.assign(window.JH_TEAM_PLAYER_ROSTERS, window.JH_CLUB_FOOTBALL_PLAYERS);

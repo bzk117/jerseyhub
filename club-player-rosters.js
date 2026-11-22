@@ -2257,7 +2257,6 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["Arthur Avom Ebong","AVOM 62","62"],
     ["Noah Mbamba","MBAMBA 72","72"],
     ["Panos Katseris","KATSERIS 77","77"],
-    ["Samir Haribou","HARIBOU 9","9"],
     ["Mohamed Bamba","BAMBA 9","9"],
     ["Aiyegun Tosin","TOSIN 15","15"],
     ["Ibrahima Baldé","BALDE 18","18"],

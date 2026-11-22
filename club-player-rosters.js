@@ -60,6 +60,57 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["Ryan McAidoo","Ryan McAidoo","56"],
     ["Iliman Ndiaye","Iliman Ndiaye","7"],
     ["Antoine Semenyo","Antoine Semenyo","42"]
+  ],
+  "Liverpool": [
+    ["Alexander Isak","Alexander Isak","9"],["Federico Chiesa","Federico Chiesa","14"],
+    ["Cody Gakpo","Cody Gakpo","18"],["Hugo Ekitike","Hugo Ekitike","22"],
+    ["Victor Munoz","Victor Munoz","23"],["Bradley Barcola","Bradley Barcola","29"],
+    ["Lewis Koumas","Lewis Koumas","67"],["Rio Ngumoha","Rio Ngumoha","73"],
+    ["Jayden Danns","Jayden Danns","76"],["Wataru Endo","Wataru Endo","3"],
+    ["Florian Wirtz","Florian Wirtz","7"],["Dominik Szoboszlai","Dominik Szoboszlai","8"],
+    ["Alexis Mac Allister","Alexis Mac Allister","10"],["Ryan Gravenberch","Ryan Gravenberch","38"],
+    ["Trey Nyoni","Trey Nyoni","42"],["James McConnell","James McConnell","53"],
+    ["Joe Gomez","Joe Gomez","2"],["Virgil van Dijk","Virgil van Dijk","4"],
+    ["Jeremy Jacquet","Jeremy Jacquet","5"],["Milos Kerkez","Milos Kerkez","6"],
+    ["Conor Bradley","Conor Bradley","12"],["Giovanni Leoni","Giovanni Leoni","15"],
+    ["Kostas Tsimikas","Kostas Tsimikas","21"],["Jeremie Frimpong","Jeremie Frimpong","30"],
+    ["Ronald Araujo","Ronald Araujo","33"],["Luke Chambers","Luke Chambers","44"],
+    ["Alisson Becker","Alisson Becker","1"],["Giorgi Mamardashvili","Giorgi Mamardashvili","25"],
+    ["Freddie Woodman","Freddie Woodman","28"],["Vitezslav Jaros","Vitezslav Jaros","56"],
+    ["Harvey Davies","Harvey Davies","95"]
+  ],
+  "Tottenham Hotspur": [
+    ["Andy Robertson","Andy Robertson","3"],["Tosin Adarabioyo","Tosin Adarabioyo","4"],
+    ["Marcos Senesi","Marcos Senesi","5"],["Jan Paul van Hecke","Jan Paul van Hecke","6"],
+    ["Xavi Simons","Xavi Simons","7"],["Conor Gallagher","Conor Gallagher","8"],
+    ["Richarlison","Richarlison","9"],["James Maddison","James Maddison","10"],
+    ["Mathys Tel","Mathys Tel","11"],["Destiny Udogie","Destiny Udogie","13"],
+    ["Archie Gray","Archie Gray","14"],["Lucas Bergvall","Lucas Bergvall","15"],
+    ["Sandro Tonali","Sandro Tonali","16"],["Savinho","Savinho","17"],
+    ["Mateus Fernandes","Mateus Fernandes","18"],["Dominic Solanke","Dominic Solanke","19"],
+    ["Mohammed Kudus","Mohammed Kudus","20"],["Dejan Kulusevski","Dejan Kulusevski","21"],
+    ["Omar Marmoush","Omar Marmoush","22"],["Pedro Porro","Pedro Porro","23"],
+    ["Mykhailo Mudryk","Mykhailo Mudryk","27"],["Wilson Odobert","Wilson Odobert","28"],
+    ["Rodrigo Bentancur","Rodrigo Bentancur","30"],["Antonin Kinsky","Antonin Kinsky","31"],
+    ["Ben Davies","Ben Davies","33"],["Micky van de Ven","Micky van de Ven","37"],
+    ["Martin Dubravka","Martin Dubravka","39"],["Brandon Austin","Brandon Austin","40"],
+    ["Luca Williams-Barnett","Luca Williams-Barnett","68"]
+  ],
+  "Aston Villa": [
+    ["Zion Suzuki","Zion Suzuki","1"],["Marco Bizot","Marco Bizot","40"],
+    ["James Wright","James Wright","42"],["Matty Cash","Matty Cash","2"],
+    ["Victor Lindelof","Victor Lindelof","3"],["Taylor Harwood-Bellis","Taylor Harwood-Bellis","4"],
+    ["Tyrone Mings","Tyrone Mings","5"],["Matteo Ruggeri","Matteo Ruggeri","13"],
+    ["Pau Torres","Pau Torres","14"],["Ian Maatsen","Ian Maatsen","22"],
+    ["Aaron Wan-Bissaka","Aaron Wan-Bissaka","29"],["Modou Keba Cisse","Modou Keba Cisse","48"],
+    ["Ross Barkley","Ross Barkley","6"],["John McGinn","John McGinn","7"],
+    ["Boubacar Kamara","Boubacar Kamara","8"],["Emiliano Buendia","Emiliano Buendia","10"],
+    ["Alejandro Garnacho","Alejandro Garnacho","17"],["Ibrahim Mbaye","Ibrahim Mbaye","19"],
+    ["Amadou Onana","Amadou Onana","24"],["Lamare Bogarde","Lamare Bogarde","26"],
+    ["Leon Goretzka","Leon Goretzka","27"],["Joao Gomes","Joao Gomes","35"],
+    ["Johan Manzambi","Johan Manzambi","44"],["Alysson","Alysson","47"],
+    ["George Hemmings","George Hemmings","53"],["Nicolas Jackson","Nicolas Jackson","11"],
+    ["Tammy Abraham","Tammy Abraham","18"],["Brian Madjo","Brian Madjo","39"]
   ]
 };
 

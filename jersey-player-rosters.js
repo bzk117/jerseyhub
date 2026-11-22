@@ -2728,3 +2728,32 @@ window.JH_NBA_PLAYERS = window.JH_NBA_PLAYERS = {
   ]
 };
 Object.assign(window.JH_TEAM_PLAYER_ROSTERS, window.JH_NBA_PLAYERS || {});
+
+// NHL : effectifs nationaux masculins de référence pour les maillots Canada et USA.
+// Canada : roster Hockey Canada 2026 Olympic Winter Games ; USA : USA Hockey 2026 Olympic roster.
+window.JH_NHL_PLAYERS = {
+  "Canada": [
+    ["Darcy Kuemper","Darcy Kuemper","35"],["Logan Thompson","Logan Thompson","48"],["Jordan Binnington","Jordan Binnington","50"],
+    ["Travis Sanheim","Travis Sanheim","6"],["Devon Toews","Devon Toews","7"],["Cale Makar","Cale Makar","8"],["Thomas Harley","Thomas Harley","20"],
+    ["Shea Theodore","Shea Theodore","27"],["Josh Morrissey","Josh Morrissey","44"],["Colton Parayko","Colton Parayko","55"],["Drew Doughty","Drew Doughty","89"],
+    ["Sam Bennett","Sam Bennett","9"],["Nick Suzuki","Nick Suzuki","10"],["Sam Reinhart","Sam Reinhart","13"],["Bo Horvat","Bo Horvat","14"],
+    ["Macklin Celebrini","Macklin Celebrini","17"],["Seth Jarvis","Seth Jarvis","24"],["Nathan MacKinnon","Nathan MacKinnon","29"],["Brandon Hagel","Brandon Hagel","38"],
+    ["Tom Wilson","Tom Wilson","43"],["Mark Stone","Mark Stone","61"],["Brad Marchand","Brad Marchand","63"],["Sidney Crosby","Sidney Crosby","87"],
+    ["Mitch Marner","Mitch Marner","93"],["Connor McDavid","Connor McDavid","97"]
+  ],
+  "USA": [
+    ["Matt Boldy","Matt Boldy","12"],["Kyle Connor","Kyle Connor","81"],["Jack Eichel","Jack Eichel","9"],["Brock Faber","Brock Faber","14"],
+    ["Jake Guentzel","Jake Guentzel","59"],["Noah Hanifin","Noah Hanifin","15"],["Connor Hellebuyck","Connor Hellebuyck","37"],["Jack Hughes","Jack Hughes","86"],
+    ["Quinn Hughes","Quinn Hughes","43"],["Clayton Keller","Clayton Keller","91"],["Jackson LaCombe","Jackson LaCombe","2"],["Dylan Larkin","Dylan Larkin","21"],
+    ["Auston Matthews","Auston Matthews","34"],["Charlie McAvoy","Charlie McAvoy","25"],["J.T. Miller","J.T. Miller","10"],["Brock Nelson","Brock Nelson","29"],
+    ["Jake Oettinger","Jake Oettinger","30"],["Jake Sanderson","Jake Sanderson","85"],["Jaccob Slavin","Jaccob Slavin","74"],["Jeremy Swayman","Jeremy Swayman","1"],
+    ["Tage Thompson","Tage Thompson","72"],["Brady Tkachuk","Brady Tkachuk","7"],["Matthew Tkachuk","Matthew Tkachuk","19"],["Vincent Trocheck","Vincent Trocheck","16"],
+    ["Zach Werenski","Zach Werenski","8"]
+  ]
+};
+
+// Alias par sport pour empêcher tout mélange avec les sélections nationales de football.
+Object.entries(window.JH_NBA_PLAYERS||{}).forEach(([team,players])=>{window.JH_TEAM_PLAYER_ROSTERS[`NBA|${team}`]=players;});
+Object.entries(window.JH_NFL_PLAYERS||{}).forEach(([team,players])=>{window.JH_TEAM_PLAYER_ROSTERS[`NFL|${team}`]=players;});
+Object.entries(window.JH_RUGBY_UNION_PLAYERS||{}).forEach(([team,players])=>{window.JH_TEAM_PLAYER_ROSTERS[`RUGBY_UNION|${team}`]=players;});
+Object.entries(window.JH_NHL_PLAYERS||{}).forEach(([team,players])=>{window.JH_TEAM_PLAYER_ROSTERS[`NHL|${team}`]=players;});

@@ -771,12 +771,10 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   if(!document.getElementById("jh-player-select-styles")){const style=document.createElement("style");style.id="jh-player-select-styles";style.textContent=".jh-player-note{color:#e7c879;font-size:13px;line-height:1.45;margin:10px 0}#jh-player-fields select,#jh-player-fields input{width:100%;box-sizing:border-box;margin:6px 0 12px;padding:11px;border:1px solid #596579;border-radius:8px;background:#111a26;color:#fff}";document.head.appendChild(style)}
   const person=dialog.querySelector("#jh-person"),fields=dialog.querySelector("#jh-player-fields");
   const normalizeRosterKey=value=>slug(String(value||"")).replace(/[^a-z0-9]/g,"");
-  const rosterSource=[p.group,p.team,p.name].filter(Boolean).map(normalizeRosterKey);
-  // Les effectifs FIFA 2026 sont proposés sur les maillots actuels 2025/26 et 2026/27.
-  // Les modèles rétro, enfants et articles d'entraînement/accessoires gardent la saisie manuelle.
-  const rosterSeasonText=String(p.season||"")+" "+String(p.name||"");
-  const rosterIsCurrentNationalShirt=/(?:2026|26[-/ ]?27|2025[\s/-]+26)/i.test(rosterSeasonText)&&!/(?:\bretro\b|\bkids?\b|\bbaby\b|\btraining\b|\bshorts?\b|\bsocks?\b|\bwindbreaker\b|\bjacket\b|\btrench\b|\bhoodie\b|\bpolo\b|\bt[\s-]?shirt\b|\btracksuit\b|\bsuit\b)/i.test(rosterSeasonText);
-  const rosterKey=isNational&&rosterIsCurrentNationalShirt&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
+  // L'effectif est associé au pays, pas à la saison ou au libellé commercial du maillot.
+  // Ainsi, les fiches nationales restent compatibles même si leur saison est absente ou rédigée différemment.
+  const rosterSource=[p.group,p.team,p.name,p.country,p.nationalTeam,p.teamName].filter(Boolean).map(normalizeRosterKey);
+  const rosterKey=isNational&&window.JH_NATIONAL_PLAYERS?Object.keys(window.JH_NATIONAL_PLAYERS).find(key=>{const normalizedKey=normalizeRosterKey(key);return normalizedKey&&rosterSource.some(value=>value===normalizedKey||value.includes(normalizedKey));}):null;
   const nationalRoster=rosterKey?window.JH_NATIONAL_PLAYERS[rosterKey]:null;
   const clubRoster=isClub&&Array.isArray(p.players)?p.players:[];
   const renderPersonalization=()=>{

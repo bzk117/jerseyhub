@@ -356,7 +356,14 @@ function navigateBannerCategory(action){
  const found=OTHER_SPORTS.find(item=>candidates.some(name=>slug(item.name)===slug(name)));
  openGroup("sports",found?found.name:candidates[0]||action);
 }
+function scrollCatalogToTop(){
+ // Revenir au début de la page à chaque changement de rubrique ou de catégorie.
+ window.scrollTo({top:0,left:0,behavior:"instant"});
+ document.documentElement.scrollTop=0;
+ document.body.scrollTop=0;
+}
 function renderHome(){
+ scrollCatalogToTop();
  catalogPageHistory=[];
  currentView="home";currentGroup=null;setHeading("BIENVENUE","Nos catégories","Accueil");
  const banner=$("#jh-category-banner");
@@ -368,6 +375,7 @@ function renderHome(){
  const pager=$("#catalogPagination");if(pager)pager.innerHTML="";
 }
 function openView(view){
+ scrollCatalogToTop();
  armBrowserBackToHome();
  grid.classList.remove("jh-mobile-home-grid");
  const banner=$("#jh-category-banner");if(banner)banner.hidden=true;
@@ -411,6 +419,7 @@ function showConstructionState(heading="En construction",message="Cette rubrique
  if(!document.getElementById("jh-construction-styles")){const style=document.createElement("style");style.id="jh-construction-styles";style.textContent=".jh-construction-visual{width:min(100%,520px);margin:26px auto;padding:30px 22px;text-align:center;border:1px solid #665326;border-radius:16px;background:radial-gradient(ellipse at 50% 0%,#30250f 0,#15120c 52%,#0d0d0d 100%);box-shadow:0 14px 36px #0008}.jh-construction-icon{display:grid;place-items:center;width:86px;height:86px;margin:0 auto 14px;border:1px solid #d7ad45;border-radius:22px;background:linear-gradient(145deg,#382d16,#17130b);font-size:48px}.jh-construction-label{display:inline-block;padding:6px 12px;border:1px solid #d7ad45;border-radius:30px;color:#f4bd22;font-size:11px;font-weight:900;letter-spacing:1.6px}.jh-construction-visual h3{margin:14px 0 7px;color:#fff;font-size:22px}.jh-construction-visual p{max-width:390px;margin:0 auto;color:#c7c0ae;font-size:13px;line-height:1.6}";document.head.appendChild(style);}
 }
 async function openGroup(kind,name){
+ scrollCatalogToTop();
  armBrowserBackToHome();
  const multisportProducts=typeof MULTISPORT_PRODUCTS!=="undefined"&&Array.isArray(MULTISPORT_PRODUCTS)?MULTISPORT_PRODUCTS:[];
  const allCatalogProducts=[...PRODUCTS,...multisportProducts];

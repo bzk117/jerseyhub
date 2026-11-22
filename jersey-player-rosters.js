@@ -34,3 +34,6 @@ window.JH_NFL_PLAYERS = {
     ["Jackson Woodard",42],["Jaylen Wright",5]
   ]
 };
+
+// Ajout au registre commun après chargement des effectifs spécifiques.
+Object.assign(window.JH_TEAM_PLAYER_ROSTERS, window.JH_NFL_PLAYERS || {});

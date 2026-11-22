@@ -2293,6 +2293,40 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["Dame Guèye","GUEYE 25","25"],
     ["Erwan Colas","COLAS 28","28"]
   ]
+  "Udinese Calcio": [
+    ["Saba Goglichidze", "", ""],
+    ["Sandi Lovric", "", ""],
+    ["Oier Zarraga", "", ""],
+    ["Idrissa Gueye", "", ""],
+    ["Jesper Karlstrom", "", ""],
+    ["Keinan Davis", "", ""],
+    ["Nicolo Zaniolo", "", ""],
+    ["Hassane Kamara", "", ""],
+    ["Nicolo Bertola", "", ""],
+    ["James Abankwah", "", ""],
+    ["Vakoun Bayo", "", ""],
+    ["Matteo Palma", "", ""],
+    ["Adam Buksa", "", ""],
+    ["Juan David Arizala", "", ""],
+    ["Branimir Mlačić", "", ""],
+    ["Mergim Vojvoda", "", ""],
+    ["Jakub Piotrowski", "", ""],
+    ["Christian Kabasele", "", ""],
+    ["Oumar Solet", "", ""],
+    ["Abdoulaye Camara", "", ""],
+    ["Giorgi Chakvetadze", "", ""],
+    ["Thomas Kristensen", "", ""],
+    ["Jurgen Ekkelenkamp", "", ""],
+    ["Lennon Miller", "", ""],
+    ["Maduka Okoye", "", ""],
+    ["Giulio Vinciati", "", ""],
+    ["Unai Gomez", "", ""],
+    ["Alessandro Zanoli", "", ""],
+    ["Enzo Ebosse", "", ""],
+    ["David Pejicic", "", ""],
+    ["Daniele Padelli", "", ""],
+    ["Edoardo Piana", "", ""]
+  ],
 };
 
 window.JH_TEAM_PLAYER_ROSTERS = window.JH_TEAM_PLAYER_ROSTERS || {};

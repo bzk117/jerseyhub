@@ -2757,3 +2757,786 @@ Object.entries(window.JH_NBA_PLAYERS||{}).forEach(([team,players])=>{window.JH_T
 Object.entries(window.JH_NFL_PLAYERS||{}).forEach(([team,players])=>{window.JH_TEAM_PLAYER_ROSTERS[`NFL|${team}`]=players;});
 Object.entries(window.JH_RUGBY_UNION_PLAYERS||{}).forEach(([team,players])=>{window.JH_TEAM_PLAYER_ROSTERS[`RUGBY_UNION|${team}`]=players;});
 Object.entries(window.JH_NHL_PLAYERS||{}).forEach(([team,players])=>{window.JH_TEAM_PLAYER_ROSTERS[`NHL|${team}`]=players;});
+
+// MLB : rosters 40-Man officiels des quatre équipes présentes au catalogue (22/11/2026).
+window.JH_MLB_PLAYERS = {
+  "Baltimore Orioles": [
+    [
+      "Félix Bautista",
+      "Félix Bautista",
+      "74"
+    ],
+    [
+      "Shane Baz",
+      "Shane Baz",
+      "34"
+    ],
+    [
+      "Kyle Bradish",
+      "Kyle Bradish",
+      "38"
+    ],
+    [
+      "Braxton Bragg",
+      "Braxton Bragg",
+      null
+    ],
+    [
+      "Yennier Cano",
+      "Yennier Cano",
+      "78"
+    ],
+    [
+      "Luis De León",
+      "Luis De León",
+      "81"
+    ],
+    [
+      "Michael Forret",
+      "Michael Forret",
+      null
+    ],
+    [
+      "Rico Garcia",
+      "Rico Garcia",
+      "50"
+    ],
+    [
+      "Nestor German",
+      "Nestor German",
+      null
+    ],
+    [
+      "Trey Gibson",
+      "Trey Gibson",
+      "43"
+    ],
+    [
+      "Ryan Helsley",
+      "Ryan Helsley",
+      "21"
+    ],
+    [
+      "Yaramil Hiraldo",
+      "Yaramil Hiraldo",
+      "76"
+    ],
+    [
+      "Alex Hoppe",
+      "Alex Hoppe",
+      "26"
+    ],
+    [
+      "Braden Nett",
+      "Braden Nett",
+      null
+    ],
+    [
+      "Anthony Nunez",
+      "Anthony Nunez",
+      "66"
+    ],
+    [
+      "Cade Povich",
+      "Cade Povich",
+      "37"
+    ],
+    [
+      "Patrick Reilly",
+      "Patrick Reilly",
+      null
+    ],
+    [
+      "Cam Sanders",
+      "Cam Sanders",
+      "73"
+    ],
+    [
+      "Josh Walker",
+      "Josh Walker",
+      "61"
+    ],
+    [
+      "Levi Wells",
+      "Levi Wells",
+      null
+    ],
+    [
+      "Grant Wolfram",
+      "Grant Wolfram",
+      "48"
+    ],
+    [
+      "Brandon Young",
+      "Brandon Young",
+      "63"
+    ],
+    [
+      "Samuel Basallo",
+      "Samuel Basallo",
+      "29"
+    ],
+    [
+      "Carlos Narváez",
+      "Carlos Narváez",
+      "75"
+    ],
+    [
+      "Blaze Alexander",
+      "Blaze Alexander",
+      "23"
+    ],
+    [
+      "Pete Alonso",
+      "Pete Alonso",
+      "25"
+    ],
+    [
+      "Christian Encarnacion-Strand",
+      "Christian Encarnacion-Strand",
+      "32"
+    ],
+    [
+      "Aron Estrada",
+      "Aron Estrada",
+      null
+    ],
+    [
+      "Gunnar Henderson",
+      "Gunnar Henderson",
+      "2"
+    ],
+    [
+      "Jackson Holliday",
+      "Jackson Holliday",
+      "7"
+    ],
+    [
+      "Jeremiah Jackson",
+      "Jeremiah Jackson",
+      "82"
+    ],
+    [
+      "Coby Mayo",
+      "Coby Mayo",
+      "16"
+    ],
+    [
+      "Jordan Westburg",
+      "Jordan Westburg",
+      "11"
+    ],
+    [
+      "Dylan Beavers",
+      "Dylan Beavers",
+      "12"
+    ],
+    [
+      "Enrique Bradfield Jr.",
+      "Enrique Bradfield Jr.",
+      null
+    ],
+    [
+      "Colton Cowser",
+      "Colton Cowser",
+      "17"
+    ],
+    [
+      "Christian Franklin",
+      "Christian Franklin",
+      "27"
+    ],
+    [
+      "Tyler O'Neill",
+      "Tyler O'Neill",
+      "9"
+    ],
+    [
+      "Reed Trimble",
+      "Reed Trimble",
+      "62"
+    ]
+  ],
+  "Los Angeles Angels": [
+    [
+      "Sam Aldegheri",
+      "Sam Aldegheri",
+      "61"
+    ],
+    [
+      "Sam Bachman",
+      "Sam Bachman",
+      "40"
+    ],
+    [
+      "Caden Dana",
+      "Caden Dana",
+      "36"
+    ],
+    [
+      "Reid Detmers",
+      "Reid Detmers",
+      "48"
+    ],
+    [
+      "Mitch Farris",
+      "Mitch Farris",
+      "70"
+    ],
+    [
+      "José Fermin",
+      "José Fermin",
+      "65"
+    ],
+    [
+      "Ryan Johnson",
+      "Ryan Johnson",
+      "32"
+    ],
+    [
+      "Ben Joyce",
+      "Ben Joyce",
+      "44"
+    ],
+    [
+      "Brett Kerry",
+      "Brett Kerry",
+      "71"
+    ],
+    [
+      "Yusei Kikuchi",
+      "Yusei Kikuchi",
+      "16"
+    ],
+    [
+      "George Klassen",
+      "George Klassen",
+      "58"
+    ],
+    [
+      "Jack Kochanowicz",
+      "Jack Kochanowicz",
+      "41"
+    ],
+    [
+      "Trevor Martin",
+      "Trevor Martin",
+      "54"
+    ],
+    [
+      "Luke Murphy",
+      "Luke Murphy",
+      "72"
+    ],
+    [
+      "Samy Natera Jr.",
+      "Samy Natera Jr.",
+      "52"
+    ],
+    [
+      "Nicolo Pinazzi",
+      "Nicolo Pinazzi",
+      null
+    ],
+    [
+      "Grayson Rodriguez",
+      "Grayson Rodriguez",
+      "21"
+    ],
+    [
+      "Tayler Saucedo",
+      "Tayler Saucedo",
+      "55"
+    ],
+    [
+      "Walbert Ureña",
+      "Walbert Ureña",
+      "57"
+    ],
+    [
+      "Ryan Watson",
+      "Ryan Watson",
+      "56"
+    ],
+    [
+      "Blake Weiman",
+      "Blake Weiman",
+      "68"
+    ],
+    [
+      "Tyler Heineman",
+      "Tyler Heineman",
+      "31"
+    ],
+    [
+      "Logan Porter",
+      "Logan Porter",
+      "33"
+    ],
+    [
+      "Nacho Alvarez Jr.",
+      "Nacho Alvarez Jr.",
+      null
+    ],
+    [
+      "Vaughn Grissom",
+      "Vaughn Grissom",
+      "5"
+    ],
+    [
+      "Denzer Guzman",
+      "Denzer Guzman",
+      "23"
+    ],
+    [
+      "Jace Jung",
+      "Jace Jung",
+      null
+    ],
+    [
+      "Christian Moore",
+      "Christian Moore",
+      "4"
+    ],
+    [
+      "Zach Neto",
+      "Zach Neto",
+      "9"
+    ],
+    [
+      "Oswald Peraza",
+      "Oswald Peraza",
+      "2"
+    ],
+    [
+      "Nolan Schanuel",
+      "Nolan Schanuel",
+      "18"
+    ],
+    [
+      "Gustavo Campero",
+      "Gustavo Campero",
+      "51"
+    ],
+    [
+      "Josh Lowe",
+      "Josh Lowe",
+      "3"
+    ],
+    [
+      "Wade Meckler",
+      "Wade Meckler",
+      "53"
+    ],
+    [
+      "Nelson Rada",
+      "Nelson Rada",
+      null
+    ],
+    [
+      "Raudi Rodriguez",
+      "Raudi Rodriguez",
+      null
+    ],
+    [
+      "Jose Siri",
+      "Jose Siri",
+      "28"
+    ],
+    [
+      "Bryce Teodosio",
+      "Bryce Teodosio",
+      "22"
+    ],
+    [
+      "Mike Trout",
+      "Mike Trout",
+      "27"
+    ],
+    [
+      "Moisés Ballesteros",
+      "Moisés Ballesteros",
+      "13"
+    ]
+  ],
+  "Boston Red Sox": [
+    [
+      "Brayan Bello",
+      "Brayan Bello",
+      "66"
+    ],
+    [
+      "Jake Bennett",
+      "Jake Bennett",
+      "64"
+    ],
+    [
+      "Aroldis Chapman",
+      "Aroldis Chapman",
+      "44"
+    ],
+    [
+      "Kutter Crawford",
+      "Kutter Crawford",
+      "50"
+    ],
+    [
+      "Garrett Crochet",
+      "Garrett Crochet",
+      "35"
+    ],
+    [
+      "Alec Gamboa",
+      "Alec Gamboa",
+      "68"
+    ],
+    [
+      "Tyron Guerrero",
+      "Tyron Guerrero",
+      "41"
+    ],
+    [
+      "Tanner Houck",
+      "Tanner Houck",
+      "89"
+    ],
+    [
+      "Erik Miller",
+      "Erik Miller",
+      "67"
+    ],
+    [
+      "Jovani Morán",
+      "Jovani Morán",
+      "47"
+    ],
+    [
+      "Wyatt Olds",
+      "Wyatt Olds",
+      "75"
+    ],
+    [
+      "Jedixson Paez",
+      "Jedixson Paez",
+      "65"
+    ],
+    [
+      "Tyler Samaniego",
+      "Tyler Samaniego",
+      "78"
+    ],
+    [
+      "Justin Slaten",
+      "Justin Slaten",
+      "63"
+    ],
+    [
+      "Ranger Suárez",
+      "Ranger Suárez",
+      "55"
+    ],
+    [
+      "Payton Tolle",
+      "Payton Tolle",
+      "70"
+    ],
+    [
+      "Greg Weissert",
+      "Greg Weissert",
+      "57"
+    ],
+    [
+      "Garrett Whitlock",
+      "Garrett Whitlock",
+      "22"
+    ],
+    [
+      "Nick Fortes",
+      "Nick Fortes",
+      "10"
+    ],
+    [
+      "Adley Rutschman",
+      "Adley Rutschman",
+      "31"
+    ],
+    [
+      "Jake Bauers",
+      "Jake Bauers",
+      "18"
+    ],
+    [
+      "Triston Casas",
+      "Triston Casas",
+      "36"
+    ],
+    [
+      "Willson Contreras",
+      "Willson Contreras",
+      "40"
+    ],
+    [
+      "Caleb Durbin",
+      "Caleb Durbin",
+      "5"
+    ],
+    [
+      "Curtis Mead",
+      "Curtis Mead",
+      "11"
+    ],
+    [
+      "Andruw Monasterio",
+      "Andruw Monasterio",
+      "32"
+    ],
+    [
+      "Anthony Seigler",
+      "Anthony Seigler",
+      "48"
+    ],
+    [
+      "Nick Sogard",
+      "Nick Sogard",
+      "20"
+    ],
+    [
+      "Trevor Story",
+      "Trevor Story",
+      "10"
+    ],
+    [
+      "Wilyer Abreu",
+      "Wilyer Abreu",
+      "52"
+    ],
+    [
+      "Roman Anthony",
+      "Roman Anthony",
+      "19"
+    ],
+    [
+      "Kristian Campbell",
+      "Kristian Campbell",
+      "28"
+    ],
+    [
+      "Jarren Duran",
+      "Jarren Duran",
+      "16"
+    ],
+    [
+      "Ceddanne Rafaela",
+      "Ceddanne Rafaela",
+      "3"
+    ],
+    [
+      "Eli White",
+      "Eli White",
+      "38"
+    ],
+    [
+      "Mickey Gasper",
+      "Mickey Gasper",
+      "30"
+    ],
+    [
+      "Romy Gonzalez",
+      "Romy Gonzalez",
+      "23"
+    ],
+    [
+      "Jahmai Jones",
+      "Jahmai Jones",
+      "37"
+    ],
+    [
+      "Masataka Yoshida",
+      "Masataka Yoshida",
+      "7"
+    ]
+  ],
+  "New York Yankees": [
+    [
+      "Brendan Beck",
+      "Brendan Beck",
+      "89"
+    ],
+    [
+      "David Bednar",
+      "David Bednar",
+      "53"
+    ],
+    [
+      "Kyle Carr",
+      "Kyle Carr",
+      null
+    ],
+    [
+      "Kervin Castro",
+      "Kervin Castro",
+      "74"
+    ],
+    [
+      "Angel Chivilli",
+      "Angel Chivilli",
+      "57"
+    ],
+    [
+      "Gerrit Cole",
+      "Gerrit Cole",
+      "45"
+    ],
+    [
+      "Yerry De los Santos",
+      "Yerry De los Santos",
+      "73"
+    ],
+    [
+      "Max Fried",
+      "Max Fried",
+      "54"
+    ],
+    [
+      "Chase Hampton",
+      "Chase Hampton",
+      null
+    ],
+    [
+      "Bradley Hanner",
+      "Bradley Hanner",
+      "93"
+    ],
+    [
+      "Brent Headrick",
+      "Brent Headrick",
+      "47"
+    ],
+    [
+      "Carlos Lagrange",
+      "Carlos Lagrange",
+      null
+    ],
+    [
+      "Carlos Rodón",
+      "Carlos Rodón",
+      "55"
+    ],
+    [
+      "Elmer Rodríguez",
+      "Elmer Rodríguez",
+      "71"
+    ],
+    [
+      "Cam Schlittler",
+      "Cam Schlittler",
+      "31"
+    ],
+    [
+      "Clarke Schmidt",
+      "Clarke Schmidt",
+      "36"
+    ],
+    [
+      "Will Warren",
+      "Will Warren",
+      "29"
+    ],
+    [
+      "Ryan Weathers",
+      "Ryan Weathers",
+      "40"
+    ],
+    [
+      "J.C. Escarra",
+      "J.C. Escarra",
+      "25"
+    ],
+    [
+      "Ali Sánchez",
+      "Ali Sánchez",
+      "39"
+    ],
+    [
+      "Austin Wells",
+      "Austin Wells",
+      "28"
+    ],
+    [
+      "José Caballero",
+      "José Caballero",
+      "72"
+    ],
+    [
+      "Luis García Jr.",
+      "Luis García Jr.",
+      "26"
+    ],
+    [
+      "George Lombard Jr.",
+      "George Lombard Jr.",
+      "96"
+    ],
+    [
+      "Marco Luciano",
+      "Marco Luciano",
+      null
+    ],
+    [
+      "Ryan McMahon",
+      "Ryan McMahon",
+      "19"
+    ],
+    [
+      "Anthony Volpe",
+      "Anthony Volpe",
+      "11"
+    ],
+    [
+      "Cody Bellinger",
+      "Cody Bellinger",
+      "35"
+    ],
+    [
+      "Jasson Domínguez",
+      "Jasson Domínguez",
+      "24"
+    ],
+    [
+      "Spencer Jones",
+      "Spencer Jones",
+      "78"
+    ],
+    [
+      "Aaron Judge",
+      "Aaron Judge",
+      "99"
+    ],
+    [
+      "Garrett Martin",
+      "Garrett Martin",
+      null
+    ],
+    [
+      "Heliot Ramos",
+      "Heliot Ramos",
+      "34"
+    ],
+    [
+      "Max Schuemann",
+      "Max Schuemann",
+      "30"
+    ],
+    [
+      "Ben Rice",
+      "Ben Rice",
+      "22"
+    ],
+    [
+      "Giancarlo Stanton",
+      "Giancarlo Stanton",
+      "27"
+    ]
+  ]
+};
+Object.entries(window.JH_MLB_PLAYERS).forEach(([team,roster])=>{window.JH_TEAM_PLAYER_ROSTERS[`MLB|${team}`]=roster;});

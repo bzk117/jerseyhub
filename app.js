@@ -623,7 +623,7 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
  const jerseyUnitPrice=item=>{
   if(String(item.category||"").toLowerCase()==="lego"||isNbaItem(item))return null;
   const hasPatch=(Array.isArray(item.patchSelections)&&item.patchSelections.length>0)||(Array.isArray(item.patches)&&item.patches.length>0);
-  const hasFlocking=!!item.personalization&&item.personalization!=="Aucune";
+  const hasFlocking=["Nom et numéro du joueur","Nom et numéro d’une légende","Nom et numéro personnalisés"].includes(item.personalization);
   return (hasPatch||hasFlocking)?30:25;
  };
  function renderCart(){

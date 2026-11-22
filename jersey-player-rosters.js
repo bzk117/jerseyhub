@@ -3540,3 +3540,1988 @@ window.JH_MLB_PLAYERS = {
   ]
 };
 Object.entries(window.JH_MLB_PLAYERS).forEach(([team,roster])=>{window.JH_TEAM_PLAYER_ROSTERS[`MLB|${team}`]=roster;});
+
+// GAA : panels seniors de football 2026, 26 joueurs par comté, d'après les annonces de championnat 2026.
+window.JH_GAA_PLAYERS = {
+  "Mayo": [
+    [
+      "Rob Hennelly",
+      "Rob Hennelly",
+      "1"
+    ],
+    [
+      "Jack Coyne",
+      "Jack Coyne",
+      "2"
+    ],
+    [
+      "Rory Brickenden",
+      "Rory Brickenden",
+      "3"
+    ],
+    [
+      "Fenton Kelly",
+      "Fenton Kelly",
+      "4"
+    ],
+    [
+      "Sam Callinan",
+      "Sam Callinan",
+      "5"
+    ],
+    [
+      "Michael Plunkett",
+      "Michael Plunkett",
+      "6"
+    ],
+    [
+      "Paddy Durcan",
+      "Paddy Durcan",
+      "7"
+    ],
+    [
+      "Bob Tuohy",
+      "Bob Tuohy",
+      "8"
+    ],
+    [
+      "David McBrien",
+      "David McBrien",
+      "9"
+    ],
+    [
+      "Jack Carney",
+      "Jack Carney",
+      "10"
+    ],
+    [
+      "Ryan O Donoghue",
+      "Ryan O Donoghue",
+      "11"
+    ],
+    [
+      "Hugh O Loughlin",
+      "Hugh O Loughlin",
+      "12"
+    ],
+    [
+      "Cian McHale",
+      "Cian McHale",
+      "13"
+    ],
+    [
+      "Aidan O Shea",
+      "Aidan O Shea",
+      "14"
+    ],
+    [
+      "Paul Towey",
+      "Paul Towey",
+      "15"
+    ],
+    [
+      "Jack Livinstone",
+      "Jack Livinstone",
+      "16"
+    ],
+    [
+      "John McMonagle",
+      "John McMonagle",
+      "17"
+    ],
+    [
+      "Donnacaha McHugh",
+      "Donnacaha McHugh",
+      "18"
+    ],
+    [
+      "Stephen Coen",
+      "Stephen Coen",
+      "19"
+    ],
+    [
+      "Sean Morahan",
+      "Sean Morahan",
+      "20"
+    ],
+    [
+      "Jordan Flynn",
+      "Jordan Flynn",
+      "21"
+    ],
+    [
+      "Conal Dawson",
+      "Conal Dawson",
+      "22"
+    ],
+    [
+      "Fergal Boland",
+      "Fergal Boland",
+      "23"
+    ],
+    [
+      "Diarmuid O Connor",
+      "Diarmuid O Connor",
+      "24"
+    ],
+    [
+      "Tommy Conroy",
+      "Tommy Conroy",
+      "25"
+    ],
+    [
+      "Cillian O Connor",
+      "Cillian O Connor",
+      "26"
+    ]
+  ],
+  "Sligo": [
+    [
+      "Aidan Devaney",
+      "Aidan Devaney",
+      "1"
+    ],
+    [
+      "Tommy Ross",
+      "Tommy Ross",
+      "2"
+    ],
+    [
+      "Conor Sheridan",
+      "Conor Sheridan",
+      "3"
+    ],
+    [
+      "Luke Casserly",
+      "Luke Casserly",
+      "4"
+    ],
+    [
+      "Canice Mulligan",
+      "Canice Mulligan",
+      "5"
+    ],
+    [
+      "Jack Lavin",
+      "Jack Lavin",
+      "6"
+    ],
+    [
+      "Paul Kilcoyne",
+      "Paul Kilcoyne",
+      "7"
+    ],
+    [
+      "Darragh Cummins",
+      "Darragh Cummins",
+      "8"
+    ],
+    [
+      "Luke Towey",
+      "Luke Towey",
+      "9"
+    ],
+    [
+      "Lee Deignan",
+      "Lee Deignan",
+      "10"
+    ],
+    [
+      "Alan McLoughlin",
+      "Alan McLoughlin",
+      "11"
+    ],
+    [
+      "Cian Lally",
+      "Cian Lally",
+      "12"
+    ],
+    [
+      "Joshua Flynn",
+      "Joshua Flynn",
+      "13"
+    ],
+    [
+      "Niall Murphy",
+      "Niall Murphy",
+      "14"
+    ],
+    [
+      "Shane Deignan",
+      "Shane Deignan",
+      "15"
+    ],
+    [
+      "Keelan Harte",
+      "Keelan Harte",
+      "16"
+    ],
+    [
+      "Paul McNamara",
+      "Paul McNamara",
+      "17"
+    ],
+    [
+      "Michael Lavin",
+      "Michael Lavin",
+      "18"
+    ],
+    [
+      "Rossa Sloyan",
+      "Rossa Sloyan",
+      "19"
+    ],
+    [
+      "Daire O’Boyle",
+      "Daire O’Boyle",
+      "20"
+    ],
+    [
+      "Gavin Gorman",
+      "Gavin Gorman",
+      "21"
+    ],
+    [
+      "Conor Johnston",
+      "Conor Johnston",
+      "22"
+    ],
+    [
+      "Kyle Cawley",
+      "Kyle Cawley",
+      "23"
+    ],
+    [
+      "David Quinn",
+      "David Quinn",
+      "24"
+    ],
+    [
+      "James Donlon",
+      "James Donlon",
+      "25"
+    ],
+    [
+      "Pat Spillane",
+      "Pat Spillane",
+      "26"
+    ]
+  ],
+  "Roscommon": [
+    [
+      "Conor Carroll",
+      "Conor Carroll",
+      "1"
+    ],
+    [
+      "Patrick Gavin",
+      "Patrick Gavin",
+      "2"
+    ],
+    [
+      "Caelim Keogh",
+      "Caelim Keogh",
+      "3"
+    ],
+    [
+      "Eoin McCormack",
+      "Eoin McCormack",
+      "4"
+    ],
+    [
+      "Eoin Ward",
+      "Eoin Ward",
+      "5"
+    ],
+    [
+      "Ronan Daly",
+      "Ronan Daly",
+      "6"
+    ],
+    [
+      "Senan Lambe",
+      "Senan Lambe",
+      "7"
+    ],
+    [
+      "Keith Doyle",
+      "Keith Doyle",
+      "8"
+    ],
+    [
+      "Conor Ryan",
+      "Conor Ryan",
+      "9"
+    ],
+    [
+      "Dylan Ruane",
+      "Dylan Ruane",
+      "10"
+    ],
+    [
+      "Enda Smith",
+      "Enda Smith",
+      "11"
+    ],
+    [
+      "Darragh Heneghan",
+      "Darragh Heneghan",
+      "12"
+    ],
+    [
+      "Diarmuid Murtagh",
+      "Diarmuid Murtagh",
+      "13"
+    ],
+    [
+      "Daire Cregg",
+      "Daire Cregg",
+      "14"
+    ],
+    [
+      "Robert Heneghan",
+      "Robert Heneghan",
+      "15"
+    ],
+    [
+      "Aaron Brady",
+      "Aaron Brady",
+      "16"
+    ],
+    [
+      "Niall Higgins",
+      "Niall Higgins",
+      "17"
+    ],
+    [
+      "Colm Neary",
+      "Colm Neary",
+      "18"
+    ],
+    [
+      "Robbie Dolan",
+      "Robbie Dolan",
+      "19"
+    ],
+    [
+      "Shane Cunnane",
+      "Shane Cunnane",
+      "20"
+    ],
+    [
+      "Jack Duggan",
+      "Jack Duggan",
+      "21"
+    ],
+    [
+      "Paul Carey",
+      "Paul Carey",
+      "22"
+    ],
+    [
+      "Ben O’Carroll",
+      "Ben O’Carroll",
+      "23"
+    ],
+    [
+      "Conor Hand",
+      "Conor Hand",
+      "24"
+    ],
+    [
+      "Eoin Colleran",
+      "Eoin Colleran",
+      "25"
+    ],
+    [
+      "Ciaran Lennon",
+      "Ciaran Lennon",
+      "26"
+    ]
+  ],
+  "Offaly": [
+    [
+      "Conor Melia",
+      "Conor Melia",
+      "1"
+    ],
+    [
+      "Shane O’Toole Greene",
+      "Shane O’Toole Greene",
+      "2"
+    ],
+    [
+      "David Dempsey",
+      "David Dempsey",
+      "3"
+    ],
+    [
+      "Lee Pearson",
+      "Lee Pearson",
+      "4"
+    ],
+    [
+      "Cormac Egan",
+      "Cormac Egan",
+      "5"
+    ],
+    [
+      "Diarmuid Egan",
+      "Diarmuid Egan",
+      "6"
+    ],
+    [
+      "Daire McDaid",
+      "Daire McDaid",
+      "7"
+    ],
+    [
+      "Jack McEvoy",
+      "Jack McEvoy",
+      "8"
+    ],
+    [
+      "Jordan Hayes",
+      "Jordan Hayes",
+      "9"
+    ],
+    [
+      "Marcas Dalton",
+      "Marcas Dalton",
+      "10"
+    ],
+    [
+      "Keith O’Neill",
+      "Keith O’Neill",
+      "11"
+    ],
+    [
+      "Rory Egan",
+      "Rory Egan",
+      "12"
+    ],
+    [
+      "Dylan Hyland",
+      "Dylan Hyland",
+      "13"
+    ],
+    [
+      "Shane Tierney",
+      "Shane Tierney",
+      "14"
+    ],
+    [
+      "Darragh Flynn",
+      "Darragh Flynn",
+      "15"
+    ],
+    [
+      "Sean O’Toole",
+      "Sean O’Toole",
+      "16"
+    ],
+    [
+      "Aidan Bracken",
+      "Aidan Bracken",
+      "17"
+    ],
+    [
+      "Conor Dunican",
+      "Conor Dunican",
+      "18"
+    ],
+    [
+      "Nathan Poland",
+      "Nathan Poland",
+      "19"
+    ],
+    [
+      "Kyle Higgins",
+      "Kyle Higgins",
+      "20"
+    ],
+    [
+      "Jack Bryant",
+      "Jack Bryant",
+      "21"
+    ],
+    [
+      "Eoin Sawyer",
+      "Eoin Sawyer",
+      "22"
+    ],
+    [
+      "Harry Plunkett",
+      "Harry Plunkett",
+      "23"
+    ],
+    [
+      "Sean Conway",
+      "Sean Conway",
+      "24"
+    ],
+    [
+      "Eoin Dunne",
+      "Eoin Dunne",
+      "25"
+    ],
+    [
+      "Cathal Ryan",
+      "Cathal Ryan",
+      "26"
+    ]
+  ],
+  "Laois": [
+    [
+      "Killian Roche",
+      "Killian Roche",
+      "1"
+    ],
+    [
+      "Jack Lacey",
+      "Jack Lacey",
+      "2"
+    ],
+    [
+      "Trevor Collins",
+      "Trevor Collins",
+      "3"
+    ],
+    [
+      "Alex Mohan",
+      "Alex Mohan",
+      "4"
+    ],
+    [
+      "Pa Kirwan",
+      "Pa Kirwan",
+      "5"
+    ],
+    [
+      "Aaron McEvoy",
+      "Aaron McEvoy",
+      "6"
+    ],
+    [
+      "Simon Fingleton",
+      "Simon Fingleton",
+      "7"
+    ],
+    [
+      "Ciaran Burke",
+      "Ciaran Burke",
+      "8"
+    ],
+    [
+      "Conor Heffernan",
+      "Conor Heffernan",
+      "9"
+    ],
+    [
+      "Kevin Swayne",
+      "Kevin Swayne",
+      "10"
+    ],
+    [
+      "Ronan Coffey",
+      "Ronan Coffey",
+      "11"
+    ],
+    [
+      "Patrick O’Sullivan",
+      "Patrick O’Sullivan",
+      "12"
+    ],
+    [
+      "Brian Byrne",
+      "Brian Byrne",
+      "13"
+    ],
+    [
+      "Daragh Galvin",
+      "Daragh Galvin",
+      "14"
+    ],
+    [
+      "Evan O’Carroll",
+      "Evan O’Carroll",
+      "15"
+    ],
+    [
+      "Matthew Byron",
+      "Matthew Byron",
+      "16"
+    ],
+    [
+      "Darren Brennan",
+      "Darren Brennan",
+      "17"
+    ],
+    [
+      "Killian Byrne",
+      "Killian Byrne",
+      "18"
+    ],
+    [
+      "Niall Corbet",
+      "Niall Corbet",
+      "19"
+    ],
+    [
+      "Jake Darcy",
+      "Jake Darcy",
+      "20"
+    ],
+    [
+      "Ben Dempsey",
+      "Ben Dempsey",
+      "21"
+    ],
+    [
+      "Mikie Dempsey",
+      "Mikie Dempsey",
+      "22"
+    ],
+    [
+      "Paul Kingston",
+      "Paul Kingston",
+      "23"
+    ],
+    [
+      "Rioghan Murphy",
+      "Rioghan Murphy",
+      "24"
+    ],
+    [
+      "Cian Nolan",
+      "Cian Nolan",
+      "25"
+    ],
+    [
+      "Robert Tyrrell",
+      "Robert Tyrrell",
+      "26"
+    ]
+  ],
+  "Carlow": [
+    [
+      "Ben McCarron",
+      "Ben McCarron",
+      "1"
+    ],
+    [
+      "Colin Byrne",
+      "Colin Byrne",
+      "2"
+    ],
+    [
+      "Niall Roche",
+      "Niall Roche",
+      "3"
+    ],
+    [
+      "Paddy McDonnell",
+      "Paddy McDonnell",
+      "4"
+    ],
+    [
+      "John Phiri",
+      "John Phiri",
+      "5"
+    ],
+    [
+      "Dara Curran",
+      "Dara Curran",
+      "6"
+    ],
+    [
+      "Padraig Bolger",
+      "Padraig Bolger",
+      "7"
+    ],
+    [
+      "Mark Furey",
+      "Mark Furey",
+      "8"
+    ],
+    [
+      "Conor Doyle",
+      "Conor Doyle",
+      "9"
+    ],
+    [
+      "Lee Walker",
+      "Lee Walker",
+      "10"
+    ],
+    [
+      "Colm Hulton",
+      "Colm Hulton",
+      "11"
+    ],
+    [
+      "Mikey Bambrick",
+      "Mikey Bambrick",
+      "12"
+    ],
+    [
+      "Liam Gavin",
+      "Liam Gavin",
+      "13"
+    ],
+    [
+      "Christopher Blake",
+      "Christopher Blake",
+      "14"
+    ],
+    [
+      "Sean Murphy",
+      "Sean Murphy",
+      "15"
+    ],
+    [
+      "Johnny Furey",
+      "Johnny Furey",
+      "16"
+    ],
+    [
+      "Lee Moore",
+      "Lee Moore",
+      "17"
+    ],
+    [
+      "John Murphy",
+      "John Murphy",
+      "18"
+    ],
+    [
+      "Tadgh Roche",
+      "Tadgh Roche",
+      "19"
+    ],
+    [
+      "Ross Dunphy",
+      "Ross Dunphy",
+      "20"
+    ],
+    [
+      "Adam Burgess",
+      "Adam Burgess",
+      "21"
+    ],
+    [
+      "Kyle Nolan",
+      "Kyle Nolan",
+      "22"
+    ],
+    [
+      "Jamie Clarke",
+      "Jamie Clarke",
+      "23"
+    ],
+    [
+      "Kevin Murphy",
+      "Kevin Murphy",
+      "24"
+    ],
+    [
+      "Eoghan Ruth",
+      "Eoghan Ruth",
+      "25"
+    ],
+    [
+      "Aaron Amond",
+      "Aaron Amond",
+      "26"
+    ]
+  ],
+  "Wicklow": [
+    [
+      "Mark Jackson",
+      "Mark Jackson",
+      "1"
+    ],
+    [
+      "Tom Moran",
+      "Tom Moran",
+      "2"
+    ],
+    [
+      "Conall Ó Gallchobhair",
+      "Conall Ó Gallchobhair",
+      "3"
+    ],
+    [
+      "Gavin Fogarty",
+      "Gavin Fogarty",
+      "4"
+    ],
+    [
+      "Cian Deering",
+      "Cian Deering",
+      "5"
+    ],
+    [
+      "Matt Nolan",
+      "Matt Nolan",
+      "6"
+    ],
+    [
+      "Jonathan Carlin",
+      "Jonathan Carlin",
+      "7"
+    ],
+    [
+      "Dean Healy",
+      "Dean Healy",
+      "8"
+    ],
+    [
+      "Jack Hardy",
+      "Jack Hardy",
+      "9"
+    ],
+    [
+      "Joe Prendergast",
+      "Joe Prendergast",
+      "10"
+    ],
+    [
+      "Padraig O Toole",
+      "Padraig O Toole",
+      "11"
+    ],
+    [
+      "Christopher O Brien",
+      "Christopher O Brien",
+      "12"
+    ],
+    [
+      "Oisin Mc Graynor",
+      "Oisin Mc Graynor",
+      "13"
+    ],
+    [
+      "Kevin Quinn",
+      "Kevin Quinn",
+      "14"
+    ],
+    [
+      "Eoin Darcy",
+      "Eoin Darcy",
+      "15"
+    ],
+    [
+      "Cathal Fitzgerald",
+      "Cathal Fitzgerald",
+      "16"
+    ],
+    [
+      "Brian Bohan",
+      "Brian Bohan",
+      "17"
+    ],
+    [
+      "Jack Kirwan",
+      "Jack Kirwan",
+      "18"
+    ],
+    [
+      "Cathal Baker",
+      "Cathal Baker",
+      "19"
+    ],
+    [
+      "Mark Kenny",
+      "Mark Kenny",
+      "20"
+    ],
+    [
+      "Conor Fee",
+      "Conor Fee",
+      "21"
+    ],
+    [
+      "Jacques Mc Call",
+      "Jacques Mc Call",
+      "22"
+    ],
+    [
+      "Liam O Neill",
+      "Liam O Neill",
+      "23"
+    ],
+    [
+      "Eoin Murtagh",
+      "Eoin Murtagh",
+      "24"
+    ],
+    [
+      "Sean Murphy",
+      "Sean Murphy",
+      "25"
+    ],
+    [
+      "John Paul Nolan",
+      "John Paul Nolan",
+      "26"
+    ]
+  ],
+  "Westmeath": [
+    [
+      "Jason Daly",
+      "Jason Daly",
+      "1"
+    ],
+    [
+      "Daniel Scahill",
+      "Daniel Scahill",
+      "2"
+    ],
+    [
+      "Charlie Drumm",
+      "Charlie Drumm",
+      "3"
+    ],
+    [
+      "Tadhg Baker",
+      "Tadhg Baker",
+      "4"
+    ],
+    [
+      "Ronan Wallace",
+      "Ronan Wallace",
+      "5"
+    ],
+    [
+      "Shane Allen",
+      "Shane Allen",
+      "6"
+    ],
+    [
+      "Matthew Whittaker",
+      "Matthew Whittaker",
+      "7"
+    ],
+    [
+      "Brían Cooney",
+      "Brían Cooney",
+      "8"
+    ],
+    [
+      "Ray Connellan",
+      "Ray Connellan",
+      "9"
+    ],
+    [
+      "Kevin O’Sullivan",
+      "Kevin O’Sullivan",
+      "10"
+    ],
+    [
+      "Sam McCartan",
+      "Sam McCartan",
+      "11"
+    ],
+    [
+      "Conor Dillon",
+      "Conor Dillon",
+      "12"
+    ],
+    [
+      "Tom Molloy",
+      "Tom Molloy",
+      "13"
+    ],
+    [
+      "Luke Loughlin",
+      "Luke Loughlin",
+      "14"
+    ],
+    [
+      "Brandon Kelly",
+      "Brandon Kelly",
+      "15"
+    ],
+    [
+      "Jack Connaughton",
+      "Jack Connaughton",
+      "16"
+    ],
+    [
+      "Adam Treanor",
+      "Adam Treanor",
+      "17"
+    ],
+    [
+      "Shane Corcoran",
+      "Shane Corcoran",
+      "18"
+    ],
+    [
+      "Robbie Forde",
+      "Robbie Forde",
+      "19"
+    ],
+    [
+      "Senan Baker",
+      "Senan Baker",
+      "20"
+    ],
+    [
+      "Devin Hill",
+      "Devin Hill",
+      "21"
+    ],
+    [
+      "Shane Ormsby",
+      "Shane Ormsby",
+      "22"
+    ],
+    [
+      "Danny McCartan",
+      "Danny McCartan",
+      "23"
+    ],
+    [
+      "Eoghan McCabe",
+      "Eoghan McCabe",
+      "24"
+    ],
+    [
+      "Jack Duncan",
+      "Jack Duncan",
+      "25"
+    ],
+    [
+      "TJ Cox",
+      "TJ Cox",
+      "26"
+    ]
+  ],
+  "Cork": [
+    [
+      "Micheál Aodh Martin",
+      "Micheál Aodh Martin",
+      "1"
+    ],
+    [
+      "Maurice Shanley",
+      "Maurice Shanley",
+      "2"
+    ],
+    [
+      "Daniel O’Mahony",
+      "Daniel O’Mahony",
+      "3"
+    ],
+    [
+      "Seán Meehan",
+      "Seán Meehan",
+      "4"
+    ],
+    [
+      "Brian O’Driscoll",
+      "Brian O’Driscoll",
+      "5"
+    ],
+    [
+      "Tommy Walsh",
+      "Tommy Walsh",
+      "6"
+    ],
+    [
+      "Luke Fahy",
+      "Luke Fahy",
+      "7"
+    ],
+    [
+      "Colm O’Callaghan",
+      "Colm O’Callaghan",
+      "8"
+    ],
+    [
+      "Ian Maguire",
+      "Ian Maguire",
+      "9"
+    ],
+    [
+      "Paul Walsh",
+      "Paul Walsh",
+      "10"
+    ],
+    [
+      "Mark Cronin",
+      "Mark Cronin",
+      "11"
+    ],
+    [
+      "Seán McDonnell",
+      "Seán McDonnell",
+      "12"
+    ],
+    [
+      "Chris Óg Jones",
+      "Chris Óg Jones",
+      "13"
+    ],
+    [
+      "Dara Sheedy",
+      "Dara Sheedy",
+      "14"
+    ],
+    [
+      "Steven Sherlock",
+      "Steven Sherlock",
+      "15"
+    ],
+    [
+      "Patrick Doyle",
+      "Patrick Doyle",
+      "16"
+    ],
+    [
+      "Tomas O’Mahony",
+      "Tomas O’Mahony",
+      "17"
+    ],
+    [
+      "Rory Maguire",
+      "Rory Maguire",
+      "18"
+    ],
+    [
+      "Darragh Cashman",
+      "Darragh Cashman",
+      "19"
+    ],
+    [
+      "Seán Walsh",
+      "Seán Walsh",
+      "20"
+    ],
+    [
+      "Conor Cahalane",
+      "Conor Cahalane",
+      "21"
+    ],
+    [
+      "David Buckley",
+      "David Buckley",
+      "22"
+    ],
+    [
+      "Ruairi Deane",
+      "Ruairi Deane",
+      "23"
+    ],
+    [
+      "Eoghan McSweeney",
+      "Eoghan McSweeney",
+      "24"
+    ],
+    [
+      "Conor Corbett",
+      "Conor Corbett",
+      "25"
+    ],
+    [
+      "Brian Hurley",
+      "Brian Hurley",
+      "26"
+    ]
+  ],
+  "Limerick": [
+    [
+      "Jeffrey Alfred",
+      "Jeffrey Alfred",
+      "1"
+    ],
+    [
+      "Sean Kilbridge",
+      "Sean Kilbridge",
+      "2"
+    ],
+    [
+      "Cormac Woulfe",
+      "Cormac Woulfe",
+      "3"
+    ],
+    [
+      "Diarmuid Buckley",
+      "Diarmuid Buckley",
+      "4"
+    ],
+    [
+      "Barry Coleman",
+      "Barry Coleman",
+      "5"
+    ],
+    [
+      "Killian Ryan",
+      "Killian Ryan",
+      "6"
+    ],
+    [
+      "Tony McCarthy",
+      "Tony McCarthy",
+      "7"
+    ],
+    [
+      "Eliah Riordan",
+      "Eliah Riordan",
+      "8"
+    ],
+    [
+      "Jack McCarthy",
+      "Jack McCarthy",
+      "9"
+    ],
+    [
+      "Rory O Brien",
+      "Rory O Brien",
+      "10"
+    ],
+    [
+      "Cillian Fahy",
+      "Cillian Fahy",
+      "11"
+    ],
+    [
+      "Paul Maher",
+      "Paul Maher",
+      "12"
+    ],
+    [
+      "Robbie Childs",
+      "Robbie Childs",
+      "13"
+    ],
+    [
+      "James Naughton",
+      "James Naughton",
+      "14"
+    ],
+    [
+      "Danny Neville",
+      "Danny Neville",
+      "15"
+    ],
+    [
+      "Ronan McElligott",
+      "Ronan McElligott",
+      "16"
+    ],
+    [
+      "Darren O Doherty",
+      "Darren O Doherty",
+      "17"
+    ],
+    [
+      "Oran Collins",
+      "Oran Collins",
+      "18"
+    ],
+    [
+      "Oisín Moss",
+      "Oisín Moss",
+      "19"
+    ],
+    [
+      "Lee Woulfe",
+      "Lee Woulfe",
+      "20"
+    ],
+    [
+      "Mark McCarthy",
+      "Mark McCarthy",
+      "21"
+    ],
+    [
+      "Colm McSweeney",
+      "Colm McSweeney",
+      "22"
+    ],
+    [
+      "Josh Dineen",
+      "Josh Dineen",
+      "23"
+    ],
+    [
+      "Zach McCarthy",
+      "Zach McCarthy",
+      "24"
+    ],
+    [
+      "Shane Cross",
+      "Shane Cross",
+      "25"
+    ],
+    [
+      "Peter Nash",
+      "Peter Nash",
+      "26"
+    ]
+  ],
+  "Waterford": [
+    [
+      "Simon Burns",
+      "Simon Burns",
+      "1"
+    ],
+    [
+      "Tommy Martin",
+      "Tommy Martin",
+      "2"
+    ],
+    [
+      "Billy Hynes",
+      "Billy Hynes",
+      "3"
+    ],
+    [
+      "Conor Ó Cuirrín",
+      "Conor Ó Cuirrín",
+      "4"
+    ],
+    [
+      "Glen Power",
+      "Glen Power",
+      "5"
+    ],
+    [
+      "Adam Crawford",
+      "Adam Crawford",
+      "6"
+    ],
+    [
+      "Conor Murray",
+      "Conor Murray",
+      "7"
+    ],
+    [
+      "Michael O’Brien",
+      "Michael O’Brien",
+      "8"
+    ],
+    [
+      "Michael Curry",
+      "Michael Curry",
+      "9"
+    ],
+    [
+      "Donal Fitzgerald",
+      "Donal Fitzgerald",
+      "10"
+    ],
+    [
+      "Aaron Ryan",
+      "Aaron Ryan",
+      "11"
+    ],
+    [
+      "Liam Mulligan",
+      "Liam Mulligan",
+      "12"
+    ],
+    [
+      "Dermot Ryan",
+      "Dermot Ryan",
+      "13"
+    ],
+    [
+      "Stephen Curry",
+      "Stephen Curry",
+      "14"
+    ],
+    [
+      "Alan Dunwoody",
+      "Alan Dunwoody",
+      "15"
+    ],
+    [
+      "Paudie Hunt",
+      "Paudie Hunt",
+      "16"
+    ],
+    [
+      "Darach Ó Cathasaigh",
+      "Darach Ó Cathasaigh",
+      "17"
+    ],
+    [
+      "Adam Murray",
+      "Adam Murray",
+      "18"
+    ],
+    [
+      "Darragh Walsh",
+      "Darragh Walsh",
+      "19"
+    ],
+    [
+      "Caoimhín Walsh",
+      "Caoimhín Walsh",
+      "20"
+    ],
+    [
+      "Cian Kiely",
+      "Cian Kiely",
+      "21"
+    ],
+    [
+      "Kyle Flynn",
+      "Kyle Flynn",
+      "22"
+    ],
+    [
+      "Conor Keating",
+      "Conor Keating",
+      "23"
+    ],
+    [
+      "Colin Foley",
+      "Colin Foley",
+      "24"
+    ],
+    [
+      "Conor Fennell",
+      "Conor Fennell",
+      "25"
+    ],
+    [
+      "David Butler",
+      "David Butler",
+      "26"
+    ]
+  ],
+  "Tipperary": [
+    [
+      "Shane Garland",
+      "Shane Garland",
+      "1"
+    ],
+    [
+      "Jack O’Neill",
+      "Jack O’Neill",
+      "2"
+    ],
+    [
+      "Eoin O’Connell",
+      "Eoin O’Connell",
+      "3"
+    ],
+    [
+      "Manus McFadden",
+      "Manus McFadden",
+      "4"
+    ],
+    [
+      "Kieran Costello",
+      "Kieran Costello",
+      "5"
+    ],
+    [
+      "James Morris",
+      "James Morris",
+      "6"
+    ],
+    [
+      "Charlie King",
+      "Charlie King",
+      "7"
+    ],
+    [
+      "Joe Higgins",
+      "Joe Higgins",
+      "8"
+    ],
+    [
+      "Paudie Feehan",
+      "Paudie Feehan",
+      "9"
+    ],
+    [
+      "Eoin Craddock",
+      "Eoin Craddock",
+      "10"
+    ],
+    [
+      "Michéal Freaney",
+      "Michéal Freaney",
+      "11"
+    ],
+    [
+      "Killian Butler",
+      "Killian Butler",
+      "12"
+    ],
+    [
+      "Cian Smith",
+      "Cian Smith",
+      "13"
+    ],
+    [
+      "Sean O’Connor",
+      "Sean O’Connor",
+      "14"
+    ],
+    [
+      "Daithi Hogan",
+      "Daithi Hogan",
+      "15"
+    ],
+    [
+      "Robbie McGrath",
+      "Robbie McGrath",
+      "16"
+    ],
+    [
+      "Darragh Brennan",
+      "Darragh Brennan",
+      "17"
+    ],
+    [
+      "Mark Corcoran",
+      "Mark Corcoran",
+      "18"
+    ],
+    [
+      "Paddy Creedon",
+      "Paddy Creedon",
+      "19"
+    ],
+    [
+      "Michael Lowry",
+      "Michael Lowry",
+      "20"
+    ],
+    [
+      "JP Mboka Tansia",
+      "JP Mboka Tansia",
+      "21"
+    ],
+    [
+      "Emmet Moloney",
+      "Emmet Moloney",
+      "22"
+    ],
+    [
+      "Darragh O’Connor",
+      "Darragh O’Connor",
+      "23"
+    ],
+    [
+      "Paddy O’Keeffe",
+      "Paddy O’Keeffe",
+      "24"
+    ],
+    [
+      "Mark Russell",
+      "Mark Russell",
+      "25"
+    ],
+    [
+      "Mark Stokes",
+      "Mark Stokes",
+      "26"
+    ]
+  ],
+  "Armagh": [
+    [
+      "Blaine Hughes",
+      "Blaine Hughes",
+      "1"
+    ],
+    [
+      "Peter McGrane",
+      "Peter McGrane",
+      "2"
+    ],
+    [
+      "Aaron McKay",
+      "Aaron McKay",
+      "3"
+    ],
+    [
+      "Paddy Burns",
+      "Paddy Burns",
+      "4"
+    ],
+    [
+      "Ross McQuillan",
+      "Ross McQuillan",
+      "5"
+    ],
+    [
+      "Gareth Murphy",
+      "Gareth Murphy",
+      "6"
+    ],
+    [
+      "Jarly Og Burns",
+      "Jarly Og Burns",
+      "7"
+    ],
+    [
+      "Tiernan Kelly",
+      "Tiernan Kelly",
+      "8"
+    ],
+    [
+      "Ben Crealey",
+      "Ben Crealey",
+      "9"
+    ],
+    [
+      "Greg McCabe",
+      "Greg McCabe",
+      "10"
+    ],
+    [
+      "Darragh McMullan",
+      "Darragh McMullan",
+      "11"
+    ],
+    [
+      "Tomas McCormack",
+      "Tomas McCormack",
+      "12"
+    ],
+    [
+      "Cian McConville",
+      "Cian McConville",
+      "13"
+    ],
+    [
+      "Jason Duffy",
+      "Jason Duffy",
+      "14"
+    ],
+    [
+      "Oisin Conaty",
+      "Oisin Conaty",
+      "15"
+    ],
+    [
+      "Ethan Rafferty",
+      "Ethan Rafferty",
+      "16"
+    ],
+    [
+      "Barry McCambridge",
+      "Barry McCambridge",
+      "17"
+    ],
+    [
+      "Joe McElroy",
+      "Joe McElroy",
+      "18"
+    ],
+    [
+      "Ryan Duffy",
+      "Ryan Duffy",
+      "19"
+    ],
+    [
+      "Callum O’Neill",
+      "Callum O’Neill",
+      "20"
+    ],
+    [
+      "Daniel Magee",
+      "Daniel Magee",
+      "21"
+    ],
+    [
+      "Conor Turbitt",
+      "Conor Turbitt",
+      "22"
+    ],
+    [
+      "Oisin O’Neill",
+      "Oisin O’Neill",
+      "23"
+    ],
+    [
+      "Fergal O’Brien",
+      "Fergal O’Brien",
+      "24"
+    ],
+    [
+      "Rory Grugan",
+      "Rory Grugan",
+      "25"
+    ],
+    [
+      "Andrew Murnin",
+      "Andrew Murnin",
+      "26"
+    ]
+  ],
+  "Tyrone": [
+    [
+      "Niall Morgan",
+      "Niall Morgan",
+      "1"
+    ],
+    [
+      "Cormac Quinn",
+      "Cormac Quinn",
+      "2"
+    ],
+    [
+      "Peter Teague",
+      "Peter Teague",
+      "3"
+    ],
+    [
+      "Niall Devlin",
+      "Niall Devlin",
+      "4"
+    ],
+    [
+      "Frank Burns",
+      "Frank Burns",
+      "5"
+    ],
+    [
+      "Joey Clarke",
+      "Joey Clarke",
+      "6"
+    ],
+    [
+      "Michael McKernan",
+      "Michael McKernan",
+      "7"
+    ],
+    [
+      "Brian Kennedy",
+      "Brian Kennedy",
+      "8"
+    ],
+    [
+      "Conn Kilpatrick",
+      "Conn Kilpatrick",
+      "9"
+    ],
+    [
+      "Seanie O’Donnell",
+      "Seanie O’Donnell",
+      "10"
+    ],
+    [
+      "Ronan Cassidy",
+      "Ronan Cassidy",
+      "11"
+    ],
+    [
+      "Ben McDonnell",
+      "Ben McDonnell",
+      "12"
+    ],
+    [
+      "Darren McCurry",
+      "Darren McCurry",
+      "13"
+    ],
+    [
+      "Mattie Donnelly",
+      "Mattie Donnelly",
+      "14"
+    ],
+    [
+      "Daragh Canavan",
+      "Daragh Canavan",
+      "15"
+    ],
+    [
+      "Oisin O’Kane",
+      "Oisin O’Kane",
+      "16"
+    ],
+    [
+      "Michael Rafferty",
+      "Michael Rafferty",
+      "17"
+    ],
+    [
+      "Aidan Clarke",
+      "Aidan Clarke",
+      "18"
+    ],
+    [
+      "Ben Cullen",
+      "Ben Cullen",
+      "19"
+    ],
+    [
+      "Kieran McGeary",
+      "Kieran McGeary",
+      "20"
+    ],
+    [
+      "Dalaigh Jones",
+      "Dalaigh Jones",
+      "21"
+    ],
+    [
+      "Aodhan Donaghy",
+      "Aodhan Donaghy",
+      "22"
+    ],
+    [
+      "Ciaran Daly",
+      "Ciaran Daly",
+      "23"
+    ],
+    [
+      "Lorcan McGarrity",
+      "Lorcan McGarrity",
+      "24"
+    ],
+    [
+      "Eoin McElholm",
+      "Eoin McElholm",
+      "25"
+    ],
+    [
+      "Ethan Jordan",
+      "Ethan Jordan",
+      "26"
+    ]
+  ],
+  "Donegal": [
+    [
+      "Gavin Mulreany",
+      "Gavin Mulreany",
+      "1"
+    ],
+    [
+      "Caolan McColgan",
+      "Caolan McColgan",
+      "2"
+    ],
+    [
+      "Brendan McCole",
+      "Brendan McCole",
+      "3"
+    ],
+    [
+      "Peadar Mogan",
+      "Peadar Mogan",
+      "4"
+    ],
+    [
+      "Ryan McHugh",
+      "Ryan McHugh",
+      "5"
+    ],
+    [
+      "Eoghan Bán Gallagher",
+      "Eoghan Bán Gallagher",
+      "6"
+    ],
+    [
+      "Finnbarr Roarty",
+      "Finnbarr Roarty",
+      "7"
+    ],
+    [
+      "Caolan McGonagle",
+      "Caolan McGonagle",
+      "8"
+    ],
+    [
+      "Hugh McFadden",
+      "Hugh McFadden",
+      "9"
+    ],
+    [
+      "Sean Martin",
+      "Sean Martin",
+      "10"
+    ],
+    [
+      "Shane O’Donnell",
+      "Shane O’Donnell",
+      "11"
+    ],
+    [
+      "Ciarán Moore",
+      "Ciarán Moore",
+      "12"
+    ],
+    [
+      "Conor O’Donnell",
+      "Conor O’Donnell",
+      "13"
+    ],
+    [
+      "Michael Murphy",
+      "Michael Murphy",
+      "14"
+    ],
+    [
+      "Shea Malone",
+      "Shea Malone",
+      "15"
+    ],
+    [
+      "Shaun Patton",
+      "Shaun Patton",
+      "16"
+    ],
+    [
+      "Stephen McMenamin",
+      "Stephen McMenamin",
+      "17"
+    ],
+    [
+      "Jamie Brennan",
+      "Jamie Brennan",
+      "18"
+    ],
+    [
+      "Max Campbell",
+      "Max Campbell",
+      "19"
+    ],
+    [
+      "Dáire Ó Baoill",
+      "Dáire Ó Baoill",
+      "20"
+    ],
+    [
+      "Jason McGee",
+      "Jason McGee",
+      "21"
+    ],
+    [
+      "Oisín Gallen",
+      "Oisín Gallen",
+      "22"
+    ],
+    [
+      "Paul O’Hare",
+      "Paul O’Hare",
+      "23"
+    ],
+    [
+      "Turlough Carr",
+      "Turlough Carr",
+      "24"
+    ],
+    [
+      "Kieran Gallagher",
+      "Kieran Gallagher",
+      "25"
+    ],
+    [
+      "Michael Langan",
+      "Michael Langan",
+      "26"
+    ]
+  ]
+};
+Object.entries(window.JH_GAA_PLAYERS).forEach(([team,roster])=>{window.JH_TEAM_PLAYER_ROSTERS[`GAA|${team}`]=roster;});

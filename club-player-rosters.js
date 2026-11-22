@@ -1776,6 +1776,34 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["M. Meïté","MEÏTÉ 55","55"],
     ["A. Ayari","AYARI 57","57"],
     ["A. Bar","BAR 90","90"]
+  ],
+  "AS Monaco": [
+    ["Lukáš Hradecký","HRADECKY 1","1"],
+    ["Philipp Köhn","KOHN 16","16"],
+    ["Jules Stawiecki","JULES STAWIECKI 40","40"],
+    ["Vanderson","VANDERSON 2","2"],
+    ["Jordan Teze","JORDAN TEZE 4","4"],
+    ["Christian Mawissa","CHRISTIAN MAWISSA 13","13"],
+    ["Eric Dier","ERIC DIER 15","15"],
+    ["Flávio Nazinho","NAZINHO 20","20"],
+    ["Mohammed Salisu","SALISU 22","22"],
+    ["Samuel Nibombé","NIBOMBE 44","44"],
+    ["Sadibou Sané","SANE 72","72"],
+    ["Denis Zakaria","DENIS ZAKARIA 6","6"],
+    ["Lamine Camara","LAMINE CAMARA 8","8"],
+    ["Aleksandr Golovin","GOLOVIN 10","10"],
+    ["Stanis Idumbo","IDUMBO 17","17"],
+    ["Takumi Minamino","MINAMINO 18","18"],
+    ["Pape Cabral","PAPE CABRAL 19","19"],
+    ["Mamadou Coulibaly","COULIBALY 28","28"],
+    ["Edan Diop","EDAN DIOP 37","37"],
+    ["Ilane Touré","ILANE TOURÉ 49","49"],
+    ["Mathys Detourbet","DETOURBET 7","7"],
+    ["Folarin Balogun","BALOGUN 9","9"],
+    ["Matthis Abline","ABLINE 11","11"],
+    ["Mika Biereth","BIERETH 14","14"],
+    ["Paris Brunner","BRUNNER 29","29"],
+    ["Ansu Fati","FATI 31","31"]
   ]
 };
 

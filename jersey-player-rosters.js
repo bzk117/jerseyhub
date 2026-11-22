@@ -37,3 +37,29 @@ window.JH_NFL_PLAYERS = {
 
 // Ajout au registre commun après chargement des effectifs spécifiques.
 Object.assign(window.JH_TEAM_PLAYER_ROSTERS, window.JH_NFL_PLAYERS || {});
+
+
+// NBA — Chicago Bulls : effectif 2026-27 relevé dans les game notes officiels NBA.
+window.JH_NBA_PLAYERS = {
+  "Chicago Bulls": [
+    ["Orlando Robinson","Orlando Robinson",0],
+    ["Noa Essengue","Noa Essengue",2],
+    ["Josh Giddey","Josh Giddey",3],
+    ["Dailyn Swain","Dailyn Swain",5],
+    ["Buddy Hield","Buddy Hield",7],
+    ["Caleb Wilson","Caleb Wilson",8],
+    ["Nic Claxton","Nic Claxton",9],
+    ["Leonard Miller","Leonard Miller",11],
+    ["Zach Collins","Zach Collins",12],
+    ["Matas Buzelis","Matas Buzelis",14],
+    ["Jordan Hawkins","Jordan Hawkins",15],
+    ["Tobe Awaka","Tobe Awaka",19],
+    ["Jaylin Sellers","Jaylin Sellers",22],
+    ["Norman Powell","Norman Powell",24],
+    ["Jalen Smith","Jalen Smith",25],
+    ["Tre Jones","Tre Jones",30],
+    ["Isaac Okoro","Isaac Okoro",35],
+    ["Patrick Williams","Patrick Williams",44]
+  ]
+};
+Object.assign(window.JH_TEAM_PLAYER_ROSTERS, window.JH_NBA_PLAYERS || {});

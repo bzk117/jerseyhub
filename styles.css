@@ -464,7 +464,7 @@ button:disabled{cursor:not-allowed;opacity:.58}
 /* Retour flottant : reste accessible au même endroit pendant tout le défilement. */
 .catalog-area.has-page-back{display:block}
 .catalog-area.has-page-back > :not(.jh-back-rail){grid-column:auto;min-width:0}
-.jh-back-rail{position:fixed;left:10px;top:118px;width:auto;z-index:1000;pointer-events:none}
+.jh-back-rail{position:fixed;left:10px;top:148px;width:auto;z-index:1000;pointer-events:none}
 .jh-back-rail[hidden]{display:none}
 .jh-back-rail .jh-page-back{position:static;display:inline-flex;width:auto;min-width:76px;justify-content:center;margin:0;padding:10px 12px;white-space:nowrap;box-shadow:0 3px 12px rgba(0,0,0,.28);pointer-events:auto}
-@media(max-width:760px){.jh-back-rail{left:7px;top:94px}.jh-back-rail .jh-page-back{min-width:0;padding:9px 9px;font-size:12px}}
+@media(max-width:760px){.jh-back-rail{left:7px;top:116px}.jh-back-rail .jh-page-back{min-width:0;padding:9px 9px;font-size:12px}}

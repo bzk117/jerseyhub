@@ -681,7 +681,19 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const clubSizeControl='<select id="jh-size" required '+(!sizes.length?'disabled':'')+'><option value="">Sélectionnez une taille</option>'+sizeOptions+'</select>';
   const productSportCodes=[p.sport,p.league].filter(Boolean).map(value=>String(value).toUpperCase().replace(/[^A-Z0-9]/g,""));
   const isPreFlocked=productSportCodes.some(value=>["NFL","MLB","NHL","NATIONALFOOTBALLLEAGUE","MAJORLEAGUEBASEBALL","NATIONALHOCKEYLEAGUE"].includes(value));
-  const personalizationAllowed=!isPreFlocked;
+  const isNBA=String(p.league||p.sport||"").toUpperCase()==="NBA";
+  const nbaTitle=String(p.name||"");
+  const nbaIsCustomOrBlank=/\b(custom|customizable|blank|no name|no number)\b/i.test(nbaTitle);
+  const nbaHasPrintedPlayer=isNBA&&!nbaIsCustomOrBlank&&(()=>{
+   if(/#\s*\d{1,2}\b|\b\d{1,2}\s+[A-Z][A-Z'-]{2,}\b/.test(nbaTitle))return true;
+   const teamName=String(p.group||p.team||"").trim();
+   const teamIndex=teamName?nbaTitle.toLowerCase().indexOf(teamName.toLowerCase()):-1;
+   const before=teamIndex>=0?nbaTitle.slice(0,teamIndex).replace(/^(?:Men['’]s|Women['’]s)\s+/i,"").trim():"";
+   const after=teamIndex>=0?nbaTitle.slice(teamIndex+teamName.length).trim():"";
+   const playerName=/^[A-Z][a-zÀ-ÿ'’\-]+\s+[A-Z][a-zÀ-ÿ'’\-]+(?:\s+[A-Z][a-zÀ-ÿ'’\-]+)?(?:\s+#?\d{1,2})?\b/;
+   return playerName.test(before)||playerName.test(after);
+  })();
+  const personalizationAllowed=!isPreFlocked&&!nbaHasPrintedPlayer;
   // Les patchs sont proposés uniquement sur les maillots des équipes nationales.
   // On privilégie les options configurées pour l'équipe/le modèle ; à défaut,
   // on rétablit la bibliothèque visuelle historique des patchs nationaux.
@@ -740,7 +752,6 @@ $("#mobileMenu").onclick=()=>{const menu=$(".main-nav"),open=!menu.classList.con
   const outOfStock=isOutOfStock(p);
   const sizeSummary=sizes.length?'<p class="jh-option-summary" id="jh-size-summary"><b>'+(selectedSizeAudience==="kids"?"Tailles enfants :":"Tailles adultes :")+'</b> '+sizes.map(esc).join(' · ')+'</p>':'<p class="jh-option-summary" id="jh-size-summary">Taille à confirmer auprès du fournisseur.</p>';
   const stockNotice=outOfStock?'<p class="jh-stock-warning">PAS DE STOCK — Cet article ne peut pas être ajouté à la commande pour le moment.</p>':'';
-  const isNBA=p.league==="NBA"||p.sport==="NBA";
   const personalizationOptions=personalizationAllowed?'<option value="Nom et numéro du joueur">Joueur de l’effectif actuel</option>'+(isNBA?'<option value="Nom et numéro d’une légende">Légende / joueur historique</option>':"")+'<option value="Nom et numéro personnalisés">Personnalisation manuelle</option>':"";
   const personalizationNotice=isClub&&!personalizationAllowed?'<p class="jh-player-note">La personnalisation nom/numéro n’est pas encore confirmée pour ce modèle.</p>':"";
   const productMeta=[p.season,p.kitType,p.version].filter(Boolean).map(esc).join(" · ");

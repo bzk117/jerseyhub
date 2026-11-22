@@ -1832,6 +1832,34 @@ window.JH_CLUB_FOOTBALL_PLAYERS = {
     ["Soriba Diaoune","DIAOUNE 35","35"],
     ["Hákon Haraldsson","HARALDSSON 10","10"],
     ["Ethan Mbappé","MBAPPÉ 8","8"]
+  ],
+  "Paris FC": [
+    ["Kevin Trapp","TRAPP 1","1"],
+    ["Obed Nkambadio","NKAMBADIO 16","16"],
+    ["Ibrahim Meïté","MEITE 50","50"],
+    ["Thibault De Smet","DE SMET 28","28"],
+    ["Otávio Ataíde da Silva","OTAVIO 6","6"],
+    ["Nhoa Sangui","SANGUI 19","19"],
+    ["Moustapha Mbow","MBOW 5","5"],
+    ["Yoan Koré","KORE 25","25"],
+    ["Samir Chergui","CHERGUI 31","31"],
+    ["Hamari Traoré","TRAORE 14","14"],
+    ["Diego Coppola","COPPOLA 42","42"],
+    ["Emmanuel Mbemba","MBEMBA 3","3"],
+    ["Vincent Marchetti","MARCHETTI 4","4"],
+    ["Adama Camara","CAMARA 17","17"],
+    ["Pierre Lees-Melou","LEES-MELOU 33","33"],
+    ["Maxime Lopez","LOPEZ 20","20"],
+    ["Ilan Kebbal","KEBBAL 10","10"],
+    ["Rudy Matondo","MATONDO 23","23"],
+    ["Patrick Zabi","ZABI 8","8"],
+    ["Jean-Philippe Krasso","KRASSO 11","11"],
+    ["Omar Sissoko","SISSOKO 18","18"],
+    ["Jonathan Ikoné","IKONE 93","93"],
+    ["Moses Simon","SIMON 27","27"],
+    ["Luca Koleosho","KOLEOSHO 15","15"],
+    ["Lassine Sinayoko","SINAYOKO 9","9"],
+    ["Pablo Pagis","PAGIS 7","7"]
   ]
 };
 

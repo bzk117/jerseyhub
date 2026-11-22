@@ -434,6 +434,16 @@ async function openGroup(kind,name){
  rememberNavigation();
  catalogPageHistory=[];
  currentView=kind;currentGroup=name;
+ if(kind==="sports" && name==="Rugby"){
+  setHeading("RUGBY","Choisis une discipline","Accueil / Autres sports / Rugby");
+  grid.innerHTML="";grid.hidden=false;$("#emptyState").hidden=true;
+  [
+   {name:"Rugby Union",emoji:"🏉",desc:"Rugby à XV"},
+   {name:"Rugby League",emoji:"🏉",desc:"Rugby à XIII"}
+  ].forEach(item=>grid.append(card(item,"sports")));
+  $("#resultCount").textContent="2 disciplines";
+  return;
+ }
  if(kind==="lifestyle"){
   const cat=lifestyleCategories().find(c=>c.name===name);
   if(cat){
